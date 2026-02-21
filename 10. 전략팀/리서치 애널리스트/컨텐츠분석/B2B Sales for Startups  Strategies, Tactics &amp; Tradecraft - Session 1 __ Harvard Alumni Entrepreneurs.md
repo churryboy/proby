@@ -1,0 +1,1830 @@
+## Key insight / summary
+
+- **창업자는 첫 번째 세일즈맨이어야 함**: 제품과 고객에 대한 깊이 있는 이해, 차별적 비전, 그리고 고객이 구매하지 않는 이유를 파악할 수 있는 것은 오직 창업자뿐
+- **B2B 세일즈는 90% 이상이 실패하는 숫자 게임**: "Some will, some won't, so what, next" 마인드셋으로 실패 회피가 아닌 실패 회복에 집중해야 함
+- **세일즈는 거래 성사가 아니라 문제 해결**: 고객의 목표 달성, 문제 해결, 니즈 충족을 도우면 거래는 자연스럽게 따라오는 결과물
+- **전문 세일즈맨 조기 채용은 스타트업 실패의 지름길**: 창업자가 직접 세일즈를 통해 제품-시장 피드백을 얻기 전에는 절대 금물
+- **B2B는 복잡한 문제 해결**: 단순하면 이미 해결되었을 것이고, 혁신적 방법으로 더 나은/빠른/저렴한 해결책 제시가 핵심
+- **기업 세일즈는 항상 무언가를 대체함**: 현재 내부/외부의 누구 또는 무엇을 대체하는지 파악하고 관리하는 것이 중요
+- **의사결정 구조의 복잡성**: 평가자, 결정자, 구매자가 다른 경우가 대부분이며 숨겨진 agenda와 이해관계를 파악해야 함
+- **고객 프로파일의 중요성**: 매일 아침 "오늘 가장 생산적인 시간 사용은?"에 답하기 위한 명확한 타겟 기준 필요
+
+## Key implications for Proby platform
+
+- **창업자 주도 초기 세일즈 전략 수립**: 전문 세일즈 인력 채용보다는 창업자가 직접 타겟 고객(유니콘 리서처, 엔터프라이즈 리서처)과 소통하여 AI 모더레이션에 대한 실제 pain point와 adoption barrier 파악 → 최소 30명 이상 심층 인터뷰 진행
+- **명확한 대체 가치 정의**: "Proby가 무엇을 대체하는가" 명시 - 기존 외부 리서치 에이전시인지, 내부 수동 모더레이션 프로세스인지, 아니면 리서치 자체를 포기하는 상황인지 구체적으로 정의하고 각각에 대한 차별화 전략 수립
+- **복잡한 B2B 구매 프로세스 대응**: 리서치 팀 내에서도 실무진(pain point 경험자), 팀장(예산 결정권자), 경영진(ROI 평가자)이 다를 수 있음 → 각 stakeholder별 맞춤형 가치 제안과 커뮤니케이션 전략 개발
+- **실패 친화적 세일즈 프로세스 설계**: 90% 실패율을 전제로 한 효율적인 고객 disqualification 시스템 구축 → qualified prospect를 찾기보다는 unqualified를 빠르게 걸러내는 프레임워크 개발
+- **숫자 게임을 위한 체계적 접근**: McKinsey 분석에서 제시한 명확한 고객 프로파일(유니콘 → 엔터프라이즈 → 스타트업 순서) 기반으로 daily sales activity 집중 → 각 단계별 목표 접촉 수, 전환율 KPI 설정
+- **문제 해결 중심 포지셔닝 강화**: "AI 아바타 모더레이터"보다는 "국제 리서치의 비용/시간 문제 해결사"로 포지셔닝 → 고객이 Proby 구매가 아닌 본인들의 리서치 목표 달성에 집중하도록 유도
+- **조기 전문가 채용 경고 반영**: 현재 McKinsey 분석에서 언급된 GTM 전략 부재 상황에서 세일즈 전문가 채용은 위험 → 창업자가 직접 최소 10-15개 파일럿 고객과 작업한 후 재검토
+- **세일즈 툴킷 구축**: Kent가 언급한 customer profile과 sales pipeline을 Proby 상황에 맞게 구체화 → "금융 서비스 중 패밀리 오피스, 100M 이상, 보스턴 25마일" 수준의 구체적 타겟 정의 필요
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=OaNi0dntHfU
+
+- [00:00] we're going to get started on time we
+- [00:01] have a really awesome session today
+- [00:04] our guest kent summers uh he's founded
+- [00:06] and successfully exit
+- [00:07] exited three startups over a 16 year
+- [00:10] period
+- [00:11] kent teaches b2b sales for startups
+- [00:14] and iap course at mit and is a visiting
+- [00:18] lecturer at
+- [00:19] harvard business school kent is an
+- [00:21] executive leadership coach
+- [00:22] at the harvard advanced leadership
+- [00:24] initiative ali
+- [00:26] on the teaching faculty of thai boston
+- [00:29] and
+- [00:30] the mastering sales program at kellogg
+- [00:32] northwestern kellogg and he serves on
+- [00:34] the board of sigma labs a nasdaq
+- [00:36] company as well as
+- [00:40] iq3 connect so
+- [00:43] welcome kent to our session uh just some
+- [00:45] housekeeping items
+- [00:47] uh if you have uh really specific
+- [00:49] questions about your business
+- [00:51] uh please try to keep them more general
+- [00:54] uh so that we don't spend a lot of time
+- [00:55] answering your specific questions
+- [00:57] and i'm going to hand it over to kent
+- [00:59] and we'll we'll leave the questions to
+- [01:01] the end but feel free to send them
+- [01:03] by private message to me so that we can
+- [01:05] uh moderate them
+- [01:06] uh kent over to you uh joe thank you
+- [01:10] um hello everyone um i've got you for an
+- [01:14] hour today and i think it out another
+- [01:16] hour
+- [01:16] on thursday it's um very nice to um
+- [01:20] to be with you today um we're gonna
+- [01:23] cover
+- [01:24] a very small select set
+- [01:27] of material from my full lecture series
+- [01:30] here
+- [01:30] i've chosen um some material
+- [01:34] intentionally that i think will
+- [01:37] help help you improve your your sales
+- [01:40] performance and your
+- [01:41] efficiency um i'm i i don't have a lot
+- [01:44] of patience for theory
+- [01:46] um i'm really all about tactics and
+- [01:48] trade craft and
+- [01:50] skills and knowledge so my goal here uh
+- [01:54] today
+- [01:54] and over thursday is that um you walk
+- [01:58] away with a better understanding
+- [02:00] and maybe a a better mindset
+- [02:03] and a few skills that you can apply
+- [02:06] uh to your startup or your scale up to
+- [02:09] help improve
+- [02:10] uh your sales so with that
+- [02:14] um i'll start by sharing some good news
+- [02:17] um is my experience as a founder
+- [02:20] there's only two things you need to
+- [02:21] worry about uh and that's revenue
+- [02:25] and everything else and uh i figured
+- [02:28] that out
+- [02:29] early after i started running out of uh
+- [02:31] runway
+- [02:32] and spending more time are you
+- [02:36] are you sharing your screen can't see
+- [02:37] your screen yes i am
+- [02:39] can you can you see me i can see you but
+- [02:42] not your screen
+- [02:43] um hang on a second here yeah that
+- [02:47] good news i was sharing with you it's
+- [02:50] revenue and everything else
+- [02:53] it turns out if you're unable to get
+- [02:55] revenue flowing
+- [02:58] everything else doesn't matter however
+- [03:01] once you get
+- [03:02] cash in the door um then all the other
+- [03:05] things
+- [03:06] the myriad things that you do as a
+- [03:07] founder all of a sudden seem manageable
+- [03:11] so if you're unable to figure out
+- [03:14] at some point in your startup journey
+- [03:16] how to acquire
+- [03:18] customers cost-effectively game over
+- [03:22] so that's really what i want to help you
+- [03:24] with
+- [03:25] i focus on b2b sales
+- [03:30] i assume uh presume most of you here are
+- [03:33] uh in in the b2b marketplace
+- [03:37] uh which is a completely different
+- [03:39] animal from
+- [03:40] from b to c sales uh what is
+- [03:43] b2b sales uh well it's you
+- [03:46] as a smaller business selling to a
+- [03:48] larger business
+- [03:49] and you are solving um
+- [03:52] necessarily goals problems needs
+- [03:56] that are complex if they weren't complex
+- [03:59] they wouldn't be problems or they would
+- [04:01] probably already be
+- [04:03] solved and it's typically solved by you
+- [04:06] thinking about
+- [04:07] a different uh better faster cheaper way
+- [04:11] um leveraging innovation to solve those
+- [04:14] problems which involves people doing
+- [04:16] something differently
+- [04:19] enterprise sales involves higher priced
+- [04:22] offerings and it's not necessarily
+- [04:24] related
+- [04:25] to your cogs what it takes you to
+- [04:29] build and deliver and service your
+- [04:31] product uh the higher price offerings
+- [04:34] uh more based upon the scale of the
+- [04:38] problem
+- [04:39] that you're solving so for example if
+- [04:42] you're solving a one dollar problem for
+- [04:44] a million people
+- [04:45] it's a million dollar problem that
+- [04:46] you're solving
+- [04:48] enterprise sales almost always involves
+- [04:51] unknowns and
+- [04:52] uncertainties and understanding from a
+- [04:55] sales perspective how to manage those
+- [04:58] is very very important in addition
+- [05:02] um enterprise sales b2b sales almost
+- [05:05] always replaces something or
+- [05:09] someone inside or outside the
+- [05:12] organization
+- [05:13] it's critically important to understand
+- [05:17] who or what or both your solution
+- [05:20] displaces as part of the sales process
+- [05:26] enterprise sales are also
+- [05:30] involved because people are involved
+- [05:33] a lot's hidden agenda in forces
+- [05:37] and so part of the skills as a
+- [05:40] salesperson
+- [05:41] is to have the ability
+- [05:44] and the understanding of asking the
+- [05:46] right questions of people to surface
+- [05:48] those
+- [05:50] agendas and forces so that you can
+- [05:53] manage them
+- [05:54] head-on versus uh deal with them
+- [05:57] um deal with the outcome
+- [06:00] of those um it's very seldom
+- [06:04] than an enterprise sale the same person
+- [06:07] will
+- [06:08] evaluate the offering make the decision
+- [06:11] and write the check
+- [06:12] it's almost always the case that
+- [06:14] enterprise sales
+- [06:16] involves a team purchasing decision
+- [06:19] where the uh those aspects of the sale
+- [06:23] are distributed amongst uh four five six
+- [06:26] people in the organization
+- [06:28] and because of all this b2b sales
+- [06:31] is a much longer expensive sales cycle
+- [06:36] sales is your most expensive
+- [06:39] investment in terms of real cost and in
+- [06:42] terms of
+- [06:43] opportunity costs um
+- [06:46] it's expensive to get right but it's
+- [06:50] very expensive if you get it wrong
+- [06:55] so a little bit about the mindset in
+- [06:57] sales
+- [06:58] um and and this is a really
+- [07:02] important uh part of sales it's not just
+- [07:04] tools it's
+- [07:05] not just skills it's about having a
+- [07:08] proper mindset
+- [07:10] uh which might be a little bit different
+- [07:12] than how you think about
+- [07:14] the sales profession or sales people
+- [07:17] um so contrary to what you uh
+- [07:21] might have understood um sales is not
+- [07:24] about chasing people down to close deals
+- [07:27] it's about helping people achieve a goal
+- [07:31] solve a problem or satisfy a need by
+- [07:34] coincidentally purchasing your product
+- [07:37] or service
+- [07:38] and it turns out that if you're
+- [07:39] successful helping people
+- [07:41] transactions will naturally occur so
+- [07:44] think about
+- [07:44] transactions or sales is an outcome
+- [07:47] measure
+- [07:48] and that your your attitude and your
+- [07:52] behavior
+- [07:53] with people in in your competence
+- [07:56] and helping people solve their problem
+- [07:58] as the leading
+- [07:59] indicators of that outcome measure
+- [08:03] sales is also not about picking winners
+- [08:06] and losers we learned a long time ago
+- [08:11] and working for the past 20 years at mit
+- [08:14] that
+- [08:15] we're not very good at that it's about
+- [08:18] helping people shape and navigate
+- [08:21] and pivot and change in the successful
+- [08:25] companies that leave mit
+- [08:27] bear very little resemblance to what
+- [08:29] they look like
+- [08:31] when we first started working with them
+- [08:33] so if you were to pick
+- [08:34] uh winning customers or customers that
+- [08:36] you think are going to close
+- [08:38] um and those that you do not think
+- [08:41] uh are going to close um you're probably
+- [08:45] wasting
+- [08:46] a lot of your time and you're missing
+- [08:48] out on opportunities so
+- [08:50] just like startups sales are not about
+- [08:52] picking winners and losers
+- [08:54] it's about feeding a process where
+- [08:58] at the end of the day there's only two
+- [09:00] things that you control as a founder
+- [09:02] your attitude and your behavior so i'm
+- [09:04] going to be these are sort of
+- [09:06] overriding themes that i'm going to be
+- [09:08] talking about
+- [09:10] over the course of the next hour is you
+- [09:13] know
+- [09:13] how do you how do you modify how do you
+- [09:15] control
+- [09:16] um your attitude and your behaviors and
+- [09:20] use them wisely
+- [09:21] to improve your sales performance and it
+- [09:24] turns out
+- [09:25] that sales
+- [09:29] people are not born with a sales gene
+- [09:32] it's not something that you learn in
+- [09:35] school
+- [09:36] it's something that you learn through
+- [09:38] practice in in repetition just like
+- [09:40] anything else
+- [09:41] and most technical founders can be very
+- [09:43] very good at sales and of course the
+- [09:45] ones that survive
+- [09:46] always figure it out
+- [09:50] the sales role itself is the business
+- [09:53] profession closest to a full contact
+- [09:55] sport
+- [09:56] and like an athlete they require
+- [09:59] talent coaching team play and great
+- [10:03] execution skills uh the sales profession
+- [10:07] is also a numbers game with a very
+- [10:10] unattractive win-loss ratio
+- [10:14] enterprise sales is a 90
+- [10:17] percent plus failure driven activity
+- [10:21] um i'd like to share with you is a
+- [10:24] failure driven
+- [10:26] activity everybody at mit has their own
+- [10:30] formulas and algorithms and so of course
+- [10:32] i had to come up with
+- [10:34] one on my own here for sales i call it
+- [10:37] sw cubed over n
+- [10:39] you know for sales people in a failure
+- [10:41] driven profession
+- [10:42] this stands for some will some won't so
+- [10:45] what
+- [10:46] next there's your attitude
+- [10:49] for selling into a failure driven
+- [10:51] profession
+- [10:53] let me share with you that if you only
+- [10:56] fail
+- [10:56] 10 in the in sales you
+- [11:00] will be an extremely um
+- [11:03] successful entrepreneur and you will be
+- [11:06] the exception
+- [11:08] the reality is in sales um
+- [11:11] that the failure rate is closer to 97 or
+- [11:14] 98
+- [11:16] um a lot of sales books will tell you
+- [11:18] and you've probably heard
+- [11:19] before if you've read any of them that
+- [11:21] sales is always about qualifying
+- [11:23] customers always be qualifying
+- [11:27] um i i disagree with that um
+- [11:30] strongly i believe that qualified
+- [11:32] customers are really really easy to spot
+- [11:35] i think that effective sales is about
+- [11:37] disqualifying people with the appearance
+- [11:39] of real
+- [11:41] and helping people to opt in and opt out
+- [11:43] of your process by asking questions not
+- [11:45] by making statements
+- [11:48] so failure uh is the name of the game
+- [11:50] it's not about failure avoidance
+- [11:52] it's about failure recovery and
+- [11:56] in the sales profession unlike a
+- [11:58] professional
+- [12:00] baseball coach you can you can lose 90
+- [12:02] percent of your
+- [12:03] your games and still keep your job
+- [12:08] the founder is always the first
+- [12:11] salesperson
+- [12:12] why well you have intimate knowledge of
+- [12:15] the offering the customer the need the
+- [12:18] problem
+- [12:20] uh you also uh and and of course the
+- [12:23] value that you're
+- [12:24] uh delivering people you also have this
+- [12:27] skewed view
+- [12:28] of the world right you have a different
+- [12:30] way of of looking at things
+- [12:33] uh this distorted uh view of reality
+- [12:37] it helps you overcome this is your
+- [12:39] vision here this is
+- [12:41] this is why you founded your company
+- [12:44] um and importantly you as a founder
+- [12:49] need to understand firsthand all the
+- [12:51] blocking issues that prevent customers
+- [12:54] from writing you a check
+- [12:55] right all this early product market
+- [12:58] feedback
+- [12:59] this is really essential especially as
+- [13:01] you transition
+- [13:02] from a sort of a vision whiteboard
+- [13:06] view of things through your product
+- [13:08] market fit
+- [13:09] where you start to influence your
+- [13:12] product roadmap
+- [13:14] more so from trends and patterns that
+- [13:17] you see
+- [13:18] from talking with many many different
+- [13:20] customers
+- [13:21] and it's these feature requests and
+- [13:23] rejections
+- [13:25] here that that give you that afford you
+- [13:27] that that precious fuel
+- [13:29] for your your product roadmap now in
+- [13:33] case
+- [13:34] um uh some or many of you have not
+- [13:38] already experienced this already
+- [13:40] um one of the things that um i've uh
+- [13:44] that's become clear to me uh over the
+- [13:47] past 20 years working with founders
+- [13:50] is that if you really want your your
+- [13:52] company to fail
+- [13:53] go out and hire a professional
+- [13:55] salesperson
+- [13:56] we see this time and time again where
+- [14:00] startups fail when the founder believes
+- [14:02] that bringing in a salesperson will
+- [14:04] solve
+- [14:05] the sales dilemma to the contrary this
+- [14:09] is usually an accelerant to failure
+- [14:11] and it becomes a very expensive
+- [14:15] learning uh exercise for for the founder
+- [14:18] and
+- [14:18] very very rarely works out
+- [14:22] so um in my my normal um
+- [14:25] lecture material i have a whole bunch of
+- [14:28] material at this point where i talk
+- [14:30] about
+- [14:30] the successful personality
+- [14:34] and skill traits of a salesperson what
+- [14:37] makes them
+- [14:38] tick what makes them successful
+- [14:42] again i had to really limit what what i
+- [14:45] covered with you in a short time period
+- [14:47] today so i thought
+- [14:48] what might be more impactful is that we
+- [14:50] just
+- [14:51] jump straight into uh the scale uh
+- [14:54] sales toolkit and mechanics
+- [14:58] so with that um is a
+- [15:01] failure driven profession in a numbers
+- [15:04] game
+- [15:04] it's really uh about prospecting
+- [15:08] right and when you're playing a numbers
+- [15:10] game
+- [15:11] you have to have a tools you have to
+- [15:13] have a game plan you have to have
+- [15:14] tools and a methodology which are
+- [15:18] essential for your focus in your
+- [15:21] efficiency and answering the question
+- [15:24] that you have
+- [15:25] every morning when you wake up when
+- [15:27] you're looking at
+- [15:29] many more opportunities than you have
+- [15:31] time to address
+- [15:32] and that is what's the most productive
+- [15:34] use of my time today
+- [15:37] so there's two tools that
+- [15:40] can help you with the first is the
+- [15:42] customer profile
+- [15:43] and this is the criteria very specific
+- [15:46] criteria
+- [15:48] that you rely on to focus
+- [15:51] your daily sales activity and then
+- [15:54] secondly
+- [15:55] once you figure that out uh your sales
+- [15:58] pipeline
+- [15:59] also called your funnel and this is your
+- [16:01] methodology
+- [16:03] that you use to drive focus and
+- [16:06] efficiency
+- [16:07] this is a time management tool for you
+- [16:11] so let's start with the profile um
+- [16:14] the profile is what you rely on to focus
+- [16:18] your sales activity
+- [16:19] it consists of three components
+- [16:23] at the outside ring here is your company
+- [16:26] profile this is your target customer
+- [16:29] and they exist within a specific
+- [16:32] industry a type of company within that
+- [16:35] industry
+- [16:37] size and geography so for example
+- [16:40] i'm targeting financial services company
+- [16:43] of type
+- [16:44] family offices with over 100 million
+- [16:47] under management within 25 miles of
+- [16:49] boston
+- [16:50] it would be a very good example of a
+- [16:53] well-defined
+- [16:54] company profile the company profile
+- [16:58] if it's well defined one of the acid
+- [17:00] tests there is you should be able to get
+- [17:02] companies addresses from this if you
+- [17:05] have a good
+- [17:06] profile you should be able to with a
+- [17:08] good search
+- [17:10] um come up with a long list of companies
+- [17:13] uh in their specific sp street
+- [17:16] address that needs that
+- [17:20] inside the company profile is the buyer
+- [17:22] profile
+- [17:23] this is the person inside that company
+- [17:27] that stands
+- [17:28] to gain the most or lose the most
+- [17:31] from your offering so the buyer profile
+- [17:35] is determined by a job title
+- [17:38] or role with resp specific
+- [17:41] responsibilities
+- [17:43] and unmet needs often expressed in the
+- [17:46] form
+- [17:47] of a of a use case so in the
+- [17:50] prior example here this would be
+- [17:53] a a research analyst who's responsible
+- [17:56] for
+- [17:57] vetting investment opportunities
+- [18:00] and is using very old outdated
+- [18:04] inefficient and error-prone research
+- [18:06] methods
+- [18:10] and then lastly uh at the center of your
+- [18:13] profile
+- [18:14] is the decision-making unit and this is
+- [18:17] the
+- [18:17] the folks inside that organization that
+- [18:20] make decisions they influence the
+- [18:22] decisions
+- [18:23] and they have access to a checkbook and
+- [18:25] it's very different in every
+- [18:26] organization depending
+- [18:28] upon the people their culture
+- [18:31] etc and especially in in much larger
+- [18:35] companies so these are the three
+- [18:37] components of a
+- [18:38] customer profile and it's really really
+- [18:41] important
+- [18:42] that as you go and figure this out this
+- [18:45] is not just something that comes out of
+- [18:47] your business plan
+- [18:48] this is something that you learn and
+- [18:50] fine-tune after talking with
+- [18:53] 100 or 200 prospects and you eventually
+- [18:56] get it down to where it's
+- [18:57] fairly chiseled down and i recommend if
+- [19:00] you go through this process
+- [19:02] if you do have a co-founder or other
+- [19:04] people on your team to engage
+- [19:06] everybody on your team while figuring
+- [19:08] this out
+- [19:12] some recommendations uh in terms of
+- [19:14] questions
+- [19:15] that you ask people in figuring this out
+- [19:19] that have helped me in the past
+- [19:23] gather facts not opinions um a lot of
+- [19:26] people fail
+- [19:27] in their in their custer customer
+- [19:29] profile development by asking people
+- [19:31] if they would do something if or would
+- [19:34] they
+- [19:35] do something if and people love to share
+- [19:38] their opinions and theory and so forth
+- [19:40] but that's not helpful
+- [19:42] um i recommend that you gather facts
+- [19:45] uh against what you're selling into
+- [19:48] don't ask people would you do something
+- [19:51] but ask them
+- [19:52] do you do something so facts not
+- [19:55] opinions
+- [19:56] and facts related to pain and cost
+- [19:59] not theoretical or implied gains
+- [20:03] right which is very difficult to measure
+- [20:07] so figure out where the pain and the
+- [20:09] cost is related to those facts
+- [20:11] and facts pain and cost related to a
+- [20:15] single use case
+- [20:16] right now of course early on pursuing
+- [20:20] multiple scenarios
+- [20:22] is necessary as you're sort of figuring
+- [20:24] out your product
+- [20:25] market fit but many founders if you ask
+- [20:28] them
+- [20:29] well who your customer is they may give
+- [20:31] you two or three
+- [20:32] or four different use case scenarios
+- [20:35] i strongly recommend focusing on on one
+- [20:39] um because trying to chase down three or
+- [20:41] four in parallel can be hugely dilutive
+- [20:45] uh to your to your focus
+- [20:49] and at the end of the day there's only
+- [20:51] one validate
+- [20:53] validation of a customer profile and
+- [20:55] that is you
+- [20:56] receive purchase orders from different
+- [21:00] companies
+- [21:01] to solve a similar problem so different
+- [21:04] companies
+- [21:05] solve a similar problem and by the way
+- [21:08] this is
+- [21:08] actually from an investor perspective
+- [21:11] the bona fide
+- [21:12] definition of mvp right you do not
+- [21:16] have mvp if you do not have
+- [21:19] three or four or six companies that are
+- [21:21] different where you're solving a similar
+- [21:23] problem so this is your
+- [21:27] um your customer profile once you
+- [21:31] um once you figure out and fine-tune
+- [21:34] your customer profile
+- [21:36] now you've got basically the framework
+- [21:38] from which you can go out and you can
+- [21:40] procure
+- [21:41] leads which are the raw material
+- [21:44] of sales so i'm going to talk about
+- [21:48] the pipeline process now from from lead
+- [21:50] to close
+- [21:51] where those leads come from how they're
+- [21:54] managed throughout the sales process
+- [21:58] and how you think about the sales
+- [22:00] process
+- [22:01] um you know from uh from a stage to
+- [22:04] stage
+- [22:04] perspective
+- [22:08] so sales pipeline here also called a
+- [22:11] funnel
+- [22:12] it looks like a funnel you've got leads
+- [22:14] coming in
+- [22:15] the top to suspects
+- [22:18] prospects opportunities and customers
+- [22:21] suspects are where you um you take
+- [22:25] leads and you filter them to meet your
+- [22:28] specific
+- [22:29] customer profile criteria not all leads
+- [22:32] are going to meet that criteria
+- [22:34] you need to winnow out the ones that
+- [22:37] don't meet that specific criteria
+- [22:39] the tighter the criteria the better
+- [22:44] moving on prospects are
+- [22:48] suspects who you've contacted and
+- [22:51] confirmed that the buyer profile
+- [22:54] exists within that customer profile
+- [22:58] and of the few
+- [23:01] prospects that you talk to that meet
+- [23:04] that profile
+- [23:06] that also express genuine interest
+- [23:09] and that the problem that you're solving
+- [23:12] is a priority
+- [23:13] they become opportunities that you
+- [23:16] these are folks that are actively
+- [23:18] engaged in your
+- [23:19] sales process where you're developing
+- [23:21] and closing them
+- [23:24] the length of time it takes you to do
+- [23:25] this is your sales cycle
+- [23:29] and there's these things that occur
+- [23:32] between these stages called
+- [23:33] conversion metrics um i'll explain in
+- [23:36] just a minute why they're
+- [23:37] they're very important to you they help
+- [23:39] you in sales
+- [23:41] uh and there's two things that occur as
+- [23:43] part of the sales process that actually
+- [23:45] shape this into a funnel
+- [23:47] there's triage in attrition
+- [23:50] triage is uh you moving people out of
+- [23:53] the final
+- [23:54] because you don't believe they're
+- [23:55] qualified to take your time and
+- [23:57] attrition is
+- [23:58] people leaving your life kicking you out
+- [24:00] of their funnel
+- [24:02] because they don't believe you're
+- [24:03] qualified to take their time
+- [24:07] after you've figured out your customer
+- [24:09] uh profile
+- [24:10] with your team this is not uh
+- [24:14] the top end of your funnel uh the
+- [24:16] suspects and prospects is
+- [24:18] not where you want to engage your team
+- [24:20] they they're very
+- [24:21] barely qualified to take your time let
+- [24:24] alone people on your team's time
+- [24:26] so this is your job as a founder as a
+- [24:29] salesperson is to move people
+- [24:31] through the suspect prospect conversion
+- [24:35] conversely when they make it to
+- [24:37] opportunities
+- [24:38] the opposite is true this is exactly
+- [24:41] where
+- [24:42] you need to invest your team's time
+- [24:46] and exposure to the customer for lots of
+- [24:48] reasons that'll explain
+- [24:50] um later on today uh and that is
+- [24:54] expanding beyond the one-on-one
+- [24:56] conversation
+- [24:57] getting getting away from having a
+- [25:00] conversation with a single person
+- [25:03] uh a prospective customer and
+- [25:06] successful successful sales is rather
+- [25:09] your ability to connect people on your
+- [25:13] team
+- [25:13] with people on the buyer's team and the
+- [25:15] better you get it that the more likely
+- [25:18] you will be having a paying customer
+- [25:23] now in a mature company each one
+- [25:26] of these stages is actually a formal
+- [25:30] highly specialized business discipline
+- [25:33] so for example you'll have marketing
+- [25:35] people who are responsible
+- [25:37] for not only building awareness but also
+- [25:40] generating leads and when they generate
+- [25:42] leads
+- [25:43] which meet the company profile they hand
+- [25:46] those over
+- [25:47] to inside sales people also
+- [25:50] called sales development representatives
+- [25:53] or sdrs
+- [25:54] and um sdrs they get you know this is
+- [25:57] your
+- [25:58] a right of passage as a salesperson as a
+- [26:00] young sales person you get on the phone
+- [26:03] and you just start ambushing people on
+- [26:06] the phone and cold calling them
+- [26:08] and you know most of your life you're
+- [26:10] getting your teeth kicked in but every
+- [26:11] once in a while
+- [26:12] you'll you'll get somebody where uh it
+- [26:15] resonates and when you find somebody
+- [26:17] that meets your qualification criteria
+- [26:20] the sdr hands that that person off to
+- [26:22] field sales
+- [26:24] who has a much better well-developed set
+- [26:27] of skills
+- [26:28] to um develop that opportunity and close
+- [26:31] that opportunity
+- [26:33] and of course field sales cannot be
+- [26:35] burdened by on
+- [26:36] ongoing customer retention and
+- [26:39] satisfaction
+- [26:41] so as soon as practical they transition
+- [26:44] the primary relationship in that account
+- [26:47] over to an account manager
+- [26:49] and uh the field salesperson is the
+- [26:51] hunter and the account manager is the
+- [26:53] farmer
+- [26:54] completely different sales sales
+- [26:57] uh skill sets and personalities um
+- [27:01] the field sales person is about nuke new
+- [27:04] account acquisition
+- [27:06] where the farmer the account manager
+- [27:08] their job is to maximize the yield
+- [27:11] within the account now
+- [27:14] for um for founders uh fortunately this
+- [27:18] is a lot more simple
+- [27:20] for you you don't have to think about
+- [27:22] all these roles you get to do them all
+- [27:23] yourself
+- [27:25] uh but i think it's important to
+- [27:27] understand here that behind the scenes
+- [27:29] here
+- [27:30] uh of all these things that you need to
+- [27:33] do as a founder as a small team
+- [27:36] this is how you eventually scale your go
+- [27:39] to market team
+- [27:40] into separate distinct professional
+- [27:44] skill sets and roles well the sales
+- [27:48] pipeline defines the sequential
+- [27:51] named steps of your sales process
+- [27:54] that help you organize and
+- [27:58] focus your time and also balance your
+- [28:00] sales activity and i'll i'm gonna
+- [28:03] i'm gonna double back on that balance
+- [28:05] here in a moment
+- [28:06] because uh it's a very important uh part
+- [28:10] of a successful
+- [28:12] sales skill set suspects
+- [28:16] are filtered leads that meet your
+- [28:18] company profile
+- [28:20] also called mqls are marketing qualified
+- [28:24] leads
+- [28:25] prospects are uh initial contact
+- [28:29] with that customer verifies that the
+- [28:32] buyer profile
+- [28:33] and the buyer interest exists this is
+- [28:35] also called sales qualified leads or
+- [28:38] sqls opportunities
+- [28:41] are in your pipeline these are qualified
+- [28:45] prospects that are actively engaged in
+- [28:47] your sales process
+- [28:49] where you are developing the decision
+- [28:53] making unit and of course we all know
+- [28:55] what customers are these are the
+- [28:58] conversion metrics i was
+- [29:00] talking about before generally speaking
+- [29:03] these are good rule of thumb metrics
+- [29:06] here in other words
+- [29:07] uh one out of ten suspect becomes a
+- [29:10] prospect
+- [29:12] um and one in you know one and a half
+- [29:16] uh prospect becomes an opportunity
+- [29:19] or well maybe uh
+- [29:24] 15 of the time and about a third of the
+- [29:28] time
+- [29:29] you should close an opportunity as a
+- [29:31] customer
+- [29:32] the point here is they increase they
+- [29:34] should intentionally increase
+- [29:37] increase left to right right
+- [29:40] um if they are not increasing left to
+- [29:43] right
+- [29:44] significantly um the criteria
+- [29:48] that you're employing to
+- [29:52] allow people to take up your valuable
+- [29:54] time
+- [29:55] is uh not well defined enough it's too
+- [29:58] broad
+- [29:58] and you need to tighten down your uh
+- [30:01] your your criteria
+- [30:03] um so this will help you debug your
+- [30:06] sales process um
+- [30:08] and conversion metrics are also uh
+- [30:11] one of the few if any
+- [30:16] objective metrics uh for sales
+- [30:19] forecasting and i'll uh i'll cover that
+- [30:22] in just a moment
+- [30:24] so a lot of people tend to get um
+- [30:27] there's a little confusion
+- [30:28] um between mqls and sqls and sales
+- [30:32] in interaction between sales and
+- [30:34] marketing
+- [30:35] so i think about it like how would
+- [30:37] somebody how would i want somebody to
+- [30:38] explain the difference between these
+- [30:40] things to somebody like me
+- [30:42] right and the answer here is um mqls
+- [30:46] they want to know
+- [30:47] what kind of cookies you have and sqls
+- [30:50] you verified that they have a ten dollar
+- [30:52] budget and they're deciding between thin
+- [30:54] mints and oreos
+- [30:56] so that's the difference between mqls
+- [30:58] and sqls
+- [31:01] the law sales starts with the lead
+- [31:05] um and in b2c sales by contrast the
+- [31:07] websites do all the heavy lifting where
+- [31:09] the salesperson supports that
+- [31:12] and in b2b sales it's
+- [31:15] exactly the opposite um
+- [31:18] the the the the b2b
+- [31:22] salesperson does all the heavy lifting
+- [31:24] and the website is just to support
+- [31:27] um websites never close deals
+- [31:30] in b2b sales but they're really really
+- [31:33] good at preventing them from happening
+- [31:35] and i can't tell you how many times
+- [31:39] that i've seen early stage entrepreneurs
+- [31:42] over build their website and talk
+- [31:46] about um
+- [31:49] their solution in excruciating detail to
+- [31:52] whereas people
+- [31:52] visit um and they there's so much
+- [31:56] information there
+- [31:57] um they're overwhelmed and they don't
+- [31:58] really walk away with a clear
+- [32:00] understanding of what you do
+- [32:02] or worse um they're they overemphasize
+- [32:05] the tool and the capabilities and the
+- [32:07] features and
+- [32:08] they forget about the the why and the
+- [32:11] problem and the outcome measures
+- [32:14] um there's lots of reasons why websites
+- [32:17] um are good at preventing b2b sales
+- [32:21] so a couple of things to keep in mind
+- [32:23] here you know
+- [32:26] diminishing return on people's
+- [32:29] attention in sales occurs very early
+- [32:32] so you've got basically 30 seconds to
+- [32:35] make it really really clear to people
+- [32:37] what you sell and how it fits into their
+- [32:39] world
+- [32:40] speak to their world and just make them
+- [32:42] curious to learn more
+- [32:44] don't go over engineer the website with
+- [32:47] more information because you're never
+- [32:49] ever going to have a chance to talk to
+- [32:51] them if you provide too much information
+- [32:53] on the website
+- [32:55] right so it's about your clarity of
+- [32:57] thinking here right
+- [32:59] uh more concepts illustration very very
+- [33:02] crisp
+- [33:03] uh messaging right um
+- [33:06] and think about your customer right
+- [33:09] think about their
+- [33:10] world who who are they right is it
+- [33:12] really really clear
+- [33:14] from your messaging um that
+- [33:17] the person visiting your website is
+- [33:20] exactly the type of person that you're
+- [33:21] serving here
+- [33:22] and show this person within 10 seconds
+- [33:25] how it directly benefits them
+- [33:28] right uh and it's benefits
+- [33:31] supported by features and capabilities
+- [33:33] not
+- [33:34] the reverse so your goal here
+- [33:37] is within two or three or maybe five
+- [33:40] minutes on the website
+- [33:41] is to create somebody who is going to
+- [33:44] champion
+- [33:45] you to bring you back to the
+- [33:47] organization in the context
+- [33:49] of an initiative or a project that's
+- [33:51] relevant to your offering here
+- [33:53] and say hey this is one of the things we
+- [33:56] need to look at here
+- [33:57] help them sell that story but make them
+- [34:01] come back to you for detail
+- [34:05] the leads of the raw material of sales
+- [34:07] uh there's
+- [34:08] uh fundamentally there's two methods
+- [34:11] there's outbound leads
+- [34:12] and these are um outreach programs
+- [34:17] uh two targeted company profiles groups
+- [34:20] of prospects to solicit their interest
+- [34:23] right there's lots of different very
+- [34:26] traditional ways
+- [34:27] of doing this and with the advent of the
+- [34:30] internet
+- [34:30] and especially the development of lots
+- [34:33] more advanced
+- [34:34] sales and marketing tools especially
+- [34:37] over the last 10 years
+- [34:40] there's actually a much more efficient
+- [34:42] method
+- [34:43] of gathering leads called inbound where
+- [34:47] search engine optimization and
+- [34:49] pay-per-click are how you
+- [34:51] acquire new leads they're fundamentally
+- [34:54] different approaches
+- [34:57] outbound the the prospective
+- [35:00] seller initiates the contract uh the
+- [35:03] contact with the buyer and
+- [35:05] uh in um in inbound seo and ppc
+- [35:10] uh the reverse is true the buyer thinks
+- [35:12] they reap they find you they reach out
+- [35:14] to you they contact you
+- [35:17] um because of this people's
+- [35:20] needs attention and priorities is
+- [35:22] established
+- [35:24] in inbound lead generation where it is
+- [35:27] not established and outbound
+- [35:30] so what kind of skills do you need
+- [35:32] depending upon
+- [35:34] how you're generating leads you have to
+- [35:36] be very good at direct marketing
+- [35:39] uh if you're relying on outbound for
+- [35:42] primarily for your lead generation
+- [35:45] if you're relying on
+- [35:48] seo and ppc has to be your skills for
+- [35:52] inbound you have to learn about
+- [35:54] search engine optimization and keyword
+- [35:56] density and metadata
+- [35:58] and all the campaigns and obscurities of
+- [36:01] figuring out the big
+- [36:03] black box of google and how they run
+- [36:06] their
+- [36:06] algorithms and and all the all the
+- [36:10] um the tricks in in
+- [36:13] with getting better at driving people to
+- [36:15] your website without spending more money
+- [36:18] and at the end of the day it does come
+- [36:19] down to money your sales economics
+- [36:21] and that's why um i'm a big fan of
+- [36:24] inbound is because
+- [36:26] inbound lead gen once you figure it out
+- [36:29] and it will
+- [36:30] require quite a bit of the
+- [36:31] experimentation but once you figure it
+- [36:33] out
+- [36:34] the cost to um continue
+- [36:37] and grow your company and grow your
+- [36:39] revenues
+- [36:40] the cost of seo and ppc does not
+- [36:44] grow proportionate to your revenue right
+- [36:47] it tends to flatten off
+- [36:49] in which case your cost of sales goes
+- [36:51] down over time wherein
+- [36:53] outbound direct marketing the um
+- [36:56] the cost of sales tends to be fairly
+- [36:59] proportionate to your to your revenue
+- [37:02] is a percentage
+- [37:05] so um these are the big uh
+- [37:09] difference here between the two in terms
+- [37:11] of who initiates the contact
+- [37:13] and whether people's needs and
+- [37:15] priorities are established
+- [37:21] outbound uh email campaigns etc
+- [37:24] um the the big thing today is to
+- [37:27] outsource
+- [37:28] your your sdr functions there's actually
+- [37:31] quite a few organizations now
+- [37:33] in the us uh that will perform this
+- [37:37] sdr function for you as a virtual sdr
+- [37:41] function if you are going to bring it
+- [37:43] in-house
+- [37:45] you know their job is to find qualified
+- [37:48] prospects
+- [37:49] and to have meetings with those people
+- [37:53] with your sales people and to have those
+- [37:56] meetings convert into paying customers
+- [37:59] just a rule of thumb
+- [38:00] here on compensating sdrs in-house
+- [38:04] is um you um
+- [38:08] you you compensate sdrs for both
+- [38:10] meetings
+- [38:11] but you also compensate them for
+- [38:13] conversions and a 1 to 10 ratio
+- [38:17] so if you're paying an sdr 25 dollars
+- [38:19] every time they get a meeting with your
+- [38:21] sales rep they get 250
+- [38:24] every time one of those converts to a
+- [38:26] paying customer
+- [38:30] inbound seo and pay-per-click uh
+- [38:33] it requires a significant upfront
+- [38:36] investment
+- [38:36] in my experience and a lot of ongoing
+- [38:40] experimentation to figure out how you
+- [38:42] can optimize your spend here
+- [38:44] if you have a unique
+- [38:48] highly innovative offering and i run
+- [38:50] into these all the time at mit
+- [38:52] uh it's really important that you
+- [38:54] optimize your website
+- [38:56] and your seo and ppc spend
+- [39:00] around the problem you solve not your
+- [39:02] solution
+- [39:03] people don't know what your solution is
+- [39:06] but they're searching on their problem
+- [39:08] so you have to think about it a little
+- [39:09] bit differently if
+- [39:11] you have a highly innovative offering
+- [39:13] and these are
+- [39:15] dramatically different approaches
+- [39:17] inbound and outbound
+- [39:19] right especially in terms of the buyer
+- [39:21] seller dynamics
+- [39:22] they're both expensive but the
+- [39:25] opportunity cost is more expensive you
+- [39:27] just have to get in there
+- [39:29] a lot of companies experiment with both
+- [39:32] the more successful companies that i've
+- [39:33] worked with
+- [39:34] and developed over the years eventually
+- [39:36] become centered on
+- [39:37] seo and ppc uh just because of
+- [39:41] the the sales economics
+- [39:45] so a couple of basic rules for customer
+- [39:49] prospecting
+- [39:51] um keep your your communication brief
+- [39:54] and to the point
+- [39:55] in sales as i mentioned before um
+- [39:58] diminishing returns on people
+- [40:00] attention occurs very uh quickly in
+- [40:02] sales
+- [40:03] so be very very brief and to the point
+- [40:06] and keep your interaction your
+- [40:08] interaction with people
+- [40:10] in sales narrow and well-defined right
+- [40:13] um a big mistake i see
+- [40:16] a lot of people make is a founder will
+- [40:19] get
+- [40:21] somebody that shows good interest and
+- [40:23] meets all their
+- [40:24] buying criteria on the phone and just
+- [40:26] wears them out
+- [40:27] over the course of an hour an hour and a
+- [40:29] half covering every
+- [40:30] one every aspect of their business right
+- [40:34] try to resist the temptation of stuffing
+- [40:38] multiple steps of your sales process
+- [40:40] into a single interaction
+- [40:42] lead room for relationship building very
+- [40:45] important
+- [40:47] also another common mistake you get an
+- [40:50] email from somebody that you don't know
+- [40:53] asking you to solve their problem and
+- [40:55] it's exactly the type of problem that
+- [40:57] you solve
+- [40:58] do you send them an email um solving
+- [41:00] their problem
+- [41:01] or show telling them how you would solve
+- [41:04] their problem
+- [41:05] why is that a lose-lose proposition well
+- [41:08] lots of reasons
+- [41:10] one is it turns out that despite
+- [41:14] years of english class in writing
+- [41:18] through grade school and college not too
+- [41:20] many people
+- [41:21] are great at communicating uh and
+- [41:24] writing
+- [41:24] especially or people are in hurry and
+- [41:27] they give you half the story
+- [41:29] or worse they give you the whole story
+- [41:31] and you solve it and they have no reason
+- [41:33] to contact you right you miss the
+- [41:36] opportunity for the person-to-person
+- [41:38] interaction so my recommendation
+- [41:42] is whenever you get an email and i don't
+- [41:44] care what they're asking for
+- [41:46] if it's remotely related to sales send
+- [41:49] the same response
+- [41:51] hey you know what this sounds like
+- [41:52] something we can help you with
+- [41:55] please send me days times you're
+- [41:56] available give them your time zone
+- [41:59] and you will confirm a phone call to
+- [42:01] discuss
+- [42:03] if it's a legitimate interest in your
+- [42:05] company
+- [42:06] a legitimate prospective buyer 90
+- [42:10] of the time you'll get people to respond
+- [42:12] back to you affirmatively
+- [42:14] with days and times in the following
+- [42:16] week this works very very well
+- [42:19] right so don't try to don't try to sell
+- [42:23] over email get people on zoom get people
+- [42:27] on the phone
+- [42:30] people have different preferences for
+- [42:31] that by the way
+- [42:33] try to understand early on what their
+- [42:35] preference is
+- [42:36] and if you have trouble reaching people
+- [42:39] try a little bit
+- [42:40] inside and outside of ordinary hours
+- [42:43] right um or five minutes before the hour
+- [42:47] people tend to be hanging around their
+- [42:48] phones if they're playing to make a call
+- [42:51] obviously you're not going to be selling
+- [42:53] something to people in five minutes but
+- [42:54] you can't get on their calendar
+- [42:58] this is a pet peeve of mine as a founder
+- [43:00] um
+- [43:01] especially important when you're small
+- [43:03] companies use the word
+- [43:04] we instead of i it's very subtle
+- [43:07] but it's a very powerful word you want
+- [43:10] people you want to give people the
+- [43:12] perception they're working with a
+- [43:13] company
+- [43:14] not an individual so it's very important
+- [43:18] that you appear
+- [43:19] bigger and more professional than you
+- [43:21] actually are
+- [43:22] and by using the term we you can
+- [43:25] actually
+- [43:26] accomplish that when you're prospecting
+- [43:30] it's very important to be sensitive to
+- [43:33] other people's
+- [43:34] time and pressures on the job
+- [43:38] sales a lot of sales is about ambushing
+- [43:41] people's calendars
+- [43:42] and getting on people's calendars where
+- [43:44] it's unplanned
+- [43:46] and you have to be very mindful and very
+- [43:48] gracious
+- [43:49] about getting on people's calendars
+- [43:51] thanking them
+- [43:52] and just saying hey listen we just need
+- [43:55] 20 minutes or 15 minutes or whatever but
+- [43:57] it's about getting people
+- [43:59] on their calendars and respecting the
+- [44:01] fact that they're busy and they're
+- [44:03] they have lots of different priorities
+- [44:05] and making sure that when you do show up
+- [44:07] on their calendar and when you do have
+- [44:09] an
+- [44:09] interaction with them that you add value
+- [44:12] with every
+- [44:13] interaction right take those phone calls
+- [44:16] to ask good questions but
+- [44:18] offer people help offer them guidance
+- [44:20] offer them insight
+- [44:22] right if you provide value
+- [44:25] in these conversations people are going
+- [44:27] to want to talk to you
+- [44:29] right they're not going to talk to you
+- [44:31] out of obligation
+- [44:33] they're not going to talk to you out of
+- [44:34] courtesy they're going to talk to you
+- [44:36] because you've been helpful
+- [44:40] um and it's important to be serious
+- [44:43] about your business it's important to be
+- [44:45] serious about your product just don't
+- [44:47] take yourself too seriously
+- [44:49] in sales right um sales can be anxious
+- [44:53] enough right try to keep your manner
+- [44:56] your tone
+- [44:57] light um i call this the behavioral
+- [45:00] equivalent of office casual dress code
+- [45:03] right um you know
+- [45:06] be a little bit more relaxed i think
+- [45:08] helps other people
+- [45:10] uh become relaxed and you can be very
+- [45:13] formal and professional
+- [45:15] about your knowledge and your competence
+- [45:17] and the information
+- [45:18] you share to help people but you don't
+- [45:19] have to be so formal
+- [45:21] in terms of your manner in your in your
+- [45:24] tone
+- [45:25] and always afford people and out and see
+- [45:28] if they take it
+- [45:29] i'm a big fan of this i think
+- [45:32] on thursday we're going to be talking a
+- [45:35] lot about
+- [45:37] some very specific skills um
+- [45:40] what i call off ramps to help people
+- [45:42] opt-in or opt out of your sales process
+- [45:46] to actually solicit clear buying
+- [45:49] installing signals that are
+- [45:51] actionable by you because
+- [45:54] otherwise people may have their own
+- [45:56] agenda and not
+- [45:57] wish to send you these signals so it's
+- [46:00] important for you as a salesperson to
+- [46:02] have these skills and ability
+- [46:04] to to um to help people
+- [46:08] either opt in or opt out of your your
+- [46:10] process
+- [46:11] now of course we all have bad days and
+- [46:14] um
+- [46:15] you know as it turns out when you're
+- [46:16] working uh in sales
+- [46:18] um the further you go in the
+- [46:20] conversation the more expensive they
+- [46:22] come
+- [46:22] and sometimes you arrive at work uh and
+- [46:25] you just feel like well you've got to
+- [46:27] get the job done but you're not
+- [46:28] quite on that day my
+- [46:32] my another strong recommendation that
+- [46:35] i've learned
+- [46:35] just from my own experience
+- [46:40] doing sales is you know when you're
+- [46:42] having those bad days
+- [46:44] don't interact with people in sales you
+- [46:47] know go to the movies
+- [46:48] don't interact with any humans and when
+- [46:50] you're having those positive mojo days
+- [46:52] that's when you make those important
+- [46:54] calls
+- [46:58] so a couple of basic rules
+- [47:01] of customer prospecting law number one
+- [47:04] you're going to interact with a hundred
+- [47:06] prospects
+- [47:07] for every one of the three that close
+- [47:09] and at the outset they all
+- [47:10] appear the same and there are no
+- [47:13] shortcuts
+- [47:14] right you must touch everyone determine
+- [47:16] who's real
+- [47:19] and to my earlier point prospects
+- [47:22] who are great fit they're easy to spot
+- [47:26] it's the ones that are not a good fit
+- [47:28] that are more difficult to spot
+- [47:30] so there's a couple of things to think
+- [47:33] about there
+- [47:34] in terms of how you how you go about
+- [47:36] that
+- [47:42] prospecting law 4 you're always
+- [47:46] going to have to make decisions in sales
+- [47:49] with an
+- [47:49] incomplete set of information right
+- [47:52] which is anathema
+- [47:54] to the engineering mindset if you don't
+- [47:56] have a complete set of information it
+- [47:58] won't compile
+- [48:00] right in sales
+- [48:03] over analyzing something belaboring
+- [48:06] incomplete knowledge will not help you
+- [48:09] you must learn to trust your instinct
+- [48:11] and take
+- [48:12] action on what you feel is important
+- [48:15] you have to feel confident about moving
+- [48:17] as confident about moving people
+- [48:20] out of your pipeline as you do forward
+- [48:22] in your pipeline
+- [48:26] and you've been working on a deal for a
+- [48:27] while it doesn't
+- [48:29] they've decided to go in a different
+- [48:30] direction you just don't dwell upon them
+- [48:33] you've got your little
+- [48:34] uh w3 c
+- [48:37] cubed over n uh poster
+- [48:41] in your office there and you're just
+- [48:43] like
+- [48:45] no no problem um
+- [48:49] timing is also a big challenge in sales
+- [48:53] here
+- [48:55] and it's actually an enigma in sales
+- [48:58] because it's very very different
+- [49:00] difficult to manage one of the ways that
+- [49:02] i've
+- [49:03] developed over years as a way of
+- [49:05] thinking about timing is
+- [49:07] is treating your expensive opportunities
+- [49:10] in your pipeline like perishable food
+- [49:13] so for example there's these deals that
+- [49:15] you know are going to make a decision
+- [49:18] in the next days or weeks inside a month
+- [49:22] these have to be out on your kitchen
+- [49:24] table
+- [49:25] they're going to be a meal for somebody
+- [49:27] they're going to make a decision
+- [49:29] they're going to buy from somebody maybe
+- [49:30] not you but this meal is going to get
+- [49:32] eaten
+- [49:33] right and you need to pay attention to
+- [49:35] it and they get more touches
+- [49:37] more more of your time versus those
+- [49:40] things in the refrigerator
+- [49:42] where the decision um date might be a
+- [49:44] little bit further out
+- [49:46] next couple months the next next couple
+- [49:48] quarters
+- [49:49] right where instead of two to three
+- [49:51] touches a week it's more one to two
+- [49:53] touches a month
+- [49:54] versus those things that are in the
+- [49:56] freezer that are not actively driving
+- [49:59] toward a decision date but you may be
+- [50:02] helping to influence something in the
+- [50:04] next year's budget
+- [50:05] where you need to you need to touch base
+- [50:07] with them every three to six months
+- [50:09] certainly not
+- [50:10] months and certainly not weeks or
+- [50:13] days so these are
+- [50:17] all fully quali these are all fully
+- [50:20] qualified opportunity the only
+- [50:22] difference here is timing
+- [50:24] right and the frequency of your
+- [50:27] sales activity so highly perishable
+- [50:31] deals
+- [50:32] two to three a week one to two a month
+- [50:35] and three to six months so the reality
+- [50:38] in sales is you're getting up in the
+- [50:40] morning
+- [50:40] you're looking at your pipeline first
+- [50:42] thing you do is you open the
+- [50:43] refrigerator
+- [50:44] you say okay what are we going to eat
+- [50:47] this week or next week
+- [50:49] and what belongs in the freezer stuff
+- [50:51] you've been
+- [50:52] you've been pawn through in your
+- [50:54] pipeline for too long it's not closing
+- [50:56] uh you put that in your freezer for your
+- [50:58] drip campaign or
+- [50:59] something else it's still a qualified
+- [51:01] deal it's just a timing issue maybe they
+- [51:04] pushed it off a year
+- [51:06] uh and always you're alert to those
+- [51:08] things which are sending short-term
+- [51:10] buying signals where you have to really
+- [51:12] focus your attention on you you'll do
+- [51:15] the best job you possibly can
+- [51:18] in sort of organizing your deals around
+- [51:21] timing
+- [51:22] but the reality is you're going to
+- [51:24] uncover a lot
+- [51:26] of opportunities that send you strong
+- [51:29] buying signals
+- [51:30] and go nowhere and to the contrary
+- [51:33] you're going to encounter
+- [51:34] opportunities that you swear are a
+- [51:36] perfect fit
+- [51:37] or are not a perfect fit um and you
+- [51:41] scratch their head and they decide that
+- [51:43] they want to become your customer
+- [51:45] and the timing of course is a mystery
+- [51:48] right uh especially when you don't have
+- [51:51] a way of thinking about a way of
+- [51:52] managing it
+- [51:54] so in sales there's only so much on your
+- [51:58] influence and control and it much is up
+- [52:01] much in sales is up to many other things
+- [52:05] way outside your control you just can't
+- [52:08] fret over the unpredictable nature of
+- [52:10] sales because you have to control your
+- [52:12] attitude and your behavior
+- [52:14] so with the few minutes left that we
+- [52:16] have here today i want to
+- [52:19] just talk about a little bit about
+- [52:22] um attitude and behavior and give you
+- [52:24] some examples
+- [52:26] uh for team sales and communication here
+- [52:28] and then
+- [52:30] um i don't know what people's time
+- [52:32] frames are but i'm
+- [52:33] kind of um i'm going to run over the
+- [52:35] time here and give you some
+- [52:36] time to ask some q a at the end here joe
+- [52:39] so
+- [52:40] in case that's uh needed so
+- [52:43] um in my experience working with
+- [52:46] and at many startups in my career
+- [52:51] um in sales attitude and behavior are
+- [52:54] the two
+- [52:55] best predictors of sales success
+- [52:58] and you know the um the
+- [53:01] uh efficiency uh and performance are the
+- [53:05] are basically mutually exclu exclusive
+- [53:08] uh in in most professions the faster
+- [53:11] you do it the uh the lower the quality
+- [53:15] and vice versa
+- [53:17] sales is the same you want to be very
+- [53:19] efficient but
+- [53:20] you get diminishing returns on
+- [53:21] efficiency on your
+- [53:24] performance so the most efficient sales
+- [53:26] person
+- [53:27] is the pusher
+- [53:30] this person they drive aggressively
+- [53:33] toward a yes or no
+- [53:36] and they're extremely efficient at doing
+- [53:38] that
+- [53:40] they're not very helpful in fact well
+- [53:42] they'll help you
+- [53:43] they'll help you borrow their pen to
+- [53:45] sign an agreement
+- [53:47] uh i i checked that that's about it
+- [53:50] the extent to which they'll help you
+- [53:52] right but they're all about driving
+- [53:54] people to purpose
+- [53:55] uh to purchase their performance is
+- [53:58] is lousy but they're the most efficient
+- [54:00] sales people on the planet
+- [54:03] next ball on the line is what i call the
+- [54:05] dreamer the hoper and the dreamer
+- [54:07] this is the person that uh active
+- [54:10] they're not quite sure how to help
+- [54:11] people but they're always hopeful and
+- [54:13] optimistic
+- [54:15] um and you can tell a hoper and dreamer
+- [54:17] because they have a bloated pipeline
+- [54:20] right so instead of uh you know a
+- [54:23] hundred
+- [54:24] um prospects in opportunities they're
+- [54:27] working they may have
+- [54:28] 400 people in the pipeline because
+- [54:30] they're too afraid
+- [54:31] to throw something out for it not uh
+- [54:35] they're wishing and hoping versus being
+- [54:37] proactive
+- [54:39] the mechanic is the next step in the
+- [54:41] process this is the person that
+- [54:44] is more skilled and that will
+- [54:47] recognize the absence of buying signals
+- [54:50] and feel
+- [54:51] quite comfortable about moving on and
+- [54:53] put putting somebody
+- [54:54] outside of their their scope of activity
+- [54:58] and then lastly is the facilitator and
+- [55:01] this is the person that's mastered
+- [55:03] in helping prospects sell themselves
+- [55:07] or opt out this is not a sales person
+- [55:11] this is a facilitator this is somebody
+- [55:14] that's working with people and asking
+- [55:16] the right questions and people either
+- [55:18] sell themselves or they don't that's a
+- [55:21] very different type of sales animal
+- [55:25] so attitude and behavior the two best
+- [55:28] predictors of sales success
+- [55:31] remember it's not b2b
+- [55:34] it's not b2c sales is about p2p
+- [55:37] person to person people
+- [55:40] buy from people not from companies right
+- [55:44] and because of that salespeople often
+- [55:46] make
+- [55:47] a huge error of jumping directly
+- [55:50] into problem solving mode by impressing
+- [55:54] people of their knowledge and how they
+- [55:55] good
+- [55:56] are good at solving their problems
+- [55:59] right buyers however often can find that
+- [56:02] threatening and are reluctant
+- [56:04] to have you solve their problem until
+- [56:06] that empathy and trust and establish
+- [56:08] and i don't know how many folks on the
+- [56:10] online here are married this is a lesson
+- [56:13] i learned from my wife 20 years ago
+- [56:15] it was a hard lesson that when she
+- [56:18] would explain a problem to me if i
+- [56:20] jumped into fix
+- [56:21] mode it usually had a really really
+- [56:24] horrible outcome
+- [56:25] and all i had to sit back when and just
+- [56:27] say i really understand your pain
+- [56:30] and i was in a much better position
+- [56:32] doing that than trying to fix it
+- [56:34] sales is very similar right resist the
+- [56:37] temptation
+- [56:39] to fix people's problems and convince
+- [56:42] them
+- [56:42] that you really understand their problem
+- [56:45] and that you have their best
+- [56:47] interests in mind so i'm going to talk
+- [56:49] about that the four pillars of building
+- [56:52] a successful buyer seller relationship
+- [56:56] starts with empathy convincing people
+- [56:59] you truly
+- [57:00] understand their need and their pain
+- [57:04] which leads to trust right you
+- [57:07] have their best interest in mind which
+- [57:10] means as part of the sales process
+- [57:12] hey listen i'm going to ask you some
+- [57:14] questions
+- [57:15] uh you know if it turns out that i don't
+- [57:18] think we can help you or you're not the
+- [57:20] best fit for me
+- [57:21] believe me i will be the first to raise
+- [57:23] my hand and if i can
+- [57:25] i'm going to point you in another
+- [57:26] direction i know a lot of other vendors
+- [57:29] in this space
+- [57:30] or other people i just want to make sure
+- [57:32] you get something that's
+- [57:34] the best for you right you have to
+- [57:36] convince people
+- [57:37] that um you are serving their
+- [57:40] best interest empathy and trust is the
+- [57:44] foundation
+- [57:45] of sales once you establish that
+- [57:48] foundation then you can begin to express
+- [57:52] the value of their offering
+- [57:57] in their terms in their world
+- [58:00] not your value proposition but their
+- [58:03] value proposition
+- [58:04] how is your product valuable what is the
+- [58:07] outcome measure
+- [58:08] of your offering in their word world and
+- [58:12] their terms
+- [58:14] and then finally if they buy into that
+- [58:16] and they say yeah that's exactly
+- [58:18] the outcome that we're looking for then
+- [58:21] you can move on to competence
+- [58:23] right you can talk about your product
+- [58:25] and your team and how you're capable
+- [58:28] and you're up to the task
+- [58:31] these are the four pillars of building a
+- [58:33] successful buyer relationship
+- [58:35] too often i i see people
+- [58:38] uh going in the reverse direction and
+- [58:41] attempting to build a relationship
+- [58:43] backwards by
+- [58:44] trying to convince people of um how
+- [58:47] knowledgeable they are
+- [58:48] or talking feature function and value
+- [58:51] prop
+- [58:51] and whatever that's backwards that's a
+- [58:54] fatal error
+- [58:55] in sales start with empathy and trust
+- [58:57] build toward value in their terms
+- [59:00] and earn the right uh to
+- [59:03] share how competent you are jumping
+- [59:05] straight
+- [59:06] to the fix for your capabilities it's
+- [59:09] often viewed as dismissive
+- [59:10] of their unique circumstances think
+- [59:14] about it
+- [59:14] right so your strengths right
+- [59:18] become a gift only after people are
+- [59:20] convinced that you really understand
+- [59:23] their specific unique needs and have
+- [59:26] their best interest
+- [59:27] in mind and in the absence of that trust
+- [59:30] right your competence understand
+- [59:33] your competence can be viewed as
+- [59:35] insulting
+- [59:36] or aggressive right you mean oh
+- [59:40] i've been suffering over this for nine
+- [59:42] months and you're gonna solve it in two
+- [59:43] minutes
+- [59:44] how dumb am i or you know what i haven't
+- [59:47] told you the whole story yet
+- [59:49] you're trying to fix it you've only got
+- [59:51] a quarter of the story
+- [59:52] right so think about your approach here
+- [59:55] in sales competence
+- [59:57] is always valued but it's usually
+- [59:59] measured last
+- [01:00:04] after several interactions look for a
+- [01:00:06] shift in the prospect's attitude from
+- [01:00:08] selmy
+- [01:00:09] to let's solve this together
+- [01:00:13] and if you've attempted and you've
+- [01:00:14] established trust
+- [01:00:16] and you've established empathy but still
+- [01:00:19] fail to win the deal
+- [01:00:21] don't personalize the rejection right
+- [01:00:24] it's a numbers
+- [01:00:25] driven game it's not a referendum on
+- [01:00:28] your knowledge or ability it's just the
+- [01:00:30] wrong company
+- [01:00:30] wrong person bad timing take your pick
+- [01:00:36] i've got a couple more slides here joe
+- [01:00:38] then we can move to some q a is that all
+- [01:00:40] right
+- [01:00:41] sure sure go ahead go okay um i said at
+- [01:00:44] the outset here that sales is not about
+- [01:00:47] picking winners or
+- [01:00:48] losers and i'll i'll give you a couple
+- [01:00:50] of examples why
+- [01:00:52] uh if you're a top opportunity focus
+- [01:00:55] salesperson
+- [01:00:56] you spend 90 to 100 of your time chasing
+- [01:01:00] down the two or three deals that you
+- [01:01:01] feel are most likely to close
+- [01:01:03] and you're ignoring everything else in
+- [01:01:05] your funnel you're ignoring new leads or
+- [01:01:07] ignoring developing leads and
+- [01:01:08] opportunities
+- [01:01:10] and this is what your life is going to
+- [01:01:12] look like it's going to look like
+- [01:01:13] groundhog day
+- [01:01:15] right because by the time you put all
+- [01:01:17] the effort in to close that deal
+- [01:01:19] you'll disremember everything else in
+- [01:01:21] your pipeline or
+- [01:01:23] it's gone in another direction so
+- [01:01:26] you get you you get the deal you win
+- [01:01:28] some you lose some
+- [01:01:30] but it's up and down and it's groundhog
+- [01:01:33] versus
+- [01:01:34] a balanced sales activity where you
+- [01:01:36] invest
+- [01:01:37] half your time in those top deals and
+- [01:01:40] you distribute the other half your time
+- [01:01:42] amongst the other different areas of
+- [01:01:44] your pipeline
+- [01:01:45] developing the rest of the funnel
+- [01:01:48] qualifying moving prospects to suspects
+- [01:01:52] nurturing other people in your pipeline
+- [01:01:56] uh and when you are disciplined to
+- [01:01:59] balance
+- [01:01:59] your sales activity this is what your
+- [01:02:02] cash flow this is what your life
+- [01:02:04] will look like you're not going to have
+- [01:02:06] those huge peaks that you will
+- [01:02:08] if you were to invest 100 of your time
+- [01:02:11] but eventually what you're giving up
+- [01:02:13] here is the first six months
+- [01:02:15] of those peaks for a sustainable
+- [01:02:20] revenue performance over time
+- [01:02:23] and there's one thing i learned very
+- [01:02:24] early in startups there's this cool
+- [01:02:26] thing called running out of money
+- [01:02:28] that's a great reminder that um chasing
+- [01:02:32] uh deals 100 of the time is not a good
+- [01:02:35] idea
+- [01:02:37] so balance your sales activity across
+- [01:02:39] each stage of the pipeline
+- [01:02:40] unbalanced sales activity is risky and
+- [01:02:44] unsustainable don't assume who will
+- [01:02:46] close
+- [01:02:47] come up with your own sales discipline
+- [01:02:49] and rhythm and what happens
+- [01:02:51] is this very cool thing in pipelines
+- [01:02:53] when you start to invest
+- [01:02:55] all your positive energy into that
+- [01:02:57] pipeline without any
+- [01:02:59] misconception or preconception of what
+- [01:03:03] might win and what might not is the
+- [01:03:06] deals that come out
+- [01:03:07] come out of the strangest places that
+- [01:03:09] you never expect
+- [01:03:11] and it's the result of this positive
+- [01:03:13] value that accumulates
+- [01:03:15] in your pipeline over time so it's kind
+- [01:03:18] of like watching grass grow or paint
+- [01:03:20] drying
+- [01:03:21] right it's hard to observe but they both
+- [01:03:23] always do
+- [01:03:27] lastly for today i want to talk about
+- [01:03:30] evangelism
+- [01:03:32] i see a lot of people especially with
+- [01:03:34] highly innovative offerings
+- [01:03:36] evangelizing people over their
+- [01:03:39] product i don't believe that evangelism
+- [01:03:42] is part of sales
+- [01:03:44] i like to leave that up to marketing
+- [01:03:46] here so if you find yourself
+- [01:03:48] educating somebody in the very basics of
+- [01:03:50] what you
+- [01:03:51] uh do they are not qualified to take
+- [01:03:54] your time
+- [01:03:54] don't invest your time training people
+- [01:03:57] by the way
+- [01:03:58] people will give you buying signals just
+- [01:04:00] to get trained for free
+- [01:04:02] and then walk away if the business case
+- [01:04:06] how your product fits into their
+- [01:04:08] organization from a workflow or use case
+- [01:04:11] perspective
+- [01:04:12] is not obvious they're not qualified to
+- [01:04:14] take your time
+- [01:04:16] don't attempt to reinvent their business
+- [01:04:21] if the scale of the problem does not
+- [01:04:24] support your price
+- [01:04:25] they're not qualified to take your time
+- [01:04:27] you could be solving a problem
+- [01:04:29] for an individual or a small group or a
+- [01:04:31] department but if that doesn't support
+- [01:04:33] your time
+- [01:04:35] uh your price then they're not qualified
+- [01:04:39] and then lastly is it a priority do they
+- [01:04:41] believe the problem is
+- [01:04:43] worth solving don't attempt to
+- [01:04:46] change people's priorities so do not
+- [01:04:49] invest your precious time
+- [01:04:51] educating the ill-informed or convincing
+- [01:04:54] skeptics
+- [01:04:55] invest your time converting
+- [01:04:56] knowledgeable people into customers
+- [01:05:00] when a prospect does not readily
+- [01:05:01] understand the value
+- [01:05:04] the problem you solve move up or move on
+- [01:05:09] um i think that's uh i could continue
+- [01:05:12] here joe i've got some other stuff uh
+- [01:05:19] thanks so much ken that was i mean
+- [01:05:20] amazing so many great comments in the
+- [01:05:22] chat and
+- [01:05:23] uh some some folks that have listened to
+- [01:05:25] you in the past that came back to
+- [01:05:27] again i listened to someone from mass
+- [01:05:29] challenge
+- [01:05:30] so i think we can we can stop here
+- [01:05:34] there's a lot of questions i mean we
+- [01:05:35] could have a whole session on
+- [01:05:37] just uh you know the participants
+- [01:05:39] questions but i'll pick i'll pick three
+- [01:05:41] uh maybe if you have a couple minutes uh
+- [01:05:44] to just go through them so
+- [01:05:46] uh kwame is asking he's saying the viral
+- [01:05:48] network and network effects are
+- [01:05:50] buzzwords in
+- [01:05:52] b2c marketing what are some in b2b
+- [01:05:55] examples well guess what the same thing
+- [01:05:59] occurs in business to businesses it does
+- [01:06:02] the viral sort of the network effect you
+- [01:06:05] know you go
+- [01:06:06] into an industry and especially as a
+- [01:06:08] startup
+- [01:06:09] you're in awe of how big and vast the
+- [01:06:12] industry is
+- [01:06:13] and then what you discover over a career
+- [01:06:16] is how small and tight-knit
+- [01:06:18] it really is right so the word gets
+- [01:06:21] around
+- [01:06:22] right on best practices great vendors
+- [01:06:25] that you can trust
+- [01:06:27] etc etc so even companies
+- [01:06:30] people in different cultures you know
+- [01:06:34] hr people hang out with hr people
+- [01:06:37] operations people hang out
+- [01:06:38] with ops people and other companies same
+- [01:06:40] thing with sales and marketing
+- [01:06:43] industries are much smaller than you
+- [01:06:45] might think they
+- [01:06:46] they appear huge but in the reputation
+- [01:06:50] uh that you establish within an industry
+- [01:06:53] through reference
+- [01:06:54] customers and great partner
+- [01:06:55] relationships uh
+- [01:06:57] is is just is visceral
+- [01:07:00] just as real as the um
+- [01:07:04] the the networking effect that you get
+- [01:07:06] in b2c it just
+- [01:07:08] happens a different way great uh next
+- [01:07:11] question from christopher he's asking
+- [01:07:12] what are some signals that
+- [01:07:14] someone is just looking for competitive
+- [01:07:15] intelligence
+- [01:07:17] oh uh i call that peter the pocket
+- [01:07:20] picker
+- [01:07:21] right right
+- [01:07:24] uh and christopher how are you dushane i
+- [01:07:28] recognize you
+- [01:07:29] um so uh yeah
+- [01:07:32] so um when you run into somebody that's
+- [01:07:35] picking your pocket
+- [01:07:36] for competitive intelligence you know
+- [01:07:39] they're asking you
+- [01:07:39] great questions and they're very
+- [01:07:41] knowledgeable but you don't think
+- [01:07:43] they're going to be a buyer
+- [01:07:44] you have to draw the line there and you
+- [01:07:46] have to ask them questions about
+- [01:07:49] their project and their project timeline
+- [01:07:52] and what they're actually
+- [01:07:53] doing and is it a real project or are
+- [01:07:55] they just picking your
+- [01:07:57] picking your pocket uh ask them
+- [01:07:59] questions about
+- [01:08:01] um you know what well when
+- [01:08:04] uh when was the last um project like
+- [01:08:07] this
+- [01:08:07] that um they they led
+- [01:08:12] and who did they work with um
+- [01:08:15] also it's time to draw a line in the
+- [01:08:17] sand
+- [01:08:18] with listen we can we can go on
+- [01:08:20] continuing help you but we'd really like
+- [01:08:22] to help you in the context of your
+- [01:08:25] specific needs and your specific data
+- [01:08:27] so i'd like to recommend a proof of
+- [01:08:30] concept or a pilot here
+- [01:08:32] to get the better answers to all these
+- [01:08:34] and we can do a low-cost low-risk pilot
+- [01:08:36] draw the line in the sand
+- [01:08:38] and if they're not willing to spend five
+- [01:08:40] to twenty thousand dollars
+- [01:08:42] you're talking to somebody that's
+- [01:08:44] picking your pocket or
+- [01:08:45] not qualified to take your time draw a
+- [01:08:47] line
+- [01:08:48] great so many great comments here the
+- [01:08:51] best presentation in b2b
+- [01:08:53] awesome talk the best h.a.e session i've
+- [01:08:55] ever attended
+- [01:08:56] someone has been in sale dave and sales
+- [01:08:58] for 40 years and
+- [01:09:00] great frameworks and so many
+- [01:09:02] affirmational comments here thank you so
+- [01:09:04] much
+- [01:09:04] kent uh maybe the last um the last
+- [01:09:07] question
+- [01:09:08] you did mention that the founder is the
+- [01:09:10] most important
+- [01:09:11] uh you know first sales person at what
+- [01:09:14] point do you get
+- [01:09:15] uh try to get you know outside help is
+- [01:09:17] it a product market fits or is it at a
+- [01:09:19] certain metric
+- [01:09:20] so that's a great question i'm going to
+- [01:09:22] give you a very short answer to that
+- [01:09:24] depends no no you are ready
+- [01:09:28] tire your first sales person when you
+- [01:09:32] can say
+- [01:09:33] go out and get me a hundred more
+- [01:09:36] customers
+- [01:09:36] just like these 12 not
+- [01:09:40] go out and figure out who our customer
+- [01:09:42] is
+- [01:09:44] awesome okay great way to end it regina
+- [01:09:48] any uh closing words
+- [01:09:50] i'm sure everyone's excited for the
+- [01:09:51] session on thursday
+- [01:09:53] um this is just tremendous and i
+- [01:09:56] took lots of notes and i i think you're
+- [01:09:59] right
+- [01:10:00] uh joe this is the preamble to thursday
+- [01:10:04] uh people will leave this session today
+- [01:10:06] really thinking hard about
+- [01:10:08] um what you've been saying and how to
+- [01:10:10] apply it so
+- [01:10:11] thanks so much and i'm really excited
+- [01:10:14] that thursday is a couple of days away
+- [01:10:17] yeah
+- [01:10:17] great questions everyone thanks for your
+- [01:10:19] time um hope you walk away with a couple
+- [01:10:21] things that help you and i look forward
+- [01:10:23] to connecting with you again on thursday
+- [01:10:25] thank you joe thank you thank you ken
+- [01:10:27] thank you rodney ximena everyone
+- [01:10:29] attending

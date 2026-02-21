@@ -1,0 +1,96 @@
+{
+  "logical_paths": {
+    "todo_actual_folder": "Laptop/00. 경영지원/투두 관리자/Actual",
+    "todo_proposed_folder": "Laptop/00. 경영지원/투두 관리자/Proposed",
+    "todo_folder": "Laptop/00. 경영지원/투두 관리자",
+    "revenue_current": "Laptop/00. 경영지원/재무회계 담당/Current Revenue.md",
+    "revenue_folder": "Laptop/00. 경영지원/재무회계 담당",
+    "market_research_folder": "Laptop/10. 전략팀/리서치 애널리스트",
+    "strategy_folder": "Laptop/10. 전략팀"
+  },
+  "fallback_paths": {
+    "todo_actual_folder": [
+      "Laptop/00. 경영지원/투두 관리자/Actual",
+      "00. 경영지원/투두 관리자/Actual",
+      "00. Todo/Actual",
+      "00.Todo/Actual",
+      "00 Todo/Actual",
+      "Laptop/00. Todo/Actual",
+      "Laptop/00.Todo/Actual",
+      "Laptop/00 Todo/Actual",
+      "Mobile/00. Todo/Actual",
+      "Mobile/00.Todo/Actual",
+      "iMAC/00. Todo/Actual",
+      "iMAC/00.Todo/Actual"
+    ],
+    "todo_proposed_folder": [
+      "Laptop/00. 경영지원/투두 관리자/Proposed",
+      "00. 경영지원/투두 관리자/Proposed",
+      "00. Todo/Proposed",
+      "00.Todo/Proposed",
+      "Laptop/00. Todo/Proposed",
+      "Laptop/00.Todo/Proposed"
+    ],
+    "todo_folder": [
+      "Laptop/00. 경영지원/투두 관리자",
+      "00. 경영지원/투두 관리자",
+      "00. Todo",
+      "00.Todo",
+      "00 Todo",
+      "Laptop/00. Todo",
+      "Laptop/00.Todo",
+      "Mobile/00. Todo",
+      "iMAC/00. Todo"
+    ],
+    "revenue_current": [
+      "Laptop/00. 경영지원/재무회계 담당/Current Revenue.md",
+      "00. 경영지원/재무회계 담당/Current Revenue.md",
+      "50. Revenue/Current Revenue.md",
+      "50.Revenue/Current Revenue.md",
+      "Laptop/50. Revenue/Current Revenue.md",
+      "Laptop/50.Revenue/Current Revenue.md",
+      "Mobile/50. Revenue/Current Revenue.md",
+      "iMAC/50. Revenue/Current Revenue.md"
+    ],
+    "revenue_folder": [
+      "Laptop/00. 경영지원/재무회계 담당",
+      "00. 경영지원/재무회계 담당",
+      "50. Revenue",
+      "50.Revenue",
+      "Laptop/50. Revenue",
+      "Laptop/50.Revenue",
+      "Mobile/50. Revenue",
+      "iMAC/50. Revenue"
+    ],
+    "market_research_folder": [
+      "Laptop/10. 전략팀/리서치 애널리스트",
+      "10. 전략팀/리서치 애널리스트",
+      "시장조사 스크랩/Market Research",
+      "Laptop/시장조사 스크랩/Market Research",
+      "10. Strategy/Market Research",
+      "Laptop/10. Strategy/Market Research"
+    ],
+    "strategy_folder": [
+      "Laptop/10. 전략팀",
+      "10. 전략팀",
+      "시장조사 스크랩",
+      "Laptop/시장조사 스크랩",
+      "10. Strategy",
+      "Laptop/10. Strategy"
+    ]
+  },
+  "search_patterns": {
+    "todo_actual_files": {
+      "folder": "todo_actual_folder",
+      "glob": "*.md",
+      "sort_by": "date_in_filename"
+    },
+    "revenue_files": {
+      "folder": "revenue_folder",
+      "glob": "*.md",
+      "metadata_filter": {
+        "type": "revenue"
+      }
+    }
+  }
+}

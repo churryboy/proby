@@ -1,0 +1,1244 @@
+## Key insight / summary
+
+- **제품 스크린샷의 절대적 중요성**: "Show the product"가 가장 핵심적인 피드백으로, 추상적인 일러스트레이션보다 실제 제품 화면이나 짧은 데모 영상이 방문자의 이해도를 극적으로 높임
+- **애니메이션은 양날의 검**: 주의를 끌고 가치를 명확히 전달할 때는 효과적이지만, 과도하거나 모호하면 오히려 방해가 됨. 처음 만드는 사람은 항상 경험자의 피드백을 받아야 함
+- **5-10초 룰**: 웹사이트 방문자가 제품이 무엇인지 이해하는 데 주어진 시간은 극도로 짧음. 대부분의 사용자는 복잡한 애니메이션을 끝까지 보지 않음
+- **CTA의 단계별 설계**: "Book a demo" 같은 고부담 액션보다는 "Show me video walkthrough" 같은 낮은 진입장벽의 CTA가 전환율에 더 효과적
+- **구체적 기능 설명의 중요성**: 상위 레벨의 추상적 가치 제안보다는 "unified supplier inbox", "PO tracking" 같은 구체적이고 상상 가능한 기능 설명이 사용자 이해도를 높임
+- **탭 컨텐츠의 한계**: 대부분 사용자가 탭을 클릭하지 않으므로, 중요한 정보는 탭 뒤에 숨기지 말고 스크롤 연동 등의 방식으로 자동 노출해야 함
+- **브랜딩 vs 정보 전달의 균형**: 일관된 시각적 테마는 좋지만, 브랜드 일러스트레이션이 실제 정보 전달을 방해하면 안 됨
+
+## Key implications for Proby platform
+
+- **제품 데모를 메인 히어로로**: Proby의 AI 모더레이터가 실제로 인터뷰하는 모습, 실시간 질문 생성, 응답 분석 과정을 보여주는 짧은 영상을 랜딩페이지 상단에 배치해야 함 (McKinsey 문서의 "AI moderation quality validation" 이슈 해결에도 기여)
+- **구체적 기능 중심의 메시징**: "AI-powered user research"보다는 "실시간 후속질문 생성", "다국어 동시 인터뷰", "자동 인사이트 추출" 같은 구체적 기능을 전면에 내세워야 함
+- **세그먼트별 차별화된 CTA 설계**: 유니콘 기업 리서처에게는 "무료 파일럿 프로젝트", 스타트업 PM에게는 "5분 데모 영상 보기" 같은 각기 다른 진입점 제공 (beachhead 전략과 연계)
+- **애니메이션을 통한 가치 명확화**: Proby의 핵심 가치인 "인간 모더레이터 vs AI 모더레이터 비교"를 애니메이션으로 보여주되, 시간/비용/품질 차이를 극도로 명확하고 단순하게 표현
+- **신뢰도 구축을 위한 실제 사례**: 추상적인 고객 리뷰보다는 "A사는 Proby로 리서치 비용을 월 $50K→$5K로 줄였습니다" 같은 구체적 ROI 사례를 시각적으로 제시
+- **국제화 역량의 시각적 증명**: 전략문서에서 언급된 "global research capability"를 추상적 설명이 아닌 실제 다국어 인터뷰 화면이나 실시간 번역 과정으로 보여주기
+- **탭 대신 스크롤 플로우**: "리크루팅 → 인터뷰 → 분석 → 리포트" 과정을 탭이 아닌 스크롤 연동 섹션으로 구성하여 전체 밸류체인을 자연스럽게 노출
+- **경쟁사 대비 차별점 강조**: McKinsey 문서의 competitive analysis 부족 문제를 보완하여, UserTesting 등 기존 솔루션 대비 Proby만의 차별점을 명확한 비교표나 애니메이션으로 표현
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=leQ89XSHILw
+
+- [00:00] Today we're joined by Yorn Van Djk, the
+- [00:02] CEO and co-founder of Framer, the
+- [00:05] leading website design platform. Yorn is
+- [00:07] going to use his expert design
+- [00:09] background to review a bunch of user
+- [00:11] submitted websites that were built using
+- [00:13] Framer. Welcome to another episode of
+- [00:16] Design Review.
+- [00:24] >> Welcome, Yorn.
+- [00:25] >> Thank you. Thank you for having me.
+- [00:26] >> Yeah, thanks so much for joining.
+- [00:27] Awesome. Well, let's jump into some
+- [00:28] website reviews. All right, first up we
+- [00:30] have Lumari. So, the AI platform for
+- [00:33] procurement, Lumari streamlines supply
+- [00:36] chain operations with always on systems
+- [00:38] that monitor, coordinate, and take
+- [00:39] action from sourcing to delivery. I
+- [00:41] guess my first reaction is there's a lot
+- [00:43] going on here. There's a lot of
+- [00:44] movement, a lot of icons coming in and
+- [00:46] being spit out. The AI platform for
+- [00:48] procurement, that's clear enough what it
+- [00:49] is. Um, I don't have a immediate need, I
+- [00:52] think, for for this solution, but yeah,
+- [00:54] the the animations, um, I probably also
+- [00:56] tone that down a little bit. Um, it's
+- [00:59] cool that it animates, but it's a lot.
+- [01:02] >> It's there's a lot going on.
+- [01:03] >> Two book a demo buttons. So, good call
+- [01:06] to action, but because there's also a
+- [01:08] lot of orange on the page, I feel like
+- [01:09] the buttons kind of get lost. Uh, they
+- [01:12] sort of blend into all the other orange
+- [01:14] that's going on here.
+- [01:15] >> Yeah, I'd agree with that. Maybe try
+- [01:16] black or try one one CTA, one large one
+- [01:20] and then use the other space. I also
+- [01:22] think that book a demo button. I don't
+- [01:24] know if the conversion on that generic
+- [01:26] sort of um CTA never never that great.
+- [01:31] Imagine that I'm coming to this website
+- [01:32] for the very first time. You probably
+- [01:34] first need to convince me what this is
+- [01:36] and what it's about before I will do
+- [01:38] something as dramatic
+- [01:40] >> as booking a demo, which is taking my
+- [01:42] time and and now I need to be on a call
+- [01:44] with a person for 20 minutes. So,
+- [01:46] >> yeah, I feel like there's a lot of these
+- [01:47] graphics that are kind of like vague
+- [01:50] generic graphics and I'm missing
+- [01:53] something real that can help anchor like
+- [01:55] what is this? What does the product look
+- [01:57] like? Yep. What do I use it for?
+- [01:59] >> Yeah, I would agree with that. Probably
+- [02:01] screenshots would help. Uh video
+- [02:02] walkthrough could also help. Um it is a
+- [02:05] bit high level in speaking about the
+- [02:08] value proposition. Um, and maybe maybe
+- [02:11] those those two things can make it a bit
+- [02:13] clearer what we're looking at exactly.
+- [02:16] >> We're I don't know probably 3/4 of the
+- [02:17] way down the page at this point. And now
+- [02:19] we're getting into some specific things
+- [02:20] like a unified supplier inbox, PO
+- [02:23] tracking, change management. Those are
+- [02:26] some I think tangible things that I can
+- [02:28] imagine how that works and what somebody
+- [02:30] would use this for. Okay, so there's a
+- [02:32] lot of things in here. I think one of
+- [02:34] the things with these tabs is most
+- [02:37] people will never click on these. So you
+- [02:39] have to assume that anything that is
+- [02:40] behind these tabs, people will never
+- [02:43] see.
+- [02:43] >> Yep. There's a there's a cool trick
+- [02:45] where you can connect that to the
+- [02:47] scrolling behavior. So as you scroll the
+- [02:49] page, it goes from procurement
+- [02:51] operations to supplier collaboration. So
+- [02:53] you kind of like
+- [02:54] >> take the user uh by the hand and show
+- [02:56] them the context uh or the content of
+- [02:59] those uh tabs. But I think I think this
+- [03:01] section could be better if those were uh
+- [03:03] screenshots of the product.
+- [03:05] >> Mhm.
+- [03:05] >> Because that's still pretty generic. Um,
+- [03:08] you know, I I I don't really know. This
+- [03:10] this card is not good and then the other
+- [03:11] one is good.
+- [03:13] >> That's kind of what the illustration is
+- [03:14] hinting at.
+- [03:15] >> Or am I is this a delete thing to delete
+- [03:17] this card and this one is to accept this
+- [03:18] one?
+- [03:19] >> Yeah. So, it's it's a bit it's a bit
+- [03:20] abstract. Um, what's going on and a
+- [03:23] Yeah. screenshot of the product could
+- [03:24] maybe solve that.
+- [03:25] >> Yeah. Okay. So, integrates with all your
+- [03:27] tools. So, you know, if I have a supply
+- [03:32] chain business and I use all these other
+- [03:34] tools, this kind of gives me confidence
+- [03:36] that I can use it with all of these.
+- [03:38] >> The way those logos uh animate in and
+- [03:40] out, it's called ticker effect, which
+- [03:41] you can use in frame. Um, let's set that
+- [03:44] to 2 and then on hover uh you can um
+- [03:49] make it move by half uh half speed. So,
+- [03:52] it's it's a cool effect where I think
+- [03:54] this is going way too fast.
+- [03:55] >> Yeah.
+- [03:56] >> So, slow that down. and then on hover
+- [03:58] make it so that you can click on it and
+- [04:01] see something uh about that uh about
+- [04:04] this feature.
+- [04:04] >> Yeah.
+- [04:05] >> So here you probably want to see how
+- [04:06] does it integrate with drive. Is that a
+- [04:09] is that a twoclick action or is that a
+- [04:12] you know do I have to install some
+- [04:13] plugin? Uh but give the user some
+- [04:15] context on on on that.
+- [04:17] >> How do you feel about the thing where
+- [04:18] when you scroll things animate onto the
+- [04:21] page?
+- [04:22] >> I depends on how it's done. I've seen
+- [04:24] many examples where that's done very
+- [04:26] tastefully and it feels very natural,
+- [04:28] but it's hard to get that right. Uh so
+- [04:31] animation I feel in general is like
+- [04:32] pretty challenging to do well. Um
+- [04:34] because it can can be distracting very
+- [04:37] fast. If you're making the animation and
+- [04:39] it's your first time, then always always
+- [04:41] ask someone that that has a little bit
+- [04:43] experience like what would you improve
+- [04:44] here? Um because it's easy to go it's
+- [04:46] very easy to go overboard with
+- [04:47] transitions.
+- [04:48] >> Yeah. What what are the best use cases
+- [04:50] for animation? Like when would you
+- [04:51] recommend that people use that? drawing
+- [04:53] attention to something. That's probably
+- [04:54] the number one. Um and and making
+- [04:56] something like overly uh um obvious. So
+- [04:59] I think in the header here like what
+- [05:01] they're trying to communicate um can be
+- [05:05] can be
+- [05:06] >> made very clear with animation.
+- [05:09] >> But this needs a little bit of work. The
+- [05:10] thing that I think works is okay so
+- [05:13] sources from the left
+- [05:14] >> are going through Lumari. Yeah.
+- [05:16] >> And then something happens on the right.
+- [05:18] But that something is extremely vague.
+- [05:20] It's just
+- [05:22] envelopes and
+- [05:25] >> so if I'm talking
+- [05:29] it's trying to do especially now that
+- [05:30] we've read the the rest of the website
+- [05:32] but a new visitor
+- [05:34] >> that we were just three month 3 minutes
+- [05:35] ago
+- [05:36] >> right
+- [05:36] >> will not spend that much time looking at
+- [05:39] this animation. So you need to simplify
+- [05:41] things much more and make it extremely
+- [05:43] obvious for it to for it to really work.
+- [05:46] >> Yeah. You got to kind of like beat
+- [05:47] people over the head with the thing that
+- [05:48] you're trying to communicate, right? And
+- [05:50] make it super super obvious. And then,
+- [05:52] okay, so we get to the bottom and we had
+- [05:54] a bunch of FAQ stuff ready to bring AI
+- [05:57] to your supply chain.
+- [05:59] >> Yeah, I think I think the last part of
+- [06:00] the site here is a bit uh generic. I
+- [06:02] think it's a okay website, but there's a
+- [06:04] lot of work to be done in in the details
+- [06:06] and and really nailing this. Um, and
+- [06:08] then especially on the animation front.
+- [06:10] >> If you had to give one piece of feedback
+- [06:12] that's going to be the highest leverage
+- [06:13] thing to most improve this, what do you
+- [06:14] think that would be? Well, uh, show the
+- [06:16] product that that'd be number one. Like,
+- [06:18] I'm not going to book a demo without
+- [06:20] getting us just a little bit of a taste
+- [06:22] of what the product looks like and how
+- [06:24] it works. So, either just a screenshot
+- [06:26] or collection of screenshots or a short,
+- [06:28] you know, two-minute video walkthrough.
+- [06:30] >> I think that book a demo button should
+- [06:32] be show me video walkthrough or like
+- [06:35] show what the product looks like
+- [06:37] >> to give people a really clear
+- [06:38] understanding uh of of what Lumari will
+- [06:42] achieve so that I can then maybe book a
+- [06:44] demo.
+- [06:44] >> Yeah. makes the product more real. I
+- [06:46] don't know if there's a real product
+- [06:47] here or if this is just a site they put
+- [06:49] together really quickly with Framer. And
+- [06:51] so any evidence that this is real and
+- [06:54] you know they say that it's trusted by
+- [06:56] these people. So I I presume there's a
+- [06:58] product and people are using it which is
+- [06:59] helpful. Um but yeah, I think my biggest
+- [07:02] thing is like visually a lot of these
+- [07:05] illustrations look nice and they fit a
+- [07:07] common theme and brand that they have
+- [07:08] going on. Um, but they don't communicate
+- [07:11] information to me and they don't help me
+- [07:14] understand the product or what it
+- [07:15] actually does. And so that I think is is
+- [07:18] the biggest area of improvement for me.
+- [07:19] Awesome. Thank you, Lamari. Okay, next
+- [07:22] up we've got a lie. Create high quality
+- [07:26] presentations with AI. Okay, so we got a
+- [07:28] lot of animation happening with this
+- [07:30] one, too.
+- [07:33] I guess one thing that's different here
+- [07:34] is I I feel like I'm seeing parts of the
+- [07:37] product.
+- [07:39] and it's clicking around to different
+- [07:41] templated slides maybe. Okay. So, I
+- [07:43] think what we're seeing here is this is
+- [07:45] some type of like PowerPoint, Google
+- [07:48] Slides type thing that makes it easier
+- [07:51] to edit templates, design slides,
+- [07:56] um move content around.
+- [08:00] Looks like it's got layout positioning,
+- [08:02] which most slide products do not have,
+- [08:04] which would uh that seems pretty cool.
+- [08:06] Yeah, I mean I do think by looking at
+- [08:08] this hero I have a gen general
+- [08:12] understanding of what this product could
+- [08:14] do. I don't know if the simplification
+- [08:16] of the product's really helpful, right?
+- [08:17] This is not what the product looks like.
+- [08:19] This is they're taking parts of how it
+- [08:22] works and showing that in this video.
+- [08:24] >> So, it's a bit you kind of have to piece
+- [08:25] together
+- [08:26] >> what you just did. It's like, oh, it's
+- [08:28] doing something with themes. It's doing
+- [08:29] something with layouts without showing
+- [08:32] me the actual product itself. Yeah,
+- [08:34] >> I do really like that bar at the top.
+- [08:36] Upgrade to pro and get a free 30-minute
+- [08:38] session to perfect your deck.
+- [08:39] >> Okay, so that one's positioning it for
+- [08:41] making decks. And then this one and the
+- [08:43] tagline's positioning it to create high
+- [08:46] quality presentations.
+- [08:47] >> Yeah. I find this um kind of rainbow
+- [08:50] background a little distracting. It's
+- [08:52] not fully a container around what's
+- [08:55] happening here.
+- [08:56] >> Yeah.
+- [08:57] >> And so I think that made it uh made it
+- [09:00] harder for me to orient around what was
+- [09:01] happening.
+- [09:02] >> Yeah. with the the animation that's
+- [09:04] happening here. Um, all right, let's see
+- [09:06] what else we got here. All right, number
+- [09:08] two product of the day on Product Hunt.
+- [09:11] Just used it totally crazy switching
+- [09:13] from gamma to a lie. Gamma's been in the
+- [09:16] news with large fund raise and things
+- [09:19] seem to be going well for them. So, it's
+- [09:20] clear they're trying to counterposition
+- [09:22] themselves against gamma. Here,
+- [09:25] we've got a lot of quotes. How do you
+- [09:27] feel about some of these quotes? Like,
+- [09:28] are these the type of thing that
+- [09:29] resonate with you? um especially even as
+- [09:32] you're thinking about the framer uh
+- [09:34] product and site.
+- [09:35] >> I think as if you scroll up a little bit
+- [09:37] I think um if I read a headline like
+- [09:39] create high quality presentations the
+- [09:41] the
+- [09:42] >> typically I you need to back that up
+- [09:44] right like you can't you can't really
+- [09:46] say that about yourself unless someone
+- [09:49] >> you have some proof that people think
+- [09:50] that these presentations are high
+- [09:52] quality.
+- [09:53] >> Um so I think that positioning wise on
+- [09:55] the page that kind of works that they uh
+- [09:57] put it below the fold. I don't know if
+- [09:58] the qu if the quotes are really speaking
+- [10:01] to the quality of the presentations.
+- [10:03] >> They seem to be a bit more generic. So
+- [10:05] >> yeah, I think one of the other things
+- [10:06] that uh uh resonates with me is they've
+- [10:08] got a headline here, which is clear, but
+- [10:11] there's maybe a missed opportunity for
+- [10:13] like a sub headline or something that
+- [10:14] explains literally what this is.
+- [10:17] >> And we spent the time to follow this and
+- [10:20] try to piece together. And we went
+- [10:21] through, I don't know, three or four
+- [10:23] iterations of this uh animation. And I
+- [10:26] think we figured it out after that, but
+- [10:28] they could have just told us up front
+- [10:30] and that would have saved us a bunch of
+- [10:31] time.
+- [10:32] >> Yeah. And most users won't spend that
+- [10:33] time. That's the hard the hard challenge
+- [10:36] is like you really have to make it
+- [10:38] obvious if 5 to 10 seconds. That's
+- [10:40] that's that's that and I think 10
+- [10:42] seconds is a is a long time for people
+- [10:44] to try and figure out uh if this is for
+- [10:46] them.
+- [10:47] >> And it's also not obvious here like they
+- [10:49] said presentations, but like this could
+- [10:51] be like sections on a website or
+- [10:53] something too. So going deeper could be
+- [10:55] good there. Okay. Uh never start from
+- [10:58] scratch again. Focus on your idea, not
+- [11:00] tweaking pixels. AI has all the context.
+- [11:03] You have the control. Okay. So this is
+- [11:06] uh a variation on a tabbed concept where
+- [11:08] they've got a timer um for each section
+- [11:10] to make it easy for people to to see all
+- [11:13] of them.
+- [11:13] >> Can you click on the sections?
+- [11:15] >> Yep.
+- [11:16] >> Okay. Well, I mean this is implemented
+- [11:17] quite nicely.
+- [11:18] >> Yep. Yeah. This good. I like the big
+- [11:20] text here. A lot of times when people
+- [11:22] make tabs, there's like little tiny text
+- [11:24] or something and it's real easy to miss.
+- [11:26] Um, but I like that that it's really big
+- [11:28] and it draw my attention and I read all
+- [11:31] of those headlines.
+- [11:32] >> Y
+- [11:32] >> I'm not sure that it communicates
+- [11:36] specific things about the product. Like
+- [11:38] I don't think that I read those and then
+- [11:40] have a better understanding. They're
+- [11:41] still kind of like marketing speak, you
+- [11:44] know, like never start from scratch
+- [11:45] again. Focus on your idea, not tweaking
+- [11:47] pixels. AI has all the context. You have
+- [11:50] control. It's like I need the like
+- [11:52] literal thing to help me understand what
+- [11:54] I can do with the product. And I still
+- [11:55] haven't gotten that yet.
+- [11:56] >> It's a bit generic.
+- [11:58] >> I mean, this honestly sounds better. The
+- [12:01] sub headlines here.
+- [12:02] >> Yeah, the the sublines are more
+- [12:04] explanatory than the the headline
+- [12:06] >> and then they disappear. So, you have
+- [12:07] like 5 seconds until the timer's up and
+- [12:10] then it goes away. Um, which makes it
+- [12:12] difficult to to read. But these seem to
+- [12:14] be the sub headlines here seem to be the
+- [12:16] most uh compelling explanatory thing for
+- [12:19] helping me understand what's going on.
+- [12:20] Um presentations created. Okay. So
+- [12:22] here's some examples I guess is what
+- [12:24] we're seeing here.
+- [12:25] >> I mean this is good.
+- [12:26] >> Yeah.
+- [12:26] >> It's giving me example of of um of what
+- [12:29] type of output that I can expect. I
+- [12:32] think um one thing that's hard, it
+- [12:35] depends on the audience, but if you're
+- [12:36] making a claim that something's really
+- [12:38] high quality,
+- [12:39] >> then your your benchmark for what is
+- [12:41] high quality is different than mine is
+- [12:43] different than everyone in the room. And
+- [12:44] so if you're saying high quality, then
+- [12:47] this needs to be high quality, right?
+- [12:49] Like by for everyone's standard.
+- [12:51] >> Yeah.
+- [12:52] >> And so the output that I'm seeing this
+- [12:55] um generate is looks it looks good, but
+- [12:58] it's also it's pretty generic, right? I
+- [13:00] think this type of output, it feels a
+- [13:02] bit templated.
+- [13:04] >> Um, so I think maybe the positioning of
+- [13:06] this product could more be about speed
+- [13:09] and ease of use, uh, if that's what
+- [13:11] they're going for with AI
+- [13:13] >> and less so about, you know, positioning
+- [13:15] it at it as like a premium,
+- [13:18] >> you know, most high quality solution.
+- [13:20] Yeah.
+- [13:20] >> And that's sometimes hard to get right,
+- [13:21] like trying to be honest about what the
+- [13:24] value proposition of your product is
+- [13:26] >> versus the things that you also want it
+- [13:28] to be.
+- [13:29] >> Yeah. These do have cons like similar
+- [13:31] formats but with different skins
+- [13:33] applied. Yeah. Is is what I'm seeing
+- [13:35] here.
+- [13:36] >> Try for free.
+- [13:37] >> So that's good. It's a good call to
+- [13:38] action down there.
+- [13:39] >> Are you compelled to try it?
+- [13:42] >> Yeah. I think if I wanted to make some
+- [13:43] presentations and I could just, you
+- [13:44] know, click this try for free button. I
+- [13:46] think I probably would.
+- [13:49] Uh but this is a missed opportunity.
+- [13:52] Force me to sign up. I think it'd be
+- [13:53] even cooler if I could try it and then
+- [13:55] when I wanted to export it or, you know,
+- [13:58] get a share link or something like that,
+- [13:59] then it forced me to to sign in. So, I'm
+- [14:02] already committed.
+- [14:02] >> Yeah. Yeah. Maybe this is a good product
+- [14:04] to just have the prompt bar on the front
+- [14:06] page. See you, you know, just let me
+- [14:08] type in I want to make a presentation
+- [14:10] about Y Cominator, see what it
+- [14:11] generates.
+- [14:12] >> Yeah. I I think one of the biggest
+- [14:13] things is you want people to um get to
+- [14:15] the aha moment. You know, how can you
+- [14:17] get somebody to experience the value of
+- [14:19] the product as quickly as possible? And
+- [14:21] this is like the biggest blocker you
+- [14:24] could possibly put up is just login or
+- [14:27] create an account.
+- [14:28] >> Yeah, if you can let people try the
+- [14:30] product first or even some some demo
+- [14:32] modes, it's probably it's probably good.
+- [14:34] >> Yeah. I think one of the tricky things
+- [14:35] also is especially for a product like
+- [14:37] this like you're competing against
+- [14:39] Google Slides. Yeah.
+- [14:40] >> You know, which is free and everyone has
+- [14:42] access to and they've probably already
+- [14:43] messed around with and so trying to get
+- [14:46] people in as quickly as possible I think
+- [14:48] is actually really important. making it
+- [14:49] really frictionless because you're
+- [14:51] competing against a lot of free stuff
+- [14:52] also. Awesome.
+- [14:53] >> Cool.
+- [14:54] >> Thank you, Eli. Next up, we've got
+- [14:56] Juicebox.
+- [14:58] >> Now, this looks cool.
+- [14:59] >> Win the talent war. Juicebox is the AI
+- [15:02] recruiting platform that understands who
+- [15:05] you're looking for. Level up your team
+- [15:06] with search, CRM, and agents.
+- [15:08] >> The things that uh that uh jump out to
+- [15:11] me is like they have a pretty um
+- [15:13] distinct unique style going for it. And
+- [15:16] that's something that I immediately
+- [15:17] noticed from the tiny purple button that
+- [15:20] says new try juice box agents to that
+- [15:23] sort of
+- [15:24] >> corner flap situation.
+- [15:26] >> Yeah, you can't can't do anything with
+- [15:27] it. But
+- [15:28] >> yeah, but um it's pretty clear that
+- [15:30] someone's, you know, been looking at the
+- [15:32] details of what this looks like. Um if
+- [15:34] it's an aesthetic that you're that
+- [15:36] you're excited about or not, that um
+- [15:38] depends on your own taste. But yeah, I
+- [15:40] think this looks looks pretty
+- [15:41] interesting.
+- [15:42] >> Yeah. Um, if if I understand what it's
+- [15:44] for, win a talent war, use books. AI
+- [15:46] recruiting platform. Yeah. Okay. This
+- [15:48] understands what you're looking for. So,
+- [15:50] they're saying, "We will help you find
+- [15:53] really high quality people based on some
+- [15:56] inputs, I guess." Yeah.
+- [15:57] >> Yeah. That's that's my guess as well. I
+- [15:59] like this headline, win the talent war.
+- [16:01] It gets your attention. And I think it
+- [16:02] also speaks to the people that feel like
+- [16:04] they're in a talent war, you know,
+- [16:06] trying to find the best people to come
+- [16:07] to their company.
+- [16:08] >> Yeah. Got a bunch of logos, recognizable
+- [16:12] companies, which is really cool. Got
+- [16:13] Cursor, Corora, Perplexity. A lot of
+- [16:15] these seem like very um like modern uh
+- [16:19] AI era companies, too, which is cool.
+- [16:22] It's not like a bunch of big dinosaurs.
+- [16:24] It's it's kind of communicating to me
+- [16:26] that um modern companies on the cutting
+- [16:28] edge with AI are using Juicebox to to
+- [16:31] help recruit.
+- [16:32] >> And this is cool. Let's try it.
+- [16:34] >> Try it out. Okay. Who you looking to
+- [16:37] hire?
+- [16:38] Um, a AI for uh video marketer
+- [16:46] or the framer
+- [16:49] design
+- [16:51] team just because we were talking about
+- [16:53] that just now
+- [16:57] >> getting hit by the
+- [16:58] >> Are you compelled to sign up?
+- [17:00] >> I mean, I I would now I would probably
+- [17:03] go back and see what the product looks
+- [17:05] like first.
+- [17:06] >> Okay. So you'd hit the back button here.
+- [17:08] >> Yeah.
+- [17:08] >> What are the things you'd want to see
+- [17:10] here?
+- [17:10] >> This is it's already quite good. I think
+- [17:14] making it more clear what's going to
+- [17:16] happen next. Uh I think that that
+- [17:18] illustration is not bad. Welcome to
+- [17:20] people GBD. I can kind of guess based on
+- [17:22] the front page messaging. They're going
+- [17:24] to help me find people. Um I think that
+- [17:27] trusted buy section kind of like uh
+- [17:31] works as well. Just emphasizing that
+- [17:33] there's a couple of companies already
+- [17:35] using this. But then this globe
+- [17:37] situation with a bunch of tiny texts is
+- [17:40] kind of hard like expert in
+- [17:42] >> HR tech. Okay. So they're saying there's
+- [17:43] a lot of people around the globe and we
+- [17:45] can find them for you. So all in all I
+- [17:47] think um it's okay but it's a kind of
+- [17:51] missed opportunity to let me put
+- [17:53] something in the prompt box and instead
+- [17:55] of doing something with that information
+- [17:57] and showing it to me just first uh
+- [17:59] putting this roadblock up.
+- [18:00] >> Okay. So yeah I think my takeaway is
+- [18:02] like this is cool. It gets you right to
+- [18:04] it. You would have tried this. you did
+- [18:06] try it. Um, but there wasn't enough
+- [18:08] information for you to like fully go
+- [18:09] through with it when you hit the
+- [18:11] roadblock at the next one. And my hunch
+- [18:13] is that comes down here. Okay.
+- [18:15] >> So, yeah, this is popping in. Okay, now
+- [18:17] I'm getting more information. This is
+- [18:19] kind of confusing to me. I guess it's
+- [18:20] showing me different profiles and then
+- [18:22] telling me stuff about their experience.
+- [18:25] >> No, no, no. I think they're trying to
+- [18:26] piece give you an example. So, it it it
+- [18:29] u wrote this for us. Software engineers
+- [18:32] in SF working at series B companies. And
+- [18:34] then if you were to click that then
+- [18:36] these are the candidates that pop up.
+- [18:38] >> Okay, that was not obvious to me.
+- [18:41] Recruiting is being rewritten a lid
+- [18:43] precision driven and built for teams
+- [18:45] that demand speed and results. Okay,
+- [18:49] how it works. Humans plus agents
+- [18:54] talent discovery across. Okay, so
+- [18:56] they've index a bunch of profiles.
+- [18:59] Uh they give you insights around them.
+- [19:02] I don't see insights in here.
+- [19:06] And then boost replies with automated
+- [19:08] outreach. Okay, cool.
+- [19:10] >> I do think that the way that this works
+- [19:12] uh we were just discussing with the
+- [19:14] other one where you scroll down and just
+- [19:15] goes through the tabs for you
+- [19:17] automatically shows you a picture of
+- [19:20] >> it's still a this doesn't feel like the
+- [19:22] actual UI but you know
+- [19:25] >> a metaphor of it like this this is
+- [19:27] clearly saying like we'll give you some
+- [19:29] charts and bars.
+- [19:30] >> Yeah. to look at. Um I don't know if
+- [19:32] that's all that compelling. I would
+- [19:34] probably try
+- [19:35] >> Yeah, this one I think should be
+- [19:36] improved. It's not clear to me.
+- [19:37] >> Yeah.
+- [19:37] >> What's happening here? This one is like,
+- [19:39] okay, there's a lot of profiles that we
+- [19:41] found. So, that makes sense to me. Um
+- [19:44] and then this one is it's autodrafting
+- [19:45] and you see a placeholder first name and
+- [19:47] cool. Yeah, that seems pretty.
+- [19:49] >> I do think that uh visually the I I
+- [19:52] think this looks all of this looks
+- [19:53] pretty fresh and modern.
+- [19:55] >> Yeah.
+- [19:56] >> Yeah, it looks great. Um, and then you
+- [19:58] can see actually all the way up at the
+- [20:00] top, Juicebox raises 36 million led by
+- [20:02] Sequoia.
+- [20:03] >> That's great.
+- [20:04] >> Um,
+- [20:04] >> congrats guys.
+- [20:05] >> Deploy AI agents for every recruiter.
+- [20:10] >> Yeah, they keep popping up all these
+- [20:11] little cards and this feels overwhelming
+- [20:13] to me rather than helping me get new
+- [20:15] information.
+- [20:18] >> Yeah, a lot of a lot of notifications
+- [20:20] about random things.
+- [20:22] >> Yeah, they feel like notifications.
+- [20:24] That's that's the right word. which is
+- [20:27] stressful.
+- [20:29] Um, search on autopilot gets better with
+- [20:32] every hire. Outreach that feels
+- [20:33] personal. Okay. Um, okay. This is a cool
+- [20:37] way to to show off what the integrations
+- [20:39] are.
+- [20:40] >> Yep.
+- [20:41] >> Um, it's visually interesting. It makes
+- [20:44] me look at all of them.
+- [20:47] How top teams win with Juicebox. Okay.
+- [20:49] So, we got some case studies. Is this a
+- [20:51] sidescroller? It doesn't seem to want
+- [20:53] to. Oh, there's a thing here.
+- [20:57] Okay. Coin tracker saved a bunch of
+- [21:00] hours. Monte Carlo filled some
+- [21:01] positions. Okay, cool.
+- [21:04] See what's coming next in AIdriven
+- [21:06] recruiting.
+- [21:08] Okay, so product. Okay, so this seems
+- [21:09] like their product blog or something
+- [21:12] announcing new features. Um, that's kind
+- [21:15] of cool because it tells me like they're
+- [21:16] just shipping stuff. Um, you know, you
+- [21:19] can even look at the dates here and
+- [21:20] October 2nd, October 3rd, October 21st,
+- [21:23] November 12th. Like that tells me like
+- [21:24] this product's constantly getting
+- [21:26] better.
+- [21:26] >> Yep.
+- [21:28] >> Um then we got an FAQ.
+- [21:33] >> Cool.
+- [21:34] And then call to action.
+- [21:36] >> O I would make that um sign up the this
+- [21:40] part or try it for free.
+- [21:42] >> I assume you put in the email and it
+- [21:43] takes you to the next step.
+- [21:44] >> Yeah. But why not put that prompt box in
+- [21:47] here as well?
+- [21:47] >> Yeah.
+- [21:48] >> Like try to get people in the product.
+- [21:50] >> Yeah. I mean this this also works but
+- [21:52] it's just a bit more generic where if
+- [21:54] you have the opportunity to get some
+- [21:55] user intent and then yeah
+- [21:57] >> everybody needs to do this framer also
+- [21:59] does this you want to make a website
+- [22:00] >> it works right like
+- [22:02] >> when people want the thing they sign up
+- [22:04] um another thing maybe that could be
+- [22:05] interesting is uh based on the query
+- [22:08] that you put in to show profiles but
+- [22:11] maybe they're blurred out or something
+- [22:13] and to give people a snippet of like
+- [22:14] we've got it you know you just got to
+- [22:16] put in the thing here and you'll be able
+- [22:18] to see it overall I I thought this is uh
+- [22:20] really great website Juicebox. Like it's
+- [22:22] clear they've invested the time and it
+- [22:24] feels unique. It feels like uh a brand
+- [22:27] that I would remember. Um and it's all
+- [22:30] very thoughtful in the way they're
+- [22:31] communicating the product.
+- [22:32] >> Like aesthetically, I think this looks
+- [22:33] very very uh modern and and sort of like
+- [22:37] maybe AI forward in a way. It's a bit
+- [22:39] brutalist, which I kind of like.
+- [22:42] >> That's an on trend style now.
+- [22:44] >> Yeah, it it is on trend. But then the
+- [22:46] disconnect for me is a bit about okay
+- [22:48] but if this is about people it feels
+- [22:50] very distant from being a people
+- [22:53] solution right it's helping me hire
+- [22:55] someone
+- [22:55] >> but it's very black and white and the
+- [22:59] hints of color there pretty sparse
+- [23:01] purple little bit of blue and then the
+- [23:03] name for me with the logo is that that
+- [23:06] that feels probably the most
+- [23:08] disconnected from from the solution that
+- [23:11] it's trying to be
+- [23:11] >> that is a great point there there aren't
+- [23:13] a lot of people's faces and humanness to
+- [23:16] it. I I guess we have a couple avatars
+- [23:18] there, but outside of that, there
+- [23:19] doesn't seem to be much.
+- [23:21] >> Yeah. I And I do like that, you know,
+- [23:23] win the talent war, but it's also kind
+- [23:24] of it sounds pretty heavy-handed for a
+- [23:27] product that's called juice box,
+- [23:29] >> right?
+- [23:29] >> Talent war. See what I'm saying? Yeah.
+- [23:31] >> Yeah. And the style, it's interesting
+- [23:33] because the style of this actually looks
+- [23:35] a lot more like an Anderil or Palunteer
+- [23:38] or something like that, right? Which is,
+- [23:40] you know, literal war for a lot of them.
+- [23:43] And uh this is not that finding talent,
+- [23:45] but uh it definitely got my attention
+- [23:47] reading that. Awesome.
+- [23:48] >> Great job, Juicebox. Next up, we've got
+- [23:50] Leaping AI.
+- [23:52] >> Automate your call center with voice AI.
+- [23:54] Human-like AI voice agents to replace
+- [23:56] your whole complex call center. Trusted
+- [23:59] by enterprises and large call centers to
+- [24:01] deliver the same or better customer
+- [24:03] satisfaction than human agents at scale.
+- [24:06] Okay, so everything about this is
+- [24:08] telling me this is for large call
+- [24:10] centers, enterprises at scale, doing
+- [24:13] better than humans, complex. It's like
+- [24:16] every word in here is just hitting at
+- [24:18] like if you have a complex large call
+- [24:21] center like we are the solution for you.
+- [24:23] >> Yep. Yeah. I think uh the positioning
+- [24:24] and the text very clear what it is. My
+- [24:28] first reaction to the layout and how
+- [24:31] things are looking and feeling is that
+- [24:33] this feels more like a consumer thing
+- [24:35] that I'm looking at because it's a phone
+- [24:37] with a single person on it,
+- [24:39] >> but the messaging is is positioning in a
+- [24:42] different way. It's saying, "No, this is
+- [24:45] >> um for large call centers." And so if if
+- [24:48] you want me to think about large call
+- [24:49] centers, show me seven of those phones
+- [24:51] with a bunch of different people on it.
+- [24:53] Now I'm thinking about multiple things
+- [24:54] going on instead of one.
+- [24:56] >> Yeah.
+- [24:57] Okay. So,
+- [24:59] normally when when we take a look at
+- [25:01] voice AI sites, there's like a play
+- [25:03] button or like something to start a
+- [25:06] conversation to have a conversation with
+- [25:07] it. Click to answer seems to be a thing,
+- [25:11] but it was not obvious to me that that's
+- [25:12] what I should click on to actually try
+- [25:14] this out. So, let's see what happens if
+- [25:16] I click this.
+- [25:17] >> Hello, this is Alex from Leaping AI. Who
+- [25:19] am I speaking to?
+- [25:20] >> Hey, Alex, this is Aaron.
+- [25:24] >> Hey, Aaron. Nice to meet you. So, what's
+- [25:26] got you curious about AI and phone calls
+- [25:28] today? Are you folks at your company
+- [25:30] looking to automate some of those
+- [25:31] endless ringing phones?
+- [25:33] >> Yeah, we have a call center. It's really
+- [25:35] complex. Uh, I was wondering if you
+- [25:37] could help me out.
+- [25:39] >> Absolutely, Aaron. Complex call centers
+- [25:41] are my favorite puzzle.
+- [25:42] >> Oh, I forgot to mention it's actually
+- [25:44] overseas also.
+- [25:47] >> No worries, Aaron. When you say over
+- [25:49] some piece, do you mean your call center
+- [25:52] handles both phone and chat or something
+- [25:54] else? Oh, no. I actually said overseas.
+- [25:58] >> Ah, got it. Overseas. Thanks for
+- [26:00] clarifying, Aaron. Are your call center
+- [26:02] agents based internationally or are your
+- [26:04] customers mostly overseas? What's the
+- [26:05] biggest headache you're running into
+- [26:07] right now?
+- [26:07] >> Trying to coordinate with time zones is
+- [26:09] a big problem.
+- [26:12] >> Oh, time zones. The ultimate boss level.
+- [26:14] That can be a real pain.
+- [26:15] >> It's pretty good.
+- [26:16] >> Yeah.
+- [26:17] >> I mean, you're trying to give it a hard
+- [26:19] time, but uh, you know, good job.
+- [26:21] >> Yeah, it did well. It rolled with the
+- [26:23] punches. um it understood most of of
+- [26:25] what I was saying there. I guess my
+- [26:26] biggest take away from the demo is like
+- [26:28] if I was actually a potential customer,
+- [26:30] it wasn't driving me to like the
+- [26:33] problems of that customer. It was just
+- [26:35] kind of like, oh, tell me about like
+- [26:37] calls, you know, it should be like, tell
+- [26:39] me about your call center, something
+- [26:40] like that.
+- [26:41] >> I do think that we were just uh talking
+- [26:43] about animation. I I think this is an an
+- [26:46] an example of animations done quite
+- [26:48] well. Um, so the pulsing background
+- [26:50] here, click to answer. It's pretty clear
+- [26:53] that you know something here you want,
+- [26:55] they want the user uh want to guide the
+- [26:58] user to to click on that click to answer
+- [27:00] button. Yeah.
+- [27:00] >> And as you scroll. Okay. Wow. Okay. This
+- [27:03] is uh immersive. Very cool.
+- [27:07] >> It just keeps getting bigger and bigger
+- [27:09] >> and more purple.
+- [27:12] >> This is interesting. Like it takes over
+- [27:13] the screen and they get rid of the
+- [27:14] navbar, but they keep the like enter
+- [27:17] your email.
+- [27:17] >> Yep. up there that call to action.
+- [27:20] >> Yeah, I think the interactions and the
+- [27:21] animations here are really immersive,
+- [27:23] trying to uh pull me in and I'm happy to
+- [27:27] see that they're showing some more
+- [27:28] agents here um
+- [27:30] >> instead of it just being sort of a
+- [27:32] single player feel.
+- [27:33] >> Yeah. Trusted by industry leaders, uh
+- [27:37] university call center automating 50% of
+- [27:40] calls. Okay, so some customer social
+- [27:43] proof here. Got enterprisegrade security
+- [27:45] again which is important because they
+- [27:47] were very clear upfront that they're
+- [27:49] going after enterprises.
+- [27:50] >> Yep.
+- [27:51] >> Uh data inhouse robust guard rails unit
+- [27:53] tests expert experimentation.
+- [27:56] Uh schedule a free consultation
+- [27:59] provide details in here.
+- [28:02] Um not sure what this is.
+- [28:05] Yeah. Again this kind of comes back to
+- [28:07] your like makes me think it happens on
+- [28:09] an iPhone rather than a call center. I
+- [28:10] imagine like software being run in
+- [28:12] distributed systems.
+- [28:14] >> Yep.
+- [28:14] >> Um so that feels a little disconnected.
+- [28:17] More FAQs.
+- [28:19] And then we got a little hidden footer
+- [28:21] at the bottom. Very cool.
+- [28:24] >> Yeah. I think there's a lot of details
+- [28:26] uh interaction wise and animation wise
+- [28:28] that that I that I think are um of high
+- [28:31] quality that like seem to be
+- [28:34] >> Yeah. It's got a pretty distinct
+- [28:36] aesthetic going for uh for it. So, the
+- [28:39] aesthetics I think are are feel
+- [28:41] polished. I think the interactions are
+- [28:43] are helpful, not in the way. I think the
+- [28:45] animations are pretty awesome.
+- [28:48] >> I think my main piece of feedback, if I
+- [28:51] have to look at this page top to bottom,
+- [28:52] is that it's clearly trying to position
+- [28:54] itself as an enterprise large scale team
+- [28:57] solution.
+- [28:58] >> Y,
+- [28:58] >> but nothing about that aesthetic really
+- [29:01] drives that home for me.
+- [29:02] >> Mh. So, I would try to figure out how to
+- [29:05] align that a bit better with what do
+- [29:08] enterprises actually need and and what
+- [29:10] are some of the use cases that you're
+- [29:11] trying to solve. I think that demo at
+- [29:13] the top is pretty awesome.
+- [29:14] >> Y
+- [29:15] >> uh in the fact that it works and it got
+- [29:17] us to try the product uh without a
+- [29:20] signup field and and and kind of like in
+- [29:22] the browser.
+- [29:22] >> Yeah.
+- [29:23] >> But it it's a bit disconnected from okay
+- [29:27] now what would happen next if I am an
+- [29:30] enterprise and I want to try this out.
+- [29:31] >> Yeah. I think um I don't know, maybe
+- [29:33] this is stereotypical and not true. U
+- [29:36] but I if he had a headset on, you know,
+- [29:39] it makes me think like he's at a call
+- [29:41] center and and I'm going to demo that.
+- [29:42] And even this here, click to answer. I
+- [29:45] found it because I was looking for
+- [29:47] something like this. I was looking for a
+- [29:48] play button or or something like that to
+- [29:50] have a conversation or a phone button
+- [29:52] which was here. But um if this kind of
+- [29:54] had like a pulsing purple glow, you
+- [29:58] know, that just kind of told me like
+- [29:59] click on this. this is the next thing
+- [30:01] that we want you to do. Um, I think it's
+- [30:03] more likely that that would be clicked
+- [30:04] as well. Overall, like I think this is
+- [30:06] great. I I think you're right. It's a
+- [30:08] great example of animations adding value
+- [30:10] by helping communicate functionality and
+- [30:12] what the product actually does, which is
+- [30:14] really great. And overall, it looks
+- [30:15] modern and professional.
+- [30:17] >> Yeah, I agree. Awesome.
+- [30:18] >> Well done, guys.
+- [30:19] >> Next up, we got the hog.
+- [30:22] >> Whoa, the hog.
+- [30:24] >> It's a lot going on here. Scale your
+- [30:25] growth. The hog gives you gas. Growth as
+- [30:28] a service. Unlock the power of full
+- [30:31] sales and marketing team with AI agents
+- [30:33] that research, plan, and execute your
+- [30:34] GTM strategies. Save hundreds of hours
+- [30:37] of work.
+- [30:39] >> All right.
+- [30:40] >> All right. I mean, it definitely leaves
+- [30:42] an impression. The hog.
+- [30:44] >> Yeah. I think one of the biggest things,
+- [30:46] so yeah, obviously in the messaging,
+- [30:47] right, the hog gives you gas. Like
+- [30:49] they're
+- [30:49] >> they're going for it.
+- [30:51] >> Um, the first thing that I notice is the
+- [30:53] font. There's a lot of, you know,
+- [30:58] swirly elements here that make it harder
+- [31:00] to read.
+- [31:00] >> Yep.
+- [31:01] >> And one thing that stood out to me here,
+- [31:02] too, and and and it looks like it's
+- [31:03] right. There's two spaces in between the
+- [31:05] hog and gives.
+- [31:07] >> Maybe they did that on purpose to create
+- [31:10] some more. Isn't that also between scale
+- [31:12] and your is that one or two?
+- [31:13] >> Yeah, that's why it makes me think
+- [31:15] there's an error here.
+- [31:16] >> Yeah.
+- [31:16] >> And let's see. Yeah, this one is one.
+- [31:18] This one is one. This one is two. Yeah,
+- [31:22] >> spacing uh can be improved.
+- [31:25] >> That's the that's the designer curse
+- [31:26] right there. Like a detail like that
+- [31:28] that feels very minor, but it leads to
+- [31:30] that impression of like something is off
+- [31:32] here. Something is not quite right, even
+- [31:33] though it's so minor. Um same thing
+- [31:35] here. Actually, the period has a space
+- [31:38] from the S to the period. And so when I
+- [31:42] see this, my takeaway is whoever is
+- [31:44] behind this is not detail oriented.
+- [31:46] >> Yeah. But overall, I would say like the
+- [31:48] wrapping like this needs a max width
+- [31:50] that doesn't exceed this. So it starts
+- [31:53] here and it ends there. Ideally, it
+- [31:55] starts here,
+- [31:56] >> ends there. And yeah,
+- [31:57] >> right. So there's a funnel, right, going
+- [31:58] down to the button.
+- [32:00] >> Yeah.
+- [32:00] >> But the thing that most mostly stands
+- [32:02] out to me, I mean, obviously the name,
+- [32:04] but then they went for some sort of like
+- [32:06] emoji as the logo. I don't know what to
+- [32:08] make of that. Like I don't I don't think
+- [32:10] that's a very good logo. uh naming wise,
+- [32:15] you really want to associate a hog with
+- [32:18] my growth service. I I don't know, maybe
+- [32:21] that's a reference that I don't
+- [32:22] understand. Maybe that's something
+- [32:23] cultural does.
+- [32:24] >> Yeah. So, this is not obvious from here,
+- [32:26] but um I saw this company's launch
+- [32:28] recently. Okay.
+- [32:29] >> And I believe that hog stands for head
+- [32:31] of growth.
+- [32:32] >> Oo, okay.
+- [32:34] >> Which maybe they should say that, right?
+- [32:36] >> I mean, I didn't did Did you know that?
+- [32:37] >> I I would not have known that had I not
+- [32:39] seen that. Yeah. I'm glad to hear that
+- [32:41] it's not me.
+- [32:41] >> Yeah. Thank you.
+- [32:43] >> Okay. So, head of growth uh is that's
+- [32:45] the hog and then
+- [32:47] >> and he gives you gas which is he gives
+- [32:49] you growth as a surface.
+- [32:50] >> Okay.
+- [32:50] >> Okay. So, a couple of things that stand
+- [32:52] out to me. One, the font choices seem
+- [32:54] random. Yeah.
+- [32:55] >> Um you know, you've got this, you know,
+- [32:57] script kind of thing going on up here.
+- [33:00] And then down here, it's just kind of,
+- [33:01] you know, generic like Helvetica or
+- [33:03] something. Um and then this is weird up
+- [33:08] here. log in and request a demo. It
+- [33:10] looks like um a toggle button, but I
+- [33:13] assume they're both individual buttons,
+- [33:15] which is strange.
+- [33:18] Um and then I can't tell what's
+- [33:20] happening here. There's like a bunch of
+- [33:22] icons going into the hog and then
+- [33:26] paid digital marketing and LinkedIn
+- [33:28] outreach is coming out. That doesn't
+- [33:29] make sense to me.
+- [33:30] >> Yeah, I know. This is uh it's it's a lot
+- [33:33] to take in. It's not obvious to me what
+- [33:35] the workflow is that we're trying to
+- [33:38] sell.
+- [33:39] >> Yeah. And what do they do? I guess like
+- [33:41] they research, plan, and execute GTM
+- [33:43] strategies. And then there's these
+- [33:45] things. And these are moving kind of
+- [33:46] fast. So like it's hard for me to read
+- [33:48] them all. Okay. Introducing The Hog, the
+- [33:50] all-in-one marketing, and sales tool.
+- [33:52] One platform for research, planning,
+- [33:54] execution. Again, this is like so wide.
+- [33:56] It feels exhausting to have to like read
+- [33:58] all the way across this sentence. The
+- [34:00] hog.ai AI tracks competitors, listens
+- [34:02] across social, ranks channels by ROI,
+- [34:04] and writes the blogs and posts that fuel
+- [34:06] thought leadership and brand growth.
+- [34:08] >> Okay, I mean, that is clear. And there's
+- [34:10] a video.
+- [34:11] >> Yeah, interestingly, this is our first
+- [34:12] video, so let's check this out.
+- [34:14] >> I love truffles,
+- [34:16] but here's the problem. They're really
+- [34:18] expensive and incredibly hard to find.
+- [34:22] This is Hanzo. He's a truffle pig.
+- [34:24] >> Yay.
+- [34:26] >> His job to help me find my precious
+- [34:28] truffles. Here's the thing. We know that
+- [34:30] finding your customers can be just as
+- [34:33] hard.
+- [34:35] And this is why we created the hog.
+- [34:39] It's like the Google maps for customer
+- [34:41] acquisition.
+- [34:41] >> We help you uncover every possible route
+- [34:43] and highlight the most optimized path to
+- [34:45] help you reach your customers.
+- [34:46] >> The future of go to market is not that.
+- [34:49] >> This is like a twominute video.
+- [34:51] >> Okay. Hey, at least they understand the
+- [34:53] hog and and and why that's a good
+- [34:55] reference. It could work.
+- [34:58] helps find the truffle the customers.
+- [35:00] >> Yeah. Yeah. Yeah. Yeah. We definitely
+- [35:02] need to get some max width. Uh yeah. Set
+- [35:04] up.
+- [35:04] >> There's a daily action center here.
+- [35:06] Okay. So, now we're starting to see the
+- [35:07] product. This is the first time we've
+- [35:10] seen this here. I can't quite tell
+- [35:12] what's going on. I'm in the hog. I can
+- [35:16] generate a reply
+- [35:18] um
+- [35:21] to something on LinkedIn, I guess. So, I
+- [35:24] guess it just centralizes a lot of your
+- [35:26] social interactions and customer
+- [35:28] outreach on those platforms, maybe.
+- [35:29] >> Yeah,
+- [35:30] >> if that's right. Oh, and then there's an
+- [35:31] agent center. It's a control room. Okay.
+- [35:35] Um,
+- [35:37] I can't quite tell what's going on here.
+- [35:38] There's a lot of text and stuff.
+- [35:40] >> This is a this is a long landing page. I
+- [35:43] think you're you're about a third in.
+- [35:46] >> Okay, let's speed up. No, not not saying
+- [35:48] that, but like that's that's typically
+- [35:50] if you have that much to to to to
+- [35:53] communicate. Um
+- [35:55] >> I wonder if I click on pricing if it
+- [35:57] just jumps me. Yeah, it jumps me down on
+- [35:58] the page.
+- [36:00] >> Okay.
+- [36:00] >> Okay, we're halfway. Yeah.
+- [36:01] >> Get real measurable results,
+- [36:04] ROI, blah blah blah. Here's some people.
+- [36:06] Uh this doesn't say like what company
+- [36:09] they're from, so it seems sort of made
+- [36:10] up. It's just like this guy's a head of
+- [36:12] growth and this guy's a VP of marketing,
+- [36:14] but like where have we heard of their
+- [36:15] company? Are they good? Did you just
+- [36:17] make this up? Why is every word
+- [36:19] capitalized here? Um, it makes me think
+- [36:22] like humans don't write like that. Yeah.
+- [36:24] >> And so this feels like it's actually not
+- [36:25] a direct quote. This one too. The
+- [36:27] chances that both of these people
+- [36:29] actually write by capitalizing the first
+- [36:31] word of every sentence, I don't believe
+- [36:33] and therefore I don't believe these are
+- [36:35] real quotes as a result.
+- [36:36] >> And that makes you question the numbers
+- [36:38] that are uh being written down as well.
+- [36:40] >> Yeah.
+- [36:41] >> Yeah. Exactly. is kind of to your point
+- [36:43] earlier about it's the little things
+- [36:44] that kind of subconsciously add up and
+- [36:46] tell you a story about what's really
+- [36:48] going on here. Yeah. Our features unlock
+- [36:50] the power of entire sales and marketing
+- [36:51] team. Okay. Find my customers. All
+- [36:53] right. So, we're just going through a
+- [36:54] bunch of screenshots here and then
+- [36:56] they've got the pricing thing.
+- [36:59] >> But is this a SAS product or is it more
+- [37:02] like a service? Because at at the top
+- [37:04] they say it's a service.
+- [37:06] >> Yeah, they said growth as a service I
+- [37:08] guess. Okay. I think they were trying to
+- [37:10] play on SAS, you know. I think that's
+- [37:13] what they're trying to do. But you're
+- [37:14] right. If you just took it as like the
+- [37:15] service thing, then you would think
+- [37:17] maybe it's like humans come and help you
+- [37:19] with this.
+- [37:19] >> Like some agency that I paid 200 bucks a
+- [37:21] month,
+- [37:22] >> right?
+- [37:22] >> Yeah.
+- [37:23] >> Interestingly, they use the same widget
+- [37:25] here for the login and request demo, but
+- [37:27] this one actually feels like it's a
+- [37:29] toggle to go between monthly and yearly.
+- [37:32] >> Yeah.
+- [37:32] >> Um Okay. And if I click login. Yeah.
+- [37:35] >> So, this one actually takes me to a
+- [37:36] login page. So the problem with this is
+- [37:40] totally different interaction between
+- [37:42] the same widget here on the same page,
+- [37:44] right?
+- [37:45] >> Yeah, that's very confusing.
+- [37:48] >> The hog essentials are always included.
+- [37:51] So what our clients say again, no
+- [37:54] company name, business analyst, product
+- [37:57] designer, every word is capitalized,
+- [38:00] sales executive.
+- [38:02] Um, put the names in there to make it
+- [38:04] more real. The more specific the better.
+- [38:08] Okay. And then come work with us.
+- [38:11] Custom dashboard. Yeah. Okay. So,
+- [38:13] there's just a lot of stuff here like
+- [38:14] all on one page, right?
+- [38:16] >> Yeah. Yeah. There's there's there's uh
+- [38:17] probably way too much going on from the
+- [38:19] overall style, I would say, to to the
+- [38:21] typography, the layout. It's too much.
+- [38:24] >> Yeah. It's interesting because I think
+- [38:25] sometimes founders feel like we got to
+- [38:27] put everything in there to tell people
+- [38:28] all the things, but really what ends up
+- [38:31] happening is you create a lot of noise
+- [38:32] that distracts from like the core thing
+- [38:34] you really want somebody to take away.
+- [38:36] >> Yeah. I mean, for me, this was pretty
+- [38:37] overwhelming. Uh just to piece together
+- [38:40] the name, what's going on, is it the
+- [38:42] service, is it a product, what am I
+- [38:44] buying, what's the problem it solves,
+- [38:47] and then like you're pointing out, like
+- [38:49] all the tiny little details adds to a
+- [38:51] feeling of being a bit overwhelmed. So,
+- [38:52] it seems like our advice here is
+- [38:55] simplify.
+- [38:55] >> Yeah.
+- [38:56] >> Pair down in terms of both content and
+- [38:59] the styles that are on the page. This, I
+- [39:01] don't think, was helpful.
+- [39:02] >> No.
+- [39:03] >> Uh, this animation. It's okay to have
+- [39:05] multiple pages on a website.
+- [39:07] >> It's okay.
+- [39:07] >> You can put the about stuff on a
+- [39:09] separate page. You can put pricing on a
+- [39:10] separate page.
+- [39:11] >> I do think this kind of like it feels at
+- [39:13] the first step is like I I don't really
+- [39:15] know what this is.
+- [39:16] >> So, I think a really good exercise for
+- [39:18] this team to do is to just like put this
+- [39:20] page to the side. Mhm.
+- [39:22] >> Make a new one and the only thing that
+- [39:24] you're allowed to put on there is things
+- [39:27] that help me understand what it is
+- [39:29] >> and then test that on 20 people that
+- [39:31] don't know what it is. Yeah.
+- [39:32] >> And ask them, yep,
+- [39:33] >> what do you think this is? From there,
+- [39:34] you can expand and turn it into a more
+- [39:36] full landing page. But it's a good
+- [39:37] exercise.
+- [39:38] >> Well, product seems really cool. A lot
+- [39:39] of founders would want to use this. Get
+- [39:41] some growth.
+- [39:42] >> For sure.
+- [39:42] >> For a a small monthly fee, right?
+- [39:44] >> Yeah. I mean, this is everyone's dream.
+- [39:45] I just like subscribe here and my
+- [39:48] company goes Yeah. up and to the right.
+- [39:50] >> Yep. Awesome. Nice job, the hog. That
+- [39:53] does it for us.
+- [39:53] >> All right.
+- [39:54] >> Thank you. Th This was incredible. Great
+- [39:56] feedback and and love uh seeing the
+- [39:58] types of things that you hone in on and
+- [40:00] that you're looking for when you
+- [40:01] evaluate uh sites and products.
+- [40:03] >> Cool. Yeah, thanks for having me. I
+- [40:04] mean, I I enjoyed this a lot. If any of
+- [40:06] these startups need help, guy at
+- [40:08] framer.com gladly set you up with an
+- [40:10] expert to help with some of the details.
+- [40:12] >> Awesome. Well, thank you, Yorn, for
+- [40:13] joining and thank you all for watching
+- [40:15] another episode of Design Review. We'll
+- [40:17] see you on the next one.

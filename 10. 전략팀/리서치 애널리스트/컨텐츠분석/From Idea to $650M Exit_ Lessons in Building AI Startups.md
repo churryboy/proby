@@ -1,0 +1,1203 @@
+## Key insight / summary
+
+- **직무 중심 아이디어 선정**: AI 제품은 "사람들이 현재 돈을 지불하고 있는 직무"를 타겟팅해야 함 (현재 고객 지원, 보험 조사, 변호사, 개인 트레이너 등에게 지불하는 비용이 곧 TAM)
+- **3가지 AI 제품 카테고리**: ①전문가 업무 보조(assistance), ②완전한 직무 대체(replacement), ③기존에 불가능했던 작업 실현(previously unthinkable)
+- **TAM의 폭발적 확장**: 기존 SaaS는 월 20달러 구독료 × 사용자 수였지만, AI는 전체 직무 급여(월 수천~수만 달러)가 TAM이 되어 10-1000배 증가
+- **도메인 전문성의 중요성**: 창업자가 해당 분야를 직접 경험했거나, 전문가를 공동창업자로 영입해야 함 (Case Text 팀의 30-40%가 변호사 출신)
+- **최고 전문가 관점의 역설계**: "그 분야 최고 전문가가 무제한 시간과 AI를 가지고 있다면 어떻게 할까?"라는 질문으로 제품 설계
+- **신뢰성(Reliability) 우선**: 멋진 데모에서 실제 업무에 사용 가능한 제품으로 가는 핵심은 일관된 품질과 신뢰성
+- **민주화 효과**: AI로 기존에 부유층만 접근 가능했던 전문 서비스를 일반 대중도 이용할 수 있게 만듦 (법률 서비스의 85%가 저소득층 접근 불가능한 현실 해결)
+
+## Key implications for Proby platform
+
+- **사용자 리서처 직무 분석 심화**: Proby는 "정성조사 모더레이터"라는 명확한 직무를 타겟팅하고 있으나, 실제 리서처들이 하는 세부 업무를 더 구체적으로 분석해야 함 → 리서처 인터뷰를 통해 "모더레이션 외에도 어떤 시간 소모적 업무들이 있는지" 파악하고 추가 자동화 기회 발굴
+
+- **TAM 재계산 및 가격 전략 재검토**: 현재 기존 조사 대비 5-10배 비용 절감을 어필하지만, 실제로는 "리서처 급여 전체"가 TAM이라는 관점에서 가격을 재설정 → 월 수백만원을 받는 시니어 리서처의 업무를 상당 부분 대체할 수 있다면 현재보다 훨씬 높은 가격도 정당화 가능
+
+- **3단계 제품 진화 로드맵 수립**: ①현재의 모더레이션 보조 → ②완전 자동화된 무인 조사 플랫폼 → ③기존에 불가능했던 대규모 실시간 글로벌 조사 제공 순으로 발전 → 특히 3단계에서 "수천 개 문서를 AI가 동시에 읽는" 사례처럼 수만 명 동시 인터뷰 같은 차별화된 기능 개발
+
+- **도메인 전문성 강화 방안**: 팀 내 UX 리서처 출신 비율을 높이거나, 주요 고객사에 임베드되어 실제 업무 프로세스를 체험하는 기간 필요 → McKinsey 문서에서 지적한 "가정 검증" 문제 해결을 위해 타겟 고객과의 더 깊은 협업 관계 구축
+
+- **"최고 리서처 + 무제한 AI" 시나리오 설계**: 삼성, 네이버 등의 시니어 UX 리서처가 시간 제약 없이 완벽한 조사를 설계한다면 어떤 프로세스를 거칠지 역설계 → 이를 통해 단순 모더레이션을 넘어서 조사 설계, 질문 최적화, 심층 분석까지 포함하는 end-to-end 플랫폼으로 확장
+
+- **신뢰성 검증 체계 구축**: "AI 모더레이션 품질이 인간과 동등하다"는 가정을 블라인드 테스트로 검증하고 결과를 공개 → 보수적인 리서치 업계에서 신뢰를 얻기 위해 학술적 검증, 대기업 케이스 스터디 등을 통한 credibility 확보
+
+- **유니콘 기업 집중 전략**: McKinsey 문서의 beachhead 전략과 연계하여, 글로벌 조사 니즈가 높은 유니콘 기업(토스, 당근마켓, 야놀자 등)을 우선 타겟팅 → 이들은 해외 진출 시 현지 사용자 조사에 대한 acute pain point를 가지고 있어 Proby의 다국어 AI 모더레이션 가치를 가장 높게 평가할 것
+
+- **민주화 포지셔닝 강화**: 현재 대기업 중심 타겟팅에서 "스타트업도 대기업 수준의 정성조사를 할 수 있게 하는" 민주화 메시지 추가 → 초기 스타트업 PM들에게는 기존 수천만원 조사 대신 수십만원으로 동등한 인사이트를 제공한다는 접근성 어필
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=l0h3nAW13ao
+
+- [00:00] What we're going to talk about today is
+- [00:02] how my company uh built an AI app that
+- [00:05] was so good we're able to bring it to an
+- [00:08] exit for $650 million and how you can do
+- [00:11] that too. All right, so really we're
+- [00:14] talking about three big ideas today. The
+- [00:17] first is
+- [00:19] what ideas to pick. How do you decide
+- [00:22] what to pursue? Second is how you
+- [00:25] actually build it. And third, and
+- [00:27] honestly often overlooked, is how you
+- [00:30] take that thing that you built and
+- [00:32] market and sell it successfully in the
+- [00:34] market. Before we dive into this, a
+- [00:35] little bit about me so you know who's
+- [00:37] talking to you. I grew up a coder. Uh
+- [00:42] I've been building stuff since as long
+- [00:43] as I can remember. It's probably the
+- [00:44] same as basically everybody here. Bit of
+- [00:45] a side quest for me, but I fell in love
+- [00:47] with law and policy and I became a
+- [00:49] lawyer. And I had a pretty conventional
+- [00:51] though brief legal career. uh law
+- [00:54] school, clerkship,
+- [00:56] you know, big law firm, etc. I think
+- [00:58] like anybody who builds stuff and then
+- [01:00] goes to one of these old professions
+- [01:02] like law or accounting or finance or
+- [01:04] whatever, the first thing you find out
+- [01:05] is I cannot believe that they were doing
+- [01:08] it this way. And so I immediately left
+- [01:09] that and founded a company called Caseex
+- [01:12] in 2013 when I think uh a lot of you
+- [01:15] were about turning eight. And maybe as a
+- [01:17] side note, that's about how long it
+- [01:19] takes sometimes for these companies to
+- [01:20] be successful. So, I know you're, you
+- [01:22] know, 18, 19, 20, 21, 22, whatever old
+- [01:24] right now. Be ready to sign up for one
+- [01:27] of the most amazing adventures of your
+- [01:29] life when you start a startup, but it
+- [01:31] takes time. At KStex, we've been focused
+- [01:33] for, you know, the vast majority of our
+- [01:35] experience on a deep conviction that AI
+- [01:38] when applied to law can make a huge
+- [01:41] difference. And by the way, it wasn't
+- [01:42] even called AI when we started focusing
+- [01:44] on it. It was called natural language
+- [01:45] processing, maybe machine learning. But
+- [01:48] one of our AI researchers who is here
+- [01:50] today uh Javeed saw woo saw an early
+- [01:55] application um as soon as the BERT paper
+- [01:57] came out attention all you need etc.
+- [01:58] this like seven years ago of how AI
+- [02:01] technology could apply to uh making
+- [02:04] lawyers lives better for example making
+- [02:06] search a lot better because we were so
+- [02:08] focused on large language models and
+- [02:10] were researching deeply in this space we
+- [02:14] got really early access to GPT4
+- [02:17] like summer 2022 we were like $20
+- [02:20] million in revenue we were doing great I
+- [02:22] had like 100 people and we stopped
+- [02:24] everything that we were doing and said
+- [02:26] we're going to build something totally
+- [02:27] new based on this new technology and
+- [02:29] that became a product called co-consel
+- [02:31] which was the first ever and I think
+- [02:33] still the best AI assistant for lawyers
+- [02:35] for reasons I'll go into the rest of
+- [02:36] this talk we were acquired by Thompson
+- [02:38] Reuters uh not about two years ago for
+- [02:41] $650 million in cash by the way that
+- [02:43] feels like a big number but I think for
+- [02:45] a lot of folks in this room you're going
+- [02:46] to look back at this talk and be like I
+- [02:48] can't believe that was a big number back
+- [02:50] then you guys are going to be able to
+- [02:51] build things that are so much more
+- [02:52] valuable I I really believe that and I
+- [02:54] think that's because the what AI is
+- [02:56] going to unlock for all of you is the
+- [02:58] ability to build amazing stuff in this
+- [03:00] for this world. So, okay, how do you
+- [03:02] pick an idea?
+- [03:13] something people want. And the reason
+- [03:14] they had that saying is because it's
+- [03:17] genuinely difficult to know what people
+- [03:18] want, especially in like the old world
+- [03:20] of binning software. You kind of like
+- [03:22] have to build something, get it in users
+- [03:23] hands, and try and fail a lot of
+- [03:26] different times. And you just hope that
+- [03:28] it's something that people actually want
+- [03:30] to use. So that's why the saying for Y
+- [03:32] Comier is make something people want. I
+- [03:34] actually think it just got a lot easier
+- [03:36] because what do people want? Well, what
+- [03:38] do people want? For example, things
+- [03:39] they're paying for right now. People are
+- [03:42] currently paying people to do tasks,
+- [03:45] right? In this case, it's a bunch of
+- [03:47] very unhappy like customer support
+- [03:48] people or something like that. But we
+- [03:50] already know what people want because
+- [03:51] they're paying people to do it. This
+- [03:52] includes a lot of work like customer
+- [03:54] support or insurance adjusters or
+- [03:57] parallegals or in you know things you do
+- [03:59] in your personal life like personal
+- [04:00] trainers or executive assistants or
+- [04:02] whatever. That is what people want. And
+- [04:04] so the the problem of choosing what
+- [04:06] people want just got a lot easier
+- [04:08] because now you just have to look what
+- [04:09] are people paying other people to do uh
+- [04:12] for a lot of those problems either you
+- [04:14] know traditional AI like LLMs can solve
+- [04:17] many of the problems that people work on
+- [04:19] right now and if not that then robotics
+- [04:22] can solve a lot of things that people
+- [04:23] are working on in the physical world and
+- [04:25] what I think you're going to see as you
+- [04:27] decide what you're going to build you
+- [04:28] you first pick an area to target it
+- [04:30] really kind of falls under three
+- [04:32] different categories one is like
+- [04:33] assistance
+- [04:34] where say a professional needs help
+- [04:36] accomplishing a task. That's what we
+- [04:37] built at co-consel. Lawyers need a lot
+- [04:40] of help reading a lot of documents,
+- [04:41] doing research, reviewing contracts,
+- [04:43] marking them up, making red lines,
+- [04:45] sending them to opposing council. So
+- [04:47] that's one big category is assisting
+- [04:49] people doing their work.
+- [04:52] The second big category is just
+- [04:54] replacing the work altogether. People
+- [04:56] currently hire lawyers. What if we just
+- [04:58] became a law firm powered by AI? people
+- [05:01] currently hire accountants and find
+- [05:02] financial experts and physical
+- [05:04] therapists and and and you know people
+- [05:06] to fold your laundry whatever it may be
+- [05:09] right you can just replace that task
+- [05:11] using AI and finally the third category
+- [05:13] is you can do uh things that were
+- [05:17] previously unthinkable right like for
+- [05:19] example at law firms they would have
+- [05:22] hundreds of millions of documents and
+- [05:25] they would never think in a million
+- [05:26] years I should have people read over
+- [05:28] every single document and categorize it
+- [05:30] in certain ways and summarize it and
+- [05:32] index it, etc. It just would be insane,
+- [05:34] right? It cost them millions and
+- [05:36] millions and millions of dollars. But
+- [05:38] now that AI is here, you can have
+- [05:39] thousands of instances of Gemini 2.0,
+- [05:42] Flash, or whatever, read over every
+- [05:43] document. The previously unthinkable is
+- [05:45] now thinkable. These are basically the
+- [05:46] three categories um of ideas to choose.
+- [05:49] And what I think is incredible about
+- [05:51] this is the amount of money to be made
+- [05:54] with these new kind of categories each
+- [05:56] has gone way up. It used to be that
+- [06:00] what's called the total addressable
+- [06:02] market, which is basically how much
+- [06:03] money you can make from your product was
+- [06:05] the number of like professionals, for
+- [06:07] example, number of seats you can sell
+- [06:09] times the dollars like $20 per month or
+- [06:12] whatever, right? And by the way, a lot
+- [06:13] of many billion dollar companies are
+- [06:15] built selling seats to x number of
+- [06:17] professionals. But today, the actual
+- [06:20] amount of money that we already know
+- [06:22] people and companies are willing to
+- [06:23] spend
+- [06:25] is the combined salaries of all the
+- [06:28] people they're currently paying to do
+- [06:29] the job. And that number is like a
+- [06:32] thousandx bigger. You pay $20 a month to
+- [06:36] solve a problem. For example, you know,
+- [06:39] pay a typical SAS kind of subscription,
+- [06:41] but you might pay five or 10 or even
+- [06:43] $20,000 a month to certain professionals
+- [06:46] to solve problems for you. So the amount
+- [06:49] of money that you can make with your new
+- [06:52] applications with AI has gone up by a
+- [06:54] factor of 10, 100, or even a thousand
+- [06:57] compared to what it used to be. I want
+- [06:58] to take a quick moment because it might
+- [06:59] sound like pretty dystopian like we're
+- [07:02] talking about taking all these salaries
+- [07:03] and these these become, you know, your
+- [07:06] addressable market. I think it's kind of
+- [07:08] the opposite. I think it's beautiful. I
+- [07:09] think the f the future is beautiful for
+- [07:11] two reasons. The first is that you're
+- [07:13] going to unlock a future when you
+- [07:15] replace or substantially assist certain
+- [07:18] jobs. Like people used to Sam Alman
+- [07:21] wrote about this in a recent essay.
+- [07:22] People used to have a job called lamp
+- [07:24] lighters where we didn't have like you
+- [07:27] know electricity and lights. So people
+- [07:29] go around with a like matchick or like
+- [07:32] you know lighting all the lamps at night
+- [07:34] on and then turning them off at night by
+- [07:36] putting out the candles, right? That's
+- [07:38] what things used to be. And we couldn't
+- [07:40] even imagine the kind of stuff we're
+- [07:41] doing now because uh that's what we were
+- [07:44] stuck doing in the past. So you going to
+- [07:47] unlock a future that we can't even
+- [07:49] imagine today when we you know move past
+- [07:52] the roles that we're currently doing
+- [07:54] right now. It'll feel antiquated 10 or
+- [07:56] 15 or 100 years from now to do the kind
+- [07:58] of things we're doing today because
+- [08:00] you're going to help us move past that.
+- [08:02] But as importantly, what I think some
+- [08:03] people don't think about with this
+- [08:04] stuff, which I think is very true, is
+- [08:07] you're going to democratize access to
+- [08:09] things that were used to be really,
+- [08:11] really hard or very expensive. In the
+- [08:13] field we worked in in law, over 85%
+- [08:17] of people who are low income don't get
+- [08:19] access to legal services. It takes way
+- [08:22] too long and it's way too expensive
+- [08:24] working with human lawyers, right? But
+- [08:26] if you could help make lawyers 100x
+- [08:28] faster and 10x cheaper or you know
+- [08:31] frankly just provide those services
+- [08:32] yourself as a new law firm powered by AI
+- [08:35] then all of a sudden saying where where
+- [08:38] lawyers have to turn away clients
+- [08:39] because they did not have enough money
+- [08:40] you can now say yes and that applies
+- [08:42] everywhere everybody should get the
+- [08:44] world's best financial assistant
+- [08:46] everyone in the world should get the
+- [08:47] best executive or personal assistant
+- [08:49] everyone in the world you know can
+- [08:51] already have the best coding assistant
+- [08:52] in tools like curs cursor and wind surf
+- [08:54] etc right I do think that despite the
+- [08:57] fact that I'm telling you how to pick an
+- [08:58] idea is you should potentially replace
+- [09:01] jobs, I think you're going to do
+- [09:02] something really amazing for the vast
+- [09:04] majority of consumers and enterprises uh
+- [09:07] by unlocking a better future and by
+- [09:09] democratizing access to things that used
+- [09:10] to be only for the value very wealthy.
+- [09:12] Okay, so that's that's how to pick an
+- [09:13] idea, pick a job, replace, assist or do
+- [09:17] the unthinkable um those previously
+- [09:19] unthinkable and build a better future.
+- [09:21] But how do you actually build this
+- [09:22] stuff? I'm going to give you a quick
+- [09:24] outline of how we built it. What's kind
+- [09:26] of nuts to me is everything I'm going to
+- [09:27] say right now may sound very simple and
+- [09:30] common sensical and maybe even obvious,
+- [09:32] but the craziest is nobody's doing
+- [09:34] it. Like, nobody's picking ideas the way
+- [09:37] that I recommended in terms of picking
+- [09:39] job categories. There's very very few
+- [09:41] companies out there doing that. And even
+- [09:43] fewer companies are doing what I hope
+- [09:45] will look like pretty obvious and simple
+- [09:47] things to building um reliable AI. I put
+- [09:51] it reliable and underscore for what it's
+- [09:52] worth because that's going to be the key
+- [09:55] for for many circumstances in terms of
+- [09:59] getting from a cool demo as Andrew was
+- [10:01] saying earlier today something that
+- [10:03] actually works in practice. Here's like
+- [10:05] four quick points about how to actually
+- [10:08] build this thing.
+- [10:10] The first is think about like making an
+- [10:12] AI assistant or an AI replacement for
+- [10:14] say a profession.
+- [10:16] Ask yourself like what do people
+- [10:18] actually do? What does a professional in
+- [10:20] this field actually do? What does a
+- [10:23] personal trainer or fitness coach do if
+- [10:25] that's the app you're deciding to build?
+- [10:26] What does a financial assistant do or
+- [10:28] financial analyst do? And be like super
+- [10:31] specific.
+- [10:32] I'm going to say this a few times, but
+- [10:34] it is really helpful to actually know
+- [10:36] this answer, not like make it up. It was
+- [10:39] helpful for us that that I was a lawyer,
+- [10:40] my co-founders were lawyers, 30 to 40%
+- [10:42] of my company, even the coders were
+- [10:44] lawyers because we actually lived it.
+- [10:48] That may not be the case for you. Just
+- [10:49] go be like an undercover agent
+- [10:51] somewhere. Really learn what happens at
+- [10:54] these companies, right? What do these
+- [10:56] people do? Other way to do it, by the
+- [10:59] way, is you might be the tech talent and
+- [11:01] you might find yourself a co-founder
+- [11:02] who's a has some deep expertise in a
+- [11:04] field. But whatever way you get there,
+- [11:08] you know, find out what what are the
+- [11:10] specific things that people do that you
+- [11:11] can assist or replace. And then ask
+- [11:13] yourself this question. How would the
+- [11:16] best person in that field do this if
+- [11:19] they had like unlimited time and
+- [11:21] unlimited resources like a thousand AIs
+- [11:23] that can all work in, you know,
+- [11:25] simultaneously to accomplish this task,
+- [11:28] right? How would the best person do this
+- [11:30] and work backwards from there, right?
+- [11:32] What are the actual steps that somebody
+- [11:34] might take to accomplish a task? For
+- [11:37] just give you an example from our legal
+- [11:39] field, we did a version of deep research
+- [11:42] two and a half years ago. uh as soon as
+- [11:45] we got access to TPD4, it was like the
+- [11:47] first thing that we did and we asked
+- [11:49] like what was the what was the best
+- [11:50] lawyer going to do if given this
+- [11:52] research question. It wasn't like just
+- [11:54] generally research like what does that
+- [11:56] even mean? They broke it down to steps.
+- [11:58] Okay, first you know they get a request
+- [11:59] for this research project and they say
+- [12:02] okay well I need to understand what this
+- [12:04] really means. They might ask clarifying
+- [12:06] questions quite like deep research today
+- [12:07] if you've used it. And then they might
+- [12:10] make a research plan. They they might
+- [12:12] execute dozens of searches might that
+- [12:14] might bring back hundreds of different
+- [12:15] results. They'll read every single one
+- [12:17] of them very carefully. Kick out the
+- [12:19] stuff that's not relevant because search
+- [12:21] results are sometimes have irrelevant
+- [12:22] stuff. Bring in the stuff that is
+- [12:23] relevant. Make notes about what they're
+- [12:26] seeing, right? Why is this relevant? Why
+- [12:28] is this not relevant? Where does this
+- [12:29] fit into my answer? And then based on
+- [12:31] all of that, put together, put it all
+- [12:32] together in an essay. and then maybe
+- [12:34] even have a step at the end where you
+- [12:35] check the essay to make sure it's
+- [12:36] accurate and reli you know actually
+- [12:39] refers to the right resources um etc etc
+- [12:42] etc. These are the kind of steps that a
+- [12:44] real professional might do when doing
+- [12:46] research. So write them down. Now you
+- [12:49] turn to code. Most of these steps for
+- [12:52] the kinds of things you'll be doing end
+- [12:54] up being prompts. One or many prompts,
+- [12:57] right? One prompt might be read the
+- [13:00] legal opinion and decide on a scale of
+- [13:03] zero to seven, how relevant is it to the
+- [13:05] question that's being asked. One prompt
+- [13:08] might be given all these notes I've
+- [13:09] taken in all the cases I've read so far,
+- [13:11] write the essay. One prompt might be
+- [13:13] like, here's a here's a footnote in the
+- [13:16] essay, here's the original resource. Is
+- [13:18] this thing, you know, accurately cited
+- [13:20] or not? The reason why that many of them
+- [13:22] are prompts is because they're the kinds
+- [13:25] of things that would once require human
+- [13:28] level intelligence, but now you're
+- [13:29] injecting it into like a software
+- [13:31] application. So now you need to, you
+- [13:33] know, do do the work of turning it into
+- [13:36] a great prompt. I'll talk about in one
+- [13:38] second to actually do that human level
+- [13:40] intelligence. By the way, if you can get
+- [13:42] away with it not being a prompt, if it's
+- [13:44] like deterministic or it's like a math
+- [13:46] calculation or something like that,
+- [13:48] that's better. prompts are slow and
+- [13:50] expensive. Tokens are still expensive.
+- [13:52] So when you're breaking down these
+- [13:54] steps, some of these things might just
+- [13:55] be good old software engineering, right?
+- [13:58] Do that when you can. And then here you
+- [14:00] make a decision when you find out how
+- [14:02] the best person would approach this. If
+- [14:05] it's a pretty deterministic like every
+- [14:06] single time they always do this task,
+- [14:08] they always follow the same five steps.
+- [14:11] Simple. Make it a workflow, right? It's
+- [14:14] actually the easiest outcome for you.
+- [14:15] And to be honest, a lot of the stuff
+- [14:17] that we built while building code
+- [14:18] council was exactly like this. Every
+- [14:20] time you do this task, you're basically
+- [14:21] going to take the same six or seven
+- [14:22] steps. And you don't need to have
+- [14:24] frankly like lang chain or
+- [14:26] whatever. Just Python code. This
+- [14:29] function then the output of this
+- [14:31] function goes in this function output of
+- [14:32] this function to this function. Boom.
+- [14:33] You're done. Right? Simple. Sometimes
+- [14:36] it's not so simple. Sometimes how expert
+- [14:38] would approach the problem really
+- [14:40] depends on the circumstances. Maybe they
+- [14:43] need to make a very different kind of
+- [14:44] research plan, pull from different
+- [14:46] resources, run different kinds of
+- [14:48] searches, read different kinds of
+- [14:50] documents, whatever it may be that
+- [14:51] you're doing, right? That's how you get
+- [14:53] to something that's a little bit more
+- [14:54] agentic. That's harder to make sure it's
+- [14:57] good. But maybe what you have to do,
+- [15:00] right? Underscore this again in doing
+- [15:02] all of this, having some form of domain
+- [15:04] expertise, somebody who knows what
+- [15:05] they're talking about here, which by the
+- [15:07] way, you can also acquire just by
+- [15:08] talking to a lot of people. There lots
+- [15:09] of different ways to get here, but don't
+- [15:11] do it. Don't don't fly blind. Don't
+- [15:13] assume this is the way that all
+- [15:15] government employees in this field do X
+- [15:18] really know. Okay. So that's the basic
+- [15:20] way you can build these AI capabilities
+- [15:23] that start to round out and that's it
+- [15:25] right simple. The hard part frankly
+- [15:27] isn't building it. The hard part is
+- [15:29] getting it right. Like how do you know
+- [15:30] the research was done well? How you know
+- [15:32] it read the document right? How do you
+- [15:34] know it edited you know it did the
+- [15:36] insurance adjustment correctly? How do
+- [15:38] you know it made a correct prediction
+- [15:39] about whether to buy or sell a sock or
+- [15:41] whatever it is that you're doing? This
+- [15:43] is where evaluations play a very very
+- [15:46] very large part. And this is the thing
+- [15:47] that I see most people not doing because
+- [15:49] they build like demo level stuff that
+- [15:52] frankly is like 60 to 70% accurate. And
+- [15:55] if we're being honest, you can probably
+- [15:56] raise a pretty good round of capital by
+- [15:58] showing your cool demo to uh VC
+- [16:01] partners. And you can even possibly sign
+- [16:03] on your first few customers with the
+- [16:04] cool demo as a pilot program, right?
+- [16:07] But then it doesn't work in practice.
+- [16:10] And so all that excitement and VC
+- [16:12] capital raised and pilot program
+- [16:15] excitement, etc. uh falls apart if you
+- [16:18] can't make something that actually works
+- [16:20] in practice. And making something that
+- [16:23] works in practice is is really hard
+- [16:26] because uh LLMs like people, you know,
+- [16:30] you don't have your coffee that morning,
+- [16:31] uh you wake up on the wrong side of the
+- [16:33] bed, it might just output the wrong
+- [16:35] stuff for prompts. I'm sure you've all
+- [16:37] seen this before. Even if you just use
+- [16:39] chat tpt, you sometimes probably been
+- [16:41] blown away with its brilliance at times
+- [16:44] and other times shocked by how
+- [16:46] incredibly wrong it was about code or
+- [16:50] you know some informationational lookup
+- [16:51] or just hallucinating when George
+- [16:53] Washington's birthday was or whatever it
+- [16:55] is right so so how do you deal with that
+- [16:57] I'll tell you how we dealt with it um
+- [16:58] this is not the whole answer but a big
+- [17:00] part is evaluations
+- [17:01] next batch is now taking applications
+- [17:04] got a startup in you apply at y
+- [17:06] combinator.com/apply
+- [17:08] by it's never too early [music] and
+- [17:10] filling out the app will level up your
+- [17:12] idea. Okay, back to the video.
+- [17:14] >> This all begins again from domain
+- [17:16] expertise which is like what does good
+- [17:19] look like? What does it mean to do this
+- [17:20] task super super well? Um if you're
+- [17:24] doing research, what is the you know for
+- [17:26] for X given question, what is the right
+- [17:29] answer? What must the what must the
+- [17:32] right answer include for X document? And
+- [17:35] you're asking a question that's a
+- [17:36] document. What must it pull out of that
+- [17:38] document. What pages should I find the
+- [17:40] information? What does good look like?
+- [17:41] This is true of the overall task like
+- [17:43] complete this research for me, but also
+- [17:45] each microtask necessary to complete the
+- [17:48] overall task like which which search
+- [17:50] queries are good search queries versus
+- [17:52] bad search queries. Here again, not
+- [17:55] sounding a broken record, but it's good
+- [17:56] to know what like actually prof actual
+- [17:58] professionals would say about this,
+- [18:00] right? So, what does good look like? And
+- [18:03] then those become your evals. My
+- [18:05] favorite thing to do when I'm writing
+- [18:06] evals for things that are like, you
+- [18:08] know, when when possible is to turn into
+- [18:11] like a very objectively gradable answer.
+- [18:14] For example, uh have the AI just output
+- [18:17] true or false or a number between zero
+- [18:19] and seven or whatever because then it's
+- [18:21] really easy to evalu.
+- [18:28] That's how relevant it is. It's not a
+- [18:29] seven, not a five, it's a six. And if
+- [18:33] you have that then you can set up an
+- [18:35] eval framework I like prompt fu I don't
+- [18:38] know if you guys use that it's like open
+- [18:39] source runs on on your command line
+- [18:42] there are many frameworks out there that
+- [18:44] you can use to you know put together the
+- [18:46] these evaluations doesn't really matter
+- [18:48] at the end of the day it's like for this
+- [18:50] input and this prompt the answer should
+- [18:52] be six make like a dozen try to match
+- [18:55] what your customers are actually going
+- [18:57] to throw at your program right make a
+- [19:00] dozen and then try to get it perfect on
+- [19:01] a dozen, then get to 50, then get to
+- [19:03] 100, and keep on tweaking the prompt
+- [19:06] until um it actually passes all the
+- [19:09] tests you keep on throwing at it. If
+- [19:10] you're doing really good about this,
+- [19:11] have a hold out set and don't, you know,
+- [19:13] look at those while you're while you're
+- [19:15] writing your prompts. Make sure it also
+- [19:17] works on those. You're not just just
+- [19:18] fine-tuning the prompt just for your
+- [19:19] evals, right? What you'll find without
+- [19:22] any I use the word fine tuning without
+- [19:24] any like technical fine-tuning you can
+- [19:26] go so far with just prompting if you're
+- [19:29] being really careful about this you will
+- [19:31] find that the AI gets things wrong
+- [19:33] predictably you're ambiguous as part of
+- [19:36] your prompts you're not giving it clear
+- [19:38] instructions about doing one thing or
+- [19:39] maybe it just constantly fails in a
+- [19:40] certain direction you have to give it
+- [19:42] direct give it you know prompting
+- [19:44] instructions to pull it back from making
+- [19:45] this kind of error you give it examples
+- [19:48] right to to guide it away from certain
+- [19:50] classes of error errors, but it's not
+- [19:52] like going to be a surprise why or how
+- [19:55] AI fails. Once you start prompting,
+- [19:57] you'll start to see patterns that you
+- [19:59] can prompt around to give instructions
+- [20:00] around. And what I like to say is like
+- [20:03] the biggest qualification for success
+- [20:05] here is whether you or whoever is
+- [20:08] working on the prompts of your company
+- [20:10] is willing to spend two weeks
+- [20:12] sleeplessly working on a single prompt
+- [20:14] to try to pass these emails. If you're
+- [20:16] willing to do that, you're in a really
+- [20:18] good place, right? It just it just takes
+- [20:21] such a grind because the thing is you're
+- [20:22] going to do these emails and at first
+- [20:24] you're going to pass like 60% of the
+- [20:25] time. And at this point most people just
+- [20:27] give up. They're like, "AI just
+- [20:29] can't do this task, right? They're like,
+- [20:30] I just can't. I'm not going to do it."
+- [20:32] And then you'll spend a night prompting
+- [20:35] and you're going to be at 61%. You're
+- [20:36] like, "Oh my god." The next group of
+- [20:38] people will give up at this point. What
+- [20:40] I'm here to tell you is that if you
+- [20:41] spend like solid two weeks prompting and
+- [20:44] adding more evals and prompting, adding
+- [20:45] more evals and tweaking your prompt and
+- [20:47] tweaking your prompt, tweaking your
+- [20:48] prompt, you're going to get to something
+- [20:49] that passes like 97% of the time. And
+- [20:51] the 3% is kind of explainable. It's like
+- [20:54] a human would it's like a judgment call
+- [20:55] almost. Humans make similar kind of
+- [20:57] judgment calls. Once you're there, you
+- [20:59] can feel pretty good about how this
+- [21:00] might interact in in in uh production.
+- [21:03] What I recommend is like pre-production,
+- [21:05] maybe in like beta, get to a 100, you
+- [21:08] know, tests per prompt and 100 tests for
+- [21:10] the overall task. If you're passing like
+- [21:12] 99 out of 100, again, you should feel
+- [21:13] pretty good about where you are, right?
+- [21:16] So, that's a just rough guide. If you
+- [21:18] can beat a thousand, that's 10 times
+- [21:20] better. Do that. But it's hard. It's
+- [21:22] actually really hard to come up with
+- [21:23] great evals. So, I'd recommend just at
+- [21:26] least 100, go to beta and put it in
+- [21:29] customers hands and set the expectation.
+- [21:31] By the way, this is not yet perfect,
+- [21:33] that's why you're in a beta.
+- [21:36] And then you listen and learn. Every
+- [21:39] time a customer complains, either you
+- [21:41] have their data because that's how your
+- [21:42] app is set up, or you ask them like,
+- [21:43] "Hey, can you share that document and
+- [21:45] that question you asked to see why it
+- [21:47] failed?" That's a new test. We've added
+- [21:50] much more eval at this point from real
+- [21:52] things that happened to real customers
+- [21:53] than the ones we came up with in the
+- [21:55] lab. And that's going to your customers
+- [21:56] are going to do the dumbest with
+- [21:58] your app. Okay? and they're going to do
+- [21:59] such dumb things that you'd not predict.
+- [22:02] But that's what customers really do. If
+- [22:04] you've ever seen like a real person's
+- [22:05] Google queries, they're barely legible,
+- [22:08] you know? And I'm assuming the same
+- [22:09] thing is true of chatbt. They see a
+- [22:10] bunch of stuff. Like your prompts
+- [22:12] probably look pretty smart. Most people
+- [22:14] are like burrito me how ouch or
+- [22:19] whatever. Like what do you do with that?
+- [22:20] Right? But you have to try to bring back
+- [22:22] a great result and determine what
+- [22:24] they're actually trying to say with
+- [22:26] these ridiculous prompts. So do it like
+- [22:29] those become your real tests and just
+- [22:31] keep iterating. This is not a static
+- [22:33] thing. New models will come out. Try the
+- [22:35] new models. Prompt fu and other
+- [22:37] frameworks make this really easy. Add a
+- [22:39] new model. It'll compute how well it
+- [22:40] does against your prompt so far. Keep
+- [22:42] tweaking your prompts. Um sometimes the
+- [22:45] addition or subtraction of a single word
+- [22:46] might move you up a single percent, but
+- [22:48] that's a very big deal if you're working
+- [22:49] in a field like finance, medicine, law
+- [22:51] where single percentage increases in
+- [22:53] accuracy really matter to the the
+- [22:55] customers you're serving. Right? Keep
+- [22:57] iterating. Never stop. There should be a
+- [22:59] new GitHub pull request like every other
+- [23:01] day or every day on your prompts. And
+- [23:03] I'm telling you, if you just do those
+- [23:04] two last slides,
+- [23:06] you know, how do the professionals
+- [23:08] really do it? Break it down to steps.
+- [23:10] Each step basically becomes a prompt or
+- [23:12] piece of code. And then you test each
+- [23:14] step. Test the whole workflow all
+- [23:16] together. If you just do these two
+- [23:18] things, you'll be like 90% of your way
+- [23:20] there to building a better AI app than
+- [23:22] what most of the crap that's out there,
+- [23:24] right? Because most people never eval.
+- [23:26] and they never take the time to figure
+- [23:28] out how professionals really do the job.
+- [23:30] And so they make these kind of flashy
+- [23:32] demos on Twitter. They maybe even raise
+- [23:34] capital and they may even be some of
+- [23:35] your like your heroes for a minute, but
+- [23:37] be careful who chooses your heroes. The
+- [23:39] real people are behind the scenes
+- [23:41] quietly building, quietly making their
+- [23:42] stuff better every single day. If you
+- [23:44] just do these two slides, you're going
+- [23:46] to be 90% of the way there and and
+- [23:47] better than most of the things that are
+- [23:48] out there. That's the craziest part.
+- [23:50] Okay, now the hardest part, honestly.
+- [23:52] the part that frankly we we are still
+- [23:55] trying to figure out postexit you know
+- [23:58] at a multi-billion dollar company uh
+- [24:01] it's still going to be really really
+- [24:02] really hard and I'm going to give some
+- [24:04] tips about marketing and selling AI apps
+- [24:06] in this new kind of world where you're
+- [24:08] maybe replacing or assisting a job
+- [24:09] things that we've learned along the way
+- [24:11] but the first thing I'll say
+- [24:14] this is a little bit counter to what I
+- [24:15] think is out there in a lot of the VC
+- [24:17] kind of a lot of people like say like
+- [24:18] the most important thing is sales and
+- [24:20] marketing a lot of people really really
+- [24:21] think that when you guys series A's and
+- [24:23] series B's, you'll have people on your
+- [24:25] board who say product doesn't really
+- [24:27] matter that much if you're really good
+- [24:28] at marketing and selling. And they've
+- [24:31] seen some examples of this working out
+- [24:32] like really well. I think it's
+- [24:34] We for 10 years we had an okay
+- [24:37] product at first. We went through
+- [24:39] different marketing and sales leaders,
+- [24:40] some of them super, you know,
+- [24:42] wellqualified, etc., and they did okay.
+- [24:46] When we had an awesome product, all of a
+- [24:48] sudden people were referring us by word
+- [24:50] of mouth.
+- [24:52] news was coming to us because we're
+- [24:53] doing something genuinely new and
+- [24:55] interesting, right? And that and word of
+- [24:57] mouth and news is free marketing. Um
+- [25:01] people coming to you like we had sales
+- [25:02] people because we had sales people from
+- [25:04] our older product that wasn't as good as
+- [25:05] the new one that we came out with with
+- [25:07] you know based on LLMs and I will tell
+- [25:10] you those sales people became like order
+- [25:12] takers. So the most important thing you
+- [25:14] could do for marketing and sales is to
+- [25:16] build a amazing product and then
+- [25:18] making sure the world knows about it
+- [25:19] somehow. obviously can't just like build
+- [25:20] it and not show anybody. Tree falling in
+- [25:23] the woods, nobody hears it. It's not
+- [25:24] going to do anything. But I do think
+- [25:26] that the quality of product matters so
+- [25:28] much more than your series A and B uh
+- [25:30] investors will say. So when you guys
+- [25:32] have those lame VCs on your board, you
+- [25:34] can think back to this talk and push
+- [25:35] back. All right. Um but it's still
+- [25:37] important. It's still important to
+- [25:38] market and sell. I have just three
+- [25:39] pieces of advice here. The first thing
+- [25:40] is uh you might not be selling
+- [25:44] traditional software anymore. Think
+- [25:46] about how you're going to package and
+- [25:47] sell it. The companies I'm most excited
+- [25:49] about right now are taking real
+- [25:52] services, like for example, reviewing
+- [25:53] contracts for a company and they're just
+- [25:56] doing it. They're like doing the full
+- [25:58] service. Maybe there's a human in the
+- [26:00] loop. And this would usually cost
+- [26:01] somebody $1,000 per contract to review
+- [26:04] if they went with a traditional law
+- [26:05] firm. They're charging $500 per
+- [26:07] contract. Again, for context, a lot of
+- [26:09] the tools you guys use right now
+- [26:11] probably 20 bucks a month. $20 per per
+- [26:14] month versus $500 per contract. We're
+- [26:16] talking about extreme step-ups in price.
+- [26:20] Price it according to the value you're
+- [26:22] selling it. Don't shortcom yourself.
+- [26:23] It's maybe a little in conflict with
+- [26:24] what I just said, but also listen to
+- [26:26] your customers for how they want to pay.
+- [26:28] Just ask them how would you rather pay
+- [26:30] for this. I'll tell you what we found
+- [26:31] out. We were thinking about a per usage
+- [26:33] pricing like this review viewing
+- [26:34] contract company and that that may work
+- [26:36] in some cases where they prefer to pay
+- [26:37] that way. That might work. But when we
+- [26:40] asked our customers, they said, "Listen,
+- [26:43] I'd rather pay more, but make it like
+- [26:46] consistent throughout the year, then
+- [26:48] potentially pay less and pay per use."
+- [26:50] So, our customers wanted to pay $6,000
+- [26:52] per seat. They wanted per seat, and they
+- [26:54] want to pay $6,000 per se, 500 bucks a
+- [26:56] month. Fine. It's a situation where our
+- [26:59] customers wanted wanted predictable
+- [27:00] budgeting. Give it to them, right?
+- [27:03] Listen to your customers.
+- [27:06] The third thing to really think about
+- [27:08] when you're marketing and selling is all
+- [27:10] this AI stuff is new and scary. These
+- [27:13] big companies even, they want to dip
+- [27:15] their toes in the water. They want to
+- [27:16] try new things. Their CEO is like
+- [27:18] sitting on a board of people at a
+- [27:20] Fortune 500 company. The whole board is
+- [27:22] like, "What are you doing about AI?" And
+- [27:24] so their CEO is going to this company of
+- [27:25] like 20,000 people. What are we doing
+- [27:27] about AI? And they're like, "I don't
+- [27:28] know. I'm trying like Greg's product."
+- [27:30] Okay. They want to they want to try your
+- [27:32] product. But there's also this trust gap
+- [27:35] because they used to do this thing by
+- [27:37] asking people and they can fire people,
+- [27:39] they can train people, they can coach
+- [27:40] people like people are not perfect, but
+- [27:43] they're used to them. They are not
+- [27:45] they're not used to using your product
+- [27:46] yet. They have like no idea what to
+- [27:49] expect. So, how do you build trust? Some
+- [27:51] really smart companies are doing like
+- [27:53] head-to-head comparisons. Keep your law
+- [27:56] firm and then use our thing side by side
+- [27:58] and then compare. How fast are we? How
+- [28:00] good were we? How different were the
+- [28:01] results? keep your accountant use our AI
+- [28:04] accountancy and then compare like how
+- [28:07] different how offer we in our accounting
+- [28:09] or tax accounting or whatever it is
+- [28:10] offer that that's a great way to build
+- [28:12] trust compare it against people um do
+- [28:15] studies do pilots there are so many ways
+- [28:19] that you can do this but think think in
+- [28:20] your head how do I build trust with my
+- [28:22] customer and finally the sale does not
+- [28:25] end when they've written the check and
+- [28:28] definitely not when they started a pilot
+- [28:30] what I'm seeing right now is like an
+- [28:31] angel investor in this kind of post-exit
+- [28:33] world for for me is there are a lot of
+- [28:35] companies like our ARR is $10 million
+- [28:37] and you dig under the surface and it's
+- [28:38] like oh yeah we have a pilot for like
+- [28:41] six months and they pay us a lot of
+- [28:42] money for that pilot. Uh a lot of those
+- [28:44] pilots are not converting to real
+- [28:45] revenue and there's going to be a mass
+- [28:46] extinction event uh as a lot of pilot
+- [28:49] revenue. It's like instead of ARR is
+- [28:51] like PR like pilot recurring revenue or
+- [28:53] something that are not even recurring
+- [28:54] just pilot revenue I guess like is is
+- [28:56] not going to convert into real money and
+- [28:58] that's a real danger I'd say for
+- [29:01] startups right now even ones that are
+- [29:03] reporting super high numbers in terms of
+- [29:05] revenue big part of your job as a
+- [29:07] founder and a part of a job of the
+- [29:09] people you'll be hiring is making sure
+- [29:11] that everybody uses the product really
+- [29:13] understands it train roll it out
+- [29:16] consciously and this is different for
+- [29:18] every different industry for you know
+- [29:19] onboard board them really thoughtfully.
+- [29:21] Maybe that's in the app walking them
+- [29:22] through steps so they try different
+- [29:24] things. Maybe that's actually a person
+- [29:25] sitting next to them. I don't know if
+- [29:26] you caught this, but a very small kind
+- [29:28] of throwaway comment that Satcha said
+- [29:29] earlier today is that one of the most
+- [29:31] like growing roles at startups is these
+- [29:34] four deployed engineers, which I think
+- [29:36] is a really fancy term for just like
+- [29:38] boots on the ground people to sit next
+- [29:40] to your customer and make sure the
+- [29:42] product's actually working for them,
+- [29:44] right? Whatever it takes. One thing I
+- [29:46] said a lot in my company, I still feel
+- [29:48] this is very true, is that your product
+- [29:51] isn't just the pixels on the screen.
+- [29:54] It's not just what happens when you
+- [29:55] click this button. It's the human
+- [29:57] interactions with your support, customer
+- [29:59] success, with the founder, um it's
+- [30:01] training, it's, you know, everything
+- [30:03] around it. If you don't get that right,
+- [30:07] then you might have the best pixels on
+- [30:08] the screen, but you'll be beat by a
+- [30:10] company that that invests more in their
+- [30:12] customers and making sure that their
+- [30:13] products are actually well used. That's
+- [30:15] all you need to do to build a
+- [30:16] awesome AI app and beat our $650 million
+- [30:19] figure handily. All right, so open up
+- [30:21] for questions. [applause]
+- [30:26] >> Hello. Thank you so much for your uh
+- [30:28] talk. I wanted to ask about the process
+- [30:31] of choosing uh what kind of industry to
+- [30:33] go into to try to create more automation
+- [30:36] um in that way. So like if there are
+- [30:38] already competitors in that space, would
+- [30:41] you uh suggest looking at another
+- [30:43] industry or would you suggest trying to
+- [30:45] dive deeper into a niche of that
+- [30:47] industry or like how what would you
+- [30:49] advise in that situation?
+- [30:50] >> So so I don't think you should care
+- [30:52] about competitors at all. First of all,
+- [30:54] for some of these spaces, the market is
+- [30:56] so big because we're talking about like
+- [30:58] how much how many trillions of dollars
+- [31:00] are being currently spent on like
+- [31:01] marketing professionals or support
+- [31:03] professionals or whatever. There's not
+- [31:04] going to be a single company that's
+- [31:06] going to win this entire market for for
+- [31:08] the vast majority of them. And frankly,
+- [31:11] a lot of the times you're going to be at
+- [31:13] first scared of your competitors and
+- [31:15] then after you start building it, you're
+- [31:17] going to be dumbfounded about how bad
+- [31:18] they are and you're going to outbuild
+- [31:19] them out. You run circles around them.
+- [31:21] It's not about the competitors. But what
+- [31:23] I will say is like kind of diving deeper
+- [31:24] into like how to pick a market. The
+- [31:26] things I'd look at is um what are the
+- [31:29] kinds of roles that people are currently
+- [31:31] outsourcing say to another country,
+- [31:33] right? If it's something that they're
+- [31:35] willing to do that for, then that's
+- [31:37] probably a pretty good target for what
+- [31:39] AI could take over. Uh if it's a role
+- [31:42] where they feel like it's part of their
+- [31:44] identity to do it in house, you know,
+- [31:46] for example, I don't think you're going
+- [31:47] to outsource for Pixar creating the
+- [31:49] story of a Pixar movie, right? that is
+- [31:52] that is their that is they they feel
+- [31:53] whether they're right or wrong. Maybe AI
+- [31:55] in two years will just like do better
+- [31:56] Pixar than Pixar. But the people at
+- [31:58] Pixar are going to feel very strongly
+- [31:59] about the storytelling element. So, you
+- [32:02] know, don't try to outsource that part.
+- [32:04] Try to try to find the parts that are
+- [32:05] already outsourced. For example, find
+- [32:07] big markets, find where where there's a
+- [32:09] pain point across many different
+- [32:10] companies. Find um find things you know
+- [32:12] about or can get access to information
+- [32:15] about. Um these are the kinds of things
+- [32:17] I'd be looking at uh while trying to
+- [32:19] pick a market. But honestly, like
+- [32:20] there's so many huge markets. You could
+- [32:22] literally just print out like all the
+- [32:23] knowledge work stuff if you wanted to
+- [32:24] keep it digital. Throw a dart at
+- [32:27] everything you point out. Whatever the
+- [32:28] dart lands, just choose that market and
+- [32:30] start running at it and I think you're
+- [32:31] going to probably hit a trillion dollar
+- [32:32] market. So, um, competitors or not,
+- [32:35] don't care.
+- [32:36] >> Thank you.
+- [32:37] >> Perfect. Thanks a lot. So, um, Michael
+- [32:39] from Switzerland, uh, I have a quick
+- [32:41] question because you're a successful
+- [32:42] founder and, uh, many of us are going to
+- [32:44] found companies here. I wanted to know
+- [32:46] how uh has your focus changed across the
+- [32:49] different stages of companies from say
+- [32:51] the preede what did you focus on versus
+- [32:54] you know the C stages to the series A
+- [32:57] stages and finally to the exit end which
+- [32:59] part did you enjoy the most?
+- [33:01] >> Uh it's a great question Michael so I'll
+- [33:03] answer what I should have done and also
+- [33:04] what I did do. All right
+- [33:05] >> perfect thank you. What I should have
+- [33:06] done is at the seed stage focus on
+- [33:09] making a great product that gets product
+- [33:10] market fit and then at the series A
+- [33:12] stage focus on making a great product
+- [33:13] that gets product market fit and then at
+- [33:15] series B focus on making a great product
+- [33:16] makes great product market fit and then
+- [33:18] series C great product makes you know
+- [33:20] you can see probably the pattern here.
+- [33:21] What I ended up doing is I ended up
+- [33:23] focusing on all kinds of other things
+- [33:25] that didn't matter nearly as much as
+- [33:28] those things. And I think if you start
+- [33:30] from like you know because what is a
+- [33:31] company outside of its product like it's
+- [33:33] literally the service you're providing
+- [33:35] to your customers is through the product
+- [33:37] and if you focus almost entirely around
+- [33:39] that and become obsessive around that in
+- [33:41] my opinion um then a lot of other things
+- [33:43] will follow for example what people do
+- [33:44] we need to build a product that gets
+- [33:46] product market fit now you have like HR
+- [33:48] and recruiting etc to fill in for that
+- [33:50] that answer how are people going to find
+- [33:52] out about this amazing product that's
+- [33:53] marketing and sales um what culture do
+- [33:56] we need at the business to create a
+- [33:58] product that people love and really use.
+- [34:01] Now you have, you know, other parts of
+- [34:02] HR and setting the culture, which is a
+- [34:04] very important part of your job as CEO.
+- [34:05] So you end up as CEO focusing on all
+- [34:07] these different aspects by necessity,
+- [34:10] but all to that one end. And what ends
+- [34:12] up happening for a lot of founders
+- [34:14] because they read like medium posts and
+- [34:16] blog posts and they talk to their series
+- [34:17] A and series B investors is they end up
+- [34:19] focusing on HR or finance or fundraising
+- [34:22] or whatever not as means to the end of
+- [34:25] building great creating a big great
+- [34:27] product that gets product market fit but
+- [34:28] instead as an end to themselves like oh
+- [34:31] we need to have a greatly great culture
+- [34:32] in the abstract or we need to like now
+- [34:34] we need to hire marketing and sales. I
+- [34:36] did this. I fell into this trap. Big
+- [34:38] mistake you know. Um I would I would
+- [34:40] instead and this is I I'm very like as
+- [34:42] you can tell I'm one founder is very
+- [34:43] biased towards the product etc side but
+- [34:45] I think I feel very strongly.
+- [34:47] >> Hi Jake. So when I was 14 I sold my
+- [34:49] startup to deote um and like you I'm
+- [34:51] kind of looking for the next thing to do
+- [34:53] like in the exit acquisition stage. If
+- [34:55] you were here um at Y cominator startup
+- [34:58] school what would you be doing tonight?
+- [34:59] You know bar case text whatever you're
+- [35:02] doing what would you be doing here
+- [35:03] exactly tonight now that you're exited.
+- [35:05] >> It's kind of amazing. I exit at 40 and
+- [35:07] you exit at 14.
+- [35:08] >> Yeah. So, uh, you're already well ahead.
+- [35:10] It's awesome. Uh, actually, I
+- [35:13] feel like in some ways for us in the
+- [35:15] early days, focusing on legal made sense
+- [35:17] for us because I knew legal, but also
+- [35:20] was kind of a mistake because at the
+- [35:21] time the legal software industry, Gree
+- [35:24] LLMs is actually pretty small because it
+- [35:27] was like a fraction like you know
+- [35:29] lawyers make a trillion dollars a year
+- [35:30] sounds pretty good, but how much of that
+- [35:32] are they really spending on software?
+- [35:34] And the answer is like a very small
+- [35:35] amount. So no matter how well we did as
+- [35:37] a company, we just weren't going to make
+- [35:39] something that really changed that many
+- [35:41] lives um that really made that much
+- [35:42] money ultimately from a business
+- [35:44] perspective. Um and we were only making
+- [35:46] incremental changes to the workflow and
+- [35:49] outputs of the people we were serving
+- [35:51] pre-LM and postludden
+- [35:55] helped many more people and made them a
+- [35:57] lot more effective and changed many more
+- [35:59] lives. And I will tell you having
+- [36:01] existed in both spheres of making small
+- [36:04] impacts on a small number of people um
+- [36:07] and making only small differences their
+- [36:09] lives and contrasted with you know
+- [36:12] making a huge impact on many more
+- [36:13] lawyers in our our case making them way
+- [36:16] more effective and efficient replacing
+- [36:17] some of the work they were doing with
+- [36:18] LLM. Um the latter felt a lot better and
+- [36:21] I'm kind of addicted to that now. But
+- [36:22] I'd be focusing to long story short, I'd
+- [36:24] be focusing on the biggest problem you
+- [36:27] could possibly think of that is possibly
+- [36:29] solvable with the technology and skill
+- [36:31] set that you have. You know, like what
+- [36:33] do people want? People want what do what
+- [36:36] do businesses want? People want to be
+- [36:37] like skinnier and not like lose their
+- [36:39] hair. They don't want to do their
+- [36:40] laundry. They, you know, want to have uh
+- [36:43] everybody wants to have a cleaner show
+- [36:44] up to their house for eight hours a day
+- [36:46] and clean their whole house and make it
+- [36:47] spotless, but you just can't afford to
+- [36:49] do that. But could you make a robot that
+- [36:50] does that for you? Right? Is that a kind
+- [36:52] of pro product that can s serve
+- [36:54] everybody in the world? In fact, is that
+- [36:56] the kind of product that like the
+- [36:57] dishwasher in the 50s could unlock a lot
+- [36:59] of human potential because now people
+- [37:01] who are staying at home to try to take
+- [37:03] care of the kids are not having to clean
+- [37:04] up the house anymore, right? Because
+- [37:06] they can buy a $1,000 a year robot or
+- [37:08] whatever. There is so much you can
+- [37:10] unlock with like just thinking what is
+- [37:12] the biggest problem that most people
+- [37:13] face in businesses, you know, they want
+- [37:15] to market their products, want to sell
+- [37:17] their products, they want to make sure
+- [37:18] that people are doing great work. They
+- [37:20] want to replace certain parts of their
+- [37:21] work with like more consistent, more
+- [37:22] available. Like that's where I'd be
+- [37:23] focusing my attention is just use a huge
+- [37:25] problem that a lot of people have that
+- [37:27] you feel like you can solve and just go
+- [37:28] after it. Run as hard as you can.
+- [37:29] >> Great. Thank you.
+- [37:30] >> I think I have time for one more.
+- [37:31] >> Hey, I'm Sabo. Then I was wondering if
+- [37:33] you're making AI to be an assistant or
+- [37:34] replacement for a human, you could price
+- [37:36] that service based off how much time it
+- [37:38] saves a human or how much you would
+- [37:40] charge the human for as a salary. But if
+- [37:42] you're making something that AI is doing
+- [37:44] that humans could not possibly do, like
+- [37:46] looking through hundreds of thousands of
+- [37:47] like law documents per se, how do you
+- [37:49] price such a service? And I I want to be
+- [37:51] like really nuanced with what I said
+- [37:53] earlier. I think at first you can start
+- [37:55] charging what the humans charging and
+- [37:57] then you'll have competitors, they'll
+- [37:58] come in, they'll charge a little bit
+- [37:59] less and then other competitors will
+- [38:00] come in, they'll charge a little bit
+- [38:01] less and it's kind of beautiful. how
+- [38:02] capitalism works and it'll make the
+- [38:04] service cheaper and cheaper and cheaper
+- [38:05] and cheaper and at a certain point you
+- [38:07] know if unless you're in a very
+- [38:08] protected kind of space you will end up
+- [38:11] charging a lot less than the people were
+- [38:12] which I think is probably a good thing
+- [38:13] at the end of the day for society right
+- [38:15] bad for your business good for society
+- [38:17] uh because now you can have the services
+- [38:19] of a lawyer but for like 10 cents on the
+- [38:20] dollar one cents on the dollar for that
+- [38:22] new category of like you know I I would
+- [38:24] I would start from what's the value
+- [38:28] what's the value that you're providing
+- [38:30] to the business start there if they're
+- [38:31] going to save $100 million doing this or
+- [38:33] would have paid $5 million to do this.
+- [38:34] Okay, take 10% of that, 20% of that, you
+- [38:37] know, have a conversation with your
+- [38:38] customer. How much is you willing to pay
+- [38:40] to solve this problem for you is
+- [38:41] probably the best place to start. I
+- [38:43] actually have time for one more question
+- [38:44] rapid fire. It's a super fast one.
+- [38:45] >> Hi, Jake. Uh, congrats on your exit. Um,
+- [38:48] I know you probably get this question a
+- [38:50] lot, but when you're building things
+- [38:51] with prompts that are based off of
+- [38:53] models that may not be proprietary, how
+- [38:55] do you build defensibility and not end
+- [38:57] up as a GPT wrapper? Basically,
+- [38:59] >> my fastest answer. Just build it. And as
+- [39:01] soon as you build it, you'll see how
+- [39:02] hard it was to build it. How
+- [39:05] many little pieces you have to build,
+- [39:06] how many data integrations, how many
+- [39:08] checks, how fine-tuned the prompts need
+- [39:10] to be, how you have to pick your models
+- [39:12] super well. And when you do that, you're
+- [39:14] going to find that you built something
+- [39:15] that nobody else can build because you
+- [39:17] spend like two years just doing nothing
+- [39:18] but that. So, I'm not scared. Don't be
+- [39:20] scared. All right. Thank you, everybody.
+- [39:22] [applause]

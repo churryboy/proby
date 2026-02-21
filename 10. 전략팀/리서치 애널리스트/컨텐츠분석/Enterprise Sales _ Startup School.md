@@ -1,0 +1,657 @@
+## Key insight / summary
+
+- **창업자가 직접 세일즈해야 함**: 초기 스타트업에서는 창업자만이 제품을 팔 수 있고, 외부 세일즈 인력 고용은 PMF 이전에는 효과적이지 않음 (기술적 배경의 창업자도 도메인 전문성과 확신을 바탕으로 세일즈 가능)
+- **명확한 세일즈 가설 필요**: "고객 X는 문제 Y를 가지고 있고, 우리 제품이 이를 해결한다"는 구체적인 가설로 프로스펙팅을 체계화해야 함
+- **나쁜 고객 피하기**: 이야기하기 쉬운 고객(스타트업, 개별 직원)보다는 실제로 문제를 가지고 구매력이 있는 고객에게 집중해야 함
+- **첫 통화는 자격 평가**: 첫 통화에서 바로 피치하지 말고, 고객이 실제 문제를 가지고 있는지, 예산과 의사결정권이 있는지 질문을 통해 파악
+- **듣기 중심의 세일즈**: 세일즈는 심리적 트릭이 아니라 고객 문제를 깊이 이해하고 도움을 주는 것이며, 질문과 경청이 핵심
+- **단계별 세일즈 퍼널**: 프로스펙팅 → 아웃리치 → 자격평가 → 가격책정 → 클로징 → 구현의 체계적 접근 필요
+- **인바운드 수요 창출**: 콜드 아웃리치보다는 콘텐츠, 데모, 업계 포럼 참여를 통해 고객이 먼저 연락하도록 하는 것이 효율적
+- **개인화된 접근**: 대량 발송이 아닌 개별 작성된 짧고 명확한 이메일로 특정한 이유를 들어 연락
+
+## Key implications for Proby platform
+
+- **창업자 주도 세일즈 전략 수립**: Proby 창업자가 직접 초기 고객 개발을 진행해야 하며, 외부 세일즈 인력 고용 전에 창업자가 세일즈 프로세스를 완전히 체득하고 재현 가능한 형태로 만들어야 함
+
+- **타겟 고객 우선순위 재정립**: 전략문서의 3개 세그먼트(스타트업 PM/PD, 유니콘 리서처, 엔터프라이즈 리서처) 중 실제 구매력과 의사결정권이 있는 유니콘/엔터프라이즈 리서처에 초점을 맞추고, 개별 직원보다는 팀/부서 단위 의사결정자와 대화해야 함
+
+- **구체적인 세일즈 가설 개발**: "한국/글로벌 유니콘 회사의 인하우스 UX 리서처들은 해외 시장 조사 시 언어 장벽과 높은 비용 문제를 가지고 있고, Proby의 AI 모더레이션이 이를 10분의 1 비용으로 해결한다"와 같은 명확한 가설 수립
+
+- **자격 평가 질문 세트 개발**: 첫 세일즈 콜에서 활용할 질문들을 준비해야 함 - "현재 정성조사를 얼마나 자주 하시나요?", "해외 조사 시 가장 큰 어려움은?", "연간 리서치 예산은?", "리서치 도구 도입 시 누가 결정하나요?" 등
+
+- **인바운드 수요 창출 콘텐츠 전략**: UX 리서처들이 모이는 온라인 커뮤니티에서 AI 모더레이션 관련 전문성을 보여주는 콘텐츠(블로그, 데모 영상, 케이스 스터디) 제작하고, 업계 컨퍼런스 참석을 통한 네트워킹 강화
+
+- **셀프서브 데모 고도화**: 잠재 고객이 직접 체험할 수 있는 인터랙티브 데모를 만들어 바이럴 확산 가능하도록 하고, 데모 사용자의 연락처와 사용 패턴을 추적하여 세일즈 리드로 전환
+
+- **워밍업 아웃리치 최적화**: 링크드인에서 공통 연결고리를 찾아 따뜻한 소개를 받는 프로세스를 체계화하고, 콜드 이메일 시에도 각 리서처의 최근 프로젝트나 회사 상황을 언급하여 개인화된 메시지 작성
+
+- **Enterprise vs Bottom-up 접근법 명확화**: 전략문서에서 언급된 대로 대기업은 top-down 의사결정이 필요하므로, 개별 리서처가 아닌 리서치 팀장이나 CPO급과의 미팅을 목표로 하는 반면, 유니콘은 팀 단위 도입이 가능한지 검증 필요
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=0fKYVl12VTA
+
+- [00:01] [Music]
+- [00:09] my name is Pete Kuman I'm a group
+- [00:11] partner at YC and a YC Alum I was
+- [00:14] co-founder and CTO of optimis Le in the
+- [00:16] winter 2010 batch in this talk I'm going
+- [00:19] to walk step by step through the process
+- [00:21] of closing your first Enterprise
+- [00:23] customers I'm going to do that by
+- [00:24] focusing on successive steps in the
+- [00:26] sales funnel prospecting Outreach
+- [00:30] qualification pricing closing and
+- [00:33] implementation I'll do my best to
+- [00:35] include lots of tactical advice and
+- [00:37] counterintuitive lessons I picked up
+- [00:39] while I was learning how to sell at
+- [00:41] optimiz Le I'm going to focus on
+- [00:43] Enterprise sales for software startups
+- [00:46] but this talk should still be broadly
+- [00:47] useful to any founder getting started
+- [00:49] with sales regardless of the size of
+- [00:51] your customers or what you're selling
+- [00:53] why am I giving this talk well first I
+- [00:56] know there's demand for this sales is
+- [00:58] the number one concern during the the
+- [01:00] batch for most of the founders that I
+- [01:01] work with at YC second I know from
+- [01:05] experience that sales is a learnable
+- [01:07] skill my co-founder Dan and I both had
+- [01:10] technical backgrounds we knew how to
+- [01:12] build a product but we didn't know how
+- [01:14] to get people to use it we figured it
+- [01:16] out through trial and error and that's
+- [01:19] the first big lesson I want to impart
+- [01:21] today if you're the founder of an early
+- [01:24] stage startup and you're building a
+- [01:26] product that you're hoping other
+- [01:27] businesses will buy you are capable of
+- [01:30] selling it that's the good news the bad
+- [01:32] news is that you're probably the only
+- [01:35] person capable of selling your product
+- [01:37] that is if you aren't able to sell your
+- [01:39] product yourself at first chances are
+- [01:41] you're not going to be able to hire
+- [01:43] somebody else to do it for you now if
+- [01:45] you're anything like we were you're
+- [01:47] probably thinking there are lots of
+- [01:49] talented salespeople out there wouldn't
+- [01:51] it be faster to hire one of them than
+- [01:53] try to do it ourselves after all that's
+- [01:55] what youd probably do with any other
+- [01:56] role like designers or lawyers or
+- [01:59] accountants the problem is that sales
+- [02:01] before you find product Market fit is
+- [02:03] very different from sales after you find
+- [02:06] product Market fit sales pre pmf is
+- [02:08] fundamentally entrepreneurial it
+- [02:10] requires vision and credibility with
+- [02:13] customers and lots of experimentation
+- [02:15] and a tight feedback loop with the
+- [02:17] people building the product this is a
+- [02:19] role for Founders so does that mean if
+- [02:21] you're a team of technical Founders
+- [02:23] building a product you should go find a
+- [02:25] business co-founder to do sales well you
+- [02:28] probably don't need a business
+- [02:29] co-founder to sell either I've worked
+- [02:32] with many technical Founders who turned
+- [02:33] out to be great at selling in some cases
+- [02:36] very much to their surprise so why is
+- [02:39] that well if you're a technical founder
+- [02:41] building a product you have several
+- [02:43] advantages that will give you a big leg
+- [02:45] up in selling first you're an expert
+- [02:48] both in the problem you're solving and
+- [02:50] the product you're building and second
+- [02:52] you have conviction you sincerely
+- [02:55] believe that your product will solve
+- [02:57] your customer's problem expertise and
+- [03:00] conviction are surprisingly important in
+- [03:02] sales this is especially surprising to
+- [03:04] people who mistakenly think that selling
+- [03:07] is a dark art full of psychological
+- [03:09] tricks sales isn't about tricking people
+- [03:12] it's fundamentally about helping people
+- [03:14] solve their problems and Engineers are
+- [03:17] great at doing that anyway now that I've
+- [03:20] hopefully convinced you that you're
+- [03:21] capable of selling your product let's
+- [03:23] talk about how to do that like I said
+- [03:25] we're going to go through the step in a
+- [03:27] typical sales funnel together let's
+- [03:29] start with prospecting prospecting means
+- [03:31] finding potential customers the output
+- [03:35] of this step is a list of companies you
+- [03:37] think might need your product and the
+- [03:39] specific humans at those companies you
+- [03:41] think might buy it there are lots of
+- [03:43] tools you can use for prospecting but
+- [03:45] before you start you need a hypothesis a
+- [03:48] sales hypothesis goes something like
+- [03:50] this customer X has problem Y and our
+- [03:54] product will help them solve it a good
+- [03:56] hypothesis makes prospecting Easy by
+- [03:58] clarifying who you should be talking to
+- [04:01] for example at optimizely our initial
+- [04:04] hypothesis was something like this
+- [04:06] marketers at small and medium Tech media
+- [04:10] and e-commerce companies want to run AB
+- [04:12] tests on their websites but they can't
+- [04:15] because off-the-shelf experimentation
+- [04:17] tools require users to write code
+- [04:19] optimizely will enable them to run AB
+- [04:22] tests without writing code and once you
+- [04:24] have a clear hypothesis like that you
+- [04:26] can get to work on prospecting start by
+- [04:29] identif identifying companies that are
+- [04:30] likely to suffer from the problem you're
+- [04:33] solving one way to do this is to buy
+- [04:35] industry lists of all of the companies
+- [04:37] in a given sector and then use some
+- [04:39] filtering criteria to qualify those
+- [04:42] companies and narrow your target list
+- [04:44] for example at optimizely we used a tool
+- [04:47] called builtwith to figure out whether
+- [04:50] prospects were using analytics tools and
+- [04:52] JavaScript Frameworks because those were
+- [04:54] signals that a company was relatively
+- [04:56] sophisticated and cared about their
+- [04:58] website once you have list of companies
+- [05:00] you'll need to find the right humans at
+- [05:03] those companies and their contact
+- [05:04] information there are tools that make
+- [05:06] this easier this video was recorded
+- [05:09] during the winter 24 batch and many
+- [05:11] Founders in the current batch are using
+- [05:12] Apollo and Linkedin sales navigator for
+- [05:15] that now that you have a list of leads
+- [05:17] that is specific humans that are likely
+- [05:19] to buy at the companies you're selling
+- [05:21] to you'll need to get their attention
+- [05:23] this step is called Outreach the goal of
+- [05:26] Outreach is usually to schedule a
+- [05:28] meeting with your prospect most Founders
+- [05:30] think of cold Outreach as the primary
+- [05:32] mechanism for doing this but the easiest
+- [05:35] way to get a meeting with a prospect is
+- [05:36] to get them to reach out to you even if
+- [05:38] you're planning on using a sales Le
+- [05:40] approach you should still do everything
+- [05:42] you can to generate inbound demand
+- [05:45] launch early and often create technical
+- [05:48] content like videos and blog posts that
+- [05:51] prospects can find while searching for a
+- [05:53] solution to their problem build
+- [05:54] self-served demos that people can share
+- [05:57] find online forums where your customers
+- [05:59] hang out and establish yourself as an
+- [06:01] expert by answering questions there's no
+- [06:04] one way to do this but the better you
+- [06:06] get at grabbing your customers attention
+- [06:08] and getting them to reach out to you the
+- [06:10] more efficient your sales process will
+- [06:12] be on that note if your customers all
+- [06:15] hang out and Industry conferences you
+- [06:17] should be there too find a way to get a
+- [06:19] list of attendees ahead of time and set
+- [06:21] up lots of meetings in advance once
+- [06:23] you've identified a specific Prospect
+- [06:25] you want to talk to start by trying to
+- [06:27] find a warm introduction if you can look
+- [06:30] on LinkedIn for shared connections and
+- [06:32] ask for an intro sending cold emails is
+- [06:35] usually the least efficient way of
+- [06:36] getting prospects attention but it can
+- [06:38] still be effective if you approach it
+- [06:40] the right way start by writing each
+- [06:42] email by hand make your emails short and
+- [06:45] to the point and make the ask clear you
+- [06:48] should also make it clear why you're
+- [06:50] reaching out to each recipient
+- [06:51] specifically humans have built-in spam
+- [06:54] filters and if your email looks like it
+- [06:56] was sent to thousands of people it's
+- [06:58] going to get deleted on this last Point
+- [07:00] there's a handy rule of thumb to keep in
+- [07:02] mind for cold emails only send emails
+- [07:04] that you yourself would be excited to
+- [07:06] read if you wouldn't be excited to get
+- [07:08] the email you're about to send your
+- [07:10] prospect probably won't either before we
+- [07:13] move on I want to spend some time
+- [07:15] talking about a particular anti-pattern
+- [07:17] I see with a lot of YC Founders many
+- [07:19] Founders start by talking to anyone who
+- [07:22] will take their call and the problem
+- [07:23] with this approach is that it selects
+- [07:25] for the people who are easiest to talk
+- [07:27] to not the people who will be be great
+- [07:30] customers so if you're not disciplined
+- [07:31] about it you'll end up wasting all your
+- [07:33] time chasing bad customers that are easy
+- [07:36] to talk to I see YC Founders make this
+- [07:38] mistake all the time and I get it when
+- [07:41] you're starting a company it's hard to
+- [07:42] get people to pay attention to you cold
+- [07:45] emailing is a demoralizing grind so it's
+- [07:48] tempting to go after the people who will
+- [07:50] talk to you even if they won't ever buy
+- [07:52] your product and the reason this mistake
+- [07:54] is so dangerous is because talking to
+- [07:56] bad customers gives you the illusion
+- [07:59] that you're making progress when you're
+- [08:00] not you'll get lotss of great product
+- [08:02] feedback from people who think they're
+- [08:04] doing you a favor but because you're not
+- [08:06] actually talking to someone who needs
+- [08:07] your product this kind of feedback is
+- [08:09] useless at best and counterproductive at
+- [08:12] worst in practice I see Founders make
+- [08:14] this mistake in two ways first by trying
+- [08:18] to sell enterprise software to startups
+- [08:21] now if your product solves a problem
+- [08:23] that companies only have when they get
+- [08:25] big like for example an HR information
+- [08:28] system then trying to sell it to
+- [08:29] startups is a waste of time but Founders
+- [08:32] still do it all the time because other
+- [08:34] startups are much easier to talk to than
+- [08:36] busy big company Executives and the
+- [08:39] second is trying to go bottom up with a
+- [08:42] product that needs to be adopted top
+- [08:45] down and that's a little jargony so let
+- [08:47] me illustrate it with an example imagine
+- [08:49] you're building productivity software
+- [08:51] like notion your product can be adopted
+- [08:54] bottom up meaning that individual
+- [08:55] employees or teams can start using it
+- [08:58] independently without having to
+- [08:59] coordinate with anyone else inside the
+- [09:01] company and in this case talking to
+- [09:04] individual contributors or their direct
+- [09:06] managers is totally fine but what if
+- [09:08] you're building building software for
+- [09:10] large hospitals in order for a hospital
+- [09:12] to start using your product you're going
+- [09:14] to need a lot of different teams to
+- [09:16] coordinate with each other so you might
+- [09:18] need the CIO to sign off on your
+- [09:20] security and compliance and you need
+- [09:22] their software team to integrate your
+- [09:25] product with their in-house systems you
+- [09:27] need the doctors to enter billing codes
+- [09:29] at after each appointment and you need
+- [09:31] their Ops Team to manage Collections and
+- [09:33] so on and so on and in this case talking
+- [09:35] to an individual doctor won't be useful
+- [09:37] you need to talk to a senior leader like
+- [09:39] a CFO or a CIO to do a deal now there's
+- [09:43] a meme that YC says you should sell to
+- [09:46] companies who will buy quickly even if
+- [09:48] they aren't good customers this is a
+- [09:51] misconception you should try to find
+- [09:53] companies that will buy quickly but you
+- [09:55] shouldn't spend time trying to sell to
+- [09:57] companies that don't actually need your
+- [09:58] product or won't be good customers you
+- [10:01] need to find people who have the problem
+- [10:03] you're solving and the budget and
+- [10:05] decision-making authority to buy your
+- [10:07] product we'll spend more time on this
+- [10:09] point later let's get back to our sales
+- [10:10] funnel so you've managed to get your
+- [10:13] prospect on the phone your job on the
+- [10:14] first call is not to sell your product
+- [10:18] that comes later in the first call we're
+- [10:20] just trying to do two things first we're
+- [10:23] trying to qualify our Prospect by
+- [10:26] figuring out whether they have the
+- [10:27] problem we're trying to solve and the
+- [10:29] budget and decision-making authority to
+- [10:31] buy the product and second we're trying
+- [10:34] to schedule a follow-up call for a
+- [10:36] product demo now many Founders face
+- [10:38] plant in the first call by diving
+- [10:40] straight into their pitch these Founders
+- [10:42] are making one of the biggest founder
+- [10:44] sales mistakes not asking enough
+- [10:46] questions and they make this mistake
+- [10:48] because they misunderstand how sales
+- [10:51] work they think of the company they're
+- [10:53] trying to sell to as a big monolithic
+- [10:56] entity and they think of the sales
+- [10:57] process as adversar
+- [10:59] where it's their job to come up with a
+- [11:01] perfect pitch that will break down their
+- [11:03] targets defenses but outside of some
+- [11:05] used car dealerships that's not how
+- [11:08] sales works in the real world in the
+- [11:10] real world you're almost always selling
+- [11:12] to an individual human not a big
+- [11:15] monolithic entity and that's good news
+- [11:17] because humans are easier to understand
+- [11:19] than organizations and that turns out to
+- [11:21] be really important in the real world
+- [11:24] sales is not adversarial it's about
+- [11:26] deeply understanding a customer's
+- [11:28] problem and help helping them solve it
+- [11:30] and great salespeople spend most of
+- [11:32] their time listening because that's the
+- [11:35] best way to understand someone's problem
+- [11:37] they ask all sorts of questions what
+- [11:39] made you decide to take this call tell
+- [11:41] me about this problem how long have you
+- [11:43] had it how bad is it who else does it
+- [11:46] affect how do you quantify the impact
+- [11:49] why haven't you solved it already what's
+- [11:51] your budget for solving it how does your
+- [11:54] organization buy software who makes the
+- [11:57] buying decision who else will need to
+- [11:59] weigh in on this decision now sometimes
+- [12:02] when you ask questions like these you
+- [12:04] discover that your prospect doesn't
+- [12:05] actually have the problem you're trying
+- [12:07] to solve or they have it but they don't
+- [12:10] care enough about it to buy a solution
+- [12:12] or they don't have any budget or any
+- [12:13] number of other reasons that they won't
+- [12:16] actually be a good customer for you and
+- [12:18] if you do that that's great you just
+- [12:20] saved yourself and your prospect a lot
+- [12:22] of time and you can focus your energy on
+- [12:25] other prospects that are more likely to
+- [12:26] buy now if on the other hand it turns
+- [12:29] out that your prospect does have a
+- [12:31] problem you can solve you're in luck
+- [12:33] you've earned the opportunity to show
+- [12:35] them how your product works the next
+- [12:37] step is a demo most Founders think of a
+- [12:40] demo as a chance to finally show off
+- [12:42] their product in my experience thinking
+- [12:45] about it this way is a Surefire way to
+- [12:47] deliver a bad demo that's because your
+- [12:50] job in a demo is not to show off your
+- [12:53] product it's to convince your audience
+- [12:55] that you can help them solve their
+- [12:57] problem and one helpful trick I've
+- [12:59] learned is to think of your demo as the
+- [13:01] script for a great movie a great script
+- [13:03] always starts with a recap of who the
+- [13:06] main character is that's your user and
+- [13:09] the problem she's trying to solve this
+- [13:11] is your chance to demonstrate how well
+- [13:13] you were listening during your first
+- [13:14] call if your audience believes you
+- [13:17] understand their company and their
+- [13:18] problems they're going to take you
+- [13:20] seriously when you talk about how to
+- [13:21] solve them when you're ready to show the
+- [13:23] product resist the urge to take your
+- [13:25] audience on a feature tour where you
+- [13:28] walk from screen to screen showing them
+- [13:30] everything your product can do instead
+- [13:33] tell a story that shows exactly how your
+- [13:35] main character solves her problem and
+- [13:37] this is the point great demos actually
+- [13:40] feel like good stories they have a flow
+- [13:43] where each step leads to the next and
+- [13:45] every feature you show has a clear
+- [13:47] reason for being there they usually have
+- [13:50] one or more magic moments where you
+- [13:52] surprise your audience with how easy or
+- [13:54] delightful something is and great demos
+- [13:57] are also personalized for the audience
+- [13:59] this is where you get to use all of the
+- [14:01] information you collected during that
+- [14:03] first call tailor the demo to their
+- [14:06] company use their logo their website
+- [14:09] their customers uh the names of the
+- [14:11] people on their team the more you can do
+- [14:13] to help them visualize exactly how your
+- [14:15] product would work in their company the
+- [14:17] better I'll give you an example from the
+- [14:19] early days of optimizely when Dan and I
+- [14:22] started building we booked demos with
+- [14:24] all of our competitors and every single
+- [14:27] one of them used a website to show what
+- [14:30] it was like to use their products to run
+- [14:33] AB tests and we thought this was really
+- [14:35] lame so we spent weeks building a
+- [14:37] feature that made it easy to demo our
+- [14:39] product right on our customers websites
+- [14:42] instead of a dummy website and I knew it
+- [14:44] was worth it when I saw marketer eyes
+- [14:46] light up when they watched us change
+- [14:48] things on their landing page that would
+- [14:50] have taken them months to do on their
+- [14:51] own so if you do a good job your
+- [14:54] prospects and their team will come out
+- [14:56] of this meeting convinced that you can
+- [14:58] solve their problem and if that's the
+- [15:00] case it's time to talk about pricing I
+- [15:02] get a lot of questions from Founders
+- [15:04] asking how to price their products and
+- [15:06] the truth is there isn't a simple
+- [15:08] formula for doing this so if there isn't
+- [15:11] a formula how do you pick a number well
+- [15:13] fortunately you can ask questions
+- [15:15] earlier in the process that will make
+- [15:17] your job easier here like how much is
+- [15:19] this problem costing your company how
+- [15:22] many people are responsible for
+- [15:23] maintaining your in-house solution
+- [15:25] what's your budget for solving this
+- [15:27] problem how much are you spending on my
+- [15:29] competitor and it's okay to wait to
+- [15:32] share your pricing until you've had a
+- [15:33] chance to ask these questions in fact if
+- [15:36] your product requires lots of work or
+- [15:39] customization to implement you probably
+- [15:41] shouldn't quote a price until you
+- [15:43] understand exactly what your customer
+- [15:44] needs in any case even if you asked all
+- [15:48] of these questions upfront the reality
+- [15:50] is that pricing involves a lot of
+- [15:51] guessing in the beginning and the advice
+- [15:53] that I give to startups is to think of
+- [15:55] each pricing conversation you have as an
+- [15:58] opportunity to run an experiment in
+- [16:00] which you test a price point and then
+- [16:02] learn from your prospect's reaction to
+- [16:04] it in the early days of optimizely we
+- [16:06] had published self-serve pricing for
+- [16:08] customers who just wanted to swipe a
+- [16:10] credit card for a basic version of our
+- [16:11] product and an Enterprise plan that
+- [16:14] required you to go through sales we
+- [16:16] didn't publish pricing for the
+- [16:17] Enterprise plan which gave us the
+- [16:19] flexibility to try a different price
+- [16:21] each time the pricing mistake that
+- [16:23] Founders make most often is charging too
+- [16:26] little for their product or even making
+- [16:28] it free in exchange for product feedback
+- [16:30] Founders do this because they're worried
+- [16:32] about charging too much they think
+- [16:34] they're going to scare customers away
+- [16:36] one of the most surprising things I
+- [16:38] learned was that when a customer really
+- [16:40] wants your product it's hard to scare
+- [16:42] them away by quoting a price that's too
+- [16:44] high for example I remember my
+- [16:46] co-founder Dan coming out of a sales
+- [16:48] call and telling me that he'd worked up
+- [16:49] the nerve to quote the prospect $10,000
+- [16:52] a month for our software and the
+- [16:54] prospect ended up talking us down to
+- [16:56] 2,000 a month and then buying our
+- [16:58] initial quote was 5x what they were
+- [17:00] willing to pay and they still bought in
+- [17:02] fact higher prices can help you figure
+- [17:04] out whether customers actually need your
+- [17:06] product the cison brothers famously
+- [17:09] charged more for stripe in the beginning
+- [17:11] than their competition did the fact that
+- [17:13] they were able to sell their product
+- [17:15] anyway was compelling evidence that they
+- [17:17] were on to something and it helped them
+- [17:19] focus on the customers who were most
+- [17:21] desperate for a solution high prices
+- [17:23] make customers more serious this brings
+- [17:26] me to another important point about
+- [17:27] pricing remember that the most important
+- [17:30] conversations about pricing will happen
+- [17:32] without you in the room your prospect
+- [17:34] will need to convince others in the
+- [17:36] organization that your product is worth
+- [17:38] the price you're asking you can make
+- [17:39] their job easier by giving them slides
+- [17:42] or a PDF one pager that explains how
+- [17:44] your pricing works it's usually a good
+- [17:46] idea to include an overview of your
+- [17:48] product and the benefits of using it in
+- [17:50] case your prospect needs to talk to
+- [17:52] people who aren't familiar with it in
+- [17:54] any case don't spend too much time
+- [17:56] thinking about pricing in the beginning
+- [17:58] pick number ideally one that makes you a
+- [18:00] little uncomfortable and pay attention
+- [18:02] to how your prospect reacts it's okay to
+- [18:05] let them negotiate you down remember in
+- [18:08] your first few sales you're optimizing
+- [18:10] for learning not unit economics now that
+- [18:13] you've agreed on a price it's time to
+- [18:15] close the deal closing is not a single
+- [18:18] conversation it's a bunch of things that
+- [18:20] need to happen from the moment your
+- [18:22] customer decides they want your product
+- [18:24] to the moment they actually buy it big
+- [18:26] companies especially ones in highly
+- [18:28] regulated Industries have formal
+- [18:30] procurement processes that usually
+- [18:32] include stuff like security and privacy
+- [18:34] reviews legal reviews and signoff from
+- [18:37] compliance teams it's less formal in
+- [18:39] smaller companies but you should expect
+- [18:41] at a minimum to go through a redlining
+- [18:43] process with their legal team the
+- [18:44] biggest mistake that I see Founders make
+- [18:46] at this stage is getting surprised and
+- [18:49] discovering that what they thought was a
+- [18:50] done deal is in fact not done at all and
+- [18:53] may take weeks or months of additional
+- [18:55] back and forth or fall through
+- [18:57] completely now the way to avoid getting
+- [18:59] surprised is once again to ask a lot of
+- [19:02] questions asking your prospect upfront
+- [19:05] how they buy software and who needs to
+- [19:07] sign off will give you a clear picture
+- [19:09] of the hurdles you're going to have to
+- [19:11] overcome in order to get a signature you
+- [19:13] should do everything you can at this
+- [19:15] stage to move through the procurement
+- [19:17] process quickly ask explicitly if there
+- [19:21] are steps like filling out a security
+- [19:22] questionnaire that you can get started
+- [19:24] on early and execute in parallel and
+- [19:26] keep your legal documents as simple as
+- [19:28] possible I recommend starting with the
+- [19:30] open- source templates published by YC
+- [19:32] company common paper keep timelines and
+- [19:34] scope of work out of the legal contract
+- [19:36] if you can and put them in an order form
+- [19:38] or a shared project tracking document
+- [19:40] instead and most importantly remember
+- [19:42] that your prospect who at this point has
+- [19:44] become your Champion is your biggest
+- [19:47] Ally you should be in constant
+- [19:49] communication with them and when you
+- [19:51] need help getting something unstuck you
+- [19:53] should ask them first remember they
+- [19:56] can't solve their problem until you get
+- [19:58] through procurement so they're heavily
+- [20:00] incentivized to help you make it happen
+- [20:02] now that you have a signature
+- [20:04] congratulations it's time for your
+- [20:06] customer to actually start using your
+- [20:08] product this is the implementation and
+- [20:10] it's the last step we're going to talk
+- [20:11] about today and I'm going to lead with
+- [20:13] this the single biggest mistake that
+- [20:16] Founders make is thinking that
+- [20:18] implementation is the customer's job we
+- [20:21] made this mistake more than once at
+- [20:23] optimizely in fact we closed six figure
+- [20:26] deals with customers that were excited
+- [20:28] about our product and then we discovered
+- [20:30] a year later when it was time for them
+- [20:32] to renew that they hadn't run a single
+- [20:34] AB test with optimizely and this was
+- [20:36] confusing at first why would a customer
+- [20:38] who is willing to pay so much for a
+- [20:40] product fail to use it at all in this
+- [20:43] case the approximate cause is that the
+- [20:45] marketing team who bought our software
+- [20:47] couldn't convince the software
+- [20:48] engineering team to help them install it
+- [20:50] on their website the real cause though
+- [20:53] is we didn't do our jobs we thought our
+- [20:55] customer was buying a product so we sold
+- [20:57] them one and left the rest up to them in
+- [21:00] reality our customers were buying a
+- [21:03] solution to a problem and all of the
+- [21:05] work required to get from product to
+- [21:08] solution was our responsibility we
+- [21:11] learned to start asking marketing
+- [21:13] leaders about the work required to
+- [21:15] implement optimizely very early in the
+- [21:17] sales process we started building
+- [21:20] detailed implementation plans with
+- [21:22] marketing and Engineering leaders well
+- [21:24] before a contract got signed and in fact
+- [21:27] if we weren't able to do that we
+- [21:29] wouldn't sign a contract at all and the
+- [21:31] trick we learned was to treat the
+- [21:33] customer implementation the same way
+- [21:35] that we would a high priority project
+- [21:37] inside of our own company by project
+- [21:39] managing it so we put together a shared
+- [21:41] road map we made sure that every task
+- [21:44] headed owner we set up regular check-in
+- [21:46] meetings to hold everyone on our side
+- [21:48] and theirs accountable for getting it
+- [21:50] done your sales funnel only really ends
+- [21:53] when your customer is using your product
+- [21:55] habitually and when you get to that
+- [21:56] point congratulations hopefully you have
+- [21:59] a customer for life all right we've
+- [22:02] covered a lot today from prospecting to
+- [22:05] doing your first call delivering a great
+- [22:07] demo pricing closing and finally
+- [22:10] managing the implementation of course
+- [22:13] there's so much more to learn about
+- [22:14] sales and the best Founders devour
+- [22:17] everything they can on the topic if you
+- [22:19] want to go deeper I recommend Peter
+- [22:21] kazi's book founding sales it's a
+- [22:24] fantastic resource and it's free online
+- [22:27] but like most most of the hard things
+- [22:29] about building a company the best way to
+- [22:31] learn is by going out and doing the
+- [22:32] thing so if you only remember one thing
+- [22:34] it should be this just get started
+- [22:37] you'll make mistakes but with enough
+- [22:39] attempts you'll figure it out and
+- [22:40] selling will start to feel natural
+- [22:42] pretty soon you'll discover that you've
+- [22:44] acquired a new superpower you'll find
+- [22:46] it's useful not only in getting
+- [22:48] customers and revenue but in fundraising
+- [22:50] and hiring too and soon enough you'll be
+- [22:53] the one giving advice like this to new
+- [22:55] Founders thanks for watching
+- [22:58] [Music]
+- [23:02] n
+- [23:06] [Music]

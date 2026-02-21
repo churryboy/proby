@@ -1,0 +1,2381 @@
+## Key insight / summary
+
+- **문제가 아닌 기회를 팔아라**: 리더들에게는 문제 해결보다는 "내일 당신이 할 수 있게 될 것"에 대한 비전을 제시해야 함
+- **할인은 잘못된 신호**: 초기 스타트업이 할인으로 딜을 성사시키려 하지만, 진짜 좋은 클라이언트는 가격을 깎지 않음. 할인 요구는 완전히 납득하지 못했다는 신호
+- **차별화가 핵심**: 3개 업체 중 하나로 비교 검토 대상이 되는 순간 이미 진 것. 비교 불가능한 독특한 포지셔닝이 필요
+- **티어1 기업부터 공략하라**: 일반적 조언과 반대로, 월마트·테슬라 같은 업계 1위 기업들이 오히려 혁신적 솔루션에 가장 열려있음 (1위 유지를 위해 지속적으로 알파를 찾고 있기 때문)
+- **엔터프라이즈 세일즈는 관계의 예술**: 단순한 거래가 아닌 장기적 파트너십 구축. 신뢰관계가 있으면 클라이언트가 적극적으로 딜 성사를 도와줌
+- **중간시장은 존재하지 않는다**: SMB와 엔터프라이즈는 완전히 다른 게임이므로, 애매한 중간 포지셔닝보다는 명확하게 둘 중 하나를 선택해야 함
+- **파운더가 직접 나서라**: 특히 티어1 기업 공략 시, 파운더와의 대화를 원하는 경우가 많음
+- **AI 툴의 한계 인식**: 모든 아웃바운드 툴이 같은 데이터베이스를 사용하므로, 남들이 가지 않는 백도어 접근법이 더 효과적
+
+## Key implications for Proby platform
+
+- **"문제 해결"에서 "미래 가능성" 포지셔닝으로 전환**: 현재 McKinsey 문서의 "비용 절감" 중심 메시지를 "글로벌 리서치를 통한 새로운 인사이트 발굴 기회"로 확장해야 함. 예: "내일부터 당신은 24시간 안에 20개국 사용자 인사이트를 확보할 수 있습니다"
+- **할인 정책 재검토 필요**: 초기 고객 확보를 위한 할인보다는, 파일럿 프로그램이나 성공 기반 요금제(성과에 따른 차등 과금) 도입을 고려. 진짜 관심 있는 클라이언트는 가치를 인정하면 정가를 지불함
+- **비교 불가능한 차별화 요소 강화**: "AI 모더레이션"만으로는 부족. Proby만의 독특한 결합 요소 필요 - 예: 실시간 다국가 동시 리서치 + 문화적 컨텍스트 자동 분석 + 즉시 액션 아이템 도출
+- **고객 타겟 순서 재조정**: McKinsey 문서의 "유니콘→엔터프라이즈→스타트업" 순서를 "글로벌 엔터프라이즈(티어1)→유니콘→스타트업"으로 변경 검토. 삼성·LG 같은 국내 대기업부터 시작해 레퍼런스 확보
+- **파운더 중심 세일즈 전략**: 초기 티어1 기업 접촉 시 Proby 파운더가 직접 나서는 것을 기본 원칙으로. 엔지니어링팀 리더나 CPO와 파운더 간 직접 소통 채널 구축
+- **중간시장 애매함 해결**: 현재 전략의 "스타트업/유니콘/엔터프라이즈" 3분할을 "SMB(스타트업)" vs "엔터프라이즈(유니콘+대기업)" 2분할로 단순화하고, 각각 다른 제품/가격/세일즈 모션 적용
+- **관계 기반 세일즈 인프라 구축**: 단순한 SaaS 플랫폼이 아닌, 고객 성공팀을 통한 장기 파트너십 모델 도입. 주요 고객사의 리서치 로드맵에 깊숙이 관여하는 전략적 파트너 포지셔닝
+- **백도어 접근법 개발**: LinkedIn·이메일 대신, 학회·컨퍼런스·업계 리포트 기고를 통한 소프트 접근 방식. 리서치 업계 내 thought leadership 구축을 통한 인바운드 문의 유도
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=37fKFWdrMyA
+
+- [00:00] You need to vision cast. [music] You
+- [00:02] need to sell to a gap. Don't sell to a
+- [00:04] problem. When you're selling to a
+- [00:06] leader, you need to be selling an
+- [00:08] opportunity. The market doesn't want to
+- [00:10] be sold to. They want to buy.
+- [00:12] >> Most founders would rather get 10 10k
+- [00:14] deals than lose nine and get one 100k
+- [00:16] deal.
+- [00:17] >> In the very early days, people will
+- [00:19] discount till the cows come home because
+- [00:21] they think that's the way to get a deal
+- [00:23] done. The best clients are not going to
+- [00:26] do [music] that to you. If they're
+- [00:28] sitting there nickel and dimeming you,
+- [00:29] they're not fully bought in on what
+- [00:31] you're selling them.
+- [00:31] >> It might be giving you a false sense of
+- [00:33] success and product market fit.
+- [00:34] >> As soon as you become a comparison as
+- [00:37] soon as you become one of three that
+- [00:38] they're testing [music] out, you've
+- [00:40] already sort of lost. It's all about
+- [00:42] differentiation. Here's what you will be
+- [00:44] able to do tomorrow because of how we're
+- [00:47] going to serve you today.
+- [00:48] >> Something else that you talk about is
+- [00:50] that enterprise sales is very creative.
+- [00:52] >> It's more of an art. It's all about deal
+- [00:54] crafting. It is a relationship you're
+- [00:56] building with someone. if they know they
+- [00:58] can call on you. People will turn over
+- [01:01] rocks for you. I have a client at a
+- [01:03] Fortune 10 company where I was like,
+- [01:05] "It's so important we get the deal done
+- [01:07] this year. Is that possible?" And she's
+- [01:08] like, "It's a tall order, but like if
+- [01:10] it's going to help you, let's do it."
+- [01:11] These are how enterprise deals gets
+- [01:13] done. It's relationships.
+- [01:15] >> What's kind of like the state-of-the-art
+- [01:16] on go to market outbound tooling?
+- [01:18] >> I don't use a tool. The thing about AI
+- [01:21] tools is they're all pulling from the
+- [01:23] same databases. I want to email someone
+- [01:25] not in the database that's [music]
+- [01:26] getting hit by a million folks. I want
+- [01:28] to take a back door in, not the front
+- [01:30] door where everyone else is
+- [01:31] trick-or-treating.
+- [01:33] Today, my guest is Jen Ael, co-founder
+- [01:36] of Jellyfish, where she and her team
+- [01:37] help earlystage founders learn how to
+- [01:39] sell and now GMF enterprise at state
+- [01:41] affairs. If you want to become better at
+- [01:44] selling your product, this episode is
+- [01:46] going to blow your mind and make you so
+- [01:48] much better in every way. This is the
+- [01:51] second time Jen's been on the podcast.
+- [01:52] Our first conversation was focused
+- [01:54] around getting from zero to 1 million
+- [01:56] ARR, essentially founderled sales. This
+- [01:59] conversation is part two, going from
+- [02:01] around 1 million in AR, to around 10
+- [02:04] million. This is the most tactical and
+- [02:06] in the weeds discussion you will find
+- [02:08] anywhere for free on how to actually
+- [02:10] become more effective [music] at selling
+- [02:12] to enterprises. I'm so excited for you
+- [02:14] to listen to this conversation. If you
+- [02:16] enjoy this podcast, don't forget to
+- [02:17] subscribe and follow it in your favorite
+- [02:19] podcasting app or YouTube. It helps
+- [02:21] tremendously. And if you become an
+- [02:23] annual subscriber of my newsletter, you
+- [02:26] get 17 incredible products for free for
+- [02:29] an entire year, including Devon,
+- [02:32] Lovable, Replate, Bolt, Nadon, Linear,
+- [02:34] Superhum, Dcript, Whisper Flow, Gamma,
+- [02:36] Perplexity, Warp, Granola, Magic
+- [02:37] Patterns, Raycast, Chappd, and Mobin.
+- [02:39] Head on over to Lenny's newsletter.com
+- [02:41] and click product pass. With that, I
+- [02:43] bring you Gen Able after a short word
+- [02:45] from our sponsors. Here's a puzzle for
+- [02:48] you. What do OpenAI, Cursor, Perplexity,
+- [02:51] Verscell, Platt, and hundreds of other
+- [02:53] winning companies have in common? The
+- [02:55] answer is they're all powered by today's
+- [02:57] sponsor, WorkOS. If you're building
+- [03:00] software for enterprises, you've
+- [03:01] probably felt the pain of integrating
+- [03:03] single signon, skim, arbback, audit
+- [03:06] logs, and other features required by big
+- [03:08] customers. Work OS turns those deal
+- [03:10] blockers into drop-in APIs with a modern
+- [03:13] developer platform built specifically
+- [03:15] for B2B SAS. Whether you're a seedstage
+- [03:17] startup trying to land your first
+- [03:18] enterprise customer or a unicorn
+- [03:20] expanding globally, work OS is the
+- [03:22] fastest path to becoming enterprise
+- [03:24] ready and unlocking growth. They're
+- [03:26] essentially Stripe for enterprise
+- [03:28] features. Visit workos.com to get
+- [03:31] started or just hit up their Slack
+- [03:32] support where they have real engineers
+- [03:34] in there who answer your questions super
+- [03:36] fast. Workos allows you to build like
+- [03:38] the best with delightful APIs,
+- [03:40] comprehensive docs, and a smooth
+- [03:42] developer experience. Go to works.com to
+- [03:45] make your app enterprise ready today.
+- [03:48] This episode is brought to you by
+- [03:49] Lovable. Not only are they the fastest
+- [03:52] growing company in history, I use it
+- [03:54] regularly and I could not recommend it
+- [03:56] more highly. If you've ever had an idea
+- [03:58] for an app, but didn't know where to
+- [04:00] start, Lovable is for you. Lovable lets
+- [04:03] you build working apps and websites by
+- [04:04] simply chatting with AI. Then you can
+- [04:06] customize it, add automations, and
+- [04:08] deploy it to a live domain. It's perfect
+- [04:10] for marketers spinning up tools, product
+- [04:12] managers prototyping new ideas, and
+- [04:15] founders launching their next business.
+- [04:17] Unlike no code tools, Lovable isn't
+- [04:19] about static pages. It builds full apps
+- [04:22] with real functionality, and it's fast.
+- [04:25] What used to take weeks, months, or
+- [04:27] years, you can now do over a weekend.
+- [04:29] So, if you've been sitting on an idea,
+- [04:31] now is the time to bring it to life. Get
+- [04:33] started for free at lovable.dev.
+- [04:36] That's lovable.dev.
+- [04:42] Jen, thank you so much for being here.
+- [04:43] Welcome to the podcast, Lenny. It's
+- [04:46] starting to feel familiar and I like it.
+- [04:48] [laughter]
+- [04:48] >> I should have said welcome back to the
+- [04:50] podcast. So, I actually shared on
+- [04:51] Twitter that you're coming back and I
+- [04:53] had so many people ask so many
+- [04:55] questions. Clearly, there is a lot of
+- [04:57] confusion and a lot of need for uh
+- [04:59] learning how to get better at the stuff
+- [05:01] we're going to talk about sales,
+- [05:02] enterprise sales. to frame the
+- [05:05] discussion. The our first chat which
+- [05:07] we're going to point people to if they
+- [05:08] want to start there we focused on
+- [05:10] founder sales which is essentially the
+- [05:12] beginning phases of a startup kind of
+- [05:14] going from zero to about 100 million AR.
+- [05:17] This discussion is on the next phase
+- [05:18] which is going from about a million AR
+- [05:20] to about 10 million AR in enterprise
+- [05:23] sales not like PLG or anything like
+- [05:24] that.
+- [05:24] >> Y
+- [05:25] >> you have a bunch of really strong and
+- [05:27] counterintuitive opinions and piece of
+- [05:30] advice on how to be successful at this.
+- [05:32] So, I'm just gonna go through a bunch of
+- [05:34] these things. We'll see where it goes.
+- [05:35] Before I get into the first one, is
+- [05:37] there anything broadly I don't know, is
+- [05:38] there anything broadly you want to
+- [05:39] share? Anything you want to say before
+- [05:40] we dive in?
+- [05:41] >> No, let's dive right in.
+- [05:42] >> Okay. Okay. So, the first thing that I
+- [05:44] haven't heard anyone talk about before
+- [05:45] is this uh point that you often make
+- [05:48] that the mid-market does not exist.
+- [05:51] People often hear about enterprise
+- [05:53] companies. There's obviously SMBs and
+- [05:55] startups. There's also people just like,
+- [05:56] "Oh, I'm going to go after the
+- [05:57] mid-market somewhere between." You don't
+- [06:00] think that's real? talk about your
+- [06:01] experience there. What you what people
+- [06:02] should know.
+- [06:03] >> It's fascinating because you ask if you
+- [06:05] ask someone to describe the mid-market
+- [06:07] actually if you ask someone to describe
+- [06:08] the enterprise every single person has a
+- [06:10] different answer, right? It's either
+- [06:13] based off of revenue, it's either based
+- [06:15] off of market cap, it's based off of
+- [06:17] employee size. And I think a lot of
+- [06:20] people can get lost because selling to a
+- [06:24] 100 person organization is a radically
+- [06:27] different game than selling to a
+- [06:28] thousand person organization
+- [06:31] and there's no there's no like hybrid
+- [06:34] approach. So the best way to think about
+- [06:36] it is you have small business which is
+- [06:40] typically can be really powered by
+- [06:42] marketing and then you have enterprise
+- [06:45] which is typically going to be salesled.
+- [06:47] If you bucket them into these two very
+- [06:50] specific silos,
+- [06:52] it makes it much much easier to
+- [06:54] understand what game you're playing.
+- [06:56] Now, when we talk about mid-market, I
+- [06:59] usually will say, "Are we talking about
+- [07:00] the upper end of small business or are
+- [07:02] we talking about the lower end of
+- [07:03] enterprise?" And most people are usually
+- [07:05] saying the lower end of enterprise. And
+- [07:07] I say, "Great. Know you're playing the
+- [07:09] enterprise game. Know the type of people
+- [07:11] you need to hire. know the type of ACV
+- [07:13] they need because it makes it a lot
+- [07:15] easier than trying to have this middle
+- [07:17] ground that catches everything that
+- [07:19] doesn't distinctly define SMB and
+- [07:21] enterprise. So I say the mid-market
+- [07:23] doesn't exist because what is a
+- [07:24] mid-market hire? It's either low it's
+- [07:26] either low-end enterprise or upper end
+- [07:28] SMB. And if you bleed those two games,
+- [07:31] you're going to lose. They're so
+- [07:32] distinctly different. So that's kind of
+- [07:35] my theory on it. you have this chart
+- [07:37] that you shared with me that will link
+- [07:38] people to where you kind of show the
+- [07:40] number of companies within each of these
+- [07:42] segments and there's basically nobody in
+- [07:44] this kind of middle segment. Talk about
+- [07:45] that a bit.
+- [07:46] >> That's right. And just like the power
+- [07:48] laws, I mean, if you look at the Fortune
+- [07:51] 1000
+- [07:53] um and the and then the kind of the
+- [07:55] lower-end enterprise from there, the the
+- [07:58] G like it trails off so fast like power
+- [08:02] laws totally exist in these like large
+- [08:04] corporations. And I I I and we can't be
+- [08:07] treating everyone the same.
+- [08:08] >> This begs the question, where do you uh
+- [08:11] suggest companies start? There's
+- [08:13] obviously startups classically are just
+- [08:15] like innovators, move fast, can make
+- [08:17] quick decisions. Enterprises have all
+- [08:19] the money. Uh usually the advice I hear
+- [08:21] is just don't go after the fancy
+- [08:23] companies to start because they take a
+- [08:25] long time. They're you don't want to
+- [08:26] screw it up. What's your advice on where
+- [08:28] to start for most companies?
+- [08:30] >> The exact opposite.
+- [08:32] Early adopters are those logos
+- [08:37] because they have to continue to stay at
+- [08:39] the number one spot. So they'll take
+- [08:42] they'll take tons of you know uh swings
+- [08:46] to continue to stay in the number
+- [08:47] staying in the number one spot is the
+- [08:49] hardest part, right? So those number one
+- [08:51] logos are like if you can give me just a
+- [08:53] slight bit of alpha, just a tiny bit
+- [08:57] that's where I get that's where I get
+- [08:58] promoted. That's why I get the pat on
+- [09:00] the back because we are the world's
+- [09:02] leader in our industry and we cannot be
+- [09:04] disrupted there. So there's this running
+- [09:06] joke where uh not a running joke,
+- [09:08] there's this running statement where a
+- [09:10] lot of VCs will say don't go after tier
+- [09:13] one logos, go learn down market or go
+- [09:16] learn from like logos that don't
+- [09:18] necessarily carry a lot of weight. The
+- [09:20] ones that carry all the weight are the
+- [09:22] ones that are willing to take a shot and
+- [09:24] want to help, right? because um they
+- [09:27] also want to be a part of they also want
+- [09:28] to be able to dictate the roadmap. Now,
+- [09:31] it's the founders's job to decide what
+- [09:33] what can be done and what shouldn't be
+- [09:35] done, but their voice takes you a
+- [09:38] $100,000 deal into a million dollar deal
+- [09:41] in a very short period of time.
+- [09:43] >> It will literally guide you there. So,
+- [09:46] when someone says, "Hey, go after
+- [09:48] startups that just short sales cycle."
+- [09:51] Yeah, there like that that makes sense.
+- [09:52] I totally get that. It's a very it's
+- [09:54] very easy to decide define the decision
+- [09:56] maker. It's very easy. You don't you
+- [09:57] have to go through procurement. But in
+- [09:59] the age of AI where it's all about
+- [10:02] sucking the oxygen out of the room and
+- [10:03] winning the deal and getting your foot
+- [10:05] in the door as quickly as humanly
+- [10:06] possible before someone else tries to
+- [10:08] take that, you want to get to the
+- [10:10] enterprise as fast as humanly possible.
+- [10:12] >> Just so folks understand what we're
+- [10:13] talking about here. Uh when you say tier
+- [10:15] one, what's a good way to think about
+- [10:16] what tier one looks like? one is like
+- [10:17] your Walmart, your McDonald's, your
+- [10:20] Nvidia, your Tesla, your Exxon Mobile,
+- [10:24] your um United Healthcare, the logos
+- [10:28] that like are the leader in their space
+- [10:31] and um you know their job is to stay in
+- [10:34] the number one spot.
+- [10:35] >> Wow. So your advice is because this is
+- [10:37] very counterintuitive. This is exactly
+- [10:39] what you're here not to do. your advice
+- [10:40] is go after like the chevrons and the
+- [10:43] mobiles and the Walmarts as a startup co
+- [10:46] >> because if you can get them
+- [10:49] that's all the proof you need.
+- [10:50] >> How do you approach finding someone?
+- [10:51] Let's just get tactical there. Just like
+- [10:53] say you're going after Walmart. I know
+- [10:54] this is like not like a five second
+- [10:56] answer but just how would someone
+- [10:58] approach finding someone at Walmart to
+- [11:00] sell to?
+- [11:01] >> First of all, make sure the founder's
+- [11:02] involved, right? They love everyone
+- [11:04] loves talking to a founder. So like
+- [11:06] don't and there's we'll start with let's
+- [11:10] get the founder involved as fast as
+- [11:11] humanly possible. The second is you need
+- [11:14] to vision cast. You need to sell to a
+- [11:17] gap. Don't sell to a problem. There's a
+- [11:19] very big difference between problem
+- [11:21] selling and gapelling. Problem selling
+- [11:24] is highly specific, more technical than
+- [11:27] not. And it's the it's the way that
+- [11:28] every salesperson is going to go about
+- [11:30] it. Find the problem and anchor to it.
+- [11:33] When you're selling to a leader, you
+- [11:35] need to be vision casting and you need
+- [11:37] to be selling an opportunity, right?
+- [11:40] Which is they are here. Here's where we
+- [11:43] can take you. You know that that image
+- [11:45] where it's like Mario or Mario, Mario,
+- [11:48] Mario, and then there's like the
+- [11:50] mushroom and then there's like Mario on
+- [11:52] blast and everyone's like don't sell the
+- [11:54] mushroom, sell Mario on Blast. Well,
+- [11:55] that's exactly what it's saying. It's
+- [11:57] it's about selling the opportunity.
+- [12:00] That's what gets the tier one logos
+- [12:02] excited and that is the best thing for a
+- [12:04] founder to sell. Selling the vision
+- [12:06] versus the problem and also it's it's
+- [12:11] what gets them to want to take a swing.
+- [12:13] Who wants to take a swing because you
+- [12:14] can do some small problem? They're not
+- [12:15] going to go to bat for that.
+- [12:17] >> What's an example of a vision cast in a
+- [12:19] company you've worked with? Just to make
+- [12:20] this real, like what does it look like
+- [12:22] when you've done a great job? We have an
+- [12:23] ability to deliver alpha meaning we have
+- [12:26] information, we have data, we have um a
+- [12:29] way of working that no one else can do
+- [12:33] or is going to unlock a new way of
+- [12:35] thinking for you or an ability to
+- [12:37] deliver to a customer or an ability to
+- [12:39] solve a problem. Right now this is you
+- [12:42] have an ability to access this level of
+- [12:44] information. I have an opportunity
+- [12:47] through our resources or through this ex
+- [12:50] like gated data we have access to to get
+- [12:52] you much further upstream so that you
+- [12:55] can get information faster sooner. It's
+- [12:57] kind of like the high frequency trading
+- [12:59] that 1 second that one second. It's they
+- [13:01] didn't do much. They you know they
+- [13:03] didn't sell oh we we're doing fiber
+- [13:04] cable connect connectivity we're giving
+- [13:07] you one second of alpha before everyone
+- [13:09] else. It's it's more of like that
+- [13:11] ability and that's not problem selling
+- [13:13] that's opportunity selling. I like this
+- [13:15] phrasing of just giving them alpha.
+- [13:16] That's such a simple way to imagine what
+- [13:18] this should feel like. We'll link to
+- [13:20] that image you're talking about with the
+- [13:21] Mario and
+- [13:22] >> you know that you know that image.
+- [13:23] >> Yeah. And it the person that made that
+- [13:26] image originally was Kathy Sierra if you
+- [13:28] remember her. Do you remember? So
+- [13:29] there's this person Kathy Sierra. She's
+- [13:31] from back in the day. This was a big uh
+- [13:33] I don't know lesson she taught is you
+- [13:36] want to not sell your people on like a
+- [13:38] feature or product. You want to sell
+- [13:39] them on uh them becoming a superhero.
+- [13:42] >> Yeah, that's right. they are now a
+- [13:43] superhero because of the thing you've
+- [13:44] built for them. And so, so the vision
+- [13:46] here is here's how you become a
+- [13:48] superhero. Here's how this alpha will
+- [13:49] help you become more successful.
+- [13:50] >> And that's why founders are so good at
+- [13:52] selling because they they're they
+- [13:54] naturally go to vision selling and
+- [13:55] vision casting versus a typical trained
+- [13:58] salesperson is find the problem. Um, uh,
+- [14:02] you know, ask these questions and it
+- [14:04] just kills the vibe. It just feels like
+- [14:06] you're talking to a salesperson, right?
+- [14:08] It's like, what's your script? And it's
+- [14:10] like that's not vision selling, that's
+- [14:11] like playbook selling. And that and in
+- [14:13] the age of AI where it's all a lot of it
+- [14:16] is about alpha. It's about speed. It's
+- [14:18] about getting access to information.
+- [14:19] It's about training data. Like and look
+- [14:22] at the look at how the market's reacting
+- [14:23] to it, right? It's all it's all
+- [14:26] opportunity and it's all um yeah, it's
+- [14:29] all about the alpha.
+- [14:30] >> So just to make this more concrete for
+- [14:32] people, say I'm like saleserson at
+- [14:35] cursor.
+- [14:37] What would be an example of vision
+- [14:38] casting? Like the obvious idea there is
+- [14:41] your team will be more productive.
+- [14:42] You'll get more dynamo faster than
+- [14:44] everybody else. Is that a big enough
+- [14:46] vision to cast?
+- [14:47] >> I think it may be more of like you'll be
+- [14:49] able to actually hire the 10x engineers
+- [14:52] that you don't necessarily have access
+- [14:53] to because they want to be able to use
+- [14:55] this type of tool.
+- [14:58] It's about getting letting them get
+- [15:00] better, letting them get differentiated
+- [15:02] talent,
+- [15:04] right? Or that's probably more of what I
+- [15:06] would anchor to of like this is the the
+- [15:09] 10x engineers use cursor. You don't do
+- [15:13] you want access to 10x engineers?
+- [15:16] >> Like they won't even join your company
+- [15:17] if you're not using cursor.
+- [15:18] >> Yeah. Yeah. Like think about there's so
+- [15:20] many so many people are so specific
+- [15:22] about what they're able to espec I think
+- [15:24] especially technical folks like I'm not
+- [15:25] a technical person but I would imagine
+- [15:27] that they're not going to go to you know
+- [15:29] they don't like to go to these
+- [15:30] corporations because they're forced to
+- [15:31] use some like incumbent incumbent tools.
+- [15:35] >> Going back to the going after these
+- [15:37] larger companies I asked your uh
+- [15:40] colleague Justin what he what he sees
+- [15:42] you do that most impacts the success
+- [15:45] that teams have with their sales
+- [15:47] process. And there's a bunch I'm going
+- [15:48] to touch on, but one is uh most founders
+- [15:51] are insecure about asking for large ACVs
+- [15:54] for charging or they the way he put it
+- [15:56] is most founders would rather get 10 10k
+- [15:58] deals than lose nine and get one 100k
+- [16:01] deal. Talk about your advice there and
+- [16:03] what you see.
+- [16:04] >> There are in the very early days
+- [16:08] people will discount till the cows come
+- [16:10] home because they think that's the way
+- [16:11] to get a deal done, right? the best the
+- [16:15] best clients are not going to do that to
+- [16:18] you because they they like that's like a
+- [16:21] qualification criteria, right? Which is
+- [16:22] like if they're sitting there nickel and
+- [16:24] dimeming you being like, "No, I don't I
+- [16:26] don't I don't believe it's worth this. I
+- [16:28] don't believe it's worth that." They're
+- [16:29] not fully bought in on what you're
+- [16:31] selling them. So when when when
+- [16:35] I say I'd rather get $100,000 deal than
+- [16:38] 10 $10,000 deals, I'd rather have one
+- [16:40] rockstar client that's going to help me
+- [16:43] figure out the next stage of where this
+- [16:44] is going than 10 or maybe five that are
+- [16:48] a good fit, five that are not, and I
+- [16:50] still have to serve those five that are
+- [16:52] not a good fit. And that's going to
+- [16:53] distract me.
+- [16:55] So, this is why I love enterprise sales
+- [16:58] is
+- [17:00] they're not going to do the hard work of
+- [17:02] bringing you in if it's not critical or
+- [17:06] if it's not. When I say critical, it's
+- [17:08] it's not going to it's going to impact
+- [17:10] them in a way that they're going to make
+- [17:12] it successful. That's what I love about
+- [17:14] enterprise sales. they have the
+- [17:15] resources to ensure that it gets
+- [17:18] implemented cuz most of in today's day
+- [17:21] and age if people are not using the tool
+- [17:22] you just get rid of the tool right so
+- [17:24] they're going to want to make sure
+- [17:25] whatever they bring in what they go to
+- [17:27] bat for remember they get they go to bat
+- [17:31] once every two years maybe once every
+- [17:34] three years you've got to make it feel
+- [17:37] incredible you've got to make it feel
+- [17:39] like they're going to be a superhero
+- [17:41] going back to it otherwise what's the
+- [17:43] point because the way enterprises are
+- [17:46] structured is it is it is designed today
+- [17:50] to make it hard to buy because they want
+- [17:53] to make sure whatever you're bringing in
+- [17:54] you really really want it gets rid of
+- [17:58] the mediocre you know I think this would
+- [18:01] be good and it gets to this is going to
+- [18:04] change the way we work it's going to
+- [18:06] it's going to impact our ability to
+- [18:08] capture some form of alpha however you
+- [18:10] want to define that for them and it's
+- [18:14] sticky because of that.
+- [18:16] >> So your advice here broadly is don't pay
+- [18:19] attention to the smaller 10kish kind of
+- [18:21] opportunities for for a bunch of
+- [18:23] reasons. One is it may be giving you a
+- [18:25] false sense of success and product
+- [18:27] market fit. Uh two, those companies are
+- [18:30] maybe not as innovative and won't lead
+- [18:32] you in the right direction. Three is are
+- [18:34] probably discounts just like your
+- [18:35] product and your pricing is just gets
+- [18:37] thrown off.
+- [18:38] >> Yeah. And also like you don't really get
+- [18:40] taken seriously for 10k.
+- [18:43] you get way more taken seriously for
+- [18:44] 100k cases. It's much harder to get 100k
+- [18:46] deal done and like an executive used
+- [18:49] needs to be involved. I'd much rather
+- [18:50] have an executive sign off on something
+- [18:52] and spend two more months getting the
+- [18:55] deal done because you know that they are
+- [18:59] bought in. you know, you can now ensure
+- [19:02] what kind of value do they want to
+- [19:03] unlock and maybe you have an opportunity
+- [19:06] to turn them into a user, which to me in
+- [19:08] today's day and age with our generation
+- [19:11] being the ones that are now the
+- [19:12] executives at these corporations, this
+- [19:14] is native to them.
+- [19:15] >> Who is this true for? Is this is the
+- [19:18] advice here? Basically, if you're trying
+- [19:20] to build a successful B2B company, uh,
+- [19:22] everybody should be aiming towards these
+- [19:25] 100k sort of deals. Is there a world
+- [19:27] where you can be successful with 10Ks
+- [19:29] for a long time?
+- [19:30] >> If you have a super high win rate in a
+- [19:32] massive market, because all you have to
+- [19:34] do is reverse engineer the math. If you
+- [19:36] need a if you need to generate $100
+- [19:37] million in revenue, how many 10k deals
+- [19:40] do you need? And the expansion on a 10K
+- [19:43] deal is in parallel to that, right? What
+- [19:46] can you go 10 to 15 if you're that's a
+- [19:49] 50% growth,
+- [19:51] right? much easier to go to 100K to 500K
+- [19:55] because they want more bodies or they
+- [19:56] want more value out of you. For an
+- [19:58] enterprise, they'd love to get more out
+- [20:00] of an existing customer. You're already
+- [20:01] trusted. So, it's also about, you know,
+- [20:04] the type of company you are. If you're
+- [20:06] venturebacked, you can't be selling
+- [20:07] $10,000 deals to the enterprise. You'll
+- [20:09] get killed or or you've already lost the
+- [20:13] game because you're playing a small
+- [20:15] business game in in the wrong sector.
+- [20:17] Have you seen startups you've worked
+- [20:18] with succeed in that 10k 20k bucket or
+- [20:22] is it really really rare
+- [20:23] >> if they're going after the enterprise?
+- [20:25] >> Yeah.
+- [20:25] >> Yes. If it's the first three months and
+- [20:27] then after three three months it turns
+- [20:29] into a 50k and then 100k and it ramps up
+- [20:32] quickly. Sure, that makes sense because
+- [20:33] you got your foot in the door and it and
+- [20:35] you can expand it exponentially um in a
+- [20:38] healthy manner. I think that that's
+- [20:39] fine. $10,000 a year then going to 12
+- [20:43] then going to 15. The math will break.
+- [20:45] >> This is great. I feel like most founders
+- [20:46] listening to this are like, "No, no,
+- [20:47] we're kind of in that exception. We'll
+- [20:49] be all right. 10K, we'll do 20K." That's
+- [20:51] crazy to consider 100K.
+- [20:52] >> Yeah. That the math will break. And also
+- [20:56] the a really good salesperson, your
+- [20:59] commission on a 10K deal,
+- [21:02] you're not going to get a great
+- [21:03] salesperson. They're going to want to do
+- [21:05] they're going to want to be anchored to
+- [21:06] like, "How can I sell a $250,000 deal?
+- [21:08] How can I sell a half a million dollar
+- [21:09] deal?" That's the type of person you
+- [21:10] want. And this is like a big part of
+- [21:12] this is this is a good lens to force you
+- [21:15] to build the product that you can sell
+- [21:17] for 100K, 500K.
+- [21:19] >> Yeah, absolutely. And again, this is
+- [21:21] about playing that enterprise game. If
+- [21:23] you're trying to sell a if you know
+- [21:25] you're a small business, if you're if
+- [21:28] you're in the small business place and
+- [21:29] an enterprise company comes to you and
+- [21:30] is like, I like this, ensure that you
+- [21:33] structure it for an enterprise, don't
+- [21:35] play the small business game with an
+- [21:37] enterprise company.
+- [21:38] >> Talk more about that. What does that
+- [21:39] mean? Let's say you're PLG and an enter
+- [21:42] big company like Walmart comes to you
+- [21:44] and is like, "Hey, can we get access for
+- [21:47] three of our users and they're like,
+- [21:49] "This is so exciting." Well, and then
+- [21:51] they sell them the small business
+- [21:53] pricing for three users to Walmart.
+- [21:57] Very, very hard now to go from those
+- [21:59] three users that you just priced them at
+- [22:00] a small business as in a small business
+- [22:02] way turn that into 100K because now it's
+- [22:05] documented what they're actually paying
+- [22:06] for this. So, you're stuck. you've kind
+- [22:09] of like anchored yourself to this price.
+- [22:11] Not to mention like what's the how are
+- [22:14] you going to unlock the executive highle
+- [22:18] value so that you can get that so you
+- [22:20] can get someone you can get that senior
+- [22:23] executive to buy in and stamp this as
+- [22:26] well. Otherwise, it's just going to be
+- [22:27] throwing it on the credit card. But like
+- [22:30] again, you've just ruined your
+- [22:32] enterprise game because you're anchoring
+- [22:33] to a small business price. So, this is
+- [22:34] why like when you bleed these two games,
+- [22:37] it's very, very, very dangerous because
+- [22:40] these are really smart companies.
+- [22:42] They're going to say, "Well, wait a
+- [22:43] second. I just paid $9,000 last year and
+- [22:46] now you want to charge me $90,000. Well,
+- [22:48] what's the step change in value? What's
+- [22:50] the difference? What's the 10x value I'm
+- [22:51] now getting?" That's super hard to
+- [22:53] prove.
+- [22:54] >> So, the tip here is uh your initial
+- [22:56] price will really screw you if you get
+- [22:58] it wrong. And so obviously we're not
+- [23:02] going to give people the answer on their
+- [23:03] pricing strategy fully, but just is the
+- [23:06] advice just charge more or like what
+- [23:07] would you recommend?
+- [23:08] >> It is enterprise companies are very used
+- [23:11] to a land when I say like the first
+- [23:14] initial contract to somewhere between
+- [23:16] 75K and 150K
+- [23:19] very used to that in fact that's
+- [23:21] probably where you want to start because
+- [23:22] you also want to understand where can
+- [23:24] you grow from this. Start contained.
+- [23:26] Don't say 150k and sell the farm. Say
+- [23:30] it's 150k. Here's who's gets access.
+- [23:32] Here's the value we're going to deliver.
+- [23:35] And um here's where we're going over
+- [23:37] time. You also want them to know here's
+- [23:39] what here's how what we plan to do
+- [23:40] roughly in year two, year three. I know
+- [23:42] it's hard to look that far out, but like
+- [23:45] plant the seed with them in terms of
+- [23:47] where this is going. If you come in at
+- [23:49] $10,000,
+- [23:52] it's so even if they want to bring you
+- [23:53] in and want to spend 100K from with you,
+- [23:56] they have to be able to defend that. And
+- [23:59] now they see a $10,000. It's just it can
+- [24:01] get really messy, especially because a
+- [24:03] lot of them are using AI now to
+- [24:05] understand like contracts. So, they're
+- [24:06] going to quickly say, "Oh, wait. You
+- [24:09] spent $1,000 with Lenny and now Lenny's
+- [24:11] asking you for 100K. Great. Just just
+- [24:13] help me understand why or defend it." I
+- [24:16] could totally see Chbtt being like this
+- [24:18] is interesting. Used to be 1K and now
+- [24:20] it's 100K. What might be going on here?
+- [24:22] >> Totally. But people don't realize, you
+- [24:25] know, how d how
+- [24:27] >> again
+- [24:29] know the game you're playing and don't
+- [24:32] be sloppy about it.
+- [24:34] >> So your advice here is really
+- [24:35] interesting. It's uh there's the land
+- [24:37] expand. expand is uh very important, but
+- [24:40] the landing may screw your expanding
+- [24:43] because it sets the wrong reference
+- [24:44] point.
+- [24:45] >> Thousand percent. That's exactly right.
+- [24:46] You said it better than I did.
+- [24:48] >> And so you may see like Matt like in
+- [24:50] theory if you land a 10K go to 100K
+- [24:52] that's like an amazing NR. Everyone's
+- [24:53] going to be really impressed.
+- [24:55] >> But you're saying people won't won't buy
+- [24:57] into that. It's going to feel absurd and
+- [24:59] wrong and
+- [25:00] >> unless it's defendable. All it needs to
+- [25:02] be is defendable. But who can really
+- [25:03] defend? That's very hard to defend a 10x
+- [25:06] 10x jump. They're gonna want to see 15x
+- [25:08] value.
+- [25:11] >> Let's talk about design partners.
+- [25:12] >> Oh yeah,
+- [25:13] >> this is something most founders try to
+- [25:15] do. They find a few folks to work with
+- [25:17] to help them build the thing. What's
+- [25:19] your advice on when to start finding
+- [25:21] design partners, how to find design
+- [25:22] partners, what a good relationship looks
+- [25:24] like.
+- [25:24] >> Design partners are incredible. They are
+- [25:27] the hardest logos to upsell, meaning go
+- [25:30] from design partner to full rollout
+- [25:32] customer. So, like don't expect these
+- [25:35] people to be your million-dollar
+- [25:37] pipeline. Expect these people to be the
+- [25:40] guide to help you understand
+- [25:42] um maybe design partners could be, you
+- [25:46] know, a technology company in the in the
+- [25:49] Fortune 1000. So, that they're used to
+- [25:51] experimenting, they're used to
+- [25:52] technology, they're used to they were
+- [25:54] once a startup, so they get it. Those
+- [25:56] make really good design partners. Most
+- [25:58] of the design partners that I've closed
+- [25:59] are usually
+- [26:01] like technology based, right? They they
+- [26:03] get it. Um, and they also are excited
+- [26:06] about, you know, advancing the org and
+- [26:08] also giving the team an ability to have
+- [26:11] that startup feel. So, like, you know,
+- [26:13] if you're a large massive corporation
+- [26:15] like uh Stripe, right? Stripe doesn't
+- [26:20] get that startup vibe as much, like that
+- [26:22] 50 person startup vibe, but like this
+- [26:24] can be a gift to give them that lens and
+- [26:26] give them that voice and give them that
+- [26:27] like excitement um that they, you know,
+- [26:30] don't get as a larger company. But
+- [26:32] they're those are great types of logos
+- [26:34] to be, you know, early design partners
+- [26:36] because one, they want to make sure
+- [26:37] they're on that they continue to stay on
+- [26:40] the that cutting edge, but two is
+- [26:44] they are um
+- [26:48] to try and build something without that
+- [26:50] guidance is really really really hard
+- [26:52] because they're not using it. So you
+- [26:54] need that that you need that user
+- [26:56] feedback
+- [26:57] and you also need to tie that to the
+- [26:59] executive value, right? So, it's it's
+- [27:01] actually a lot. It's very hard to do,
+- [27:04] but if you can come out of it and upsell
+- [27:07] a design partner to a full rollout
+- [27:09] customer, such huge
+- [27:13] such a huge win for the market, for you,
+- [27:17] for your team, and also for your
+- [27:19] investors, because it's the hardest
+- [27:21] customer to actually truly convert.
+- [27:23] They've been it when it was messy. They
+- [27:25] got a really they usually got a low
+- [27:27] price point. But if you again frame it,
+- [27:29] say, "Listen, I would love for you to be
+- [27:31] design partner. I want a little skin in
+- [27:32] the game to get you to pon it. Here's
+- [27:34] where we want to go and you'll get a
+- [27:36] you'll get a discount because you you
+- [27:38] were in it in the beginning, but I'm
+- [27:40] setting the framing. Here's where we
+- [27:41] want to go with pricing. Here's where we
+- [27:43] are today. You'll always have 30%
+- [27:45] concession in perpetuity because you
+- [27:47] were there with us on day one." So
+- [27:49] again, it's not about, you know, asking
+- [27:51] for $10,000 and then not expecting that
+- [27:54] design partner to upsell and keep it
+- [27:55] flat because there's no growth there.
+- [27:57] It's a flat, you know, it's about
+- [28:00] getting that early design partner, set
+- [28:01] the framing, own the framing, and let
+- [28:03] them know where you're going. Again,
+- [28:06] $100,000 to these large logos. If they
+- [28:09] want it, it's very easy for them to get
+- [28:11] it in. there's this this really
+- [28:12] interesting underlying piece of advice
+- [28:14] of finding a company that pulls you in
+- [28:16] the direction that leads to success. A
+- [28:19] company that's kind of a visionary. Uh
+- [28:21] like there's ob there's like the obvious
+- [28:23] companies that everyone's always trying
+- [28:24] to get these days. Open AAI and
+- [28:25] Anthropic and Stripe I think is one. And
+- [28:28] uh any advice for just like picking the
+- [28:30] right early what are signs that this is
+- [28:32] a company that will point you in the
+- [28:33] right direction? I think they have to be
+- [28:35] part of a logo that is deemed, you know,
+- [28:38] um,
+- [28:40] startup friendly, right? Or or, you
+- [28:43] know, in that world. And then I think
+- [28:45] it's the person, right? Like, is this
+- [28:47] person excited to give feedback? Does
+- [28:49] this person buy in to where we're going?
+- [28:52] Do they see this world differently with
+- [28:54] like us? Do they buy are they in lock
+- [28:56] step with the founder vision? Are they
+- [28:58] excited to to use a tool that's janky?
+- [29:02] because it is janky in the beginning,
+- [29:04] but they know they know that where this
+- [29:06] can go can be incredible.
+- [29:10] So, it's I think it's really about the
+- [29:12] person and making sure that they're
+- [29:13] aligned for what they're getting into.
+- [29:15] And I think a lot of people
+- [29:18] I think a lot of sales people oversell
+- [29:21] it. I think that's a common thing that
+- [29:24] happens, right? And that leads to churn.
+- [29:26] That leads to frustration. That leads to
+- [29:29] sometimes just cancelling the contract.
+- [29:30] They oversell the initial kind of design
+- [29:32] partners.
+- [29:33] >> They overell everything. Yeah. Design
+- [29:35] partner even full rollout. And it's so
+- [29:37] so important to tell them here's where
+- [29:39] we are today. Here's what we cannot do,
+- [29:42] which is just as important. It builds
+- [29:44] trust. Here's what we will allow you to
+- [29:46] do in the next 6 months. Do you want to
+- [29:48] be on this journey with us? And it's
+- [29:49] really ugly right now. Right? Barely
+- [29:52] anything exists, but like we would love
+- [29:54] your voice to be a part of it. One of
+- [29:55] the biggest fears I think founders have
+- [29:58] is having a company pull basically build
+- [30:00] just for their use case and then it ends
+- [30:02] up not being used by a lot of people and
+- [30:04] so like how far do you go f fixing their
+- [30:06] specific problems? Any advice on just
+- [30:08] how far to go with one company?
+- [30:10] >> That is the founders's job. The
+- [30:12] founders's job is to have a clear vision
+- [30:16] and do not let anything delineate from
+- [30:19] that. It's important to take feedback in
+- [30:21] terms of what is the market's reality.
+- [30:24] But like it is the founder and this is
+- [30:25] why being a founder is so hard. It is
+- [30:27] the founders's job to interpret that
+- [30:30] because a lot of feedback you get is
+- [30:32] this is the old way. This is they're
+- [30:33] responding this way because it's the old
+- [30:35] way of working.
+- [30:37] They want you to build this because it's
+- [30:38] the old that's how they're traditionally
+- [30:40] expecting to do that. It is not here's
+- [30:44] where we're going. This is why we're not
+- [30:46] doing that. I hear you, but here's why
+- [30:47] we're not going to do that. because this
+- [30:48] is we're going to completely change the
+- [30:50] way you do this. That is the founders's
+- [30:52] job. And I think you know I we did a
+- [30:55] bunch of design partnerships
+- [30:58] uh you know late last year and
+- [31:04] there was a lot of feedback given a lot
+- [31:06] of feedback given but the founder had
+- [31:09] such clarity with where he wanted to go
+- [31:12] that he was like 80% noise 20% had I not
+- [31:16] asked this question like I wouldn't have
+- [31:18] gotten that gold in terms of where they
+- [31:20] are today and like it's that 8020 rule
+- [31:23] where 80% of what they're going to tell
+- [31:24] you is probably going to be not related
+- [31:27] to where you want to go or based off of
+- [31:29] the old way, but that 20% of like, oh, I
+- [31:32] did not think about it that way. That
+- [31:34] drives everything.
+- [31:35] >> Have you seen a design partner pull a
+- [31:37] company in the wrong direction, just
+- [31:38] kind of screw their their path? Have you
+- [31:40] seen that or is that is that pretty
+- [31:41] rare?
+- [31:42] >> No, I think that that I don't think it's
+- [31:44] that rare. Um, because we hear people
+- [31:46] complain about it all the time, but I
+- [31:48] think it's more of an excuse. Coming
+- [31:49] back to this question of going after the
+- [31:51] enterprise versus SMBs and again uh
+- [31:54] early advice you gave is uh there's no
+- [31:57] don't go in between either pick uh SMB
+- [32:00] small company which uh I know you said
+- [32:01] there's million way to to kind of
+- [32:03] differentiate what this means but uh
+- [32:05] what I guess I I think of employee
+- [32:07] numbers like you know like under some
+- [32:09] number over a thousand is maybe
+- [32:10] enterprise is that like a a good way to
+- [32:12] think about just like
+- [32:13] >> yeah I mean it depends are you selling
+- [32:14] per seats or are you selling um you know
+- [32:18] based off usage or are you selling off
+- [32:21] of like I think it also depends on the
+- [32:22] pricing model a little bit.
+- [32:24] >> I I look at headcount too because it's
+- [32:26] just like it's just such an easy way to
+- [32:28] think about it because you can also
+- [32:29] gauge usage off that and a bunch of
+- [32:32] other things. Um but sometimes like the
+- [32:34] small companies like I think we're going
+- [32:37] to see a lot more like
+- [32:41] a lot more larger companies become
+- [32:43] smaller because of AI. not like
+- [32:45] significantly smaller but but also like
+- [32:47] high margins allow them to experiment
+- [32:49] more too.
+- [32:50] >> That's such an interesting point you're
+- [32:51] making there that like the the way we
+- [32:53] designate enterprise versus SMB like may
+- [32:55] shift because number of employees may go
+- [32:57] down with AI.
+- [32:58] >> Yeah.
+- [32:58] >> Oh yeah.
+- [32:58] >> Um so interesting. So going so where I
+- [33:01] was going to go with this question is
+- [33:02] when people are deciding I'm going to go
+- [33:04] enterprise versus I'm going to sell to
+- [33:06] startups like YC companies are the the
+- [33:09] typical example they sell to their own
+- [33:11] YC batches. any just broad advice of
+- [33:13] picking. Okay, you go, we go enterprise
+- [33:15] versus no, let's actually go startup.
+- [33:17] >> I think it's about and I read this
+- [33:19] somewhere and I I wholeheartedly agree
+- [33:21] with it because I've seen it live. I
+- [33:22] think it's about like what game does the
+- [33:25] founder best understand. Are they like
+- [33:28] an incredible marketer and have some
+- [33:30] like competitive edge for how they can
+- [33:32] like win a massive audience? I would say
+- [33:35] go SMB and marketing le or are they a
+- [33:38] bit more um you know really understand
+- [33:42] how large corporations work and really
+- [33:45] excited to deliver on $100,000 plus type
+- [33:49] of opportunities or the value that they
+- [33:52] are building for is way more relatable
+- [33:55] to an enterprise versus a small
+- [33:56] business.
+- [33:57] >> That is really interesting. I've never
+- [33:58] heard of it described that way. I think
+- [34:00] about linear which started very startupy
+- [34:05] and my take is they did that because
+- [34:08] changing the way you work is really hard
+- [34:10] and their bet was like let's start with
+- [34:12] companies and grow with them and over
+- [34:13] time that becomes the default. Any
+- [34:15] reaction to that?
+- [34:16] >> I think that it it sounds like that
+- [34:19] that's a great way to work because
+- [34:21] that's a technical tool, right? So that
+- [34:23] you need to have the right you also need
+- [34:25] to have the right infrastructure to
+- [34:26] sell, right? Like I think Slack I mean
+- [34:29] look Slack and Microsoft Teams are still
+- [34:31] battling it out at the enterprise. I
+- [34:33] think it's also like how you plug in and
+- [34:36] how you integrate and do they even have
+- [34:37] the right systems to support you. Um the
+- [34:40] thing with open AI and and is like they
+- [34:43] didn't have to connect to anything.
+- [34:44] >> Uh say more about that.
+- [34:46] >> So like the the value people were people
+- [34:49] were bringing their own use cases to it,
+- [34:53] right? Right. And they don't it's not
+- [34:54] like they they in well they can ingest
+- [34:56] and they've built that. That's a brand
+- [34:58] new thing. And they started
+- [35:01] they started I think I I this is someone
+- [35:04] told me this so this is this could be
+- [35:06] hearsay but I believe that they had they
+- [35:09] were already speaking to CTOs even well
+- [35:12] before they released to help them
+- [35:13] explain where this is all going and get
+- [35:16] their buy in. And it's and it's much
+- [35:18] easier to get into the enterprise when
+- [35:19] you're like we won't even touch your
+- [35:20] data. Won't even touch your just
+- [35:22] drop like use it to solve problems
+- [35:26] and then and then we can build trust and
+- [35:28] then start to integrate and and connect
+- [35:30] the and connect the pipes. But like part
+- [35:32] of the challenges with selling in the
+- [35:34] enterprise you're like all right well
+- [35:36] let's connect all your consumer data and
+- [35:37] like in the whoa that's extremely risky.
+- [35:40] So you have to start small and low risk
+- [35:43] which is like hey here's what is the
+- [35:46] subset of um consumers that turned let's
+- [35:50] figure out how we could have made them
+- [35:52] happier whatever it be so that data is
+- [35:54] lower risk. Um so again it's also
+- [35:57] understanding your market and
+- [35:59] understanding you know what their
+- [36:01] ability to experiment is.
+- [36:03] >> It's interesting this distinction
+- [36:05] between open AI right now and anthropic.
+- [36:07] I don't know if you've been seeing kind
+- [36:08] of their their growth. Feels like OpenAI
+- [36:10] is very consumer first and Anthropic is
+- [36:13] more and more winning on on B2B. I saw
+- [36:15] this chart recently where they're like
+- [36:17] overtaking OpenAI now on on B2B. Uh I
+- [36:20] don't know any reaction there of just
+- [36:22] like these two different approaches.
+- [36:23] >> I don't because most enterprises I'm
+- [36:25] talking to mention Gemini.
+- [36:27] >> Oh, interesting.
+- [36:28] >> Yeah. Or uh or Microsoft Copilot. Um so
+- [36:33] I don't hear much about anthropic to be
+- [36:36] honest. So that might be more of like a
+- [36:37] small business startupy
+- [36:40] I don't know or or or it's a different
+- [36:43] part of the organization that's using
+- [36:45] it.
+- [36:45] >> Yeah, that that's a whole discussion of
+- [36:47] bundling right there of like Slack and
+- [36:49] Teams and then just Yeah. Gemini just
+- [36:51] kind of coming in automatically. People
+- [36:53] don't have to adopt anything new.
+- [36:54] >> Yeah, totally.
+- [36:55] >> There's something else that you talk
+- [36:57] about that I love that I don't think
+- [36:59] people talk much about which is that
+- [37:01] enterprise sales is very creative.
+- [37:03] >> Oh yes. talk about that.
+- [37:06] >> So I personally believe that
+- [37:10] small business sales is really a I used
+- [37:13] to think it was more science than art,
+- [37:15] right? It was more like you know
+- [37:18] figuring out what didn't work, running
+- [37:20] experiments,
+- [37:21] um uh you know testing and validating
+- [37:25] which I do believe that's that's that's
+- [37:26] that's to get to like foundations like
+- [37:29] where do we play? What do we want to do?
+- [37:31] like that early early early 0 to one
+- [37:33] from 1 to 10 I think it's more of an art
+- [37:37] right which is how do I take my learning
+- [37:40] and how do I package it up where I own
+- [37:43] the framing I can speak to very specific
+- [37:46] alpha I can um vision cast and where I
+- [37:53] better understand the problem over time
+- [37:55] better than the market does
+- [37:58] and it's all about deal crafting They
+- [38:01] just need to feel like the value they're
+- [38:03] getting out of it is way more than the
+- [38:06] cost.
+- [38:08] And it's sometimes about giving away
+- [38:12] things that don't really cost much to
+- [38:14] you, but are super expensive for them.
+- [38:15] For example,
+- [38:17] hey, we're selling X tool. We can we can
+- [38:21] build out this. we can build out why
+- [38:23] specifically for you over the next year
+- [38:26] and integrate it because I know that you
+- [38:28] would have spent x number of dollars on
+- [38:30] engineering resources or you wouldn't
+- [38:31] have gotten an engineering head
+- [38:33] internally to do this. But we're just
+- [38:35] going to leave it to you. You got to
+- [38:36] give us a year to build it out. Again,
+- [38:37] you're not you're not letting them
+- [38:39] sidetrack you too much. You're kind of
+- [38:41] containing it. We'll do that for you at
+- [38:43] no additional cost. That's huge value,
+- [38:46] right? or hey, we're going to run um
+- [38:49] we're going to run an event and we want
+- [38:51] you at the forefront of it. We want you
+- [38:53] to be a speaker. Huge value, right? So,
+- [38:56] it's like all of these additional things
+- [38:57] that add value beyond just the product,
+- [39:00] but are all part of the product and the
+- [39:02] vision, right? You know, everyone keeps
+- [39:05] thinking the product is just what goes
+- [39:06] into their hand. The product is pricing.
+- [39:09] the product is the um the opportunity,
+- [39:13] the framing, and not letting them
+- [39:15] compare you to something else. And I
+- [39:17] know we talked on our first call, which
+- [39:18] is as soon as you become a comparison,
+- [39:21] as soon as you become one of three that
+- [39:23] they're testing out, you've already sort
+- [39:25] of lost.
+- [39:27] It's all about differentiation,
+- [39:30] right? And it's all about here's what
+- [39:32] you will be able to do tomorrow because
+- [39:35] of of of
+- [39:37] how we're going to serve you today. So
+- [39:39] along those lines, it reminds me in our
+- [39:41] first chat, you actually made this uh
+- [39:43] point that I've never heard anyone else
+- [39:44] make, which is that services are a
+- [39:46] really good way to start getting into
+- [39:48] companies that were uh most founders
+- [39:50] here like no, don't just like don't do
+- [39:52] manual stuff for the company. Build a
+- [39:54] product that you can scale. Your advice
+- [39:55] is the opposite. Actually start with
+- [39:57] sell services. Talk about that.
+- [39:59] enterprises, the number one thing they
+- [40:01] buy services. That's they know how to do
+- [40:03] it. It's super easy. It's they they like
+- [40:05] they do it all of the time. It's like
+- [40:07] the most consistent thing they do. It's
+- [40:08] their largest budget item, right?
+- [40:10] External resources, consultants,
+- [40:12] whatever.
+- [40:13] If they have a very immature way of
+- [40:16] understanding the problem or they've
+- [40:18] never purchased technology to solve it
+- [40:21] to some extent, right? either
+- [40:25] one you are doing something that's never
+- [40:27] been done before which is like you know
+- [40:30] rare in today's day and age or um they
+- [40:34] might just be like lagards on the
+- [40:37] journey. So you have to decide is this
+- [40:39] someone you really want to be working
+- [40:41] with and if so selling them as service
+- [40:44] even though the technology is powering
+- [40:46] it on the back end is the fastest way to
+- [40:48] get your foot in the door. It's they
+- [40:50] it's what they know how to buy. Now the
+- [40:53] idea is to once you sell that service,
+- [40:55] once you get that foot in the door, then
+- [40:56] it's to guide them towards the product.
+- [40:58] Hey, you're spending so much here. Why
+- [41:01] don't we move you? Why don't we get you
+- [41:02] to come in and leverage the tool that's
+- [41:04] been powering this the whole time and
+- [41:07] move this more into technology ser
+- [41:10] technology serving you versus the human.
+- [41:12] >> Wow. I think this will blow a lot of
+- [41:14] people's minds.
+- [41:15] >> Talente, this forward deployed engineer.
+- [41:17] That's exactly what they're doing,
+- [41:19] right? like you know it's there's you
+- [41:21] know there's a lot of companies out like
+- [41:23] I'm sure open AI and this is what
+- [41:25] someone told me they were in and talking
+- [41:26] to CTOs and helping them better
+- [41:28] understand how AI and their organization
+- [41:30] can better work together and it was them
+- [41:32] coaching them and educating them whether
+- [41:34] they did it for free or not I I don't
+- [41:35] know but they got their foot in the door
+- [41:37] they started to build trust and then it
+- [41:39] gets adopted
+- [41:41] >> this is the epitome of doing things that
+- [41:42] don't scale that advice we always hear
+- [41:44] this is like okay this is what that
+- [41:45] looks like we will solve this problem
+- [41:47] for you we are using software to do it
+- [41:49] and then over time, oh, you could just
+- [41:51] do this yourself. You It'll cost you
+- [41:52] less. You can scale this.
+- [41:54] >> Yeah, that's right. Um, and they don't
+- [41:56] even need to know at first that software
+- [41:57] is doing it. That could be the magic
+- [42:00] part, which is like, guys, we literally,
+- [42:02] we are literally doing this with our
+- [42:03] technology. Today's episode is brought
+- [42:06] to you by KOD. I personally use KOD
+- [42:08] every single day to manage my podcast
+- [42:11] and also to manage my community. It's
+- [42:13] where I put the questions that I plan to
+- [42:14] ask every guest that's coming on the
+- [42:16] podcast. It's where I put my community
+- [42:18] resources. It's how I manage my
+- [42:19] workflows. Here's how KOD can help you.
+- [42:22] Imagine starting a project at work
+- [42:24] [music] and your vision is clear. You
+- [42:25] know exactly who's doing what and where
+- [42:27] to find the data that you need to do
+- [42:29] your part. In fact, you don't have to
+- [42:31] waste time searching for anything
+- [42:32] because everything your team needs from
+- [42:34] project trackers and OKRs to documents
+- [42:36] and spreadsheets lives in one tab all in
+- [42:39] KOD. With Kota's collaborative
+- [42:41] all-in-one workspace, you get the
+- [42:42] flexibility of docs, the structure of
+- [42:45] spreadsheets, the power of applications,
+- [42:47] and the intelligence of AI, all in one
+- [42:50] easy to organize tab. Like I mentioned
+- [42:52] earlier, I use KOD every single day, and
+- [42:55] more than 50,000 teams trust KOD to keep
+- [42:58] them more aligned and focused. If you're
+- [42:59] a startup team looking to increase
+- [43:01] alignment and agility, KOD can help you
+- [43:03] move from planning to execution in
+- [43:05] record time. To try it for yourself, go
+- [43:07] to kod.io/enny io/lenny today and get 6
+- [43:10] months free of the team plan for
+- [43:12] startups. That's cooda.io/lenny
+- [43:15] to get started for free and get six
+- [43:17] months of the team plan. kod.io/lenny.
+- [43:21] There's a lot of talk these days about
+- [43:23] this uh idea forward deployed engineers.
+- [43:25] Something Palanteer was really famous
+- [43:26] for just essentially an engineer sitting
+- [43:29] in your office solving problems with you
+- [43:32] like basically as an employee and then
+- [43:34] through that they learn what software to
+- [43:36] build. Is that something you're seeing
+- [43:37] too? Oh yeah. I think you know I think
+- [43:39] that that um a lot of companies a lot
+- [43:43] sorry a lot of um folks that serve the
+- [43:46] enterprise they they have a they have a
+- [43:48] button a seat in their office like you
+- [43:49] look at these large consultancies like
+- [43:50] McKenzie they're not in their
+- [43:52] headquarters they're in their client's
+- [43:53] office all the time. And the other
+- [43:54] interesting thing and and proof of this
+- [43:56] is how many people go to a deote or an
+- [43:59] Accenture and expect them to be a
+- [44:00] channel partner. This is exactly what
+- [44:03] this is all about, which is they sell
+- [44:05] the service, they come in and then they
+- [44:06] introduce, hey, look what look at the
+- [44:08] what this startup is doing over here.
+- [44:10] You might want to give them a shot. The
+- [44:12] problem with channel partnerships and
+- [44:13] why I don't believe in them is there are
+- [44:15] a hundred of you on this list, right?
+- [44:18] And you're expecting them to sell it on
+- [44:20] your behalf. Biggest no. They're not
+- [44:22] vision casters. They're not visionaries.
+- [44:24] They're consultants.
+- [44:27] But this is that goes all towards like
+- [44:29] go find you know I remember startups
+- [44:31] saying oh I'm going to go you know win
+- [44:33] over Accenture and then have them
+- [44:35] disseminate me into the their clients
+- [44:37] and I'm like as if that's a workable
+- [44:40] strategy. [laughter]
+- [44:41] >> Okay. You know what might be helpful is
+- [44:43] let me try to summarize some of the best
+- [44:45] pieces of advice you've shared so far.
+- [44:47] And this is specifically for folks
+- [44:49] trying to go from about a million AR to
+- [44:52] about 10 million AR. And then I want to
+- [44:54] ask you just what's most different about
+- [44:55] these two stages. But let me share this
+- [44:56] first. So, uh, advice one is go for tier
+- [45:01] one logos earlier than you think you
+- [45:03] should because they're early adopters.
+- [45:06] They, uh, can move fast. They can pull
+- [45:07] you in the right direction
+- [45:09] >> and they excite investors, too.
+- [45:11] >> Yeah. Uh, for sure. And other and other
+- [45:14] leads.
+- [45:15] >> Yeah. And other and other, you know,
+- [45:17] talent, future employees. Yeah. Exactly.
+- [45:20] So the counterintuitive insight here is
+- [45:22] you think they will move slow and be too
+- [45:24] busy but in they are actually the early
+- [45:27] adopters.
+- [45:27] >> That's right. Yeah. They have to
+- [45:29] maintain that number one spot. Um and
+- [45:31] also all of the people that are in the
+- [45:33] number two, number three, number four
+- [45:35] spot all want to do what number one is
+- [45:36] doing.
+- [45:37] >> So it's also like pure referenceability
+- [45:39] too. And the point about them being the
+- [45:41] early adopters, like the people that
+- [45:42] join the stripes and open ais and
+- [45:45] anthropics are like the like they
+- [45:47] individually love technology and love
+- [45:49] the latest stuff. So like as a human
+- [45:51] they're like oh this is cool.
+- [45:52] >> That's exactly right. I'm being with
+- [45:54] myself, aren't I? That's kind of funny.
+- [45:56] But yeah,
+- [45:56] >> that's a good sign.
+- [45:58] >> So two is uh ideally try to price closer
+- [46:02] to about 100K like 75 to 100ish
+- [46:06] K is what you said most enterprises are
+- [46:08] used to buying. Yeah. So, instead of
+- [46:10] starting or even sticking with 10K, 20K
+- [46:13] for too long, you need to make yourself
+- [46:15] go towards 75 to 150K.
+- [46:18] >> That's right. Yep. And if you were to
+- [46:20] sell a service, because I know we're
+- [46:21] talking about selling services first,
+- [46:22] prorate that over time. So, maybe it's
+- [46:24] 10K a month. So, they start to get used
+- [46:26] to what that pricing looks like.
+- [46:28] >> So, this is a way to make it feel this
+- [46:31] is like how you get to 75 to 150K is
+- [46:34] there's a service attached to it. It's
+- [46:36] not just here's my SAS product. It's we
+- [46:38] will solve this problem for you or
+- [46:39] person will be sitting there doing this
+- [46:41] for you.
+- [46:41] >> Yeah. Or it's a no it's a technology
+- [46:43] too. I mean you can add the services I
+- [46:45] always well let me take that back. The
+- [46:47] service whether the services is bundled
+- [46:49] into it or not that some people will
+- [46:51] unbundle it. Other people will say the
+- [46:53] services is a part of it but yeah it
+- [46:54] nets out to 75 to 150k. That's right.
+- [46:57] >> Okay. And you said that it's okay to
+- [46:59] start lower on ACVs and deals but you
+- [47:02] need to push fast towards 100k like over
+- [47:05] a few months.
+- [47:05] >> Yep. That's right. Like if you can get
+- [47:07] into if you can get into an enterprise
+- [47:08] for 10k in a month, which is not doable,
+- [47:12] but if you could and you could go from
+- [47:14] 10k to 50k in four months through an
+- [47:17] expansion strategy, all game that makes
+- [47:19] sense, but it's really rare and very
+- [47:21] hard to do.
+- [47:22] >> And so the so there's two different
+- [47:24] paths there. One is land cheap and grow
+- [47:26] quickly. The other is move your ACV uh
+- [47:29] average up quickly.
+- [47:30] >> That's right.
+- [47:31] >> Seems like both or that's the latter is
+- [47:32] probably the more common strategy is
+- [47:34] just keep increasing price. is the
+- [47:35] former you can get tripped up because
+- [47:38] they could say, "Okay, now give me an
+- [47:39] economical price for doing this for 100
+- [47:41] people and then it all kind of evens out
+- [47:43] because now you're at the 100k deal
+- [47:45] anyway, you know, but it's hard. It's
+- [47:47] much there's more room for error, which
+- [47:50] is why I say go in and try to land
+- [47:52] 100k."
+- [47:52] >> By the way, in our first chat, we talked
+- [47:55] uh a lot about the procurement process,
+- [47:58] which is what trips a lot of people up
+- [47:59] and is really painful. And I remember I
+- [48:01] I vividly remember that conversation
+- [48:03] still. Uh, so if people are having
+- [48:05] issues getting through the sales process
+- [48:08] and procurement, a lot of good advice
+- [48:09] there.
+- [48:09] >> And getting stuck in procurement is
+- [48:12] usually because you're not speaking to a
+- [48:14] senior enough person and they don't know
+- [48:15] how to navigate it, which is why like
+- [48:17] that executive needs to be involved
+- [48:19] because as soon as the executive picks
+- [48:21] up a phone and tries to get a hold of
+- [48:23] like their buying group,
+- [48:26] things move, right? Like when people
+- [48:27] say, "Oh, I'm stuck in procurement." I'm
+- [48:29] like, "Oh, that's a that could just be a
+- [48:31] qualification error." and you never get
+- [48:33] out of it because you sold to someone
+- [48:34] too junior. Um so that's why the 100k is
+- [48:37] such a safe zone because even for 10k
+- [48:40] you might have to go through
+- [48:41] procurement.
+- [48:42] So um this is like the shest way to make
+- [48:45] sure that like you don't um
+- [48:50] listen I've seen 10k take nine months to
+- [48:52] close.
+- [48:52] >> No bueno.
+- [48:53] >> Yeah. So
+- [48:55] >> okay uh next piece of advice is this
+- [48:58] idea of vision casting instead of
+- [48:59] problem solving. So the advice here is
+- [49:01] instead of here's your problem, here's
+- [49:03] how our product solves it is here's how
+- [49:04] you will achieve alpha in the market by
+- [49:07] adopting the software. We talked about
+- [49:09] the example of cursor where if you adopt
+- [49:11] cursor, you're going to draw the 10x
+- [49:13] engineers that are joining other
+- [49:14] companies right now. This will give you
+- [49:15] a big advantage.
+- [49:16] >> That's right. And yeah, it's pain verse
+- [49:18] opportunity.
+- [49:19] >> Um especially in the age of AI and I
+- [49:22] know that that's we're we're moving into
+- [49:24] the next dimension. It's all about
+- [49:27] solving for a gap.
+- [49:28] seldom about you know solving for a very
+- [49:32] very specific problem because people are
+- [49:34] trying to figure out what's our AI
+- [49:35] strategy where are we going to go with
+- [49:36] this what is the world going to look
+- [49:38] like I want to be a part of that new
+- [49:40] world so it's a great time to be doing
+- [49:42] that
+- [49:42] >> and then there's a bunch of advice we
+- [49:44] shared you talked you shared uh about
+- [49:46] design partners of just how to select
+- [49:48] them uh your advice is definitely have
+- [49:51] design partners because they will help
+- [49:52] you build the right thing but as a
+- [49:54] founder it's you need to have a clear
+- [49:56] vision and sense of where you want to go
+- [49:58] and not just build everything they're
+- [49:59] asking you to build.
+- [50:00] >> That's right. Because it's important to
+- [50:01] say no, right? Like um and that and
+- [50:04] that's all part of the framing, right?
+- [50:06] Which is like here's here's we want a
+- [50:08] little skin in the game. Like you set
+- [50:10] the price, but here's where we're here's
+- [50:12] what we're marching towards in the next
+- [50:15] 6 to 12 months. Like
+- [50:18] are we aligned there? If we pro if we
+- [50:20] deliver on what we say we're going to
+- [50:21] deliver, are we aligned there? And and
+- [50:23] do that kind of handshake. Is there
+- [50:25] anything else that I missed that you
+- [50:26] think is really important for this
+- [50:28] stage?
+- [50:29] >> So 1 to 10 is no longer the founder.
+- [50:32] Maybe the founder comes in in very
+- [50:34] strategic points, but you need a really
+- [50:36] good enterprise salespeople, right?
+- [50:40] Taking someone from small business and
+- [50:42] expecting them to do enterprise sales
+- [50:44] big. No, no. It's a different game,
+- [50:46] right? Vically different game. You need
+- [50:48] to understand how corporations buy. You
+- [50:49] need to understand how executives think.
+- [50:51] you need to better understand simply
+- [50:54] just like what the enterprise business
+- [50:55] model is all about and like their
+- [50:57] ability to take on risk. people will
+- [51:00] bring in like super junior enterprise
+- [51:02] sales reps and I'm like you're looking
+- [51:03] to sell to an executive and you have
+- [51:06] this 10 like this person that's 5 years
+- [51:08] out of school with no corporate
+- [51:10] experience
+- [51:12] doing it again where unless they have
+- [51:16] like some extremely
+- [51:18] you know deep experience in the industry
+- [51:20] or are just like a unicorn in terms of
+- [51:23] like wow this person can sell ice to an
+- [51:25] Eskimo kind of thing. a junior person
+- [51:28] converting an executive. Again, if the
+- [51:31] founder's involved, maybe that's doable.
+- [51:33] Um, but usually the founder can't be
+- [51:36] involved in every deal. And you need you
+- [51:39] need people that can I always say you
+- [51:41] need people that can cosplay
+- [51:43] a founder,
+- [51:45] right? which is like selling the vision,
+- [51:48] getting them excited, like running
+- [51:51] through a wall to get the deal done and
+- [51:54] getting creative on how none of my deals
+- [51:56] look exactly the same. Every deal looks
+- [51:58] different
+- [52:00] and that's okay because um every
+- [52:03] organization has slightly different
+- [52:08] opportunities of where they want to go
+- [52:09] and you have to kind of build towards
+- [52:11] that and the framing may change. So,
+- [52:14] it's this ability to like adapt from
+- [52:16] what you're hearing and like let that
+- [52:18] compound over time, but like I always
+- [52:20] say like, can this person cosplay the
+- [52:22] founder?
+- [52:24] I think that that's the the best type of
+- [52:26] salesperson because it doesn't feel like
+- [52:28] sales. It's more of the art.
+- [52:30] >> This is amazing advice. What is a a
+- [52:32] common profile that you've seen be
+- [52:34] successful? Like what level of
+- [52:36] seniority, what kind of personality, any
+- [52:37] traits to look for?
+- [52:38] >> Maybe a former founder if you can get
+- [52:41] that. um cuz they're used to selling,
+- [52:43] right? They've sold investors and
+- [52:45] they've sold employees. Two is someone
+- [52:47] with no sales experience but has deep
+- [52:51] product experience or an engineer and
+- [52:53] can like think about things in a unique
+- [52:56] way where you can where the market's
+- [52:58] like, "Oh, this is so interesting."
+- [53:00] Taking a t typical salesperson then and
+- [53:03] putting them into a sales role almost
+- [53:06] always is where people get frustrated.
+- [53:08] the market, it feels salesy, like the
+- [53:12] market doesn't want to be sold to, they
+- [53:14] want to buy. And I know that this is
+- [53:16] like this, it's very hard to hire a
+- [53:18] really good enterprise salesperson,
+- [53:20] right? Um I mean, the number of people
+- [53:22] that I've interviewed, I can count on my
+- [53:24] hand the ones that I'm like I get really
+- [53:26] really excited by. It's a it's a it's a
+- [53:29] it's almost like, you know, coming
+- [53:30] across a great founder, right? It's it's
+- [53:33] like, you know, it's not as it's not as
+- [53:35] common as everyone expects. Um, and I
+- [53:37] think that that's true for engineering.
+- [53:39] I think that that's true for sales. And
+- [53:41] I think a lot of people
+- [53:44] sales is like, oh, just throw a body
+- [53:46] into it. The product will do the work.
+- [53:48] >> Advice I often here is don't hire kind
+- [53:50] of a senior VP of salesperson from a
+- [53:52] bigger company.
+- [53:53] >> Yeah.
+- [53:53] >> Do you agree with that? How what's like
+- [53:55] too senior?
+- [53:55] >> Yeah. So, um, the bigger company thing,
+- [53:59] the the brand was doing all of the work.
+- [54:01] >> The brand built the trust. you need this
+- [54:03] person to be able to build the trust and
+- [54:05] like they're usually the product is
+- [54:07] still so new. The product is the founder
+- [54:10] in the 0ero to one stage. The product is
+- [54:12] just starting to get like a a case
+- [54:15] study. You probably have maybe a few
+- [54:17] references, but it's still very very
+- [54:19] early days. You need the market to
+- [54:21] believe the salesperson and you need
+- [54:23] that market to know that they're
+- [54:24] trustworthy. a VP of sales at a large
+- [54:26] company, I would say uh they're be
+- [54:29] they're best suited for a large company
+- [54:31] because one to 10, you're running
+- [54:32] through walls, right? You have to figure
+- [54:34] out, you know, you're doing a lot of
+- [54:36] convincing. You're doing a lot of
+- [54:37] educating. You're doing a lot of
+- [54:39] creative deal crafting, a lot of owning
+- [54:41] the frame. It's not necessarily selling
+- [54:43] a product. It's selling that future
+- [54:44] value. Um, which a VP of sales at a
+- [54:47] large company is that's a very different
+- [54:50] um it's a different game. It's kind of
+- [54:51] like the SMB in enterprise. It's
+- [54:53] interesting you said when you described
+- [54:54] the profile of a of a great hireer here
+- [54:56] is you said they don't need to have done
+- [54:58] sales if they have done sales what's
+- [55:01] like a number of years or kind of like
+- [55:03] what what do you look for that tells you
+- [55:04] okay this is a good fit for the first
+- [55:06] hire
+- [55:06] >> I actually think it's less about
+- [55:08] experience and more about the person
+- [55:09] like does this person make you feel good
+- [55:11] do you want to buy from this person I
+- [55:12] think Jason Jason Lumpkin said that best
+- [55:14] like would you want to buy from this
+- [55:15] person
+- [55:15] >> can they sell you a pen the classic
+- [55:17] >> can exactly um you know do they do they
+- [55:21] do they mimic or mirror the market
+- [55:24] they're selling to, right? It's much
+- [55:26] easier to buy from someone that looks
+- [55:28] and feels like you than it does from
+- [55:30] somebody that's like, you know,
+- [55:33] in a totally different realm. Um, and
+- [55:36] also like an executive wants to talk to
+- [55:39] another senior person, right? They don't
+- [55:41] want to talk to someone that just
+- [55:43] graduated from college and is is selling
+- [55:44] them the new way of working. Like what
+- [55:46] do they know? So, I think it's it's
+- [55:48] tricky. I would say like, you know, um
+- [55:52] someone with no sales experience makes
+- [55:53] it feel different and special. That's
+- [55:55] what I like about it. Someone with sales
+- [55:57] experience knows how to navigate and
+- [55:59] probably qualify better. But it's almost
+- [56:02] like the blend of those two things.
+- [56:05] And that's why I go back to like
+- [56:06] cosplaying the founder, which is like
+- [56:08] could this person, you know, could this
+- [56:11] person like close a future employee,
+- [56:13] right? like do they get excited about
+- [56:15] the problems they're solving internally
+- [56:17] and the vision that they get to sell to?
+- [56:19] >> This actually was a a a reader question,
+- [56:22] a listener question from Twitter. Uh so
+- [56:25] Peter Den asked, "How do you how do you
+- [56:28] make this first salesperson as
+- [56:30] enthusiastic about the product as you?
+- [56:32] Is there something you can do? Is it
+- [56:33] more just they already are and you just
+- [56:35] leverage that?"
+- [56:36] >> Incentives.
+- [56:38] Sales people love to make money.
+- [56:43] So if they if they know it's possible,
+- [56:45] if they know it's possible, you'll be
+- [56:47] shocked what people can get done.
+- [56:49] >> If they see how much they could make,
+- [56:52] >> amazing, right?
+- [56:54] >> Uh I imagine there still also has to be
+- [56:55] an innate excitement about the product
+- [56:57] and
+- [56:58] >> they have to believe in it. They have to
+- [56:59] believe in the founder, but like
+- [57:01] incentives usually make the world go
+- [57:03] round. Um but yeah, is this person are
+- [57:06] they asking the right questions to the
+- [57:08] founder? are they um you know I always
+- [57:12] the best thing to do is have the founder
+- [57:14] join the first
+- [57:16] five calls you know after five calls
+- [57:18] that this person has what it takes and
+- [57:20] don't be afraid to fire like one in
+- [57:22] every two salespeople usually are fired
+- [57:26] it's it's a very yeah it's like it's
+- [57:29] it's a very high failure rate
+- [57:32] >> because you can tell pretty quickly how
+- [57:34] it's coming
+- [57:34] >> you can you can tell or the the vision
+- [57:37] of the founders is just very wrong.
+- [57:39] >> Speaking of incentives, do you have any
+- [57:41] quick advice on how to structure their
+- [57:43] comp? Just like how much they earn?
+- [57:45] >> Um, it's usually 50/50. So, it's 50% OT,
+- [57:48] 50%. So, it's a 50% base salary, 50% um
+- [57:52] OT,
+- [57:53] >> and then how much of the sale do they
+- [57:55] typically get? Say the first sale is
+- [57:57] higher.
+- [57:57] >> It depends on the price, the size of the
+- [57:59] deal. But in technology, uh, it could be
+- [58:02] anywhere between like 8 and 12%. So,
+- [58:05] rounds out around 10%. Okay, awesome.
+- [58:09] >> Uh, when do you hire the first
+- [58:10] salesperson? Is around the 1 million AR
+- [58:12] mark usually?
+- [58:13] >> Yeah, it's around that 1 million AR
+- [58:15] mark. And I and it's it's usually when
+- [58:19] you have your first seven to 10
+- [58:21] customers and there's some there's some
+- [58:23] pattern recognition around it that you
+- [58:25] can that you can share with somebody
+- [58:28] else. Um, it's there's some
+- [58:30] consistencies otherwise it's just like
+- [58:33] that would be very hard. Basically, as a
+- [58:34] founder, you have to figure out how to
+- [58:36] sell enough times
+- [58:38] >> so that you can show someone, here's
+- [58:39] what's working.
+- [58:40] >> And this is the common thing I hear.
+- [58:41] Well, I I'm a $10 million business. I'm
+- [58:44] like, in this small business space,
+- [58:46] you're zero in enterprise.
+- [58:49] >> It's a zero to one right now in
+- [58:51] enterprise. It's a totally different
+- [58:52] game. It's a different value
+- [58:54] proposition. It's a different deal
+- [58:55] structuring. It's a different target
+- [58:57] market. It's a different risk tolerance.
+- [59:00] It's a it's totally different. So don't
+- [59:02] don't be blindsided
+- [59:05] when
+- [59:07] uh it doesn't work.
+- [59:08] >> There's a lot of un unlearning that
+- [59:10] needs to happen when you move into a new
+- [59:11] market.
+- [59:12] >> So the advice here is make yourself sell
+- [59:14] up until around a a millionaire R uh
+- [59:18] especially uh if you're trying to go
+- [59:20] enterprise selling to enterprises
+- [59:21] yourself as a founder which is really
+- [59:23] hard. You have so much to do and you
+- [59:24] have to be selling this thing for a long
+- [59:25] time.
+- [59:26] >> Yep. And then, you know, try and find
+- [59:30] try and find someone that like you get
+- [59:31] excited by. Like, it's funny if you ask
+- [59:34] the founder, are you excited by your
+- [59:35] salesperson? I'm curious what the real
+- [59:37] answer is. It's like, well, it's a
+- [59:38] button, a seed, and it was hard to hire.
+- [59:40] So,
+- [59:41] >> interesting.
+- [59:42] >> I remember I think it was Jason's advice
+- [59:43] was to hire two people immediately.
+- [59:45] That's right.
+- [59:45] >> So, you can compare them. Do you agree
+- [59:47] with that?
+- [59:48] >> Yeah. Because of the 50 50% failure
+- [59:49] rate. I think that's exactly right. Um,
+- [59:51] so yeah, even even a taller order go
+- [59:55] order, go find two people that are good.
+- [59:58] Um, but yeah, I think that that's right
+- [59:59] because you know, one and two will fail.
+- [01:00:02] >> Okay, let me ask you another reader
+- [01:00:03] question from uh Hang Hang. This is kind
+- [01:00:07] of in a different direction. Uh, so he
+- [01:00:09] says, "The biggest challenge is always
+- [01:00:10] cutting through the noise to get that
+- [01:00:11] initial meeting with the right decision
+- [01:00:13] maker. How do you even get their
+- [01:00:14] attention?"
+- [01:00:15] >> It's the vision. What What is the
+- [01:00:18] opportunity that you're selling?
+- [01:00:21] that if if they are excited by that they
+- [01:00:24] will take a call. I see it all the time.
+- [01:00:27] And don't give away the farm. Like keep
+- [01:00:29] it to three sentences,
+- [01:00:31] right? Like and this is I I know I said
+- [01:00:33] this on our first call, but like say
+- [01:00:34] something counterintuitive. Make it feel
+- [01:00:36] different. Make it feel like they can
+- [01:00:38] learn from you by taking a 15-minute
+- [01:00:40] call, right? um you know you you see the
+- [01:00:44] standards of like oh I came across your
+- [01:00:46] LinkedIn and you know are you looking to
+- [01:00:49] grow your business by 15%. It's like
+- [01:00:51] that what kind of statement is that?
+- [01:00:53] >> So and this is in the in the cold email
+- [01:00:55] they get this pitch. Awesome.
+- [01:00:57] >> Uh so this is a this is a good segue to
+- [01:00:59] another reader question from Hugo Alves
+- [01:01:01] co-founder of synthetic users.
+- [01:01:03] >> He asked what's the best advice for
+- [01:01:04] going from healthy inbound to targeted
+- [01:01:07] outbound? Healthy inbound usually is a
+- [01:01:10] marketingled initiative.
+- [01:01:12] So that's a marketing game.
+- [01:01:15] It depends like what deal value you're
+- [01:01:17] selling. Are you selling a $5,000 deal?
+- [01:01:19] It's got to be marketing le to make that
+- [01:01:21] to make the engine work. If you're
+- [01:01:22] selling a $100,000 deal, you're doing
+- [01:01:24] outbound day one. So again, it breaks it
+- [01:01:27] into those. This is like that blending
+- [01:01:28] of the I see a blending of that
+- [01:01:30] question. This is where are you doing
+- [01:01:32] small business, you know, marketingled
+- [01:01:34] activities or are you a salesled
+- [01:01:37] organization selling a $100,000 deal?
+- [01:01:40] >> And the reason this important, just in
+- [01:01:41] case it's not obvious, is you're not
+- [01:01:42] going to make money if you're selling
+- [01:01:45] people are spending time closing deals
+- [01:01:47] that are making 10 20K. Just the ROI on
+- [01:01:49] that won't work for your business model.
+- [01:01:51] >> That's right. Yep.
+- [01:01:52] >> Awesome. Uh, by the way, let me just
+- [01:01:53] say, Jen, this is this is like an
+- [01:01:55] incredible conversation already. We've
+- [01:01:57] kind through so much. This is like
+- [01:02:00] exactly what I was hoping to get
+- [01:02:01] through. We've done gone through so much
+- [01:02:03] advice that I think is going to be so
+- [01:02:04] helpful to so many people.
+- [01:02:07] There's uh there's a few things that
+- [01:02:09] your partner Justin also suggested I ask
+- [01:02:11] you about that I want to touch on. One
+- [01:02:14] is you have this question you ask
+- [01:02:16] founders a lot that uh opens up their
+- [01:02:18] mind. You ask them if you give your
+- [01:02:20] product away for free, would people even
+- [01:02:22] use this? And every founder is like of
+- [01:02:24] course. And then you ask a customer this
+- [01:02:26] and they're like no we wouldn't use
+- [01:02:27] this. and that just blows their mind.
+- [01:02:29] Talk about just the power of that and
+- [01:02:31] how you recommend people approach this.
+- [01:02:33] >> I always say, "Ask the questions you're
+- [01:02:35] afraid to cuz that truth is going to get
+- [01:02:37] you closer and closer to the answer."
+- [01:02:40] So, I'll ask a client straight up on a
+- [01:02:42] call. I'll say, "Honestly, do we think
+- [01:02:44] we're going to get this the deal done
+- [01:02:45] this year?" Like, is it possible?
+- [01:02:48] They'll give you the real answer. like
+- [01:02:51] and people are afraid to ask, but like
+- [01:02:53] the other side is sort of, you know, if
+- [01:02:56] they're in it with you, they don't care
+- [01:02:58] about that question,
+- [01:03:00] right? Can't ask that question on day
+- [01:03:02] one. But like if you are, and we didn't
+- [01:03:06] talk about this, but maybe this is
+- [01:03:07] important.
+- [01:03:09] Every single enterprise deal I have
+- [01:03:12] done,
+- [01:03:13] the deal is done, the deal is closed and
+- [01:03:16] pretty much done through text. It's not
+- [01:03:18] on email anymore. It is a relationship
+- [01:03:21] you're building with someone where if my
+- [01:03:24] if my enterprise client called me, I'm
+- [01:03:26] picking up that phone immediately or I'm
+- [01:03:27] responding them to immediately because
+- [01:03:30] that builds so much trust. If they know
+- [01:03:32] they can call on you, they're going to
+- [01:03:34] get you to pick up and they know that
+- [01:03:36] you're going to do everything humanly
+- [01:03:38] possible to make sure that this is
+- [01:03:39] successful.
+- [01:03:41] People will people will, you know, turn
+- [01:03:44] over rocks for you. Like I have a a
+- [01:03:47] client at a Fortune 10 company where I
+- [01:03:50] was like it's so important we get the
+- [01:03:52] deal done this year. Like is that
+- [01:03:53] possible? And she's like it's a tall
+- [01:03:55] order but like if it's going to help you
+- [01:03:58] let's do it. Like these are how
+- [01:04:00] enterprise deals gets done. It's
+- [01:04:02] relationships and it's it's this like
+- [01:04:05] and this is why I'm saying like
+- [01:04:06] structuring the deal. Make it feel like
+- [01:04:08] you went to bat for them and in often
+- [01:04:11] often cases you are going to bat for
+- [01:04:12] them and structure it in a way that
+- [01:04:15] makes sense for them. You everyone kind
+- [01:04:16] of just tries and pigeon hole. Pigeon
+- [01:04:19] holeing and deal structuring consistency
+- [01:04:21] is important for a $10,000 sub $10,000
+- [01:04:24] deal.
+- [01:04:26] A $100,000 deal it could it it very
+- [01:04:29] commonly will look different every time.
+- [01:04:32] April Dunford was on the podcast and she
+- [01:04:34] shared this really interesting insight
+- [01:04:35] that the the reason people behave this
+- [01:04:37] way is the person at the company buying
+- [01:04:40] this thing, their ass is on the line
+- [01:04:41] also like their reputation is on the
+- [01:04:43] line for this thing to work out. So they
+- [01:04:44] want it to go really well.
+- [01:04:45] >> That's right. They again it's that one
+- [01:04:47] they do this one in every three years,
+- [01:04:49] one in every two years, maybe one in
+- [01:04:51] every five years. Hell, I don't know. It
+- [01:04:53] is not at all. They don't do this every
+- [01:04:55] year. It's very rare. It's No one likes
+- [01:04:58] a new tool.
+- [01:05:00] No one. Not you, not me. Unless it
+- [01:05:02] unless it changes everything.
+- [01:05:05] >> Yeah, Figma. Figma is a great example of
+- [01:05:07] that. Slack,
+- [01:05:08] >> everything you've touched, [laughter]
+- [01:05:10] >> everything that worked out.
+- [01:05:13] >> You said that you ask these questions
+- [01:05:15] that people are afraid to ask. What are
+- [01:05:16] some other examples of questions you
+- [01:05:17] often ask that people are afraid to ask?
+- [01:05:20] I will say, listen, this this is a
+- [01:05:22] $150,000 engagement.
+- [01:05:25] I will co-author it with you where we
+- [01:05:28] can make this a little bit bigger if you
+- [01:05:29] need something else. We can make it a
+- [01:05:32] little bit smaller in year one, but in
+- [01:05:34] year two it steps up. Like how do we get
+- [01:05:37] this done so when you go to bat it's a
+- [01:05:40] win? They seldom seldom do they like
+- [01:05:45] take it to the wrong side and like try
+- [01:05:47] and discount you. I've actually never
+- [01:05:49] seen that because at that point you have
+- [01:05:50] a relationship. So, I co-authoring the
+- [01:05:54] pricing is so important because they
+- [01:05:57] need to know that they go to bad, they
+- [01:05:59] can say, I I got this out of them if we
+- [01:06:03] get this deal done, right? So, um this
+- [01:06:06] is why like when I say every deal looks
+- [01:06:08] the same, you're asking great questions
+- [01:06:09] because it's explaining kind of why I
+- [01:06:11] meant by that. But like this is another
+- [01:06:13] example of like why every deal in the
+- [01:06:15] enterprise sort of looks somewhat
+- [01:06:17] different because a lot of it is
+- [01:06:18] co-authored. So again, if someone wants
+- [01:06:20] a slightly lower price, give it to them,
+- [01:06:23] but maybe then lock them in a little bit
+- [01:06:24] longer.
+- [01:06:25] >> There's another point that Justin makes
+- [01:06:27] that uh you've touched on a bit, but
+- [01:06:29] it's when you hear no. The way he
+- [01:06:31] phrased it is Jen always talks about how
+- [01:06:32] no is the best answer to yes because no
+- [01:06:35] is data that you can use. Talk about
+- [01:06:37] that.
+- [01:06:38] >> I am a qualification crazy person. I
+- [01:06:42] will not get on another call with
+- [01:06:43] someone because on the first call, it's
+- [01:06:45] either a yes or a no. There's no in
+- [01:06:47] between.
+- [01:06:48] Like it is people humans are
+- [01:06:52] like we're so different and we're so
+- [01:06:54] unpredictable but we're also so
+- [01:06:55] predictable at the same time right like
+- [01:06:57] it's very obvious if someone is excited
+- [01:07:01] and wants to do something. It is so
+- [01:07:03] obvious when someone is just trying to
+- [01:07:05] be nice.
+- [01:07:06] So I will I will say to them on that
+- [01:07:08] call like I'm sort of getting the vibe
+- [01:07:10] that this might not be a good fit or
+- [01:07:12] might not be good timing. Like did I
+- [01:07:13] misinterpret that? And they will usually
+- [01:07:15] say yeah you're right. It's probably not
+- [01:07:17] a good and then immediate. Great. I
+- [01:07:20] would love to stay in touch. You've just
+- [01:07:21] saved a relationship and you've just
+- [01:07:23] saved yourself a ton of time.
+- [01:07:24] >> And the implication here is just to your
+- [01:07:25] point there, you're you're limited on
+- [01:07:27] time. You you don't want to be spending
+- [01:07:28] time going down a rival that won't get
+- [01:07:30] you anywhere.
+- [01:07:30] >> Yeah. Exactly.
+- [01:07:31] >> I'm going to take a quick tangent on
+- [01:07:33] tools. What's kind of like the
+- [01:07:35] state-of-the-art on go to market
+- [01:07:37] outbound tooling?
+- [01:07:39] >> I don't use a tool
+- [01:07:41] >> because I believe in the manual. Okay.
+- [01:07:44] And I'll explain why. every single note
+- [01:07:46] I send is slightly different because
+- [01:07:48] like I see a picture of them and I'm
+- [01:07:49] like oh I don't know if that's going to
+- [01:07:50] land
+- [01:07:51] >> or I'm like they actually might
+- [01:07:53] appreciate this. It's weird like visual
+- [01:07:55] cues are so helpful. A picture is a
+- [01:07:58] visual cue you know looking at how long
+- [01:08:00] they've they've been in the role looking
+- [01:08:02] how long they've been at the company.
+- [01:08:04] Um, I use all of these little things and
+- [01:08:07] I don't I seldom customize a a a note in
+- [01:08:12] a way that like people expect which is
+- [01:08:15] like that first like customized sentence
+- [01:08:17] because AI does that and everyone's
+- [01:08:19] doing that. So I go the opposition which
+- [01:08:20] is like remove it and I customize it
+- [01:08:23] with how I frame it um or the subject
+- [01:08:26] line. Uh
+- [01:08:29] yeah. So, it's like um like if I'm
+- [01:08:31] talking to someone like like up here, I
+- [01:08:33] might be I might say like quick question
+- [01:08:35] like QQ. If I'm talking to someone that,
+- [01:08:38] you know, um has a bit more experience,
+- [01:08:40] I might write a little bit of a tighter
+- [01:08:42] note, not all lowercase. So, like it
+- [01:08:44] just depends on who you're speaking to.
+- [01:08:46] And and again, this is why it's okay to
+- [01:08:49] spend a little bit of time on this
+- [01:08:51] because it's a it's a $100,000. It's
+- [01:08:54] actually a million dollars at the end of
+- [01:08:56] the day because a $100,000 deal, if you
+- [01:08:58] play your cards right, turns into a
+- [01:09:00] million dollar deal over three to five
+- [01:09:02] years.
+- [01:09:02] >> I love how much you enjoy this. This is
+- [01:09:04] so fun to [laughter]
+- [01:09:06] So, essentially, what are you doing?
+- [01:09:07] You're sitting on LinkedIn finding folks
+- [01:09:09] to ping and then you cold email them one
+- [01:09:12] individually manually.
+- [01:09:13] >> It's so weird, Lenny. Like, I have no
+- [01:09:15] process. I kind of just go with like
+- [01:09:19] the vibe. Like I'll read an article
+- [01:09:21] about
+- [01:09:23] Tesla and I'm like, "Huh, they could be
+- [01:09:26] interested in this." Not because that
+- [01:09:28] article had anything to do with the
+- [01:09:30] problem I'm solving, but because I'm
+- [01:09:32] like, "This feels like a good Tesla
+- [01:09:34] day." Like, it's like it's it's hard to
+- [01:09:36] describe. Like, it's a very emotional
+- [01:09:38] thing for me. And, you know, not to not
+- [01:09:42] to toot my own horn obviously, but like
+- [01:09:44] I've been successful in sales. And the
+- [01:09:47] most successful salespeople can't
+- [01:09:49] explain why they're good at it. It just
+- [01:09:52] comes to them naturally. It's just like
+- [01:09:53] an emotional
+- [01:09:55] thing. It's like the world's best
+- [01:09:57] founders. How how do you be a good
+- [01:09:58] founder?
+- [01:10:01] It's really very very hard to define.
+- [01:10:03] How will you become a good engineer?
+- [01:10:04] Very very hard to define. So like
+- [01:10:09] I don't believe in I don't believe in
+- [01:10:11] like playbooks. I don't like I believe
+- [01:10:13] that like there's like a feel to it.
+- [01:10:15] Like I emailed like the a chief legal
+- [01:10:18] officer at a hedge fund once and he
+- [01:10:20] responded to me because I wrote to him
+- [01:10:22] on Saturday. I knew he was going to be
+- [01:10:23] busy. I I made it one sentence and it
+- [01:10:28] was like tweaked for him.
+- [01:10:29] >> Do you feel like this is going to be the
+- [01:10:31] the way as AI SDRs just kind of take
+- [01:10:34] over and everyone's getting billions of
+- [01:10:36] emails that feel AIish?
+- [01:10:37] >> Yes.
+- [01:10:40] So I guess maybe speak more there just
+- [01:10:42] like uh the is the alpha essentially
+- [01:10:45] just become human don't automate.
+- [01:10:47] >> Yeah.
+- [01:10:49] >> The the thing about AI tools is they're
+- [01:10:52] all pulling from the same databases. So
+- [01:10:54] I'm like I want to email someone not in
+- [01:10:55] a database that's getting hit by a
+- [01:10:57] million folks. I want to take a back
+- [01:11:00] door in not the front door where
+- [01:11:02] everyone else is trick-or-treating you
+- [01:11:04] know. And this is effective for a very
+- [01:11:06] large deal which is what you need to be
+- [01:11:08] doing anyway because it's taking takes a
+- [01:11:10] lot of time to do this to do it this
+- [01:11:11] way.
+- [01:11:12] >> Yeah.
+- [01:11:12] >> Interesting. So you're not like sitting
+- [01:11:14] in clay, you're not like Apollo, I don't
+- [01:11:16] know all all those tools. You're just
+- [01:11:18] like finding people yourself.
+- [01:11:19] >> Yeah.
+- [01:11:20] >> Do you start with a target prospect list
+- [01:11:23] at least just like here's the companies
+- [01:11:24] that are the perfect fit for this and
+- [01:11:26] let's work through them?
+- [01:11:27] >> It's all in my brain because I've been
+- [01:11:28] doing this for so long. I I like I have
+- [01:11:30] in my brain I'm like these are my early
+- [01:11:31] adopters. these who I'm going to go to
+- [01:11:32] after I close those logos cuz they get
+- [01:11:34] excited by those logos. So, it's just
+- [01:11:36] like experience of like, you know, you
+- [01:11:38] land um I don't know, you you land a a
+- [01:11:43] Walmart, you're going to go to, you
+- [01:11:45] know, the rest of the industry and say,
+- [01:11:47] "Hey, we're working with Walmart." You
+- [01:11:48] know, um versus like you go to, you
+- [01:11:52] know, some, you know, lowerend
+- [01:11:56] enterprise company and they're like,
+- [01:11:58] "Wait, what do you do? What?" Like I I
+- [01:12:01] can't even comprehend like they're the
+- [01:12:02] also the most strategic people, some of
+- [01:12:04] the most strategic executives are at
+- [01:12:05] these tier one logos. That's why they're
+- [01:12:07] tier one because they've got like super
+- [01:12:09] smart like really capable folks. They
+- [01:12:12] also attract the best talent. The best
+- [01:12:14] talent likes to experiment and continue
+- [01:12:16] to improve. So it's like it's this con
+- [01:12:18] it's like this compounding thing
+- [01:12:20] >> for someone that isn't Jen and has all
+- [01:12:22] this experience. They like their
+- [01:12:23] founder, they hit a million AR. They're
+- [01:12:25] just like okay where do we find our
+- [01:12:27] customers? Do you have any advice for
+- [01:12:28] coming up with a just kind of coming up
+- [01:12:30] with who we should go after?
+- [01:12:32] >> Should they be using these tools? Should
+- [01:12:33] they be hiring someone like a Jen? Like
+- [01:12:35] I know this is what you do for
+- [01:12:36] companies. So, you know, one crowd is go
+- [01:12:38] hire Jellyfish to help them through
+- [01:12:39] this. But
+- [01:12:39] >> the founder the founder I would say the
+- [01:12:43] the founder
+- [01:12:46] this is sort of in tune with them in a
+- [01:12:48] way. They just have to like find it.
+- [01:12:51] They like it's all it's so weird to say
+- [01:12:53] this. It's all vi and I hate saying it
+- [01:12:55] because it's like it's like a
+- [01:12:57] commonplace thing to say, but it's like
+- [01:12:59] there's this thing about like flow and
+- [01:13:01] it's like some of these brands are in
+- [01:13:05] flow with you right now, right? Like
+- [01:13:08] um
+- [01:13:10] you you you you found this insight from
+- [01:13:13] somewhere.
+- [01:13:16] Who else? what's the ne next adjacent
+- [01:13:18] ring of people that like would buy into
+- [01:13:20] that?
+- [01:13:21] >> And so what I'm hearing is just like pay
+- [01:13:22] attention to what's happening, what
+- [01:13:24] companies are
+- [01:13:25] >> in the news, what companies are doing
+- [01:13:26] interesting things, what who are the
+- [01:13:27] kind of the early adopters in the
+- [01:13:28] market.
+- [01:13:29] >> If it was just a database list and it
+- [01:13:31] was just about figuring out the right
+- [01:13:33] messaging and then you know emailing
+- [01:13:35] folks, we would have known by that by
+- [01:13:38] now.
+- [01:13:38] >> That's so interesting. Okay, maybe one
+- [01:13:40] more question. This again is from
+- [01:13:42] Justin. He shares that when you hit
+- [01:13:45] resistance, you never argue. You
+- [01:13:46] reframe. If someone says, "We already
+- [01:13:49] have X solution. You'll agree and pivot
+- [01:13:51] and totally X is great for this thing,
+- [01:13:54] but here's what we can do." This is why
+- [01:13:55] it's sell to the alpha. Hey, I know I
+- [01:13:58] listen that problem you just described.
+- [01:14:00] You're right. You have a tool for that.
+- [01:14:02] We're taking you much further upstream
+- [01:14:04] with value.
+- [01:14:05] This is the opportunity I want you guys
+- [01:14:07] to have access to.
+- [01:14:08] >> I love it. Jen, I've gone through
+- [01:14:11] everything I was hoping to get through.
+- [01:14:12] Uh, on the other hand, I feel like we
+- [01:14:14] could do another hour on all these
+- [01:14:15] things. I feel like we need
+- [01:14:17] >> three in uh,
+- [01:14:18] >> yeah, we need round three on the next
+- [01:14:20] phase and all the things that people
+- [01:14:21] want to dig further into before we get
+- [01:14:24] to our very exciting lightning round. Is
+- [01:14:26] there anything else that you wanted to
+- [01:14:28] touch on or share?
+- [01:14:30] >> This stuff is really hard. Um,
+- [01:14:33] it's very hard. Like sales is also all
+- [01:14:35] about like learning very very quickly
+- [01:14:37] from the rejection. The rejection is
+- [01:14:39] good because it's a forced learning and
+- [01:14:41] you never want to go through that again.
+- [01:14:43] Um, but you have to be I don't like to
+- [01:14:46] use the word cringe. Like you you can't
+- [01:14:48] be afraid to
+- [01:14:52] cringy is like you know bringing your AI
+- [01:14:55] recorder into a call. Like that's
+- [01:14:56] cringey. But like
+- [01:14:59] sending sending 15 notes to people that
+- [01:15:03] you can deliver serious value to. Like
+- [01:15:06] don't be afraid. And don't be afraid to
+- [01:15:08] like ask the hard questions.
+- [01:15:11] Be different. This is the the whole game
+- [01:15:13] is about, oh, this feels different.
+- [01:15:14] That's what people want access to. And
+- [01:15:16] yet, everyone commoditizes themselves.
+- [01:15:19] Like they try and mimic what everyone,
+- [01:15:21] you know, they try and mimic, you know,
+- [01:15:22] a forward deployed engineer. Just rename
+- [01:15:25] it. You don't have to use the same
+- [01:15:26] nomomenclature, you know, like
+- [01:15:28] >> everyone gets excited by the new because
+- [01:15:31] the new could be the next thing, the
+- [01:15:34] thing that changes it all. Um, so that's
+- [01:15:37] why I'm always like, don't be better, be
+- [01:15:39] different.
+- [01:15:40] >> An amazing way to end it. Uh, with that,
+- [01:15:43] Jen, we've reached our very exciting
+- [01:15:45] lightning round. I've got five questions
+- [01:15:47] for you. Are you ready?
+- [01:15:48] >> Yeah.
+- [01:15:49] >> First question, what are two or three
+- [01:15:51] books that you find yourself
+- [01:15:52] recommending most to other people?
+- [01:15:54] >> I do Twitter accounts.
+- [01:15:57] >> Oh, Twitter accounts to follow. Oh,
+- [01:15:58] amazing. Okay.
+- [01:16:00] >> I like Lenny, the day I have time to
+- [01:16:02] read a book.
+- [01:16:03] >> Period.
+- [01:16:05] >> Period. I would love I would love to be
+- [01:16:07] reading books. [laughter]
+- [01:16:10] >> Cool. Twitter accounts to follow. Tell
+- [01:16:11] me.
+- [01:16:12] >> Yeah.
+- [01:16:13] >> Obviously you like you produce some of
+- [01:16:15] the best content truthfully
+- [01:16:17] >> with like you get into the minds of
+- [01:16:19] people that like they're not even giving
+- [01:16:20] this insight on Twitter. Um
+- [01:16:24] uh who else do I absolutely love? Um
+- [01:16:28] Jason Lumpkin. So for sales, Jason
+- [01:16:31] Lumpkin is awesome. awesome follow for
+- [01:16:34] sales and also he had a great great um
+- [01:16:37] recording with you. So link to that
+- [01:16:39] because that was a great piece. I
+- [01:16:41] actually learned a ton from it. I love
+- [01:16:43] Gavin Baker.
+- [01:16:46] Super nuanced takes like takes a lot of
+- [01:16:48] like obvious statements but like shares
+- [01:16:50] a lot of the non-obvious uh insight.
+- [01:16:52] He's great. Uh Jason Cohen, have you
+- [01:16:56] ever had Jason Cohen on the cast?
+- [01:16:57] >> Jason Cohen, a smart bear. Jason Cohen.
+- [01:16:59] >> Yeah. Yeah. He's coming on the podcast
+- [01:17:02] in at the end of the year. Some
+- [01:17:04] >> Oh, that's awesome. What a great plug
+- [01:17:05] for him right there. Um,
+- [01:17:08] >> yeah, those three would be great. I know
+- [01:17:10] they're all men, but
+- [01:17:11] >> great tips.
+- [01:17:11] >> Yeah.
+- [01:17:12] >> Next question. Is there a favorite
+- [01:17:14] recent movie or TV show that you've
+- [01:17:16] really enjoyed? I know you said you have
+- [01:17:17] time to read.
+- [01:17:18] >> This is going to be embarrassing.
+- [01:17:20] Baywatch.
+- [01:17:22] >> Baywatch.
+- [01:17:22] >> Yeah.
+- [01:17:24] >> Watch Baywatch channel. It's just so
+- [01:17:26] numb and it's like 90s classic.
+- [01:17:29] Baywatch.
+- [01:17:30] >> Wow. I've never heard that one before.
+- [01:17:32] So, this is original Baywatch with
+- [01:17:34] >> this is original Hasselhoff. David
+- [01:17:36] Hasselhoff
+- [01:17:38] Pamela Anderson. The original cast.
+- [01:17:40] >> Amazing.
+- [01:17:41] >> Yeah.
+- [01:17:42] >> Okay. Deep cut. Is there a product
+- [01:17:45] you've recently discovered that you
+- [01:17:46] really love?
+- [01:17:47] >> So, the number one thing for me right
+- [01:17:49] now is an app called Playground, which
+- [01:17:53] is the pictures of my toddler that they
+- [01:17:56] upload into the preschool. Uh, so I can
+- [01:17:59] get like the daily updates on like
+- [01:18:01] what's going on in preschool um when
+- [01:18:02] he's at home.
+- [01:18:03] >> Amazing. I need that. Uh, I get like
+- [01:18:05] emails and and Google photos. That would
+- [01:18:08] really
+- [01:18:09] >> There's Yeah, there was another one
+- [01:18:10] called CL uh like Class Dojo. There's a
+- [01:18:12] few of them, but Playground's the one
+- [01:18:13] that this preschool's on.
+- [01:18:15] >> Love Class dojo. I'm a small investor.
+- [01:18:17] >> Are you really?
+- [01:18:18] >> I am.
+- [01:18:18] >> Oh, that's awesome.
+- [01:18:19] >> How about that? Uh, two more questions.
+- [01:18:21] Do you have a favorite life motto that
+- [01:18:22] you find yourself coming back to, find
+- [01:18:24] useful in work or in life?
+- [01:18:26] >> Yeah, be direct. like cut the fluff like
+- [01:18:29] give me the one sent give me the bullet
+- [01:18:31] not the paragraph.
+- [01:18:34] >> Final question. I was told that by
+- [01:18:36] Justin that you've never read a sales
+- [01:18:38] book. You've just learned to do this. Uh
+- [01:18:42] if you were to read a sales book, if
+- [01:18:44] there was someone else out there that
+- [01:18:46] you look up to learn from, is there
+- [01:18:48] anyone else out there in the world of
+- [01:18:49] sales that you most respect? Most
+- [01:18:51] >> I think Jason Lumpin has the strongest
+- [01:18:54] understanding of sales. His content is
+- [01:18:57] unbelievable. He speaks about it clearly
+- [01:19:00] and cleanly. I would say he like and as
+- [01:19:02] I mentioned like unbelievable Twitter
+- [01:19:03] follow. I'm a big fan of his. I've
+- [01:19:06] actually learned a lot from him too.
+- [01:19:07] Like the 5050 thing or higher two sales
+- [01:19:11] people. He's spot on.
+- [01:19:12] >> Failure rate's actually probably higher
+- [01:19:14] than 50%.
+- [01:19:15] >> I love that guy and he's so he's so like
+- [01:19:17] AI forward these days. He's just
+- [01:19:19] building. He almost took down Replet
+- [01:19:20] with his uh complaints. It was a whole
+- [01:19:23] new cycle of how
+- [01:19:25] >> did you correct? Like sometimes he says
+- [01:19:27] things that are like harsh, but you're
+- [01:19:28] like he's not wrong.
+- [01:19:31] >> Love it. I got to get him back on the
+- [01:19:32] podcast.
+- [01:19:33] >> Yeah,
+- [01:19:33] >> Jen, this was incredible. This was
+- [01:19:35] everything I wanted to be. I feel like
+- [01:19:36] we just leveled up all the founders that
+- [01:19:38] have listened to this in their ability
+- [01:19:39] to close. We're going to just create all
+- [01:19:41] the economic value and uh a lot of happy
+- [01:19:44] VCs from all the sales that will be
+- [01:19:46] closed as a result of the advice you
+- [01:19:47] shared. Two final questions. Where can
+- [01:19:50] folks find you if they want to either
+- [01:19:51] work with you or or follow you online?
+- [01:19:53] And how can listeners be useful to you?
+- [01:19:54] >> Twitter. Um I every new learning or
+- [01:20:00] mishap I put right on Twitter. So it's
+- [01:20:02] like my personal diary and super
+- [01:20:04] responsive on Twitter DM.
+- [01:20:06] >> What's your Twitter handle? Twitter
+- [01:20:08] handle.
+- [01:20:08] >> It's double double J. So JJ Jen_ab
+- [01:20:14] Lel.
+- [01:20:14] >> You did not make that easy for people to
+- [01:20:16] find you, but we will
+- [01:20:18] >> I know. I know I didn't.
+- [01:20:20] >> And the J's the from Jellyfish. Is that
+- [01:20:21] where the extra J?
+- [01:20:22] >> Yeah, the double J's. And then also
+- [01:20:24] Well, someone else had the handle. So I
+- [01:20:25] was like, I I need my name.
+- [01:20:26] >> You got By the way, just tell people
+- [01:20:28] what Jellyfish is in case that might be
+- [01:20:29] helpful to them.
+- [01:20:30] >> Yeah. So it's a um consultancy that
+- [01:20:33] helps folks in the zero to one stage.
+- [01:20:35] And now I'm at uh general manager of
+- [01:20:38] enterprise at state affairs which is
+- [01:20:40] basically giving individ giving citizens
+- [01:20:44] and corporations an inside peak into
+- [01:20:46] like what's actually going on inside the
+- [01:20:47] state capital building. State policy is
+- [01:20:49] way more impact than on you than federal
+- [01:20:52] policy. Federal policy is written more
+- [01:20:54] about.
+- [01:20:54] >> Incredible. Uh I've only recently
+- [01:20:56] learned that that's what you're doing
+- [01:20:57] these days and that is super impactful
+- [01:20:59] and important. So thank you for your
+- [01:21:01] work there.
+- [01:21:02] >> Stephen democracy.
+- [01:21:04] >> No big deal. Jen, thank you so much for
+- [01:21:05] being here.
+- [01:21:06] >> Thank you so much, Lenny. This was a
+- [01:21:07] blast.
+- [01:21:08] >> Bye, everyone.
+- [01:21:11] Thank you so much for listening. If you
+- [01:21:12] found this valuable, you can subscribe
+- [01:21:14] to the show on Apple Podcasts, Spotify,
+- [01:21:16] or your favorite podcast app. Also,
+- [01:21:19] please consider giving us a rating or
+- [01:21:21] leaving a review as that really helps
+- [01:21:23] other listeners find the podcast. You
+- [01:21:25] can find all past episodes or learn more
+- [01:21:27] about the show at lennispodcast.com.
+- [01:21:28] [music]
+- [01:21:30] See you in the next episode.

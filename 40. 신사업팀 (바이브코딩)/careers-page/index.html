@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proby 팀 채용 | AI User Research Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --color-bg: #fafafa;
+      --color-surface: #ffffff;
+      --color-text: #1a1a1a;
+      --color-text-muted: #666;
+      --color-accent: #2563eb;
+      --color-border: #e5e7eb;
+      --font-sans: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max-width: 720px;
+      --section-padding: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--color-text);
+      background: var(--color-bg);
+    }
+
+    .header {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-link {
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+      text-decoration: none;
+    }
+
+    .header-link:hover {
+      color: var(--color-accent);
+      text-decoration: underline;
+    }
+
+    .logo {
+      display: block;
+      height: 28px;
+      width: auto;
+    }
+
+    .hero {
+      padding: 0 0 24px;
+      text-align: center;
+      background: #fafafa;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      display: block;
+      vertical-align: top;
+    }
+
+    .hero-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 24px 24px 0;
+    }
+
+    .hero-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.75rem;
+      line-height: 1.35;
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--color-text-muted);
+      margin: 0 0 2rem;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 0.875rem 1.75rem;
+      background: var(--color-text);
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: opacity 0.2s;
+    }
+
+    .cta:hover {
+      opacity: 0.9;
+    }
+
+    section {
+      padding: var(--section-padding);
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--color-accent);
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 1.25rem;
+      line-height: 1.4;
+    }
+
+    .section-body {
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+
+    .section-body p {
+      margin: 0 0 1rem;
+    }
+
+    .section-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-body strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+
+    .section-body ul {
+      margin: 1rem 0 0;
+      padding-left: 1.25rem;
+      color: var(--color-text-muted);
+    }
+
+    .section-body ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .funding-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--color-text-muted);
+    }
+
+    .funding-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .funding-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .funding-item-img {
+      flex-shrink: 0;
+      height: 48px;
+      width: auto;
+      max-width: 180px;
+      object-fit: contain;
+      object-position: left center;
+    }
+
+    .funding-item-text {
+      flex: 1;
+    }
+
+    .funding-item-text strong {
+      color: var(--color-text);
+    }
+
+    .subsection {
+      margin-top: 2rem;
+    }
+
+    .subsection-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-text);
+      margin: 0 0 0.5rem;
+    }
+
+    .subsection ul {
+      margin: 0;
+      padding-left: 1.25rem;
+      color: var(--color-text-muted);
+    }
+
+    .subsection li {
+      margin-bottom: 0.35rem;
+    }
+
+    .team-rows {
+      margin-top: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .team-row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .team-grid {
+      display: grid;
+      gap: 1.5rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .team-row--first .team-grid,
+    .team-row--bottom .team-grid {
+      grid-template-columns: repeat(3, 180px);
+      max-width: 600px;
+      justify-content: center;
+    }
+
+    .team-card {
+      text-align: center;
+      width: 100%;
+      min-width: 0;
+    }
+
+    .team-card-img {
+      width: 120px;
+      height: 160px;
+      border-radius: 8px;
+      object-fit: cover;
+      object-position: center top;
+      margin: 0 auto 0.5rem;
+      display: block;
+      background: var(--color-border);
+    }
+
+    .team-card-name {
+      font-weight: 600;
+      color: var(--color-text);
+      font-size: 0.9375rem;
+      margin: 0 0 0.15rem;
+    }
+
+    .team-card-title {
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+      margin: 0 0 0.35rem;
+    }
+
+    .team-card-bio {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin: 0;
+      padding-left: 1rem;
+      text-align: left;
+      list-style: disc;
+    }
+
+    .team-card-bio li {
+      margin-bottom: 0.2rem;
+    }
+
+    .team-card-bio li:last-child {
+      margin-bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <img src="assets/logo-text.png" alt="Proby" class="logo" />
+      <a href="https://www.proby.io" target="_blank" rel="noopener" class="header-link">제품 사이트</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/hero.png" alt="Proby 팀" class="hero-img" />
+      <div class="hero-inner">
+        <h1 class="hero-title">함께 도전하고, 성장하는 팀<br />Proby에서 인사이트의 기준을 바꿉니다.</h1>
+        <p class="hero-desc">다양한 시각과 경험이 모여, AI 정성 리서치의 새로운 기준을 만듭니다. Proby 팀에서 미래를 함께 그려보세요.</p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">인사이트를 민주화하기 위해</p>
+      <h2 class="section-title">유저 보이스를 의사결정의 중심에 둡니다.</h2>
+      <div class="section-body">
+        <p>Proby는 소비자·유저의 목소리를 제대로 듣고, 그걸 의사결정에 쓰기 쉽게 만드는 <strong>AI 정성 리서치 플랫폼</strong>을 만듭니다. “조사는 하고 싶은데 리소스가 없다”, “인터뷰가 막막하고 시간이 많이 든다”는 벽을 낮추고, 한국·아시아 리서처와 기업이 저비용·고품질·글로벌 정성 조사를 할 수 있도록 제품을 만들고 있습니다.</p>
+        <p>AI가 1:1 인터뷰를 진행하고, 응답에 따라 후속 질문을 이어가며 영상·녹취·요약까지 준실시간으로 만듭니다. 단순 설문이 아니라 “왜?”를 묻고 인사이트를 끌어내는 디지털 리서처로서, 고객별 유저 보이스 데이터 레이크와 에이전트 연동으로 <strong>의사결정 OS의 일부</strong>가 되는 것을 목표로 합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">비전과 시장</p>
+      <h2 class="section-title">압도적 ROI로 검증되는 방향으로 나아갑니다.</h2>
+      <div class="section-body">
+        <p>동일한 개념의 AI 리서치 플랫폼이 미국에서 누적 투자 1,000억 원, 기업가치 5,000억 원 수준에 도달했고, 포춘 500대와 주요 리서치 기관이 이미 도입해 운영 중입니다. Proby는 한국·아시아 리서처의 접근성을 충족하며, 유니콘·에이전시·대기업과 함께 성장하고 있습니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">우리를 믿어주는 서포터들</p>
+      <h2 class="section-title">주요 투자자들로부터 이미 인정을 받았습니다.</h2>
+      <div class="section-body">
+        <ul class="funding-list">
+          <li class="funding-item">
+            <img src="assets/fastventures.png" alt="패스트벤처스" class="funding-item-img" />
+            <span class="funding-item-text"><strong>패스트벤처스</strong> — 2022년 8월, 아이디어 및 시장 검증을 위한 시드 투자 <strong>1.2억 원</strong> 조달</span>
+          </li>
+          <li class="funding-item">
+            <img src="assets/tips.png" alt="중소벤처기업부 TIPS" class="funding-item-img" />
+            <span class="funding-item-text"><strong>중소벤처기업부 TIPS</strong> — 2024년 8월, 제품 고도화를 위한 TIPS 지원금 <strong>5억 원</strong> 조달</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">팀 미션과 목표에 모두가 몰입하기 위해</p>
+      <h2 class="section-title">목표 달성에 최적화된 환경을 고민합니다.</h2>
+      <div class="section-body">
+        <p>Proby는 전략·콘텐츠·세일즈·제품·유저인사이트·경영지원 등 기능별로 팀을 나누어 움직입니다. 각 팀이 전략과 제품 방향에 맞춰 협업하고, 빠른 의사결정과 고객 문제 해결에 집중합니다.</p>
+      </div>
+      <div class="subsection">
+        <p class="subsection-title">최고의 동료들과 협업을 만듭니다.</p>
+        <p class="section-body">각 분야의 전문가들이 모여 신뢰와 협력, 솔직한 피드백을 바탕으로 모두가 주도적으로 문제를 해결하고 성장하는 환경을 추구합니다. 팀 미션과 목표에 맞춰 각자의 재능이 하나로 뭉치는 몰입을 만듭니다.</p>
+      </div>
+      <div class="subsection">
+        <p class="subsection-title">고객의 문제 해결에 집중합니다.</p>
+        <p class="section-body">Proby는 고객의 문제를 끝까지 해결하기 위해 제품, 기술, 사람 등 가능한 모든 수단을 아우릅니다. AI와 데이터 기반 혁신을 통해, 단순한 도구가 아닌 “문제를 함께 푸는 동료”로서의 플랫폼을 지향합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">Proby 구성원</p>
+      <h2 class="section-title">소수정예 최고의 전문가들로 임팩트를 만듭니다.</h2>
+      <div class="team-rows">
+        <div class="team-row team-row--first">
+          <ul class="team-grid">
+            <li class="team-card">
+              <img src="assets/team/kim-yubin.png" alt="김유빈" class="team-card-img" />
+              <p class="team-card-name">김유빈</p>
+              <p class="team-card-title">CEO</p>
+              <ul class="team-card-bio">
+                <li>Yale University, 경제학</li>
+                <li>Hive AI(미국 실리콘밸리) Product Analyst</li>
+                <li>크라우드웍스(국내 대표 AI 데이터 플랫폼) Product Manager</li>
+                <li>8년차 연쇄 창업가</li>
+              </ul>
+            </li>
+            <li class="team-card">
+              <img src="assets/team/lee-chulhee.png" alt="이철희" class="team-card-img" onerror="this.src='https://ui-avatars.com/api/?name=Chulhee+Lee&size=96&background=e5e7eb&color=6b7280'" />
+              <p class="team-card-name">이철희</p>
+              <p class="team-card-title">CBO</p>
+              <ul class="team-card-bio">
+                <li>UC Berkeley 정치외교학과</li>
+                <li>시장조사업 경력 10년 이상</li>
+                <li>구글/메타/삼성전자/LG전자 등 프로젝트 다수</li>
+                <li>콴다 리서치 팀장 경력</li>
+              </ul>
+            </li>
+            <li class="team-card">
+              <img src="assets/team/jin-hyunwoo.png" alt="진현우" class="team-card-img" onerror="this.src='https://ui-avatars.com/api/?name=Hyunwoo+Jin&size=96&background=e5e7eb&color=6b7280'" />
+              <p class="team-card-name">진현우</p>
+              <p class="team-card-title">CTO</p>
+              <ul class="team-card-bio">
+                <li>프론트, 백엔드 등 다양한 서비스를 직접 개발하고 운영해본 경험 다수</li>
+                <li>소프트웨어 개발자 3년차</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="team-row team-row--bottom">
+          <ul class="team-grid">
+            <li class="team-card">
+              <p class="team-card-name">김보규</p>
+              <p class="team-card-title">AI Engineer</p>
+              <ul class="team-card-bio">
+                <li>AI 개발자 5년차</li>
+              </ul>
+            </li>
+            <li class="team-card">
+              <p class="team-card-name">전현경</p>
+              <p class="team-card-title">Senior PM</p>
+              <ul class="team-card-bio">
+                <li>입소스/엠브레인/신세계 등 UX 리서처 6년차</li>
+              </ul>
+            </li>
+            <li class="team-card">
+              <p class="team-card-name">강조원</p>
+              <p class="team-card-title">Senior PM</p>
+              <ul class="team-card-bio">
+                <li>카이스트 석사</li>
+                <li>한국리서치/리디 등 UX 리서처 2년차</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-label">구성원 중심의 경험을 위해</p>
+      <h2 class="section-title">몰입할 수 있는 환경을 제공합니다.</h2>
+      <div class="section-body">
+        <p>성장에 필요한 도서와 학습을 지원하고, 유연한 근무 환경을 지향합니다. 필요한 경우 재택·시차 출퇴근을 활용할 수 있으며, 구성원이 주도적으로 일할 수 있는 문화를 만듭니다.</p>
+      </div>
+      <div class="subsection">
+        <p class="subsection-title">생활 속 편의를 지원합니다.</p>
+        <ul>
+          <li>점심·저녁 식사 및 교통비 지원</li>
+          <li>경조사비 지원</li>
+          <li>각종 복지 제도 운영</li>
+        </ul>
+      </div>
+      <div class="subsection">
+        <p class="subsection-title">휴식과 건강을 책임집니다.</p>
+        <ul>
+          <li>4대보험 및 단체보험</li>
+          <li>정기 건강검진</li>
+          <li>연차 및 리프레시 휴가</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,2956 @@
+## Key insight / summary
+
+- **Foundation Sprint의 핵심**: 팀이 10시간 동안 일정을 비우고 모여서 "누가 우리 타겟 고객인가", "무엇을 만들 것인가", "어떻게 차별화할 것인가"에 대한 핵심 결정을 함께 내리는 프로세스
+- **창업팀의 공통 실패 패턴**: 공동창업자 3명이 타겟 고객에 대해 3가지 다른 답변을 하는 상황 (기본기를 모르거나, 알아도 테스트하지 않는 것)
+- **AI 시대의 역설**: AI로 빠르게 만들수록 제품이 더 범용적(generic)이 되는 경향 - 속도보다는 깊은 사고를 통한 차별화가 중요
+- **"빠르게 만들어서 런칭하고 배우자"의 함정**: 실제로는 천천히 하고 깊게 생각하는 것이 장기적으로 더 빠른 결과를 만들어냄
+- **Design Sprint의 진화**: Google에서 시작된 5일 프로세스(Map → Sketch → Decide → Prototype → Test)에서 더 초기 단계의 Foundation Sprint로 발전
+- **Foundation Sprint가 필요한 이유**: Design Sprint 이전에 "무엇을 만들지, 누구를 위해 만들지"에 대한 기반적 정렬이 선행되어야 함
+- **투자자 관점에서의 니즈**: Pre-seed, 초기 단계 회사들은 제품 개발 이전에 기본적인 전략적 질문들에 대한 답이 정렬되지 않은 경우가 많음
+- **프로토타입 중심 사고**: 완벽한 기획서나 프레젠테이션보다는 실제로 테스트할 수 있는 프로토타입을 만드는 것이 더 효과적
+- **팀 정렬의 중요성**: 모든 핵심 팀원이 동일한 가설과 방향에 대해 합의하고 정렬되는 것이 성공의 전제조건
+
+## Key implications for Proby platform
+
+- **Proby 팀 내부 Foundation Sprint 실행**: McKinsey 문서에서 지적한 "타겟 고객 우선순위 부재" 문제를 해결하기 위해 창업팀이 10시간 동안 모여 "유니콘 리서처 vs 스타트업 PM vs 엔터프라이즈 리서처" 중 명확한 1순위를 정해야 함
+- **AI 차별화 전략 재점검**: "AI로 빠르게 만들수록 generic해진다"는 인사이트를 바탕으로, Proby의 AI 모더레이션이 단순한 자동화가 아닌 깊은 인사이트를 제공하는 차별화된 경험이 되도록 제품 철학을 재정립해야 함
+- **고객 테스트 우선주의**: McKinsey 문서의 "검증되지 않은 가정들"을 Foundation Sprint 방식으로 해결 - AI 모더레이션 품질, 연구자들의 셀프서브 도구 수용성 등을 90일 내에 실제 타겟 고객 20-30명과 테스트
+- **프로토타입 기반 세일즈**: 완벽한 기능을 만들어 출시하기보다는, 핵심 가치를 증명할 수 있는 MVP를 만들어 잠재 고객(특히 유니콘 리서처)에게 직접 체험시키는 전략으로 전환
+- **경쟁사 대응 전략**: McKinsey 문서에서 지적한 "약한 경쟁 분석"을 Foundation Sprint로 해결 - UserTesting, Remesh 등 기존 플레이어들과 어떻게 차별화할지 팀 차원에서 명확히 정의
+- **B2B 세일즈 프로세스 재설계**: Foundation Sprint의 "팀 정렬" 개념을 고객사에 적용 - Proby 도입을 고려하는 기업의 의사결정자들(리서처, 프로덕트 매니저, 구매 담당자)을 한자리에 모아 함께 리서치 니즈를 정의하는 워크샵 형태의 세일즈 접근법 개발
+- **글로벌 진출 우선순위**: Foundation Sprint 방식으로 "한국 → 영어권 → 일본/동남아 → 유럽" 중 어느 시장부터 집중할지 데이터와 테스트 기반으로 결정하고, 전 팀이 하나의 시장에 리소스를 집중하는 전략 수립
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=UbjAOCzpNWc
+
+- [00:00] We would have a conversation with
+- [00:01] founders. You're saying like, gosh, I'm
+- [00:03] I'm almost embarrassed to ask this
+- [00:04] question, but who exactly is your target
+- [00:06] customer? And three co-founders have
+- [00:08] three different answers. After these
+- [00:10] hundreds of teams that we've worked
+- [00:11] with, we've seen that there's one
+- [00:13] failure mode, which is they don't know
+- [00:15] what that set of basics are. Then
+- [00:17] there's this other failure mode where
+- [00:18] they never test it.
+- [00:19] Let's talk about the foundation sprint.
+- [00:20] Walk us through the process. How does it
+- [00:22] start? What are the steps?
+- [00:23] The very beginning of your project, we
+- [00:25] recommend this kind of crazy idea that
+- [00:28] you clear your calendar. So the core
+- [00:30] team come together for 10 hours roughly
+- [00:32] and go through a sequence of activities
+- [00:35] so that we can make all of the key
+- [00:36] decisions together. I think a lot of
+- [00:38] people wonder as they're hearing this is
+- [00:39] why don't I just build something and
+- [00:41] launch it and learn.
+- [00:42] One phenomenon we've seen when teams are
+- [00:44] building things really quickly with AI
+- [00:46] is that the more AI generated or
+- [00:48] assisted they are, the more generic they
+- [00:50] tend to turn out. Put yourself in a
+- [00:52] situation where you can slow down and do
+- [00:54] some hard thinking, some deep thinking
+- [00:55] about what's actually going to make your
+- [00:57] product unique. going fast can actually
+- [00:59] slow you down in the long run.
+- [01:01] Today, my guests are Jake Knap and John
+- [01:03] Zeratsky. The framework that Jake and
+- [01:05] John share in this conversation is
+- [01:07] basically the missing manual for
+- [01:09] founders and product teams trying to
+- [01:10] refine and test their startup or product
+- [01:12] idea. It's called the foundation sprint
+- [01:14] and it emerged out of the famous design
+- [01:16] sprint which Jake and Jay-Z co-created
+- [01:18] and also from working with over 300
+- [01:20] teams building both new products at
+- [01:22] startups and also with teams at larger
+- [01:24] companies like Google, Microsoft,
+- [01:26] YouTube, Slack, Uber and many more. They
+- [01:28] published a book with this framework at
+- [01:30] the beginning of this year called Click
+- [01:31] and the excerpt from that book that
+- [01:33] dives into this framework is one of my
+- [01:35] most popular post of all time and is one
+- [01:37] of the rare nonAI posts amongst the top
+- [01:39] post rankings. In this conversation,
+- [01:41] make sure to get your pencils out
+- [01:42] because we go through exactly how to
+- [01:45] execute this two-day sprint where at the
+- [01:47] end of it, you have a very clear
+- [01:48] hypothesis that your entire team is
+- [01:51] aligned around that clarifies what
+- [01:52] you're building, who you're building
+- [01:53] for, how it differentiates from
+- [01:55] competitors, and how to quickly test it
+- [01:57] with real potential customers. The two
+- [01:59] days that you invest in a sprint might
+- [02:00] be the highest ROI days in the history
+- [02:02] of your product. And I highly encourage
+- [02:04] you to do this if you're in the process
+- [02:06] of baking an idea. If you enjoy this
+- [02:08] podcast, don't forget to subscribe and
+- [02:09] follow it in your favorite podcasting
+- [02:10] app or YouTube. Also, if you become an
+- [02:12] annual subscriber of my newsletter, you
+- [02:14] get a year free of a bunch of amazing
+- [02:16] products, including Bolt, Linear,
+- [02:18] Superhum, Notion, Perplexity, Granola,
+- [02:20] and more. Check it out at
+- [02:21] lenniesnewsletter.com and click bundle.
+- [02:23] With that, I bring you Jake, Nap, and
+- [02:26] John Zeratsky.
+- [02:28] This episode is brought to you by Brex,
+- [02:30] the financial stack used by one in every
+- [02:33] three US venture-backed startups. Rex
+- [02:36] knows that nearly 40% of startups fail
+- [02:38] because they run out of cash. So, they
+- [02:40] built a banking experience that focuses
+- [02:42] on helping founders get more from every
+- [02:44] dollar. It's a stark difference from
+- [02:46] traditional banking options that leave a
+- [02:48] startup's cash sitting idle while
+- [02:50] chipping away at it with fees. To help
+- [02:52] founders protect cash and extend runway,
+- [02:54] Brex combined the best things about
+- [02:56] checking, treasury, and FDIC insurance
+- [02:59] in one powerhouse account. You can send
+- [03:02] and receive money worldwide at lightning
+- [03:04] speed. You can get 20x the standard FDIC
+- [03:07] protection through program banks and you
+- [03:09] can earn industry-leading yield from
+- [03:11] your first dollar while still being able
+- [03:13] to access your funds anytime. To learn
+- [03:15] more, check out Bre at
+- [03:17] Brex.com/banking-solutions.
+- [03:21] That's brex.com/bankingsolutions.
+- [03:25] Many of you are building AI products,
+- [03:27] which is why I'm very excited to chat
+- [03:29] with Brandon Fu, founder and CEO of
+- [03:31] Paragon. Hey, Brandon.
+- [03:33] Hey, Lenny. Thanks for having me.
+- [03:35] So, integrations have become a big deal
+- [03:37] for AI products. Why is that?
+- [03:40] Integrations are mission critical for AI
+- [03:42] for two reasons. First, AI products need
+- [03:44] contacts from their customers business
+- [03:46] data such as Google Drive files, Slack
+- [03:48] messages, or CRM records. Second, for AI
+- [03:52] products to automate work on behalf of
+- [03:53] users, AI agents need to be able to take
+- [03:56] action across these different third
+- [03:57] party tools. So, where does Paragon fit
+- [04:00] into all this? Well, these integrations
+- [04:02] are a pain to build. And that's why
+- [04:03] Paragon provides an embedded platform
+- [04:05] that enables engineers to ship these
+- [04:07] product integrations in just days
+- [04:09] instead of months across every use case
+- [04:11] from rag data ingestion to agentic
+- [04:14] actions. And I know from firsthand
+- [04:16] experience that maintenance is even
+- [04:17] harder than just building it for the
+- [04:19] first time.
+- [04:20] Exactly. We believe product teams should
+- [04:22] focus engineering efforts on competitive
+- [04:24] advantages, not integrations. That's why
+- [04:26] companies like you.com, AI21, and
+- [04:29] hundreds of others use Paragon to
+- [04:31] accelerate their integration strategy.
+- [04:33] If you want to avoid wasting months of
+- [04:35] engineering on integrations that your
+- [04:36] customers need, check out Paragon at
+- [04:38] useparagon.com/lenny.
+- [04:45] Jake and Jay-Z, thank you so much for
+- [04:47] being here and welcome to the podcast.
+- [04:49] Hey Lenny, thanks for having us.
+- [04:51] Yeah, thanks so much for having us on
+- [04:52] again. This is always a treat. This is
+- [04:55] going to be a very tactical
+- [04:56] conversation. We're going to be going
+- [04:58] through how to actually execute a
+- [05:00] foundation sprint. And the reason that
+- [05:03] I'm excited to do this is you guys
+- [05:04] shared an excerpt from your book where
+- [05:06] you initially shared this whole concept.
+- [05:08] It's called click. Uh you shared this in
+- [05:10] my newsletter. And I was just looking at
+- [05:12] it and that excerpt that post is amongst
+- [05:15] the top 10 most popular post of all time
+- [05:17] in my newsletter. Uh which is especially
+- [05:20] special because it's not an AI oriented
+- [05:22] book. It's one of the few non AI posts
+- [05:25] that are near the top 10. Uh which just
+- [05:27] tells me how valuable this is to people
+- [05:28] and consistently has sat there. It
+- [05:30] hasn't been usurped. It just continues
+- [05:32] to climb. So I'm really excited to just
+- [05:34] have a conversation where we share
+- [05:36] actually how to do this. Let me just
+- [05:38] start with the beginning just a little
+- [05:40] backstory on how the foundation sprint
+- [05:42] came to be. I know it emerged out of the
+- [05:45] now very famous uh design sprint which
+- [05:47] you guys also developed. So just give us
+- [05:49] a very brief overview of just how this
+- [05:51] came to be. this idea of this foundation
+- [05:53] sprint. Well, maybe I'll start by
+- [05:55] talking about the design sprint part
+- [05:56] because it is essential to understanding
+- [05:58] the foundation sprint and the design
+- [06:02] sprint first developed I I had been
+- [06:04] working at the beginning of my career at
+- [06:06] Microsoft for a few years. Went to
+- [06:07] Google. This is like 2007, 2008, 2009
+- [06:11] and was working on the Gmail team. Was
+- [06:13] working on some, you know, projects that
+- [06:15] were just executing well, delivering
+- [06:17] shipping.
+- [06:19] But I had this other project, this side
+- [06:22] project that had been going on for three
+- [06:24] years with a couple of colleagues, was
+- [06:27] going nowhere, and it looked like their
+- [06:29] office was going to get shut down after
+- [06:31] the financial crisis. They were in
+- [06:32] Stockholm. I went there for a week. We
+- [06:35] cleared our calendars for the week and
+- [06:37] we created a prototype of this this
+- [06:38] thing because we decided look we're
+- [06:40] we're never going to get anywhere. We've
+- [06:42] tried making the perfect pitch. We've
+- [06:44] tried to, you know, make the ideal PRD.
+- [06:47] We've tried to show the the ideal design
+- [06:50] and we just we can't perfection is not
+- [06:52] working. We're not able to align people.
+- [06:54] We're not able to to get sort of
+- [06:56] executive support for this thing. We
+- [06:59] couldn't convince Larry and Sergey and
+- [07:01] Eric that they should fund this thing.
+- [07:02] And in that week in Stockholm, we
+- [07:05] created a prototype instead. We decided,
+- [07:07] you know what, forget it. We're just
+- [07:08] going to build something and put it in
+- [07:10] people's hands, put it in our fellow
+- [07:11] Googler's hands. And that prototype was
+- [07:16] what became Google Meet. It was this
+- [07:18] video conferencing tool that you could
+- [07:19] use in the in the web browser.
+- [07:20] No big deal.
+- [07:21] Yeah, it was it was really cool. I mean,
+- [07:23] the the the outcome of that that's
+- [07:24] definitely probably the most productive
+- [07:25] week I've ever I've ever had. But the uh
+- [07:29] the thing that struck me at the time and
+- [07:31] in in hindsight was wow, it was so
+- [07:33] different to clear the calendar for a
+- [07:35] week and have the entire focal point of
+- [07:37] every person on the team be how do we
+- [07:40] create a prototype that's so real that
+- [07:42] that works so well that people will
+- [07:44] think it's real that they'll react like
+- [07:46] it's real that they'll want it. And we
+- [07:49] were in survival mode, you know, we were
+- [07:51] trying to keep that office from getting
+- [07:52] shut down. But the the notion that maybe
+- [07:55] you could repeat that and recreate that
+- [07:56] is what led me to create the design
+- [07:58] sprint. So for a couple of years at
+- [08:01] Google, I start running these oneweek
+- [08:03] programs with teams trying to go at the
+- [08:05] beginning of a project from you know
+- [08:07] zero to a prototype at the end that we
+- [08:11] can that we could sort of evaluate test
+- [08:14] and then I went to go work at Google
+- [08:16] ventures. So separate one of the
+- [08:18] alphabet companies were investing in
+- [08:20] startups. I meet John Zeratsky and we
+- [08:23] start running these design sprints with
+- [08:25] well it turned out to be over the course
+- [08:27] of five years uh I don't know couple
+- [08:30] hundred teams
+- [08:31] working in the early days with founders
+- [08:34] the early days of their you establishing
+- [08:36] the product for the first time trying to
+- [08:38] build it from zero to to one or a new
+- [08:42] marketing campaign a new ad campaign
+- [08:43] some big high-risk endeavor we'd get to
+- [08:45] work alongside them for a week and we
+- [08:47] ended up refining this process into a
+- [08:49] recipe so across five days it's map,
+- [08:53] sketch, decide, prototype, and test. One
+- [08:56] big focal point for each day. So, at the
+- [08:58] end of the week, you've got a tested
+- [09:00] prototype, and you learn like, are we on
+- [09:01] the right track or or not? And that's
+- [09:05] the that's the design sprint. That's
+- [09:06] kind of the the, you know, the prologue,
+- [09:09] the backstory to this thing. And then
+- [09:12] after a few years at Google Ventures,
+- [09:14] John and I left and eventually together
+- [09:17] with our co-founder Eli Goldman, we
+- [09:19] started our own venture firm, Character
+- [09:21] Capital. And that's kind of where the
+- [09:22] story of the foundation sprint comes in.
+- [09:25] Okay. Awesome. Uh Jay-Z, anything you
+- [09:27] wanted to add?
+- [09:29] One of our goals, probably our biggest
+- [09:30] goal for starting our own VC firm was
+- [09:33] that we wanted to be able to focus on
+- [09:36] just the kinds of companies and the
+- [09:38] stage of company building that was the
+- [09:41] most fun to us, but also was where we
+- [09:42] thought we could have the biggest
+- [09:44] impact. And so, you know, for us with
+- [09:46] our background as as designers, that is
+- [09:49] the early days, the first couple of
+- [09:51] months or the first year or two years of
+- [09:53] building a a new business. And at GV,
+- [09:56] you know, sometimes we did that, but
+- [09:57] sometimes we were working with with
+- [09:58] companies that were already well
+- [10:00] established. And when we'd come into
+- [10:01] those companies, they kind of knew what
+- [10:03] they were doing. They knew what they
+- [10:05] stood for. They knew how they were
+- [10:06] different in the market and how they
+- [10:07] were positioned. And so we could help
+- [10:10] them, you know, answer these big
+- [10:11] questions and solve these problems and
+- [10:13] test their prototypes with customers.
+- [10:15] But when we started investing in, you
+- [10:17] know, truly preede, sometimes inception
+- [10:20] stage, you know, pre-product,
+- [10:22] pre-revenue, pre- everything companies,
+- [10:24] there was this piece missing at the
+- [10:27] beginning of that process. So we we'd
+- [10:29] run design sprints and they would be
+- [10:30] helpful, but oftentimes it felt like
+- [10:32] there was there was a a foundational
+- [10:35] element of that project that we didn't
+- [10:37] quite have our hands around. And it was
+- [10:39] things like, you know, what is the
+- [10:41] problem you're solving and who's the
+- [10:42] who's the ideal customer? How are you
+- [10:44] different than what's in the market
+- [10:46] today? Who are your actual competitors?
+- [10:48] And there were these questions that just
+- [10:50] kept coming up again and again that led
+- [10:52] us to say, hey, we need to create a new
+- [10:55] sprint method, something that is really
+- [10:57] targeted for the very beginning of these
+- [10:59] big new projects. And and so that was
+- [11:02] what led us to create the foundation
+- [11:03] sprint um at Character Capital in 2021,
+- [11:07] 2022.
+- [11:08] Okay. Yeah. I was wondering the timeline
+- [11:10] on this. What I love about stuff like
+- [11:12] this, like episodes like this, is you
+- [11:14] guys have done so much work and done
+- [11:16] this so many times with so many
+- [11:17] companies, so many founders, and have
+- [11:19] learned what works and doesn't work. You
+- [11:21] said hundreds of founders, hundreds of
+- [11:23] startups, and you've just spent so many
+- [11:25] hours studying this, refining it,
+- [11:27] crafting it, and now you're just here to
+- [11:29] share all the answers. Save us so much
+- [11:31] time. Just like the ROI on this is
+- [11:32] incredible for us. So, I appreciate you
+- [11:34] guys doing this. Let's get into it.
+- [11:36] Let's talk about the foundation sprint.
+- [11:38] Uh, walk us through the process. How
+- [11:40] does it start? What are the steps?
+- [11:42] So, specifically what we talk about with
+- [11:44] the foundation sprint is it's the very
+- [11:46] beginning of your project. We recommend
+- [11:49] this kind of crazy idea that you clear
+- [11:51] your sk.
+- [11:54] So, the core team, this is the
+- [11:56] co-founders. If it's a startup, if it's
+- [11:59] a product team inside a large
+- [12:00] organization, it's the, you know, it's
+- [12:03] whoever's in charge of product, it's
+- [12:04] whoever's in charge of engineering, it's
+- [12:06] whoever's in charge of design, it's
+- [12:07] whoever's in charge of marketing. is the
+- [12:09] core leadership team. They're going to
+- [12:11] come together for it's going to be 10
+- [12:13] hours roughly give or take. And during
+- [12:16] those 10 hours, we're going to go
+- [12:18] through a sequence of activities, very
+- [12:20] highly scripted sequence of activities
+- [12:23] so that we can make all of the key
+- [12:24] decisions together and identify the
+- [12:27] basics of the project, what what's going
+- [12:29] to differentiate us in the marketplace
+- [12:30] and what's the best approach or
+- [12:32] implementation path. All of those
+- [12:34] together form a hypothesis and then we
+- [12:36] recommend so you finish. Now, that's
+- [12:38] your foundation sprint. You've got your
+- [12:39] founding hypothesis. Once you've got
+- [12:41] that founding hypothesis, then you're
+- [12:43] going to go and do design sprints. And
+- [12:45] we recommend you clear the calendar for
+- [12:47] two to three weeks at least, so you have
+- [12:49] the chance to be wrong about your
+- [12:51] hypothesis. And we're going to run
+- [12:52] experiments. And again, the design
+- [12:54] sprint, highly scripted, calendar, you
+- [12:57] know, emails off. We're just Slack is
+- [13:00] off. We're just focused on running
+- [13:02] through these sequence of decisions,
+- [13:04] building prototypes, getting them in
+- [13:05] front of customers, learning about a
+- [13:07] scorecard that relates back to the
+- [13:08] founding hypothesis. So, at the big
+- [13:10] picture, it's it's going to be anywhere
+- [13:12] from 10 hours to, you know, three to
+- [13:14] four weeks. You're going to run this
+- [13:17] detailed script of activities with your
+- [13:19] team with their calendars clear. And
+- [13:21] that's crazy. And most people won't do
+- [13:22] it. But if you do it, it confers upon
+- [13:25] you a huge advantage because now you're
+- [13:28] you're you've got information. You you
+- [13:30] know whether or not your product clicks
+- [13:32] with customers. And that's a we've seen
+- [13:34] that be just such a tremendous signal
+- [13:36] for is there going to be product market
+- [13:37] fit.
+- [13:38] Okay, that was really helpful. The 10
+- [13:40] hours is that specifically that's the
+- [13:42] foundation sprint time box.
+- [13:43] That's the foundation sprint time box.
+- [13:45] Yeah. And it's it's give or take, right?
+- [13:46] It might you might go fast and be done
+- [13:48] in in eight. You might have a lot of
+- [13:50] conversations and have a slightly larger
+- [13:51] team and might take you 12. So we like
+- [13:53] to spread it out over two days. Do two,
+- [13:55] you know, like four to six hour blocks.
+- [13:57] Okay. And then the three to four
+- [13:58] weeksish, that's including the design
+- [14:00] sprint.
+- [14:00] That's the design sprint. Yeah. One week
+- [14:02] per sprint.
+- [14:02] Okay. This is incredible ROI on 10 hours
+- [14:05] of work. Uh basically over two days you
+- [14:07] get to have a much stronger sense of
+- [14:10] whether your idea is any good and you
+- [14:13] can Yeah. That is that a simple way to
+- [14:15] describe it like you just supercharge uh
+- [14:17] validating an idea.
+- [14:19] Exactly. Yeah. It's it's a it's a chance
+- [14:21] to in the in the 10 hours it's a chance
+- [14:24] to get clarity about the core of your
+- [14:26] strategy which is something that teams
+- [14:29] will often go months without really
+- [14:31] nailing down. and the the three to four
+- [14:35] weeks that's a chance to run experiments
+- [14:38] and get confidence you're you're
+- [14:39] actually building the right thing.
+- [14:41] Okay, let's uh talk about these two
+- [14:43] days. How does how do you lay it out?
+- [14:44] How do you approach it? What should
+- [14:46] someone do if they want to actually try
+- [14:47] this at home?
+- [14:48] So there are three phases to the
+- [14:52] foundation sprint. First phase is the
+- [14:54] basics. Second phase is differentiation
+- [14:56] and the third phase is the approach to
+- [14:59] the project. So again, all three of
+- [15:01] those are going to come together to
+- [15:02] create the founding hypothesis. So the
+- [15:05] first phase, the basics as I mentioned,
+- [15:07] that's identifying who's your customer,
+- [15:10] what problem are you solving for the
+- [15:12] customer, what's the competition for
+- [15:15] solving that problem, how do they solve
+- [15:16] it today, and what are the alternatives,
+- [15:19] how how else do people solve this, what
+- [15:21] are the workarounds?
+- [15:23] Those are really almost embarrassingly
+- [15:25] simple things to answer. But when we do
+- [15:26] this with a team and everybody's
+- [15:28] answering, you know, proposing their
+- [15:30] answer to each question, we see
+- [15:31] everybody's got a different perspective.
+- [15:33] And then when we lock in the decision
+- [15:35] maker on the team says, "Okay, it's
+- [15:36] going to be this one. It's going to be
+- [15:37] this one. It's going to be this one."
+- [15:38] Now, we have clarity and and confidence
+- [15:40] that that's the right way to go. So,
+- [15:42] we'll move forward from the basics into
+- [15:45] differentiation and identify what are
+- [15:47] the things that can set us apart from
+- [15:49] those competitors. And we're going to
+- [15:51] use the advantages we have. We're going
+- [15:52] to use our our insight. We're going to
+- [15:54] use our motivation. and we're going to
+- [15:56] use our special capabilities.
+- [15:58] These are things again people are aware
+- [16:01] of these things. They're in tune to it,
+- [16:02] but we want to get super super specific.
+- [16:05] And we'll go into an example in a second
+- [16:07] and I think that'll make it more clear
+- [16:09] exactly what we mean. But going then
+- [16:10] from differentiation to saying what are
+- [16:12] all of the different implementation
+- [16:14] paths we could take here. Let's identify
+- [16:16] what those are, put a little detail
+- [16:17] behind them, and then we have a
+- [16:19] structured path for people to take so
+- [16:21] they can weigh that decision but move
+- [16:23] through really quickly. commit to one,
+- [16:25] have a backup plan in case you end up
+- [16:28] feeling like you need to pivot once you
+- [16:29] start sprinting on it. And all of that
+- [16:32] together is going to form this this kind
+- [16:34] of Mad Libs sentence. If we solve this
+- [16:37] problem for this customer uh with this
+- [16:40] approach, we think they're going to
+- [16:41] choose it over the competitors because
+- [16:42] of differentiator one and differentiator
+- [16:44] 2. And it's it's almost silly how simple
+- [16:48] this thing is, but really powerful if
+- [16:51] for founders to have that that clarity
+- [16:54] about, okay, here it all is in one
+- [16:56] sentence. Now, let's go let's go test
+- [16:58] and make sure this is true.
+- [16:59] Amazing. Let's look at an example.
+- [17:00] That's a really good idea. I know you
+- [17:01] brought some some examples. You're going
+- [17:03] to do some screen sharing. Uh you're
+- [17:04] going to pull it up. If you're watching
+- [17:05] on YouTube, you'll be able to see it.
+- [17:07] Also, if you're watching on Spotify, you
+- [17:08] can see the video. uh if you're an
+- [17:10] Apple, sorry, but uh do your best to
+- [17:13] describe what we're gonna be looking at.
+- [17:15] Yeah. So, we're gonna talk about this
+- [17:17] company called Latchet first. This is
+- [17:19] the first company we'll talk about.
+- [17:22] Latchet is a startup who was in our last
+- [17:25] group of character labs and we can go
+- [17:27] into to character labs later on but
+- [17:29] essentially this is a kind of an
+- [17:32] accelerator-l like program that we run
+- [17:34] at Character Capital where we invest in
+- [17:37] a a group of companies at the same time
+- [17:38] and we run them through that process
+- [17:40] that we were just describing where we
+- [17:42] start with a foundation sprint and then
+- [17:44] it's going to be a sequence of three
+- [17:46] design sprints after that so that
+- [17:48] they're they're testing and refining
+- [17:50] that hypothesis And so it's a great time
+- [17:52] for them. These are founders who have
+- [17:53] just started their companies. They're
+- [17:55] kind of, you know, that preede very
+- [17:57] beginning zero stage. And the the
+- [18:01] progress you can see in those three and
+- [18:04] a half, four weeks, it's phenomenal. So
+- [18:07] uh let's let's talk about Latchet. So
+- [18:09] Latchet, a couple co-founders, Chris and
+- [18:12] James, who were they had left Substack,
+- [18:15] they were engineers leading up the
+- [18:17] growth team at Substack, and they wanted
+- [18:20] to build a product for for artisans. So
+- [18:23] if you imagine like you're a you're a
+- [18:25] jewelry maker, you're a you know uh
+- [18:28] you're a painter, you're a woodworker,
+- [18:30] and you want to sell your products
+- [18:32] outside of your immediate you know,
+- [18:34] community, the physical place where you
+- [18:36] are, your physical location. Well, you
+- [18:38] can, you know, you can build a site on
+- [18:40] Shopify, but you still have to market it
+- [18:42] if you do that. You got to figure out
+- [18:44] how to reach those folks. You can put
+- [18:46] your products on Etsy, but Etsy has
+- [18:48] become quite commoditized. So, you're
+- [18:50] going to be up against everybody
+- [18:52] everywhere, and it's going to be very
+- [18:54] hard for you to build an identity there,
+- [18:56] like to build a sense of who I am, what
+- [18:58] I'm all about.
+- [19:00] And so what Chris and James thought was,
+- [19:03] you know, maybe we could use some of the
+- [19:04] the techniques and methods we we used at
+- [19:07] Substack to help people find other, you
+- [19:10] know, other newsletter writers through
+- [19:12] their community, through recommendations
+- [19:13] they make and and help help out artisans
+- [19:16] in that way. Wouldn't that be cool? So
+- [19:18] they were kind of at that stage. They
+- [19:19] had a few different ideas about what
+- [19:21] form that might take, what that might
+- [19:23] look like when they joined Character
+- [19:26] Labs. And so that's kind of the the
+- [19:27] backdrop to to this little quick story
+- [19:29] I'll tell.
+- [19:30] And there's one really important thing
+- [19:31] to emphasize about Chris and James that
+- [19:34] Jake mentioned briefly, but I think is
+- [19:36] is worth repeating, which is that
+- [19:38] they're engineers. They are builders.
+- [19:40] Their instinct is to write code. It's to
+- [19:43] build software. And uh they actually
+- [19:46] told us that they were excited but
+- [19:48] nervous to come into character labs
+- [19:51] where we would be encouraging them not
+- [19:54] to write code right away to take this
+- [19:56] time to clarify
+- [19:58] the differentiation the the structure of
+- [20:01] what they're building and to validate
+- [20:03] that with customers before they went all
+- [20:04] in on building a particular approach.
+- [20:06] And I think you'll see in this example
+- [20:08] how while they were a little hesitant to
+- [20:11] do that upfront, eventually they saw how
+- [20:14] much uh more valuable it was to work in
+- [20:17] this way versus just diving right into
+- [20:18] building something.
+- [20:19] Uh that's actually really helpful
+- [20:21] context and I speaking of the Substack
+- [20:23] re recommendations feature was one of
+- [20:25] the most game-changing features for me
+- [20:27] with my newsletter. So uh because it
+- [20:30] basically supercharged my growth. So, I
+- [20:31] get why they'd be so excited about
+- [20:33] bringing this learning to other to other
+- [20:35] ideas and to their own startup. So,
+- [20:37] thank you guys for doing that. And yeah,
+- [20:39] I'm even more excited to see what
+- [20:40] they're building. Well, let's take a
+- [20:42] look. So, the this board here that we're
+- [20:45] looking at, this is like their muro
+- [20:46] board. So, we've got like a big template
+- [20:48] and whether you're watching on YouTube
+- [20:49] or listening to this episode, we'll
+- [20:52] we'll talk about at the end how you can
+- [20:54] get access to this template which will
+- [20:56] kind of guide you through the process.
+- [20:58] But what happens in this first step in
+- [21:00] the foundation sprint in the basics as
+- [21:02] you said before is that we're going
+- [21:04] through a sequence of questions. Who's
+- [21:07] the most important customer for example
+- [21:08] is the first question the very first
+- [21:10] question that a team needs to answer.
+- [21:12] And as we do that just as an important
+- [21:13] side note we're using this tactic that
+- [21:15] we call work alone together. And
+- [21:18] specifically the note and vote is this
+- [21:21] method where everyone's in silence. You
+- [21:23] know, in this case, both Chris and
+- [21:24] James, but if you have a team of seven,
+- [21:26] it's all seven people be working in
+- [21:28] silence, writing down their own answers
+- [21:30] to this question. Who's the most
+- [21:32] important customer or who are all the
+- [21:33] different kind of customers we might
+- [21:35] consider? Writing down multiple answers
+- [21:37] and then once we've got those answers,
+- [21:40] the team's going to vote on those. and
+- [21:42] then one person who's designated as the
+- [21:44] decider. Usually it's going to be the
+- [21:46] CEO of the startup, but it could be some
+- [21:49] cases maybe it's the the you know chief
+- [21:51] product officer whatever however they
+- [21:53] decide to do it. But one person's going
+- [21:54] to say okay this is our decision for now
+- [21:56] and now we're going to move on. And by
+- [21:58] doing this and using silence and using
+- [22:01] structure and then having a designated
+- [22:03] decision-making process, we can move
+- [22:04] through a lot of conversations very
+- [22:07] quickly and save some of that energy
+- [22:09] that it requires to make decisions for
+- [22:11] the decisions that matter most. In this
+- [22:13] case, what we're really worried about on
+- [22:16] day one of our foundation sprint is
+- [22:18] differentiation. So, we don't want to
+- [22:19] spend too long on the basics. Anyway, we
+- [22:21] motor through customer problem, the
+- [22:24] capability, the insight, the motivation
+- [22:26] that the team has. Those are all
+- [22:27] advantages. And who are the competition?
+- [22:30] And we get this this sort of one-page
+- [22:32] sheet, the basics, and it's going to
+- [22:34] have the answers to all those questions.
+- [22:36] Who's our customer? In this case,
+- [22:37] artisans who want to sell online, but
+- [22:39] they sort of find tech and marketing to
+- [22:41] be hard. The problem is sales growth.
+- [22:46] You know, if we if we jump down to the
+- [22:47] competition, their number one competitor
+- [22:49] is Shopify, but Etsy is another way
+- [22:53] people approach this as we mentioned.
+- [22:55] But there's also, you know, in-person
+- [22:56] sales and art fairs or other ways that
+- [22:58] people try to get at this problem. And
+- [23:00] realistically, if you're delivering a
+- [23:02] solution, you need to stand out from all
+- [23:04] of those. And then there's their
+- [23:06] advantages. We talked about, you know,
+- [23:07] this this key one, they built Substacks
+- [23:09] network growth features. So, they know
+- [23:11] how to do this thing. So, now that we've
+- [23:14] established the basics, we're going to
+- [23:16] move on to differentiation. Before you
+- [23:18] do that, actually, let me ask a question
+- [23:20] here because I think people seeing this
+- [23:22] could think, oh, this is like I know all
+- [23:24] this stuff. so obvious like like it's
+- [23:26] like okay I get I have an idea I don't
+- [23:28] need to do this where do you find people
+- [23:30] most are often surprised by something
+- [23:31] that emerges out of this is like one of
+- [23:33] these buckets often wow we this is often
+- [23:36] not what you expected or is it generally
+- [23:38] a lot of surprises what do you what do
+- [23:40] you experience there
+- [23:41] I think the moment where you immediately
+- [23:44] start to see value is when everyone on
+- [23:46] the team is writing down their answers
+- [23:48] to these questions and then people put
+- [23:51] their heads up and look at what everyone
+- [23:53] else has written and they realize, oh,
+- [23:56] that's not what I would have that's not
+- [23:57] what I said or I didn't think of that
+- [23:59] one or you know, gosh, the actual
+- [24:03] concrete reality of going through with
+- [24:06] the team and and being very transparent
+- [24:08] and clear about how we're making
+- [24:09] decisions too about each of these
+- [24:11] things. When that basic sheet comes
+- [24:14] together and you see the specifics, the
+- [24:16] specifics are surprising, but it's also
+- [24:19] familiar. we look at it and you say,
+- [24:20] "Yeah, that looks that all looks right,
+- [24:23] but I'm surprised by the specifics.
+- [24:26] They're not what I would have written if
+- [24:27] I had written it down. I might have
+- [24:28] gotten two of those things, two of the,
+- [24:30] you know, six items on there." And I
+- [24:33] think that's what's that's what's most
+- [24:34] surprising. It's and I think it's also
+- [24:36] kind of a sense of relief that like,
+- [24:38] okay, well, that's very reassuring that
+- [24:40] we have we have clarity about that and
+- [24:42] we've made it concrete. These activities
+- [24:46] that we do during the basics are
+- [24:48] impactful for different reasons. I think
+- [24:51] that problem can be really interesting
+- [24:54] because when teams sit down and think
+- [24:56] about it, it is often less clear than
+- [24:58] they thought that what the actual
+- [25:00] problem is. Like wait, what problem do
+- [25:03] our customers really have that we're
+- [25:04] solving for them? I think competition
+- [25:08] can be sort of an aha moment when uh
+- [25:10] they start to think beyond just oh what
+- [25:13] are the other startups in this space
+- [25:15] like if this is an important problem
+- [25:17] your customers probably already solving
+- [25:19] it somehow it may be a workaround it may
+- [25:21] be an alternative it may not be a direct
+- [25:23] competitor but if it's worth solving
+- [25:25] they probably have some way of dealing
+- [25:27] with it today and what is that and when
+- [25:29] you zoom out and you look at that set of
+- [25:31] competitors it can be a little scary but
+- [25:33] it it is also uh an important moment for
+- [25:36] teams and then I think that advantage um
+- [25:39] isn't necessarily immediately beneficial
+- [25:42] but it becomes really valuable when the
+- [25:45] teams are looking at differentiation
+- [25:47] because you know startups can't compete
+- [25:49] with big companies on scale or on you
+- [25:53] know having built-in distribution
+- [25:55] advantages or having partnerships in
+- [25:57] place. So they really have to dig deep
+- [25:59] and figure out what can we do that
+- [26:01] nobody else is capable of doing. And so
+- [26:04] by taking time to sit down and do this
+- [26:06] almost unnatural act of like wait why
+- [26:08] are we special and and you know certain
+- [26:10] when we're able to encourage teams to
+- [26:12] really think about that um it sets them
+- [26:15] up really nicely for the next step which
+- [26:16] is differentiation ideally based on
+- [26:19] those advantages. What I'm hearing is a
+- [26:21] lot of the value here is also just uh
+- [26:23] this everyone has what the answers in
+- [26:25] their head in some way but just seeing
+- [26:28] what everyone else is thinking and then
+- [26:29] aligning on one is is a lot of this
+- [26:32] value. Yeah, it's like thinking deeply
+- [26:35] and quietly about it yourself and then
+- [26:37] seeing what everybody else comes up with
+- [26:39] when they are able to also think deeply
+- [26:41] and quietly about it. Um, and then you
+- [26:45] know ideally if they're working you know
+- [26:47] with us in character labs having
+- [26:48] somebody who's a bit external to push
+- [26:50] them and say like try harder like dig
+- [26:53] deeper like what really makes you
+- [26:54] special here? How are you really going
+- [26:56] to beat open AI? How are you really
+- [26:58] going to beat Google at this? This whole
+- [27:00] idea of noting and voting and working in
+- [27:01] silence such a recurring theme on this
+- [27:03] podcast of not doing brainstorms in
+- [27:05] large groups with a lot of people like
+- [27:07] it feels like that's just dead in every
+- [27:09] way. I just had this naming expert on
+- [27:11] the podcast who names names some of the
+- [27:13] biggest companies in the world. Pentium
+- [27:15] Powerbook Sonos forcell and that's their
+- [27:18] approach is they they used to do
+- [27:19] brainstorms. He's like that doesn't
+- [27:20] work. And now they just have small teams
+- [27:22] sitting quietly in a room working
+- [27:23] together on
+- [27:24] on ideas and then thinking on their own.
+- [27:26] So that's such an interesting trend.
+- [27:27] Yeah. And I feel like IDO just like
+- [27:29] created this whole we need to brainstorm
+- [27:31] post-its and then everyone's like that's
+- [27:33] not actually working. Let's stop doing
+- [27:35] that. Um and the other thing that I feel
+- [27:37] as you're talking through this like what
+- [27:39] I'm feeling this is there's for founders
+- [27:41] there's not like a manual for starting a
+- [27:44] company. You always have it feels like
+- [27:45] this dark art of like I guess I got to
+- [27:47] find product market fit and this idea
+- [27:49] feels like this is almost a manual of
+- [27:51] the everything you need to do to just
+- [27:53] get the basics of is this even worth
+- [27:56] doing?
+- [27:56] Yeah. And and that's why we created it
+- [27:59] because we were we still are investing
+- [28:01] in founders who are you know they're
+- [28:04] they're incredibly talented and they're
+- [28:05] smart and they have a background that is
+- [28:07] going to give them an advantage in
+- [28:08] building some particular product. But
+- [28:10] you're right there's there's no manual
+- [28:12] and we were just kind of solving our own
+- [28:14] problem and you know we we believe in
+- [28:17] this so much and we see the ROI as being
+- [28:20] so great that this is the first thing we
+- [28:22] do when we make an investment. you know,
+- [28:24] we invest in a company and then we run a
+- [28:26] foundation sprint with them right away.
+- [28:28] We run more foundation sprints with
+- [28:30] startups than we do design sprints at
+- [28:32] this point. Um, and you know, I don't
+- [28:34] think we can ever encapsulate every
+- [28:36] single thing that you need to know or
+- [28:37] that you need to do to start a company,
+- [28:39] but this is our this is our best take at
+- [28:44] like what you should do in the early
+- [28:45] days to set yourself up for success and
+- [28:48] maximize the chances that you're going
+- [28:50] to reach product market fit.
+- [28:52] Amazing. Okay, let's keep going. So,
+- [28:53] we've done the basics. What comes next?
+- [28:55] Yeah. So, we've done the basics and
+- [28:57] another important thing that we've
+- [28:58] accomplished while going through the
+- [29:00] sequence of activities and the basics is
+- [29:03] to boot up the right context into
+- [29:06] everyone's head so that we're ready for
+- [29:08] the main event of this first day, which
+- [29:11] is differentiation. And I still have
+- [29:13] very firmly in my mind, like I grew up
+- [29:16] with a Mac plus computer and you'd put
+- [29:18] in, you know, the disc and the drive and
+- [29:20] you'd have to you'd have to boot up the
+- [29:21] the app that you wanted to run. That
+- [29:24] that's kind of the way our brains work.
+- [29:25] Like we have limited working memory and
+- [29:27] we've got to have the right stuff in
+- [29:28] there when we're when we're going to
+- [29:30] make a big decision. We're going to
+- [29:32] think hard about a certain problem or
+- [29:35] question. It's important to have the
+- [29:36] right context fresh at hand. So the
+- [29:39] basics is really the context for
+- [29:41] thinking about differentiation and
+- [29:43] differentiation is the heart of what
+- [29:46] we're doing in the foundation sprint
+- [29:48] because
+- [29:49] it's it goes without saying perhaps but
+- [29:52] we like to say it when you are making a
+- [29:54] new product people want to ignore it.
+- [29:57] People want to not pay attention to it.
+- [29:59] And if they do have to pay attention to
+- [30:01] it, if it gets in their face, they they
+- [30:03] want to not try it because we just are
+- [30:05] all bombarded by so many things and
+- [30:07] that's never been more true than it is
+- [30:09] now. And so we have defenses up to save
+- [30:13] to save calories in our brain. We just
+- [30:14] we don't want to engage. It's crucial
+- [30:17] then that a product has a clear promise
+- [30:20] that it makes and that that promise is
+- [30:23] is radically differentiated from the
+- [30:26] alternatives and that that promise is
+- [30:28] strong enough that you'll try it and
+- [30:30] then that the product delivers on that
+- [30:32] promise. And so when we talk about
+- [30:34] differentiation, we're saying look, we
+- [30:36] want you to be really clear on your
+- [30:38] promise. not the promise you're making
+- [30:40] to investors about this technology and
+- [30:42] what's special about the technology or
+- [30:44] what's special about the market
+- [30:45] opportunity, but with the customer at
+- [30:47] the center. We've started the basics by
+- [30:49] talking about the customer and the
+- [30:50] problem they have and the way they see
+- [30:52] the world. And we want to talk about
+- [30:54] what you're going to offer to the
+- [30:55] customer and how it's going to separate
+- [30:57] from the alternatives. And so, in the
+- [30:59] end of this next phase of the foundation
+- [31:02] sprint, we're going to have a a 2 by two
+- [31:04] diagram that's going to look like a
+- [31:05] business school 101 diagram. And in
+- [31:07] fact, we often refer back to this Steve
+- [31:10] Jobs uh iPhone introduction slide where
+- [31:13] he talks about the the iPhone and he
+- [31:15] makes a joke about it. This is a
+- [31:17] business school 101 diagram, but it's
+- [31:19] really helpful to start developing your
+- [31:21] product with this clarity about this is
+- [31:23] the promise we'll make to customers at
+- [31:24] the end and we're going to deliver on
+- [31:25] that promise because we can test and
+- [31:27] prove that in design sprints. So anyway,
+- [31:31] we start off, we talk about
+- [31:32] differentiators and we talk about
+- [31:34] classic differentiators, fast to slow,
+- [31:37] smart to not so smart to borrow from the
+- [31:40] iPhone slide, easy to use to hard to
+- [31:42] use, and so on. And we just start off
+- [31:44] and have the team, okay, let's just
+- [31:45] let's just score those up against the
+- [31:47] competition. Put a sticky note on those
+- [31:50] continuums showing where you think the
+- [31:52] product could be. And usually you'll do
+- [31:54] this and maybe you'll start to see,
+- [31:55] well, there are a couple places where we
+- [31:57] can stand out on these classics. That's
+- [31:59] great. These classics are easily
+- [32:01] understandable by any, you know, any
+- [32:03] customer. We're all sort of familiar
+- [32:05] with these kinds of things. So, okay,
+- [32:06] that's great. Then we get into writing
+- [32:09] custom differentiators. So, we're going
+- [32:10] to write a bunch of, you know, good
+- [32:12] things on one end, crummy opposite on
+- [32:14] the other end, and then we're going to
+- [32:16] score those. And so, for the latchet
+- [32:18] story, we'll pick up with with Chris and
+- [32:19] James here. You know, they've written,
+- [32:22] well, we we could be uh really we could
+- [32:25] really differentiate onworked versus
+- [32:27] siloed. our approach isworked. If you're
+- [32:29] using Shopify, you're you're siloed,
+- [32:31] right? Or or we, you know, maybe maybe
+- [32:33] we can differentiate on painless
+- [32:34] business growth versus labor intensive
+- [32:36] business growth. So that might be the
+- [32:38] specific way we describe the promise of
+- [32:41] our product. So after evaluating a bunch
+- [32:43] of these, writing a bunch of these,
+- [32:45] voting on them quietly, you know, and
+- [32:47] then the decider is going to say, "All
+- [32:48] right, I want to choose a couple of
+- [32:50] these and we're going to try them out."
+- [32:51] The teams are going to, if you're
+- [32:53] running a foundation sprint, you're
+- [32:54] going to try out a few differentiators.
+- [32:57] You're gonna score against your
+- [32:58] competitors. You're going to create a
+- [33:00] scale. And you're gonna say, "Okay,
+- [33:01] let's be honest. Let's be tough. Where
+- [33:03] do we really think we could stack up
+- [33:05] against the competitors on this
+- [33:07] differentiator we've chosen?" In great
+- [33:09] detail, plotting each each company or
+- [33:12] product one at a time. Okay. So, you
+- [33:14] know, you do that for one
+- [33:15] differentiator, you do it for another.
+- [33:17] You do it until you feel like we've got
+- [33:18] two that are really strong. And then you
+- [33:21] make that business school 101 diagram.
+- [33:23] And so, you know, here's here's this one
+- [33:25] for says Lyric. They changed their name
+- [33:26] to Latchet. So I'm going to I'll edit
+- [33:28] that real time.
+- [33:29] I love this rebrand.
+- [33:32] So yeah. So Latchets, you know, up here
+- [33:34] in the top right corner and we say,
+- [33:35] "Okay, look, this is a good
+- [33:37] differentiation chart because you've got
+- [33:38] this quadrant here, this quadrant here,
+- [33:42] this quadrant here, right? You've got
+- [33:43] the So you're in the top right and you
+- [33:46] got to be in the top right. You always
+- [33:47] got to be in the top right. Always have
+- [33:48] to be top.
+- [33:49] You always have to be in the top right.
+- [33:50] And if you see those other three
+- [33:52] quadrants, the the top left, the bottom
+- [33:55] left, the bottom right, those form an
+- [33:58] L-shape. And we call that loserville. So
+- [34:00] we want to we want to have like a way of
+- [34:02] looking at the world that puts all of
+- [34:05] the competitors into Loserville. And
+- [34:07] then we want to say like, okay, if you
+- [34:09] can deliver on that and if that promise
+- [34:11] is compelling to customers, so both
+- [34:12] those things have to be true. Can you
+- [34:15] deliver on it? And do customers care and
+- [34:18] believe that that that matters to them?
+- [34:20] If both of those things are true, you
+- [34:21] have a really compelling promise. You
+- [34:23] have the possibility of a very
+- [34:25] successful product. So now we've
+- [34:28] identified that and that's that becomes
+- [34:30] a core of our hypothesis. Can we is that
+- [34:32] differentiation true? So
+- [34:36] that's the differentiation step. Uh
+- [34:39] before you move on to the next step, is
+- [34:40] that where you're going next? Just so I
+- [34:42] could take a Yeah. Yeah.
+- [34:43] Okay. Follow a couple threads. This is
+- [34:44] so awesome. There's so many there's just
+- [34:47] so much value here. Um, also just this
+- [34:49] slide at the end here, if folks are
+- [34:50] watching YouTube, this is like your deck
+- [34:52] slide, right? Where you show Yeah. your
+- [34:54] your competitors and how you're you're
+- [34:56] better than them all.
+- [34:57] Yeah. And actually, I want to jump on
+- [34:59] that for a second because
+- [35:00] we've all seen 2 by 2 diagram, right?
+- [35:03] There's a ton of these. They're they're
+- [35:04] all over the place. And if you're
+- [35:07] anything like me, I just ignored these.
+- [35:10] I just thought these were pretty much BS
+- [35:12] up until like well whenever we started
+- [35:15] running these foundations sprints three
+- [35:16] or four years ago and I think the reason
+- [35:19] why usually these these 2 by two
+- [35:21] diagrams feel like this is just
+- [35:23] consultant baloney this is just like who
+- [35:25] you already know it's it's because you
+- [35:28] know maybe one person makes this chart
+- [35:30] and they do it quickly because they need
+- [35:32] a slide for a slide deck and the
+- [35:35] audience they're considering maybe it's
+- [35:37] investors and so you know often these
+- [35:39] describe technology or they describe the
+- [35:41] market opportunity. They don't talk
+- [35:42] about the customer's perspective. And
+- [35:45] the other thing is that they're they're
+- [35:46] not proven. There's no evidence behind
+- [35:48] the fact that these are these true. So
+- [35:50] if they are if they did happen to be
+- [35:52] about customer perspective, it's
+- [35:53] unlikely that the whole team would have
+- [35:55] weighed in on on what those
+- [35:57] differentiators are. And it's very
+- [35:59] unlikely that we would have tested and
+- [36:01] proven that that that matters and that
+- [36:03] we can deliver on it. And so if you do
+- [36:06] all of those things and you do it at the
+- [36:08] beginning of the project, we think this
+- [36:10] has the potential. We've seen it. It's
+- [36:12] it becomes this well this guiding light.
+- [36:15] Here's the north star. We need to
+- [36:17] deliver on this. This is what we have to
+- [36:19] create. And that helps you make
+- [36:20] decisions all the way through your
+- [36:22] product development cycle. Just to point
+- [36:24] people to uh justification for why
+- [36:27] differentiation is so important, there's
+- [36:29] a couple episodes that I did that uh
+- [36:31] I'll point to in the show notes. um that
+- [36:34] just give you more context of why you
+- [36:36] need to differentiate. So I spoke of uh
+- [36:38] David Plac who is this naming expert
+- [36:40] that we just had on the podcast. He his
+- [36:42] whole thing is when he's coming up with
+- [36:44] a name for like Sonos or Verscell or
+- [36:46] Windsor if it's different it has to
+- [36:48] differentiate and he talks about this in
+- [36:50] depth. So we'll point to that episode if
+- [36:52] you're and this is just like if you're
+- [36:53] not convinced why are we spending so
+- [36:54] much time on differentiation. Uh, also
+- [36:55] April Dunford who's like the I don't
+- [36:57] know the the the god of of of
+- [37:00] positioning. She has differentiation is
+- [37:03] such a core part of her approach to
+- [37:05] positioning. And so there's just like so
+- [37:07] much evidence to tell you that you
+- [37:09] differentiation is a really important
+- [37:10] step and element of successful
+- [37:12] companies.
+- [37:13] Yeah. One of the things that I've
+- [37:15] noticed about these topics, the these
+- [37:17] the basics we talked about already,
+- [37:19] differentiation, this notion of you need
+- [37:21] a foundation for your project, it's a
+- [37:23] bit more under the radar for people. I
+- [37:25] think it's a bit harder for people to
+- [37:26] immediately see like, oh, we need this.
+- [37:29] We see the people who react the
+- [37:30] strongest to this and have the strongest
+- [37:32] like immediate affinity to this idea
+- [37:34] actually being you know startup founders
+- [37:37] people who are really sophisticated like
+- [37:38] in this challenge product managers who
+- [37:41] are at you know we're uh uh invited in
+- [37:45] to speak at openai and anthropic about
+- [37:47] this and we see the product people there
+- [37:49] being like oh my god this is this is
+- [37:50] really powerful this is the kind of
+- [37:51] stuff we need. I think for a lot of
+- [37:53] folks though it can sound like ah this
+- [37:55] is just elementary you know
+- [37:57] differentiation of course we need to
+- [37:58] differentiate. The problem is that all
+- [38:00] this stuff gets backgrounded. It's it's
+- [38:02] something we we've thought about a bit.
+- [38:04] We assume we're on the same page. We
+- [38:06] assume we're going to deliver something.
+- [38:08] But then kind of business as usual
+- [38:10] happens. We build a product. We get kind
+- [38:12] of more interested in the technology and
+- [38:14] delivering that and we end up trying to
+- [38:16] sell it to customers at the end. We end
+- [38:18] up putting a coat of paint on it with a
+- [38:20] marketing page or sales deck. we haven't
+- [38:22] actually built from the beginning the
+- [38:25] thing that we know is going to matter to
+- [38:26] people.
+- [38:28] One of the most useful steps here that
+- [38:30] uh I haven't seen before is just a
+- [38:31] starting place for how to even start
+- [38:35] thinking about differentiation. Like
+- [38:36] everyone's always probably thinking
+- [38:37] price and speed. Maybe you guys have a
+- [38:40] really cool just starting list that you
+- [38:41] showed here. Anything more you can add
+- [38:43] here for helping people start to think
+- [38:44] about ways to differentiate beyond the
+- [38:46] obvious price and speed and I don't know
+- [38:48] couple more. So, I'm just going to jump
+- [38:50] into another startup here just so we can
+- [38:53] see what this sheet looks like with
+- [38:55] scores on it. So, this is a startup
+- [38:57] called Melo. Anyway, the standard
+- [39:01] classic differentiators where we start,
+- [39:04] they are fast to slow, smart to not so
+- [39:08] smart, easy to use to hard to use, free
+- [39:11] to expensive, focused to
+- [39:14] one-sizefits-all,
+- [39:15] simple to complicated, and integrated to
+- [39:18] siloed. And so, you know, there you
+- [39:21] could probably argue there's these
+- [39:23] others that should be included or some
+- [39:25] of those should be taken off. But what
+- [39:26] we like about this is that it's a small
+- [39:29] set. They're easy to understand. We know
+- [39:31] customers can understand these and they
+- [39:34] create a great starting place for your
+- [39:36] team to think about differentiation
+- [39:38] because you can quickly look at this
+- [39:40] list and start scoring where you think
+- [39:43] your product could be on these scales.
+- [39:45] And you know that if you can use one of
+- [39:47] these, people will understand it. But it
+- [39:49] also starts to make the team comfortable
+- [39:51] with this notion of differentiation. And
+- [39:54] again, we want to make differentiation
+- [39:56] something that all of the co-founders or
+- [39:58] all of the core team can participate in.
+- [40:01] It's not just the job of the person
+- [40:03] writing the pitch deck. It's not just
+- [40:04] the job of the marketer or the
+- [40:06] salesperson, but we're getting
+- [40:07] everybody's
+- [40:09] perspective in on it. And this is a
+- [40:12] great warm-up activity before we start
+- [40:13] to write our own custom differentiators.
+- [40:17] Awesome. And then again, this is just
+- [40:19] inspiration for coming up with more ways
+- [40:21] to differentiate. Something that is a
+- [40:23] common uh question I think for founders
+- [40:25] is price as a differentiator. Is there
+- [40:26] any insight you guys have there? Like
+- [40:27] how often do you land on price being a
+- [40:30] good differentiator with the startups
+- [40:31] you work with? I think price is rarely
+- [40:34] the the most important differentiator.
+- [40:37] Part of what's interesting about going
+- [40:39] through these classic differentiators,
+- [40:40] these standard ones first, and then
+- [40:42] jumping into the custom ones, is that
+- [40:45] the classic ones are sort of universal,
+- [40:48] but it is going to be hard to beat the
+- [40:51] competition on very many of these. Like,
+- [40:54] it's going to be hard to build a product
+- [40:55] that's faster than what Google can build
+- [40:58] or what OpenAI can build. It's going to
+- [40:59] be harder to be cheaper than those
+- [41:02] competitors because they just have so
+- [41:03] many more resources. they can have lost
+- [41:05] leader products that are that are
+- [41:07] underpriced. Where I think pricing has
+- [41:10] become a really clear advantage for some
+- [41:13] companies is those that are leveraging
+- [41:17] AI to solve problems that were
+- [41:19] previously unsolvable with software. So
+- [41:22] you know we have a company that we
+- [41:24] invested in called bindwell and uh they
+- [41:28] use AI to design precision pesticides
+- [41:31] and uh we ran a foundation sprint with
+- [41:33] them right after investing and you know
+- [41:38] five years ago you couldn't design
+- [41:39] pesticides with AI right it wasn't it
+- [41:41] wasn't possible right if if you even if
+- [41:43] you had that idea you wouldn't have been
+- [41:44] able to build it and now you can and so
+- [41:47] for them one of the big advantages is
+- [41:49] like yeah these pesticides they can be
+- [41:51] they can be a lot cheaper because it
+- [41:52] doesn't require this like massive team
+- [41:55] of you know R&D chemists to tinker and
+- [41:58] experiment with things in the lab to try
+- [42:00] to create new pesticides. We can design
+- [42:02] them with AI. So it is it is more often
+- [42:04] true in AI companies like that but it's
+- [42:09] very difficult to to compete on price in
+- [42:11] general and we think we find that it is
+- [42:13] not as it's not as durable of an
+- [42:15] advantage as some of these other things.
+- [42:17] That is such a good point. Uh because
+- [42:19] historically price has been a don't
+- [42:21] don't compete on price for exactly what
+- [42:23] you said. It's not it's hard to do long
+- [42:25] term. It's kind of a race to the bottom
+- [42:27] especially if there's incumbents. They
+- [42:28] can price a lot lower. But with AI that
+- [42:30] is a really often and strong
+- [42:33] differentiator like now do this thing
+- [42:35] like like cursor you basically is
+- [42:37] competing on uh you know you're saving
+- [42:39] engineering time and it's worth so much
+- [42:42] money to you.
+- [42:42] Yeah. At the same time, like the output
+- [42:45] of the AI is probably not going to be
+- [42:46] quite as good as a human process. So, it
+- [42:49] can be a little bit cheaper. Yeah. For
+- [42:51] now. But it has to be a lot cheaper. It
+- [42:53] has to be, you know, I've heard people
+- [42:54] offer 10x cheaper than the legacy sort
+- [42:58] of um manual approach to solving that
+- [43:00] problem as as a rule of thumb.
+- [43:02] That's awesome. Okay. Uh I'll just
+- [43:03] quickly reference there's an episode
+- [43:05] that will come out before this with
+- [43:06] Modavon about pricing strategy and
+- [43:08] there's a lot of discussion actually on
+- [43:09] this. Oh, great. especially with how to
+- [43:11] design your price uh with customers as
+- [43:13] you're starting a company. Also uh the
+- [43:16] episode with uh the founder of
+- [43:17] superhuman Rahul he actually spent
+- [43:19] there's a lot of cool context on how he
+- [43:21] differentiated superhuman and it was
+- [43:23] actually very much on speed and is speed
+- [43:25] actually yeah speed was where he landed
+- [43:27] and to your point it was both it was the
+- [43:28] vend diagram of what you said can we do
+- [43:31] this and do people value it and that's
+- [43:33] where his research pointed to is people
+- [43:35] really value this and they were able to
+- [43:37] achieve it. One of the things that's
+- [43:38] really interesting about this example
+- [43:40] here that we're looking at, Melo, is
+- [43:42] that you can see that they were not the
+- [43:45] best on all these scales. You know, it's
+- [43:47] and if teams are going through and
+- [43:49] they're being really realistic about how
+- [43:50] they stack up against the competition,
+- [43:53] it's normal and natural to find that
+- [43:55] you're not going to be the best on all
+- [43:57] these differentiators. And that is
+- [44:00] really helpful for creating clarity in
+- [44:01] your positioning and in your marketing
+- [44:04] because you're not going to show a
+- [44:05] featured checklist chart that you know
+- [44:07] says you're better at everything than
+- [44:09] every competitor. But if you can drive
+- [44:11] home one or two things that your
+- [44:13] customers really care about and that you
+- [44:15] can be radically better at, um it's
+- [44:18] going to improve your chances of of
+- [44:20] winning and finding product market fit.
+- [44:22] And and we find that going through this
+- [44:24] process where you're not just thinking
+- [44:25] about one differentiator at a time or
+- [44:28] you're not trying to win on all of them,
+- [44:29] but you're looking across this scale of
+- [44:30] options and you're being just really
+- [44:32] honest about where you stack up can both
+- [44:35] point you in the right direction in
+- [44:36] terms of what you will win on, but also
+- [44:38] can give you the comfort to say, "Hey,
+- [44:40] it's okay if we're not better than every
+- [44:42] single company on every single one of
+- [44:43] these things."
+- [44:44] That's great context. That's going to
+- [44:46] make people feel a lot better. I think
+- [44:48] today's episode is brought to you by
+- [44:50] KOD. I personally use Koda every single
+- [44:53] day to manage my podcast and also to
+- [44:55] manage my community. It's where I put
+- [44:57] the questions that I plan to ask every
+- [44:58] guest that's coming on the podcast. It's
+- [45:00] where I put my community resources. It's
+- [45:02] how I manage my workflows. Here's how
+- [45:04] KOD can help you. Imagine starting a
+- [45:07] project at work and your vision is
+- [45:08] clear. You know exactly who's doing what
+- [45:10] and where to find the data that you need
+- [45:12] to do your part. In fact, you don't have
+- [45:14] to waste time searching for anything
+- [45:16] because everything your team needs from
+- [45:18] project trackers and OKRs to documents
+- [45:20] and spreadsheets lives in one tab all in
+- [45:22] KOD. With Kod's collaborative all-in-one
+- [45:25] workspace, you get the flexibility of
+- [45:27] docs, the structure of spreadsheets, the
+- [45:29] power of applications, and the
+- [45:31] intelligence of AI, all in one easy to
+- [45:34] organize tab. Like I mentioned earlier,
+- [45:37] I use Kota every single day. And more
+- [45:39] than 50,000 teams trust KOD to keep them
+- [45:41] more aligned and focused. If you're a
+- [45:43] startup team looking to increase
+- [45:44] alignment and agility, Kota can help you
+- [45:46] move from planning to execution in
+- [45:49] record time. To try it for yourself, go
+- [45:51] to kod.io/lenny
+- [45:53] today and get 6 months free of the team
+- [45:55] plan for startups. That's cooda.io/lenny
+- [45:59] to get started for free and get six
+- [46:01] months of the team plan. k cod.io/lenny.
+- [46:03] io/lenny.
+- [46:05] Anything else on differentiation before
+- [46:07] we move on to the third step of
+- [46:09] designing your approach?
+- [46:10] I think it's worth taking a look at what
+- [46:12] it looks like when you have a bunch of
+- [46:14] sort of these customcraftrafted
+- [46:17] differentiators. What that might look
+- [46:18] like because in the case of Melo, we've
+- [46:20] got I don't know there must be 25 here.
+- [46:24] And you know, so they've written
+- [46:26] purposeful, magical, clear, personal,
+- [46:29] provides direction, flexible, human,
+- [46:31] creative, beautiful, all kind and on and
+- [46:33] on. What they're trying to get at and
+- [46:36] what we want every team to sort of think
+- [46:38] about here is what is a new version of
+- [46:41] reality, a new lens that you can offer
+- [46:43] to your customers on the world. Because
+- [46:45] a lot of times you're building a new
+- [46:47] product, you actually have to change the
+- [46:49] way people think about what's possible
+- [46:51] and what matters to them. Those classics
+- [46:54] are often already well trotten ground
+- [46:57] where other people have differentiated.
+- [46:59] They've already thought about it. But
+- [47:00] these these new particular things that
+- [47:02] you know are are possible with your
+- [47:04] technology that you know is possible
+- [47:06] with the customer problem, the things
+- [47:08] that you believe might matter. It's
+- [47:09] really interesting to try some very
+- [47:12] fine-tuned list of slight sometimes just
+- [47:15] a slight variation. We we slightly
+- [47:17] change this wording or the way we
+- [47:18] describe what's great about what we do.
+- [47:21] And that is the thing we think is really
+- [47:23] going to stand out. And again, you can
+- [47:24] see even on this list that they've
+- [47:26] custom written, when we see where they
+- [47:28] score it, they're not all the way to the
+- [47:31] good end of the scale on all of them.
+- [47:33] You know, when they get honest and look
+- [47:34] through, they're like, well, actually,
+- [47:36] you know, maybe we can't deliver on
+- [47:37] this. But this one, we really can. And
+- [47:39] this one we also suspect will matter to
+- [47:41] customers.
+- [47:43] Where did Melo land on the
+- [47:45] differentiators they picked and where
+- [47:46] did Latchet land?
+- [47:47] Yeah, let's take a look. for Melo. They
+- [47:49] tried out a bunch before they decided
+- [47:52] here. So, they actually scored with the
+- [47:54] competitors on these scales. And just
+- [47:57] for context, Melo is a tool that allows
+- [48:01] you to run very simple, very targeted,
+- [48:05] very useful AI agents for common
+- [48:08] everyday tasks like summarizing your
+- [48:11] email or um uh cleaning up your calendar
+- [48:14] or drafting responses to messages. And
+- [48:17] one of their insights was that there's
+- [48:19] been so many AI products that have
+- [48:21] overpromised about being able to replace
+- [48:24] all humans and do anything and you know
+- [48:27] um 10x your productivity but so few of
+- [48:30] them have actually delivered on those
+- [48:32] promises. And so they have this insight
+- [48:34] that if they can be really focused and
+- [48:36] really human and really high quality and
+- [48:39] they can deliver on that promise of, you
+- [48:42] know, making your life better by
+- [48:44] offloading
+- [48:46] tedious tasks that that's going to
+- [48:47] really click with with customers.
+- [48:49] That's a great context. Thank you for
+- [48:51] having that. So Melo lands on mobile
+- [48:54] first and works out of the box with
+- [48:56] their two differentiators and they're
+- [48:58] trying to differentiate from know Gum
+- [49:00] Loop and OpenAI is sort of a generalized
+- [49:02] tool and Latchet they're going to
+- [49:06] differentiate on
+- [49:10] and we were pulling it up if folks
+- [49:11] aren't watching he's pulling up the
+- [49:12] mirrorboard
+- [49:13] uh to show us where they landed.
+- [49:15] Latchet they're going to differentiate
+- [49:16] on helps you grow and cooperative. So
+- [49:19] when they compare against Etsy, when
+- [49:21] they compare against Shopify or setting
+- [49:24] up your table at an art fair, they're
+- [49:26] going to differentiate on helps you grow
+- [49:28] in cooperative and they think none of
+- [49:29] the competitors does both of those
+- [49:31] things. Well, that is cool. Thank you
+- [49:33] for sharing that. And to your point, the
+- [49:35] this is where they think it will work.
+- [49:36] And then the next step is actually test
+- [49:38] this in the market, which is where we go
+- [49:40] from here. Uh so let's move on to the
+- [49:43] next step and which is the final step of
+- [49:44] the foundation sprint.
+- [49:45] Yeah. So closing off differentiation is
+- [49:48] a short step that uh is just to create
+- [49:51] some project principles that will help
+- [49:53] you make decisions in line with that
+- [49:55] differentiation. And you know you were
+- [49:57] just talking about superhuman and
+- [49:59] differentiating on speed. And when John
+- [50:00] and I worked at Google back in the
+- [50:02] 2000s, there was this list called 10
+- [50:06] things we've found to be true. And one
+- [50:08] of the things on that list was fast is
+- [50:11] better than slow. And what was
+- [50:13] interesting is this is a mantra that you
+- [50:16] would actually hear people using in
+- [50:17] meetings to help dictate decisions. You
+- [50:19] know, well, we're considering this
+- [50:22] approach to this view or this approach.
+- [50:25] This approach renders, you know, 12
+- [50:28] milliseconds faster. That's probably
+- [50:31] going to be the one we're going to take.
+- [50:32] There's going to be a really compelling
+- [50:33] reason for us to not go with just the
+- [50:35] one that renders faster or the one that
+- [50:37] gets the user to their benefit with one
+- [50:40] less click. And this notion that you can
+- [50:43] have a a decision-making guide, we think
+- [50:46] it we've seen it be so useful for uh for
+- [50:49] us in those contexts. We think, hey,
+- [50:51] this is an easy moment. You've got your
+- [50:53] differentiators kind of loaded up in
+- [50:55] your mind. Let's take a second here and
+- [50:57] just think what's a principle? How can
+- [50:58] we turn that into a principle? So, uh if
+- [51:02] we take a look at, uh latchet, you know,
+- [51:05] they've got help sellers help each
+- [51:07] other. So, if they're trying to make a
+- [51:08] decision between two approaches, well,
+- [51:10] which one of these helps sellers help
+- [51:12] each other? Or do the thing that makes
+- [51:14] sellers more money? If we're choosing
+- [51:15] between two things, let's do the one
+- [51:17] that helps make them more money. And so,
+- [51:19] we we then have we've kind of moved on.
+- [51:22] We've got a mini manifesto we call it,
+- [51:24] which is that differentiation chart and
+- [51:26] these principles. And the notion is this
+- [51:28] page, the the basics page was just kind
+- [51:31] of the core simple stuff you need to
+- [51:33] know about this project. The mini
+- [51:35] manifesto in one page is your
+- [51:37] decision-making guide.
+- [51:39] This is so cool. And uh this looks like
+- [51:42] it would take a lot of work, but again,
+- [51:43] this is just uh a day or two of sitting
+- [51:46] around working through this framework.
+- [51:48] Yeah, you'll get to this in, you know,
+- [51:50] fourish hours with your
+- [51:52] Okay. By the end of the first day,
+- [51:53] you'll have a mini manifesto that
+- [51:55] describes how you win essentially as a
+- [51:58] as a company and a startup.
+- [51:59] Yeah. Or how you believe it's going to
+- [52:00] work. And of course, we're going to test
+- [52:01] it.
+- [52:02] Yeah. Yeah. Now the next phase of the
+- [52:03] foundation sprint is locking in on the
+- [52:06] approach we're going to start with. So
+- [52:08] we'll continue the story of Latchet here
+- [52:10] to it's easier to use an example than to
+- [52:13] describe this in the abstract. So coming
+- [52:15] into Character Labs, Latchet had sort of
+- [52:18] four approaches in mind, but they
+- [52:19] weren't sure which one to take. So they
+- [52:22] might build an app. That's one approach
+- [52:24] they could take. They might build a sort
+- [52:26] of a newsletter platform. That's
+- [52:28] something obviously they knew how to do.
+- [52:30] They might build a Shopify plugin.
+- [52:32] That's a simple way to kind of piggyback
+- [52:33] on something people are already doing.
+- [52:35] They're right, their number one
+- [52:36] competitor is Shopify. Or they might
+- [52:39] have to build the full stack. And I
+- [52:40] think a big question for them was which
+- [52:42] of these and how much do we have to
+- [52:44] build before there's enough value for
+- [52:46] customers that they're actually going to
+- [52:48] adopt it and we're actually going to get
+- [52:49] some traction and get this thing going.
+- [52:51] And it's important to call out here that
+- [52:53] all four of these approaches solve the
+- [52:55] same problem for the same customer and
+- [52:58] they are all likely to differentiate
+- [53:01] from the competition in the same ways
+- [53:03] based on the unique advantages that the
+- [53:06] founders Chris and James bring to this
+- [53:08] company. So these are not like wildly
+- [53:10] different product ideas or company
+- [53:12] ideas. These are just different
+- [53:14] approaches. You have the same
+- [53:15] destination in mind, but you say, "Hey,
+- [53:17] which path could we take?" It's like
+- [53:19] pulling up directions on Google Maps.
+- [53:20] This one's a little faster, this one
+- [53:22] uses less fuel, this one avoids tolls.
+- [53:25] Uh, what's the right approach for us to
+- [53:27] take?
+- [53:27] And I love that the what you the work
+- [53:29] you did on that first day eliminates a
+- [53:30] lot of ideas you probably had that you
+- [53:33] would have probably spent time building
+- [53:34] and then realizing, okay, this doesn't
+- [53:35] make any sense. It's just like what
+- [53:36] everyone else has.
+- [53:38] Totally. Totally. Yeah. And we usually
+- [53:42] see teams starting projects in one of
+- [53:44] two states. And one state is the state
+- [53:48] that Latchet finds themselves in where
+- [53:50] gosh there's a few different ways we
+- [53:51] could do this. How do we decide? We can
+- [53:54] discuss and discuss and discuss but you
+- [53:56] know that could go on forever. So that's
+- [53:58] state one. We we know there are some
+- [54:00] options. And state two is we're pretty
+- [54:03] locked in on one approach already. We we
+- [54:05] think we've got this figured out. In
+- [54:08] either of those cases, we think it's
+- [54:10] worth taking again like about, you know,
+- [54:12] four hoursish to be really careful to
+- [54:17] lay out the options. If you think
+- [54:18] there's only one option to sort of force
+- [54:20] yourself to think, well, what if this
+- [54:22] doesn't work? What's another
+- [54:23] alternative? Or is there another
+- [54:24] alternative that we have previously
+- [54:26] considered and dismissed that we should
+- [54:29] maybe reconsider just to make sure? And
+- [54:32] end with a situation where you've made a
+- [54:34] decision clearly about, okay, we've
+- [54:36] considered alternatives. this is our
+- [54:38] first choice and you've also identified
+- [54:40] this is our backup plan so that failure
+- [54:43] doesn't seem quite so scary when we
+- [54:45] start to run experiments and we're
+- [54:47] really able to to pivot fast if should
+- [54:50] that happen.
+- [54:52] So what we're going to do on the second
+- [54:54] day of the foundation sprint or this
+- [54:56] sort of third phase which is the
+- [54:59] approach is to identify those different
+- [55:02] paths. So for latchet here they've got A
+- [55:05] C and D options. We're going to color
+- [55:07] code those and then we're going to plot
+- [55:09] them on these charts. So, we've got
+- [55:11] these different lenses. We call this
+- [55:13] activity magic lenses. And the notion is
+- [55:15] if we had a discussion about it and we
+- [55:17] could as investors if we could imagine
+- [55:20] like waving a magic wand and putting the
+- [55:22] perfect team of adviserss in place to
+- [55:24] counsel the founders on this decision.
+- [55:27] We would love for them to have a
+- [55:29] customer expert, somebody who's just,
+- [55:32] you know, brilliant vision for the
+- [55:33] product and the customer experience. And
+- [55:36] they're, you know, hammering their fist
+- [55:37] on the table saying the customer, the
+- [55:39] customer, the customer, make the
+- [55:40] decision that's best for the customer.
+- [55:42] And so we'll plot those options on these
+- [55:45] axes of easy to use versus hard to use
+- [55:48] and perfect solution to the customer
+- [55:50] problem versus, you know, this is just
+- [55:51] an okay solution to the customer
+- [55:53] problem. And then similarly, we want
+- [55:55] some an adviser who's going to pound
+- [55:57] their fist on the table for building
+- [56:00] something cheap and fast, getting it out
+- [56:01] into the market, being pragmatic, get it
+- [56:03] out there as fast as possible. That's
+- [56:04] the pragmatic lens. We want somebody
+- [56:07] who's going to advocate for growth.
+- [56:08] What's the way to reach the most
+- [56:10] customers, get it in people's hands as
+- [56:12] fast as possible, easy to adopt. We want
+- [56:14] somebody who's going to advocate for for
+- [56:16] money, for the financial health of the
+- [56:18] business. So, what's going to create
+- [56:20] long-term value for the customers?
+- [56:22] where's where's there the biggest
+- [56:23] audience of these folks? We want to look
+- [56:26] at differentiation which we spent you
+- [56:28] know the first half of the foundation
+- [56:30] sprint establishing. Well, we want to
+- [56:31] consider these approaches through that
+- [56:33] lens as well. And so what the teams will
+- [56:36] do is to plot these options on these
+- [56:38] lenses. They'll almost always create
+- [56:40] some lenses of their own, some custom
+- [56:42] lenses that matter to them. You know,
+- [56:44] they might have one about their
+- [56:45] conviction. Um I think there's a there's
+- [56:48] sort of a humorous one for mellow where
+- [56:50] it's like which you know founder is like
+- [56:53] f yeah it's exactly what I want to what
+- [56:55] I want to build and on the other end of
+- [56:58] the spectrum it's like you know nah just
+- [57:00] kind of the the sort of heat of
+- [57:02] excitement that you feel that might be a
+- [57:03] really important decision
+- [57:04] that feels really important like that
+- [57:06] feels like that should be one of your
+- [57:07] you call these the magic lenses.
+- [57:08] Yeah it probably should be it probably
+- [57:10] should be
+- [57:11] like how excited are you to build this
+- [57:13] feels like a really important piece.
+- [57:14] Yeah, we saw that one in this is the our
+- [57:17] cohort of labs that's going on right
+- [57:18] now. And I'll bring that one that one up
+- [57:20] for um for context.
+- [57:22] If we add it, we can call it the Lenny
+- [57:24] Lens.
+- [57:24] The Lenny Lens. Yeah. Oh, that's a good
+- [57:26] idea.
+- [57:27] So, yeah. So, here it is.
+- [57:29] And um you can see that Marie is more
+- [57:32] likely to swear than than Ben
+- [57:34] apparently. But the that it's it's
+- [57:36] crucial, right? And many founders,
+- [57:38] they'll have different one of the
+- [57:39] challenges is that for each founder, I
+- [57:41] think each set of founders, there's
+- [57:43] maybe a different way that they phrase
+- [57:45] what that means, what conviction means
+- [57:46] to them. And sometimes, and maybe it's
+- [57:49] as simple as this. It's just I just feel
+- [57:51] it. I just know. And sometimes it's a
+- [57:52] little bit more like, well, I, you know,
+- [57:54] it's it's a it's conviction, but it's
+- [57:56] also what's the data that we have behind
+- [57:59] it? And and that's what forms my my
+- [58:01] intuition about it.
+- [58:03] Awesome. I I I love that lens. I love
+- [58:05] that you're asterric out so it's not a
+- [58:08] little bit little just slightly
+- [58:10] concealed
+- [58:11] slightly
+- [58:12] that's the part yeah if you zoom in it's
+- [58:14] it's actually uh not censored so the
+- [58:18] cool thing about this lens's thing is at
+- [58:20] the end you've done all that you've
+- [58:22] plotted it all out and if you're having
+- [58:24] a conversation like that you just have
+- [58:25] to sort of maintain in memory what did
+- [58:27] that person say what did that other
+- [58:28] person say what's that conversation I
+- [58:30] had you know a week ago whatever here
+- [58:33] it's all laid out And sometimes you zoom
+- [58:36] out and it's honestly as simple as like,
+- [58:38] oh, hey, look, you know, the the blue
+- [58:40] one is in the top right quadrant of
+- [58:42] almost every single lens. Like what what
+- [58:45] is that one? What's going on? That might
+- [58:47] just be an easy decision. Sometimes you
+- [58:50] zoom out and you say, "Oh, clearly like
+- [58:52] nothing wins in every lens." And that's
+- [58:55] actually really reassuring because then
+- [58:56] you know there is no perfect decision.
+- [58:58] There's nothing that checks all the
+- [59:00] boxes. And that's going to help us
+- [59:02] decide because now we decide which is
+- [59:05] the most important lens, which is the
+- [59:07] most important viewpoint to take. And
+- [59:10] you can you can actually move forward in
+- [59:12] either either way, either situation you
+- [59:14] get in where there's sort of consistency
+- [59:16] across all the lenses or there's not.
+- [59:20] You either pick a lens or you just pick
+- [59:22] the the consensus winner.
+- [59:24] I love that this step answers a question
+- [59:26] that's been in the back of my mind that
+- [59:28] I think a lot of people wonder as
+- [59:30] they're hearing this is just why don't I
+- [59:31] just build something and launch it and
+- [59:33] learn and like what am I spending all
+- [59:35] this time sitting in a room and this is
+- [59:38] and this to me is a big part of the
+- [59:39] answer is just like spending an hour or
+- [59:42] two thinking through here's the ideas we
+- [59:44] have how do they compare on the how do
+- [59:47] they look on these magical lenses which
+- [59:49] makes so much sense like how do they
+- [59:51] just filter on what customers will love
+- [59:52] most will help us grow the fastest, will
+- [59:55] drive the most money, things like that.
+- [59:56] Like, it's such a simple, quick exercise
+- [59:59] that will save you so much time building
+- [01:00:01] and launching and having to spend time
+- [01:00:03] learning. Like, that is weeks, days,
+- [01:00:05] months of work versus a couple hours
+- [01:00:07] could save you so much of that time.
+- [01:00:10] And it's also the case that you start
+- [01:00:12] building something, it's exciting, you
+- [01:00:14] can move fast, it's easy to easier and
+- [01:00:17] easier to see progress now with AI
+- [01:00:20] tools. And that act of building and
+- [01:00:23] starting to create something has a
+- [01:00:27] momentum of its own that can be hard to
+- [01:00:30] stop. And if you're headed in the wrong
+- [01:00:31] direction, you can spend a lot of time
+- [01:00:34] building and making progress, but it's
+- [01:00:36] just if it's not progress in the right
+- [01:00:38] direction, it's it's actually hurting
+- [01:00:40] you. And that's why we we want people to
+- [01:00:43] pause and and take this. It's really the
+- [01:00:46] as you said earlier the ROI is high but
+- [01:00:50] it feels very unnatural to pause when
+- [01:00:52] you're so excited at the beginning and
+- [01:00:54] ready to go to pause and say okay let's
+- [01:00:56] make sure we're taking the right path
+- [01:00:58] but you know you just imagine you're you
+- [01:01:00] know you're Gandalf you're Frodo you're
+- [01:01:03] starting off you're trying to get to
+- [01:01:04] Mordor it's a long trip you don't want
+- [01:01:06] to take the wrong path you want to take
+- [01:01:08] the you know think before you start
+- [01:01:10] marching through you know the the swamps
+- [01:01:12] or whatever
+- [01:01:13] one phenomenon we've seen when teams are
+- [01:01:16] building things really quickly with AI
+- [01:01:18] is that the more AI generated or
+- [01:01:21] assisted they are the more generic they
+- [01:01:23] tend to turn out which makes sense if
+- [01:01:25] you think about how LLMs were developed
+- [01:01:27] you know they're all basically
+- [01:01:28] pre-trained on the same data and so in
+- [01:01:30] this excitement and this rush to say wow
+- [01:01:32] look at how fast we can build it you
+- [01:01:34] actually end up with something that is
+- [01:01:36] less differentiated than what already
+- [01:01:38] exists in the world and then you know
+- [01:01:41] let's say you launch it and that you
+- [01:01:42] know takes longer than building sort a
+- [01:01:44] clickable prototype, but you launch it
+- [01:01:46] because you're moving so fast. And then
+- [01:01:48] you get data from the people who managed
+- [01:01:50] to find that thing about what they did
+- [01:01:53] with it, but you don't get any data
+- [01:01:55] about what they didn't do with it. And
+- [01:01:57] you certainly don't get any data about
+- [01:01:59] the people who never found it, who
+- [01:02:00] never, you know, tried it. Maybe they
+- [01:02:02] landed on your website and they're like,
+- [01:02:03] blah, another like another generic AI
+- [01:02:07] generated thing. Like it's that's not
+- [01:02:09] worth my time. And so, uh, we think it's
+- [01:02:11] really helpful to basically put yourself
+- [01:02:14] in a situation where you can slow down a
+- [01:02:17] little bit and do some like some some
+- [01:02:19] hard thinking, some deep thinking about
+- [01:02:21] what's actually going to make your
+- [01:02:22] product unique and then you can switch
+- [01:02:24] into this mode of like, okay, great.
+- [01:02:26] Now, let's go as fast as possible and
+- [01:02:28] get that out into customers hands. But,
+- [01:02:31] um, if you don't take this step first,
+- [01:02:34] it's actually kind of counterintuitive
+- [01:02:35] that going fast can actually slow you
+- [01:02:38] down in the long run. Yeah. To build on
+- [01:02:40] that, I had this guest recently, Bob
+- [01:02:42] Baxley.
+- [01:02:43] Yeah.
+- [01:02:44] Bob.
+- [01:02:44] Okay. So, he has this really interesting
+- [01:02:47] insight. He calls uh he calls it I think
+- [01:02:50] he calls it the primal mark.
+- [01:02:52] Essentially, his feedback is wait as
+- [01:02:54] long as possible to start any sort of
+- [01:02:56] sketch or prototype because as soon as
+- [01:02:58] you start drawing what you're building
+- [01:03:01] it now everything you do will be a
+- [01:03:02] response to that.
+- [01:03:04] And so the more time you can spend
+- [01:03:06] before starting to concept out the
+- [01:03:08] solution, the more likely are to land on
+- [01:03:10] something that works.
+- [01:03:12] Yeah, that is super interesting. And uh
+- [01:03:15] you know it's
+- [01:03:16] counterintuitive.
+- [01:03:17] Yeah. And I find myself challenged to
+- [01:03:19] think about it in the context of the
+- [01:03:21] sprints that we run with founders. But I
+- [01:03:24] think one way to interpret that in in
+- [01:03:27] the work that we do is that we used to
+- [01:03:29] just run design sprints with with every
+- [01:03:31] team. like that was our hammer and and
+- [01:03:34] you know everything looked like a nail.
+- [01:03:35] And part of what we found so valuable
+- [01:03:37] about doing the foundation sprint is
+- [01:03:39] that it it keeps you away from ideiation
+- [01:03:42] for just a little bit longer and it it
+- [01:03:45] forces you to think about, you know, why
+- [01:03:48] you're unique and and the market that
+- [01:03:50] you're going into before you get to that
+- [01:03:53] moment of creating something that looks
+- [01:03:55] realistic and then maybe being a little
+- [01:03:57] bit locked into to that approach. That's
+- [01:04:00] such a like I love that that this
+- [01:04:02] emerged out of that like you guys are
+- [01:04:04] were so design sprint oriented and it's
+- [01:04:07] just like cool let's just make prototype
+- [01:04:08] let's design let's make it real let's
+- [01:04:10] show people and that's like I think
+- [01:04:12] where a lot of people's minds are at
+- [01:04:14] more and more or and maybe as a result
+- [01:04:16] and then this is almost like a okay
+- [01:04:18] maybe that wasn't the right approach to
+- [01:04:19] start maybe it's actually better to
+- [01:04:21] think a little bit of what we want to
+- [01:04:23] design and build before and so just the
+- [01:04:25] fact that you guys spent so much your
+- [01:04:26] life and time on that and then realize
+- [01:04:29] this is actually potentially even more
+- [01:04:31] important to do. Uh is it says a lot.
+- [01:04:33] Well, and I ideas always get distilled
+- [01:04:36] down to like one thing that people grab
+- [01:04:39] on to and they they focus on. And I
+- [01:04:41] think with the design sprint, it got
+- [01:04:43] distilled down to just build a prototype
+- [01:04:47] like just just quit messing around and
+- [01:04:49] build something. But you know, the
+- [01:04:51] reality is when you run a design sprint,
+- [01:04:52] it's five days and you don't build the
+- [01:04:54] prototype until the fourth day, right?
+- [01:04:56] So you do you do a bunch of work to
+- [01:04:58] figure out um you know what is uh how
+- [01:05:01] does our customer learn about this
+- [01:05:02] thing? um you know what are the
+- [01:05:04] different ideas that we're bringing to
+- [01:05:06] what our solution could look like which
+- [01:05:08] of those are the most likely to work and
+- [01:05:10] only then at the end of the week are you
+- [01:05:12] building a prototype but I do think that
+- [01:05:14] as the that method has become really
+- [01:05:17] widely known uh people just think about
+- [01:05:19] the you know let's build something and
+- [01:05:21] then once you multiply that times the
+- [01:05:23] the power of AI it definitely creates
+- [01:05:25] this narrative that the the only way to
+- [01:05:28] build something new is to just create
+- [01:05:31] the product as quickly as possible
+- [01:05:33] and that that doesn't really match our
+- [01:05:36] experience, you know, that doesn't
+- [01:05:37] really kind of fit the pattern of what
+- [01:05:39] we've seen working best across the few
+- [01:05:42] hundred companies that we've worked
+- [01:05:43] with. I think this validates in some
+- [01:05:46] ways the uh role of a product manager
+- [01:05:50] where the PM's job is to help the team
+- [01:05:52] figure out what should we be building
+- [01:05:54] and are we all aligned on what we're
+- [01:05:56] building before we start designing and
+- [01:05:57] building. And uh so this is almost like
+- [01:06:00] like this process is almost like the
+- [01:06:02] product requirements document of a of a
+- [01:06:04] company uh which I think a lot of
+- [01:06:07] product people listening to this will
+- [01:06:08] feel really good about. Yeah, we see
+- [01:06:10] this as a great tool for product people.
+- [01:06:12] It's a way to
+- [01:06:15] give you a structure for leading your
+- [01:06:17] team through those decisions and a way
+- [01:06:20] to give the all the folks on the team
+- [01:06:24] including the the person who's the the
+- [01:06:26] product leader but the person who's the
+- [01:06:28] engineering leader, the person who's the
+- [01:06:30] marketing leader, the sales leader, the
+- [01:06:32] design leaders. The exact right
+- [01:06:35] opportunity to contribute and
+- [01:06:37] participate in forming the strategy. the
+- [01:06:40] exact right opportunity as we get into
+- [01:06:42] design sprints following the foundation
+- [01:06:43] sprints to then make it real and you
+- [01:06:46] know turn that that idea that hypothesis
+- [01:06:50] about what might work into hopefully
+- [01:06:53] evidence that it does work. I feel like
+- [01:06:55] it's actually more helpful than to
+- [01:06:57] engineers like non-product people
+- [01:06:59] because I think a PM brain would be like
+- [01:07:01] I want to do this uh intuitively whether
+- [01:07:04] they do it right or not. I think it's
+- [01:07:06] other functions almost that are like no
+- [01:07:07] just jump jump straight to design
+- [01:07:09] straight to prototyping. Let me ask you
+- [01:07:11] uh like while we're on this tangent
+- [01:07:13] we're on this wild tangent out of this
+- [01:07:14] process but I want to uh this question
+- [01:07:16] has been in my mind
+- [01:07:19] because I recently had a founder on the
+- [01:07:20] podcast uh uh Mayor who built this
+- [01:07:23] company called base 44. He built it. It
+- [01:07:25] sold in six months for $80 million two
+- [01:07:27] weeks.
+- [01:07:28] And this journey of that is he just had
+- [01:07:30] a problem he wanted to solve for himself
+- [01:07:32] for his girlfriend for a scouts program.
+- [01:07:34] He built it, people started using it and
+- [01:07:36] he kind of evolved it from there. And
+- [01:07:39] obviously he didn't go through a process
+- [01:07:40] like this. Thoughts on just like is it
+- [01:07:43] okay to just do that? When should
+- [01:07:45] someone think about okay, I should
+- [01:07:47] actually set aside time to do a
+- [01:07:49] foundation sprint versus like I'm just
+- [01:07:50] motivated to solve a problem for my
+- [01:07:52] friends. I'm just going to build it,
+- [01:07:54] evolve it, iterate with them, and kind
+- [01:07:56] of go from there.
+- [01:07:58] One of the observations from our
+- [01:08:02] hundreds of experiences
+- [01:08:04] working alongside founders in the early
+- [01:08:06] days of their projects and watching them
+- [01:08:09] make decisions and watching them try
+- [01:08:12] things and succeed or fail is that there
+- [01:08:15] are so many founders who are incredibly
+- [01:08:19] bright, incredibly capable. They have
+- [01:08:23] great insights about the market, about
+- [01:08:25] an opportunity, and yet their startup
+- [01:08:28] does not work out. And we there's a a
+- [01:08:32] problem with selection bias that we, you
+- [01:08:34] know, we we hear from the folks who they
+- [01:08:37] were brilliant. They were, you know,
+- [01:08:39] they checked all those boxes I just
+- [01:08:41] described. They saw a great opportunity.
+- [01:08:43] They they were smart. They they executed
+- [01:08:45] well, they had courage and conviction,
+- [01:08:47] and they did it. And it worked out. And
+- [01:08:49] it was a tremendous success. And I I
+- [01:08:52] think that the danger in thinking like
+- [01:08:54] well they didn't follow a process so I
+- [01:08:56] don't need to and you know that may be
+- [01:08:58] true and you know that's that maybe
+- [01:09:00] maybe you don't need it but what we
+- [01:09:03] believe is you have a better this just
+- [01:09:05] increases your odds this is a chance to
+- [01:09:07] to get more clear on is this a good
+- [01:09:10] opportunity to get more clear on will
+- [01:09:12] the thing I build click with customers
+- [01:09:14] and you know if you've already figured
+- [01:09:17] out that no this things my my product
+- [01:09:20] has taken off my product is working.
+- [01:09:21] We've actually had founders in labs who
+- [01:09:24] while they started off Character Labs
+- [01:09:26] and they said, you know, I started
+- [01:09:28] selling this thing and it's already
+- [01:09:30] taking off. I want to stop running
+- [01:09:32] experiments. And we're like, yeah, stop
+- [01:09:33] running experiments. You don't need to
+- [01:09:35] do this. If you've got product market
+- [01:09:36] fit, if you've got evidence that this
+- [01:09:38] thing is clicking and you're you have
+- [01:09:40] conviction, run with it. But if you're
+- [01:09:43] not there, this is a great path to get
+- [01:09:46] you going. And if you're not sure if the
+- [01:09:49] thing you're going to build is going to
+- [01:09:50] turn into that, you know, $80 million
+- [01:09:52] exit in, you know, in 6 months, we
+- [01:09:55] believe this is a good chance to improve
+- [01:09:57] your odds. People hearing this might be
+- [01:10:00] feel like I haven't heard of any company
+- [01:10:03] doing this that has become a trillion
+- [01:10:05] dollar IPO success. Uh what what would
+- [01:10:08] make me believe that this is a the
+- [01:10:10] process I should follow versus just I'm
+- [01:10:12] just going to do what I hear on YC, just
+- [01:10:14] build it, launch it, iterate, that kind
+- [01:10:16] of thing. What can you share to get
+- [01:10:17] people confidence this is the approach
+- [01:10:19] to take?
+- [01:10:20] Well, the first thing I'd say is give us
+- [01:10:21] some time. We're we're pretty new to
+- [01:10:24] this. We started Character Labs about
+- [01:10:26] three years ago. We created the
+- [01:10:27] foundation sprint about three years ago.
+- [01:10:30] But more seriously, when we were
+- [01:10:32] creating this method, one of the things
+- [01:10:34] that we did was look back across all the
+- [01:10:36] projects we've been involved in and the
+- [01:10:38] ones that were really successful and we
+- [01:10:40] looked for patterns. And while those
+- [01:10:42] teams didn't have the foundation sprint,
+- [01:10:45] they ended up having really clear
+- [01:10:48] differentiation and a really clear view
+- [01:10:50] of what made them unique that they were
+- [01:10:53] able to build on. And as we ran design
+- [01:10:54] sprints with them, we were able to sort
+- [01:10:56] of uh test and validate against that
+- [01:10:58] differentiation. Um, so we believe that
+- [01:11:01] this is sort of a key to success even if
+- [01:11:04] those teams didn't have access to this
+- [01:11:05] exact same methodology. So what I'm
+- [01:11:07] hearing is this is essentially like
+- [01:11:09] alpha in uh starting a company. This is
+- [01:11:12] a new process that companies are just
+- [01:11:14] starting to use. You guys are working
+- [01:11:15] closely with founders and it's rooted in
+- [01:11:19] the success of many many many companies
+- [01:11:22] that you guys were involved in early on
+- [01:11:23] and continue to be involved in. Yeah.
+- [01:11:26] It's based off of this thing we've seen
+- [01:11:28] again and again in the most successful
+- [01:11:30] projects when we're inside the room in
+- [01:11:33] the early days and we're seeing people
+- [01:11:35] make decisions. this is what drives
+- [01:11:37] those decisions. It's differentiation.
+- [01:11:39] And so if we look back across, you know,
+- [01:11:42] all of the sprints that we've been a
+- [01:11:44] part of over the the years and John and
+- [01:11:46] I have been inside lots of these rooms,
+- [01:11:50] lots of these conversations.
+- [01:11:51] And if you're not watching on YouTube,
+- [01:11:52] by the way, there's a cool visual that
+- [01:11:53] uh that Jake is showing. Yeah, it spans
+- [01:11:56] across Google, Google Ventures,
+- [01:11:58] Character Capital, and if you're
+- [01:11:59] watching on YouTube, you'll see all
+- [01:12:00] these little white circles, and each one
+- [01:12:02] sort of represents, you know, a company
+- [01:12:04] that we've seen inside of during these
+- [01:12:06] design sprints. And there are a lot of
+- [01:12:10] really great success stories in there.
+- [01:12:11] You know, we've had the chance to I
+- [01:12:13] mentioned the story of Google Meet and
+- [01:12:15] being there and figuring out what is it
+- [01:12:17] that's going to make those things stand
+- [01:12:18] out. That was what made the project
+- [01:12:21] finally start to take off and to this
+- [01:12:23] day is still sort of what animates it
+- [01:12:26] being inside of, you know, the early
+- [01:12:28] days of what became Google Photos or
+- [01:12:30] Google Trips and and some of the early
+- [01:12:32] design sprints and there's there are a
+- [01:12:33] lot of others on here. But honestly, of
+- [01:12:36] course, we've also seen inside a lot
+- [01:12:38] that that didn't work out. If we looked
+- [01:12:41] inside the greatest hits though, the
+- [01:12:44] real smash successes, we looked inside
+- [01:12:47] all of those, we realized there is a
+- [01:12:49] common element and that common element
+- [01:12:51] in all of them is differentiation. That
+- [01:12:54] there was clarity around this is what
+- [01:12:56] we're trying to prove to customers. This
+- [01:12:58] is the promise we're making. And so we
+- [01:12:59] we've been on those teams or we've
+- [01:13:01] worked alongside those founders who have
+- [01:13:04] this clear idea of differentiation and
+- [01:13:06] sometimes they're not right. They run
+- [01:13:08] the experiments and they change it. But
+- [01:13:10] the thing is they're keyed into
+- [01:13:12] differentiation as being crucial.
+- [01:13:13] They're not just thinking about the
+- [01:13:15] product and trying to get the right
+- [01:13:17] shape of the product or trying to make
+- [01:13:18] it, you know, usable or whatever.
+- [01:13:20] They're really keyed in on
+- [01:13:21] differentiation and how do we find the
+- [01:13:23] right promise and deliver on that
+- [01:13:25] promise and express that promise to
+- [01:13:27] customers. So to explain a little bit
+- [01:13:29] quickly of what I mean by
+- [01:13:30] differentiation and how this has
+- [01:13:32] manifested in products we've seen. If
+- [01:13:34] you go back to the early days of Gmail
+- [01:13:36] in the 2000s, you know, if you had
+- [01:13:38] email, you were probably using Hotmail
+- [01:13:40] or Yahoo and it worked fine and you
+- [01:13:41] didn't have to think about it and this
+- [01:13:43] new product comes along and you're like,
+- [01:13:44] "God, I'm not going to want to switch my
+- [01:13:46] email address. What a hassle. Who wants
+- [01:13:49] to do that?" You no one. Gmail's promise
+- [01:13:51] was, "Hey, massive storage, great
+- [01:13:54] search." And as we were building the
+- [01:13:57] product out and you know marketing and
+- [01:14:00] explaining it to people and making
+- [01:14:01] decisions inside the project, we had to
+- [01:14:04] continue to deliver on great search.
+- [01:14:06] Great search. Great search. That was
+- [01:14:08] that was key to standing out. You fast
+- [01:14:10] forward to 2014 and we're working with
+- [01:14:12] this tiny company who's now competing
+- [01:14:14] with Gmail, who's now like sort of the
+- [01:14:16] market leader people are used to using
+- [01:14:18] in, you know, in their teams. And here's
+- [01:14:21] this new messaging software called
+- [01:14:23] Slack. and they're, you know, trying to
+- [01:14:25] reach new customers and gosh, switching
+- [01:14:27] to Slack is an even bigger hassle than
+- [01:14:28] switching to your email address because
+- [01:14:31] everybody on the team has to switch.
+- [01:14:33] Well, Slack says, hey, if you believe
+- [01:14:35] that having fun and boosting teamwork is
+- [01:14:38] important, it's going to be clear to
+- [01:14:40] you. This is a new way of looking at the
+- [01:14:41] world. And when they were making their
+- [01:14:44] decisions in their first big ad
+- [01:14:46] campaign, their first big marketing
+- [01:14:47] campaign, this was what they were trying
+- [01:14:49] to convey to customers. So, we kind of
+- [01:14:51] kind of see that from the inside.
+- [01:14:52] Another one, we didn't see this one from
+- [01:14:54] the inside, but in one that we're all
+- [01:14:55] sort of familiar with is what happened
+- [01:14:56] with with Chad GPT. You know, it goes
+- [01:14:58] from this trusted, I don't have to think
+- [01:15:00] about it. I'm going to run a Google
+- [01:15:01] search to, oh wow, it's a new way of
+- [01:15:03] looking at the world. There's zero
+- [01:15:04] clicks, just tells you the answer. This
+- [01:15:06] thing's great.
+- [01:15:08] This is also something that we've seen
+- [01:15:10] in some of the early success stories
+- [01:15:12] from our own portfolio. So 2019, this
+- [01:15:14] company called Reclaim going after
+- [01:15:18] calendar management. And you know, most
+- [01:15:20] of us manage our own calendars. Most of
+- [01:15:22] us don't have administrators helping us
+- [01:15:24] out with that and you know it's free.
+- [01:15:26] We're in control. Reclaim's argument was
+- [01:15:29] hey we can automatically we can use AI
+- [01:15:31] to help you focus and to automatically
+- [01:15:33] prioritize your calendar. And that
+- [01:15:36] animated enough people to take the
+- [01:15:38] plunge and switch and try it out that
+- [01:15:39] they were able to build up an audience
+- [01:15:41] of, you know, tens of thousands of users
+- [01:15:42] and uh Dropbox acquired them last year.
+- [01:15:46] A great answer to my question. You guys
+- [01:15:48] well prepared for for those skeptics. Uh
+- [01:15:52] part of our motivation our our selfish
+- [01:15:54] mo motivation with this foundation
+- [01:15:56] sprint is that you know now that we are
+- [01:15:59] investing our own money into companies
+- [01:16:01] and we're working with all these
+- [01:16:02] founders we want them to have that same
+- [01:16:05] clarity on differentiation you know we
+- [01:16:07] saw how important that was to Gmail and
+- [01:16:09] to Slack and to all these other
+- [01:16:10] companies and we want to bring that we
+- [01:16:13] want to sort of give them that same
+- [01:16:14] advantage and help them avoid the you
+- [01:16:18] know the pitfalls that all the other
+- [01:16:19] unsuccessful teams and companies that
+- [01:16:21] we've seen have fallen into. So that's
+- [01:16:23] that's kind of what we're trying to do
+- [01:16:24] here is bring the the lessons from these
+- [01:16:26] really successful teams into, you know,
+- [01:16:29] any team that reads the book and runs
+- [01:16:32] this process.
+- [01:16:33] And the special sauce that John and I
+- [01:16:35] bring is that we're obsessed with the
+- [01:16:38] the sequence of decisions that you make
+- [01:16:40] and how you work together with your team
+- [01:16:43] to make good decisions quickly. And that
+- [01:16:47] specificity about the the method is
+- [01:16:49] something that we we do have a lot of
+- [01:16:51] evidence behind it working well because
+- [01:16:53] of what's happened with the design
+- [01:16:54] sprint and with how many successful
+- [01:16:56] teams have have run that at those
+- [01:16:58] companies who are you know trillion
+- [01:17:01] dollar or whatever kind of giant exit
+- [01:17:02] team all all kinds of teams run design
+- [01:17:04] sprints. This is that same methodology
+- [01:17:07] around how we work together at high
+- [01:17:09] velocity and high quality and it's just
+- [01:17:12] brought to a different part of the
+- [01:17:13] process. Excellent answer. Uh, speaking
+- [01:17:16] of the method, we went on the world's
+- [01:17:18] most epic tangent. I want to bring us
+- [01:17:21] back. We haven't finished actually going
+- [01:17:23] through the process. I think we're
+- [01:17:24] towards the tail end of it. So, let's
+- [01:17:25] just finish that. What else do you do?
+- [01:17:27] So, you have this this uh Yeah, I guess.
+- [01:17:29] Yeah, let's catch us up. Let's catch up
+- [01:17:31] with Latchet. So, as a refresher for you
+- [01:17:34] who forgot, Latchet are building this
+- [01:17:36] tool for artisans. They want to help
+- [01:17:39] them sell with the community networking
+- [01:17:41] features like you might find on Substack
+- [01:17:44] and they've identified their
+- [01:17:46] differentiation. They've identified
+- [01:17:49] their approach now using magic lenses
+- [01:17:52] and all of this is going to come
+- [01:17:53] together to create a founding
+- [01:17:54] hypothesis. So if we help artisans solve
+- [01:17:58] online sales growth with a social sales
+- [01:18:01] app and then they've also got their
+- [01:18:02] backup plan or we could build the full
+- [01:18:04] stack solution. If that doesn't work, we
+- [01:18:07] believe they're going to choose it over
+- [01:18:08] Shopify and Etsy because our solution is
+- [01:18:11] cooperative and easy to use. And in this
+- [01:18:14] single sentence, we've laid bare their
+- [01:18:16] strategy. And now they're going to try
+- [01:18:19] to find out was that work.
+- [01:18:21] So
+- [01:18:21] that is so cool. So the output of the
+- [01:18:23] sprint is the founding hypothesis. And I
+- [01:18:26] love that the term hypothesis is a part
+- [01:18:28] of this because it's not telling you
+- [01:18:30] this will work. It's this is the thing
+- [01:18:32] you will now test. Absolutely. And every
+- [01:18:36] project has at its core, every new
+- [01:18:39] product has at its core a hypothesis.
+- [01:18:41] They h there is a founding hypothesis.
+- [01:18:44] It's just usually not explicit. It's
+- [01:18:46] usually hidden. And different people on
+- [01:18:48] the team may have different ideas about
+- [01:18:49] what it is. And because it's not
+- [01:18:51] explicit, it's very hard to interrogate
+- [01:18:53] it and test it and find out if the the
+- [01:18:56] different variables in it are the right
+- [01:18:58] variables.
+- [01:18:59] I'm curious what's in that photo to the
+- [01:19:01] right as you're showing the YouTube. Oh
+- [01:19:02] yeah, if uh if you're on YouTube, so
+- [01:19:05] that this is just we did this sprint
+- [01:19:06] together in person and so on latchet's
+- [01:19:09] board you're and you're going to see
+- [01:19:10] that like here's where they wrote it out
+- [01:19:12] and took a photo of it and dropped it in
+- [01:19:14] and then later filled it out on the
+- [01:19:16] mural board.
+- [01:19:18] Beautiful. And I it has their old name
+- [01:19:19] there.
+- [01:19:20] That's right. Yeah. Yeah.
+- [01:19:21] Rebrand that
+- [01:19:22] lyric, which it turns out is not the
+- [01:19:24] easiest for SEO. There's a lot of lyrics
+- [01:19:26] out there.
+- [01:19:27] There is a lot of lyrics. I know some
+- [01:19:28] lyrics. Uh and just to understand is the
+- [01:19:31] next step the design sprint and that's
+- [01:19:33] where you actually start testing.
+- [01:19:34] Exactly. So if we zoom out now we see
+- [01:19:36] now they're going to head into a
+- [01:19:38] sequence of design sprints running one
+- [01:19:39] after another. Each of those design
+- [01:19:41] sprints starts with the founding
+- [01:19:42] hypothesis. Then the team is going to
+- [01:19:45] say okay what are the biggest risks that
+- [01:19:47] you know that hypothesis not being true?
+- [01:19:49] What do we need to assess right now?
+- [01:19:51] gonna make a map of how customers
+- [01:19:54] discover the product, what that core
+- [01:19:55] experience looks like, and then figure
+- [01:19:57] out using that map where's the where's
+- [01:19:59] the key moment for assessing that risk.
+- [01:20:02] So for them, the biggest risk is do
+- [01:20:03] people even will these artisans even
+- [01:20:05] want this thing? Are they actually going
+- [01:20:06] to want to have a community sharing sort
+- [01:20:09] of sales platform and they decide the
+- [01:20:12] key moment for us to test that it's
+- [01:20:14] actually on the landing page. They
+- [01:20:15] figure we can prototype landing pages
+- [01:20:17] that describe the product and learn a
+- [01:20:20] lot for our first experiment just just
+- [01:20:22] with landing pages. They're going to
+- [01:20:24] sketch solutions. This will be familiar
+- [01:20:26] to anyone who's, you know, heard about
+- [01:20:27] design sprints. You're going to each
+- [01:20:29] person sketching their own proposal for
+- [01:20:31] how that key moment should work. Choose
+- [01:20:34] the strongest of those. In this case,
+- [01:20:36] they choose they're going to actually
+- [01:20:37] prototype three things. So, they test
+- [01:20:39] three things head-to-head against each
+- [01:20:41] other. Fake brands for each one. So they
+- [01:20:44] look like three different products. And
+- [01:20:46] then this is a really key part. At the
+- [01:20:48] end of the design sprint, we've got a
+- [01:20:50] scorecard. And this is actually a new
+- [01:20:51] innovation. This is not in the sprint.
+- [01:20:53] Oh here we go. New hot off the
+- [01:20:55] presses design sprint uh improvement.
+- [01:20:59] So this scorecard is going to break down
+- [01:21:01] the founding hypothesis. Hey, as we talk
+- [01:21:03] to each customer, was this the right
+- [01:21:05] person? Is this the right kind of
+- [01:21:06] customer for us? Do they have the
+- [01:21:08] problem that we think they have? Was
+- [01:21:10] this the right approach for them? Did
+- [01:21:13] they choose it over the competition?
+- [01:21:14] They're going to test these prototypes
+- [01:21:15] headto-head and also show people like,
+- [01:21:17] okay, here's Etsy, here's Shopify. Now,
+- [01:21:19] out of all these five options, think
+- [01:21:22] about out loud about, you know, what do
+- [01:21:24] you what how do you compare these? So,
+- [01:21:26] do do we believe they they'd actually
+- [01:21:28] choose it? Did the differentiation
+- [01:21:30] actually work for those differentiators
+- [01:21:32] valuable and and motivating to them?
+- [01:21:34] Does it click? So, our new book is
+- [01:21:37] called Click. And you know the the idea
+- [01:21:40] there is you can see when a product
+- [01:21:42] clicks with one person and that's a
+- [01:21:44] that's a helpful signal. Now granted
+- [01:21:47] these interviews are kind of a
+- [01:21:48] simulation. It's not like the real world
+- [01:21:50] but they're a helpful signal that we're
+- [01:21:53] on track for product market fit. If we
+- [01:21:55] see gosh this product just seems to be
+- [01:21:56] clicking with customer after customer.
+- [01:21:59] That's a really strong signal and that's
+- [01:22:00] when people start to get the confidence
+- [01:22:01] that it's time to build. That's a really
+- [01:22:03] good term by the way. I that's such a
+- [01:22:05] good way to describe what it feels like.
+- [01:22:07] Does it just click with them?
+- [01:22:08] Just kind of clicks. Yeah. And if you
+- [01:22:10] look across Latchett's first scorecard,
+- [01:22:13] there's a ton of red. It's it's a lot of
+- [01:22:15] things that didn't work.
+- [01:22:18] The the conclusion at the end in this
+- [01:22:20] last column, there's a conclusion. Hey,
+- [01:22:21] we interviewed this case. They
+- [01:22:22] interviewed four customers.
+- [01:22:25] Well, it looks like this is the right
+- [01:22:26] customer. It looks like they have this
+- [01:22:27] problem, but everything else kind of
+- [01:22:30] didn't work about the hypothesis.
+- [01:22:31] Approach wasn't working. Differentiation
+- [01:22:33] wasn't working.
+- [01:22:35] There's some many hypotheses kind of
+- [01:22:36] about the prototype itself. Just lots of
+- [01:22:38] red on here. So, they sprint again. And
+- [01:22:42] and just zooming out for a second, this
+- [01:22:43] is a team who just started working on
+- [01:22:45] this new company. And you know,
+- [01:22:48] sometimes it can feel slow. We talked
+- [01:22:50] about it feeling slow to go through all
+- [01:22:52] these steps, but they're only a week in
+- [01:22:55] and they've already built three
+- [01:22:56] prototypes and they've tested those
+- [01:22:59] three prototypes with four real
+- [01:23:00] customers. and they have this
+- [01:23:02] superdetailed scorecard of here's what's
+- [01:23:04] working, here's not what's not working.
+- [01:23:06] That's after a week. So, it's
+- [01:23:08] interesting how what can feel slow in
+- [01:23:10] the hour to hour actually can really
+- [01:23:13] speed you up in the the weeks and months
+- [01:23:15] uh time scale.
+- [01:23:17] That was such good context because I was
+- [01:23:18] feeling that. And to your point, most
+- [01:23:20] founders do not do this much testing,
+- [01:23:23] iterating, learning in the first few
+- [01:23:25] weeks of their startup. They might spend
+- [01:23:27] a few weeks just talking to customers
+- [01:23:29] without showing a prototype and then
+- [01:23:30] they might spend a few months building
+- [01:23:32] an MVP and then they might if you know
+- [01:23:35] maybe they're going to spend some more
+- [01:23:36] time talking to customers while showing
+- [01:23:38] them the MVP maybe they'll do manual
+- [01:23:39] onboarding something like that but yeah
+- [01:23:41] that plays out over months and it fits
+- [01:23:43] with what founders tell us you know it's
+- [01:23:45] of course it's a subjective measure but
+- [01:23:48] founders who go through this process
+- [01:23:49] with us they say that they're able to
+- [01:23:51] accelerate three to four months of work
+- [01:23:53] into the three or four weeks of
+- [01:23:55] backto-back sprint that we're doing
+- [01:23:56] together in Character Labs.
+- [01:23:59] Excellent context. Thanks for throwing
+- [01:24:00] that in there.
+- [01:24:01] And these conversations with customers
+- [01:24:03] are so much more fruitful and pointed
+- [01:24:06] when you've got the context of I know
+- [01:24:08] exactly what my hypothesis is and you
+- [01:24:10] have prototypes to show them. We have a
+- [01:24:12] founder in our group of startups in
+- [01:24:15] Character Labs at the moment. I'm
+- [01:24:16] thinking of Maruthie John who's uh comes
+- [01:24:19] from doing sales at Rippling and we had
+- [01:24:22] been talking to tons of customers while
+- [01:24:24] starting off the his company and he said
+- [01:24:27] you know had 50 conversations over the
+- [01:24:30] past month but I learned so much more
+- [01:24:33] from even the first conversation when I
+- [01:24:35] had a hypothesis and I had a prototype
+- [01:24:37] or a couple prototypes to show them it's
+- [01:24:40] like night and day. That is a great
+- [01:24:43] example. This this all makes sense as
+- [01:24:44] you guys describe it like you're you're
+- [01:24:47] actually testing something very concrete
+- [01:24:49] that your entire team is aligned behind
+- [01:24:52] and actual prototypes and you've thought
+- [01:24:55] about different directions. So it's
+- [01:24:56] you're testing something very specific
+- [01:24:58] versus just generally testing at your
+- [01:25:01] general concept. As we go into the
+- [01:25:04] second design sprint for uh Latchet,
+- [01:25:08] they're making some edits to their
+- [01:25:10] founding hypothesis. Now they're, you
+- [01:25:13] know, revising a few things, making new
+- [01:25:16] sketches, new proposals for what this
+- [01:25:18] solution might look like. They've
+- [01:25:20] learned a lot in that first sprint, a
+- [01:25:23] new prototype, uh, that got a prototype
+- [01:25:25] that has more detail now. So, they are
+- [01:25:28] engineers. They're starting to actually
+- [01:25:29] write some code and and put some more
+- [01:25:31] detail behind the product. It's more
+- [01:25:32] robust. And again, they're trying to fix
+- [01:25:34] that positioning. Here's their
+- [01:25:36] scorecard. And if you're watching on
+- [01:25:39] YouTube, you'll be able to see it. But
+- [01:25:41] again, there's a lot of red here. At
+- [01:25:43] first blush, this the scorecard is is
+- [01:25:45] bleeding, but there are some promising
+- [01:25:47] signs. There's like maybe a few little
+- [01:25:48] sun breaks. There's some spots where
+- [01:25:50] some of the red has started to flip to
+- [01:25:52] yellow. And so, if we look at the
+- [01:25:54] conclusion on the far right, they're
+- [01:25:57] starting to believe their
+- [01:25:58] differentiation is dialed in and they're
+- [01:26:00] starting to believe that this could be
+- [01:26:02] the right approach. They may be able to
+- [01:26:04] get people to choose it to the
+- [01:26:05] competition even though they haven't
+- [01:26:06] done it yet. So, those are starting to
+- [01:26:08] become yellow lights on the scorecard.
+- [01:26:12] And now they'll take what they've
+- [01:26:13] learned and now we're into the third
+- [01:26:16] consecutive week of design sprints.
+- [01:26:18] Again, they're going to sort of review
+- [01:26:20] that founding hypothesis. They're going
+- [01:26:21] to sketch. They're recruiting a new
+- [01:26:23] slate of customers as they do each week.
+- [01:26:26] A new prototype. Again,
+- [01:26:29] more code in the prototype. It's it's
+- [01:26:31] becoming more and more robust, more
+- [01:26:32] realistic as they're also adjusting the
+- [01:26:35] the marketing and the positioning at the
+- [01:26:36] same time. So, all of these things kind
+- [01:26:38] of go in concert. The product itself and
+- [01:26:40] the marketing are are sort of one as
+- [01:26:42] they're as they're moving along. And
+- [01:26:44] this is an extreme example.
+- [01:26:46] What?
+- [01:26:48] Everything is green.
+- [01:26:49] Everything's green. If you can't see,
+- [01:26:50] every single one is green.
+- [01:26:51] Oh my god.
+- [01:26:52] And this is this is extreme, but it is a
+- [01:26:55] pattern that we've seen
+- [01:26:56] again and again. This is a real example.
+- [01:26:58] Wow. How do I invest? get us in this
+- [01:27:00] round. This is great.
+- [01:27:02] Yeah, this is pretty great.
+- [01:27:03] This is great.
+- [01:27:04] So, um, so we see this again and again
+- [01:27:06] and I, you know, I can share a couple
+- [01:27:08] of, uh, other boards of ones that are in
+- [01:27:11] progress. We're also constantly
+- [01:27:12] adjusting the templates so you can get
+- [01:27:13] to see a little bit more how the how
+- [01:27:15] people will edit their their founding
+- [01:27:17] hypothesis from sprint to sprint. So,
+- [01:27:19] you know, Melo, who we were talking
+- [01:27:21] about, here's their first prototype and,
+- [01:27:24] you know, here's their first scorecard.
+- [01:27:26] Lots of lots of yellow for them. Maybe
+- [01:27:28] they're a little bit more likely to use
+- [01:27:30] yellow than red. And then here's the
+- [01:27:33] edits to their founding hypothesis after
+- [01:27:35] the first sprint. You know, so you can
+- [01:27:36] kind of see in red they're changing
+- [01:27:38] slightly changing the definition of
+- [01:27:40] their target customer from the first
+- [01:27:41] week. Slightly changing the the problem
+- [01:27:44] that they're solving, slightly changing
+- [01:27:46] the approach, slightly changing the
+- [01:27:48] competition. They've dialed in. They've
+- [01:27:50] gotten more crisp on who are we up
+- [01:27:51] against. They've gotten a little bit
+- [01:27:53] more crisp. just a tiny tweak on what
+- [01:27:56] how do we explain this to people to get
+- [01:27:58] them excited about it? What's the
+- [01:27:59] differentiation? They sprint again, they
+- [01:28:02] prototype again, and if we just jump
+- [01:28:03] down just looking at hypotheses, they
+- [01:28:05] learn a bunch and now there's another
+- [01:28:07] slight tweak to that founding
+- [01:28:08] hypothesis. And so week after week,
+- [01:28:12] you're learning, but you're also really
+- [01:28:14] able to able to track exactly what is it
+- [01:28:16] that we learned and how does that affect
+- [01:28:18] our our strategy. Okay, guys, this was
+- [01:28:22] incredible. I think we've we've covered
+- [01:28:24] the entire process. I love that you also
+- [01:28:26] covered the design sprint pieces which
+- [01:28:28] uh which isn't part of this book but is
+- [01:28:30] such a core if you clearly these things
+- [01:28:32] are very uh connected and meant to work
+- [01:28:34] together. So you go from here's the
+- [01:28:36] thing we should be building to how to
+- [01:28:37] actually test it. Let me ask you before
+- [01:28:40] we wrap up is there anything else that
+- [01:28:42] you think is really important for people
+- [01:28:44] to know before they start trying this
+- [01:28:46] process at home and is there anything
+- [01:28:49] you can point them to to actually try
+- [01:28:50] this at home? One thing we didn't talk
+- [01:28:52] about we go we used an example of a
+- [01:28:54] company who's not building an AI first
+- [01:28:58] product. Latchet's building a you know
+- [01:29:00] this thisworked community
+- [01:29:03] uh sales platform for for artisans. It
+- [01:29:06] would probably be interesting to look at
+- [01:29:07] how people use this when they are
+- [01:29:10] building a very technical product when
+- [01:29:12] they're vibe coding prototypes. That's a
+- [01:29:14] question we're getting all the time.
+- [01:29:15] What's the influence on this of the
+- [01:29:17] speed with which you can build
+- [01:29:18] something?
+- [01:29:19] That's an awesome idea. Let's definitely
+- [01:29:20] do that.
+- [01:29:20] Yeah. Okay. So let's jump in here and
+- [01:29:22] take a look at a company again in our
+- [01:29:24] current group of labs teams. Axion
+- [01:29:27] Orbital it's called and the founder Denj
+- [01:29:30] is actually running this whole process
+- [01:29:32] solo which is pretty cool too. He's a
+- [01:29:34] he's a remarkable guy and we have a
+- [01:29:35] couple of solo founders right now and uh
+- [01:29:37] who are you know able to generate you
+- [01:29:40] can see just to give like a sneak peek
+- [01:29:42] he's generating when we talk about
+- [01:29:43] customers all these sticky notes himself
+- [01:29:45] and making the decisions himself about
+- [01:29:47] which is the right one. But to ground us
+- [01:29:49] in this story, his founding hypothesis
+- [01:29:51] is he wants to help geospatial devs
+- [01:29:54] solve these sort of complex workflows
+- [01:29:56] with a browser-based noode development
+- [01:29:59] environment. So we'll um we'll take a
+- [01:30:01] look just really quickly at what his
+- [01:30:04] prototypes look like. And in the first
+- [01:30:07] week, I can show you this prototype
+- [01:30:09] right here. And it's a marketing page.
+- [01:30:13] And on this marketing page, there's a
+- [01:30:16] link to a uh to a video. So, if I click
+- [01:30:20] find out more, I'm going to see this
+- [01:30:22] video. And this video is going to kind
+- [01:30:25] of hear Den and Jay talking over it. And
+- [01:30:29] it's going to kind of walk through a
+- [01:30:31] screen share of a very rudimentary
+- [01:30:33] version of what this product might look
+- [01:30:35] like. Now, if you're watching on YouTube
+- [01:30:38] and you see this prototype, you might
+- [01:30:40] think, "Boy, that marketing page and the
+- [01:30:42] demo itself, pretty bare bones, not the
+- [01:30:45] most polished looking. This is uh this
+- [01:30:48] doesn't look super compelling." So, he
+- [01:30:50] was focusing in that first sprint on the
+- [01:30:52] messaging, you know, on finding those
+- [01:30:54] those people who actually have that
+- [01:30:56] role, testing it with them, and he
+- [01:30:58] learned a lot. So, if we, you know, sort
+- [01:30:59] of go back to his his scorecard, we'll
+- [01:31:02] see, okay, that was, you know, that was
+- [01:31:04] a pretty good one. actually a lot of
+- [01:31:05] green on his first scorecard, but he
+- [01:31:07] also felt like what he tested was was
+- [01:31:08] pretty incomplete. Now, one thing that's
+- [01:31:11] cool here, we saw the big leap with
+- [01:31:12] Latchet from one week to another in
+- [01:31:14] terms of like their learnings and the
+- [01:31:15] scorecards. One of the things that's
+- [01:31:17] interesting here is to go from Vinn and
+- [01:31:19] Jay's first prototype here to his second
+- [01:31:21] prototype and it's obvious he's been
+- [01:31:24] able to just build a ton in uh in the
+- [01:31:27] next week and he's using, you know, AI
+- [01:31:29] based tools. He's doing a lot of work.
+- [01:31:30] He's also just a terrific engineer. But
+- [01:31:33] here we've got like a much more real
+- [01:31:35] looking marketing page, very detailed.
+- [01:31:37] And an important thing that he's done
+- [01:31:39] here with this is he's built out a lot
+- [01:31:42] and created a video of something so that
+- [01:31:44] the product while not fully functional,
+- [01:31:47] you can see exactly how it works. So if
+- [01:31:49] we sort of play this video, he's created
+- [01:31:52] this demonstration of what it looks like
+- [01:31:54] when you type in a query into the engine
+- [01:31:57] and exactly the kinds of results you
+- [01:31:59] get. And by doing a combination of vibe
+- [01:32:02] coding, real coding, all of which is
+- [01:32:05] based off of, you know, pencil sketches,
+- [01:32:07] we can go back and see the sketches he's
+- [01:32:09] doing on paper to define this is what I
+- [01:32:10] think needs to be in there to make this
+- [01:32:12] compelling to deliver on my
+- [01:32:13] differentiation. And then he's using a a
+- [01:32:15] product video so that the entire thing
+- [01:32:17] doesn't have to work fully free form.
+- [01:32:20] That's what it can look like when a team
+- [01:32:23] is building something that's that's you
+- [01:32:25] know more AI ccentric when it's a more
+- [01:32:27] sophisticated tool when people are going
+- [01:32:29] to be curious about the sort of the ins
+- [01:32:31] and outs of it. So along those lines,
+- [01:32:33] where do you find people are leveraging
+- [01:32:36] AI most in helping them through these
+- [01:32:38] sprints through either the foundation
+- [01:32:41] sprint or the design sprint? Is it
+- [01:32:42] mostly just by coding prototypes?
+- [01:32:45] That's definitely the first and biggest
+- [01:32:48] use of AI in sprint so far is is in, you
+- [01:32:52] know, making prototypes that look more
+- [01:32:54] realistic faster. And you know, it's
+- [01:32:57] kind of like uh you know, having an
+- [01:32:59] entire prototyping team on standby,
+- [01:33:01] right? so that you don't have to just
+- [01:33:03] make it yourself and sort of piece
+- [01:33:04] things together, but you can have, you
+- [01:33:06] know, a ton of people ready to jump in,
+- [01:33:08] make something look really realistic.
+- [01:33:11] But it's also really critical. We found
+- [01:33:14] that while you're outsourcing that
+- [01:33:16] prototyping work, you don't outsource
+- [01:33:18] the thinking like you don't kind of skip
+- [01:33:20] over the the part where you think about,
+- [01:33:23] well, what is the actual copy on the
+- [01:33:26] website? How do I actually describe what
+- [01:33:27] the product is, how it's differentiated?
+- [01:33:30] Um, and so it's it's one of the reasons
+- [01:33:33] why doing the foundation sprint first
+- [01:33:35] and then doing a design sprint can
+- [01:33:37] really help you and and you know because
+- [01:33:40] it it allows you to spend time working
+- [01:33:43] on that harder part of what it means to
+- [01:33:46] design and and build a product. And then
+- [01:33:48] once you have a clear view of that then
+- [01:33:50] you can use AI tools to go really fast.
+- [01:33:53] And you know, in this example that Jake
+- [01:33:55] is showing of Axian orbital, people get
+- [01:33:57] really clever about which parts of this
+- [01:33:58] need to be real, which parts of this can
+- [01:34:00] be vibe coded, which parts of this can
+- [01:34:01] just be a static Figma mockup. Um, and
+- [01:34:04] it's all about kind of creating a
+- [01:34:06] simulation, uh, something that looks
+- [01:34:08] realistic that you can put in front of
+- [01:34:10] real customers to help you answer the
+- [01:34:12] the key questions. That's a really good
+- [01:34:15] point that you're making. And again,
+- [01:34:16] it's just a reminder, you will move
+- [01:34:18] faster if you slow down a little bit at
+- [01:34:19] the beginning that because prototyping
+- [01:34:21] is so easy now and just things that
+- [01:34:23] look, it's so easy to make something
+- [01:34:24] that looks really nice and kind of doing
+- [01:34:26] what you want. But spending a little
+- [01:34:28] time making sure you understand what
+- [01:34:29] you're testing and what you want uh is
+- [01:34:32] becomes more important.
+- [01:34:33] We had a couple of teams in this current
+- [01:34:34] group of character labs where they
+- [01:34:36] jumped to vibe coding prototypes like
+- [01:34:38] right away, like at the very beginning.
+- [01:34:41] And you know when you when you generate
+- [01:34:44] something using an using an LLM using an
+- [01:34:46] AI tool like it looks pretty real like
+- [01:34:48] it looks you know it looks believable
+- [01:34:50] and so I think there's a temptation to
+- [01:34:51] say like okay like this is this is good
+- [01:34:54] to go like it it looks close enough that
+- [01:34:55] I'm just going to you know show that to
+- [01:34:57] customers and then what they found was
+- [01:35:00] like actually the you know it was so it
+- [01:35:03] was super generic like it didn't really
+- [01:35:04] describe what the product was. didn't
+- [01:35:06] really describe how it was different
+- [01:35:07] because you know it was it was generated
+- [01:35:10] by a model that uh is trained on you
+- [01:35:13] know sort of existing products and so in
+- [01:35:15] that second sprint that was when they
+- [01:35:17] really took a step back and said okay
+- [01:35:19] let's think through this and then shift
+- [01:35:21] into prototyping mode so it's definitely
+- [01:35:24] helping people speed up but we also
+- [01:35:25] think there's an important lesson here
+- [01:35:26] that while you're outsourcing prototype
+- [01:35:29] prototyping don't outsource the thinking
+- [01:35:31] as well
+- [01:35:32] I see you pulling something up Jake that
+- [01:35:34] might be
+- [01:35:35] imagine you want to show?
+- [01:35:37] Yeah, I think it's kind of interesting
+- [01:35:38] to see the sketches that went into
+- [01:35:40] Denjay's prototype, the Axian orbital
+- [01:35:42] prototype that we just looked at,
+- [01:35:43] because they they are super detailed.
+- [01:35:44] And this is doing this level of thought
+- [01:35:47] where you're you're pausing, you're
+- [01:35:50] being really intentional about what does
+- [01:35:52] the customer need to know, what needs to
+- [01:35:54] happen for them to find a solution to
+- [01:35:56] their problem on, you know, in within
+- [01:35:59] the product.
+- [01:36:01] That's a way of doing your prompt
+- [01:36:03] engineering. If you end up vibe coding
+- [01:36:05] this prototype, but you start off with a
+- [01:36:07] very clear plan about this is what the
+- [01:36:09] thing needs to look at look like rather
+- [01:36:12] than going immediately into a
+- [01:36:14] conversational mode where you're sort of
+- [01:36:15] co-designing with the LLM and going back
+- [01:36:18] and forth via chat conversation. This is
+- [01:36:21] much likelier to yield an opinionated
+- [01:36:24] product that makes sense, that's very
+- [01:36:27] clearly defined around the the problem
+- [01:36:29] that you're trying to solve, the tasks
+- [01:36:30] that need to happen to solve that
+- [01:36:32] problem, and the right messaging, the
+- [01:36:34] right wording that's really crisply
+- [01:36:35] aligned with what you know about your
+- [01:36:37] customers, what you know about what they
+- [01:36:39] care about. That's such a good point.
+- [01:36:41] Again, just the concept of the primal
+- [01:36:43] mark is ringing in my head as you talk
+- [01:36:45] about this. Just as soon as you make
+- [01:36:47] that prototype, everything from that
+- [01:36:48] point is a response to that first idea
+- [01:36:51] versus have I actually thought through
+- [01:36:52] what this should be. Guys, we did it.
+- [01:36:54] This is uh incredible. I think this is
+- [01:36:57] going to help a lot of people think
+- [01:36:58] through and actually save a lot of time.
+- [01:37:00] Um is there anything else that you want
+- [01:37:03] to share, leave listeners with? Maybe a
+- [01:37:05] last nugget or something you want to I
+- [01:37:07] don't know, just double down on to leave
+- [01:37:09] folks with before we wrap up. Well, one
+- [01:37:11] quick thing is that we've we've shared a
+- [01:37:14] lot of examples in this uh in this
+- [01:37:16] conversation and we actually have a
+- [01:37:18] template, a Miro template that folks can
+- [01:37:22] use if they want to run their own
+- [01:37:23] foundation sprint. It's the template
+- [01:37:25] that we use, you know, when we're
+- [01:37:26] working with founders, taking them
+- [01:37:28] through these sprints. We we do our work
+- [01:37:29] in Miro. Even if we're in person with
+- [01:37:31] them, we're usually working in Mirro or
+- [01:37:33] maybe working on paper and then
+- [01:37:34] capturing it in Muro because it's it's
+- [01:37:36] just such a great canvas to work on. Um,
+- [01:37:39] and and we'll make that template
+- [01:37:40] available so anybody who's who's
+- [01:37:42] listening or watching can can grab that
+- [01:37:44] and and use it to run their own
+- [01:37:46] foundation sprint.
+- [01:37:47] That's amazing. You answered the
+- [01:37:49] question I asked that I forgot to come
+- [01:37:50] back to. Uh, can we give people a URL?
+- [01:37:53] We'll put it in the show notes, but
+- [01:37:54] should they is it at your Yeah, I guess
+- [01:37:56] where can folks find it?
+- [01:37:57] You should find it at character.vc and
+- [01:37:59] you can uh go there and we'll have we'll
+- [01:38:02] have a page for you to
+- [01:38:04] Amazing. So easy.
+- [01:38:05] Uh, that is awesome. So, that's so
+- [01:38:06] awesome that you guys are doing that.
+- [01:38:08] Obviously, you could also read the book
+- [01:38:09] and that goes through a lot of this
+- [01:38:10] process, but I think the template is
+- [01:38:12] just like a plug-and-play. Let's just do
+- [01:38:14] this at home. Obviously, if they want to
+- [01:38:15] go deeper, they can work with you guys
+- [01:38:17] to have you. It's such a win. They take
+- [01:38:19] money. You give them money and you help
+- [01:38:22] them figure out what the heck to build.
+- [01:38:25] What a deal. And that's also
+- [01:38:26] character.bc. They want to explore that.
+- [01:38:28] Y
+- [01:38:29] amazing. Okay. Uh, is there anything
+- [01:38:31] else, Jake, that you wanted to share
+- [01:38:32] before we close up?
+- [01:38:34] No, just, you know, if if you made it
+- [01:38:37] this far, uh hopefully your your mind
+- [01:38:39] and heart is is open to this idea, but
+- [01:38:42] we know it's a lot to ask to clear the
+- [01:38:44] calendar and follow these these steps.
+- [01:38:46] But if John and I weren't so convinced
+- [01:38:50] that beginnings are essential to getting
+- [01:38:54] your best efforts in the hands of people
+- [01:38:56] and to achieving the the things you want
+- [01:38:58] for your customers,
+- [01:39:00] we wouldn't be doing this. We wouldn't
+- [01:39:02] be going to all the trouble. There are
+- [01:39:03] simpler things we can we can be going
+- [01:39:05] after. Um the the kind of cool thing
+- [01:39:09] we've found about working in this way
+- [01:39:11] though we've we've focused a lot on
+- [01:39:13] finding product market fit and building
+- [01:39:15] your business, getting started, getting
+- [01:39:16] momentum, getting alignment, all these
+- [01:39:18] things that tactically are important
+- [01:39:20] that business-wise are important. But
+- [01:39:22] another part of it that's a nice side
+- [01:39:26] benefit that actually maybe is the most
+- [01:39:27] important thing of all is how close it
+- [01:39:31] brings you to your customers, to the
+- [01:39:33] people who you're building for because
+- [01:39:34] you're interacting with them. You're
+- [01:39:36] focusing on them as you plan and you're
+- [01:39:37] interacting with them on a weekly basis
+- [01:39:39] when you work in this way and how close
+- [01:39:42] it brings teammates together in a very
+- [01:39:45] authentic way. We're working together on
+- [01:39:47] the most important things and we don't
+- [01:39:49] have to navigate the usual social
+- [01:39:51] dynamics of conversations where one
+- [01:39:53] person has an idea and they're pitching
+- [01:39:55] it. We don't have to navigate the
+- [01:39:57] constant context switches of the
+- [01:39:59] calendar that dominates our days. We're
+- [01:40:01] just working on the most important thing
+- [01:40:03] and the structure takes care of a lot of
+- [01:40:05] the the difficulty of the
+- [01:40:09] the process of what we should do. And we
+- [01:40:12] just find people come out of it with
+- [01:40:14] renewed motivation, renewed energy, and
+- [01:40:17] renewed enthusiasm around the fact that
+- [01:40:19] they get to work on what actually
+- [01:40:20] matters to them.
+- [01:40:21] Yeah. And it just feels like really fun.
+- [01:40:22] Just this part of the process is so fun.
+- [01:40:24] And then not having to decide how to
+- [01:40:26] approach it. Having someone just give
+- [01:40:27] you here's a framework to follow.
+- [01:40:29] It's like a yoga class, right? It's like
+- [01:40:30] I don't know how to do yoga, but explain
+- [01:40:32] to me step by step.
+- [01:40:35] Yoga for startups. That'll be the title
+- [01:40:37] for this episode.
+- [01:40:39] Guys, this was awesome. Uh, I'm gonna
+- [01:40:41] skip the lightning round just because
+- [01:40:43] we've gone long. And I guess just where
+- [01:40:44] can folks find you online and how can
+- [01:40:46] listeners be useful to you?
+- [01:40:47] You can find me on LinkedIn. John, I
+- [01:40:50] think find you on LinkedIn, too.
+- [01:40:51] Yeah.
+- [01:40:52] And we'd love for people to apply to
+- [01:40:54] Character Labs or if you know a founder,
+- [01:40:56] apply to Character Labs. Get in touch
+- [01:40:58] with us. Character.vc.
+- [01:41:00] There we go. All right, guys. Thank you
+- [01:41:02] so much for being here and for sharing.
+- [01:41:04] Yeah. Thanks, Lenny.
+- [01:41:05] Thanks, Lenny.
+- [01:41:06] Bye, everyone.
+- [01:41:08] Thank you so much for listening. If you
+- [01:41:10] found this valuable, you can subscribe
+- [01:41:12] to the show on Apple Podcasts, Spotify,
+- [01:41:14] or your favorite podcast app. Also,
+- [01:41:17] please consider giving us a rating or
+- [01:41:19] leaving a review as that really helps
+- [01:41:21] other listeners find the podcast. You
+- [01:41:23] can find all past episodes or learn more
+- [01:41:25] about the show at lennispodcast.com.
+- [01:41:28] See you in the next episode.

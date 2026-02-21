@@ -1,0 +1,3125 @@
+## Key insight / summary
+
+- **AI 에이전트가 인간 영업팀을 대체하는 현실**: SaaStr은 10명의 영업팀을 1.2명 + 20개 AI 에이전트로 교체했으며, 동일한 성과를 유지하면서 효율성과 확장성을 크게 개선함
+- **미들티어 인력의 대체 가속화**: AI는 사람들이 하기 싫어하는 업무와 중간급/평범한 성과자들을 우선적으로 대체하고 있음 (대학 졸업 후 이메일 보내는 주니어 SDR은 내년에 사라질 직업)
+- **고급 인력의 역할 변화**: 미래의 SDR은 연봉 $250K를 받으며 10명이 아닌 10개의 에이전트를 관리하는 역할로 진화할 것
+- **AI 에이전트 훈련의 중요성**: 에이전트들은 즉시 작동하지 않으며, 최고의 영업사원과 스크립트로 훈련시켜야 최고 성과자 버전의 에이전트가 됨
+- **24/7 운영의 게임체인저**: 에이전트들은 밤낮없이, 주말에도, 크리스마스에도 일하며 소프트웨어의 확장성을 가짐
+- **인간 채용 피로감**: 3개월 후에도 회사 업무를 모르는 직원을 더 이상 채용할 수 없다는 CEO들의 문화적 전환
+- **실제 매출 성과 입증**: 범용 AI 에이전트(델리)가 영업 전용 훈련 없이도 7만 달러 계약을 단독으로 성사시킨 실증 사례
+
+## Key implications for Proby platform
+
+- **AI 모더레이터의 24/7 가용성을 핵심 차별화 포인트로 강화**: SaaStr의 에이전트들이 밤낮없이 일하듯, Proby도 "글로벌 시간대 무관 실시간 리서치" 기능을 강조하여 기존 인간 모더레이터 대비 시간적 제약이 없음을 어필해야 함
+- **"훈련 가능한 AI 모더레이터" 포지셔닝으로 프리미엄화**: 최고의 리서처와 모더레이션 스크립트로 AI를 훈련시켜 "최고 성과 모더레이터의 복제본"을 만들 수 있다는 가치 제안으로, 단순 비용 절감을 넘어선 품질 향상 메시지 구축
+- **인하우스 리서처의 "AI 매니저" 역할 전환 지원**: 전략문서의 타겟인 유니콘/엔터프라이즈 리서처들을 "10개의 AI 모더레이터를 관리하는 고급 리서치 매니저"로 포지셔닝하여 직업 위협이 아닌 역할 진화로 프레이밍
+- **중간급 리서치 업무 자동화에 집중**: 대학 졸업생이 하던 단순 SDR 업무처럼, 주니어 리서처나 외주업체가 하던 루틴한 모더레이션 업무를 타겟으로 삼아 명확한 대체 영역 설정
+- **실증 케이스 스터디 확보 전략**: SaaStr의 7만 달러 계약 성사 사례처럼, Proby로 중요한 리서치 인사이트를 발견하거나 큰 비즈니스 임팩트를 만든 구체적 성공 사례 축적이 시급함
+- **스케일 경제의 명확한 시연**: "소프트웨어는 확장된다"는 메시지처럼, 한 번 훈련된 Proby 모더레이터가 수백 개의 동시 세션을 처리할 수 있음을 정량적으로 보여주는 데모 필요
+- **고객 이탈 방지를 위한 AI 일관성**: 인간 직원의 퇴사로 인한 업무 연속성 문제가 없다는 점을 B2B 세일즈 포인트로 활용하여, 특히 엔터프라이즈 고객의 vendor 관리 부담 해결
+- **"AI 에이전트 관리 플랫폼"으로의 확장 고려**: 단일 모더레이터가 아닌 리크루팅, 모더레이션, 분석 등 각 단계별 전문 AI 에이전트들을 조합하여 제공하는 "리서치 에이전트 스위트" 전략 검토
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=I-R1bc1rlFs
+
+- [00:00] used to have about 10 people full-time.
+- [00:02] Now you have 1.2 humans, 20 agents.
+- [00:04] >> We have 10 desks that used to be go to
+- [00:06] market people. They're all just labeled
+- [00:08] with our agents. Reply for replet, quali
+- [00:10] for qualified, arty for artisan, agent
+- [00:12] force needs a nickname. Agents work all
+- [00:14] night and they work weekends and they
+- [00:15] work on Christmas. We're done with
+- [00:16] hiring humans in sales. We're done.
+- [00:18] >> The business is doing very similarly to
+- [00:20] what it was when you had 10 humans. If I
+- [00:22] had two more great humans that wanted to
+- [00:24] join, don't get me wrong, I would hire
+- [00:25] them tomorrow. But I'm not going to hire
+- [00:27] someone that after their third month in
+- [00:28] the job doesn't know what Saster does, I
+- [00:30] just can't do that. AI is replacing the
+- [00:32] jobs people don't want to do today, and
+- [00:34] it is displacing the midpack and the
+- [00:36] mediocre.
+- [00:37] >> How do you see the future of the sales
+- [00:38] profession?
+- [00:39] >> We should have $250,000 a year SDRs, but
+- [00:41] they'd be like at Versel, they'd be
+- [00:43] managing 10 agents, not 10 people. The
+- [00:44] classic SDR junior kid that is hired out
+- [00:48] of college to send emails, we don't need
+- [00:50] them. folks that qualify leads coming
+- [00:52] in, the contact me that we see, we have
+- [00:54] no need for them today. They should be
+- [00:55] extinct next year.
+- [00:56] >> Someone's listening to this like, "Oh
+- [00:58] man, my job is in trouble."
+- [00:59] >> If you can go do this, you're hyper
+- [01:01] employable.
+- [01:03] Today, my guest is Jason Lmin, founder
+- [01:05] and CEO of Saster, the world's largest
+- [01:07] community for B2B founders and one of my
+- [01:09] absolute favorite sales and go to market
+- [01:11] minds on the planet. Jason is not only
+- [01:14] deeply knowledgeable about everything
+- [01:16] sales, he's also extremely articulate
+- [01:18] and direct and is also now personally
+- [01:21] going super deep on what AI can do for a
+- [01:24] sales or he's transformed his own saster
+- [01:27] sales team from around 10 SDRs and AEES
+- [01:30] to one full-time AE, a part-time chief
+- [01:33] of AI named Amelia, and 20 AI agents. He
+- [01:37] is seeing the same performance from his
+- [01:39] AI team as he saw with his former human
+- [01:41] team and he's just getting started.
+- [01:43] These are my favorite kinds of
+- [01:45] conversations because the guest is
+- [01:47] living in the future and comes here to
+- [01:49] show us what the future is like, where
+- [01:51] we're headed and how we can get there
+- [01:52] ourselves and also just how to avoid all
+- [01:54] the pitfalls that he had to deal with
+- [01:55] along the way. We cover all of the
+- [01:57] things that he has learned about where
+- [01:59] sales and go to market is going in the
+- [02:02] AI age. He gives a bunch of advice for
+- [02:04] salespeople and the future of their
+- [02:06] careers. the future of the goto market
+- [02:08] org, how to win as an AI startup right
+- [02:11] now, what tools he's finding most
+- [02:13] useful, what it took to shift a sales
+- [02:15] team, and so much more. This episode is
+- [02:17] going to get your mind spinning in the
+- [02:19] best way possible. If you enjoy this
+- [02:21] podcast, don't forget to subscribe and
+- [02:22] follow it in your favorite podcasting
+- [02:23] app or YouTube. It helps tremendously.
+- [02:26] And if you become an annual subscriber
+- [02:27] of my newsletter, you get 19 premium
+- [02:31] products for free for an entire year,
+- [02:34] including a year free of lovable,
+- [02:35] replet, bolt, naden, gamma, linear,
+- [02:38] devon, post talk, superhuman, dcript,
+- [02:39] whisper flow, perplexity, warp, granola,
+- [02:41] magic patterns, raycast, chapard d
+- [02:42] mobin, and stripe atlas. Head on over to
+- [02:45] lenny'snewsletter.com and click product
+- [02:46] pass. With that, I bring you Jason Lenin
+- [02:49] after a short word from our sponsors.
+- [02:52] Today's episode is brought to you by DX,
+- [02:54] the developer intelligence platform
+- [02:56] designed by leading researchers. To
+- [02:58] thrive in the AI era, organizations need
+- [03:00] to adapt quickly. But many organization
+- [03:03] leaders struggle to answer pressing
+- [03:04] questions like which tools are working?
+- [03:07] How are they being used? What's actually
+- [03:09] driving value? DX provides the data and
+- [03:12] insights that leaders need to navigate
+- [03:14] this shift. With DX, companies like
+- [03:16] Dropbox, Booking.com, Adion, and
+- [03:18] Intercom get a deep understanding of how
+- [03:20] AI is providing value to their
+- [03:22] developers and what impact AI is having
+- [03:24] on engineering productivity. To learn
+- [03:27] more, visit DX's website at
+- [03:29] getdx.com/lenny.
+- [03:31] That's getdx.com/lenny.
+- [03:35] This episode is brought to you by Vzero
+- [03:38] from Versell. Vzero is the web
+- [03:40] development assistant designed for
+- [03:42] professionals of all technical
+- [03:43] backgrounds. Whether you're a product
+- [03:45] manager, designer, or developer,
+- [03:47] transform how you bring products to
+- [03:49] life. With VZero, everybody can cook.
+- [03:53] Don't just show up to reviews with docs
+- [03:54] and ideas. Arrive with working
+- [03:56] prototypes that demonstrate real
+- [03:58] functionality. Vzero drafts project
+- [04:00] plans, generates interactive interfaces,
+- [04:02] and builds full stack applications
+- [04:04] without writing a single line of code.
+- [04:06] And with features like AI and database
+- [04:09] integrations, screenshot import and sync
+- [04:11] with GitHub, Vzero helps reduce
+- [04:13] development bottlenecks and enhance
+- [04:14] collaboration between technical and
+- [04:16] non-technical team members. The result,
+- [04:19] faster iteration and a shorter path from
+- [04:21] idea to implementation. Verscell built
+- [04:24] V0 for the builders who want to create
+- [04:26] at the moment of inspiration. If you can
+- [04:29] dream it, you can ship it. Visit
+- [04:31] verscell.com/lenny
+- [04:33] to get started. That's versel.com/lenny.
+- [04:40] Jason, thank you so much for being here
+- [04:42] and welcome back to the podcast.
+- [04:44] >> Lucky to be a super fan and then to get
+- [04:46] to join, right? It's it's it's terrific
+- [04:48] to to to be on the other side.
+- [04:50] >> So, this is our second conversation. Uh
+- [04:52] we did our last conversation a year and
+- [04:54] a half ago. I don't know if you know
+- [04:55] this, but it became a pretty legendary
+- [04:57] episode. It's something people continue
+- [04:59] to share. And uh that conversation is
+- [05:02] around basically a deep dive into
+- [05:04] building your sales or
+- [05:06] >> and a lot has changed
+- [05:07] >> yes
+- [05:08] >> for you and the world since then uh
+- [05:11] cough AI
+- [05:13] >> and what uh what's happened is you've
+- [05:15] gone extremely deep on what AI enables
+- [05:18] for sales for startups for go to market
+- [05:21] and what I love about conversations like
+- [05:22] this is you're basically living in the
+- [05:24] future and you're here to give us a
+- [05:27] glimpse of where things are heading and
+- [05:29] tell us how avoid the wrong turns and
+- [05:32] just help us get there ourselves.
+- [05:34] >> That I think I can do
+- [05:36] >> to start. Yes. Help us understand just
+- [05:39] the business you run this uh SAS.
+- [05:42] >> Uh what is it you sell? What is the
+- [05:43] business? What is it? What is it you do?
+- [05:45] Jason,
+- [05:45] >> you know, I'm still trying to figure it
+- [05:47] out, Lenny. Maybe you are too in some
+- [05:48] ways. Um
+- [05:49] >> yeah, that's true. So, you know, I I I
+- [05:52] am a two-time founder who started
+- [05:54] writing a blog, my god, in 2012 about
+- [05:57] all the mistakes I made after I sold my
+- [05:59] startup to Adobe.
+- [06:01] We started doing a couple meetups.
+- [06:02] You've done meetups. Um, before anyone
+- [06:05] did this stuff, we did a big meetup in
+- [06:07] 2015. Thousands of people came. Then we
+- [06:10] do 10,000 people a year at Saster
+- [06:12] Annual. I've actually also invested
+- [06:14] almost $200 million almost 10x lifetime
+- [06:18] um only into founders from the
+- [06:20] community. Um but the reason I don't
+- [06:22] know is what I folks that do are
+- [06:26] connected to our content. I'm just
+- [06:28] passionate about helping other founders
+- [06:30] see mistakes and make less of them. So
+- [06:31] anyhow, we're we're a large community. I
+- [06:33] do invest but but it turned into a
+- [06:35] business. There was no revenue in the
+- [06:36] beginning. I'm sure there was no revenue
+- [06:38] for for Lenny in the beginning and ours
+- [06:39] was less intentional, but we do do eight
+- [06:41] figures of revenue a year and it's work.
+- [06:44] It's it's that sounds great, okay, to do
+- [06:46] eight figures, but there's a lot of
+- [06:48] costs, especially on the event side. The
+- [06:50] media side has almost no costs and it's
+- [06:52] work. We have a hundred sponsors and as
+- [06:54] you know, like you have sponsors, but
+- [06:56] there's a certain level where it becomes
+- [06:58] a lot of work. Like getting two folks to
+- [07:00] sponsor your podcast with a couple
+- [07:01] emails, no work, right? Uh if you wanted
+- [07:03] to have like four Lenny podcast, like it
+- [07:05] just it just scales. So we have built
+- [07:07] our own go to market team over time and
+- [07:09] I've lived the frustrations folks have
+- [07:11] followed it and then maybe I'm rambling
+- [07:13] a little bit the interesting thing the
+- [07:14] aha moment that happened to us is going
+- [07:18] into May of this year we had one AI
+- [07:20] agent in production called Deli that we
+- [07:21] both use for digital lending and digital
+- [07:23] Jason really interesting learnings and
+- [07:26] we went into our 10,000 person event
+- [07:27] this year with with an eight you know a
+- [07:29] seven figure budget and eight figure
+- [07:31] topline and two folks on the sales team
+- [07:34] who are were paid high end of market I
+- [07:36] have many flaws, but paying well and
+- [07:38] being loyal are not one of them. And two
+- [07:39] of them just quit at the event. They
+- [07:41] just quit on site. Okay. And I this is
+- [07:44] like the third time I've done this, like
+- [07:46] the eighth team I've built. And and I
+- [07:48] turned to Amelia, our chief a officer,
+- [07:49] and I said, "We're done with hiring
+- [07:51] humans in sales. We're done. We are
+- [07:53] going to push the limits with agents.
+- [07:56] We're going to p even if it doesn't
+- [07:57] quite work." Okay? And I knew from this
+- [08:00] deli, this general agent, that it would
+- [08:02] sort of work because going into annual,
+- [08:04] this general agent, this digital Jason
+- [08:06] closed a 70k sponsorship on its own. So
+- [08:09] when I saw that a horizontal agent, not
+- [08:12] trained for sales, not trained for GTM,
+- [08:14] could close one deal, like let's deploy
+- [08:16] a couple of these apps. We have time and
+- [08:18] I just can't pay a junior SDR $150,000 a
+- [08:23] year to quit. I just can't like
+- [08:24] criticize me, but I just couldn't do it
+- [08:27] one more time. I just couldn't do it one
+- [08:29] more. And I actually think this is an
+- [08:30] when I talk to CEOs at leading AI
+- [08:33] companies, they kind of don't want to do
+- [08:34] it either. They want to have the
+- [08:36] smallest sales teams they can as much
+- [08:38] for cultural reasons, right? Even if
+- [08:40] even if Replet only goes from zero to
+- [08:43] 200, it could have been 220 with a
+- [08:45] smaller sales team. I think John's okay
+- [08:46] with it, right? So, it's an enduring
+- [08:49] thing. But anyhow, so we push the limits
+- [08:50] and now if you walk into SAS's office,
+- [08:53] it's kind of funny. We have 10 desks
+- [08:55] that used to be go to market people.
+- [08:56] They're all just labeled with our
+- [08:58] agents. Reply for replet, quali for
+- [09:01] qualified, arty for artisan. Agent Force
+- [09:03] needs a nickname. Maybe we can make one
+- [09:04] up with Salesforce. There's Amelia's
+- [09:06] corner office at one end. I'm in the I'm
+- [09:07] in the back of the office and it's just
+- [09:09] agents. It's the quietest office. And
+- [09:11] netnet Lenny, it's about here's the
+- [09:14] metalarning for when we when we're
+- [09:16] recording this. The pro the net
+- [09:17] productivity is about the same. It's not
+- [09:20] better. It's not worse. Um, but it's so
+- [09:25] much more efficient and it scales
+- [09:28] because software scales.
+- [09:30] So, and uh we can talk about what we've
+- [09:33] learned. I think it's important that it
+- [09:35] takes time to train these agents. They
+- [09:36] don't work out of the box. Um, but when
+- [09:39] you dial them in, when you take your
+- [09:41] best person or your best script and you
+- [09:44] train an agent with your best person and
+- [09:45] best script, that agent can start to
+- [09:48] become a version of your best
+- [09:50] salesperson, your best person. And
+- [09:52] that's what we've learned and how to
+- [09:54] perfect it. And I just think because and
+- [09:56] criticize me, anybody, you or anyone
+- [09:58] watching or listening, maybe it's not
+- [10:00] cool. I didn't want to hire my 28th rep
+- [10:03] that was going to quit that. But I just
+- [10:04] couldn't do it one more time in the age
+- [10:06] of AI. I'm like, it's time to go to the
+- [10:07] bleeding edge
+- [10:09] and just see what we can push the limits
+- [10:11] here.
+- [10:12] >> Okay. I I I love all the directions
+- [10:14] we're already heading. Okay. So just to
+- [10:17] help people totally understand what your
+- [10:18] business is. Basically these people are
+- [10:20] selling sponsors for your conference is
+- [10:23] >> they're selling two things to because
+- [10:24] it's just relevant to the deep dive.
+- [10:26] They're selling sponsorships which
+- [10:27] average about 70 to 80k
+- [10:29] >> and then they're also selling tickets
+- [10:31] which is the high volume for this is
+- [10:32] like the the self-s serve version.
+- [10:34] They're selling tickets that are
+- [10:35] anywhere from a couple hundred bucks to
+- [10:37] if you're a VC that comes the night
+- [10:38] before could be two grand. Okay. No no
+- [10:40] no gifts for VCs that decide the night
+- [10:42] before. founders that decide early get
+- [10:44] get it at about 10 20% of cost and and
+- [10:46] and it's work to sell these tickets,
+- [10:49] right? And so you can just post an email
+- [10:51] like you do and you probably fill up
+- [10:53] Lenny Summit, but if you want to max it
+- [10:55] out, you got to do work. You got to do
+- [10:56] drip campaigns. You got to reach out to
+- [10:58] people. You have to reactivate folks
+- [11:00] that came to Lenny Summit, you know,
+- [11:02] three years ago, but you want them back
+- [11:04] because they're good people. And that
+- [11:05] just requires work. And as your base
+- [11:07] scales, you know, you have how many
+- [11:09] people subscribe to Lenny's newsletter
+- [11:11] now? 1.2 two million or something.
+- [11:12] >> 1.2 million roughly.
+- [11:13] >> Okay. How many as how many of those is a
+- [11:15] human willing to reach out to
+- [11:18] >> approaching nuns?
+- [11:19] >> 2,000. Yeah.
+- [11:20] >> Imagine you hired a 21-year-old SDR
+- [11:23] fresh out of junior college and said,
+- [11:24] "Here's my list, 1.2 million people.
+- [11:26] Start calling them.
+- [11:29] >> I want him to come to Lenny Summit." But
+- [11:31] anyhow, so we have this low-end version,
+- [11:33] which is tickets, right? Which is four
+- [11:35] or five million a year. And then we have
+- [11:36] this higherend sales cycle. And they're
+- [11:38] very different. And actually, they have
+- [11:40] different agents. And then we have a
+- [11:41] different agent to get people to come
+- [11:43] back. Laps people. So we have lapsed
+- [11:45] high-end and low-end agents. And they
+- [11:47] have different workflows and we actually
+- [11:49] use different vendors for now. For now
+- [11:51] we use different vendors.
+- [11:53] >> Okay. And so uh previously before this
+- [11:55] future world, how many SDRs did you
+- [11:58] have? How many salespeople in the
+- [11:59] >> We would have two to three SDRs and up
+- [12:02] to five AES.
+- [12:03] >> Okay. So like eight, nine people
+- [12:06] full-time working on Saster. Yes. to
+- [12:08] bring in sponsors and to bring in
+- [12:10] tickets.
+- [12:11] >> Yes. Although yes, a lot of it is
+- [12:13] inbound and renewals but not but yes to
+- [12:16] manage that business to manage the sales
+- [12:18] management and go to market. Let's call
+- [12:20] it 8 to9 and go to market. Now we have
+- [12:22] 1.2
+- [12:24] >> uh 1.2
+- [12:25] >> humans
+- [12:26] >> human 1.2 humans
+- [12:28] >> 20 agents AI agents
+- [12:30] >> 1 point what is a 0.2 human?
+- [12:32] >> Amelia who's our chief a officer who who
+- [12:34] runs everything. She spends 20% of her
+- [12:37] time managing the agents, orchestrating
+- [12:39] the agents.
+- [12:39] >> Okay.
+- [12:40] >> Which is something I think people don't
+- [12:41] Let's get into that. They talk about,
+- [12:42] but they don't actually understand what
+- [12:44] that means.
+- [12:44] >> Yeah. Okay. I definitely want to spend
+- [12:46] time there. Uh Okay. So, you used to
+- [12:48] have about 10 people full-time. Now you
+- [12:50] have 1.2 humans and you said 20 agents.
+- [12:53] >> 20 agents. Yeah.
+- [12:54] >> Okay. And what you're describing is the
+- [12:55] business is doing very similarly to what
+- [12:58] it was when you had 10 humans. Now you
+- [13:00] have 20 agents. The business doing the
+- [13:01] same.
+- [13:02] >> Yeah. Now listen, if I had two more
+- [13:03] great humans that wanted to join, don't
+- [13:05] get me wrong, and this is true of every
+- [13:07] fast, I would hire them tomorrow, okay?
+- [13:10] And and if you go if you go to Verscell,
+- [13:12] if you go to Replet, if you go to
+- [13:13] they're all going to tell you the same.
+- [13:14] I was literally in London when we were
+- [13:16] just at our abundant event. We with with
+- [13:18] Maggie who's in the leadership of
+- [13:19] OpenAI. She said they just can't hire
+- [13:21] enough enterprise reps now. Okay. And
+- [13:23] but what what it is replacing are the
+- [13:24] midpack and below. The ones that don't
+- [13:27] really understand what linear does. The
+- [13:30] ones that don't really know what a pull
+- [13:32] request is or exactly how replet works.
+- [13:35] The AI can do better. Not than the best,
+- [13:38] right? So I would love to have more
+- [13:39] humans, but I'm not going to hire
+- [13:42] someone that after their third month in
+- [13:43] the job doesn't know what Saster does. I
+- [13:45] just can't do that one more time. And
+- [13:47] you don't need to. I don't think you
+- [13:48] need to. So we're not doing This is the
+- [13:50] thing. AI is replacing the jobs people
+- [13:53] don't want to do today and it is
+- [13:55] displacing the media the midpack and the
+- [13:57] mediocre. They are their jobs are at
+- [13:59] risk. They are at risk. The best humans
+- [14:02] it is true that they will get
+- [14:04] superpowers from AI but I'm not sure the
+- [14:06] rest will. It's a it's a cautionary but
+- [14:08] I would love to have more than one but
+- [14:10] at the end of the day and 1.2 humans is
+- [14:12] plus 20 AI agents is doing about what 10
+- [14:15] human GTMs is.
+- [14:17] >> Wow. Okay. I want to spend time on the
+- [14:19] different agents you've built, but first
+- [14:20] of all, just kind of zooming out, having
+- [14:22] gone through this experience. How do you
+- [14:25] see the world of go to market changing
+- [14:28] next year in the coming years? All the
+- [14:31] plays work. It's the playbooks that are
+- [14:33] kind of broken in the age of AI. All the
+- [14:35] plays work. Outbound still works.
+- [14:36] Webinar still works. Podcasts still
+- [14:39] work. Okay. Events still work. All this
+- [14:42] stuff works. All this stuff works. Why
+- [14:44] is 11 Labs out doing a road show, right?
+- [14:47] It works. Why? Why do they go on Lenny's
+- [14:49] podcast? It works. So, the plays all
+- [14:51] work. It's just the playbooks are broken
+- [14:54] because at at for folks that aren't in
+- [14:57] the age of AI, growth has decelerated so
+- [14:59] much that nothing seems to work. Okay,
+- [15:01] it's working. It just works so much
+- [15:03] worse than 2021, but the plays still
+- [15:06] work. They just they don't have enough
+- [15:07] ROI. There's not enough budget for old
+- [15:10] school SAS from 2021. the ones that are
+- [15:12] blowing up, right? The Verscels, the
+- [15:14] Replets, the 11 Labs, they have so much
+- [15:17] demand,
+- [15:19] so much demand that, you know, that
+- [15:22] they're still running the plays, but
+- [15:24] they're they're doing them differently.
+- [15:25] They're doing them from a hyper PLG
+- [15:26] focus because there's so much demand and
+- [15:28] they're often picking and choosing which
+- [15:30] prospects to talk to to to contact. So,
+- [15:32] like, for example, Bolt is probably a
+- [15:35] distant number three behind Rep and
+- [15:36] Lovable, right? But one of my old sales
+- [15:37] guys runs sales there. And I talked to
+- [15:39] him when they went from 0 to 50 million
+- [15:41] in like six months. He's like, "We
+- [15:43] honestly just have so many leads. We
+- [15:45] just are half our job is picking which
+- [15:46] ones to respond to,
+- [15:49] right?" And he's like, and he also is
+- [15:50] like, "We closed a seven figure deal we
+- [15:52] stole from Lovable because no one called
+- [15:54] them back at lovable." So your
+- [15:56] traditional B2B SAS company, even ones
+- [15:57] at billions of revenue, even the
+- [15:59] HubSpots and the and and and uh all of
+- [16:02] them, they don't have so many great
+- [16:03] leads, they don't call them back. So
+- [16:06] that is a different world um not easy
+- [16:08] different world and then this this world
+- [16:09] where nothing seems to be working is
+- [16:12] just because the demand has evaporated
+- [16:14] right so
+- [16:16] both ends have an incentive in 2026 to
+- [16:19] push the limits for AI for go to market
+- [16:22] the ones that are hyperrowing can't
+- [16:23] touch everybody they can't do everything
+- [16:26] not everyone like Versell will build
+- [16:28] their own internally we can talk about
+- [16:30] why most folks should not build they
+- [16:32] should buy for the same reasons it's
+- [16:34] always been true in software or we can
+- [16:35] talk about it. At the low end, you still
+- [16:37] need humans, but ruthless efficiency is
+- [16:40] going to be the name of the game for
+- [16:41] 2026. So, anything where AI works, the
+- [16:43] demand is inexhaustible. So, everyone's
+- [16:45] either looking for more efficiency or
+- [16:47] they just can't service the massive
+- [16:49] amount of inbound they have. Um, and so
+- [16:52] maybe that doesn't totally answer your
+- [16:53] question or I got a little bit off
+- [16:54] track, but that's how the world's
+- [16:56] changing. Like, when we first did this,
+- [16:58] which wasn't that long ago, in a way,
+- [17:00] pre the AI explosion, all B2B companies
+- [17:03] were kind of the same. like they grew at
+- [17:04] somewhat different rates. Some blew up
+- [17:06] faster like a Samsara. Some took longer
+- [17:08] like a UiPath, but come on. They were
+- [17:10] all they all kind of grew the same way
+- [17:12] for the same ACV for the same deal size.
+- [17:14] Now, just like in venture and everything
+- [17:16] else, it's wildly bifurcated, right?
+- [17:18] You've got the low end, which is all
+- [17:19] about price increases and forcing things
+- [17:21] onto the base. And at the high end, we
+- [17:24] have something we've never seen since
+- [17:26] 2020, which is everyone in the market at
+- [17:28] once.
+- [17:30] Everyone in the market at once. This is
+- [17:31] something that people don't understand.
+- [17:33] Why why are why are these companies
+- [17:34] doing so well? Why are they blowing up?
+- [17:36] Because they're it's not just at the
+- [17:38] software. We we love this stuff, Lenny,
+- [17:39] right? All these new tools. We love
+- [17:40] them. But it's not one law firm looking
+- [17:42] at Harvey. It's everyone. It's everyone,
+- [17:45] right? It's not a few folks looking at
+- [17:48] video on the internet. It's everyone
+- [17:49] trying to make video on the internet
+- [17:51] >> because there's a lot of push from the
+- [17:53] top of like we need to adopt AI. We need
+- [17:54] to be more productive. Now, everyone,
+- [17:57] not the traditional, like the
+- [17:58] traditional metric was in most
+- [18:00] categories, 3 to 5% of prospects would
+- [18:02] be in market a year.
+- [18:04] >> So, you'd send a trillion emails and you
+- [18:05] do cold calls and you'd hope maybe 2026
+- [18:08] was the time they're willing to dump
+- [18:09] Salesforce for your new product. So, add
+- [18:12] all that up, 5%. In many categories,
+- [18:14] we're north of 50% in market.
+- [18:17] So, that just totally changes. The plays
+- [18:20] still work. showing up in person,
+- [18:21] actually knowing what the hell you're
+- [18:23] selling, knowing how to get through
+- [18:24] procurement, all of those are work. But
+- [18:26] other than these weird windows,
+- [18:28] artificial windows in 2020, we've never
+- [18:30] had so many people in market at once.
+- [18:31] >> And this is for AI products specifically
+- [18:33] or
+- [18:34] >> Yeah. that that have massive ROI.
+- [18:37] >> Yeah. Productivity.
+- [18:38] >> I want I I need to bring a Vibe Code
+- [18:40] tool into my company, Lenny. Okay. Go
+- [18:42] out and do the work. Compare Replet,
+- [18:44] Lovable, and whoever else and buy one.
+- [18:47] Okay. Harve like why are Harvey and the
+- [18:49] others in Lagora doing so? I mean
+- [18:50] they're great tools but everyone's like
+- [18:52] we need to automate how we review
+- [18:54] contracts and documents with AI now.
+- [18:56] They want a leader and they're going to
+- [18:58] do it and that will slow down like not
+- [19:00] everybody can be in market every year.
+- [19:01] It it's exhausts an enterprise. So this
+- [19:04] this is a version of the AI bubble that
+- [19:06] will end and we will revert in some ways
+- [19:08] to old school but when everybody's in
+- [19:09] market it just it just changes how you
+- [19:12] run the whole thing. So the so the
+- [19:14] fastest growing ones and the slowest
+- [19:16] growing ones both have incentives to use
+- [19:18] AI here just for different reasons.
+- [19:20] >> How about the sales profession
+- [19:21] specifically? Are SDRs going to be
+- [19:24] replaced fully AES? How do you see the
+- [19:25] future of the sales profession?
+- [19:27] >> The classic
+- [19:30] SDR junior kid that is hired out of
+- [19:32] college to send emails and respond to
+- [19:37] respond to inbound emails and maybe get
+- [19:38] back to them later that day or the next
+- [19:40] day. We don't need them. We're not going
+- [19:42] to need most of them. SDRs that knock on
+- [19:45] doors in a lot of industries aren't
+- [19:47] going to be displaced, right? The
+- [19:49] emailbased cadence SDR will be 90%
+- [19:53] displaced by AI next year. The people
+- [19:56] have different nomclature. I call BDRs,
+- [19:58] folks that qualify leads coming in. The
+- [20:00] contact mess that we see, we have no
+- [20:02] need for them today. They should be
+- [20:04] extinct next year. There is no reason in
+- [20:06] the age of AI I have to hit contact me,
+- [20:08] wait two a day or two for a 21-year-old
+- [20:11] that doesn't know what linear does to
+- [20:13] say, "Hey, what do you do? How much are
+- [20:15] you willing to pay me? Maybe I'll set up
+- [20:17] a call with Lenny later this week."
+- [20:19] There is no need to do that with AI. The
+- [20:21] AI, our AI alone, one of our agent fully
+- [20:23] qualifies everybody on the website so
+- [20:25] they don't even know they're being
+- [20:26] qualified. It just sets up the meeting
+- [20:27] with the salesperson. So this SDR, this
+- [20:30] email-based SDR and this human
+- [20:33] qualifying leads, which is not good for
+- [20:35] the customer. It doesn't feel good to be
+- [20:36] qualified, does it? They will be mostly
+- [20:38] extinct next year. I'm guessing with
+- [20:41] your now the AE, the classic human doing
+- [20:44] the sales, most of the tools aren't
+- [20:46] there yet for the most part. I think 70%
+- [20:50] of their jobs will be safe by the end of
+- [20:52] next year, but I think it will decline
+- [20:54] to 40 or 50. I don't think there's any
+- [20:56] reason what we're seeing in other
+- [20:58] categories, a great agent can't close a
+- [21:00] deal too. If there's not a lot to
+- [21:03] negotiate in price and the agent knows
+- [21:04] the product better than a human, at
+- [21:06] least for folks like you and me. I mean,
+- [21:08] do you like to talk to a human in sales
+- [21:10] >> sometimes? Uh I'd rather I'd rather just
+- [21:12] chat chat with a Yeah. a really smart
+- [21:14] AI.
+- [21:15] >> Yeah. So, that's all in progress now.
+- [21:17] But the classic and the tough part and a
+- [21:19] lot of folks ask this question, Lenny,
+- [21:21] they say, um, okay, Jason, I I see that
+- [21:23] in your data. How are we going to build
+- [21:26] the sales profession if there's no
+- [21:27] entry-level jobs in SDRs and AES? And
+- [21:30] that's a meta question across all of AI.
+- [21:32] We're already seeing AI concentrate
+- [21:35] strength in sort of mid-tier folks,
+- [21:38] isn't it? And we're already seeing lots
+- [21:39] of folks cut back on entry-level hires,
+- [21:41] you know, Shopify and others aside,
+- [21:42] where they'd rather have the six or
+- [21:44] seveny old engineer that's a cursor
+- [21:46] machine rather than train some kid. It's
+- [21:49] just more efficient today, right? I'm
+- [21:51] sure you see that across a lot of folks
+- [21:52] you talk to. It's gonna happen in sales,
+- [21:54] too. So the folks that know how to
+- [21:56] manage an agent, work with an agent, the
+- [21:58] folks that know their product for real,
+- [22:01] they're going to become more valuable
+- [22:02] and the rest are going to become less
+- [22:03] valuable.
+- [22:04] >> It's interesting because I'm an investor
+- [22:06] in a bunch of startups as are you and
+- [22:08] I'm actually seeing a lot of asks for go
+- [22:10] to market people, sales people. Do you
+- [22:13] think this is kind of a temporary
+- [22:14] because there's so much demand, they're
+- [22:15] like, "Oh, we need people to help and
+- [22:16] then this will start to become more AI
+- [22:18] over time or are they just looking for
+- [22:20] these really senior people that you're
+- [22:21] talking about?" Well, listen, whether
+- [22:23] you're managing humans or orchestrating
+- [22:26] agents, you need leadership.
+- [22:28] We've yet to produce an autonomous CEO.
+- [22:31] I know folks talk about how on on
+- [22:33] Twitter that will AI will replace the
+- [22:35] CEO, but I don't know that that's
+- [22:36] literal as much as figurative, right?
+- [22:38] So, we're still going to need the
+- [22:39] seuite. We're still going to need VPs. I
+- [22:42] mean, it's become so much work to manage
+- [22:44] a million leads, right? A half million
+- [22:46] leads. We we need these leaders whether
+- [22:49] the the question is and I've seen your
+- [22:51] call out there and I saw your tweet on
+- [22:53] it. The question is how many of the
+- [22:55] folks that had the current playbooks
+- [22:58] are the right folks for the future. I'm
+- [23:01] thinking maybe 20%. of the folks I
+- [23:04] talked to 20 for are still panicking
+- [23:06] about AI and and I'll tell you how to
+- [23:09] not how to be in the 20% if you want to
+- [23:11] know but I think very few like the
+- [23:14] Janine from Verscell are going to make
+- [23:15] the jump so we'll see there will be huge
+- [23:18] organizations right like Denise just
+- [23:20] went from Slack and Salesforce after 14
+- [23:22] years to be CRO open AAI she's working
+- [23:24] going to be pretty high level right so
+- [23:26] she may not know how to need to know how
+- [23:28] to implement the agents but most of the
+- [23:30] folks your companies want to hire I
+- [23:33] would just make sure they could they
+- [23:34] really want to roll up their sleeves and
+- [23:36] do the job of 2026 2027, right? Um just
+- [23:40] because they worked at Slack does not
+- [23:41] necessarily mean they have the skills at
+- [23:43] your startup.
+- [23:44] >> You said that you had some tips for
+- [23:45] folks to actually be this 20%. What are
+- [23:47] some If someone's listening to this
+- [23:48] like, "Oh man, my job is in trouble.
+- [23:50] What should I focus on?"
+- [23:51] >> It's going to sound simple. It will work
+- [23:53] and most almost nobody's doing this.
+- [23:56] Pick a tool, an agent, an agentic tool
+- [23:59] to solve one of your problems. It
+- [24:02] doesn't almost m just one that's the
+- [24:03] most painful or the one that's most
+- [24:05] acute. It could be support. It could be
+- [24:06] SDR. It could be inbound qualification.
+- [24:09] Pick one. Pick a leading vendor. I don't
+- [24:11] care which one it is. Okay? We can talk
+- [24:13] about how to pick a vendor, but pick a
+- [24:15] leading vendor that treats you well that
+- [24:17] you like and do it yourself.
+- [24:21] Train the agent. Ingest the data. Do the
+- [24:25] iterations. Understand how this damn
+- [24:28] thing works. Okay. The folks that are
+- [24:31] lost today have never done it. We
+- [24:33] literally we've turned into a consulting
+- [24:35] shop. Lenny, it's kind of crazy. I I
+- [24:37] don't know what I think about it, but we
+- [24:38] literally just did a job. Amelia, our
+- [24:40] chief A officer, and and Mia, she she
+- [24:43] she drove it. We did a call with a
+- [24:44] public B2B company worth well over 10
+- [24:47] billion that you would think is an AI
+- [24:48] leader. Okay? Okay. And we did a call
+- [24:50] with their team and they're like, "We're
+- [24:51] strugg."
+- [25:01] Okay. One, no chance. Two, we asked
+- [25:03] them, "How much of this have you done
+- [25:04] yourself?" Like, "Have you have you done
+- [25:06] it yourself?" And it was just crickets
+- [25:07] on this call of 20 people. No one had
+- [25:09] done it theirel. So, they thought they
+- [25:10] could take an untrained agent with no
+- [25:13] training and just magically give it to a
+- [25:15] bunch of young 20-year-old SDRs and and
+- [25:17] this magically would sell on its own. It
+- [25:19] doesn't work that way, right? So, the
+- [25:21] way all these agents work is you there's
+- [25:25] a lot of jargon which is intimidating.
+- [25:27] Ingestion, orchestration, training. It's
+- [25:30] not that hard, guys. It's just
+- [25:31] different. It's the same B2B stuff we've
+- [25:34] been doing for over a decade. You go to
+- [25:36] a website, okay? You give it a URL of
+- [25:38] your website. You give it a URL of what
+- [25:40] your wiki is. You give it a URL of your
+- [25:41] training docs. Maybe you upload your
+- [25:43] perspectus. You upload a few documents.
+- [25:45] It ingests the data. And ingesting means
+- [25:47] it uploads.
+- [25:49] It means it processes the data and it
+- [25:51] does some other stuff you don't really
+- [25:53] need to know. Some ragging, some
+- [25:54] vectoring, it really doesn't matter. You
+- [25:56] you upload some stuff and it kind of
+- [25:59] knows it and isn't great at it. And then
+- [26:01] it will turn it into ideally it will
+- [26:03] turn it into questions and you answer
+- [26:04] these questions and it they will be get
+- [26:06] the more you answer and train it.
+- [26:07] Training is just answering questions and
+- [26:09] getting better and better. So, first you
+- [26:11] upload a bunch of your stuff. Then you
+- [26:13] spend hours training it, often with the
+- [26:15] help of a vendor, someone called a
+- [26:17] forward deploy engineer, which is a
+- [26:18] scary term. It means someone that's
+- [26:19] going to help you do this. You upload
+- [26:22] your stuff, you try to get it right, and
+- [26:23] then you basically have to make sure
+- [26:26] it's right. QA testing. And every day
+- [26:29] when that AISDR sends out emails and do
+- [26:31] practice emails, they will say some dumb
+- [26:33] things. Maybe it's hallucinations. It
+- [26:36] really doesn't matter what the technical
+- [26:37] term is and you correct it and each and
+- [26:40] if you do this for 30 days and every day
+- [26:43] you spend an hour or two correcting
+- [26:45] those mistakes by the 30th day it's
+- [26:47] going to be pretty good and this is
+- [26:50] anyone can do this that has been in B2B
+- [26:51] or SAS anyone can do what I just
+- [26:53] described it is not that different than
+- [26:54] other things we've done it's just
+- [26:56] sequenced differently but nobody does
+- [26:58] this everyone's panicked and if you if
+- [27:00] you can go do this pick any tool pick
+- [27:01] pick uh agent force pick qualified pick
+- [27:03] artisan pick whatever you want If you
+- [27:05] can go do this and get it live into
+- [27:07] production, you're hyper employable. All
+- [27:09] the companies you talked about that need
+- [27:11] a GTM person, they will hire you. You
+- [27:13] could be imaginally be their chief
+- [27:14] agentic GTM officer because but almost
+- [27:18] anyone can do this if they want to. It's
+- [27:19] just going to take a month of your time
+- [27:21] and it might take you 50 or 60 hours
+- [27:23] plus qualifying the vendor, right? And
+- [27:25] in the old days, like when we diverted
+- [27:28] our podcast, you'd hire an agency and
+- [27:30] disappear. That's how you do this stuff.
+- [27:32] Don't It don't work that. The agencies
+- [27:33] don't know how to do this. you've got to
+- [27:35] do it yourself. But if you do, man, you
+- [27:36] will rock. You will just you will just
+- [27:39] rock and you will learn, right? You will
+- [27:41] learn um and you will learn the limits
+- [27:44] and you will learn the agent can what it
+- [27:46] can do and where it can't do. And then
+- [27:47] you will learn how to do the next one,
+- [27:49] right? So like we're pretty far on agent
+- [27:51] force, which is Salesforce's one, which
+- [27:53] Mark talks a lot about, but we're we're
+- [27:54] probably one of the only organizations
+- [27:55] of our size on it. I will tell you a
+- [27:57] cheat code which is pretty interesting.
+- [27:59] So, we've got we had three of these
+- [28:01] agents working for sales.
+- [28:03] After training it and learning it and
+- [28:05] spending months time to learn it, we got
+- [28:06] it down to one prompt. And prompt is
+- [28:08] another almost intimidating word. A
+- [28:10] string of text that describes what you
+- [28:12] want this thing to do. Okay? We took
+- [28:14] that prompt and gave it to agent force.
+- [28:16] Then a day was pretty good. So, you will
+- [28:18] if you can do one of these, it'll be
+- [28:20] really hard. It'll be brutal. Then the
+- [28:21] second one will be easier. And then
+- [28:23] you're going to be like the master of
+- [28:25] the universe in AI if you can do it
+- [28:26] yourself. But if you're waiting for
+- [28:27] people on your team to do it, if you're
+- [28:30] waiting for an agency to do it, I think
+- [28:32] you're going to be out of a job.
+- [28:35] Right? So this is like everyone comes to
+- [28:37] us as an experts. We're not we're only
+- [28:39] experts because we did it 20 times.
+- [28:41] >> I think what might be helpful here
+- [28:42] actually is to do a a tour kind of a
+- [28:45] quick tour of the agents that you've
+- [28:46] built and what they do, which ones have
+- [28:47] been most impactful. And then as you do
+- [28:49] that, what products you use, what what
+- [28:52] powers these agents that that you like
+- [28:54] and maybe don't like. If any if anyone
+- [28:56] goes to saster.ai/agents,
+- [28:58] we'll you'll see everything we built.
+- [29:00] It's all bulleted out. You can copy us
+- [29:02] and I'll walk you through it. But two
+- [29:04] two caveats or things at the top. I
+- [29:06] built a lot of stuff in Replet. We can
+- [29:07] talk about it for fun. I'm like a top 1%
+- [29:08] user. I love it. None of the GTM stuff
+- [29:11] we built ourselves. Don't build it
+- [29:13] yourself. You're not Versel. You don't
+- [29:14] have a full-time wicked awesome engineer
+- [29:17] that wants to build this. Could all this
+- [29:19] stuff be built yourself? It's the same
+- [29:22] idea of building your own notion. You
+- [29:23] could do it, but don't do it. It's these
+- [29:26] products are expensive. They're not so
+- [29:28] expensive. It's worth and then
+- [29:30] maintaining the pace of innovation is so
+- [29:32] fast. Even if you can hire someone to
+- [29:34] build it internally, it will become
+- [29:35] obsolete if you're not careful in a
+- [29:37] couple months. So, we've built a lot of
+- [29:39] stuff. We could talk about um uh I we I
+- [29:42] built a a calculator to do startup
+- [29:43] calculations, used 800,000 times in 90
+- [29:45] days
+- [29:46] >> for valuation, right?
+- [29:47] >> Yeah. For valuations. I built a pitch
+- [29:48] deck reviewer that's reviewed almost
+- [29:50] 3,000 pitch decks. Lots of fun stuff,
+- [29:51] but none of the GTM stuff we built
+- [29:52] ourselves. None of it. So, just a
+- [29:54] caveat, don't build it yourself unless
+- [29:56] you're Verscell, unless you have a
+- [29:58] reason. That was a great pod. It was
+- [30:00] wonderful. Don't do it. Don't do that.
+- [30:01] >> Basically, if unless you have a awesome
+- [30:03] go to market engineers
+- [30:04] >> for and they really want to do it.
+- [30:06] They're really are chomping at the bit
+- [30:08] to do it. Um, don't do it. So, I started
+- [30:10] and this is not where other folks would
+- [30:12] start, but there's some learnings. I
+- [30:13] started there's an app called Deli,
+- [30:15] which makes digital clones. And, um, you
+- [30:18] used it for the Lenny bot a long time
+- [30:19] ago. I saw you do it. What's that? Yeah.
+- [30:21] Lenny.com. Yeah. Check that out.
+- [30:23] >> I saw it a long time ago. It was
+- [30:25] interesting, but I I I did it didn't
+- [30:27] click. And then Brian Halligan, who's
+- [30:28] the founder chairman of HubSpot, did one
+- [30:30] too. Uh there's Sequoia backed and he
+- [30:32] was working at Sequoia, so he helped
+- [30:33] them early on. And then I kind of had a
+- [30:35] magic moment and this is the way it
+- [30:37] works in AI when I saw the combination
+- [30:38] of the two. So yours was really like
+- [30:40] people should love moneybot because it's
+- [30:42] got it's if folks haven't tried it, try
+- [30:44] it. It is ingested. I know a scary term
+- [30:46] for some. It is ingested every single
+- [30:49] interview you've ever done, right? Every
+- [30:50] word of content you've written. So, and
+- [30:52] it can combine them all together. It can
+- [30:54] combine the Verscell story and the and
+- [30:56] and and and uh what what you did with at
+- [30:58] with Dylan at Figma and can synthesize
+- [31:00] the knowledge and it's pretty good. It's
+- [31:02] pretty good. What I liked about Brian's
+- [31:05] better than yours though was that it was
+- [31:07] Brian and Lennybot is kind of Lenny, but
+- [31:10] it's also kind of all your guess, right?
+- [31:11] I think that's the superpower of it,
+- [31:12] right? That's the way I think about it
+- [31:14] is not just my intelligence. It's the
+- [31:16] the lessons of every single person I've
+- [31:17] had on this podcast.
+- [31:18] >> So, it's great. But, I thought, hey,
+- [31:19] maybe I could finally do one that's
+- [31:21] that's in between the two. Like I I've
+- [31:23] been a founder and I and I've written
+- [31:25] 10,000 pieces of content. So, that's a
+- [31:26] little bit like Brian, but I have more
+- [31:28] than Brian and I'm not Lenny in terms of
+- [31:30] productivity, but I've got a lot of
+- [31:31] voices. So, I'm like, I'll try it. I
+- [31:33] used Deli. I instantly broke it because
+- [31:35] I had too much data to ingest. It took
+- [31:36] about a week to get going. Um, and it
+- [31:39] worked. people and it's just like you
+- [31:40] people some people spend hours a day on
+- [31:42] digital JSON in another browser and they
+- [31:44] don't do what they do with Lenny but
+- [31:45] they'll they'll ask about their sales
+- [31:47] wos and what to do with their sales team
+- [31:48] and they'll and they'll upload LinkedIn
+- [31:50] and ask if they should hire people
+- [31:52] and then a curious thing happened which
+- [31:54] is that because we do these events
+- [31:56] people started to use it for questions
+- [31:57] for the events hey how do I get a refund
+- [31:59] hey can I get a discount hey where is
+- [32:02] the Sanonteo County Fairgrounds Jason
+- [32:03] Liz is really in the San Francisco Bay
+- [32:05] area like who's speaking or and and like
+- [32:08] there's endless questions Right. And we
+- [32:10] used to use prefin intercom and we're so
+- [32:13] busy we would answer like two weeks
+- [32:14] later like it was ter worst support ever
+- [32:16] and the the agent just started doing
+- [32:18] support on its own
+- [32:20] and then it did this thing where it sold
+- [32:22] sponsorship on its own right so so start
+- [32:26] you can start with so one place to start
+- [32:28] if you haven't started is in support
+- [32:31] okay and you don't have to buy Sierra
+- [32:33] and you don't have to buy decacon
+- [32:35] necessarily and you don't have to buy
+- [32:36] Finn but one potential place to start is
+- [32:40] is your support like can you do great
+- [32:42] 24/7 support? Can you most most apps
+- [32:45] can't in fact some of the worst
+- [32:46] offenders are AI leaders they they have
+- [32:48] no support at all on their website. So
+- [32:50] that's one place to start. Um and then
+- [32:52] the next place we started so for us the
+- [32:55] long game for the next place we started
+- [32:56] is hey we want to try outbound. Okay
+- [32:58] because we don't have 1.2 million names
+- [33:01] like you have but we have like 400,000.
+- [33:02] Okay. And we have data on them. So we
+- [33:04] wanted to say hey come come back to our
+- [33:05] SAT event. So we didn't know what to use
+- [33:09] and I'll tell you some learning. So we
+- [33:10] picked a YC company called Artisan.
+- [33:12] They've gone like from like nothing to
+- [33:13] 10 million this year. Um we picked them
+- [33:15] but this is important why they were at
+- [33:17] they were a sponsor at Saster. We didn't
+- [33:19] know and they offered to help us the
+- [33:21] most. This is the critical insight. We
+- [33:23] didn't know if Artisan was the I have
+- [33:25] opinions now. We hadn't deployed them
+- [33:27] but another vendor argued with us. He
+- [33:31] said I need 100K up front before I help
+- [33:33] you. Okay. Another one said they were
+- [33:36] scared of Saster. They didn't want bad
+- [33:38] PR if it failed. Fair.
+- [33:39] >> Oh, be Yeah,
+- [33:41] certain company.
+- [33:42] >> We don't want to be your first. Okay.
+- [33:44] And Artisan said, "We'll do it." And uh
+- [33:46] we had nothing. And here's the
+- [33:48] interesting thing about Agentic stuff.
+- [33:49] It's like support. If you have nothing,
+- [33:51] like it doesn't have to like change the
+- [33:53] world. If you're literally doing nothing
+- [33:56] and you start to do something that's
+- [33:57] high ROI, like you're going to get
+- [33:59] return, right? So, we did that one. We
+- [34:02] trained it. It's great. We did about
+- [34:04] 60,000 emails. Um saw pretty high rates.
+- [34:07] Um then we said, well, we'll try
+- [34:10] inbound. We like we don't want to have
+- [34:12] this depressing experience where a
+- [34:14] salesperson quits and it's two weeks
+- [34:15] later until they talk to. So we used
+- [34:17] this vendor called Qualified, which was
+- [34:19] founded by the XMO of Salesforce that
+- [34:21] does a lot now, but mostly focus on
+- [34:22] qualified stuff. That immediately
+- [34:24] worked. Like we had someone at 11 p.m.
+- [34:26] on Saturday night that wanted to sponsor
+- [34:28] and they sponsored and it worked and it
+- [34:30] and it worked great. Um, but again they
+- [34:32] helped us
+- [34:33] >> and this is an agent that is emailing
+- [34:35] with prospects selling them on a
+- [34:37] sponsor.
+- [34:37] >> Well, it's literally if you go to
+- [34:38] sasterannual.com and anyone should buy a
+- [34:40] product like this. It doesn't have to be
+- [34:41] qualified but but and they'll be the
+- [34:43] bubble the intercom like bubble is tuned
+- [34:46] to to qualifying inbound prospects.
+- [34:48] Folks that say, "Hey, I want to sponsor
+- [34:50] Lenny's podcast. Sorry, we're sold out
+- [34:52] through 2028, but if you want to be on
+- [34:54] the wait list, sign up here, okay?"
+- [34:56] Okay. Or or even better for us, it would
+- [34:58] qualify folks out that weren't a good
+- [35:00] fit, right? It would save so much time
+- [35:02] and it would do it 24 hours, then it
+- [35:03] would just set up the meeting. So, the
+- [35:05] reason that was a great second one was
+- [35:07] because no one was willing to do that.
+- [35:08] No human was willing to pick up the
+- [35:10] phone and talk to these people. So, it
+- [35:12] was such lowhanging fruit. Um, but the
+- [35:14] key to the first two and and if you're
+- [35:18] going to pick an agent is they they
+- [35:19] offered to help the most. You're I at
+- [35:23] the end of the day, Lenny, these are all
+- [35:25] running on cloud 4. They're all
+- [35:26] basically using a bunch of APIs mashed
+- [35:28] together. That's not new to software,
+- [35:30] right? Mashing a bunch of APIs under the
+- [35:32] hood. But deep down, I don't want to get
+- [35:34] anybody trigger anybody. Many of these
+- [35:36] leader the leaders in AI GTM, they're
+- [35:39] more similar than different. They're
+- [35:41] more similar than different under the
+- [35:42] hood. It doesn't mean the features are
+- [35:43] are parody. So, because you have to
+- [35:46] train them because it takes a month, the
+- [35:48] world's best software with no help
+- [35:51] training you is not one 99% of people
+- [35:54] should buy. So today in the old days we
+- [35:57] would qualify the best software. We
+- [35:58] would make a matrix and we would do
+- [35:59] their thing and we would compare
+- [36:01] features and do it. You got to do
+- [36:02] another column which is your forward
+- [36:03] deployed engineer or solution
+- [36:05] architecture your SE and talk to them
+- [36:07] and say who is going to help me and
+- [36:10] before you write a check get on the
+- [36:12] phone with Lenny and see if Lenny's
+- [36:13] really going to do deployment and if
+- [36:14] Lenny rocks and the other vendor is
+- [36:16] better and won't help you don't do it.
+- [36:18] And that's why we've had so much success
+- [36:20] is the first two we did. Yeah, they were
+- [36:22] startups, right? So they worked harder,
+- [36:24] but Artisan and Qualified just did the
+- [36:26] work with us. And we're not stupid, but
+- [36:27] it was work. We needed help, right? And
+- [36:29] so that's what I learned is you you have
+- [36:32] this partner, the FD and the vendor. And
+- [36:34] um and a lot of them actually might not
+- [36:36] take your business if they don't think
+- [36:37] they can help you. The best ones turn
+- [36:38] away a lot of business today, which is
+- [36:39] interesting, right? An interesting
+- [36:41] learning from this for folks is um a lot
+- [36:45] of folks say and they would say it to
+- [36:46] you if you use these lender they say you
+- [36:48] have too much data. Saster is not like
+- [36:50] us. We're a startup. We're tiny. You
+- [36:52] have 400,000 people in your database.
+- [36:53] Lenny has 1.2 million. It's not like
+- [36:56] that's I I got I I I only have 300
+- [36:58] customers. Okay. Or 200 customers. What
+- [37:01] I've learned is um
+- [37:04] that's wrong. If you have 300 customers,
+- [37:06] how many folks have come to your website
+- [37:08] ever? 30,000. How many leads do you
+- [37:11] have? How many folks in your database?
+- [37:12] How many folks have you tried to reach
+- [37:14] out before? More than a human's doing.
+- [37:16] And then they all of a sudden they have
+- [37:17] the aha moment like, "How many folks do
+- [37:19] you have in your HubSpot?" Right? How
+- [37:20] many folks do you have in your CRM? They
+- [37:21] look it up. 31,000. Okay. How many folks
+- [37:24] do you have talking to them? Zero. You
+- [37:26] don't need the scale of numbers that you
+- [37:28] and I have to make these agents work.
+- [37:31] You need you need a little bit of scale
+- [37:33] and you need a little bit of traffic,
+- [37:34] but not as much as you think. So all the
+- [37:37] learnings we have a lot of folks that
+- [37:39] honestly they don't want to do the work.
+- [37:40] They're like well Saster has a lot of
+- [37:41] scale. They have a lot of years. It's
+- [37:43] not true. And it turns out to also be
+- [37:45] like true with the training. I'm sure
+- [37:47] you've seen it with Lenny. Like I
+- [37:48] thought having 12 years of content made
+- [37:50] the difference. Nah. It's having like a
+- [37:53] couple months of really good content and
+- [37:54] a long tail beyond that. But you don't
+- [37:57] need as deep training and as much as you
+- [37:59] think. You just need a bit to be really
+- [38:01] good. So anyone that has any scale
+- [38:03] whatsoever, even a couple million
+- [38:05] revenue and up can benefit from these
+- [38:07] products, right? So we did hor general
+- [38:09] general bot got us to a certain place.
+- [38:12] Then we did SDR then for outbound then
+- [38:14] we did inbound and then we did agent
+- [38:16] force really early with Salesforce and
+- [38:18] we didn't know what to do with agent
+- [38:19] force at first, right? Um but we decided
+- [38:21] we would reactivate the folks that sales
+- [38:25] decide was not worth their time.
+- [38:28] folks that reached out to sales. And
+- [38:30] this is true at every startup. We even
+- [38:32] just talked about some of the AI leaders
+- [38:34] where a human says, "You know what? I
+- [38:36] don't think this is enough commission.
+- [38:37] I'm kind of busy. I got a $4 million
+- [38:39] deal with meta going." We just took
+- [38:42] Asian Force just on those. Okay. And we
+- [38:45] trained it on very similar prompt. It
+- [38:47] had 70% response rate.
+- [38:50] Those are people that were dying to
+- [38:52] interact with us.
+- [38:54] 70% is so good at and this is something
+- [38:58] humans were not willing to do. It wasn't
+- [39:00] worth their time. And I know this sounds
+- [39:01] critical and maybe I'm going to trigger
+- [39:02] some sales folks. But the reality is if
+- [39:05] you know if you're in a lead rich
+- [39:07] environment, okay, and there and I I I
+- [39:09] think there's lead rich and lead poor
+- [39:10] environments for for even big companies,
+- [39:12] but startups like there's not enough.
+- [39:14] But you eventually you become lead rich,
+- [39:16] okay? Reps just don't follow up with a
+- [39:18] lot of them. It's just human nature.
+- [39:20] It's even you. I bet more folks want to
+- [39:22] sponsor the newsletter than you can let
+- [39:24] in, right? Do you hum Do you pick up the
+- [39:26] phone with all of them?
+- [39:27] >> Uh I reply to all of them and then we
+- [39:28] just sell them. We're we're full. But
+- [39:30] >> yeah, but you see the point, right? Even
+- [39:32] your scale, you see the point, right?
+- [39:33] >> Yeah. Yeah. It gets challenging.
+- [39:34] >> Um and let's imagine all of a sudden you
+- [39:36] had six months of inventory available. I
+- [39:38] bet if you spooled up an agent and
+- [39:39] emailed all those folks back
+- [39:40] automatically, you'd fill up you'd fill
+- [39:42] up the docket, right? Mhm.
+- [39:44] >> So, anyone can do these sorts of You
+- [39:46] think you can't um unless you're so
+- [39:48] small
+- [39:49] >> that you have sufficient humans to talk
+- [39:52] with every potential lead, every person
+- [39:53] that touches your website, every person
+- [39:55] that clicks with anything, you can
+- [39:57] benefit from AI.
+- [40:01] So, that was kind of our journey and
+- [40:02] then we've done a lot of other niche
+- [40:04] stuff. I'll tell you at the end that the
+- [40:06] where we are today this is a maybe this
+- [40:08] is almost too much learning is we're at
+- [40:10] the point where maybe we can't do one
+- [40:12] more
+- [40:14] because right now when we when we did
+- [40:17] deli in the beginning when I copied you
+- [40:18] with deli even me I spent almost an hour
+- [40:21] a day training it in the beginning
+- [40:23] because when we started to use it for
+- [40:25] support it had an initial it started
+- [40:27] telling people the wrong dates okay and
+- [40:29] we could talk about why so I had to fix
+- [40:30] it and it made some mistakes and so when
+- [40:32] people started to use it I had to spend
+- [40:33] an hour each morning firing up Deli
+- [40:35] reviewing the issues and answering them.
+- [40:37] I don't have to do it anymore. It's well
+- [40:39] trained. Um we have so many agents going
+- [40:41] in so many emails that Amelia has to
+- [40:43] spend, you know, 10 to 15 hours a week
+- [40:47] reviewing the outputs and it's
+- [40:48] exhausting because agents work all night
+- [40:50] and they work weekends and they work on
+- [40:51] Christmas.
+- [40:53] It's a big issue, right? This is not
+- [40:55] being the orchestrator or the chief AI
+- [40:57] person is not a good job for lazy people
+- [40:59] because the agents never sleep, right?
+- [41:01] So it is so much time now to manage
+- [41:04] these 20. This is just interesting. We
+- [41:06] can't I don't know when we're going to
+- [41:07] do the 21st. We may be full. And for
+- [41:10] folks that are startups, this is a
+- [41:12] reason to go harder
+- [41:16] because everyone was in market this
+- [41:17] year. Okay, everyone. And it's going to
+- [41:19] keep happening. But business process
+- [41:21] change remains an issue for business
+- [41:23] software. Business process change at the
+- [41:25] end of the day. And so many founders get
+- [41:27] this wrong. And 99% of sales folks, they
+- [41:29] don't care about business process
+- [41:30] change. in sales works, they just want
+- [41:31] to get their commission. Doesn't really
+- [41:32] matter what you pay for an app for for a
+- [41:34] customer as long as it's fair. It's all
+- [41:36] the work to do to change the way you do
+- [41:38] your business, right? And so we're even
+- [41:40] we're at the point where we're
+- [41:41] overloaded, right? And so just be aware
+- [41:44] if you're if you're a startup or even
+- [41:45] Salesforce or HubSpot, maybe maybe close
+- [41:48] those deals in the next 12 months
+- [41:50] because the window may close where
+- [41:51] people say, "Listen, that's the coolest
+- [41:52] agent I've ever seen. I'm exhausted from
+- [41:54] the last five. I had to do five last
+- [41:56] year. I just can't literally cannot
+- [41:58] bring one more app into my enterprise.
+- [42:00] And so that's going to be a headwind
+- [42:02] that today everything seems like it has
+- [42:03] tailwinds, right? Everything's on fire.
+- [42:05] But people are going to get exhausted
+- [42:07] for having so many agents. Exhaust,
+- [42:10] man. Okay. There's so much to to learn
+- [42:13] from in what you just shared. Something
+- [42:15] I definitely want to ask about as people
+- [42:17] hear this uh agents sending off emails,
+- [42:19] agents talking to your clients. Uh we
+- [42:22] get I get a ton of emails that are
+- [42:24] terrible.
+- [42:25] >> Yes. H what have you learned about
+- [42:27] making these outbound emails good and
+- [42:30] not just you know noise? How do you make
+- [42:31] these conversations high quality? How do
+- [42:33] you
+- [42:34] >> It's a really really really good
+- [42:35] question.
+- [42:36] >> So the two maybe the two biggest
+- [42:37] learnings um
+- [42:40] take
+- [42:42] your best person on your sales team, the
+- [42:44] best marketer you have, take their email
+- [42:46] copy and use that as a template for your
+- [42:49] AI. If you the the the the terrible
+- [42:52] mistake people make people all everyone
+- [42:53] in 2024 said these products didn't work.
+- [42:55] There were two reasons they didn't work.
+- [42:57] It was before cloud 4, right? Replet
+- [42:59] didn't work. Lovable didn't exist. Gamma
+- [43:01] didn't really work before 2025, right?
+- [43:04] Before CL like the LMS reached this
+- [43:06] point where they would work for these
+- [43:07] use cases. So that was one threshold.
+- [43:09] The other thing that happened in 2024 is
+- [43:11] the vendors kind of lied and said uh
+- [43:14] just turn the product on. It'll get you
+- [43:15] revenue. No no need to train it, no need
+- [43:17] to do anything. we'll just do everything
+- [43:18] as this magic AI savant. It's not it's
+- [43:21] not the way it works this way. What you
+- [43:22] do is an a an agent will be successful
+- [43:24] in go to market in sales today. If you
+- [43:26] take what works for your best person,
+- [43:28] train I know this seems like a scary
+- [43:30] term, but it's not. Upload that text.
+- [43:33] Okay? Train the agent on it and let it
+- [43:36] iterate an AB test from that. Agents are
+- [43:37] really good at AB testing. They're
+- [43:39] really good at creating variants. AI
+- [43:40] like you ask Claude or or chat for a
+- [43:42] variant of your best email. Say, "Give
+- [43:44] me three versions of my best email."
+- [43:45] They'll be pretty good. That's all the
+- [43:46] agent has to do is take your best email
+- [43:48] you ever sent and stick it through an
+- [43:50] API and go it's it's I I'm I'm making it
+- [43:54] sound simpler than it is, but but not by
+- [43:55] too much. So train it and then what and
+- [43:58] then what it'll do and then give it some
+- [44:00] data sources and the data source could
+- [44:02] be as simple as Salesforce.
+- [44:04] Okay? And and and then if it has any
+- [44:06] data on Lenny, it can pull data and it
+- [44:09] can lightly personalize that email.
+- [44:11] Okay? And even better, if a lot of these
+- [44:14] products track all the visitors to your
+- [44:15] website, so they can see what's happened
+- [44:18] and they use other APIs and so they can
+- [44:20] personalize your emails more. And so
+- [44:22] what ends up happening is the emails
+- [44:24] that the AI write are pretty good. Okay?
+- [44:28] If you're getting terrible emails, it's
+- [44:30] a poorly trained product from a bad
+- [44:31] vendor. You should be getting emails
+- [44:33] when you get them and you're like, "This
+- [44:35] isn't as good as Jason said on Lenny's
+- [44:38] podcast, but it's pretty good." Okay,
+- [44:40] that's what AI can do today. And the
+- [44:42] magic is if a human isn't even doing
+- [44:43] that or if your mediocre humans are
+- [44:46] worse. And I'll tell you, you know, one
+- [44:50] of the first lessons I learned when my
+- [44:51] last startup was acquired by Adobe. Sam
+- [44:53] Blonde was one of our sales leaders.
+- [44:55] Then he became CRO of Brex and others.
+- [44:56] And he we inherited a bunch of reps from
+- [44:58] Adobe. We didn't ask for them. And he's
+- [45:00] like, "My god, I never read everyone's
+- [45:02] emails before. These are the worst
+- [45:03] emails that I've ever read." So the AI
+- [45:06] can do better than that. the AI can do
+- [45:09] better than than that. And so you just
+- [45:10] train it on your best and it'll be
+- [45:12] pretty good. And so so you just haven't
+- [45:15] seen a well-trained agent. And then what
+- [45:17] I learned and then another question
+- [45:18] folks ask is, "Okay, Jason, that email
+- [45:20] was pretty good. It wasn't as great as
+- [45:21] you said on stage, but it was pretty
+- [45:23] good." But do you do you tell people
+- [45:25] it's an AI or do you or do you hide it?
+- [45:28] And what we learned from sending
+- [45:29] hundreds of thousands is it doesn't
+- [45:30] matter.
+- [45:32] people. We're we're we're we're we're in
+- [45:35] an age where people don't really care as
+- [45:38] long as the email adds value and they
+- [45:40] know they're going to get an instant
+- [45:40] response. We've tried both. We've tried
+- [45:42] to say, "Hey, it's digital Amelia or
+- [45:43] digital Jason." We've tried to fake it.
+- [45:46] And what we've learned is now we just
+- [45:47] send it. We We just send it and no one
+- [45:49] cares. And sometimes we'll get
+- [45:51] especially founders will get an email
+- [45:52] back. They'll be like, "Haha, I can tell
+- [45:53] this is NI but it's pretty good. Can I
+- [45:55] do a meeting?" That kind of says it all,
+- [45:57] doesn't it? Mhm. So, we're worrying
+- [46:00] we're creating issues as excuses to not
+- [46:03] do the work.
+- [46:04] >> Your point about how sale human sales
+- [46:06] people's emails are not great already is
+- [46:10] really powerful because all we're
+- [46:11] looking at is these okay emails from AI
+- [46:13] and you're saying okay but humans
+- [46:14] they're not actually that much better if
+- [46:16] you actually look at them. My god,
+- [46:17] they're not the be listen the best
+- [46:20] outbound emails you've ever gotten. Um
+- [46:23] like for example, I know you've done a
+- [46:24] bunch of investments a lot of them are
+- [46:26] inbound to you. They want Lenny
+- [46:27] involved. Right.
+- [46:28] >> That's right.
+- [46:28] >> Some of them are just so good you can't
+- [46:30] believe it. Right.
+- [46:32] >> A few.
+- [46:33] >> Yeah.
+- [46:33] >> How many are that? But but a lot of them
+- [46:35] aren't. Right.
+- [46:35] >> Right.
+- [46:36] >> So like the best founders and the best
+- [46:38] sales execs and the best SDRs will spend
+- [46:41] two hours researching an email. Okay.
+- [46:43] Who exactly did IBM should I reach out
+- [46:45] to? What did IM? Who else exactly is a
+- [46:47] competitor that's using them? Exactly
+- [46:49] what was the ROI? They'll give you a
+- [46:50] perfect story. Like you get the world's
+- [46:52] best story. Here's your competitor.
+- [46:53] Here's how they use it. Here's exactly
+- [46:55] when they bought. Here's the ROI. Here's
+- [46:57] the case study. That's gonna that's a
+- [46:59] great email, right? How many 21-year-old
+- [47:01] STRs do that. No, they they use a to an
+- [47:04] automation tool whether it's Outreach or
+- [47:06] Gong or Salesoft or Mixmax or an AI
+- [47:08] based, but they do no work. It's not
+- [47:10] going to be that great. It's not going
+- [47:12] to be that great. So, that's why for for
+- [47:15] people get a little confused. The bar
+- [47:17] for good enough for AI GTM is not as
+- [47:20] high as we think. It's just like uh you
+- [47:23] know a a fimile of your best person
+- [47:25] reproduced as best we can. It's going to
+- [47:27] beat your midpack person. It's going to
+- [47:29] beat the person that literally knows
+- [47:30] nothing about your product.
+- [47:32] >> Is this is this an opportunity for
+- [47:34] humans to continue to thrive this layer
+- [47:36] of much better emails. Uh this came up
+- [47:38] when we had Jen Ael on the podcast. She
+- [47:40] I asked her like what tools do you use?
+- [47:41] What do you use? She's like nothing. I
+- [47:43] just write it out artisally. Uh and it
+- [47:46] works really well because everyone's
+- [47:47] sending AI emails. Is this just like
+- [47:49] where go to market sales people still
+- [47:51] can exist that's much better email or is
+- [47:54] that also
+- [47:54] >> for for if you have a high performing
+- [47:58] human team hunting high dollar value
+- [48:01] logos and when this is classic stuff
+- [48:03] Lenny and I and Jen are in a in a
+- [48:05] conference room we put a whiteboard of
+- [48:07] the 50 best folks that we want to
+- [48:09] sponsor Lenny's podcast there's only 50
+- [48:11] okay and we write notion and we write
+- [48:13] linear and we write rap there's only 50
+- [48:15] it's a and we're all trying to sell them
+- [48:17] these new sponsorships They're they're
+- [48:18] they're half a million bucks for two
+- [48:20] years. Take it or leave it. Okay. And I
+- [48:22] give we divide them up and we say
+- [48:24] Lenny's best at this, Jason's best is
+- [48:26] Jen and we each take 15 or 17.
+- [48:29] >> Dude, no need for AI there, is there?
+- [48:31] >> Agreed. No need for AI today
+- [48:33] >> because the ROI is really high.
+- [48:34] >> Yeah. And we're and we're great and and
+- [48:36] we know that the three of us are we're
+- [48:38] different. The three of us are really
+- [48:39] different. It's going to crush and we
+- [48:40] don't need any Maybe one of us will take
+- [48:42] our emails and run it through Claude
+- [48:43] real quick just to make it better,
+- [48:44] right? or or what I do is I do it for
+- [48:46] more research. Like I write the world's
+- [48:48] best email and then I say, "Claude, how
+- [48:50] could I make this better? Do a little
+- [48:51] research. It will still be better." So
+- [48:52] that's an AI boost Jen should be doing.
+- [48:54] I love Jen, but she should be she should
+- [48:56] at least be making it better. But for
+- [48:58] our 45 50 best ones, we don't need it.
+- [49:01] What if it's 5,000? Her approach just
+- [49:02] doesn't work. So yes, a lot of the stuff
+- [49:05] we're talking about lends itself to
+- [49:07] higher volume sales. But as everyone
+- [49:10] gets bigger, it's all higher volume.
+- [49:12] It's all there's just so much volume as
+- [49:14] you scale, right? So, yes, if you're
+- [49:16] tiny and you have three prospects and
+- [49:19] you're you're just getting into Y
+- [49:20] Combinator, maybe you don't need these
+- [49:22] tools, but we we graduate out of that
+- [49:24] more quickly. And and the bespoke thing
+- [49:26] for Jen, I think, will work for high
+- [49:29] dollar value enterprise, but is outside
+- [49:33] of that, I don't know, man. Uh it's uh
+- [49:37] you just can't touch enough people.
+- [49:39] Humans can't touch enough people, and
+- [49:40] humans don't want to do the work. They
+- [49:42] don't want to talk to the mediocre
+- [49:44] leads. They literally don't. I'll tell
+- [49:46] you an like when I was in London,
+- [49:49] I wanted to buy a $10,000 product. Okay?
+- [49:51] And I'm literally in London. I and we're
+- [49:53] doing SAS. I don't have any time, right?
+- [49:55] And I get confused with the time zones,
+- [49:56] Lenny. I don't know if you do. I don't
+- [49:58] even know what time it is in the Bay
+- [49:59] Area. So, I just emailed this rep at the
+- [50:01] end of the year. I'm like, just send me
+- [50:02] the contract. I want to buy it, but I
+- [50:04] have two questions. I have two questions
+- [50:05] I want answered. I told him these two
+- [50:07] questions. And they weren't even about
+- [50:08] price.
+- [50:09] took him three days to get back to me
+- [50:11] and he introduced me to someone else on
+- [50:13] his team. It wasn't worth his time. 10
+- [50:15] grand wasn't enough because not enough
+- [50:16] commission for him, right? So, he
+- [50:17] introduced someone else to me and the
+- [50:19] other guy said, "I can't answer your
+- [50:20] questions unless you'll get on the
+- [50:21] phone."
+- [50:23] And I said, "I'm in London. I'm
+- [50:25] traveling. If you will," ordinarily, I
+- [50:26] would have ended this, but I'm I'm It's
+- [50:28] a journey. I'm like, "If you answer my
+- [50:29] two questions, I will buy your property
+- [50:31] for 10K." He's like, "I need to get on
+- [50:32] the phone." Like, AI is better than
+- [50:35] that. This is not Jen's in the
+- [50:37] whiteboards thing of doing it. So, um,
+- [50:40] it will at least it will fill the even
+- [50:42] if Jen's process is right, AI can fill
+- [50:44] all the gaps. What about all the
+- [50:46] sponsors we the leads we didn't follow
+- [50:48] up with and we got a 70% response rate,
+- [50:51] right? I mean, the gens are diamond in a
+- [50:53] rough and whatever the expression, the
+- [50:55] diamond. There's not that many of them.
+- [50:57] There's not that many of them. So, uh, I
+- [51:00] I love her and I love what she says and
+- [51:01] I agree with 99% of it. But here's a po
+- [51:06] a related point.
+- [51:08] Most of us are don't have the hottest
+- [51:11] brands and we don't have the most elite
+- [51:14] CRO running them. So we end up settling
+- [51:17] for not the best sales team.
+- [51:20] That's the truth. Most 99% of the best
+- [51:23] sales reps want to work just at the
+- [51:25] hottest brands. And the minute you're
+- [51:27] not the minute your star fades just a
+- [51:29] little bit, they don't want to work.
+- [51:30] They they immediately want to jump to
+- [51:32] the next one. It's just there's a lot of
+- [51:33] reasons why. So bear in mind 99% of of
+- [51:37] the world cannot attract a team of gens
+- [51:39] or better. It's just pract even I can't
+- [51:42] even you could Lenny you're so great but
+- [51:44] even a lot of folks that would want to
+- [51:45] go work for you if you want to hire
+- [51:46] someone they'd be like well I love the
+- [51:48] but what do I have to do? I've got to
+- [51:49] sell newsletter sp like no no no no no
+- [51:52] no no I want to be CRO at lovable I love
+- [51:55] Lenny but is that really going to get me
+- [51:57] there? Right.
+- [51:58] >> Yeah.
+- [51:59] >> So we AI can AI can beat those.
+- [52:03] But AI can't beat the enterprise thing.
+- [52:05] AI I I have no idea how AI is going to
+- [52:07] do inerson sales. I someone smarter than
+- [52:10] me is going to have to answer that. But
+- [52:12] um a lot of I you know you have such a
+- [52:15] huge audience, Lenny, but I still think
+- [52:16] most of your folks are in tech and doing
+- [52:18] tech sales. Tech is the largest segment
+- [52:20] of our economy and growing, right? So
+- [52:22] for the most part, these tools will work
+- [52:24] for tech sales. Tech sales is over the
+- [52:26] Zoom, over the phone, over email. We're
+- [52:28] not We should knock on more doors. We
+- [52:30] should do more in person. All the data
+- [52:32] I've ever collected shows everything
+- [52:33] closes at a higher rate if you go in
+- [52:35] person. It's just not. But in tech, it's
+- [52:36] basically as much automation as we can
+- [52:38] get away with in GTM.
+- [52:40] >> What I think might be helpful is just
+- [52:41] like let me zoom out for a second and
+- [52:43] describe what you've gone through here.
+- [52:45] So you used to have I love this visual
+- [52:46] you had of the desks of the sales folks
+- [52:49] in your office uh where you had inbound
+- [52:51] STRs, you had outbound SDRs, maybe a
+- [52:54] support person
+- [52:55] >> and three or four AES account.
+- [52:58] >> Okay. three or four AES who kind of take
+- [52:59] these leads and then close the deal.
+- [53:02] >> And so now in just like instead of
+- [53:04] humans, there's an agent doing each of
+- [53:06] these jobs. Yes.
+- [53:07] >> You have this inbound this outbound uh
+- [53:09] agent that's just sending emails trying
+- [53:11] to find potential leads. Uh an inbound
+- [53:14] agent that's talking to people that are
+- [53:16] interested, trying to get them uh more
+- [53:18] excited. And then is there an AE agent
+- [53:21] or I forget what that?
+- [53:22] >> We have that's what I'm still learning.
+- [53:24] We have one full-time AE plus
+- [53:28] >> 20% of Amelia's time, so it's 1.2 doing
+- [53:30] what five or six AES do.
+- [53:32] >> I see.
+- [53:32] >> And no SDR BDRs.
+- [53:35] >> Got it. So basically all the top of
+- [53:37] funnels is AI. Yes.
+- [53:39] >> And there's one human now that takes all
+- [53:41] this all the great stuff and just closes
+- [53:42] the deals, negotiates pricing, things
+- [53:44] like that.
+- [53:45] >> Yeah. Maybe 1.2 just to say it. But but
+- [53:47] yeah, let's call 1.2.
+- [53:48] >> Yeah. So that's where I wanted to go. So
+- [53:50] Amelia, so that feels really important.
+- [53:51] just somebody, not necessarily
+- [53:53] full-time, but just staying on top of
+- [53:55] these agents, watching the emails,
+- [53:56] making sure quality is high, making sure
+- [53:58] they're running correctly. Talk about
+- [53:59] just like how important that part is to
+- [54:01] this whole operation.
+- [54:02] >> It It's critical. It It's critical. And,
+- [54:05] you know, people are posting on LinkedIn
+- [54:07] that they want to hire these GTM
+- [54:09] engineers or
+- [54:11] I don't think that role exists today. I
+- [54:13] I I worry when I see these roles. I
+- [54:15] think today, and listen, if we get
+- [54:17] together in 18 months, we'll we'll
+- [54:18] update this because the world's changing
+- [54:20] so fast, right? I think today 95% of 100
+- [54:23] you've got to promote someone
+- [54:24] internally. It's got to be a nerd,
+- [54:26] someone that likes marketing and sales
+- [54:28] and is quant. You know, a lot of BTOC
+- [54:31] people are frankly good at this stuff
+- [54:32] because in B toc sales and marketing are
+- [54:34] kind of the same thing, you know, but
+- [54:36] someone that's a nerd that loves to sit
+- [54:38] in front of data for a couple hours a
+- [54:39] day and and route data and manage these
+- [54:42] agents and uh they come out of product,
+- [54:44] they could come out of marketing, but
+- [54:47] maybe they could come out of RevOps, but
+- [54:49] they better be nerdy. Odds they come out
+- [54:52] of regular sales approach zero. So, I
+- [54:55] would find someone on my team that
+- [54:56] raises their hand and says, "I've
+- [54:59] already done this." Okay, I I've already
+- [55:00] I've already written 10 apps in Replet
+- [55:02] and I and I and I love Verscell and I
+- [55:04] did this and I've already tried these
+- [55:05] ones on my own. Can I please manage
+- [55:07] these for you? And then have them be
+- [55:09] your chief orchestration officer. But it
+- [55:12] is a new skill set. It it really is. And
+- [55:15] and ultimately finding someone that's
+- [55:16] going to spend an hour or two a day to
+- [55:18] manage these agents is the new new
+- [55:20] frontier for us to figure out. Um they
+- [55:22] they do not they they operate
+- [55:24] autonomously but not without constant
+- [55:27] oversight and iteration. That's the
+- [55:29] confusing part. It and and you just if
+- [55:31] you just buy one of these products and
+- [55:33] disappear, you will have zero ROI. So
+- [55:35] maybe too long of an answer, but that's
+- [55:36] critical. And I just think unfortunately
+- [55:39] >> you're going to you have to grow this
+- [55:41] resource at home today. You have to even
+- [55:43] within versel that basically grew the
+- [55:46] resource in home, right? We're not all
+- [55:47] versel, but I just haven't seen it.
+- [55:49] Everyone's hosting for this job. Um but
+- [55:53] we need veterans.
+- [55:55] We don't have veterans yet, right? And
+- [55:57] going back early in the conversation, if
+- [55:58] that is you, you're going to be super
+- [55:59] employable next year.
+- [56:02] You're going to have so many job offers,
+- [56:03] you're not going to know what to you're
+- [56:04] going to have to beat them off.
+- [56:06] >> And when you think of is Amelia, would
+- [56:08] you describe as a go to market engineer
+- [56:09] or do you is that a different role?
+- [56:11] Chief I would say officer.
+- [56:13] >> Yeah. Okay.
+- [56:13] >> But she knows the product's cold
+- [56:17] >> she knows how the all the quirks work,
+- [56:19] how all the agents work in and here's a
+- [56:21] this is this is a a complicated issue,
+- [56:24] but an interesting one. If you're
+- [56:25] running multiple agents, okay, someone's
+- [56:28] got to segment which of the base the
+- [56:30] agents are working with or they're going
+- [56:32] to have tons of conflict, you need
+- [56:34] someone smart enough and any like really
+- [56:37] nerdy demand genen marketer that loves
+- [56:38] data can do this. But you've got to
+- [56:40] segment your base
+- [56:41] >> otherwise it just becomes a mess. There
+- [56:43] are no people on X and the internet talk
+- [56:45] about these master agents that can
+- [56:46] manage agents that can manage agents.
+- [56:48] We're not there yet. Okay m maybe like
+- [56:50] I'm excited for it but we're not there
+- [56:51] yet. So just even figuring out how to
+- [56:53] segment your base so you can do inbound,
+- [56:56] retargeting, remarketing, new marketing,
+- [56:58] like so so that that is complicated,
+- [57:02] but most badass marketers kind of
+- [57:05] understand that. They're already doing
+- [57:06] AB testing, segmenting their bases. This
+- [57:07] is not new, is it?
+- [57:10] >> No.
+- [57:10] >> No. Yeah,
+- [57:11] >> it's Yeah,
+- [57:12] >> but turning it on with zero work is a F.
+- [57:14] Like it's just it's just no chance.
+- [57:17] This episode is brought to you by Data
+- [57:19] Dog, now home to EPO, the leading
+- [57:21] experimentation and feature flagging
+- [57:23] platform. Product managers at the
+- [57:25] world's best companies use Data Dog, the
+- [57:27] same platform their engineers rely on
+- [57:29] every day to connect product insights to
+- [57:31] product issues like bugs, UX friction,
+- [57:34] and business impact. It starts with
+- [57:36] product analytics, where PMs can watch
+- [57:38] replays, review funnels, dive into
+- [57:40] retention, and explore their growth
+- [57:42] metrics. Where other tools stop, Data
+- [57:44] Dog goes even further. It helps you
+- [57:46] actually diagnose the impact of funnel
+- [57:48] drop offs and bugs and UX friction. Once
+- [57:51] you know where to focus, experiments
+- [57:53] prove what works. I saw this firsthand
+- [57:55] when I was at Airbnb, where our
+- [57:57] experimentation platform was critical
+- [57:59] for analyzing what worked and where
+- [58:00] things went wrong. And the same team
+- [58:02] that built experimentation at Airbnb
+- [58:04] built EPO. Beta Dog then lets you go
+- [58:06] beyond the numbers with session replay.
+- [58:08] Watch exactly how users interact with
+- [58:11] heat maps and scroll maps to truly
+- [58:13] understand their behavior. And all of
+- [58:15] this is powered by feature flags that
+- [58:17] are tied to real-time data so that you
+- [58:19] can roll out safely, target precisely,
+- [58:22] and learn continuously. Data Dog is more
+- [58:25] than engineering metrics. It's where
+- [58:27] great product teams learn faster, fix
+- [58:29] smarter, and ship with confidence.
+- [58:31] Request a demo at dataq.com/lenny.
+- [58:35] That's data hq.com/lenny.
+- [58:38] I'm looking back at some notes I took as
+- [58:40] you were talking of just like advice for
+- [58:42] each function almost of how to be
+- [58:44] successful in this future that you're
+- [58:45] seeing. So I try to summarize briefly.
+- [58:48] So your advice for sales people is use
+- [58:50] the agents, build one yourself, try to
+- [58:52] train it, help it run, run alongside you
+- [58:54] so that you understand these tools and
+- [58:56] be the person within the sales or that's
+- [58:58] uh
+- [58:59] >> for for leadership. I advise that
+- [59:01] >> for leaders,
+- [59:02] >> I don't know that if your average SDR or
+- [59:04] junior salesperson is going to get
+- [59:05] budget for their own agent. If they do
+- [59:08] run with it, the problem, Lenny, is that
+- [59:10] all these agents that work today, they
+- [59:12] have forward deployed engineers, they
+- [59:13] have training, so they're all like 50
+- [59:14] grand and up. 50 grand, 80 grand. I mean
+- [59:17] people pay more don't get me wrong but
+- [59:19] kind of the entry level point for these
+- [59:21] is sort of like 50 grand plus 25k for
+- [59:23] the FDE or 75 like they want even clay I
+- [59:27] think starts at 100k a year so if you're
+- [59:30] a bigger organization that's cheaper
+- [59:31] than a human right it's it's a tall but
+- [59:33] but there are no $99 a month uh products
+- [59:37] which has a lot of it they're trying and
+- [59:38] I think it's going to come they don't
+- [59:40] autotrain yet particularly well and so I
+- [59:44] don't know that junior folks are going
+- [59:45] to have access to 100k budget
+- [59:46] unfortunately right so that advice is
+- [59:49] for the VPs the folks that are worried a
+- [59:52] lot of them are worried that I'm
+- [59:53] obsolete
+- [59:54] right that I'm obsolete that I'm not
+- [59:56] going to get that role at Verscell or
+- [59:58] OpenAI um so keep keep going my the
+- [01:00:02] advice for the junior folks is to
+- [01:00:05] embrace it
+- [01:00:08] you if you whatever tools your
+- [01:00:10] organization is using become the best
+- [01:00:12] person at working with that agent and
+- [01:00:14] you will automatically get more
+- [01:00:15] efficient
+- [01:00:17] Yeah. Is it annoying that that you walk
+- [01:00:19] into work and the agent set up four
+- [01:00:20] calls for you and maybe you only wanted
+- [01:00:21] to do two of them? Embrace it. Embrace
+- [01:00:24] it because you'll be twice as
+- [01:00:25] productive. Right. I was literally
+- [01:00:28] talking yesterday. There's a company I'm
+- [01:00:29] on the board of called owner.com which
+- [01:00:31] is kind of like AI for restaurants are
+- [01:00:32] crossing 100 million in revenue going
+- [01:00:34] really quickly. He's got 100 folks on
+- [01:00:36] the sales team. Kyle does. With AI, he's
+- [01:00:39] trying he's targeting 3 to five million
+- [01:00:41] in revenue per rep.
+- [01:00:43] 3 to 5 million. Honestly, if this was
+- [01:00:46] three or four years ago for a similar
+- [01:00:47] company, it would be 3 to 500K.
+- [01:00:50] That's an order of magnitude more
+- [01:00:52] efficiency. Still 100 reps, right? 100
+- [01:00:54] reps. Uh he's going to need more to hit
+- [01:00:56] the number for next year, but 3 to 5
+- [01:00:58] million per rep. So, if you're that guy
+- [01:01:00] that can work with those tools, you
+- [01:01:02] become more valuable.
+- [01:01:04] But if you fight it, if you don't want
+- [01:01:06] to do that extra meeting, if you fight
+- [01:01:08] it, um there's a there's a there's a
+- [01:01:11] tool, another tool we use for RevOps.
+- [01:01:14] There's two we use. One's called
+- [01:01:16] Momentum, one's called Attention.
+- [01:01:18] They're both great. They're very
+- [01:01:19] similar. And what it does is every
+- [01:01:20] single thing a human does is
+- [01:01:22] automatically tracked in your CRM
+- [01:01:23] instantly. Every comm real time. There
+- [01:01:26] have been tools that have done some of
+- [01:01:27] this before, but literally everything.
+- [01:01:29] And and when we rolled it out, and it
+- [01:01:31] happened with a few other folks I know,
+- [01:01:33] one of the folks on that old team quit
+- [01:01:34] that day. Quit the day we rolled out the
+- [01:01:37] the AI RevOps. You know why? He hadn't
+- [01:01:39] done anything in 30 days.
+- [01:01:41] >> The gig was up.
+- [01:01:42] >> Oh wow.
+- [01:01:43] >> Every day he would show up to our
+- [01:01:44] standup and he said, "Yeah, I'm doing
+- [01:01:45] outbound and I'm really working on that
+- [01:01:48] deal with Versel
+- [01:01:49] >> and nothing would close." And then we
+- [01:01:52] said, "Oh, we're" and he quit that day.
+- [01:01:53] So my point is he didn't lean into it,
+- [01:01:55] right? Lean into it. Now you're going to
+- [01:01:57] have full total transparency on your
+- [01:01:58] day. You know, granola is, you know, a
+- [01:02:00] side example for everything. But but AI
+- [01:02:02] is going to track everything you do.
+- [01:02:04] Like if you want to fight it, you want
+- [01:02:06] to fight the future, good luck to you.
+- [01:02:07] But embrace it and you will you will
+- [01:02:09] leap ahead of your peers that aren't
+- [01:02:10] embracing this. Embra embrace all the
+- [01:02:12] transparency, all the leads, all the
+- [01:02:14] work it makes you do. Because you can't
+- [01:02:15] close 10 times as much doing the same
+- [01:02:17] amount of work, can you?
+- [01:02:19] >> Nope.
+- [01:02:20] >> We do more work with AI. I'm working the
+- [01:02:22] hardest I've ever worked.
+- [01:02:24] That's with all these agents and all the
+- [01:02:26] output they create and Ameilia does a
+- [01:02:27] lot of it but even I am working the
+- [01:02:29] hardest but but it but it's better but
+- [01:02:31] it's not less work it's the it's more
+- [01:02:33] work the agents are so productive you
+- [01:02:35] have to keep up so I so sorry to
+- [01:02:38] interrupt for the for the for the
+- [01:02:39] managers buy an agent deploy it yourself
+- [01:02:42] don't have someone else do it do
+- [01:02:43] everything from training to ingestion to
+- [01:02:44] orchestration and those terms will be
+- [01:02:46] less scary to you for the junior folks
+- [01:02:49] be the guy the gal the person that loves
+- [01:02:51] these tools and that is the first person
+- [01:02:54] to embrace whatever it is. Don't fight
+- [01:02:55] it.
+- [01:02:56] >> Awesome. Okay. For founders in startups,
+- [01:03:00] what I'm hearing is the um be that
+- [01:03:01] forward deployed engineer, have that
+- [01:03:03] person, that sales engineer that's
+- [01:03:04] sitting there helping companies. This is
+- [01:03:06] basically an opportunity to to uh
+- [01:03:09] compete with bigger players where you're
+- [01:03:10] actually there helping them set things
+- [01:03:12] up. Like all the companies you
+- [01:03:13] mentioned, none of them are big
+- [01:03:14] companies. They're all startups, which
+- [01:03:15] is really interesting.
+- [01:03:16] >> It is true. I will say it is working
+- [01:03:18] with Salesforce the way we are. It's the
+- [01:03:21] way I haven't worked with Salesforce
+- [01:03:22] since it was the first product I bought.
+- [01:03:24] I mean, 20 years ago, dude. Um, when I
+- [01:03:26] bought Salesforce 20 years ago, I got
+- [01:03:28] everything was hands-on. I bought two
+- [01:03:30] seats. I remember back in the day
+- [01:03:32] talking to my rep. I'm like, "Don't talk
+- [01:03:33] to me. You don't have time. You work at
+- [01:03:35] Salesforce. I'm buying two seats." He's
+- [01:03:37] like, "No, no, no. This is what we do.
+- [01:03:38] I'm here for you. I'm going to help you
+- [01:03:40] get your app on the app exchange. We're
+- [01:03:42] going to do all that." And that went
+- [01:03:43] away. It's kind of back, right? And
+- [01:03:44] Mark's got 2,000 folks doing this at
+- [01:03:46] Salesforce now. So, we have a forward
+- [01:03:48] deployed engineer. I'm not even sure it
+- [01:03:49] makes economic sense. And maybe in two
+- [01:03:51] years someone like you or I would not
+- [01:03:53] get an FDE, but but but the big
+- [01:03:56] companies are figuring it out. But yes,
+- [01:03:58] pick a vendor that will make you a
+- [01:04:00] success with with an FDE, right? And and
+- [01:04:02] um people throw this term out, but
+- [01:04:04] again, it's just someone that's going to
+- [01:04:05] make sure you get trained and onboarded
+- [01:04:06] with your product for real. But yeah, so
+- [01:04:09] start startups have a motivation to do
+- [01:04:11] this in a way that maybe some of the
+- [01:04:13] incumbents really are still figuring
+- [01:04:15] out, right?
+- [01:04:16] >> Which is a big opportunity for startups
+- [01:04:17] to actually do this. And this actually
+- [01:04:19] resonates uh very uh closely to what Jen
+- [01:04:22] suggested for startups which is sell
+- [01:04:24] services initially just like do work for
+- [01:04:26] them solve their problem not with
+- [01:04:28] software to get things started to grow
+- [01:04:30] that into a massive contract with them
+- [01:04:31] that is software.
+- [01:04:33] >> You mean the mean land and expand start
+- [01:04:35] with a smaller deal and grow it.
+- [01:04:36] >> Start no like like a for like a person
+- [01:04:38] sitting there doing this work with them.
+- [01:04:41] Essentially what you're describing don't
+- [01:04:42] just like we have software go try using
+- [01:04:44] it. It's like we will have someone on
+- [01:04:46] our team helping you figure this out and
+- [01:04:48] and maybe there's not even software yet
+- [01:04:50] to do all these things, but we'll have
+- [01:04:51] them do it for you and then the software
+- [01:04:53] will take on more and more of that work
+- [01:04:55] over time.
+- [01:04:56] >> I think that's always been great advice
+- [01:04:57] and startups have always been great at
+- [01:04:59] this like in the early days you the CEO
+- [01:05:01] does it is is doing support and co's on
+- [01:05:03] boarding you. I think what's different
+- [01:05:04] today is the agent will fail without
+- [01:05:08] training and onboarding this product. It
+- [01:05:10] it it will fail like it will never it
+- [01:05:11] will never work. So it it becomes an
+- [01:05:13] imperative if you want to win like you
+- [01:05:15] need I I you this term has been bandied
+- [01:05:18] about too much but you need a team of
+- [01:05:20] humans we can call them forward deployed
+- [01:05:21] engineers that make a 100% sure that
+- [01:05:23] when the agent is turned on it's awesome
+- [01:05:26] that's your job as a founder make sure
+- [01:05:28] it's awesome versus in the old days that
+- [01:05:30] even when I built one of the first e
+- [01:05:32] signature services that was so easy to
+- [01:05:34] use we'd have some customers take them
+- [01:05:36] two years to go live big customers
+- [01:05:37] that's just not okay in the age of AI
+- [01:05:40] >> right
+- [01:05:41] >> yeah And these forward to deploy
+- [01:05:42] engineers is that just another name for
+- [01:05:44] sales engineer or is that a different
+- [01:05:45] sort of background?
+- [01:05:46] >> It can be and I think all this
+- [01:05:48] nomclature is confusing man all this
+- [01:05:50] orchestration and ingestion. I think
+- [01:05:52] we're we we're conf like Palunteer is
+- [01:05:54] obviously the single most successful
+- [01:05:56] public B2B company at the moment right
+- [01:05:57] maybe maybe data bricks and a few others
+- [01:05:59] will beat them in the next wave of IPOs
+- [01:06:01] but their idea for forward deployed
+- [01:06:03] engineers is similar but these are nine
+- [01:06:04] figure deals. Most of us aren't doing
+- [01:06:06] hundred million dollar deals. So the
+- [01:06:08] idea that you'll have Gary Tan and an
+- [01:06:09] army of folks out in the office for 6
+- [01:06:11] months getting the software to work that
+- [01:06:14] that that sort of inspires the idea but
+- [01:06:16] it's really sure it could be a sales
+- [01:06:17] engineer or solution architect but the
+- [01:06:19] difference is the sees that a lot of us
+- [01:06:21] worked with in the days were resources
+- [01:06:24] and often like there was also a classic
+- [01:06:27] resource of like eight sales reps to one
+- [01:06:28] SE. So the eight reps would there'd be a
+- [01:06:30] pod and one SE would be responsible and
+- [01:06:33] you'd kind of have to fight to get Jason
+- [01:06:34] or Lenny's time to help the eight reps.
+- [01:06:36] This is inverted. The FDE's number one
+- [01:06:39] job is to make the customer a success.
+- [01:06:42] Okay. I was literally the other day
+- [01:06:43] doing a presentation, an AI leader that
+- [01:06:46] closed a $3 million deal. Um, the FTE
+- [01:06:50] did it all themselves. Sales wasn't even
+- [01:06:52] involved in the deal. They went on site,
+- [01:06:54] they got the deployment going, they
+- [01:06:55] tuned it everything. All sales did was
+- [01:06:57] manage it through the procurement
+- [01:06:58] process. Okay, that's pretty different
+- [01:07:00] than a guy answering some questions for
+- [01:07:01] the humans, right? So it is a
+- [01:07:03] combination of customer success and SE
+- [01:07:07] or whatever but it is it is really I
+- [01:07:09] mean frankly it's just being a a classic
+- [01:07:12] consultant that gets the product done on
+- [01:07:15] day one on on day one. That's the
+- [01:07:18] difference is that when you go live it
+- [01:07:19] works. When you go live it works. That's
+- [01:07:22] what that and it's a fancy name for a
+- [01:07:24] bunch of folks on your team that when it
+- [01:07:27] goes live the AI agent actually works.
+- [01:07:28] So you have a 100% success rate instead
+- [01:07:30] of like the 5% rate of 2024. So those
+- [01:07:33] people, but they do need to be tech
+- [01:07:35] technical. I don't know if they need to
+- [01:07:36] be engineers. It can really vary based
+- [01:07:38] on, you know, I love it when they're
+- [01:07:40] kind of like mediocre engineers that are
+- [01:07:42] like in love with the product. That's my
+- [01:07:44] favorite type of FD. Like they're only
+- [01:07:46] they don't really want to code much
+- [01:07:47] anymore, but they did code and they like
+- [01:07:50] just love your product. Um but uh I
+- [01:07:53] don't think it can be someone with no
+- [01:07:54] product chops but it could all different
+- [01:07:56] folks can work but they they've got to
+- [01:07:58] know the product cold but um yeah I
+- [01:08:00] would startups like I mean the term is
+- [01:08:02] thrown around you need four folks that
+- [01:08:03] will just make sure that on go live the
+- [01:08:06] product works your agentic product works
+- [01:08:07] that's what you need
+- [01:08:08] >> I think what might be useful to close
+- [01:08:11] out this conversation is to kind of go
+- [01:08:13] through what are the things that are
+- [01:08:15] changing like maybe a handful of things
+- [01:08:17] that that are changed that are now going
+- [01:08:19] to be different in the world of sales go
+- [01:08:20] to
+- [01:08:21] And what are a few things that are just
+- [01:08:22] going to stay the same?
+- [01:08:23] >> Yeah, let's go through it. Obviously,
+- [01:08:25] support is the first one to have
+- [01:08:26] changed. It's our obviously permanently
+- [01:08:28] changed with AI, right? Whatever vendor
+- [01:08:30] you look at, 50 to 80% of support is
+- [01:08:32] done by AI. And we don't always think
+- [01:08:34] about support as GTM, but it is it's the
+- [01:08:36] start of a customer journey. It's very
+- [01:08:38] important to the customer journey. So,
+- [01:08:39] so if you're skeptical, go look at, you
+- [01:08:41] know, support has changed permanently.
+- [01:08:43] So, that that train's left the station.
+- [01:08:46] Really, as we record this, not much has
+- [01:08:48] changed in sales. I mean, I do think the
+- [01:08:50] stuff we've talked about is the bleeding
+- [01:08:51] edge. I do think the classic
+- [01:08:54] cadencebased SDR running campaigns
+- [01:08:58] through a through a tool him or herself
+- [01:09:00] will be mostly extinct with 12 months.
+- [01:09:02] There is no reason AI can't do a better
+- [01:09:04] job than that role. The classic
+- [01:09:07] qualifier qualifying inbound leads,
+- [01:09:09] which is a crappy experience for
+- [01:09:11] customers, should be similarly extinct
+- [01:09:14] within mostly extinct um in 12 months.
+- [01:09:18] the rest we're we're going to wait and
+- [01:09:20] see. I think what we do know for reps,
+- [01:09:23] for sales reps, everyone wants to be
+- [01:09:25] even more efficient in the next 12
+- [01:09:26] months. There's a lot of reasons people
+- [01:09:28] want to be again at the bottom end, it's
+- [01:09:30] it's it's cost, it's profitability
+- [01:09:32] pressures. At the high end, it's
+- [01:09:33] cultural. We just don't want 200 reps
+- [01:09:35] running around Verscell or Rep.
+- [01:09:38] Everyone at just the company owner, 3 to
+- [01:09:40] 5 million per rep is a lot different
+- [01:09:42] than 3 to 500,000. So, you have to
+- [01:09:44] adjust as a rep. you still there's still
+- [01:09:46] every AI leader can't hire enough reps
+- [01:09:49] like we talked about, but you're going
+- [01:09:50] to have to adjust to being geometrically
+- [01:09:52] if not exponentially more productive
+- [01:09:54] with help from AI. So, you have to
+- [01:09:56] embrace these tools for real. And
+- [01:09:58] everyone, a lot of folks, a lot of old
+- [01:10:00] school GTM leaders are like, you know,
+- [01:10:02] AI isn't going to hurt sales reps. It's
+- [01:10:04] just going to make them give them
+- [01:10:05] superpowers.
+- [01:10:07] The best ones, yes, the mediocre are
+- [01:10:10] just going to be like more mediocre,
+- [01:10:13] right? Um, so I think the AE is we will
+- [01:10:17] always have salespeople, but being a
+- [01:10:19] people person is not enough anymore.
+- [01:10:22] You know how you can tell a mediocre
+- [01:10:23] salesperson, Lenny?
+- [01:10:25] >> You ask them what they're really good
+- [01:10:26] at. I'm a people person, Lenny. You know
+- [01:10:28] how you can you know you know how you
+- [01:10:30] you know how good I am, Lenny? I I I'm
+- [01:10:32] on text with 10 of my best customers.
+- [01:10:33] I'm a people person.
+- [01:10:35] >> Um, what are the toughest technical
+- [01:10:37] objections you have at your product?
+- [01:10:38] What
+- [01:10:40] what they don't they don't know, but
+- [01:10:41] they're a people person. you know, this
+- [01:10:43] is like golf 3.0. It just it's not
+- [01:10:45] enough. Like it's it's it's
+- [01:10:46] insufficient. So people people are
+- [01:10:49] becoming obsolete in sales. Um field
+- [01:10:52] sales, no idea how AI is going to impact
+- [01:10:55] that if you're out in the field. I mean,
+- [01:10:57] you know, the enterprise leaders are
+- [01:10:58] hiring more field sales people than
+- [01:11:00] ever. Salesforce is hiring more than
+- [01:11:02] ever. Um and knocking on doors still
+- [01:11:04] works, man. So don't don't know the
+- [01:11:06] answers there. But the office worker and
+- [01:11:08] the work from home worker, AI is going
+- [01:11:11] to take as much of your job or make you
+- [01:11:13] as much better as it can and you got to
+- [01:11:15] embrace it. So that that's a I would say
+- [01:11:17] from support to knocking on doors. You
+- [01:11:19] know, we're going to go from 80% to 0%.
+- [01:11:21] Uh
+- [01:11:22] >> what about phone calls?
+- [01:11:25] >> You know, it's a great question and we
+- [01:11:26] should have hit it. Obviously, there's
+- [01:11:28] there's plenty of robocall and
+- [01:11:30] regulatory issues around it. Um
+- [01:11:32] certainly a lot of startups are breaking
+- [01:11:33] the rules anyway. I would say this.
+- [01:11:35] Listen,
+- [01:11:38] there are there's phone calls and
+- [01:11:40] there's even SMS. There's limits to how
+- [01:11:41] much SMS you can automate, right? A lot
+- [01:11:43] of old school businesses don't even
+- [01:11:45] check emails, right? I mean, you're
+- [01:11:47] working in the shop floor. So, those are
+- [01:11:49] unanswered questions. People are
+- [01:11:51] breaking the rules. Open AI still breaks
+- [01:11:52] the rules, right? Um, now it's licensing
+- [01:11:55] Disney content. It used to just borrow
+- [01:11:57] Disney content. We will see. Um, so I
+- [01:12:01] don't I don't know the answers to that.
+- [01:12:02] I think in in Europe it'll certainly be
+- [01:12:04] much slower than in the US, but startups
+- [01:12:06] are going to push the limits. They're
+- [01:12:07] going to push the limits on what we can
+- [01:12:09] do with AI calls, AI enhanced, whether a
+- [01:12:12] human's kind of on the line, but AI is
+- [01:12:14] doing all the work. Maybe that maybe
+- [01:12:16] that's legal, right? Getting more
+- [01:12:18] consent for SMS than we typically get.
+- [01:12:20] So to think that the typical barriers to
+- [01:12:23] roboc calling in SMS is gonna that
+- [01:12:25] startups aren't going to bend the rules
+- [01:12:26] in the age of AI, I I'm I'm dubious, but
+- [01:12:29] it's a good question. It's harder to do.
+- [01:12:30] The one thing I will add is um and it's
+- [01:12:33] a good objection to all of this and and
+- [01:12:36] I'd love to get Jen's thoughts too, but
+- [01:12:38] if you talk to the startups you'd invest
+- [01:12:40] in, uh Lenny, fewer of them are good at
+- [01:12:42] outbound phone calls than you'd think,
+- [01:12:45] right? We had um we had multip of the
+- [01:12:48] heads of uh revenue at um Ripling Speak
+- [01:12:52] at Saster, the old CRO worked on my team
+- [01:12:53] and others. They were late to develop uh
+- [01:12:57] cold calling because we never did it
+- [01:12:58] back in the the CRO was on my team. So,
+- [01:13:01] we had to you had to bring in someone
+- [01:13:02] that had worked with Sam Blonde at Brex
+- [01:13:04] who had done it. It is a real art to
+- [01:13:06] pick up the phone and close business. It
+- [01:13:08] is a specialized skill. And so, if you
+- [01:13:10] if if that's your specialized skill and
+- [01:13:12] there's no way for AI to benefit, so be
+- [01:13:13] it. But I don't think for most tech
+- [01:13:15] calls that that is as impactful as we
+- [01:13:17] pretend it is. I don't think most of the
+- [01:13:20] startups you and I work with and most of
+- [01:13:21] the folks listen to this do not close
+- [01:13:23] the majority of their revenue with cold
+- [01:13:25] human cold calls. It's it is a it is a
+- [01:13:27] craft that works but man it you got to
+- [01:13:30] be good at it.
+- [01:13:30] >> You have this line somewhere that if you
+- [01:13:32] can close on a text message AI can close
+- [01:13:34] it.
+- [01:13:36] >> Yes
+- [01:13:38] it is. I'm being facitious in the sense
+- [01:13:40] that people say that I think have weaker
+- [01:13:42] relationships with customers. This is
+- [01:13:44] why a is people have weaker
+- [01:13:45] relationships with their customers than
+- [01:13:47] they think. Yeah. And if it's so easy to
+- [01:13:49] close a deal on a text message, and
+- [01:13:52] we've done hundreds of thousands of
+- [01:13:53] these and found it, folks don't mind if
+- [01:13:55] it's an AI. If it's a good AI, why won't
+- [01:13:57] it close it on the text message? Right?
+- [01:13:59] AI can be people people, too.
+- [01:14:02] It really can't. If you don't believe
+- [01:14:04] me, folks, go to Lennybot. Is that the
+- [01:14:06] URL? Lennybot.com.
+- [01:14:07] >> Lennybot.com.
+- [01:14:08] >> If you don't think AI can be people
+- [01:14:09] people, go spend hours on Lennybot,
+- [01:14:12] don't they?
+- [01:14:12] >> Yeah. And uh the best part is you could
+- [01:14:14] talk to talk to Lennybot uh with voice.
+- [01:14:16] There's a voice feature that sounds
+- [01:14:18] exactly like me. It's unbelievable.
+- [01:14:19] >> Yeah. So, and and one a meta reason to
+- [01:14:23] go use Lennybot. Go in with a learning a
+- [01:14:25] learning mind. Don't go in bias. You
+- [01:14:27] will find that AI can be people people.
+- [01:14:30] People spend hours. Our best who are our
+- [01:14:32] best therapists today as we record this
+- [01:14:33] chat. GPT is our best best therapist on
+- [01:14:35] planet Earth. It's a people person. I
+- [01:14:37] mean, it sounds silly, but if if that is
+- [01:14:40] your best defense in sales that you're a
+- [01:14:42] people person, uh you you're the the
+- [01:14:45] sands are the sands are sinking beneath
+- [01:14:48] you right now. It's it's not enough of a
+- [01:14:49] skill. It's people person is great when
+- [01:14:52] people buy enterprise software that's
+- [01:14:54] going to take two years to roll out and
+- [01:14:55] they have no idea how it works and it's
+- [01:14:56] a hope and a prayer
+- [01:14:59] when you expect the agent to work during
+- [01:15:05] the pilot before the big check comes
+- [01:15:08] people person is insufficient
+- [01:15:11] terrific talk tell me the person that's
+- [01:15:13] going to launch my agent train it and
+- [01:15:15] get into production for me before I even
+- [01:15:17] pay you it was you know it is this is
+- [01:15:20] the dream when he this is maybe this is
+- [01:15:21] one of the biggest changes of all
+- [01:15:24] when I talk with Mark Beni off and
+- [01:15:26] Salesforce is the biggest right it's 44
+- [01:15:27] billion it's the biggest ship to to turn
+- [01:15:29] right he's like the number one thing I
+- [01:15:31] envy in Palunteer one is their high deal
+- [01:15:34] sizes he made that joke in all the media
+- [01:15:36] and all the press but the other thing is
+- [01:15:37] I wish he said I wish I could I can't
+- [01:15:39] today I wish every Salesforce customer
+- [01:15:41] now could go live before they pay
+- [01:15:45] that is so different from how we've been
+- [01:15:47] trained in many ways to almost rip off
+- [01:15:49] the customer to get them to buy the
+- [01:15:51] product. Uh try first try to avoid a
+- [01:15:54] pilot, then have the smallest pilot we
+- [01:15:55] can, then roll it out over years to
+- [01:15:58] different people. AI has upped the bar
+- [01:16:00] in terms of what customers expect. And
+- [01:16:01] that's why the best ones are blowing up
+- [01:16:03] because the the ROI is so high. Um and
+- [01:16:06] so you you've got to deliver the ROI
+- [01:16:09] before the document is e- signed today.
+- [01:16:11] That will people that haven't fully
+- [01:16:14] embraced that are at public companies
+- [01:16:17] growing 8%.
+- [01:16:20] They're still trying to play games.
+- [01:16:22] >> What are some other things that you
+- [01:16:23] think are going to change that people
+- [01:16:24] may not be thinking about that's going
+- [01:16:26] to change the way we do sales in the
+- [01:16:27] next couple years?
+- [01:16:29] >> Net net, we're going to need more sales
+- [01:16:31] and go to market professionals than ever
+- [01:16:33] because the winners are growing so
+- [01:16:35] quickly that even if they're more
+- [01:16:36] efficient, they will need more human
+- [01:16:39] beings than ever. I I I I we'd have to
+- [01:16:42] put together a spreadsheet to see the
+- [01:16:44] crossover point. Obviously, many folks
+- [01:16:46] are shrinking headcount. Microsoft's
+- [01:16:48] already said they're past peak employee.
+- [01:16:49] They will never they'll never going to
+- [01:16:50] be bigger. You're we're seeing this all
+- [01:16:52] across the companies we work with. They
+- [01:16:53] don't want to be they want to be as lean
+- [01:16:54] as they can. But AI is such a huge part
+- [01:16:57] of our economy already, right? And it's
+- [01:17:00] such it's such a force of nature and
+- [01:17:02] everyone is, you know, everyone
+- [01:17:04] eventually goes enterprise. Everyone
+- [01:17:06] eventually has a sales team. Everyone
+- [01:17:07] eventually does it. It's happening
+- [01:17:08] faster. You know, 11 Labs um 50% of
+- [01:17:11] their sales is through enterprise now,
+- [01:17:14] right? I mean, I don't know everybody.
+- [01:17:16] Um, the fact that Verscell just added
+- [01:17:18] Janine means they're going more
+- [01:17:19] enterprise by definition, right? I think
+- [01:17:21] Replet just added a sales team a couple
+- [01:17:23] months ago for real and now they've
+- [01:17:24] added another CRO. So they got to 10 and
+- [01:17:26] something million with no traditional
+- [01:17:28] sales team, but at a billion it's going
+- [01:17:30] to be flooded with salespeople. So if
+- [01:17:33] you get great at this stuff, if you go
+- [01:17:36] buy an agent today, when you listen to
+- [01:17:38] this and deploy it yourself and do the
+- [01:17:40] hard work and train it and ingest it and
+- [01:17:42] iterate it every day and get ahead of it
+- [01:17:43] and then get two agents, then three and
+- [01:17:45] then four,
+- [01:17:47] you may become more valuable, have a
+- [01:17:50] better experience in DTM, and I believe
+- [01:17:52] I hope actually be better paid. Like
+- [01:17:54] I've talked about that we should have
+- [01:17:56] $250,000 a year SDRs, but they'd be like
+- [01:17:59] at Versel, they'd be managing 10 agents,
+- [01:18:01] not 10 people. then they're worth 250
+- [01:18:02] grand instead of 80 grand or 90 grand.
+- [01:18:05] It's it's not that much, is it? So there
+- [01:18:08] is a great world coming. These are the
+- [01:18:10] best of times, aren't they, Lenny, for
+- [01:18:11] product and business, right? Just it's
+- [01:18:13] not evenly distributed. So you want to
+- [01:18:16] be you want to have if you have those
+- [01:18:18] skills, even though we're not going to
+- [01:18:20] need these SDRs and even though we're
+- [01:18:21] not going to be BDRs, even though we can
+- [01:18:23] get rid of half of AES, there is so the
+- [01:18:25] amount of revenue and growth in AI
+- [01:18:27] leaders is so phenomenal, right? Not not
+- [01:18:30] just at the startups at the Google
+- [01:18:31] clouds at everywhere the the Azour there
+- [01:18:34] they're hiring so many humans that
+- [01:18:37] netnet it's a positive for the
+- [01:18:38] profession but not for the way we've
+- [01:18:41] done it in the past you're at risk
+- [01:18:43] >> that is really interesting that we're
+- [01:18:45] still hiring and and and and this is
+- [01:18:47] what I've seen too just like everyone's
+- [01:18:48] hiring sales people go to market people
+- [01:18:50] do you think there's like going to be
+- [01:18:51] this peak in the next couple years of
+- [01:18:52] just okay now that AI is doing more and
+- [01:18:54] more of this or is it or is it just hard
+- [01:18:56] to predict because who knows how big AI
+- [01:18:58] gets how big these companies
+- [01:19:00] I mean it is over a trillion dollars. I
+- [01:19:02] don't see any re and it's accelerating
+- [01:19:04] the amount of AI is is increasing the
+- [01:19:07] amount Gartner says next year will be
+- [01:19:09] the fastest acceleration of money
+- [01:19:11] deployed into it and software in a
+- [01:19:14] decade. It's reacelerated. That can that
+- [01:19:16] last forever? No. Eventually we we
+- [01:19:17] consume 100% of the global GDP. There's
+- [01:19:20] no money left to buy. Like there there
+- [01:19:22] are some some limits. But I I think for
+- [01:19:24] I don't think you and I and anyone any
+- [01:19:26] of the millions of people that follow
+- [01:19:27] you, I don't think we got to think too
+- [01:19:29] much more than three to four years out
+- [01:19:30] here. It's too much. There's too much
+- [01:19:32] change. If you if you become a master of
+- [01:19:34] the universe and AI, you will be hyper
+- [01:19:37] employable the next two to three years.
+- [01:19:38] And if you stay with a learner's mind,
+- [01:19:41] that will just compound. And so you will
+- [01:19:43] you will have a a job that I think is
+- [01:19:46] far more interesting, even if more
+- [01:19:47] tiring than than than we used to have.
+- [01:19:49] But the days of working 20 hours a week
+- [01:19:52] and kind of phoning it in and getting a
+- [01:19:54] few deals, uh, you know, I I think those
+- [01:19:57] are forever beh That That was a great
+- [01:19:59] time. Um, even you had a little bit of
+- [01:20:01] that. You're I think you're working
+- [01:20:02] harder than you used to, aren't you?
+- [01:20:04] >> I am. I am.
+- [01:20:06] >> I mean, the classic Lenny vibe at
+- [01:20:08] 100,000 subscribers was kind of leave me
+- [01:20:10] alone. I take a lot of vacations. I do
+- [01:20:13] some good work. I mean, it's still part
+- [01:20:14] of your vibe, but I I think you're
+- [01:20:15] working harder.
+- [01:20:16] >> I'm working incredibly hard. I am. The
+- [01:20:18] original idea was create this like like
+- [01:20:21] chill newsletter life. I'm just going to
+- [01:20:22] write a newsletter once a week. Life's
+- [01:20:24] gonna be good.
+- [01:20:25] >> And uh it was just it's just hard to
+- [01:20:26] pass up on really cool opportunities and
+- [01:20:28] and do more, help it grow bigger. Like
+- [01:20:31] it's just I couldn't resist. So yeah,
+- [01:20:33] I'm working.
+- [01:20:34] >> And that should be all of us though.
+- [01:20:35] Like we should you should be feel if
+- [01:20:37] you're not feeling what you said or even
+- [01:20:39] a version of what I said then then
+- [01:20:41] you're not you're not living you're not
+- [01:20:42] in the right you're not living the AI
+- [01:20:44] dream today. It is more work. It should
+- [01:20:46] be tired. It should be like it if
+- [01:20:47] nothing even if it's better in some ways
+- [01:20:49] it is just more work. Um but but this is
+- [01:20:52] the most exciting time of our lifetimes
+- [01:20:54] to be in software. I mean good god I'm
+- [01:20:56] like I can't even code Lety and I've
+- [01:20:58] built 12 apps on replet in the last 150
+- [01:21:00] days used by a million million times.
+- [01:21:03] I've been waiting 10 years for some of
+- [01:21:04] these folks to build some of these apps.
+- [01:21:05] I just did it myself, right? I literally
+- [01:21:08] just when I was in London, I built a
+- [01:21:10] whole app where you can sell you can
+- [01:21:11] practice selling Harvey Cursor Replet
+- [01:21:15] and ChatgBT Enterprise and it works
+- [01:21:18] like we couldn't this wasn't even
+- [01:21:20] possible at the start of the year, was
+- [01:21:21] it? So, these are magical times and we
+- [01:21:23] the fact that we can we can run an eight
+- [01:21:26] figureure business with three people and
+- [01:21:28] 20 agents. It's like, you know, get get
+- [01:21:31] excited or like go join one of these
+- [01:21:33] really slow growing be like I I my
+- [01:21:36] advice is pick one of two paths today.
+- [01:21:39] Either be working harder like even you
+- [01:21:41] and I are, right? We don't have to. Um
+- [01:21:43] or honestly, I will say the truth is the
+- [01:21:46] the there were a thousand unicorns born
+- [01:21:49] in 2021, right? 800 of them are growing
+- [01:21:51] pretty slowly, will never IPO, may not
+- [01:21:53] have an exit, but they're okay with 8%
+- [01:21:56] or 15% growth. If you don't want to be
+- [01:21:57] on the journey we talked about, I'm not
+- [01:21:59] judging. I get it. We're humans, right?
+- [01:22:01] We have families. Not all of us are
+- [01:22:03] obsessed. I think I'm kind of obsessed.
+- [01:22:04] I think you've become more obsessed. If
+- [01:22:06] that's not you, join join something more
+- [01:22:09] slow growing. They still need people.
+- [01:22:11] Not as many. They still need people. But
+- [01:22:12] I would pick I would pick a lane for
+- [01:22:14] next year. Don't pretend that there's
+- [01:22:16] this middle path going to start because
+- [01:22:18] it don't exist in GTM. And I don't think
+- [01:22:20] it exists in product or engineering
+- [01:22:21] either.
+- [01:22:22] >> I love just how excited you are about
+- [01:22:24] this. just like you could tell on
+- [01:22:25] Twitter just how fun this is for you
+- [01:22:27] just learning and sharing and uh and I
+- [01:22:29] love that you're sharing it, but I think
+- [01:22:31] it's just a symptom of you're just so
+- [01:22:33] excited about what's happening and what
+- [01:22:35] you're learning and it's just like you
+- [01:22:36] can't help but share it. I'm in the same
+- [01:22:37] way. I'm just like, "Oh I just
+- [01:22:38] vibed this really cool thing. I got to
+- [01:22:39] tweet about it."
+- [01:22:41] >> It's just it is just magical
+- [01:22:44] that
+- [01:22:45] our ability to build things that we
+- [01:22:48] couldn't build before or build in ways
+- [01:22:49] and paces. It it's just
+- [01:22:52] >> it it's and it's accelerating. It's so I
+- [01:22:55] mean we could talk about it forever, but
+- [01:22:56] even for me for like I just picked Rep.
+- [01:22:58] I picked Replet because Twitter told me
+- [01:22:59] to. I could have picked another tool.
+- [01:23:00] Like I'm not an investor and I'm not I'm
+- [01:23:02] not even biased, but I'm in the top 1%.
+- [01:23:05] >> Just to double down what you said,
+- [01:23:06] you're top 1% user of Replet.
+- [01:23:08] >> Yeah.
+- [01:23:09] >> Wow.
+- [01:23:10] >> Yeah. So it really didn't work well when
+- [01:23:12] I started about 170 days ago. Then a V2
+- [01:23:15] came out and it got better. the
+- [01:23:17] hallucinations went away and then this
+- [01:23:19] is just like you got to get excited
+- [01:23:20] about folks may not know this and other
+- [01:23:22] tools when V3 came out I don't know 45
+- [01:23:24] days ago now it has agents talking to
+- [01:23:27] agents so what happens is when you when
+- [01:23:29] you and I again I can't really code so
+- [01:23:31] when I have an issue and I'm trying to
+- [01:23:33] figure out how to do something the agent
+- [01:23:34] calls in an architect or another agent
+- [01:23:36] and they debate and argue with it and
+- [01:23:38] they come up with the right answer the
+- [01:23:40] first time this happened I just fell out
+- [01:23:42] of my chair it's just so not only is it
+- [01:23:44] magical I mean great you can do a prompt
+- [01:23:46] and build a crappy app it doesn't work
+- [01:23:47] now like 150 days later you have agents
+- [01:23:49] debating how to build better code with
+- [01:23:51] each other and you don't even need to
+- [01:23:52] know how to code I mean this is the
+- [01:23:54] greatest the only greater time is going
+- [01:23:56] to be next year
+- [01:23:58] right I've been waiting I've been
+- [01:24:00] waiting right um and uh you know and
+- [01:24:03] just that the things that you can build
+- [01:24:05] today and the other I mean you know this
+- [01:24:07] but other folks I mean that's me
+- [01:24:09] building without being able to code the
+- [01:24:12] other Captain Obvious thing you know if
+- [01:24:13] you're building any why are folks so
+- [01:24:15] productive on all these tools I Every
+- [01:24:16] bit of open source software in the world
+- [01:24:18] is in these tools.
+- [01:24:20] If you want to build something that's
+- [01:24:22] been built before, it's so easy. The
+- [01:24:25] novel stuff's really hard, right? It's
+- [01:24:26] not any easier, but man, it's just these
+- [01:24:29] are these are great. And so, and and
+- [01:24:30] maybe may maybe and so for GTM for
+- [01:24:33] sales,
+- [01:24:35] it's it's it's a couple beats behind and
+- [01:24:38] and and and um there's probably a bunch
+- [01:24:40] of reasons for it. Some of it is, I
+- [01:24:42] think, ironically, is just where
+- [01:24:44] founders are interested. So marketing is
+- [01:24:47] behind sales for AI. Like the AI SGR has
+- [01:24:50] exploded. I don't really know why. I
+- [01:24:52] invested in a couple of PreAiI tools. Um
+- [01:24:54] I invested in Salesoft which was sold
+- [01:24:56] for two and a half billion as like the
+- [01:24:57] last deal the 2020 ones like the seed
+- [01:24:59] investment. No one wanted to be in that
+- [01:25:01] category. Now everyone in the world
+- [01:25:02] wants to build an AISD AR CRM. But
+- [01:25:04] marketing is slower just because they're
+- [01:25:07] really people don't really want to build
+- [01:25:08] the cursor for marketing. People say
+- [01:25:09] they do but but you it's just not but it
+- [01:25:12] it will get there. But um the innovation
+- [01:25:15] will just accelerate. It's just going to
+- [01:25:17] accelerate. So So don't be a skeptic on
+- [01:25:19] this stuff. Like if you're not as
+- [01:25:20] excited as me, then here's my last bit
+- [01:25:23] of advice on this for folks. If you're
+- [01:25:25] not if you don't feel what I feel,
+- [01:25:26] here's my advice over the holidays.
+- [01:25:30] When you have a quiet moment when you're
+- [01:25:31] having your mold wine or your hot
+- [01:25:33] chocolate or whatever, go fire up your
+- [01:25:35] browser. Do it in incognito.
+- [01:25:38] Go to your app and do everything
+- [01:25:41] with a fresh Gmail address. Try support.
+- [01:25:44] See how your support is. Try to contact
+- [01:25:46] sales. Sign up for the newsletter. Do
+- [01:25:49] everything. Try your product. If you do
+- [01:25:52] this quietly, your heart, you're going
+- [01:25:54] to cry about some of the things you've
+- [01:25:55] seen. You're going to cry how bad your
+- [01:25:57] support is. You're going to cry how long
+- [01:25:58] it takes sales to get back to you.
+- [01:26:00] You're going to cry about a couple
+- [01:26:01] things. Pick the thing that makes you
+- [01:26:03] cry the most over your mold wine and go
+- [01:26:04] buy that agent and fix it. and and then
+- [01:26:07] you will have the passion that we have
+- [01:26:11] this I always counel people to do this
+- [01:26:13] it just wasn't as actionable before
+- [01:26:16] but so many f you just get lost you
+- [01:26:19] forget about what these things you
+- [01:26:20] forget about the onboarding workflow and
+- [01:26:21] you forget about support and you forget
+- [01:26:22] how bad contact me and you're so lost in
+- [01:26:24] the strategic so you got it once a year
+- [01:26:26] ideally once a quarter just do this
+- [01:26:28] incognito mode test and even for lady's
+- [01:26:30] newsletter I bet we can find some part
+- [01:26:32] you forgot to touch
+- [01:26:33] >> nope not gonna happen I'm Just I'm just
+- [01:26:36] joking.
+- [01:26:37] >> You like, "Oh my god, I can't believe I
+- [01:26:39] I didn't touch that since I launched the
+- [01:26:41] Substack. It doesn't even go to the
+- [01:26:42] right that page just gets a 404.
+- [01:26:46] >> I'm going to do this over the holidays."
+- [01:26:47] And I love that this like usually the
+- [01:26:49] advice would have been, okay, email your
+- [01:26:51] product manager and tell them you found
+- [01:26:52] all these bugs. What you're saying here
+- [01:26:54] is no, find an agent to take care of
+- [01:26:56] this in the future. Like make this a
+- [01:26:58] much better experience for everyone
+- [01:26:59] always.
+- [01:27:00] >> Yeah. Yeah. And if it's the one that
+- [01:27:02] makes you cry, it may motivate you to do
+- [01:27:03] it.
+- [01:27:04] >> Yeah. And you don't it's not like you
+- [01:27:05] have to publish it to production. It's
+- [01:27:07] not like you have to have your, you
+- [01:27:08] know, CEO approve this thing. It's just
+- [01:27:10] like show them what you might be able to
+- [01:27:12] do. Here's what I did over the weekend.
+- [01:27:13] Uh maybe we should explore doing this
+- [01:27:15] thing with our site.
+- [01:27:16] >> Yeah. The jaw is just my job.
+- [01:27:18] >> Yeah.
+- [01:27:18] >> Yeah.
+- [01:27:20] >> Oh man. Jason, I feel like I could chat
+- [01:27:22] with you for hours, but uh I think it's
+- [01:27:24] this is a good point to to wrap things
+- [01:27:26] up. Is there anything that you wanted to
+- [01:27:29] share or is there anything you want to
+- [01:27:31] leave listeners with? One last thing
+- [01:27:32] maybe that comes up that I've learned
+- [01:27:34] that that are on people's minds and we
+- [01:27:36] can break is a lot of folks are
+- [01:27:38] concerned. Hey, this will impact
+- [01:27:39] people's jobs. What do I do? Like, okay,
+- [01:27:42] I want I I did what you said. I did the
+- [01:27:43] incognito mode. I'm going to bring in
+- [01:27:45] this this agent, this sales agent or
+- [01:27:47] this support agent. I've tried I've even
+- [01:27:49] did but but I'm worried I'm going to get
+- [01:27:51] pushed back and people are going to lose
+- [01:27:52] their jobs. Um I don't h I I don't have
+- [01:27:55] the perfect answer to this one, but I
+- [01:27:58] think be honest about it. be be honest
+- [01:28:00] that for the best people it will make
+- [01:28:02] them more productive. For the best
+- [01:28:03] people it it it will be even fun. For
+- [01:28:07] the best people they will be better at
+- [01:28:08] their job. And if it is a threat to some
+- [01:28:12] of the folks on the team, the future's
+- [01:28:13] coming anyway. We might as well embrace
+- [01:28:15] it. So it's just when I hear I I I
+- [01:28:18] wouldn't I would be positive about it. I
+- [01:28:19] would explain it helps the best people.
+- [01:28:21] Um but I I don't think dancing around it
+- [01:28:24] is the right answer in your
+- [01:28:24] organization. it it will result in
+- [01:28:26] change and if it if some jobs change
+- [01:28:28] from one world to the other that that's
+- [01:28:30] life in the age of AI don't don't hide
+- [01:28:32] it I don't think it helps
+- [01:28:33] >> I love that in your case and in uh
+- [01:28:35] Jean's case at Verscell it's not like
+- [01:28:38] you let anyone go in your case the SDRs
+- [01:28:40] quit uh and in her case she moved them
+- [01:28:43] from I believe from inbound to outbound
+- [01:28:45] or outbound to inbound she just kind of
+- [01:28:47] reshuffled them to do to have higher
+- [01:28:48] impact somewhere else
+- [01:28:50] >> I think that's an important a really
+- [01:28:52] important point this is another thing
+- [01:28:53] that I think the media creates too much
+- [01:28:55] drama on I don't think AI is not I mean
+- [01:28:58] AI has led to some layoffs. Um but even
+- [01:29:01] though most of the ones we read it's
+- [01:29:02] just a justification to do layoffs. It's
+- [01:29:04] just it's just a reason to blame it on
+- [01:29:05] it. Um uh what's a much bigger issue is
+- [01:29:09] that people just won't be backfilled
+- [01:29:10] with humans. We will use AI to
+- [01:29:13] backfield. That's what we did. Like we
+- [01:29:14] didn't fire I've never fired anyone in
+- [01:29:15] my whole career other than for
+- [01:29:16] inappropriate conduct a few times,
+- [01:29:18] right? That's that you fired today for
+- [01:29:20] that stuff. But pretty much I've never
+- [01:29:21] fired anyone that didn't do something
+- [01:29:22] inappropriate. they just when they go
+- [01:29:24] this time we just said now it's the
+- [01:29:25] agents right and so that's a much bigger
+- [01:29:27] force of nature than some random layoffs
+- [01:29:29] which probably aren't really new to AI
+- [01:29:31] right it's probably not because you
+- [01:29:33] brought in 20 agents in 2025 it's
+- [01:29:35] probably because you just want to
+- [01:29:36] downsize anyway and this is the excuse
+- [01:29:38] um so it's not it's not a it's probably
+- [01:29:41] less of a threat to you than you think
+- [01:29:42] AI um but it what it does mean is if
+- [01:29:45] you're not don't want to embrace it
+- [01:29:47] Lenny maybe don't leave your current job
+- [01:29:49] >> yeah I was just
+- [01:29:50] >> maybe don't leave your current top
+- [01:29:53] >> because the new place might not be
+- [01:29:54] hiring for this role.
+- [01:29:55] >> Yeah, I have a God I have I have a a
+- [01:29:57] sales exec who I love. I worked I'd
+- [01:29:59] known for many years and he went from a
+- [01:30:01] 100k job then almost an 800k job then
+- [01:30:04] down to a 200k job then left that one
+- [01:30:08] because he didn't like it and now he
+- [01:30:09] can't get a job at all. He's back in
+- [01:30:11] school. So maybe stay.
+- [01:30:13] >> We all maybe stay.
+- [01:30:15] >> No shame in staying is there?
+- [01:30:17] >> Yeah, I like that. Well, with that,
+- [01:30:19] Jason, we have reached our very exciting
+- [01:30:21] lightning round. This is your second
+- [01:30:22] time going through a lightning round, so
+- [01:30:23] I'll make it uh I'll make it quick.
+- [01:30:25] First question, what are a couple books
+- [01:30:28] you often find yourself recommending to
+- [01:30:30] other people?
+- [01:30:30] >> I was recently asked to write a forward
+- [01:30:32] for a book from one one of the revenue
+- [01:30:34] leaders I have the most respect for in
+- [01:30:36] the world. I read a little bit of it. I
+- [01:30:38] couldn't do it because as good as it
+- [01:30:39] was, it was dated. It wasn't current
+- [01:30:42] enough in AI. And there's just I don't
+- [01:30:45] know if we said it this it might have
+- [01:30:46] been before we started the pod. The
+- [01:30:48] plays all work, but the playbooks don't
+- [01:30:50] really work as well. So, so many of
+- [01:30:52] these GTM books are playbooks,
+- [01:30:54] especially folks selling courses and
+- [01:30:56] stuff, but they're playbooks.
+- [01:30:58] Run from the playbooks. Embrace the
+- [01:31:00] plays. And so, read all these go to
+- [01:31:02] market and sales books and take take
+- [01:31:04] great items from them, which was always
+- [01:31:06] the goal from a book, right? Pick three
+- [01:31:07] two or three things out of it. But uh
+- [01:31:09] I'm I I think I'm winging for the next
+- [01:31:13] level of books in GTM in 2026 because
+- [01:31:15] everything I've read it's it's just too
+- [01:31:17] backwards looking. So just be a skeptic.
+- [01:31:19] Grab the plays but don't adopt the
+- [01:31:21] playbook.
+- [01:31:21] >> I just had the head of a growth from
+- [01:31:23] lovable Elena Ver on the podcast. She
+- [01:31:24] had the same advice that all these
+- [01:31:26] playbooks that she's used over the last
+- [01:31:28] 20 years in growth just don't work
+- [01:31:29] anymore at AI companies.
+- [01:31:32] >> Uh next question. Do you have a favorite
+- [01:31:33] recent movie or TV show that you have
+- [01:31:36] really enjoyed?
+- [01:31:37] >> What's this one called? What's it
+- [01:31:38] called? Plurabus. Is that what it's
+- [01:31:40] called?
+- [01:31:40] >> Plurabus. Yeah.
+- [01:31:41] >> Watching that.
+- [01:31:42] >> It's And and this is so it's a good
+- [01:31:44] show.
+- [01:31:46] This is what I realized is why you
+- [01:31:48] should be excited about AI and GTM is
+- [01:31:50] Pluribus because Plur in Pluribus
+- [01:31:53] there's like a hive mind, right? We're
+- [01:31:54] all connect all the people except 11
+- [01:31:56] people or 13 people. They're all
+- [01:31:57] connected.
+- [01:31:58] People don't get this. This is why a
+- [01:32:00] right now the whole point when we're
+- [01:32:02] doing this, maybe maybe we'll do a third
+- [01:32:03] one if I'm lucky. The whole point is
+- [01:32:06] just get your AI agents to be almost as
+- [01:32:07] good as humans, but working 24/7 and at
+- [01:32:10] scale, that's pretty damn good. If it
+- [01:32:12] can do 10 or 100 times more work 24/7,
+- [01:32:15] as pretty good as your human, that's a
+- [01:32:17] resource you don't even have today. It's
+- [01:32:18] not that complicated. When AI really is
+- [01:32:20] the hive mind, when it can share all of
+- [01:32:22] the data across all of your agents and
+- [01:32:24] knows everything that happens, then
+- [01:32:27] humans are at risk in GTM.
+- [01:32:30] They're going to be so much better when
+- [01:32:31] they're the hive mind. right now our
+- [01:32:33] hive uh and and there's a bit of a
+- [01:32:35] renaissance for Salesforce as a CRM.
+- [01:32:38] There's a bunch of reasons even though
+- [01:32:39] it's old right it's founded in the 90s
+- [01:32:41] it has become the hub for these AI GTM
+- [01:32:43] agents they all plug in so Salesforce
+- [01:32:44] has become the database for all these so
+- [01:32:46] so that's a little hint of the plurabus
+- [01:32:48] hive mine but when all these agents can
+- [01:32:50] talk with each other for real and share
+- [01:32:52] all their GTM data and all the customer
+- [01:32:53] data and everything on the one next time
+- [01:32:55] we do it the 3.8 8 million people that
+- [01:32:57] read Lenny's and all the agents can
+- [01:32:59] share data together. No human that
+- [01:33:02] that's I don't mean to turn turn
+- [01:33:03] plurabus into an AIGTM show. But uh
+- [01:33:06] there's my connection. But but it it's
+- [01:33:08] pretty good, right?
+- [01:33:08] >> I get it. I get it. Oh man, that show's
+- [01:33:10] so good. I feel like every episode I get
+- [01:33:12] these pushes from Apple TV like there's
+- [01:33:14] a new episode of Player Bus. I'm like I
+- [01:33:15] can't wait to go watch that. They just
+- [01:33:17] leave the each episode ends and like oh
+- [01:33:19] I can't wait to see what happens next.
+- [01:33:21] Okay. Is there a favorite product you've
+- [01:33:22] recently discovered that you really love
+- [01:33:24] like an app or a gadget or clothing?
+- [01:33:28] >> Maybe not the last two weeks. I'll just
+- [01:33:30] give a small one just just for GTM1.
+- [01:33:32] There is because everyone's about Sora
+- [01:33:35] this and all of this and video and I
+- [01:33:37] love it. Um I get it. But there is an
+- [01:33:40] app called Reeve. It used to be Reevar.
+- [01:33:43] It's for imaging and it is the folks
+- [01:33:45] that build it built their own image LLM
+- [01:33:48] on their own. And the reason I bring
+- [01:33:49] this up, I use it every single day. is
+- [01:33:51] because it can do a lot of cool things
+- [01:33:53] with a prompt, right? But if you want to
+- [01:33:55] do cool stuff for marketing, if you want
+- [01:33:58] to create a great image, I have a CMMO
+- [01:34:01] buying my product doing this, I don't
+- [01:34:04] know a tool that is better for that kind
+- [01:34:05] of stuff. That stuff that we used to
+- [01:34:07] torture, we used to fire up Canva and
+- [01:34:08] try to create things or even worse, wait
+- [01:34:11] four days for someone to do it for you.
+- [01:34:13] I just you this is one of my cheat
+- [01:34:15] sheets. I have a couple tool to tools
+- [01:34:17] that I use that people don't get, but um
+- [01:34:19] now it's app.rei Revi, it changed its
+- [01:34:21] name, but it's just a simple prompt. Go
+- [01:34:23] to it, type in whatever image you want
+- [01:34:25] to make. And for a lot of the boring B2B
+- [01:34:28] stuff we like to do, uh, I find it's the
+- [01:34:30] best.
+- [01:34:31] >> And it's reve.com.
+- [01:34:33] >> Yeah. Rev.
+- [01:34:34] >> I'm looking at it right now. Copy bar
+- [01:34:36] delivering matcha through a quite moss
+- [01:34:37] garden.
+- [01:34:38] >> app.ve.com.
+- [01:34:40] >> Yeah. Sweet.
+- [01:34:41] >> Oh, you're Oh, you're making the image.
+- [01:34:42] You said
+- [01:34:43] >> I'm just like they're giving me examples
+- [01:34:44] here. Well, I'm on the website here.
+- [01:34:46] Yeah, this is great. And you're saying
+- [01:34:47] this is better than like Nano Banana and
+- [01:34:49] all these other
+- [01:34:50] >> for this use case.
+- [01:34:51] >> And you and I, we just want to do I want
+- [01:34:53] to do a thumbnail. I want an image for
+- [01:34:54] my article. I want I just did I just my
+- [01:34:57] niche thing content I just want to do.
+- [01:34:59] I've got to do it. I just don't think
+- [01:35:00] there's anything better for for this use
+- [01:35:01] case. So
+- [01:35:02] >> I use it two or three times a day and I
+- [01:35:04] use all this stuff.
+- [01:35:05] >> Okay. The alpha more alpha uh to to
+- [01:35:08] share with the audience. Okay. Two more
+- [01:35:10] questions. Do you have a favorite life
+- [01:35:11] motto that you've often find yourself
+- [01:35:13] coming back to in work or in life that
+- [01:35:15] you often maybe even share with other
+- [01:35:17] people?
+- [01:35:17] >> I'll just tell you one in the weird time
+- [01:35:20] we're at. Um, this is probably your best
+- [01:35:22] startup.
+- [01:35:26] >> Just talking yesterday with a friend of
+- [01:35:27] mine, a startup just raised 20 million
+- [01:35:30] from a top two or three VC founder just
+- [01:35:32] quit the next day. just on the call the
+- [01:35:35] other day
+- [01:35:37] yesterday, CEO of a company at 250
+- [01:35:39] million just just just quit. Uh no
+- [01:35:42] success or know anyone to join a a hot
+- [01:35:44] AI startup. M maybe maybe
+- [01:35:48] most of the time there are there are
+- [01:35:50] times and places to just quit when you
+- [01:35:52] have customers when you have a million
+- [01:35:53] or two million or five or 10 million in
+- [01:35:54] revenue but we we often think it's
+- [01:35:56] easier to get back to get back to that
+- [01:35:58] 10 million of revenue to get back to 100
+- [01:36:00] happy customers or 200. It might seem
+- [01:36:02] easier to quit in the age of AI, but I'd
+- [01:36:06] rather take those 500 happy customers,
+- [01:36:08] build that badass AI product, and sell
+- [01:36:10] it to 500 happy customers and go off to
+- [01:36:12] find them from scratch. Go have to find
+- [01:36:13] that 10 or 20 million. So, that's I I
+- [01:36:18] literally had a third conversation with
+- [01:36:19] a founder just crossing 100 million that
+- [01:36:21] wanted to leave and do a robotic startup
+- [01:36:23] after 10 years. I'm like, I get it, man,
+- [01:36:25] but like this is, you know, you have
+- [01:36:28] nine figures of equity in this company.
+- [01:36:30] Maybe go to the next level. So there's
+- [01:36:31] so much going on. They're decelerating,
+- [01:36:34] accelerating. I just usually think the
+- [01:36:36] best startup as f for founders, not not
+- [01:36:38] necessarily for everybody else, is the
+- [01:36:40] one you're already working at. And if
+- [01:36:41] you're not happy, turn that into your
+- [01:36:43] hot AI startup. It's not. Here's the
+- [01:36:45] thing. It's not too late, Lenny.
+- [01:36:47] Sometimes it feels like it's too late on
+- [01:36:48] social media. Maybe it's too late to
+- [01:36:51] build the next chat GBT on the cheap.
+- [01:36:54] Okay? But for most stuff, it's it's it's
+- [01:36:57] not too late. It's so it's still so
+- [01:36:58] early. We don't even have great AI
+- [01:37:00] marketing tools. We're really early on
+- [01:37:02] these AIS SDRs. The markets have not
+- [01:37:04] hardened. Um, the LLMs are getting so
+- [01:37:06] much better. It is, dude, if you want
+- [01:37:08] it, it's not too late. So, the best
+- [01:37:11] startup you're ever going to have
+- [01:37:13] probably is the one you're working at
+- [01:37:15] today. Don't quit. Don't quit if you
+- [01:37:17] have happy customers. Maybe that's how
+- [01:37:18] don't quit if you have happy customers.
+- [01:37:20] They'll buy more from you.
+- [01:37:22] >> I love advice like that. That's uh
+- [01:37:23] empowering and optimistic and and uh
+- [01:37:26] destresses people, I think, in a lot of
+- [01:37:28] ways. So, uh, that is great. Uh, final
+- [01:37:31] question. How many, so how many sasters
+- [01:37:33] have you done at this point? Like how
+- [01:37:34] many years of saster have there been?
+- [01:37:35] >> Good god. Uh, we've done the first big,
+- [01:37:39] we did some meetups, you know that,
+- [01:37:41] right? And then we did the first bigger
+- [01:37:42] one in 2015. So 2016,
+- [01:37:46] uh, we did we did take a break in 2020,
+- [01:37:48] but we did in 2021. We're the only event
+- [01:37:50] in the Bay Area in 2021. Um, so is that
+- [01:37:53] 12 of them? 12 years. It's a long time,
+- [01:37:55] man.
+- [01:37:56] >> And then how many talks have there been
+- [01:37:57] across those? would you say total?
+- [01:37:59] >> And and then we've done seven in Europe.
+- [01:38:02] So 12 in 12 in the US and seven in
+- [01:38:03] Europe.
+- [01:38:04] >> Yes. So about 20. Okay. 20 events.
+- [01:38:06] >> 20 bigger events. Yeah.
+- [01:38:07] >> Uh I don't know like the annual one
+- [01:38:10] probably if you count the smaller ones
+- [01:38:12] 300.
+- [01:38:13] >> So thousand
+- [01:38:16] 4,000 over the years.
+- [01:38:17] >> So then here's the question. Is there a
+- [01:38:19] talk that you think is the one you like
+- [01:38:21] what's your favorite talk across all
+- [01:38:23] those events? Is there one you're like,
+- [01:38:24] "Oh, this one really stood out. This is
+- [01:38:26] one I always share with people. One that
+- [01:38:27] you think people might you'd want people
+- [01:38:29] to check out if they were to check out
+- [01:38:30] one talk across all seaster.
+- [01:38:32] >> It it's interesting. It's like a lot of
+- [01:38:34] things in B2B. Everything was pretty
+- [01:38:36] much the same for 10 years and then all
+- [01:38:37] of a sudden everything's out of date.
+- [01:38:39] Right. If you wanted to watch an older
+- [01:38:41] one, not that old, but old in internet
+- [01:38:43] AI time that I think will change the way
+- [01:38:46] you think, watch the one I did with Ben
+- [01:38:48] Chestnut
+- [01:38:50] um right after they got acquired because
+- [01:38:52] that's a magical time. It's called
+- [01:38:54] Everything That Breaks on the Way to One
+- [01:38:55] Billion. It's only got 23,000 views.
+- [01:38:57] That's nothing for Lenny, but for me,
+- [01:38:59] that's pretty good. Okay. And it's a
+- [01:39:01] moment in time right after he sold a
+- [01:39:02] billion dollar company where he talks
+- [01:39:04] about how the deal almost fell apart,
+- [01:39:06] where he challenges almost every B2B
+- [01:39:07] metric we know, how what you know,
+- [01:39:10] running a profitable business at that
+- [01:39:11] scale, not really caring about CLTV and
+- [01:39:14] CAC or any of these things, what really
+- [01:39:15] matters for customers. Is Mailchimp as
+- [01:39:18] cutting edge as it was today? Right?
+- [01:39:20] Maybe not. But that's one when I look at
+- [01:39:23] it cuz everything everything's kind of
+- [01:39:24] the same. We don't we don't really get
+- [01:39:27] challenged in the way we think.
+- [01:39:28] Everyone's talking their book, right?
+- [01:39:30] You're so good at getting people to not
+- [01:39:32] talk their book. Um but but that one I
+- [01:39:35] think is a great one. And then if people
+- [01:39:37] wanted to watch a GTM one, just some
+- [01:39:39] favorite ones. We did this one. It's a
+- [01:39:42] recent one. Matt Pl because these guys
+- [01:39:43] were on my team. Matt Planku of Rippling
+- [01:39:46] did one with Sam Blonde who was NCR of
+- [01:39:47] Brex. It's called Rippling Secrets to
+- [01:39:49] Hyperrowth. It sounds like a commercial
+- [01:39:51] for Rippling, which is okay, right? But
+- [01:39:53] because Sam was they worked together and
+- [01:39:55] now Sam's on the board and all like they
+- [01:39:57] have a fluency of two CRO who are honest
+- [01:40:00] and have a learner a Lenny style
+- [01:40:01] learners mindset. This one on the the
+- [01:40:03] revenue playbook from Ripling. It's it's
+- [01:40:06] a it's a 14 for for GTM.
+- [01:40:08] >> I just uh had Matt McInness on the
+- [01:40:10] podcast. Former COO, now CPO Y at
+- [01:40:13] Ripling. Uh so that would be a good
+- [01:40:15] combo of those two. Uh Jason, I don't
+- [01:40:17] know if you know this, but you're you're
+- [01:40:18] the perfect podcast guest because you
+- [01:40:22] have such deep uh experience in the
+- [01:40:25] space that you just have answers to
+- [01:40:27] everything I ask. Plus, you're now just
+- [01:40:30] living in this future that we're all
+- [01:40:31] heading towards and you're like hands-on
+- [01:40:34] telling us here's how the future will be
+- [01:40:37] and here's how it works and here's how
+- [01:40:39] you can get there and here's what you
+- [01:40:40] shouldn't do and here's what we'll
+- [01:40:41] bring. So, I'm just so thankful that
+- [01:40:43] you're here sharing all this advice with
+- [01:40:44] us. So, I'm excited for many more
+- [01:40:46] podcast conversations. So, uh, so thanks
+- [01:40:48] for doing this.
+- [01:40:49] >> All right, Lenny, you're the best. I'm
+- [01:40:50] I'm I'm just a super fan. I'm lucky to
+- [01:40:52] be here. So, thank you.
+- [01:40:53] >> Uh, let me just ask you, how can
+- [01:40:54] listeners be useful to you? As a closing
+- [01:40:56] question,
+- [01:40:57] >> the fun thing for me, we have we we have
+- [01:40:59] two websites, saster.com and SASI. Just
+- [01:41:01] go to saster.ai, and just play with the
+- [01:41:03] tools we built. Play with the valuation
+- [01:41:05] calculator we talked about. Play with
+- [01:41:07] the AIVC, play with any of our tools,
+- [01:41:09] and and just have fun and share share
+- [01:41:10] any feedback. Um because I've waited 10
+- [01:41:13] years to build tools for the Saster
+- [01:41:15] community. Now I want to build like 20.
+- [01:41:17] So on a side, we've talked about tools
+- [01:41:20] you should go buy, but building your own
+- [01:41:21] stuff is pretty fun, too. So try our
+- [01:41:23] tools and give me kind but critical
+- [01:41:25] feedback, but but with some kindness.
+- [01:41:27] >> Okay. And it's s a str.ai.
+- [01:41:32] >> Yeah, we're I'm still trying to figure
+- [01:41:33] out the AI versus the comm. We got a SEO
+- [01:41:35] issue, so I can't really move it over,
+- [01:41:37] but uh
+- [01:41:38] >> it looks great. It works. It works. It's
+- [01:41:39] shorter, too. It is shorter.
+- [01:41:41] >> Jason, thank you so much for being here.
+- [01:41:42] >> All right, Lenny, you're the best.
+- [01:41:44] >> Bye, everyone.
+- [01:41:46] >> Thank you so much for listening. If you
+- [01:41:48] found this valuable, you can subscribe
+- [01:41:49] to the show on Apple Podcasts, Spotify,
+- [01:41:52] or your favorite podcast app. Also,
+- [01:41:54] please consider giving us a rating or
+- [01:41:56] leaving a review as that really helps
+- [01:41:58] other listeners find the podcast. You
+- [01:42:00] can find all past episodes or learn more
+- [01:42:03] about the show at lennispodcast.com.
+- [01:42:06] See you in the next episode.

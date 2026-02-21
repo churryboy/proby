@@ -1,0 +1,7 @@
+# Gmail 스크립트 인증 (절대 커밋 금지)
+credentials.json
+token.json
+token_forms.json
+client_secret_*.json
+# 환경 변수 (API 키 등)
+.env

@@ -1,0 +1,3177 @@
+## Key insight / summary
+
+- **성장 정체 진단을 위한 4단계 프레임워크**: 1) 고객 이탈 분석 → 2) 가격/포지셔닝 검토 → 3) 채널 포화도 점검 → 4) 성장 필요성 재검토 순으로 체계적 접근
+- **가격이 너무 낮은 경우가 많다**: 창업자들이 추측으로 가격을 정하고 변경하지 않아서, 특히 기업 고객에게는 저가격이 오히려 품질에 대한 의구심을 불러일으킴
+- **고객 이탈의 심각성**: 발견→홈페이지→가격→구매까지의 험난한 여정을 통과한 고객이 떠나는 것은 제품 자체에 근본적 문제가 있음을 시사
+- **채널 포화도 인식의 중요성**: 어떤 마케팅 채널이 포화되었고 어떤 채널이 여전히 기회가 있는지 정확히 파악해야 함
+- **기능 추가만으로는 해결 안 됨**: 작은 기능 하나 추가하고 광고에만 의존하는 방식으로는 성장 정체를 돌파할 수 없음
+- **"성장하지 않으면 죽는다"는 명제에 대한 의문**: 모든 상황에서 성장이 필수인지, 아니면 투자자들이 만든 압박인지 냉정하게 판단해야 함
+
+## Key implications for Proby platform
+
+- **Proby의 가격 전략 재검토 필요**: 현재 "5-10배 비용 절감"을 강조하고 있지만, 기업 고객에게는 너무 저렴한 가격이 오히려 품질 의구심을 불러일으킬 수 있음 → 유니콘/대기업 세그먼트에서는 가치 기반 프리미엄 가격 전략 고려
+- **고객 이탈률을 핵심 지표로 모니터링**: 전략 문서에서 언급된 3개 타겟 세그먼트(스타트업 PM/PD, 유니콘 리서처, 대기업 리서처) 각각의 이탈률과 이탈 이유를 세밀하게 추적해야 함 → 세그먼트별 온보딩과 성공 메트릭 차별화
+- **채널 포화도 기반의 GTM 전략 수립**: 전략 문서에서 부족했던 구체적인 고객 획득 채널별 포화도를 사전에 파악 → 초기에는 직접 영업(유니콘 타겟), 중기에는 파트너십(리서치 툴 연동), 후기에는 PLG(스타트업 대상) 순으로 채널 다변화
+- **제품-시장 적합성 검증을 이탈률로 측정**: AI 모더레이션 품질이 인간 수준과 동등한지에 대한 가정을 고객 이탈률과 재구매율로 지속적으로 검증 → 품질 개선이 마케팅보다 우선순위
+- **기능 중심이 아닌 채널 중심 성장 전략**: 새로운 AI 기능 개발보다는 검증된 채널에서의 실행력 강화에 집중 → 초기에는 소수 비치헤드 고객(유니콘 리서처)에서의 성공 사례 확보가 더 중요
+- **성장 vs 수익성의 균형점 찾기**: 전략 문서에서 부족했던 재무 모델과 연결하여, 무조건적인 성장보다는 건강한 단위 경제학 달성 후 확장하는 전략 → CAC/LTV 비율이 건전해진 후 공격적 마케팅 투자
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=8xLquwfx6p0
+
+- [00:00] A lot of product teams, a lot of
+- [00:01] founders build something, it starts to
+- [00:02] show some success and then all of a
+- [00:03] sudden it just stops growing.
+- [00:05] >> There's a series of questions that I ask
+- [00:07] to diagnose why is growth slowing. The
+- [00:09] first question is, are customers
+- [00:11] leaving? Think about the gauntlet they
+- [00:12] went through to get to the product. How
+- [00:14] do they even find out about me? That was
+- [00:16] hard already and improbable. They didn't
+- [00:18] just bounce off the homepage, which is
+- [00:19] again improbable. And they got to the
+- [00:20] pricing page that didn't scare them off.
+- [00:22] They actually had the budget and bought
+- [00:23] the stupid thing. And after all of that,
+- [00:25] which clearly means they wanted it to
+- [00:27] work, they're like, "No, buy what?"
+- [00:30] Like, like just on an emotional level,
+- [00:32] you got to go, "Wait a minute, that's
+- [00:33] terrible."
+- [00:34] >> Step two is pricing positioning.
+- [00:36] >> Your prices are way too low because you
+- [00:38] just guessed and you haven't changed
+- [00:40] them. What often happens is you raise
+- [00:41] prices and signups don't change. Just
+- [00:43] think about a company with a,000
+- [00:44] employees and 400 million in revenue or
+- [00:46] whatever. If they see a product that's
+- [00:48] $2 a month or even $100 a month, thought
+- [00:50] is like, "That can't be good enough." We
+- [00:52] position this conversation as how to
+- [00:54] deal with stalled growth, but it's
+- [00:56] actually just as useful for how do I
+- [00:57] grow more?
+- [00:58] >> Do you know right now which channels are
+- [01:00] saturated and which aren't? You can't
+- [01:01] just rely on marketing forever. Just
+- [01:03] adding one little feature and then
+- [01:04] hoping we can flog Adwords is not going
+- [01:06] to work.
+- [01:07] >> What comes next?
+- [01:07] >> The last question is, do you need to
+- [01:09] grow? We all have heard the phrase, if
+- [01:11] you're not growing, you're dying. Is
+- [01:12] that true or is that the kind of thing
+- [01:14] that investors use to make founders try
+- [01:16] to grow even when they shouldn't?
+- [01:19] >> Today my guest is Jason Cohen. Jason is
+- [01:21] a four-time founder, including two
+- [01:23] unicorns, one being WP Engine. He's not
+- [01:26] just an incredible builder and
+- [01:28] entrepreneur. He's also an incredible
+- [01:30] writer and share of product wisdom. He's
+- [01:33] been sharing his advice online for over
+- [01:34] 20 years now. I've been a huge fan of
+- [01:37] Jason's from afar for so long, and it
+- [01:39] was such a treat to have him on the
+- [01:40] podcast. There are a million things we
+- [01:43] could have talked about. I'm definitely
+- [01:44] going to have him back. In this
+- [01:45] conversation, we spent the entire time
+- [01:47] talking about his very actionable and a
+- [01:50] very helpful framework for what to do
+- [01:52] when your product's growth stalls. I
+- [01:54] found his way of looking at the problem
+- [01:55] incredibly practical and real and
+- [01:58] actionable. And if you're looking for
+- [02:00] ideas for how to rekindle your product's
+- [02:02] growth or just accelerate the growth of
+- [02:04] your product, you're going to walk away
+- [02:06] from this conversation with your mind
+- [02:07] buzzing. Also, I'll add that after 20
+- [02:10] years of blogging online, Jason is about
+- [02:12] to publish his very first real book.
+- [02:15] It's called Hidden Multipliers. You can
+- [02:16] now pre-order it online at hidden
+- [02:18] multipliers.com.
+- [02:20] I am going to grab a bunch. I bet after
+- [02:22] listening to this conversation, you will
+- [02:24] too. If you enjoy this podcast, don't
+- [02:26] forget to subscribe and follow it in
+- [02:27] your favorite podcasting app or YouTube.
+- [02:29] And if you become an insider subscriber
+- [02:31] of my newsletter, you get a year free of
+- [02:35] over 20 incredible products, including a
+- [02:38] year free of lovable, repid bolt, gamma,
+- [02:40] naden, linear, devon, post talk,
+- [02:41] superhuman, dcript, whisper flow,
+- [02:43] perplexity, warp, granola, magic
+- [02:44] pattern, drag cast, de mo, and stripe
+- [02:46] atlas. Head on over to Lenny's.com and
+- [02:48] click product pass. With that, I bring
+- [02:51] you Jason Cohen after a short word from
+- [02:53] our sponsors. This episode is brought to
+- [02:55] you by Tene Webb, the company that
+- [02:58] pioneered AI website building before
+- [03:00] ChatgPT. In the last 3 years, over 2
+- [03:03] million websites have been generated
+- [03:04] with Tenweb's VIP coding platform.
+- [03:06] Tenweb's VIP coding platform is a
+- [03:08] powerful way to build websites. Think of
+- [03:10] it as lovable for WordPress front end
+- [03:13] and backend. Users can build any website
+- [03:16] at any complexity. E-commerce
+- [03:18] portfolios, information websites, blogs,
+- [03:21] and it comes with the WordPress admin
+- [03:23] panel and thousands of readytouse
+- [03:25] plugins. Tenweb also offers website
+- [03:27] generation as an API as a service for
+- [03:30] SAS companies, marketplaces, hosting
+- [03:32] providers, MSPs, and agencies. SAS
+- [03:35] companies can embed it via API so that
+- [03:37] users can launch AI generated sites
+- [03:39] directly inside of their platform
+- [03:41] connected to their own data. Agencies
+- [03:43] and MSPs can get a white label dashboard
+- [03:46] to manage clients and resell under their
+- [03:48] brand. Hosting providers can self-host
+- [03:50] the API builder on their own
+- [03:52] infrastructure. Check it out at
+- [03:54] 10web.io/lenny
+- [03:56] and use code lenny for exclusive free
+- [03:59] credits and 30% off API or white labeled
+- [04:02] solutions. That's the number 10
+- [04:05] web.io/lenny.
+- [04:08] Vipcoding platform as an API.
+- [04:10] This episode is brought to you by
+- [04:12] Stella, the customer research platform
+- [04:14] built for the AI era. Here's the truth
+- [04:17] about user research. It's never been
+- [04:19] more important or more painful. Teams
+- [04:22] want to understand why customers do what
+- [04:23] they do. But recruiting users, running
+- [04:26] interviews, and analyzing insights takes
+- [04:28] weeks. By the time the results are in,
+- [04:30] the moment to act has passed. Strella
+- [04:33] changes that. It's the first platform
+- [04:35] that uses AI to run and analyze in-depth
+- [04:37] interviews automatically, bringing fast
+- [04:39] and continuous user research to every
+- [04:41] team. Strella's AI moderator asks real
+- [04:44] follow-up questions, probing deeper when
+- [04:47] answers are vague, and services patterns
+- [04:49] across hundreds of conversations, all in
+- [04:51] a few hours, not weeks. Product design
+- [04:54] and research teams at companies like
+- [04:55] Amazon and Dualingo are already using
+- [04:58] Stella for Figma prototype testing,
+- [05:00] concept validation, and customer journey
+- [05:02] research, getting insights overnight
+- [05:04] instead of waiting for the next sprint.
+- [05:06] If your team wants to understand
+- [05:08] customers at the speed you ship
+- [05:09] products, try Strella. Run your next
+- [05:12] study at strea.io/enny.
+- [05:15] That's str.io/lenny.
+- [05:22] Jason, thank you so much for being here
+- [05:24] and welcome to the podcast.
+- [05:26] >> Thank you. It's an honor to be here.
+- [05:27] >> It's an honor to have you here. I have
+- [05:29] wanted to get you on this podcast for so
+- [05:32] long. You are both an incredible builder
+- [05:34] and a founder and you are such a great
+- [05:38] communicator. You have been writing at
+- [05:40] uh a smartbear.com which I want to get
+- [05:42] the backstory on for so long. How long
+- [05:45] have you been writing uh there by the
+- [05:46] way?
+- [05:47] >> Almost 20 years. I started when blogging
+- [05:49] was cool and I'm still I'm waiting for
+- [05:51] blogging to come back and be cool again
+- [05:53] but it's not yet.
+- [05:54] >> I think it is cool when newsletters are
+- [05:56] cool now. Yeah,
+- [05:57] >> newsletters are cool.
+- [05:58] >> I don't know if you saw Twitter now is
+- [05:59] encouraging long form writing. There's
+- [06:00] like this articles feature. So I think
+- [06:02] it's cool. I think you've survived the
+- [06:04] >> rough. Okay.
+- [06:06] >> Uh I was also talking to Gemini trying
+- [06:08] to figure out how many posts you've
+- [06:09] written. I was like count the number of
+- [06:10] blog posts on a smartbear.com. How many
+- [06:12] do you have a sense of how many things
+- [06:13] you've written on there?
+- [06:14] >> Yeah, it's not that many. Uh it's
+- [06:16] something like maybeund well I would say
+- [06:19] between 150 and 200 that I'm proud of
+- [06:21] and probably about 300 350 and that's it
+- [06:24] over you know about 18 years and that's
+- [06:26] because I only write uh in depth some
+- [06:29] are long not all are long but none are
+- [06:30] short I guess and um I I've always had a
+- [06:34] rule even though you're supposed to
+- [06:35] write really regularly and not just for
+- [06:37] algorithms but they used to say again
+- [06:39] back in the as where I started oh yeah
+- [06:42] it needs to be like really regular so
+- [06:43] people know when to expect your thing
+- [06:45] and they they plug it into their day and
+- [06:47] all this. So, it's always been true that
+- [06:48] you should be that you should be regular
+- [06:51] and I never was because my attitude was
+- [06:53] was always I will only put out stuff if
+- [06:55] if it's the best that I can do. It's up
+- [06:58] to the reader to decide if it's good or
+- [07:00] useful. Um, and if so, if I don't have
+- [07:02] that, I'm just not going to publish.
+- [07:04] That's the way it is. And so, there's
+- [07:06] years where I've published once or twice
+- [07:08] only the whole year. Maybe I was busy or
+- [07:10] didn't have the energy. other years were
+- [07:12] yeah I posted you know 40 times or
+- [07:13] something but even then it's only that
+- [07:15] because I can't I can't do something of
+- [07:17] that magnitude and also found unicorns
+- [07:19] which I did during that same time and
+- [07:21] run them you know I can't do that all at
+- [07:23] the same time um and produce a lot so
+- [07:26] it's fewer and hopefully better but
+- [07:28] that's in the eye of the reader of
+- [07:29] course
+- [07:29] >> I like when you say I've I've done 300
+- [07:31] not too many
+- [07:32] >> well not for 18 years that right like
+- [07:34] over that time you
+- [07:34] >> but I think this actually this is where
+- [07:36] I was going to go but I think this is a
+- [07:37] really important lesson I've also
+- [07:38] learned I always used to tell people the
+- [07:40] the key to being successful writing
+- [07:43] stuff online and just content in general
+- [07:45] is quality and consistency. But I've
+- [07:47] just more and more realized quality is
+- [07:49] actually the only thing that matters and
+- [07:51] the consistency doesn't matter. So the
+- [07:54] only difference is like the more rarely
+- [07:56] you write the more awesome it has to be.
+- [07:58] It is a lot of pressure. I feel that and
+- [08:01] then I tell myself you that will just
+- [08:03] prevent you from writing anything and
+- [08:05] that's not good. So yeah, you tend to
+- [08:08] want every thing you make to be the best
+- [08:10] thing you've ever made. And on the one
+- [08:12] hand, I want to hold on to that because
+- [08:14] it its motivation to be good and not to
+- [08:16] let the bar slip. On the other hand, it
+- [08:19] can go into paralysis, which is
+- [08:20] obviously bad. So yeah, I still struggle
+- [08:24] with that, but I think that's that is
+- [08:25] the tension.
+- [08:26] >> Okay, so with 300ish posts, 200 you're
+- [08:29] proud of, there are so many directions
+- [08:32] we can go. There's a few that I've
+- [08:33] picked that I want to spend most of our
+- [08:35] time on. The first is you have a really
+- [08:38] pragmatic way of approaching uh growth
+- [08:41] stalling. And the reason I want to spend
+- [08:43] time here is because a lot of product
+- [08:45] teams, a lot of founders build
+- [08:46] something, it starts to show some
+- [08:48] success there. It's it's going, it's
+- [08:50] growing, and then all a sudden it just
+- [08:51] stops growing. And I think that's one of
+- [08:53] the most painful things to go through.
+- [08:54] And there's never I've never come across
+- [08:56] a a way to think about how do I solve
+- [08:58] this because I think a lot of people are
+- [09:00] just like, okay, I guess that is not
+- [09:02] working. Let's move on to something
+- [09:03] else. you have a very specific way of
+- [09:05] approaching this problem and I want to I
+- [09:07] want to read actually a quote from Will
+- [09:09] Smith and this is something that has
+- [09:10] stuck with me ever since I read it
+- [09:13] because it's so true. So in his
+- [09:15] biography he has this line. People ask
+- [09:18] him what's it like to be famous and his
+- [09:19] answer is becoming famous is amazing.
+- [09:23] Being famous is a mixed bag. Losing fame
+- [09:26] is miserable.
+- [09:29] >> That's funny. So first of all, I think a
+- [09:31] lot of people are experiencing this
+- [09:33] right now. You have a lot of companies
+- [09:34] have reasonable products and they've
+- [09:36] they've their growth has slowed. Why?
+- [09:38] Could be the economy because it's not as
+- [09:40] good as a lot of indicators say. We all
+- [09:41] know that for example jobs are not as
+- [09:43] good as the indicators say. It could be
+- [09:45] because AI or the threat of AI or the
+- [09:47] expectation of the of AI blah blah blah.
+- [09:49] Who knows? It also can just be size. As
+- [09:52] you get bigger, growth slows because you
+- [09:54] know what? You're not going to grow 2x a
+- [09:56] year forever. So it slows. um there's
+- [09:59] like just mechanical things. So there's
+- [10:01] many reasons why things slow and
+- [10:03] sometimes it's all of a sudden although
+- [10:04] then maybe there's some event like an
+- [10:06] algorithm changes or you know something
+- [10:08] happens but actually I think what's
+- [10:09] really common is it just slowly gets
+- [10:11] slower. In other words, it decelerates
+- [10:14] but just it it kind of I don't I
+- [10:17] wouldn't say sneaks up on you because
+- [10:18] most people are looking at growth all
+- [10:19] the time. So, it's not sneaky, but it is
+- [10:22] it is sort of um uh a little bit more
+- [10:25] gradual, right? Just like you just feel
+- [10:27] more like you're running through mud,
+- [10:29] like ah god, we're just still doing so
+- [10:31] much work and it's not having as much of
+- [10:33] an impact. And so, um that's what I see.
+- [10:36] And when I say that's what I see, so
+- [10:38] I've built four companies. The last one
+- [10:40] is a unicorn. The one before that was
+- [10:41] also a unicorn. The boot the the
+- [10:44] previous one was bootstrap. This one was
+- [10:45] VC funded. And I've invested in about 60
+- [10:47] startups. Some of them failed
+- [10:49] completely. Some of them were very
+- [10:50] successful, some in the middle cuz of
+- [10:52] course, right? Um, and uh, so when I say
+- [10:55] that's what I've seen, this is that's
+- [10:56] the the context of what I mean by what
+- [10:58] I've seen. So there's a there's I
+- [11:00] wouldn't say a checklist, but there's a
+- [11:01] there's a series of of questions that I
+- [11:03] ask to to diagnose why is growth slowing
+- [11:06] in this order because it's one of these
+- [11:08] things where the first one that's a
+- [11:10] problem, if you don't fix that, it
+- [11:13] doesn't matter if you fix one of the
+- [11:14] ones below. Um, just like if I don't
+- [11:16] know, maybe if you had a marketing
+- [11:17] funnel and there's a step where
+- [11:18] everything falls apart and you're like,
+- [11:20] well, I'll I'll just uh tune the bottom
+- [11:22] of it a little. It's like that's not
+- [11:23] going to work. It's not going to help
+- [11:25] enough like you got to you got to go
+- [11:26] where the biggest issue is. So, this is
+- [11:28] in that sort of order.
+- [11:30] So, the first question is uh is are
+- [11:32] customers leaving? I.e. logo churn,
+- [11:35] right? Churn with N. You can do churn
+- [11:36] with MR2, but just for simplicity, let's
+- [11:39] say uh let's say with customers and it's
+- [11:41] the worst problem for a couple reasons.
+- [11:43] One is there's nothing you can do about
+- [11:44] it once it happens. Like they're gone.
+- [11:46] There's no saving them, increasing their
+- [11:48] revenue. Like there there's nothing in
+- [11:50] the future you can do. Also, it's often
+- [11:53] correlated with things like negative
+- [11:54] reviews or other things on social media,
+- [11:57] which is another kind of preventing
+- [11:58] growth. So, it's kind of the two two a
+- [12:01] two punch thing of like they're not here
+- [12:03] and they may be like actively hurting
+- [12:05] your growth. So, that sucks. The math is
+- [12:07] undeniable, which I want to talk about
+- [12:09] because this is something where there's
+- [12:11] a metric I like that is unusual and um
+- [12:14] people find uh useful. But before I get
+- [12:16] to the metric, there's also this kind of
+- [12:18] visceral thing which is the customers
+- [12:21] saying this product I don't want it. And
+- [12:25] when I think about the gauntlet they got
+- [12:27] they went through to get to the product,
+- [12:29] they how do they even find out about me?
+- [12:31] That was hard already and improbable
+- [12:33] that they see an ad or hear it and then
+- [12:35] they clicked which is improbable and
+- [12:37] then they they didn't just bounce off
+- [12:38] the homepage which is again improbable.
+- [12:40] They actually were like oh yeah this
+- [12:42] sounds pretty good and then they got to
+- [12:43] the pricing page and that didn't scare
+- [12:44] them off. They actually had the budget
+- [12:46] and bought the stupid thing. Then they
+- [12:48] went through onboarding and invested
+- [12:49] their time etc etc. That is a crazy
+- [12:52] gauntlet that almost no one gets
+- [12:53] through. And after all of that which
+- [12:55] clearly means they wanted it to work.
+- [12:57] They're like, "No, bye. What?" Like,
+- [13:00] like just on a just on an emotional
+- [13:02] level, you gotta go, "Wait a minute,
+- [13:04] that's terrible. I'm I'm fundamentally
+- [13:06] not fulfilling whatever promise I made
+- [13:08] or they thought I made, which is whether
+- [13:10] that's a product issue or a
+- [13:11] communication issue." Okay? Like there's
+- [13:12] lots of But one way or another, like
+- [13:15] something is really fundamentally broken
+- [13:18] just in terms of like I'm a product
+- [13:19] person. So, what I want to do is make a
+- [13:21] product that other people want to buy
+- [13:22] and use. And if they don't, like no
+- [13:24] matter what the metrics say, I'm, you
+- [13:26] know, I'm a I'm we're failing our
+- [13:28] mission, our customers, whatever. So
+- [13:30] there's just even that non-mmathematical
+- [13:32] reason to go, oh my god. Right? So uh so
+- [13:37] to me that's already enough reason, but
+- [13:39] the the the math is very interesting.
+- [13:41] And what I find is when I talk to
+- [13:42] people, especially on Twitter or
+- [13:44] something where people are just, you
+- [13:45] know, yapping around whatever they're
+- [13:47] doing, you you say thing I say things
+- [13:49] like, you know, anything above 3% per
+- [13:51] month cancellation is is is terrible.
+- [13:53] And people like, oh no, it's okay. Five
+- [13:55] is fine, seven, six. Everyone's yapping
+- [13:56] about what they and it's very abstract
+- [13:59] like who is four better much worse than
+- [14:01] five? Like I don't know. And I heard
+- [14:03] someone else and blah blah blah. So it's
+- [14:04] very um I don't know like like generic
+- [14:07] and rough. So there's a different metric
+- [14:10] that I like to use which is uh- which
+- [14:13] which um which keys off of this idea
+- [14:15] that I think again people uh don't
+- [14:17] appreciate which is cancellations grow
+- [14:21] faster than marketing and so
+- [14:24] cancellations overpower the growth of
+- [14:26] the company and slow it to a halt i.e.
+- [14:29] growth slows right to where you
+- [14:32] literally cannot grow anymore. there's a
+- [14:35] maximum ceiling of how big you could
+- [14:36] ever be thanks to cancellations. And
+- [14:39] when you know what that number is, it's
+- [14:41] much more real and visceral and scary.
+- [14:44] And so, just to kind of justify what I
+- [14:46] just said, just imagine any company and
+- [14:48] imagine you just tripled the number of
+- [14:50] customers that are there and paying and
+- [14:52] the same kind, the same age, you know,
+- [14:54] just the same kind of stuff just
+- [14:55] tripled, right, overnight.
+- [14:58] So, the next month, would marketing
+- [15:00] deliver more new customers than a month
+- [15:02] before? No, because marketing doesn't it
+- [15:06] none of your marketing efforts care how
+- [15:08] many customers you have. Adwords
+- [15:09] delivers the same number of leads and
+- [15:11] you know SEO delivers the same like it
+- [15:14] does not care how big you are these
+- [15:15] these these efforts. So you're you're
+- [15:17] you're still going to be growing at the
+- [15:18] same rate as you were the previous
+- [15:20] month, but cancellations in absolute
+- [15:22] terms like the number of customers who
+- [15:24] leave will triple cuz you have 5%
+- [15:27] cancellation and triple. Okay, so still
+- [15:30] 5% of a tripled number is triple, right?
+- [15:32] Like so this is the point is that
+- [15:34] cancellations automatically grow as you
+- [15:36] grow. Even if you're doing everything
+- [15:38] right, but marketing doesn't. Marketing
+- [15:41] grows only as fast as you can improve
+- [15:42] marketing. We all know that's quite hard
+- [15:44] actually. It's linear. It's hard to find
+- [15:46] new channels that aren't trivial. Like,
+- [15:48] it's hard. Of course, we're going to do
+- [15:50] it, but like it it's hard. Whereas,
+- [15:51] cancellations grow automatically as you
+- [15:54] grow, right? So, cancellations always
+- [15:57] overtake marketing for this reason.
+- [15:58] >> Like the metaphor here is a leaky bucket
+- [16:00] where are you adding enough water to
+- [16:02] keep up with the leak essentially,
+- [16:03] >> right? Except the leaks automatically
+- [16:05] increase and that's what people don't
+- [16:06] appreciate.
+- [16:07] >> Because it's a percentage of your entire
+- [16:09] customer base.
+- [16:10] >> Yes. See, we say when in marketing we
+- [16:12] say things like um I'm adding 100 leads
+- [16:13] a month, but in cancellations we say 5%.
+- [16:16] Why do you say percent? Because it's
+- [16:18] based on your size and it's exponential.
+- [16:20] That's what 5% is an exponential. And
+- [16:22] and so there's this maximum size you
+- [16:24] could ever be. It's when churn equals
+- [16:26] growth, right? Like that's that's the m
+- [16:28] So how would you compute that? It's
+- [16:30] actually quite simple because let's say
+- [16:32] you have this 5% per month just as a
+- [16:34] number. So it's simply the amount of new
+- [16:37] customers you add divided by that
+- [16:39] cancellation rate. That is the amount
+- [16:42] that that is the limit. So let's suppose
+- [16:44] you add 100 customers a month and you
+- [16:46] have 5% cancellation. So 100 divided by
+- [16:49] 5% is 2,000. So a company like that will
+- [16:52] never have more than 2,000 customers.
+- [16:54] And by the way as you approach that
+- [16:55] number growth is very slow because you
+- [16:58] bring in a bunch of customers and almost
+- [16:59] the same number leave. So growth is
+- [17:01] slowing. Ah, look, we diagnosed why go
+- [17:04] slows automatically at all SAS
+- [17:06] companies. So that's is why this is the
+- [17:07] first thing because it's so it's such a
+- [17:09] hard cap limit and it means that people
+- [17:12] don't want your product. Like these are
+- [17:13] two reasons why it's the most important
+- [17:14] thing.
+- [17:14] >> Just to clarify, this is logo churn.
+- [17:16] This is like number of customers, not
+- [17:18] revenue churn.
+- [17:19] >> Yeah. Well, it is both logo churn and
+- [17:22] revenue churn. You do the same math. You
+- [17:24] could say dollars in divided by dollars
+- [17:27] cancellation rate or number of co I've
+- [17:29] been saying number of customers just to
+- [17:30] keep it simple because I think when when
+- [17:32] you look at it and say wow we will never
+- [17:34] have more than 2,000 customers. It's
+- [17:37] just such a like a like a visceral oh my
+- [17:40] god we had to do something about that.
+- [17:42] Now of course one thing you could do is
+- [17:44] have more marketing but you know that
+- [17:45] already if growth is slowing you're
+- [17:47] already thinking how do I get more out
+- [17:49] of marketing. You knew that. The point
+- [17:51] is that cancellation is this hard limit
+- [17:53] pulling you down with all these other
+- [17:54] really bad either implications or side
+- [17:57] effects which is why it's so important.
+- [17:58] >> Cool. And when you say marketing, just
+- [18:00] to clarify, this includes basically all
+- [18:01] growth work, PLG stuff, marketing,
+- [18:03] sales.
+- [18:04] >> Y right.
+- [18:05] >> Great.
+- [18:06] >> Yeah. PLG is nice, but that doesn't you
+- [18:08] still need marketing to bring the people
+- [18:09] in in the first place. PLG just means
+- [18:11] there's not a salesperson unless you're
+- [18:12] expanding or some other segment.
+- [18:14] >> Cool. Yeah. It's like the whole bucket
+- [18:15] of just bringing new customers in.
+- [18:16] >> Yeah. Yeah.
+- [18:18] >> So, okay. So assuming you agree like,
+- [18:20] "Yeah, I don't like customers leaving.
+- [18:22] That sucks." Um, so obviously you got to
+- [18:24] find out why they're canceling and do
+- [18:25] something about it. And the the the kind
+- [18:28] of root issue here is they don't want to
+- [18:29] tell you like they're already out the
+- [18:31] door. They've already like stopped
+- [18:33] investing in you like mentally. So the
+- [18:35] last thing they want to do is spend time
+- [18:36] with you or like really think about it
+- [18:38] and diagnose it with you. And uh I have
+- [18:40] a funny story about this for myself. So
+- [18:43] um at Smart Bear, people would cancel.
+- [18:44] We put up this uh form and and uh a
+- [18:47] drop-own list, you know, too expensive,
+- [18:49] it's project ended, you know, this stuff
+- [18:51] like we do so we could gather data and
+- [18:54] um one of them did have more uh more
+- [18:56] selection than than the rest. And I
+- [18:58] realized it was the first one on the
+- [18:59] list and I thought, huh, I wonder if
+- [19:01] people are just picking the first one.
+- [19:03] So then then we randomized the list so
+- [19:05] everyone saw a different order of the
+- [19:07] list and now all the items were picked
+- [19:08] equally like, oh, right, it's complete
+- [19:12] noise. And uh I know other companies
+- [19:14] have done similar things also with the
+- [19:16] similar results that this is this is a
+- [19:17] global phenomenon. So okay so what do
+- [19:20] you do like the point is it's hard
+- [19:22] right? So the first thing is you want to
+- [19:26] ask open-ended questions. I I know it's
+- [19:28] you want to just get a list but this is
+- [19:30] the problem. At least with open-ended
+- [19:32] questions most people won't answer but
+- [19:33] at least you might be able to get some
+- [19:35] kind of thing that they generated. And
+- [19:36] when you do this the the wrong way is to
+- [19:39] ask why did you cancel? Because again,
+- [19:41] this allows them to say something really
+- [19:42] simple like budget, which may or may not
+- [19:45] be true. I'll get to that in a second.
+- [19:46] What you want to do is say what made you
+- [19:49] cancel?
+- [19:51] In other words, what about the product
+- [19:53] or situation or whatever caused the
+- [19:56] cancellation? Just phrasing it that way,
+- [19:58] you get much better results. And I stole
+- [20:00] this from a company called Groove, who
+- [20:02] has this great case study online about
+- [20:04] this very thing. They had an email that
+- [20:06] they sent out, which is a very a great
+- [20:08] email. and um and they started by asking
+- [20:11] why did you cancel? They got 10% usable
+- [20:13] responses. They changed it same email to
+- [20:15] why what made you cancel and it's 20%
+- [20:18] usable responses. So this is this is
+- [20:20] there's like I guess maybe some anecd
+- [20:33] as as far as you can into there because
+- [20:34] most people won't talk. The temptation
+- [20:36] is to hear what they generate at first
+- [20:39] and say that's the answer. So like a
+- [20:41] really common one is it's too expensive.
+- [20:43] I think anyone who's looked at
+- [20:44] cancellation data at any company will
+- [20:46] agree that too expensive is often the
+- [20:48] number one or at least like top three
+- [20:49] reason in one form or another. And that
+- [20:51] is never ever ever the reason.
+- [20:54] How do I know? Because they already
+- [20:56] looked at your homepage, read all the
+- [20:58] stuff, saw what you promised, looked at
+- [20:59] the pricing page, and decided to buy it.
+- [21:03] That means it whatever was in their mind
+- [21:05] of what it is is not too expensive. It
+- [21:08] was they already decided with their
+- [21:10] actions. It was not too expensive.
+- [21:14] Something else happened like but you
+- [21:16] didn't fulfill the promise that at least
+- [21:17] they thought you made or something else
+- [21:20] didn't work or you know now it is
+- [21:23] possible they lost budget but that
+- [21:25] doesn't mean you're too expensive. That
+- [21:26] means they lost budget. That's a very
+- [21:27] different reason, right? That's not that
+- [21:30] you're So it's sort of like um this
+- [21:34] happens in um in healthc care for
+- [21:35] example. So when someone dies the doctor
+- [21:37] has to write the what's called
+- [21:39] approximate cause which is what why did
+- [21:41] they actually die? But then you try to
+- [21:43] also write down the real reason. So
+- [21:45] let's say someone comes in and they the
+- [21:47] approximate cause of death is they stop
+- [21:48] breathing.
+- [21:50] Well, you could stop there and that's
+- [21:51] like listening to it's expensive and
+- [21:53] going that's it. Well, why did they stop
+- [21:55] breathing? Um because they they had they
+- [21:58] they uh ran their car into a telephone
+- [22:00] pole and were injured so much that
+- [22:01] eventually they stopped breathing. Well,
+- [22:04] why did they run their car into a
+- [22:05] telephone pole? Because they passed out
+- [22:06] at the wheel. Why' they pass out at the
+- [22:08] wheel? Cuz they had undiagnosed
+- [22:10] diabetes.
+- [22:13] Now we're getting somewhere. It still
+- [22:14] isn't just one root cause. Another as a
+- [22:16] sidebar, I hate the idea of a root
+- [22:18] cause. Complex systems do not have one
+- [22:20] root cause. They often have many
+- [22:22] interlocking things that could be done
+- [22:24] to detect earlier or to change it or to
+- [22:27] reduce or and not one root cause. So
+- [22:29] root cause analysis to me is by the way
+- [22:31] an incorrect thing. I'm explaining why
+- [22:33] right now with the healthcare, right?
+- [22:34] Because well what about the second
+- [22:36] diagnosis? Well, maybe part of the
+- [22:37] problem is we have a health care system
+- [22:38] that isn't preventative and part of it
+- [22:40] is that but they didn't go to the doctor
+- [22:41] anyway and you know okay so there's all
+- [22:43] kinds of things that could be useful and
+- [22:45] interesting to prevent this or make it
+- [22:46] better. That's the point. That's what an
+- [22:48] analysis should be is this array of
+- [22:50] things, not the root cause. Anyway,
+- [22:52] something along the lines of undiagnosed
+- [22:55] diabetes is much more of a cause than
+- [22:57] stopped breathing. So, when we say uh
+- [22:59] it's too expensive, and that's the
+- [23:02] reason you're making this fallacy. You
+- [23:04] got to go into well, they wanted this
+- [23:07] stuff, but it didn't work with linear,
+- [23:09] which is what they use. It only works
+- [23:10] with Jira. And so, there's a lack of
+- [23:12] integration. Now, maybe we should write
+- [23:13] that integration, maybe we shouldn't. Of
+- [23:15] course, it depends on how much we hear
+- [23:17] about it. And you know of course it's
+- [23:18] going to depend on other things but
+- [23:19] that's the reason not it was expensive
+- [23:22] right and so so this idea of like
+- [23:24] getting into not even the root cause but
+- [23:26] let's say rooter causes
+- [23:29] >> the root
+- [23:30] >> yeah the more root um I think some
+- [23:33] people probably say five wise and just
+- [23:35] paper over what I just said with that
+- [23:37] and maybe so but I just you know let's
+- [23:38] not be so simplistic about that because
+- [23:41] again five Y sometimes implies that
+- [23:42] there's some root cause at the bottom of
+- [23:44] the wise let's be a little bit more
+- [23:46] Let's be a little more smart about that.
+- [23:48] So anyway, these things too expensive.
+- [23:50] This is not it. Maybe project ended
+- [23:51] really is project ended. Okay. But even
+- [23:53] there I see just today today on an on a
+- [23:57] on an entrepreneur forum on on I am on
+- [23:59] someone said um yeah you know uh we're
+- [24:03] starting to see more people have project
+- [24:04] ended as the reason. And so there's
+- [24:07] nothing we can do about that.
+- [24:09] Now see that's incorrect. That's only
+- [24:12] true if you only look at the approximate
+- [24:13] thing which is project ended. You're
+- [24:15] correct that you can't make that project
+- [24:16] not end. Exactly. Yeah. Okay. But wait a
+- [24:19] minute. If your software was more
+- [24:21] successful and the project was more
+- [24:23] successful, would it have have ended or
+- [24:26] is that actually an indicator that your
+- [24:28] product wasn't that useful or didn't do
+- [24:30] its job? It's possible. Like in this
+- [24:32] case, who knows, right? But that's
+- [24:33] possible that it really is your fault.
+- [24:36] Um, another example is but you picked
+- [24:38] what target segments you were going
+- [24:40] after. Did you pick like a market
+- [24:43] segment that was easier to sell to but
+- [24:45] their projects end like small business
+- [24:47] and consumers where very often the small
+- [24:50] business does go out of business or the
+- [24:52] project ends etc because when things are
+- [24:54] small they're they're you know have high
+- [24:56] variance and lots of things can knock
+- [24:58] them off the the path and so on. And so
+- [25:00] is it your fault for picking the wrong
+- [25:02] ideal customer profile or target
+- [25:05] segment? And so yes, that one case of
+- [25:08] that one project, it's not your fault,
+- [25:09] quote unquote. But by saying that,
+- [25:11] you're you're you're just like ignoring
+- [25:12] the fact that there is maybe something
+- [25:14] to do about it. Now, all this is maybe.
+- [25:16] None of this proves you should like
+- [25:17] change your market, right? But but the
+- [25:19] fact but when you say it's there's
+- [25:20] nothing we could do about it, you you
+- [25:22] are closing the door on these things
+- [25:24] that might be the right thing. And very
+- [25:26] often, as I think probably a lot of
+- [25:28] people here on this on this listening to
+- [25:30] this know, the market segment you pick
+- [25:32] has a lot to do with your retention rate
+- [25:34] because everyone acts differently,
+- [25:36] right? And so anyway, um, so I I know
+- [25:39] it's it's a lot on this topic, but I
+- [25:41] just feel constantly people make this
+- [25:43] particular mistake of not not getting,
+- [25:46] you know, not just like abdicating
+- [25:48] responsibility or just listening to the
+- [25:49] first thing they they hear and saying
+- [25:51] that's the reason and that's not right.
+- [25:54] So that's that's the big thing about
+- [25:55] listening. Another thing is you got to
+- [25:57] ask when people are in trouble but not
+- [26:00] yet canceled. You might be able to save
+- [26:03] them. You certainly can learn more
+- [26:05] because you can talk to them like
+- [26:06] they're they're not shut off yet from
+- [26:08] you. So this might be they never
+- [26:11] uploaded their data so they're not being
+- [26:13] successful. They are calling tech
+- [26:15] support too much. They're in trouble.
+- [26:17] They're not calling tech support enough.
+- [26:19] You know they they they're not engaged.
+- [26:22] um they didn't log in for a while. Like
+- [26:23] there's all kinds of things where where
+- [26:25] now of course this is all going to the
+- [26:26] details are going to depend on the
+- [26:27] product obviously but there are signals
+- [26:29] that are correlated with cancellation.
+- [26:31] Now if you have a lot of data you can
+- [26:33] literally correlate signals with
+- [26:34] cancellation and try to extract that um
+- [26:37] you know you know precisely but even
+- [26:39] without data you can guess and guessing
+- [26:40] and having a theory acting accordingly
+- [26:43] and as you get more data adjusting your
+- [26:45] theory this is a this is a wise way to
+- [26:47] proceed even without data. So, if you
+- [26:49] can catch them when they seem like
+- [26:50] they're off the happy path, they're in
+- [26:52] trouble, like that's that's a better
+- [26:54] time to do it. And then the last thing I
+- [26:56] would say about about um about this
+- [26:59] detection is if you don't know what to
+- [27:01] do or all else being equal, then focus
+- [27:04] on onboarding.
+- [27:06] Um all almost all companies have a whole
+- [27:09] lot more uh cancellation in the first
+- [27:11] day, 30 days, 90 days, depends, right?
+- [27:13] But the first period than the whole rest
+- [27:16] of the customer's life. And also small
+- [27:19] changes in the onboarding can have large
+- [27:21] effects on cancellation. Whereas later
+- [27:23] on that's not necessarily true. It could
+- [27:25] be but it's not necessarily true. So uh
+- [27:26] a really dramatic version of this is if
+- [27:28] you've ever done YouTube videos which I
+- [27:30] I mean I know you have but if a listener
+- [27:32] has ever done YouTube video and you see
+- [27:34] the retention quote unquote of the of
+- [27:36] the viewer on a YouTube video, it has
+- [27:37] this thing where it it falls like just
+- [27:39] so much you can't believe in the first
+- [27:41] 30 seconds and then if if it's a decent
+- [27:43] video, it'll flatten out as people you
+- [27:45] know decide to watch the video. So, in
+- [27:48] that in that crazy looking curve, for
+- [27:50] the people that watch it for 15 minutes,
+- [27:53] maybe there's something you could do to
+- [27:54] keep a few of them staying to the end,
+- [27:57] but that's not going to change very much
+- [27:58] how many people get to the end. Whereas,
+- [28:01] like for me, I've only done a few, but I
+- [28:03] what what I see is about 50% fall off in
+- [28:05] the first 30 seconds. Well, if I can get
+- [28:07] that from 50% to 55% stay,
+- [28:11] um, that's an additional and and at the
+- [28:14] end of of the line, I only have 20%
+- [28:16] still there, which is pretty good for a
+- [28:17] long longer video. But if I get it from
+- [28:19] 50 to 55, I might get it go from 20 to
+- [28:21] 25% staying. In other words, if I shift
+- [28:24] to 10% at the front, which maybe I could
+- [28:26] do, like I can't be dramatic, but maybe
+- [28:28] a little, then in the output, I might be
+- [28:30] able to increase it by 20 30%.
+- [28:33] So that's a huge change. And so in the
+- [28:35] SAS equivalent is, as we all know, if
+- [28:37] they leave early, not only is it bad,
+- [28:39] but it's super unprofitable because you
+- [28:41] spent all this money to acquire them and
+- [28:42] then they never stayed around long
+- [28:43] enough to pay it back, much less to be
+- [28:45] profitable. So if you can do a little
+- [28:47] bit in the onboarding or shift the
+- [28:49] onboarding percentage a little bit, it
+- [28:50] pays off enormously in revenue and
+- [28:52] profit over time by by uh by making them
+- [28:56] successful. And uh so again, if you
+- [28:58] don't know what to do, onboarding is is
+- [29:00] a good bet. And even if you do know what
+- [29:02] to do, I'll I'll still bet that
+- [29:03] onboarding is a good bet for where to
+- [29:06] go.
+- [29:06] >> Oh man, I'm so happy we're spending so
+- [29:08] much time on this very specific first
+- [29:10] step of logo turnurn because the way you
+- [29:12] described it is so visceral. You've
+- [29:15] spent it took so much. It's like
+- [29:17] impossible how far this customer got
+- [29:19] already. Like they are using your
+- [29:22] product and understand it
+- [29:24] >> mostly and then they still decide to
+- [29:27] leave. so brutal the way
+- [29:29] >> and you're going to believe them when
+- [29:30] they say it's because of the cost,
+- [29:33] >> right? Like it just doesn't even make
+- [29:34] sense when you put it that way, right?
+- [29:36] >> So, let me uh let me kind of uh
+- [29:37] summarize the advice you shared here
+- [29:39] because this is so good. So, step one is
+- [29:42] look at logo churn. The way to
+- [29:44] understand and essentially to understand
+- [29:46] how big of a problem this is and why you
+- [29:48] need to spend time here is uh look at
+- [29:50] this basically do the math uh what's how
+- [29:53] many new customers you're getting
+- [29:54] divided by the cancellation rate and
+- [29:56] that essentially tells you what's like
+- [29:58] if that doesn't change what's the
+- [29:59] maximum number of customers you will
+- [30:00] ever have
+- [30:01] >> exactly
+- [30:02] >> that's going to be a sad number and then
+- [30:03] the question is okay cool how do I
+- [30:05] reduce the cancellation rate obviously
+- [30:06] as you said everyone wants new customers
+- [30:07] more new customers
+- [30:08] >> yeah and you'll I know you're going to
+- [30:09] do that anyway but you got this cap
+- [30:12] >> exactly okay so the Okay. So, a few
+- [30:14] things you've shared here. One is
+- [30:16] instead of asking people in option uh
+- [30:18] multiple choice, why did you decide to
+- [30:20] cancel? You make it free form and you
+- [30:21] make the question, how would you say it?
+- [30:23] Was it what made you cancel?
+- [30:25] >> What made you cancel?
+- [30:26] >> What made you cancel? Great.
+- [30:28] >> Yeah.
+- [30:28] >> And then you could use AI to help
+- [30:30] summarize these things, I imagine,
+- [30:31] instead of
+- [30:32] >> Yeah. Um I think what I find with AI is
+- [30:34] this with this sort of thing with
+- [30:36] surveys, um is this
+- [30:38] >> AI is good at picking out themes.
+- [30:40] >> Yeah. It is bad at picking out details
+- [30:43] that are actionable.
+- [30:45] >> When I say AI, of course, I mean LLMs,
+- [30:47] which is probably what we mean when
+- [30:49] we're looking at natural language,
+- [30:50] right? Um, and if you think about it, it
+- [30:53] sort of makes sense because the LLM is
+- [30:55] an averaging machine, right? It's
+- [30:58] predicting the most likely that's an
+- [30:59] averaging kind of a thing. And so when
+- [31:02] what you're looking for is a kind of
+- [31:04] average, it's usually pretty good. So,
+- [31:06] summarization,
+- [31:08] topics, themes. But when you're asking
+- [31:10] for like what is interesting and not
+- [31:12] average, it's actually pretty bad at it.
+- [31:15] One uh one way that I found that's sort
+- [31:17] of useful is yes, I'll ask it about
+- [31:19] themes, but then I'll say now pick out
+- [31:21] every specific detail that goes under
+- [31:23] one of these themes, put it along with
+- [31:26] like which customer said it and the link
+- [31:28] to, you know, blah blah blah. So, you'd
+- [31:30] have to, you know, play with this to
+- [31:31] tune it, right? But like that kind of
+- [31:32] thing so that a human being can then
+- [31:34] still see the detail which is what
+- [31:36] triggers in your mind. Wait a minute but
+- [31:38] that means we should do that right cuz
+- [31:39] the topics won't do that. The topics
+- [31:42] will be I already know what the topics
+- [31:43] will be. It'll be stuff like I couldn't
+- [31:45] figure out how to do this this
+- [31:47] integration right like the the the
+- [31:49] topics are actually not going to be that
+- [31:51] surprising probably. It's the details
+- [31:53] that are going to be the triggers for
+- [31:56] action actionable stuff or patterns or
+- [31:59] something like that. So yeah, AI is not
+- [32:02] useless, but it's not as useful as it
+- [32:05] sounds. It's probably still a good idea
+- [32:07] to just read all this stuff. Although AI
+- [32:10] might be able to clean up, you know,
+- [32:11] maybe people's grammar is bad. It's a
+- [32:12] weird language. Okay. Yes. Like that's
+- [32:15] annoying. You could clean that up, but I
+- [32:17] wouldn't rely on AI to do the thinking
+- [32:18] for that reason.
+- [32:20] >> That's such such good advice. I actually
+- [32:21] have a really cool guest post coming out
+- [32:23] soon that gives a bunch of really
+- [32:25] specific techniques to avoid AI uh
+- [32:28] hallucinating or just giving you really
+- [32:30] bad uh results from this very specific
+- [32:33] synthesis work because it turns out AI
+- [32:35] is very uh not great at actually being
+- [32:38] honest about some of the stuff. So
+- [32:40] >> we'll link to it if it comes out before
+- [32:41] this. And like I think in real life most
+- [32:43] people don't have that much the volume
+- [32:45] of these cancellations unless it's like
+- [32:47] a super consumer app is not that high.
+- [32:49] So, you don't even need AF for this.
+- [32:51] Just like read it. And then this is a
+- [32:52] good segue to your next piece of advice,
+- [32:54] which is uh essentially the five W's,
+- [32:56] but not the five W's where you kind of
+- [32:58] force yourself to dig into what's the
+- [33:00] real reason that forced them to cancel.
+- [33:02] It's probably not pricing. It's probably
+- [33:04] not the project ended. There's something
+- [33:05] deeper.
+- [33:06] >> Yeah.
+- [33:07] >> And then, uh, advice number three is try
+- [33:09] to catch people early. Try to catch them
+- [33:12] before they turn. If you don't have a
+- [33:14] lot of customers, it's a lot easier. If
+- [33:15] you have a lot, it's obviously harder.
+- [33:17] Uh there's always been this like holy
+- [33:18] grail idea of a product that just like
+- [33:20] watches metrics and tells you this
+- [33:21] person is about to cancel. I see that.
+- [33:23] >> What I would say is it's it it is it is
+- [33:26] not hard. You don't need a lot of
+- [33:28] customers in to to go talk to the ones
+- [33:31] who are in trouble.
+- [33:32] >> Mhm.
+- [33:33] >> You do need a lot of data or customers
+- [33:36] to mathematically know what behaviors
+- [33:38] are correlated with cancel and therefore
+- [33:40] to spend your time wisely. Then you need
+- [33:42] a lot more data. But to your point, even
+- [33:44] if you have the data, it's not entirely
+- [33:46] clear whether some kind of mechanistic
+- [33:48] thing is all that important. One way I
+- [33:50] look at it is, you know, it's it's very
+- [33:52] common advice. You should try to get
+- [33:53] more good customers and fewer bad
+- [33:55] customers. Of course, you should. And so
+- [33:56] therefore, it they say you should see
+- [33:59] what the good customers have in common.
+- [34:02] But that's not the end of the sentence
+- [34:04] because a lot of the things the good
+- [34:05] customers have in common, they also have
+- [34:07] in common with the bad customers because
+- [34:10] it's just what your customers do. just
+- [34:13] what anybody does. So, it's what the
+- [34:15] good customers have in common that are
+- [34:16] different from what the bad customers
+- [34:18] have in common.
+- [34:20] Okay. So, with that in mind, this kind
+- [34:21] of like it has to be both or else you're
+- [34:23] you're sort of not getting you're just
+- [34:25] getting correlations that are that are
+- [34:26] not helpful. Um the cancellations or or
+- [34:30] talking to people who are in trouble is
+- [34:32] is another application of that. So, what
+- [34:34] is correlated with people who actually
+- [34:35] end up cancelling, not just what you
+- [34:37] know and so um I think that mindset is
+- [34:41] is correct. if if you add the other side
+- [34:43] of that to it.
+- [34:44] >> A really important nuance.
+- [34:46] >> Yeah.
+- [34:46] >> Okay. And then the final step just to
+- [34:48] close this out is onboarding. Work on
+- [34:49] onboarding activation. Uh something
+- [34:51] that's one of the most recurring themes
+- [34:53] on this podcast is just the power across
+- [34:55] every dimension of improving onboarding.
+- [34:57] Improving activation.
+- [34:58] >> Yeah.
+- [34:59] >> Sweet. Okay. So, this is just step one,
+- [35:02] which is already full of gold if your
+- [35:04] growth has slowed. So, step one is focus
+- [35:06] on or your logo churn, the number of
+- [35:08] customers leaving, people leaving,
+- [35:09] actually canceling your your product. So
+- [35:11] I I kind of look at it like a question.
+- [35:12] So like the first question is are are
+- [35:14] people leaving it too much? Because if
+- [35:16] your if your monthly cancellation is 2%
+- [35:18] for SMB, that's good. So you could try
+- [35:21] to work on it, but since it's already
+- [35:22] good, it's still probably a good idea to
+- [35:25] work. It's it's probably a good ROI for
+- [35:27] you to work on it, but it's possible
+- [35:28] that you're got diminishing returns and
+- [35:30] that this isn't really the reason or
+- [35:32] it's not really reasonable for it to go.
+- [35:33] I mean, how low can it go for SMB? Like
+- [35:35] there's some floor and you might be near
+- [35:37] it. So the first question is like is is
+- [35:39] is logo turn too high and trying to set
+- [35:42] a threshold that you know lower than
+- [35:44] what people normally want to do. So the
+- [35:47] next the next question I have is is the
+- [35:49] pricing correct which of course pricing
+- [35:51] is a perennially interesting topic. I
+- [35:53] know there's this funny thing of uh
+- [35:55] especially with newer companies that the
+- [35:56] pricing is always too low. It's not
+- [35:58] always but like that's the common thing.
+- [36:00] Patrick Campbell who has 4,200 data
+- [36:04] points about startups. Let that sink in
+- [36:07] a little. Um has this great quote which
+- [36:09] goes like this. Your prices are way too
+- [36:11] low because you just guessed and you
+- [36:13] haven't changed them. It's like yeah, if
+- [36:16] you really like look look deep within
+- [36:18] you realize like yeah or we just picked
+- [36:20] whatever our competitors are doing and
+- [36:22] and and that's it or we added or
+- [36:23] subtracted something because reasons and
+- [36:27] right that's probably not good. And
+- [36:29] people are scared to raise prices for
+- [36:30] obvious reasons. But the but the if we
+- [36:33] set aside the emotional reasons whether
+- [36:36] they're correct or not, the the sort of
+- [36:37] economic reason people normally give is
+- [36:39] they have in their mind this e this
+- [36:41] microeconomic supply and demand curve
+- [36:42] thing. And the demand curve says that if
+- [36:45] you raise the price, demand goes down.
+- [36:46] That's why demand curve is always going
+- [36:48] that way, right? And so they understand,
+- [36:51] I think everyone understands, right? But
+- [36:54] maybe you raise prices by 10%. But
+- [36:56] signups go down only 5%. So overall,
+- [36:59] it's better. But the opposite could
+- [37:02] happen too if I'm on the other side of
+- [37:03] the demand curve. And okay, so that's
+- [37:05] that's how most people think of it.
+- [37:06] However, this is not how it works.
+- [37:09] So that's how it works in microecon
+- [37:11] microeconomics 101 textbooks. That's not
+- [37:13] how it works in the real world often. So
+- [37:16] what usually h what often happens is you
+- [37:17] raise prices and signups don't change.
+- [37:20] When I say signups, I mean the like
+- [37:21] signups per month, you know, the rate at
+- [37:22] sign or signups go up.
+- [37:25] This happens all the time. Even even for
+- [37:28] like soloreneurs on Twitter who have,
+- [37:30] you know, strange projects or
+- [37:31] everything. Happens all the time. They
+- [37:33] raise prices. They're like, I was
+- [37:34] scared, but then then sus went up. I
+- [37:37] once talked to a guy. This is this is
+- [37:38] really funny. I'm not I'm going to not
+- [37:40] say the name to protect the protect the
+- [37:42] name, right? But but um but uh so he had
+- [37:46] a product that was that he was selling
+- [37:48] essentially to enterprise and
+- [37:49] government, so larger companies. And it
+- [37:51] was to me way too cheap. So he said
+- [37:53] something like, "Yeah, I charge $300."
+- [37:56] I'm like, " $300 a month? That's not
+- [37:57] enough." He goes, "No, per year." Like,
+- [38:00] "Okay, wait." I said, "Okay, just do me
+- [38:02] a f how many signups do you get a week?"
+- [38:04] And he's like, "One or two?" Because
+- [38:05] this is enterprise and it was a startup.
+- [38:08] I said, "Okay, um, just for fun, just
+- [38:12] change it from per month, per year to
+- [38:14] per month." So, in other words, we're
+- [38:16] 12xing the price, right?
+- [38:19] So he did and he still got one or two
+- [38:22] per week. Like nothing changed. I'm
+- [38:24] like, "Okay, what what are you going to
+- [38:26] do next?" And he goes, "Oh my gosh, well
+- [38:28] now I have so much more money and
+- [38:29] profits. I'm going to like hire an
+- [38:30] engineer. I'm going to do this
+- [38:32] marketing." And I'm like, "Time out.
+- [38:34] What you're going to do is raise prices
+- [38:36] again." Like you just told me you you
+- [38:38] 12xed the price and nothing observable
+- [38:42] changed. That means you're not near the
+- [38:44] price yet, right? You're going to you
+- [38:46] don't have to 10x it again necessarily.
+- [38:48] maybe 2x, maybe 50%, but like you're not
+- [38:50] done. I mean, you can do those other
+- [38:51] things too, but you're not done with the
+- [38:53] price. Like, it didn't even occur to
+- [38:54] them still. Okay. So, why does this
+- [38:58] happen? Um, the reason is that pricing
+- [39:01] selects the market.
+- [39:04] So if you only think of the market as
+- [39:07] people with very limited budgets, barely
+- [39:09] can do anything, not getting much value
+- [39:11] out of it, then it is true that if you
+- [39:12] raise prices, you'll get fewer of them
+- [39:15] because they were never getting that
+- [39:16] much value out of it anyway. They don't
+- [39:18] have that much money. So if you raise
+- [39:19] prices, they're gone. But think about
+- [39:22] just even a mid-size company, forget
+- [39:23] about enterprise, just think about a
+- [39:24] company with a thousand employees and
+- [39:26] 400 million in revenue or whatever. And
+- [39:28] um if they see a product that's, you
+- [39:31] know, $2 a month or even $100 a month,
+- [39:34] their thought is like, well, that can't
+- [39:36] be good enough. They're not mature
+- [39:38] enough. It's not going to do enough. The
+- [39:40] support's not going to be good enough.
+- [39:42] They probably don't have good governance
+- [39:43] policies or other things that we need,
+- [39:44] you know, etc. Whether that's true or
+- [39:46] not, like this is what it looks like is
+- [39:47] it's lowquality, cheap, whatever, aimed
+- [39:50] at SMB. So, they just won't buy. They're
+- [39:53] not in the market for the thing. So it's
+- [39:56] not true that they have this demand
+- [39:57] curve where oh since it's cheap they all
+- [39:59] want it. That's what that's what micro
+- [40:02] economics curve says. It's so cheap that
+- [40:04] they should all want it. No, they don't.
+- [40:06] None of them want it because it looks
+- [40:07] bad. So as it gets into a price range
+- [40:09] that makes sense for the kinds of things
+- [40:11] that they need. Then their demand
+- [40:13] actually goes up. Then it can stay up
+- [40:15] while it's in a good range. And then of
+- [40:17] course at some point you are priced out
+- [40:19] of them that that particular kind of
+- [40:21] company's like I'm not going to spend
+- [40:22] $10 million a year on it. Are you
+- [40:24] kidding? So yes, it does slope down and
+- [40:25] go away. So it's not a normal curve, but
+- [40:27] it is like it slopes up and then it's
+- [40:29] something and slopes down. Who knows
+- [40:30] exactly what it looks what what shape it
+- [40:32] is? Probably none of us know, but it's
+- [40:34] more like a messa and not a line that
+- [40:37] goes up to down like we like in the
+- [40:40] textbook. For that market, it's only the
+- [40:43] very lowest, you might even say worst in
+- [40:46] terms of metrics end of the market that
+- [40:48] has the microeconomic slope that you're
+- [40:50] worried about. So what happens is you
+- [40:52] raise prices and you enter a different
+- [40:53] market and that's why the signups go up
+- [40:56] or okay
+- [40:57] uh you leave behind perhaps a worse
+- [41:00] market anyway and of course everyone
+- [41:02] will tell you you know the more they pay
+- [41:04] the higher retention is and that you
+- [41:06] know like all the all the kinds of stuff
+- [41:08] gets better when you when you u when you
+- [41:10] charge more. So this question is pricing
+- [41:12] correct? This is kind of what what's in
+- [41:13] my mind when I ask that question. It's
+- [41:15] like probably the answer is no because
+- [41:17] pricing is very hard. It's just as much
+- [41:19] art as it is science. Um, you've had
+- [41:21] some really good people on here on
+- [41:23] pricing. In fact, so good that I've
+- [41:24] bought some of the books that those
+- [41:26] people have talked about because I I
+- [41:28] love the interview so much. Right. So,
+- [41:30] so like um so I I believe in all that.
+- [41:33] No pro no problem. I believe in it. Um,
+- [41:35] nevertheless, they also say it's art and
+- [41:36] science and it's it's it's very
+- [41:38] difficult to uh and and also once you
+- [41:40] augur it in the world changes like 5 10
+- [41:43] years later, the market is different.
+- [41:44] The world's different and uh so it's
+- [41:46] still it's still unclear. Also, price is
+- [41:49] not just the number on the web page.
+- [41:51] It's easy to think that, right? But how
+- [41:54] it's structured is just as important.
+- [41:56] How the product's positioned is just as
+- [41:58] important. So, for example,
+- [42:01] this example I've written about before
+- [42:03] um online is uh uh this example it
+- [42:08] actually was something that um that I
+- [42:10] that happened in my life, but I I
+- [42:12] changed the story to make it like simple
+- [42:14] and and real and clear without having to
+- [42:16] get into lots of detail. So, the the
+- [42:18] sort of story version is uh how this
+- [42:22] company was able to charge eight times
+- [42:24] as much for the same product just by
+- [42:26] talking about it differently.
+- [42:29] So just by positioning it differently,
+- [42:31] eight times as much. Again, this
+- [42:32] happened to me, but it's it's too
+- [42:34] complicated. It's not not interesting.
+- [42:35] Those details are not interesting. So
+- [42:37] say there's this company called Double
+- [42:38] Down, and the idea is that it hves the
+- [42:41] cost of your AdWords because it makes it
+- [42:42] so efficient.
+- [42:44] So that's what it says on the web page.
+- [42:46] Cut your AdWords cost in half.
+- [42:49] Which is a very good pitch, isn't it?
+- [42:50] Simple, obviously valuable. But when you
+- [42:53] think, so let's suppose uh I have a I'm
+- [42:55] a customer and I spend $40,000 a month
+- [42:57] on AdWords.
+- [42:59] What am I willing to pay for Double
+- [43:01] Down? Well, if you do cut my AdWords in
+- [43:04] half, then all right, I save I save 20K,
+- [43:07] but I'm not willing to give 20K to
+- [43:09] Double Down because then I'm not saving
+- [43:10] any money. In order to actually save
+- [43:12] money, I need to give Double Down less
+- [43:13] money. How much less? I don't know.
+- [43:15] Let's just call it a quarter. So, I pay
+- [43:17] Double Down 5K to save 20. So, I'm s I'm
+- [43:21] really saving 15. Doubled down's making
+- [43:23] 5K a month. That's pretty good.
+- [43:25] Everyone's pretty happy at this 5 grand
+- [43:28] a month price point. So, there's nothing
+- [43:31] wrong with this. No one's doing anything
+- [43:33] wrong. Like, that's a perfectly valid
+- [43:34] company. However,
+- [43:36] think about these two situations that
+- [43:38] the CMO might be or the chief product
+- [43:40] officer might be in in talking to the
+- [43:42] CEO at the end of the year. Well,
+- [43:45] scenario one goes, we started using this
+- [43:48] tool, doubled down, and it haved our
+- [43:49] cost. So, we got we able to spend that
+- [43:51] money on some other stuff. We were able
+- [43:53] to save money. And the CEO go would say,
+- [43:54] great, that's good. Let's we're going to
+- [43:57] renew and I'm happy to hear it. Again,
+- [43:58] nothing wrong here, but let's take a
+- [44:01] different tact altogether. What does the
+- [44:04] CEO want to hear more? Growth or saves
+- [44:06] money? Both are good, but I know which
+- [44:09] one is healthier for the company,
+- [44:11] increases market share, is better
+- [44:13] competitively, and also makes the
+- [44:15] company more valuable. It's the growth.
+- [44:19] So, what we'd really like the CMO to
+- [44:21] tell the CEO is, I increase the growth
+- [44:25] rate of the company, not so much I save
+- [44:27] money. That was way better. So, here's
+- [44:30] how we could do that with Double Down.
+- [44:32] Yes, Double Down has the cost, but what
+- [44:34] that means is right now, right now, the
+- [44:37] company is paying 200 bucks per lead.
+- [44:40] Let's call them leads, right? Whatever,
+- [44:41] whatever this is outputting, right?
+- [44:44] Well, if I have the cost of a lead, I
+- [44:47] could get twice the leads for the same
+- [44:49] money. I'm already willing to spend $200
+- [44:51] a lead and I'm already spending 40k a
+- [44:54] month for it. So, if Doubledown has the
+- [44:57] cost, it means I can get more leads.
+- [45:00] So what I the way I could pitch double
+- [45:02] down is double the leads per month with
+- [45:06] period.
+- [45:08] Now if I'm willing to spend 40k for this
+- [45:11] number of leads, how much am I willing
+- [45:12] to spend to double the leads? 40k.
+- [45:16] I just said I'm willing to spend 40k for
+- [45:18] this number of leads. So doubling it.
+- [45:20] I'm willing to spend 40k to double it.
+- [45:22] So if I give double down 40k not five
+- [45:27] for the same product which is the leads
+- [45:29] are cheaper but then now the pitch is I
+- [45:31] doubled the leads for 40k instead of h
+- [45:34] instead of having the cost for 5k so
+- [45:36] double down gets 8x the money because it
+- [45:39] gets 40k for this product not eight not
+- [45:41] not 5k for this product
+- [45:43] >> amazing story
+- [45:44] >> and everyone's happy because the CEO
+- [45:45] goes what did you do and they said like
+- [45:47] oh my god I doubled leads what yeah I
+- [45:50] mean at the same at the at the same ROI
+- [45:52] as we had before, same CAC, I doubled
+- [45:54] leads. CEO goes, how could we do more of
+- [45:56] that? Like, I mean, just everything is
+- [45:58] so much better, same product. Now, I
+- [46:00] know it's a little bit of an
+- [46:01] exaggeration, etc., because I'm trying
+- [46:03] to make a point, right? But the but the
+- [46:04] the big point is
+- [46:08] uh or the the largest point is pricing
+- [46:09] is not just the number on the page.
+- [46:13] It's positioning. It's how their budgets
+- [46:15] work. It's how it's structured. like
+- [46:17] it's per site or it's per usage or it's
+- [46:19] per seat or it's per all of this stuff
+- [46:20] is part of what pricing is. And often
+- [46:23] even if it's the same price or the same
+- [46:25] product, depending on how that's
+- [46:27] structured, it's either seems um fair
+- [46:30] and and and good or it seems like unfair
+- [46:32] and too expensive or whatever. Um and so
+- [46:35] in particular with the positioning, the
+- [46:36] big lesson for product managers is
+- [46:39] sell more of what the company values
+- [46:42] like growth. It doesn't have to be
+- [46:43] growth. It could be something else.
+- [46:45] Their the retention for their customers
+- [46:48] comp their competit how competitive they
+- [46:51] are in the market. Like there's various
+- [46:52] things they could value. Growth is an
+- [46:54] obvious one. Sell them that they're
+- [46:57] going to get more of what they value as
+- [47:00] opposed to saving cutting ROI
+- [47:04] saves time saves money more efficient.
+- [47:07] And again there there's nothing wrong
+- [47:09] with saving money saves time. It's just
+- [47:10] that it caps this price and this value
+- [47:13] that is they perceive that you do.
+- [47:15] Whereas if you deliver more of the value
+- [47:17] that they already value, it's I don't
+- [47:19] want to say uncapped completely, but
+- [47:21] like the cap is maybe an order of
+- [47:23] magnitude higher than saving. So again,
+- [47:26] it's it's valuable to save. You're not
+- [47:29] doing anything wrong. Like that's not
+- [47:30] how to talk about what it is and
+- [47:32] therefore help set the price. So yeah,
+- [47:36] so it's a it's a long way of saying so
+- [47:38] when again when I think is your pricing
+- [47:39] correct I'm thinking in a maybe a more
+- [47:42] general way than just like the number
+- [47:43] I'm thinking about the structure the
+- [47:45] positioning and all that and my guess is
+- [47:47] when growth is slowing um no that
+- [47:50] there's a lot of improvement that could
+- [47:51] be that could be had there.
+- [47:52] >> Oh man this is such this story is so
+- [47:54] powerful who does not want to change
+- [47:57] some copy on their website and double
+- [47:58] their growth and triple their price. Um
+- [48:01] and the the biggest takeaway here is
+- [48:03] when you say is pricing correct isn't
+- [48:06] like what is the number 20 or 25 or 100
+- [48:09] it's it's almost is the market we are
+- [48:11] going after correct is the way we are
+- [48:14] selling to them correct is this price
+- [48:16] communicating the right sort of story
+- [48:18] and then also is the positioning of what
+- [48:21] problem we solve for you correct so
+- [48:23] there's a lot here and luckily I've done
+- [48:25] a bunch of episodes along this stuff
+- [48:27] which we'll point people to
+- [48:29] >> to go much deeper cuz This is a very
+- [48:31] >> this is a deep skill and there's a lot
+- [48:33] to do here.
+- [48:34] >> One thing I'll mention specifically, so
+- [48:36] Jen Ael, a recent podcast guest, it was
+- [48:38] her second visit to the podcast. She has
+- [48:40] a lot of really good advice on this of
+- [48:42] just how to price and how to reposition
+- [48:44] the way you're selling it. Specifically,
+- [48:46] she had this really interesting insight
+- [48:48] that enterprises their sweet spot for
+- [48:50] contracts is like 75 to 150K. That's
+- [48:52] like how they normally buy SAS software.
+- [48:54] And it sounds absurd, but that's kind of
+- [48:56] what you want to you want your product
+- [48:58] to be in that bucket versus like a
+- [48:59] thousand a month, 2,000 a month, and
+- [49:01] everything just gets easier if you're
+- [49:03] like, "Okay, this is one of those. Okay,
+- [49:04] cool." It gets easier. Um the thing, uh
+- [49:08] I don't want to go off too much of a
+- [49:10] tangent, but the the the thing you have
+- [49:12] to remember is that pricing is not this
+- [49:15] knob that you can turn separately from
+- [49:18] the rest of your strategy.
+- [49:20] So when you say like even when I just
+- [49:23] said raise prices or whatever um but you
+- [49:27] can't just raise prices like these new
+- [49:30] customers have different demands now
+- [49:32] maybe you need sock too now your other
+- [49:34] governance stuff matters now integrating
+- [49:36] to certain systems you didn't know about
+- [49:38] matters maybe now they need professional
+- [49:40] services like you can't just raise
+- [49:43] prices and change market and like that's
+- [49:44] it and maybe that's wise to do but maybe
+- [49:48] it's not maybe you realize that sure, of
+- [49:51] course, that other market has certain
+- [49:52] advantages, but they also have
+- [49:53] disadvantages, and we don't want those
+- [49:55] either because we'll no longer be
+- [49:57] competitive because the way that we're
+- [49:58] distinguished, competitive, special,
+- [50:00] interesting, valuable is only valuable
+- [50:03] in the market we're in. The the next
+- [50:05] market does not value it like that. And
+- [50:07] so, uh-oh, um, actually, that would be
+- [50:09] really bad for us. Or it could even be
+- [50:11] cultural. We're a company like Buffer is
+- [50:13] a great example. Buffer could go up
+- [50:15] market and try to sell, you know, social
+- [50:17] media tools or whatever. But they
+- [50:19] realized we are a company for the little
+- [50:22] people. I don't want to sell to a big
+- [50:25] company. We're never going to make a
+- [50:26] product for them. We don't want to. This
+- [50:29] is who we are. This is what we want to
+- [50:30] do. This is what's fulfilling to us. So,
+- [50:32] we're not going to go there. So, it can
+- [50:34] be cultural. It can be certain goals. It
+- [50:36] can be it can be other aspects of of the
+- [50:38] business model or the strategy, but you
+- [50:39] it's not this kind of like, oh, I'll
+- [50:41] just I'll just change this. It's a
+- [50:43] decision about the whole strategy and
+- [50:44] that too we could talk about for hours.
+- [50:46] Um but um I'll just let's just caution
+- [50:49] that. Uh oh, I'll just go enterprise
+- [50:51] like is is of course not how it goes.
+- [50:53] Sorry. We got this.
+- [50:55] >> Yeah, I love Jen. Her pricing and and
+- [50:57] sales stuff is good. She's great on
+- [50:58] Twitter, too. She's I love her. I love
+- [50:59] Jen.
+- [51:00] >> And that is such an important nuance,
+- [51:01] you know. Don't build the thing you're
+- [51:02] miserable building and just like, okay,
+- [51:04] I listen to a podcast. We're going to
+- [51:05] raise our prices 10x and life will be
+- [51:07] grand. There's also downsides.
+- [51:09] >> Yes.
+- [51:11] >> Yeah. Okay. Uh, amazing advice. Okay,
+- [51:13] there's so much here. Again, this could
+- [51:14] be its own conversation. Pricing,
+- [51:16] positioning. Yeah, we'll link folks to a
+- [51:18] bunch of cool advice that um we've
+- [51:20] covered on this podcast, too.
+- [51:22] >> If you're a founder, the hardest part of
+- [51:24] starting a company isn't having the
+- [51:25] idea, it's scaling the business without
+- [51:28] getting buried in back office work.
+- [51:30] That's where B comes in. Brex is the
+- [51:32] intelligent finance platform for
+- [51:34] founders. With Brex, you get high limit
+- [51:36] corporate cards, easy banking, high
+- [51:38] yield treasury, plus a team of AI agents
+- [51:41] that handle manual finance tasks for
+- [51:44] you. They'll do all the stuff that you
+- [51:46] don't want to do, like file your
+- [51:48] expenses, scour transactions for waste,
+- [51:50] and run reports, all according to your
+- [51:53] rules. With Brex AI agents, you can move
+- [51:56] faster while staying in full control.
+- [51:58] One in three startups in the United
+- [52:00] States already runs on Brex. You can too
+- [52:04] at brex.com.
+- [52:07] >> Let's keep going through this uh
+- [52:08] checklist. So, one was look at logo
+- [52:10] churn. Yeah. Two is look at is your
+- [52:12] pricing correct?
+- [52:13] >> Is pricing right? And why do we why do
+- [52:15] we think it is? Because we probably
+- [52:17] don't have good reasons yet.
+- [52:19] >> Okay. So, the third one is are existing
+- [52:21] customers growing? I think everyone
+- [52:23] probably knows this but just to say it
+- [52:25] um okay if if cancellations overtake
+- [52:28] marketing in in in in u magnitude
+- [52:32] one way to combat I mean one thing is
+- [52:34] okay make cancellations lower but they
+- [52:36] can't be zero so another what else do we
+- [52:38] have to combat cancellations that would
+- [52:40] be proportional to our size so that it
+- [52:42] keeps up unlike marketing right or you
+- [52:45] know basic direct marketing so one would
+- [52:47] be all right 2% left but of the
+- [52:50] remaining 98% some of those upgraded or
+- [52:54] otherwise paid us more. Maybe it's usage
+- [52:55] based, whatever it is, they're paying us
+- [52:56] more. And so that that covers the gap
+- [52:59] and that's and and yes, if I tripled the
+- [53:01] company overnight, that would triple.
+- [53:03] And so that's the answer. So that is an
+- [53:05] answer. And maybe that's obvious, but
+- [53:07] you know, it's useful to tie it back to
+- [53:08] the the sort of model mental model we've
+- [53:10] got going. Um, and of course the the
+- [53:12] metric here is NRR net revenue
+- [53:15] retention. And the way that's computed
+- [53:18] is you say what is the revenue of
+- [53:21] customers right now like so existing
+- [53:24] customers existing whatever just the
+- [53:25] whole total and then one year from now
+- [53:29] what of that remains so not new
+- [53:31] customers coming in not talking about
+- [53:33] them because we're asking about the
+- [53:34] cohort that exists what remains so with
+- [53:37] cancels it goes down with downgrades it
+- [53:39] goes down but with upgrades it goes up
+- [53:41] so when I say remains it could end
+- [53:42] higher than we started if upgrades
+- [53:45] exceed
+- [53:46] cancellations and downgrades and now we
+- [53:48] are talking about MR and not N because N
+- [53:51] doesn't have this N doesn't have an
+- [53:53] upgrade and just only goes down which
+- [53:55] again is why I think the N is actually
+- [53:57] the most important one
+- [54:00] because think about it like a lot of
+- [54:01] times people think so if you've heard of
+- [54:03] NR you might think well that's my golden
+- [54:04] metric I'm done
+- [54:06] but the issue is if NR is positive but N
+- [54:10] goes down too fast it doesn't matter
+- [54:12] because not enough people are left
+- [54:15] and so there's not enough people left
+- [54:16] over to upgrade and so actually you're
+- [54:18] wrong and so NR does not does not
+- [54:21] include that and therefore it actually
+- [54:22] underounts what's going on in a bad way
+- [54:25] like in a way that's that that hurts
+- [54:27] you. There's yet another way to see why
+- [54:29] what I'm saying is right. You know,
+- [54:32] there's this this thing in investments
+- [54:33] where let's say I started out at $100
+- [54:36] and the stock goes down 5%. So now it's
+- [54:38] at 90 or no, it goes down 20%, now it's
+- [54:40] at 80. Then it goes up 20%. Is it back
+- [54:44] to 100?
+- [54:46] No. Because 20% were then 80 is 96. So
+- [54:50] if it goes down 20% and up 20%, it does
+- [54:53] not come back to zero. It's worse.
+- [54:56] When you have a loss, a percentage loss,
+- [54:58] you have to have a greater percentage
+- [55:00] gain just to get back to where you were.
+- [55:03] In this case, a loss of 20% requires a
+- [55:05] gain of 25% to get back to where you
+- [55:07] were. This is why NR isn't quite right
+- [55:10] because NR is saying that a loss of 20%
+- [55:13] from cancellations is offset by 20% from
+- [55:15] upgrades.
+- [55:17] As we just saw, no, it's not. That only
+- [55:20] gets us to 96% actually. So, this is why
+- [55:23] like again, I believe in NR. saying you
+- [55:26] got to lo track it like it's good just
+- [55:28] in the back of your mind realize it's
+- [55:30] not quite that good and looking at N
+- [55:33] helps me keep keeps you honest about
+- [55:35] what's really going on with these
+- [55:36] customer cohorts right so that's why
+- [55:38] they're both useful in fact but that's
+- [55:40] this is why they're both useful so NR of
+- [55:43] course is important a nice way to see
+- [55:45] this is it if all this is if everything
+- [55:47] I'm saying is true and there's these
+- [55:48] limits and stuff because of cancellation
+- [55:50] then there should be no way to get a big
+- [55:52] company like a public SAS company Unless
+- [55:55] NR is greater than 100, like otherwise
+- [55:57] cancellation should just win. And that
+- [55:59] is in fact the case. There's over a
+- [56:01] hundred SAS public companies and
+- [56:04] something like two of them have NR less
+- [56:06] than 100%.
+- [56:07] Like that's how it goes. And those
+- [56:09] companies have horrible financials and
+- [56:11] their values valuations are are bad.
+- [56:13] Like it's not good. It's not a good
+- [56:15] thing, right? So, and in fact the median
+- [56:18] for a IPOed SAS company like at IPO the
+- [56:22] median NR is 119%.
+- [56:27] So that's so yes that's what it takes.
+- [56:29] You can't do this. You're limited in
+- [56:31] less. Now your your goal may or may not
+- [56:33] be to get that big but the point being
+- [56:35] it's mandatory for growth. Now if the
+- [56:38] literal customers are just leaving like
+- [56:40] you know that you got to you got to plug
+- [56:42] that hole first like you said. But okay,
+- [56:43] if they're okay, that's why this is in
+- [56:45] order. If that's generally okay, now we
+- [56:48] turn to NR to say, okay, but the ones
+- [56:50] who stay, they're hopefully happy. They
+- [56:52] need to grow. Okay, so that's the kind
+- [56:53] of the full story of NR. I think people
+- [56:55] don't quite people who've heard of NR
+- [56:58] don't necessarily think about all those
+- [56:59] things and realize that. So a good
+- [57:02] question is, okay, what do I do with NR?
+- [57:06] But I think the answers are pretty clear
+- [57:08] like you add features, you have
+- [57:10] different tiers, you change the pricing
+- [57:12] in some way uh with usage or seats or
+- [57:15] something that kind of goes up
+- [57:16] automatically as they get more value out
+- [57:17] of it. So I I don't think that's
+- [57:19] terribly interesting to like double
+- [57:21] click into. It's it's sort of obvious. I
+- [57:23] would say oh look it's tied into pricing
+- [57:25] because their behavior. But the main
+- [57:27] thing is you want it to so to where the
+- [57:30] customer themselves would agree when
+- [57:32] they pay more that they are getting more
+- [57:34] value. Hopefully, they even think
+- [57:36] they're getting far more value than the
+- [57:38] price going up, right? That I'm I'm I'm
+- [57:41] gonna say this as if it's precise, which
+- [57:42] it's not. But they need to feel like if
+- [57:44] the price doubles, yeah, but I'm getting
+- [57:46] five times the value, so that's fine.
+- [57:48] Like that should be the feeling whether
+- [57:49] they can measure it or not. A a good way
+- [57:51] to do that is to say, well, then you
+- [57:53] should be measuring whether they're
+- [57:54] getting value out of it. Often we
+- [57:56] measure like usage metrics and other
+- [57:58] kinds of metrics within our product
+- [57:59] because we can. But actually what's
+- [58:02] really important is to measure how does
+- [58:04] the customer value this and we need to
+- [58:08] measure that so that we make that go up
+- [58:11] because if we make that go up they'll be
+- [58:13] willing to pay in whatever structure.
+- [58:15] And if that isn't going up they won't be
+- [58:18] willing to pay. So even if we start
+- [58:19] making them they'll leave. And we all
+- [58:22] know we've all probably done it
+- [58:23] ourselves. We've all had products we
+- [58:24] love, but then as we scale, the price
+- [58:26] goes up faster than we feel the value
+- [58:28] is, and then we start looking for other
+- [58:29] products. Like we've all experienced
+- [58:31] that. So that's what I'm saying. To do
+- [58:33] that, you want some sort of measure of
+- [58:35] the value the customer is getting. If
+- [58:37] you're really lucky, that can be a
+- [58:38] number. That would be wonderful. Then go
+- [58:41] do that and maybe that's your northstar.
+- [58:43] But um admittedly, it's not always
+- [58:45] possible. So then the question is the
+- [58:47] usual questions of metrics. Are there
+- [58:48] proxy metrics that we understand?
+- [58:50] They're not the full picture, but
+- [58:51] they're helpful. they're part of the you
+- [58:53] know um and and I'm a big believer in
+- [58:55] saying not all important things are
+- [58:57] numbers I mean even things like how
+- [58:59] differentiated are we in the market not
+- [59:00] a number but it's very important so this
+- [59:03] might be one of those things that's
+- [59:04] important but not not a number so okay
+- [59:06] can we get some proxy metrics even of
+- [59:08] behavior other things that's something
+- [59:11] um something better than some metric
+- [59:13] that's you know just operational and
+- [59:15] even if it's qualitative okay can we do
+- [59:18] that can we talk to customers and ask
+- [59:20] them qualitative questions to try to say
+- [59:22] like you know I would just say like do
+- [59:24] your best here because only when you
+- [59:28] generate more value for the customer you
+- [59:29] can then decide how to split that with
+- [59:31] the customer in terms of things like
+- [59:33] price you know right um but that's
+- [59:35] that's my um that's in fact how I think
+- [59:37] of it that very phrase how do we create
+- [59:40] more value for the customer and then
+- [59:41] split that with them and when you do
+- [59:43] that you're keeping the customer
+- [59:46] forefront in mind you are taking some
+- [59:47] like splitting means you get some like
+- [59:49] like let's not forget it's not a charity
+- [59:52] and on the other hand first we should
+- [59:54] think how are we generating value for
+- [59:55] customers and then think and then we can
+- [59:57] take a little we've now earned the
+- [59:58] ability to take a little piece of that
+- [01:00:00] so to me this is the right way to think
+- [01:00:01] about NRR not just we'll add a feature
+- [01:00:03] and make them pay true but let's
+- [01:00:06] actually take it from this different
+- [01:00:07] let's get there from this different
+- [01:00:08] perspective
+- [01:00:10] >> amazing there's uh in the recent modavon
+- [01:00:13] episode where we go into pricing you
+- [01:00:14] actually have some really good tactical
+- [01:00:15] advice for measuring the value that
+- [01:00:17] you're giving to a company to quantify
+- [01:00:19] that uh which feeds into this idea of
+- [01:00:22] how do I create more value for you and
+- [01:00:23] then how do we split it?
+- [01:00:24] >> Yeah.
+- [01:00:25] >> The other element of this that's top of
+- [01:00:27] mind is just this land and expand
+- [01:00:28] strategy. There's a lot of companies
+- [01:00:30] that are just like okay cool we'll get
+- [01:00:32] in with some price we'll expand that'll
+- [01:00:33] be amazing which is essentially
+- [01:00:35] expanding is NR going above 100%. Yes.
+- [01:00:37] Something Jen actually shared on her in
+- [01:00:39] her chat that was really important is
+- [01:00:41] that you can't expand that much in ter
+- [01:00:44] at least for a while because if you get
+- [01:00:46] in for like 10k uh if you go up to okay
+- [01:00:49] now it's 100k someone's going to be like
+- [01:00:50] what is this why is this can't go up 10x
+- [01:00:53] are we getting 10x value from this you
+- [01:00:54] can't just raise prices later you're
+- [01:00:56] kind of stuck at that reference point so
+- [01:00:57] you have to be really careful there.
+- [01:00:58] Yeah, I think that's right. Um, and
+- [01:01:01] maybe you don't deserve it. Like, in
+- [01:01:02] other words,
+- [01:01:04] especially when there's investors or
+- [01:01:06] other sort of forces saying like, "Hey,
+- [01:01:08] we need a x, y, and z." The forces that
+- [01:01:11] are not the customer saying that um
+- [01:01:13] yeah, we you can you can be you can be
+- [01:01:17] coerced into making pricing or other
+- [01:01:20] kinds of policies that in fact are not
+- [01:01:23] good for the customer. So, so one one uh
+- [01:01:25] tool I use uh is when when anyone claims
+- [01:01:29] anything really is is is that really
+- [01:01:33] true or is that really actually good for
+- [01:01:34] the customer? Because look, we are going
+- [01:01:36] to do things that are selfishly good for
+- [01:01:37] us. We have to we can't just do things
+- [01:01:39] that are bad for us. But but is this in
+- [01:01:42] fact good for the customer? Because
+- [01:01:44] often often even in an internal
+- [01:01:46] proposal, we say it as if it is. Oh,
+- [01:01:48] this pricing will be good. It'll raise
+- [01:01:50] prices on everyone, but it's better
+- [01:01:51] because of this reason that we we're
+- [01:01:53] sort of justifying, right? It's like,
+- [01:01:55] well, is it will the customer say this
+- [01:01:57] is better? If the answer is no, it's
+- [01:02:00] like, okay, it's not it's better for us,
+- [01:02:02] but sorry, we have an equation where it
+- [01:02:04] has to be better for us and better for
+- [01:02:05] the customer. Sorry, it's an AMP, you
+- [01:02:07] know, and of course, not all companies
+- [01:02:09] do that. And we and we experience that
+- [01:02:10] on all of us um as as consumers on the
+- [01:02:13] other end of that, and we don't like it.
+- [01:02:15] and and that's not a good long-term
+- [01:02:16] strategy even though it might work in
+- [01:02:18] the short term as many bad long-term
+- [01:02:20] strategies are.
+- [01:02:21] >> I love just how uh this third step just
+- [01:02:23] reveals how powerful the sequence is
+- [01:02:26] that we're going through. Step one is
+- [01:02:28] this logo retention essentially do we
+- [01:02:30] have product market fit? Step two is
+- [01:02:33] pricing positioning essentially are we
+- [01:02:35] going after the right market and
+- [01:02:36] charging them the right amount roughly.
+- [01:02:39] And then here it's just can we can we
+- [01:02:41] grow? Is there something here that can
+- [01:02:44] continue to expand because you're going
+- [01:02:45] to get eaten alive if you're especially
+- [01:02:47] and this is just to be clear this is B2B
+- [01:02:48] SAS primarily that we're talking about
+- [01:02:50] here. It's harder to grow an or if
+- [01:02:53] you're consumer product that has I don't
+- [01:02:54] know just like a tier two.
+- [01:02:55] >> What what I would say is the the rules
+- [01:02:57] are true everywhere because they're
+- [01:02:59] based in the mechanics of finance in the
+- [01:03:01] business.
+- [01:03:03] >> Now you are right that a cons that in
+- [01:03:04] the consumer segment or small business
+- [01:03:06] segment for that matter um they tend not
+- [01:03:08] to grow.
+- [01:03:10] So that doesn't mean the NR question is
+- [01:03:12] invalid. It means dang, we can't think
+- [01:03:14] of anything.
+- [01:03:16] >> That's okay. Then you go on to the next
+- [01:03:18] question because you can't think of
+- [01:03:19] anything. But you know, but it would be
+- [01:03:22] more strategic if we could.
+- [01:03:24] >> Mhm. Yeah.
+- [01:03:25] >> And are we trying hard enough? As a
+- [01:03:28] consumer, I do not want to spend more
+- [01:03:29] with AT&T, but they're also not giving
+- [01:03:31] me any more value.
+- [01:03:33] >> But there are other products as a
+- [01:03:34] consumer like Amazon where they do. So
+- [01:03:38] you're right, but it would be as a
+- [01:03:40] product manager, it would be 10 times
+- [01:03:42] more valuable for you to think of
+- [01:03:44] something like that, you know, than to
+- [01:03:47] move on to other things and etc. Or
+- [01:03:49] there's other ways like other products
+- [01:03:51] like we didn't talk about it and it's
+- [01:03:52] okay because of course each one of these
+- [01:03:53] is you could go on forever, right? But
+- [01:03:55] another way is a second product.
+- [01:03:58] A second product sold to the same
+- [01:04:00] segments that you're in so that your
+- [01:04:02] existing customers can buy it. Well, I
+- [01:04:04] don't know why that wouldn't work in
+- [01:04:05] consumer. It certainly works in consumer
+- [01:04:08] and apparel.
+- [01:04:09] >> I think about AG1 which has all these
+- [01:04:10] new like I'm doing their sleep uh
+- [01:04:12] supplement and there it goes. They're
+- [01:04:13] just like here's a new thing you can
+- [01:04:15] buy.
+- [01:04:15] >> Yeah.
+- [01:04:16] >> So like like so is it harder? Yeah. Of
+- [01:04:18] course. Of course. Like all of these are
+- [01:04:19] like easier or harder in different
+- [01:04:21] segments and ways like of course of
+- [01:04:22] course. I'm not trying to say otherwise.
+- [01:04:24] >> I but I would say the mechanics of how
+- [01:04:26] the finances work is the same. You're
+- [01:04:29] just saying I don't have this lever to
+- [01:04:30] pull. And then I would say okay then you
+- [01:04:32] need different levers. Um, one that we
+- [01:04:35] didn't talk about, um, is one way to
+- [01:04:39] offset the cancellations is existing
+- [01:04:42] customers grow. But another way is if
+- [01:04:44] existing customers bring in new
+- [01:04:46] customers. So they didn't grow, but they
+- [01:04:49] brought their friend. Now this is
+- [01:04:50] absolutely something that happens in
+- [01:04:52] consumer. But it's also an answer to
+- [01:04:54] this thing where cancellations grow
+- [01:04:56] exponentially. You know, because
+- [01:04:58] existing customers bring in new does
+- [01:05:00] triple if you have more existing
+- [01:05:02] customers. Aha. So this is stuff like um
+- [01:05:05] you know refer a friend and all this
+- [01:05:06] kind of stuff. Again like some of this
+- [01:05:07] is is obvious. We don't need to
+- [01:05:08] enumerate that but uh so so those things
+- [01:05:11] are good. And so in consumer you might
+- [01:05:13] say oh it's easier to try to get someone
+- [01:05:15] to invite a friend with a coupon and
+- [01:05:17] blah blah blah blah than it is to try to
+- [01:05:18] get them to grow. But in B2B that may
+- [01:05:20] not be true, right? I don't get a
+- [01:05:21] mid-size company to refer. Like that
+- [01:05:23] doesn't make sense. So, so once again,
+- [01:05:26] this question of how do we have the
+- [01:05:27] existing base help us grow is still
+- [01:05:30] correct in consumer but its
+- [01:05:32] manifestation could be very different.
+- [01:05:33] Of course, I agree with that. But um I
+- [01:05:36] mean how could how could we not say I
+- [01:05:37] mean of course things like word of mouth
+- [01:05:38] and inviting friend of course that's
+- [01:05:40] enormous with consumer and this is this
+- [01:05:42] is one of the reasons why
+- [01:05:43] >> I'm uh I just love picturing the people
+- [01:05:45] listening to this especially product
+- [01:05:47] folks founders I I imagine many of them
+- [01:05:49] are just sitting here taking all these
+- [01:05:51] notes of how to help grow their product
+- [01:05:53] because as this is we've positioned this
+- [01:05:55] conversation as how to uh deal with
+- [01:05:57] stalled growth but it's actually just as
+- [01:06:00] useful how do I grow more
+- [01:06:01] >> oh for sure right right it's more growth
+- [01:06:04] It's just maybe a little more evocative.
+- [01:06:07] >> It's It's because if growth is good,
+- [01:06:09] yeah, sure you want to grow more, but
+- [01:06:10] it's not the problem.
+- [01:06:12] >> Like if growth is really good, the
+- [01:06:13] problem is generally operationally
+- [01:06:15] scaling to meet the growth. Uh and so
+- [01:06:17] you're focused on that. It's when growth
+- [01:06:19] slows, you're like, whoa, wait, wait,
+- [01:06:21] wait, wait. Right. We we have to focus
+- [01:06:24] on growth now. Must as opposed to of
+- [01:06:26] course it's always nice. So yeah.
+- [01:06:28] >> Yeah. And I was thinking as we were
+- [01:06:29] talking about consumer NR, if you look
+- [01:06:32] at Duelingo, they've done a great job
+- [01:06:33] here. There's so many ways you can pay
+- [01:06:35] them more for all these little
+- [01:06:36] >> advances. Get all these gems. Change the
+- [01:06:38] color of your app to like something
+- [01:06:40] fancy.
+- [01:06:41] >> Yeah. Yeah.
+- [01:06:41] >> Yeah. Okay. So, there's more. Let's keep
+- [01:06:44] going. So, we've done three. There's
+- [01:06:45] more more you can do.
+- [01:06:47] >> So, okay. Logo churn. Um uh uh
+- [01:06:51] >> pricing
+- [01:06:51] >> pricing
+- [01:06:52] >> NR and then maybe it's stalled. So, this
+- [01:06:56] is really a stalled question. Maybe your
+- [01:06:58] acquisition channels, your marketing
+- [01:06:59] channels are saturated. We're done. I
+- [01:07:03] mean, we're what we tend to do is flog
+- [01:07:05] the people doing AdWords, get more flog
+- [01:07:07] the SEO people, get more searches,
+- [01:07:09] right? It's possible that this is it.
+- [01:07:13] Maybe this is it in some sort of
+- [01:07:15] physical law. There literally isn't
+- [01:07:17] anything else. Or maybe this is it just
+- [01:07:19] this is how good we can be. We're just
+- [01:07:21] not this is it, right? But there really
+- [01:07:24] are limits. You know, they it's there's
+- [01:07:26] different words for it. Inventory is is
+- [01:07:28] sort of the old word like with magazine
+- [01:07:29] ads. uh inventory was the word, but
+- [01:07:31] there's just this amount like there is
+- [01:07:33] only so many searches in your area and
+- [01:07:35] you can only appear once in the search
+- [01:07:37] results for a given keyword. So there is
+- [01:07:40] this limit of like what you can get.
+- [01:07:41] Even if you were number one position for
+- [01:07:43] everything, you know, other things that
+- [01:07:44] are that are not even practical, uh
+- [01:07:46] there's still a limit and there's some
+- [01:07:47] kind of practical limit that's below
+- [01:07:48] there that we we don't really know. But,
+- [01:07:50] you know, maybe we're there or maybe
+- [01:07:52] we're close. And worse, channels tend to
+- [01:07:55] decline over time. So, I think people
+- [01:07:57] talk about S-curves, right? Oh, I uh I
+- [01:08:01] didn't figure out this market, then I
+- [01:08:03] figured it out. You know, we we we we
+- [01:08:04] unlocked it. Now, we're getting, you
+- [01:08:06] know, 100 leads per month through
+- [01:08:07] Facebook or whatever. But then it kind
+- [01:08:09] of taps out and then we go into this
+- [01:08:11] optimization mode. Can we ek out another
+- [01:08:14] blah blah blah blah, which is right,
+- [01:08:15] that's right. And you call that an
+- [01:08:17] S-curve because it's shaped like that.
+- [01:08:19] But that's not what happens. What
+- [01:08:21] happens is it starts with an S-curve and
+- [01:08:22] then it starts sagging. Its butt starts
+- [01:08:25] sagging down. So, I wrote an article
+- [01:08:26] about this called the elephant curve,
+- [01:08:28] which is what I named it, right? Because
+- [01:08:31] it's like this trunk and then but then
+- [01:08:32] it's this butt. And what and and there's
+- [01:08:35] different reasons why this happens, but
+- [01:08:37] if you talk to any marketer, they'll
+- [01:08:38] they'll all tell you, "Oh my god, let me
+- [01:08:40] tell you this story, right? They all
+- [01:08:42] have stories about it because yeah, this
+- [01:08:43] is what happens." Um there's different
+- [01:08:45] reasons that um first of all, the the
+- [01:08:46] audience gets saturated, you know,
+- [01:08:49] because there's all these little
+- [01:08:50] marketing isms and I don't know if
+- [01:08:51] they're true or not. I don't I don't
+- [01:08:52] think any of it has any data that
+- [01:08:54] actually proves it, but whatever. Like,
+- [01:08:56] you know, if worms if words uh start
+- [01:08:59] with the same letter, that's better. I
+- [01:09:02] don't think I don't think anyone's ever
+- [01:09:03] proved that's true, but marketers seem
+- [01:09:05] to think so. Okay. Well, one of the
+- [01:09:06] things is someone has to see it seven
+- [01:09:08] times before they act. Okay. All right.
+- [01:09:10] Well, maybe they saw it seven times
+- [01:09:12] already, so they don't want it, you
+- [01:09:14] know, or they saw it 20 times, right?
+- [01:09:16] So, so, so you you initially you got you
+- [01:09:18] hit people who hadn't seen it yet,
+- [01:09:19] right? But now you have and you know
+- [01:09:22] especially with magazine ads as I used
+- [01:09:24] to do before there was no such thing. Um
+- [01:09:27] that's exactly what would happen. You'd
+- [01:09:29] have this nice surge and then like well
+- [01:09:30] we've seen this we've seen it before. So
+- [01:09:31] you still get a little trick. You still
+- [01:09:33] get some because you know it was just
+- [01:09:34] that moment they needed to see it again.
+- [01:09:36] Okay but like there's this sort of um
+- [01:09:39] but a lot of people have already seen it
+- [01:09:40] and they don't want it or the channel is
+- [01:09:42] declining and they'll never tell you.
+- [01:09:45] When I did magazine ads, every year they
+- [01:09:47] would tell you what their circulation
+- [01:09:48] is, and every year it would go up and
+- [01:09:49] then the magazine would go out of
+- [01:09:50] business. Conferences are the same way.
+- [01:09:54] Attendance is great. Attendance is
+- [01:09:55] great. Oh, wait. We're out of business
+- [01:09:56] because we couldn't get enough people to
+- [01:09:57] come. What? What they said? It was
+- [01:09:59] great. And but at but you know, more
+- [01:10:02] quietly, Adwords, Facebook ads, even SEO
+- [01:10:05] searches, it's this does happen all over
+- [01:10:08] the place. Affiliates, it can happen.
+- [01:10:11] And now with AI, I mean, I don't even
+- [01:10:12] know, right? It's disrupting everything.
+- [01:10:15] I, you know, we've all heard stories
+- [01:10:17] going all different directions. I think
+- [01:10:18] the answer is I don't know. Shrug is the
+- [01:10:21] answer. And what will it be like in two
+- [01:10:23] years? Another shrug. But the point
+- [01:10:25] being they're not all they're not all
+- [01:10:26] going to be growing a lot. Like that's
+- [01:10:28] not that's not one of the futures that
+- [01:10:30] AI will bring. So it has this sag.
+- [01:10:33] That's just a very long way of maybe
+- [01:10:34] trying to prove this point. But it's yet
+- [01:10:36] another reason why you can't just rely
+- [01:10:38] on marketing forever because they not
+- [01:10:40] only you try to stack things, but
+- [01:10:42] there's not like infinite number of
+- [01:10:43] marketing channels you could advertise
+- [01:10:44] in that your customers are actually
+- [01:10:46] going to and they sag. Oh no. Like it's
+- [01:10:49] even harder to keep up. So it's kind of
+- [01:10:51] like the secret like reinforcing my very
+- [01:10:54] first point here with with this. But
+- [01:10:56] here are they all saturated because we
+- [01:10:58] could fogg marketing all we want. It's
+- [01:11:00] not going to work. So maybe growth is
+- [01:11:01] slowing because this is all our channels
+- [01:11:04] are saturated. possibly even sagging,
+- [01:11:06] but even if not, okay, not growing. And
+- [01:11:09] so, we can't just flog the marketing
+- [01:11:11] department.
+- [01:11:12] It's going to take something else,
+- [01:11:14] right? Um, then the obvious thing is get
+- [01:11:17] more channels, but again, maybe there
+- [01:11:18] aren't any. So, again, there there's
+- [01:11:21] many possible things to do, but this is
+- [01:11:23] like this critical thing to notice
+- [01:11:24] because I guess I would put it this way.
+- [01:11:26] Do you know right now which channels are
+- [01:11:28] saturated and which aren't? If the
+- [01:11:30] answer is no, I'm like, well, okay,
+- [01:11:32] maybe that's because the answer is all.
+- [01:11:35] You know, that needs to change what you
+- [01:11:37] how you think. Just adding one little
+- [01:11:39] feature and then hoping we can flog
+- [01:11:40] Adwords is not going to work. Even if
+- [01:11:43] the feature is great, not going to work.
+- [01:11:45] So there's there's different things that
+- [01:11:47] could work, but that's not one of them.
+- [01:11:48] And yet, that's probably what we're
+- [01:11:49] doing. Let's add another feature and
+- [01:11:50] marketing can fogg it is is often the
+- [01:11:53] answer. But if you're in this state,
+- [01:11:54] that isn't the answer. So this is this
+- [01:11:56] is why like you could say it's obvious
+- [01:11:58] to say this or that but if but are are
+- [01:12:00] you acting like this is true
+- [01:12:02] you know often we don't um okay so so
+- [01:12:05] there are many things to do again we
+- [01:12:06] don't have to enumerate all of them or
+- [01:12:08] something um it's just simply the right
+- [01:12:10] question to ask but for example uh some
+- [01:12:12] people are like um we've done direct
+- [01:12:15] maybe we should try things like SEO and
+- [01:12:17] social and these other indirects or vice
+- [01:12:18] versa we're really good at SEO but we've
+- [01:12:20] never taken out ads often if you've done
+- [01:12:22] ads and they're optimized you know what
+- [01:12:24] content might be good to write stuff for
+- [01:12:26] SEO and maybe even vice versa maybe. So,
+- [01:12:29] it's a good idea and sometimes it works,
+- [01:12:32] but here I have no data. I only have my
+- [01:12:34] my feeling here and actually you
+- [01:12:36] probably have a lot more visibility into
+- [01:12:38] this, but my experience is a product
+- [01:12:40] that's sold really well direct actually
+- [01:12:42] doesn't do well in things like social
+- [01:12:43] and SEO and vice versa. If you're
+- [01:12:46] getting a lot of traffic through SEO,
+- [01:12:47] adding ads often like costs a lot and
+- [01:12:49] doesn't really move the needle. like you
+- [01:12:51] can tell me like is that because I don't
+- [01:12:52] have data to support that that theory.
+- [01:12:55] >> Yeah, my take is like you can always get
+- [01:12:57] some percentage of win from all these
+- [01:12:59] different channels. Usually one channel
+- [01:13:01] is where most of your growth will come
+- [01:13:03] from and so over time everyone just adds
+- [01:13:05] every channel. Everyone's doing ads.
+- [01:13:06] Everyone's doing SEO in some form. But
+- [01:13:09] it's usually like sales or word of mouth
+- [01:13:11] or ads that drives everything.
+- [01:13:13] Everything else is kind of like little
+- [01:13:14] layer on top.
+- [01:13:15] >> Yeah. So, you know, should you do that?
+- [01:13:17] Yeah, probably. especially if you're at
+- [01:13:19] some scale and you can just afford to
+- [01:13:20] because it's such a clear thing to do.
+- [01:13:22] But probably you'll have to get more
+- [01:13:24] creative about what it means to add a
+- [01:13:25] channel or something like a new product
+- [01:13:28] or a new market where it's it's it's
+- [01:13:30] actually new. It's expanding in a new
+- [01:13:32] way rather than trying to incrementally
+- [01:13:34] expand what you're already doing. So an
+- [01:13:36] example of getting creative on a channel
+- [01:13:39] is what Constant Contact did when they
+- [01:13:41] had this very problem of growth is slow.
+- [01:13:44] We don't know how we sell email
+- [01:13:46] marketing newsletters to small business
+- [01:13:48] before all these modern tools existed.
+- [01:13:50] And one of the things they did that
+- [01:13:52] restarted growth is they physically went
+- [01:13:55] to a bunch of cities and held workshops
+- [01:13:57] showing here's how to do email marketing
+- [01:13:59] for your small business. So the
+- [01:14:01] restaurant tour and the dentist and
+- [01:14:03] every would come to these sessions and
+- [01:14:05] they teach them how of course teaching
+- [01:14:06] them how with constant contact. So they
+- [01:14:07] became customers, right? that you would
+- [01:14:09] think there's no way this is
+- [01:14:10] cost-effective physically being in these
+- [01:14:13] cities and dragging people in for a you
+- [01:14:15] know $20 a month product like no way. It
+- [01:14:17] was very effective and actually solved
+- [01:14:19] in that moment their their restarted
+- [01:14:21] growth. They were very clever about
+- [01:14:24] first of all it's a clever idea but then
+- [01:14:25] they were clever about how to do it.
+- [01:14:26] They took like power users who were also
+- [01:14:28] agencies. So like these could become
+- [01:14:30] customers of their okay all like you
+- [01:14:32] could be clever about like how is it
+- [01:14:34] that we do something uh something
+- [01:14:36] different something new. So that's
+- [01:14:37] possible. Of course, it's always hard to
+- [01:14:38] say, "Think of something clever." That's
+- [01:14:40] that's a weird finger wagging thing to
+- [01:14:42] do, but okay, it's true. But, uh, yeah,
+- [01:14:45] it it could be a different type of
+- [01:14:46] channel. For example, um, HubSpot
+- [01:14:48] famously, uh, tested selling through
+- [01:14:52] agencies instead of direct. It ended up
+- [01:14:53] being 50% of the revenue after four or
+- [01:14:56] five years. So, it's one of the main
+- [01:14:57] reasons why they're able to continue
+- [01:14:58] growing. Um, same thing happens with my
+- [01:15:02] company, WP Engine. Tons of our uh
+- [01:15:04] websites are sold through
+- [01:15:07] uh uh agencies that create WordPress
+- [01:15:08] sites. So um there could be something
+- [01:15:11] that's not direct anymore that's you
+- [01:15:13] know another channel of human beings or
+- [01:15:14] something like that could be could could
+- [01:15:16] in fact dramatically change your growth
+- [01:15:19] rate. U there's lots of examples like
+- [01:15:20] those. So but but it could be like it's
+- [01:15:24] time for the next product like and I
+- [01:15:25] said that earlier because it's always
+- [01:15:27] possible. Of course we all know that's
+- [01:15:28] very hard. It's it's risky. I have sort
+- [01:15:31] of a framework that I use to think about
+- [01:15:33] that kind of expansion which I'm happy
+- [01:15:35] to happy to provide. I've also written
+- [01:15:37] it up but I'm happy to say it right
+- [01:15:38] here. But uh usually you want to stay in
+- [01:15:42] the target in the target market you're
+- [01:15:44] already good at and grow from there. But
+- [01:15:47] sometimes the whole point of the
+- [01:15:48] expansion is to change the or change
+- [01:15:50] target m or add something where you're
+- [01:15:53] leveraging something else about the
+- [01:15:54] company that you have as an asset going
+- [01:15:56] somewhere else. So this is what this
+- [01:15:57] framework helps decide. But um one way
+- [01:15:59] or another you probably want to uh plant
+- [01:16:01] one foot into some strength or asset
+- [01:16:03] that you have move the other foot which
+- [01:16:05] is the risky Bart but the idea is that
+- [01:16:07] yeah well we have this big upside so
+- [01:16:09] we're we're taking that bet and like
+- [01:16:10] that becomes a smart bet. Um so with
+- [01:16:13] things of course that's true for any of
+- [01:16:16] these things but especially if
+- [01:16:17] acquisition channels are full and it's
+- [01:16:20] like we literally can't ask the
+- [01:16:21] marketing department like that's just
+- [01:16:22] not one of the choices. It almost forces
+- [01:16:24] us to start taking these more drastic
+- [01:16:26] bets to say, "Well, we got to do
+- [01:16:27] something and that's not one of them."
+- [01:16:29] >> I just want to keep saying how awesome
+- [01:16:31] this advice is and how many people are
+- [01:16:33] going to benefit from like, you know,
+- [01:16:35] none of this is like, "Oh, I've never
+- [01:16:36] ever thought of any of this." It's just
+- [01:16:38] like the very methodical uh sequence of
+- [01:16:41] questions you should be asking yourself
+- [01:16:43] to help you not just undo stalled
+- [01:16:46] growth, but also just come up with a
+- [01:16:47] bunch of great growth ideas. And this
+- [01:16:50] specific section, it like it makes
+- [01:16:51] sense. somebody's discovered alpha in a
+- [01:16:53] growth channel. Say, uh, SAPI just
+- [01:16:56] launched. Tik Tok just, you know,
+- [01:16:57] there's like, oh, cool. What's the new
+- [01:16:58] thing? Okay, let's get there quick. And
+- [01:17:00] then you drive a bunch of growth. It's
+- [01:17:01] awesome. Eventually, everyone's going to
+- [01:17:03] start doing that. And so, you should
+- [01:17:04] assume everything that is working for
+- [01:17:06] you now will slow down. Uh, I've never
+- [01:17:09] uh I've missed your post on the the
+- [01:17:11] elephant uh scurve. What do you call it?
+- [01:17:14] The elephant curve.
+- [01:17:15] >> Yeah, elephant curve.
+- [01:17:16] >> It's so Yeah, that's so real. just it's
+- [01:17:18] not just this S-curve that will forever
+- [01:17:20] continue to drive win. It will actually
+- [01:17:22] dip and decline over time because other
+- [01:17:24] people discover it and start using it.
+- [01:17:26] >> Yeah,
+- [01:17:27] >> I love that. So, the idea here is and
+- [01:17:30] the classic advice is like not whether
+- [01:17:33] it's an S-curve or an Lin curve, think
+- [01:17:36] about are you starting to approach the
+- [01:17:37] the the apex of that and start to
+- [01:17:40] explore other channels before you slow
+- [01:17:42] down or start to dip. Yeah, it's easy to
+- [01:17:44] hear stuff like, "Oh, if marketing is is
+- [01:17:47] full, do something else." And you go, "I
+- [01:17:49] know." But then you look at people's
+- [01:17:50] behavior and it's like, "Well, you're
+- [01:17:52] not acting like you know, you know, so
+- [01:17:55] maybe what needs to be said in enough
+- [01:17:57] detail that you actually do something
+- [01:17:58] about it."
+- [01:17:59] >> And this is it's important to note this
+- [01:18:00] is a very hard problem. Most companies
+- [01:18:02] do not really solve this. They something
+- [01:18:04] worked for them.
+- [01:18:05] >> Sure.
+- [01:18:05] >> And then it stops working and then like,
+- [01:18:07] "All right, well, we found something and
+- [01:18:09] then it just kind of went away." There's
+- [01:18:12] a couple posts we're going to link to in
+- [01:18:13] the show notes that will help you come
+- [01:18:14] up with ideas that are all around new
+- [01:18:16] growth channels that are emerging. One
+- [01:18:18] is by Emily Kramer around ecosystems as
+- [01:18:21] a new growth channel. And there's a lot
+- [01:18:22] of really cool advice there around this
+- [01:18:24] kind of emerging combination of
+- [01:18:27] influencers and content and partners
+- [01:18:31] where it's your ecosystem that helps
+- [01:18:33] grow. Basically, there's a quote from
+- [01:18:35] the head of growth at Whiz where it's
+- [01:18:37] like, "Why start with zero when you can
+- [01:18:39] start with 10,000 essentially growing
+- [01:18:41] through someone with an audience
+- [01:18:42] already?" And then there's going to be a
+- [01:18:44] post out by the time this comes out
+- [01:18:45] around Chad GPT's app store, which is
+- [01:18:48] going to let you submit apps. And that's
+- [01:18:50] a really interesting, potentially huge
+- [01:18:52] new growth channel for companies. So,
+- [01:18:54] cool stuff happening there. So just to
+- [01:18:56] summarize logo retention, pricing, NRR,
+- [01:19:01] marketing, channel saturation, what
+- [01:19:03] comes next? The last question is, do you
+- [01:19:06] need to grow?
+- [01:19:08] So okay, growth is stalled. And if we
+- [01:19:10] assume every question before has been
+- [01:19:12] answered in a satisfactory way,
+- [01:19:16] you could ask, hey, is that a problem?
+- [01:19:20] What do we mean by grow? What do we need
+- [01:19:23] to do exactly? Now of course you should
+- [01:19:25] know these kind of things with goals all
+- [01:19:26] the time but
+- [01:19:29] and again like obviously the answer
+- [01:19:30] could be once again oh new products
+- [01:19:32] these other things where like this
+- [01:19:34] company when we say do you need to grow
+- [01:19:36] if we define you as this product in this
+- [01:19:38] market in this company the answer might
+- [01:19:40] be no what what we need to do is have a
+- [01:19:43] different product or in a different
+- [01:19:45] market or a different thing or you could
+- [01:19:48] you could change the word uh revenue if
+- [01:19:49] you say do you need to grow revenue you
+- [01:19:51] could change the word revenue and say
+- [01:19:52] you know But what we could do is
+- [01:19:55] maximize profit instead of revenue now.
+- [01:19:58] We've been maximizing revenue, but maybe
+- [01:20:00] we maximize profit instead. And so this
+- [01:20:02] is a company like 37 Signals or really
+- [01:20:05] lots of bootstrap companies who have hit
+- [01:20:07] some sort of limit and realize that's
+- [01:20:09] okay. Like the founders are getting paid
+- [01:20:10] millions of dollars a year in dividends
+- [01:20:12] and like it's okay.
+- [01:20:14] I don't have to get in fact if I got
+- [01:20:16] bigger it might be an organization that
+- [01:20:18] I don't like or serving a market segment
+- [01:20:20] that I don't want to serve or whatever.
+- [01:20:22] Um, and so maybe maybe growing forever
+- [01:20:25] isn't the goal actually or growing
+- [01:20:27] revenue isn't. Um, you could ask
+- [01:20:30] philosophically,
+- [01:20:32] why grow anything? Why isn't it just
+- [01:20:34] okay to have stasis? And we all have
+- [01:20:36] heard the phrase, if you're not growing,
+- [01:20:37] you're dying,
+- [01:20:39] right? This is a classic company thing.
+- [01:20:42] Is that true or is that the kind of
+- [01:20:44] thing that like investors use to like
+- [01:20:46] make founders grow or try to grow even
+- [01:20:48] when they shouldn't?
+- [01:20:50] It might be, but I would submit that
+- [01:20:53] even at a bootstrap company that has
+- [01:20:55] other values and culture um other than
+- [01:20:57] growth at all costs that that phrase is
+- [01:21:00] still fairly relevant because if the
+- [01:21:03] company's stagnant for years, is that a
+- [01:21:06] great environment for everyone as the
+- [01:21:09] founder? Did you start this company in
+- [01:21:11] order to do the same thing every day? Is
+- [01:21:14] that is that why you did it? Do you
+- [01:21:16] really want to do is that fulfilling for
+- [01:21:18] you? What about everyone else? Nobody
+- [01:21:21] Nobody wants to further their career.
+- [01:21:22] They just want to do the same thing
+- [01:21:23] every day and never further their
+- [01:21:24] career, not really learn anything, not
+- [01:21:26] really innovate. Does it feel good to
+- [01:21:29] just not be not not be growing? The
+- [01:21:32] answer could be yes. Uh, you know, if
+- [01:21:34] I'm a CPA and I have some clients and
+- [01:21:36] life is good. Um, the answer could be
+- [01:21:38] yes. Like, you know, I'm not saying I'm
+- [01:21:40] not dictating the answer here, right?
+- [01:21:42] I'm just asking because a lot of times
+- [01:21:45] whether it's our careers or as founders,
+- [01:21:47] our companies, a lot of times we've just
+- [01:21:50] been in the mode of I've got to grow,
+- [01:21:52] I've got to get promoted, I've got to do
+- [01:21:54] more, I've got my resume. We've got in
+- [01:21:55] that mode for so long, like maybe our
+- [01:21:57] whole life that I was going to say lose
+- [01:22:00] sight of, but maybe we never had sight
+- [01:22:02] of, wait, does this make me happy? Is
+- [01:22:04] this what I really want? Am I fulfilled
+- [01:22:06] doing this? or even if I do have these
+- [01:22:08] goals, have I gotten stuck in a rut
+- [01:22:10] where my goal is growth and you know, I
+- [01:22:12] don't know, more money, more everything
+- [01:22:13] and I'm but I'm stuck in a rut here like
+- [01:22:15] what sometimes we forget to take a step
+- [01:22:17] back and go, wait a minute, what is
+- [01:22:19] this? Is this still right or do I need
+- [01:22:21] to turn the page and have a new chapter
+- [01:22:23] of life right now, you know? And so this
+- [01:22:27] question, do do you need to grow or if
+- [01:22:29] you're not growing, you're dying. Well,
+- [01:22:31] for some people, no, they like doing the
+- [01:22:32] same thing forever. And and and that's
+- [01:22:34] great actually. That's a that's a that's
+- [01:22:36] nice. But for many people, especially
+- [01:22:38] the kind of people who want to get into
+- [01:22:40] product and build stuff and innovate and
+- [01:22:43] people who start companies, a lot of
+- [01:22:44] people like that are not the kind of
+- [01:22:46] people that want to just, you know, kind
+- [01:22:47] of do wrote things for 20 years. And so
+- [01:22:52] the not growing part, what I like to say
+- [01:22:54] is maybe the you and if you are not
+- [01:22:58] growing, you're dying is you the person
+- [01:23:00] as opposed to you the company. It's also
+- [01:23:02] you the company, right? But like what if
+- [01:23:04] we took it to mean you? If you are not
+- [01:23:07] growing, then in some sense maybe for
+- [01:23:10] some people you're dying. Maybe if
+- [01:23:12] you're listening to this, that's you.
+- [01:23:13] You got to you're a shark and you got to
+- [01:23:15] go. And we all know people too who claim
+- [01:23:18] they hate work or maybe they do hate
+- [01:23:20] work. Let's not say claim they do hate
+- [01:23:22] work, but then they retire and and and
+- [01:23:24] kind of go downhill because they don't
+- [01:23:25] have a purpose or this or that and the
+- [01:23:27] other thing. In that case, it was true.
+- [01:23:31] If they're not growing, they're dying.
+- [01:23:32] literally.
+- [01:23:34] So you again I don't mean to overstate
+- [01:23:36] this and I certainly don't mean to claim
+- [01:23:39] that there's some answer that's right
+- [01:23:41] for everybody of course but surely this
+- [01:23:43] is the right kind of question and surely
+- [01:23:45] for many people who are listening to
+- [01:23:46] this the answer is yeah I mean in some
+- [01:23:49] sense some very rough sense that's
+- [01:23:51] probably right for me and so if I'm in a
+- [01:23:54] stagnant situation and really every
+- [01:23:57] other option has been exhausted and
+- [01:23:58] isn't going to happen this is simply a
+- [01:24:00] stagnant thing maybe there's something
+- [01:24:02] else needs to happen I I need to leave.
+- [01:24:05] The company needs to change some drastic
+- [01:24:06] way. I sell the company. I change jobs.
+- [01:24:10] I I don't know. Like, of course, it's
+- [01:24:12] going to be super context specific and
+- [01:24:13] and and personal, right? But like
+- [01:24:15] something dramatic may need to change
+- [01:24:17] because nothing incrementally is
+- [01:24:19] changing.
+- [01:24:20] So this final question, do you need to
+- [01:24:23] grow or if you're not growing, you're
+- [01:24:24] dying? Is that true? And are you
+- [01:24:26] therefore dying? And what needs to
+- [01:24:27] happen? You know, so if you were looking
+- [01:24:29] for more metrics in another framework,
+- [01:24:31] sorry, that's ex is ex existential, but
+- [01:24:34] it is it is existential. So, uh,
+- [01:24:39] uh, do you have to only ask this at the
+- [01:24:42] end of the chain? No. Of course, you
+- [01:24:44] should feel fulfilled. And, you know, of
+- [01:24:45] course, you want to be checking in with
+- [01:24:47] yourself at least annually, of course.
+- [01:24:49] But, um, I sort of put at the end of my
+- [01:24:51] list in the sense that I'm assuming the
+- [01:24:54] original question is about the company,
+- [01:24:56] you know. Um uh but but especially with
+- [01:24:59] smaller companies, but but also also
+- [01:25:01] with big public companies. There's
+- [01:25:02] plenty of big public companies that
+- [01:25:03] aren't growing, aren't there?
+- [01:25:06] So like this is this is uh this is true
+- [01:25:08] of all scales because there are natural
+- [01:25:11] sizes for things. Um so yeah, it's a
+- [01:25:15] little philosophical, but uh I think
+- [01:25:17] it's quite important.
+- [01:25:18] >> Such a beautiful way to wrap up this
+- [01:25:20] piece. Uh, a lot of people listening to
+- [01:25:22] the podcast are bootstrap founders and
+- [01:25:25] for them this is actually very much an
+- [01:25:27] option. They can just be happy with the
+- [01:25:28] revenue they're generating. Like with my
+- [01:25:30] newsletter right now, I'd be very sad if
+- [01:25:32] it stopped growing,
+- [01:25:33] >> but also just it's uh amazing the life
+- [01:25:36] it has created for me. And even if it
+- [01:25:38] did stop growing and just stay flat and
+- [01:25:41] doesn't become an elephant curve, that'd
+- [01:25:43] be incredible in like in practice
+- [01:25:45] psychologically still hard for that to
+- [01:25:48] be the case. And that's why this
+- [01:25:50] component of the of the sequence is
+- [01:25:52] really important. Like why do you
+- [01:25:53] actually need it to grow? Is that just
+- [01:25:55] your ego? Is that just like I'm used to
+- [01:25:57] growth? It can also help you help you
+- [01:25:59] avoid
+- [01:26:01] doing unnatural things that you actually
+- [01:26:03] regret to grow. So like if growth at all
+- [01:26:05] costs is just the the thing like there's
+- [01:26:07] probably ways you could quote unquote
+- [01:26:09] grow the newsletter that you would just
+- [01:26:10] say I just wouldn't be proud of that and
+- [01:26:13] the newsletter is doing so well I don't
+- [01:26:15] need to do that. And so again, maybe
+- [01:26:17] that's a softer version because growth
+- [01:26:19] hasn't actually stopped. But okay, it's
+- [01:26:20] a softer version of um I certainly don't
+- [01:26:23] agree with grow. You you might say, I
+- [01:26:24] certainly don't agree with growth at all
+- [01:26:26] costs. I want to grow as much as
+- [01:26:28] possible within the things that I'm
+- [01:26:29] proud of. Like if we grew fast, but the
+- [01:26:31] content was crappy. I'm just not willing
+- [01:26:34] to do that. It's like not the point, you
+- [01:26:36] know? And so it helps set up these
+- [01:26:37] boundaries of like, wait a minute, not
+- [01:26:39] if dot dot dot. And uh you know, early
+- [01:26:41] on we may not have that um that
+- [01:26:43] flexibility. You could argue that you
+- [01:26:44] should have those values early on
+- [01:26:46] because that's who you are and that's
+- [01:26:47] what you're doing and people respond. So
+- [01:26:48] I could argue you should have that all
+- [01:26:50] along. But I could also argue that at
+- [01:26:52] the beginning you're just trying to do
+- [01:26:53] something where you don't die. You're
+- [01:26:55] starting to blog. You're probably
+- [01:26:56] copying other people's style. You
+- [01:26:58] probably don't have that much uh unique
+- [01:26:59] things to say. So there's a lot of reg.
+- [01:27:01] That's okay. You're just trying to get
+- [01:27:02] going. It's okay. Now 20 years later if
+- [01:27:05] you have no style and no voice of your
+- [01:27:06] own and nothing new to say that's
+- [01:27:07] probably not good. But to get going,
+- [01:27:09] sure. So um sometimes we have this thing
+- [01:27:12] where we get going with maybe looser I
+- [01:27:15] don't want to say values I'm not saying
+- [01:27:16] it's unethical but like looser sort of
+- [01:27:18] bar or a pride that we have in our own
+- [01:27:20] work and we tighten it up as we're sort
+- [01:27:22] of able um as we can afford to you might
+- [01:27:25] even say so good but that's a then that
+- [01:27:28] becomes a nice filter here of like what
+- [01:27:31] what is it in a greater sense I'm trying
+- [01:27:33] to do here I'm willing to do here. Um,
+- [01:27:36] so if you're not growing your dying,
+- [01:27:37] fair, but like that has to come with
+- [01:27:38] these limits and and the the more
+- [01:27:39] successful you are, the more you can be
+- [01:27:41] serious about those limits.
+- [01:27:43] >> I think an important element of this is
+- [01:27:44] also the product you're currently
+- [01:27:46] working on. Maybe it's okay for it just
+- [01:27:48] to not grow. There's a good opportunity
+- [01:27:50] to do something else, have this thing
+- [01:27:51] maybe running on the side, maybe sunset
+- [01:27:53] it at some point, but it's a good
+- [01:27:55] opportunity to be like, okay, wait, what
+- [01:27:56] else is out there? We had a a recent
+- [01:27:58] podcast conversation with Matt McKinn
+- [01:28:00] McInness uh CPO at Ripling and there's
+- [01:28:03] some really good advice he shared on
+- [01:28:04] just when to quit when to quit your
+- [01:28:07] startup. Just like you know if it's like
+- [01:28:08] four or five years in it's just not
+- [01:28:09] clicking maybe it's time to to move on
+- [01:28:12] and even though people do succeed years
+- [01:28:14] in uh most likely it's not going to be
+- [01:28:16] you. I have a book almost out now that's
+- [01:28:18] on pre-order about topics like what
+- [01:28:20] we've been talking. The next book I want
+- [01:28:22] to write is on this topic of
+- [01:28:26] how do I make these decisions of
+- [01:28:27] uncertainty like maybe it is time to
+- [01:28:29] quit, maybe I should move to a different
+- [01:28:31] city, maybe I should marry this person,
+- [01:28:33] maybe I should launch this company,
+- [01:28:34] maybe it's time to maybe I should use
+- [01:28:35] this strategy where you want to you you
+- [01:28:38] want to use probability and expected
+- [01:28:40] value. It's unlikely that dot dot dot,
+- [01:28:43] right? But the truth is we don't know
+- [01:28:44] what the probability is. We don't know
+- [01:28:45] what the probability curves look like.
+- [01:28:48] We actually can't use expected value.
+- [01:28:49] And anyway, even if you could have
+- [01:28:51] expected value, I am a human being. This
+- [01:28:53] is my life and I either sell the company
+- [01:28:55] or I don't. And so all this stuff about
+- [01:28:58] probability and like that's not that
+- [01:29:00] doesn't apply to me. I need other ways
+- [01:29:01] of of sorting this out. So I guess I
+- [01:29:04] would just say briefly um probability is
+- [01:29:08] not going to work for these decisions.
+- [01:29:12] So that doesn't say what is right. Um,
+- [01:29:14] but it's not that. And so, uh, which is
+- [01:29:18] nice because you can put those tools
+- [01:29:19] down. I'll do some market research to
+- [01:29:21] see if I'll I should sell my company.
+- [01:29:23] Nope. That's not where the answers are.
+- [01:29:26] >> More uh more questions than answers on
+- [01:29:27] that one.
+- [01:29:28] >> Yeah.
+- [01:29:28] >> Um, speaking of the book, um, let's give
+- [01:29:31] you a chance to share what is what
+- [01:29:33] you're working on and when this is
+- [01:29:34] coming out and when where folks can find
+- [01:29:36] it.
+- [01:29:36] >> Sure. So, the book is called Hidden
+- [01:29:38] Multipliers, and you can pre-order it at
+- [01:29:41] hidden multipliers.com, or I guess if
+- [01:29:43] this is out long enough, I'll
+- [01:29:45] you order it, I guess, depending on when
+- [01:29:48] you're listening to this. And it's it's
+- [01:29:50] a lot of stuff kind of like we were
+- [01:29:51] talking about today. Um, these questions
+- [01:29:53] of uh it's called multipliers because
+- [01:29:56] the idea is little things that you can
+- [01:29:58] do or little decisions you can make that
+- [01:30:00] have a huge impact. And like moving the
+- [01:30:03] cancellation rate from 5 to 4%. sounds
+- [01:30:06] small has a huge thing onboarding as
+- [01:30:07] opposed to later used huge thing. So
+- [01:30:09] those are some examples but the book is
+- [01:30:10] is of course full of different kinds of
+- [01:30:12] topics but all of this idea of this
+- [01:30:15] stuff that has such a big impact on
+- [01:30:17] things like revenue and profit. Um, and
+- [01:30:20] either just as you said earlier, either
+- [01:30:22] like either maybe you have never thought
+- [01:30:24] of it that way, so you didn't really you
+- [01:30:25] weren't thinking about it right or yeah,
+- [01:30:28] you you've heard that you say I know,
+- [01:30:30] but your actions don't reflect it. And
+- [01:30:31] so if we go deep enough with examples
+- [01:30:33] and specific things to do, then you can
+- [01:30:35] actually act on on that supposed
+- [01:30:37] knowledge and and and realize those
+- [01:30:39] multipliers.
+- [01:30:40] >> And uh just to remind people, you're all
+- [01:30:42] hidden multipliers.com.
+- [01:30:44] >> Yeah.
+- [01:30:45] >> And there's an S at the end. H h h h h h
+- [01:30:46] h h h h h h h h h h h h h h h m m m m m
+- [01:30:47] m m m m m m m m m m m m m m m m
+- [01:30:47] multipliers,
+- [01:30:48] >> right? There's more than one.
+- [01:30:49] >> Many. There's more than one.
+- [01:30:51] >> Yeah. Yeah.
+- [01:30:52] >> Jason, I had other things I wanted to
+- [01:30:54] talk about, but I feel like this
+- [01:30:56] episode's actually going to be stronger
+- [01:30:57] if we just focus on the thing that we've
+- [01:30:59] been talking about, which is unstalling
+- [01:31:01] growth.
+- [01:31:03] So, if we do that, is there anything
+- [01:31:05] else you want to mention or leave
+- [01:31:08] listeners with before we get to a couple
+- [01:31:10] corners and then the lightning round? I
+- [01:31:13] think if you if you tried to find a
+- [01:31:14] common thread throughout all this stuff
+- [01:31:17] about growth, it comes back to the
+- [01:31:19] customer getting value.
+- [01:31:22] And I know we just we already talked
+- [01:31:23] about that, but I think if if there
+- [01:31:25] could be one thing where it would help
+- [01:31:29] solve kind of all of it, it would be
+- [01:31:31] that they really are getting value. your
+- [01:31:33] product actually promises the right
+- [01:31:35] thing and then it actually delivers on
+- [01:31:37] that thing and the customers can onboard
+- [01:31:39] so that they can do the thing and the
+- [01:31:41] customers know they realize that they're
+- [01:31:43] getting the thing and you're measuring
+- [01:31:45] the thing so you know it's increasing um
+- [01:31:48] that is probably if I was an LLM I'd
+- [01:31:49] probably say that's the common thread or
+- [01:31:51] if you know there's many ways that
+- [01:31:53] manifests of course but but but but if
+- [01:31:56] that's your northstar is how are we
+- [01:31:59] actually creating value in the way the
+- [01:32:00] customer values it and their language
+- [01:32:03] and their way and their way of
+- [01:32:04] understanding it. I wouldn't say all the
+- [01:32:07] pieces magically fit into place, but
+- [01:32:09] certainly isn't that sort of the root
+- [01:32:11] thing that that is going to make all the
+- [01:32:13] stuff work then there will be a good way
+- [01:32:15] to do pricing and they will stay as long
+- [01:32:17] as possible and you know like these
+- [01:32:18] things will probably be right if if that
+- [01:32:20] so this idea of creating value for the
+- [01:32:22] customer and split and then figuring how
+- [01:32:23] to split with them is probably the root
+- [01:32:25] idea and of course I hesitate because
+- [01:32:28] platitudes like that are actually not
+- [01:32:29] actionable not very actionable like all
+- [01:32:31] right well I'll move on with my day and
+- [01:32:32] that's why Twitter's not so useful but
+- [01:32:35] given that we've gone into so much
+- [01:32:36] detail. Perhaps that's a nice way of
+- [01:32:38] summarizing it.
+- [01:32:39] >> I think that's such an important point.
+- [01:32:41] I think what's also interesting is some
+- [01:32:42] of your advice is the value may you may
+- [01:32:45] be picking the wrong customer, the wrong
+- [01:32:47] market. You may be positioning it wrong.
+- [01:32:49] So the value may be there. You're just
+- [01:32:51] trying to convince the wrong people
+- [01:32:53] about it.
+- [01:32:54] >> Yeah, there's so many ways to get it
+- [01:32:55] wrong. Uh, right? Because because all
+- [01:32:58] like we said, all these things have to
+- [01:32:59] be right. You just said another one
+- [01:33:01] which is and you have to say it in a way
+- [01:33:02] that when this person hits the homepage,
+- [01:33:04] they know it.
+- [01:33:06] It's true. But do they know that?
+- [01:33:08] >> Just so many things have to go right.
+- [01:33:10] >> What a what a tough job we've got over
+- [01:33:12] here just solving people's problems.
+- [01:33:14] Come on.
+- [01:33:15] >> Well, thanks for growing.
+- [01:33:18] >> So now we will be after this
+- [01:33:20] conversation.
+- [01:33:22] >> Okay. So I'm going to take us to uh a
+- [01:33:24] recurring corner, a recurring segment on
+- [01:33:26] the podcast that I call AI corner.
+- [01:33:29] What's one way that you have discovered
+- [01:33:32] uh using AI in your work or in your life
+- [01:33:35] that might be helpful for folks to hear?
+- [01:33:37] >> There's a lot of data on the internet
+- [01:33:39] and it's often in things like images
+- [01:33:41] which makes it hard to do your own
+- [01:33:42] analysis or plug it in or etc. Come up
+- [01:33:45] with your own models or apply it. But I
+- [01:33:47] found that AI is really good actually
+- [01:33:48] especially Gemini at say you just give
+- [01:33:51] it to it and give a chart to it and say
+- [01:33:53] like make this into a table that I can
+- [01:33:54] paste like literally say that I can
+- [01:33:56] paste into Google Sheets and it will do
+- [01:33:57] it in a way that literally you can copy
+- [01:33:59] and it will actually paste correctly
+- [01:34:00] into Google Sheets and then you can do
+- [01:34:02] stuff. So especially with the book and
+- [01:34:04] and and my articles uh I I I love to use
+- [01:34:07] real data and as whenever I can of
+- [01:34:09] course and um um so I I do that all the
+- [01:34:11] time. So, um I think that kind of
+- [01:34:14] interpretation is uh is very useful. And
+- [01:34:18] so all of a sudden you can get 10
+- [01:34:19] examples of something and test a theory
+- [01:34:21] where before it was kind of just too
+- [01:34:22] hard and you didn't.
+- [01:34:23] >> That's an awesome tip because people
+- [01:34:25] know you can generate all these
+- [01:34:26] infographics with um especially with
+- [01:34:29] with Gemini and Nano Banana and all
+- [01:34:31] these things. Uh that's really cool to
+- [01:34:32] know. You can just feed it. Here's a
+- [01:34:33] here's a chart. Make it make it text.
+- [01:34:35] >> Yeah.
+- [01:34:36] >> Okay. I'm going to now take us to
+- [01:34:37] contrarian corner. The question here is
+- [01:34:40] what's something that you believe that
+- [01:34:41] most other people don't?
+- [01:34:43] >> AB testing doesn't work very well and it
+- [01:34:45] doesn't work on most things.
+- [01:34:47] It won't work on strategy or vision or
+- [01:34:50] insights like nothing actually important
+- [01:34:53] to the success of the company. You don't
+- [01:34:55] AB test whether Uber is a good idea.
+- [01:34:58] Um and then even when you do AB test the
+- [01:35:01] details where I agree like sometimes
+- [01:35:03] that can work. What happens is people
+- [01:35:05] will try things like oh I'll just you
+- [01:35:06] know try this verb and that verb and
+- [01:35:08] this ad and that ad and then like oh the
+- [01:35:10] seventh or eighth one I got a positive
+- [01:35:12] result that must be good and what
+- [01:35:14] happens is um you keep doing that you
+- [01:35:17] pick the good best one and then you you
+- [01:35:19] go on and you find another one and pick
+- [01:35:21] the best one and then a year later you
+- [01:35:22] look back and you should be like 50 or
+- [01:35:24] 100% better because you've stacked these
+- [01:35:26] things and you look back and like
+- [01:35:27] nothing's different. The conversion
+- [01:35:29] rates are the same as they've always
+- [01:35:30] been. You see what the hell happened?
+- [01:35:32] and I thought I picked the the winner.
+- [01:35:33] And and the answer is in a combination
+- [01:35:36] of the tools not being statistically
+- [01:35:38] accurate, which they're not. And the
+- [01:35:41] fact that you will get false positives
+- [01:35:43] even if the tool is statistically
+- [01:35:44] accurate, means that most of them are
+- [01:35:46] false positives. Even if the tool is 95%
+- [01:35:49] accurate when the thing you're looking
+- [01:35:50] for is rare, which it is in the case of
+- [01:35:52] AB testing, uh it the false positives
+- [01:35:55] are happen more often than the actual
+- [01:35:57] thing happens. And so most of the
+- [01:35:59] results you get are false positives
+- [01:36:01] anyway. So, as a result, this isn't true
+- [01:36:03] of all AB testing, but for mo what most
+- [01:36:06] people do when they just do the sort of
+- [01:36:07] the the mundane AB testing, you can't AB
+- [01:36:10] test the important things and the
+- [01:36:12] details are mostly false positives. So,
+- [01:36:13] it's an enormous waste of time unless
+- [01:36:16] you're incredibly sophisticated. I know
+- [01:36:17] there's special groups that actually are
+- [01:36:19] very sophisticated. Fine. If you're not
+- [01:36:20] doing that, it's sort of like the poker
+- [01:36:22] table. If you don't know who the psy is,
+- [01:36:24] it's you, right? If you don't have all
+- [01:36:26] of this information and and knowledge
+- [01:36:28] about AB testing, then you're the psy.
+- [01:36:31] >> Bam. All right. Uh I will just say that
+- [01:36:34] I have found AB testing useful in my
+- [01:36:36] career. I think it's maybe at a certain
+- [01:36:38] scale when you're just kind of trying to
+- [01:36:40] optimize and continue to grow, you know,
+- [01:36:43] where it's like millions of users like a
+- [01:36:45] percentage gain is like millions of
+- [01:36:46] dollars.
+- [01:36:47] >> True.
+- [01:36:47] >> Most people are not working at that
+- [01:36:48] scale. Most people, right?
+- [01:36:50] >> Yeah. So, just wanted to uh for folks
+- [01:36:53] that find it valuable. That's true.
+- [01:36:55] >> Uh but I love it.
+- [01:36:56] >> However, even so on your on your own
+- [01:36:57] podcast when you were interviewing the
+- [01:36:59] guy from Shopify um and he was saying
+- [01:37:01] how uh maybe a third of the things that
+- [01:37:04] they found with their systems just
+- [01:37:06] disappear. They just magically
+- [01:37:08] disappear.
+- [01:37:09] >> And they're they have a team of 100
+- [01:37:10] people and they're really good at it
+- [01:37:12] >> and like their effects disappear all the
+- [01:37:13] time that so they double check later
+- [01:37:15] whether the whether the immediate effect
+- [01:37:16] goes away because even then,
+- [01:37:19] >> right? I think that was the CTO of
+- [01:37:20] Shopify conversation.
+- [01:37:22] >> Okay. Yeah.
+- [01:37:22] >> Yeah. Sweet. Okay. Worth of memory cuz I
+- [01:37:24] listen to a lot of episodes but I don't
+- [01:37:26] >> such a good one. I love that. Yeah.
+- [01:37:28] Where they leave they leave like a hold
+- [01:37:29] out group essentially and then they just
+- [01:37:31] look back was the effect something that
+- [01:37:32] lasted and most times it didn't.
+- [01:37:34] >> Yeah.
+- [01:37:35] >> There you go. And that's with a lot of
+- [01:37:36] So that's what I mean. If you're doing
+- [01:37:38] that level of stuff,
+- [01:37:40] >> good for you. But if you're not, I don't
+- [01:37:41] know, man.
+- [01:37:42] >> There we go. Well, Jason, uh I'm It's
+- [01:37:46] always a really good sign when I'm just
+- [01:37:47] like I can't wait to get this
+- [01:37:48] conversation out the door and into
+- [01:37:50] people's minds because this there's so
+- [01:37:52] much value here. Uh I'm just uh already
+- [01:37:54] anticipating all the people are going to
+- [01:37:56] reply and just like I had so many ideas
+- [01:37:57] for what to do with my product. Um which
+- [01:38:00] is exactly the goal. And with that we
+- [01:38:02] have reached our very exciting lightning
+- [01:38:04] round. I've got five questions for you.
+- [01:38:05] Are you ready?
+- [01:38:06] >> Boy. Yeah. I mean I don't like talking a
+- [01:38:08] long time anyway. So lightning is great.
+- [01:38:10] >> Here we go. What are two or three books
+- [01:38:14] that you find yourself recommending most
+- [01:38:15] to other people
+- [01:38:16] >> for writing on writing well by William
+- [01:38:19] Zinszer. I know I'm not the only one but
+- [01:38:21] that's kind of the point. um on my best
+- [01:38:23] day I write like that. Um and then for
+- [01:38:26] for uh for product I actually like
+- [01:38:28] crossing the chasm which of course
+- [01:38:31] everyone's heard of but what I find is
+- [01:38:33] no one's read it so that you know the
+- [01:38:35] little picture and you think you know
+- [01:38:36] what the chasm is. What I find is very
+- [01:38:38] quickly I I realized oh you haven't read
+- [01:38:40] the book you saw a blog post and you and
+- [01:38:41] there's so much good stuff in there how
+- [01:38:44] to define a market and really what to do
+- [01:38:47] with this model. It's fantastic. So I
+- [01:38:49] highly recommend reading the book. I've
+- [01:38:51] had a Jeffrey Moore on the podcast. We
+- [01:38:53] dove into a lot of this stuff. One of
+- [01:38:54] the things that always stuck with me is
+- [01:38:56] um when early companies are looking for
+- [01:38:59] someone like them to adopt the thing.
+- [01:39:01] That's something that really stuck with
+- [01:39:02] me. It's not like they're looking for an
+- [01:39:03] early adopter to be like, "Oh, this is
+- [01:39:05] awesome." Like they're looking for
+- [01:39:07] someone that feels like them to say,
+- [01:39:09] "This is great." And so the early
+- [01:39:10] adopters are just going to spread to
+- [01:39:11] other early adopters and there's there's
+- [01:39:13] work to do.
+- [01:39:14] >> Yeah. Part of that's because he defines
+- [01:39:16] a market in among other things as and
+- [01:39:18] the people in the market respect the
+- [01:39:21] opinions of the other people in the
+- [01:39:22] market.
+- [01:39:23] >> Exactly.
+- [01:39:23] >> And that's when you realize, oh, so
+- [01:39:25] jumping to a different market, it's not
+- [01:39:26] impossible. It's just you like like case
+- [01:39:28] studies aren't going to work.
+- [01:39:29] >> Yeah. And then you think, okay, and then
+- [01:39:32] on writing well such a huge run of the
+- [01:39:34] book. That's like the book that most
+- [01:39:35] helped me write. And if you summarize
+- [01:39:37] the book for me, it's just cut. Cut more
+- [01:39:40] and more of your stuff. There's always
+- [01:39:42] to cut. I love this phrase where he's
+- [01:39:45] he's um he's on a panel with with this
+- [01:39:47] guy who is like an amateur writer and
+- [01:39:50] his his kind of summary is to that guy
+- [01:39:52] is I I uh he the guy told him I never
+- [01:39:56] knew writing could be hard and Zenzer
+- [01:39:59] says I never knew writing could be easy.
+- [01:40:02] I think both of those kind of summarize
+- [01:40:04] the the the turmoil of being a writer.
+- [01:40:07] >> Yeah. The classic maybe Hemingway maybe
+- [01:40:10] not quote uh writing is easy. I just sit
+- [01:40:13] at the typewriter and bleed
+- [01:40:14] >> and bleed. Yeah.
+- [01:40:15] >> So good. Okay, moving on. Favorite
+- [01:40:17] recent movie or TV show?
+- [01:40:19] >> Er
+- [01:40:21] from 1994.
+- [01:40:23] 15 seasons. Why do I Why do I say that?
+- [01:40:26] Besides the fact I think it's good. I
+- [01:40:28] have a 16-year-old daughter
+- [01:40:30] >> and we have we're now on season I think
+- [01:40:32] 13 watching this whole thing. She says
+- [01:40:35] it holds up after 25 years and being you
+- [01:40:38] know gen alpha or whatever. I don't even
+- [01:40:39] know what it is. And so if if this is an
+- [01:40:42] era an era when, you know, shows were an
+- [01:40:45] hour long and seasons were forever and
+- [01:40:48] uh and she says it's great TV, it must
+- [01:40:50] be great TV.
+- [01:40:52] >> Wow. I've not had that on this podcast
+- [01:40:54] yet. Um also The Pit. I don't know if
+- [01:40:56] you enjoy ER, you'll enjoy The Pit,
+- [01:40:58] which just won all these awards.
+- [01:40:59] >> Yep. If it's good
+- [01:40:59] >> on Netflix. Um, fun fact, my cousin was
+- [01:41:02] in ER, not as a recurring character, but
+- [01:41:05] she was like a young girl patient and
+- [01:41:07] now she's a fancy actress in the world.
+- [01:41:10] >> Oh, cool.
+- [01:41:10] >> That was her start.
+- [01:41:12] >> Okay, next question. Favorite product
+- [01:41:14] you've recently discovered that you
+- [01:41:15] really love.
+- [01:41:16] >> Um, this is probably not unique, but
+- [01:41:18] Whisper Flow for dictation. It's really
+- [01:41:21] good. I like the keyboard shortcuts
+- [01:41:22] because it, you know, I just use it all
+- [01:41:24] the time in all the software and
+- [01:41:26] anything anchor makes. you know, they
+- [01:41:28] have like power stations and docks and
+- [01:41:31] recharging
+- [01:41:31] >> over the K.
+- [01:41:32] >> Uh yeah, ANK, right? Um and uh just all
+- [01:41:36] their stuff is super high quality and
+- [01:41:38] works really well. Everything seems to
+- [01:41:39] charge twice as fast when plugged into
+- [01:41:41] an Anchor thing. So, I don't know,
+- [01:41:42] whatever it is, it's really good.
+- [01:41:44] >> I got a new Inker charger. I also love
+- [01:41:46] Anker. Uh that has like a display on the
+- [01:41:48] side when you plug in stuff and it's got
+- [01:41:49] like multiple ports and it shows you
+- [01:41:50] like the percentage it's charging and
+- [01:41:52] the wattage per outlet. I love it.
+- [01:41:54] They're just like, "How do we make this
+- [01:41:56] more fancy and fun and charge more?"
+- [01:41:58] >> Yeah,
+- [01:41:58] >> I love it. Yeah. And then Whisper Flow,
+- [01:42:01] quick shout out. They are uh you get a
+- [01:42:03] year free of Whisperflow by becoming a
+- [01:42:06] uh insider. I think even just an annual
+- [01:42:07] subscriber of my newsletter uh as part
+- [01:42:10] of the product pass. And so uh check it
+- [01:42:12] out. Lenny's product pass.com. You can
+- [01:42:14] also check out
+- [01:42:15] >> I did not know that. I'm not a shill for
+- [01:42:17] them.
+- [01:42:17] >> No, I love that. I love when people
+- [01:42:18] recommend products in the product pass.
+- [01:42:20] A whole
+- [01:42:20] >> because I'm a subscriber for long enough
+- [01:42:21] that I didn't get that.
+- [01:42:23] >> You missed out. You missed out. There's
+- [01:42:24] 19 products in there right now. By the
+- [01:42:26] time this comes out, there will be even
+- [01:42:27] more.
+- [01:42:28] >> Okay, two more questions. Do you have a
+- [01:42:30] favorite life motto that you find
+- [01:42:32] yourself coming back to in work or in
+- [01:42:34] life?
+- [01:42:35] >> Yes. Be yourself. Everyone else is
+- [01:42:37] taken.
+- [01:42:39] And it's attributed to Oscar Wild, but
+- [01:42:41] I've tried to look into that as I tried
+- [01:42:44] to get all my annotations correct for
+- [01:42:45] the book. And there's no evidence that
+- [01:42:47] he said it. But there's also no evidence
+- [01:42:50] who said it. So, let's say it's Oscar
+- [01:42:51] Wild because he said lots of things like
+- [01:42:52] that. I love that and it's such a deep
+- [01:42:55] point like you know it's easy to hear
+- [01:42:56] and be like yeah yeah yeah but it's it's
+- [01:42:58] something I've learned to be more and
+- [01:43:00] more true every time especially as you
+- [01:43:01] see people online doing their thing and
+- [01:43:03] just like oh I want to be like that and
+- [01:43:04] then you realize no you got to be
+- [01:43:05] yourself.
+- [01:43:06] >> No and and the people who love you or
+- [01:43:09] like what you do also want you to be
+- [01:43:11] yourself because that's what they love
+- [01:43:12] and if you're changed then they wouldn't
+- [01:43:13] love that. So
+- [01:43:14] >> final question you have this fancy award
+- [01:43:16] behind you on your desk. I'm curious
+- [01:43:19] what's the story there? That's the
+- [01:43:21] Ernstston Young Entrepreneur of the Year
+- [01:43:23] award for 2017 for Central Texas, which
+- [01:43:26] I co-un with the CEO of WP Engine,
+- [01:43:29] Heather Bruner. Uh, which is awesome
+- [01:43:31] because I I often call Heather our a
+- [01:43:34] late joining co-founder because that's
+- [01:43:36] what um LinkedIn that's what Reed
+- [01:43:38] Hoffman called Jeff Weiner because you
+- [01:43:40] know Jeff was like you know four years
+- [01:43:41] in but was so impactful
+- [01:43:45] to everything the success of the company
+- [01:43:47] the culture d that like basically is a
+- [01:43:49] co-founder and that's exactly what
+- [01:43:51] Heather is like at WP Engine. It's now
+- [01:43:53] been 11 years since she she became the
+- [01:43:56] CEO. So, this is a, you know, there's
+- [01:43:59] lots of um data to back this up. And I
+- [01:44:02] and I I used to say to people at the at
+- [01:44:05] WP Engine like if I just told you that
+- [01:44:07] Heather was a co-founder, you'd say,
+- [01:44:08] "Yeah, no, no kidding." I'm like,
+- [01:44:10] "Right, that's what that's why I think
+- [01:44:12] of it that way because so do you. So did
+- [01:44:13] anyone because that that's the impact
+- [01:44:14] she's had." So, we co-win that award,
+- [01:44:16] which is nice because you almost never
+- [01:44:18] have co-winners. In fact, like I I can't
+- [01:44:21] remember another one. I mean, I know
+- [01:44:22] there are others, but there it's rare
+- [01:44:23] enough I can't think of another one. So,
+- [01:44:25] it's really cool that we co-wrun that uh
+- [01:44:28] entrepreneur award.
+- [01:44:29] >> Jason, this was so awesome. I really
+- [01:44:31] appreciate you making time. I really
+- [01:44:32] appreciate you sharing so much wisdom
+- [01:44:34] with us. Uh two final questions. Where
+- [01:44:36] can folks find you online? Point them to
+- [01:44:37] your book, your website, and how can
+- [01:44:40] listeners be useful to you?
+- [01:44:41] >> Yeah, I mean to be useful, order the
+- [01:44:43] book, hidden multipliers.com, or of
+- [01:44:47] course, you don't have to. You can uh I
+- [01:44:48] have all these articles online for free.
+- [01:44:50] So, you can go to asmartbear.com
+- [01:44:53] and I'm on Twitter and other stuff
+- [01:44:54] that's all linked off of that website
+- [01:44:56] and the articles uh they're they're
+- [01:44:59] free. I don't have ads. I don't sell
+- [01:45:01] courses. I don't I don't sell anything.
+- [01:45:03] So, like that's that's very very
+- [01:45:05] non-commercial. Um and so the in fact
+- [01:45:07] the one thing I've ever done with
+- [01:45:08] writing that costs money is the book
+- [01:45:10] because you know it's a physical book.
+- [01:45:11] I've got to charge something so I can
+- [01:45:13] ship it and everything. So, uh um but I
+- [01:45:17] think Hidden Multipliers is is certainly
+- [01:45:19] my best work. So, um so I'm very I'm
+- [01:45:22] very proud of that. But, uh but you
+- [01:45:24] don't have to buy it. It's okay.
+- [01:45:25] >> This is our chance to this is our chance
+- [01:45:27] to repay you for all the free content
+- [01:45:28] you've put out over time, right?
+- [01:45:30] >> And so, I'm going to order a number of
+- [01:45:32] them.
+- [01:45:33] >> Jason, thank you so much for being here.
+- [01:45:34] >> Thank you. This is fun.
+- [01:45:36] >> So fun. Bye, everyone.
+- [01:45:39] Thank you so much for listening. If you
+- [01:45:41] found this valuable, you can subscribe
+- [01:45:42] to the show on Apple Podcasts, Spotify,
+- [01:45:45] or your favorite podcast app. Also,
+- [01:45:47] please consider giving us a rating or
+- [01:45:49] leaving a review as that really helps
+- [01:45:51] other listeners find the podcast. You
+- [01:45:53] can find all past episodes or learn more
+- [01:45:55] about the show at lennispodcast.com.
+- [01:45:58] See you in the next episode.

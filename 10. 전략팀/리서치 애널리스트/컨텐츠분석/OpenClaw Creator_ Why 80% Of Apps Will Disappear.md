@@ -1,0 +1,664 @@
+## Key insight / summary
+
+- **로컬 실행의 혁신적 가치**: OpenClaw가 폭발적으로 성장한 핵심은 클라우드가 아닌 사용자 컴퓨터에서 직접 실행되어 "모든 것"을 제어할 수 있다는 점 (Tesla, 오븐, 조명, Sonos 등 모든 연결된 기기 제어 가능)
+
+- **예상치 못한 창발적 능력**: 개발자가 구체적으로 프로그래밍하지 않았음에도 AI가 음성 파일을 자동으로 감지하고, 헤더를 분석하고, ffmpeg로 변환하고, OpenAI API로 전사하는 전체 워크플로우를 9초 만에 해결
+
+- **앱의 대량 소멸 예측**: 80%의 앱이 사라질 것으로 전망 - MyFitnessPal, 할 일 앱 등 데이터 관리형 앱들은 에이전트가 자연스럽게 대체할 것 (센서가 있는 앱만 생존 가능)
+
+- **Bot-to-Bot 경제의 출현**: 사용자의 봇이 레스토랑 봇과 협상하거나, 봇이 인간을 고용해서 오프라인 업무를 처리하는 새로운 상호작용 패턴 등장
+
+- **전문화된 에이전트 생태계**: 개인용, 업무용, 관계 관리용 등 여러 전문 봇이 협력하는 "군집 지능(swarm intelligence)" 모델로의 진화
+
+- **코딩과 실세계 문제해결의 연결**: 코딩 모델이 뛰어난 이유는 창의적 문제해결 능력이 코드뿐만 아니라 실세계 업무에도 동일하게 적용되기 때문
+
+- **자연스러운 대화형 인터페이스**: 터미널, 세션, 폴더, 모델을 신경쓰지 않고 "친구와 대화하듯이" 상호작용할 수 있는 UX가 핵심
+
+## Key implications for Proby platform
+
+- **로컬 실행 능력 강화 필요**: OpenClaw처럼 Proby도 사용자 환경에서 직접 실행되어 기존 리서치 도구들(Miro, Notion, Slack 등)과 네이티브 통합할 수 있는 아키텍처 구축 → 클라우드 기반 경쟁사들 대비 "모든 것을 제어할 수 있는" 차별점 확보
+
+- **창발적 리서치 워크플로우 설계**: 연구자가 명시적으로 요청하지 않아도 AI가 참가자 데이터를 분석하여 숨겨진 패턴을 발견하고, 적절한 후속 질문을 자동 생성하는 기능 개발 → 전략문서의 "AI 조절 품질이 인간과 동등하다"는 가정을 넘어서는 가치 창출
+
+- **에이전트 간 협업 생태계 구축**: Proby가 다른 AI 에이전트들(고객사의 CRM 봇, 마케팅 봇 등)과 협업하여 리서치 결과를 자동으로 실행 가능한 인사이트로 전환하는 기능 → 단순한 "moderated survey platform"을 넘어 전체 조직의 의사결정 허브로 진화
+
+- **자연스러운 대화형 리서치 경험**: 복잡한 설정 없이 "참가자 10명과 브랜딩에 대해 대화하고 싶어"라고 말하면 모든 것이 자동으로 설정되는 UX 구현 → 전략문서의 스타트업 PM/PD 세그먼트 공략에 핵심적
+
+- **전문화된 리서치 에이전트 제공**: 유니콘 기업용 글로벌 리서치 봇, 스타트업용 빠른 검증 봇, 엔터프라이즈용 규정 준수 봇 등으로 세분화 → 전략문서의 세그먼트별 차별화 전략을 에이전트 레벨에서 구현
+
+- **80% 앱 소멸 대응 전략**: 기존 리서치 도구들(UserTesting, Survey Monkey 등)이 사라질 것을 전제로, 이들의 핵심 기능을 Proby 에이전트가 자연스럽게 흡수하는 로드맵 수립 → 경쟁 분석에서 누락된 "미래 경쟁 지형" 선점
+
+- **토큰 사용량을 장점으로 전환**: "사용자들이 너무 많이 써서 토큰을 태운다"는 것을 품질 지표로 활용 → 전략문서의 LTV:CAC 모델에서 높은 사용량을 고객 만족도와 retention의 선행지표로 활용
+
+- **Bot-to-Human 하이브리드 모델**: AI가 처리할 수 없는 복잡한 리서치는 자동으로 전문 리서처를 섭외하고 협업하는 시스템 구축 → 전략문서의 "AI 품질 우려"를 해결하면서 확장성 확보
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=4uzGDAoNOZc
+
+- [00:00] Today I'm sitting down with Peter
+- [00:01] Steinberger, the creator of OpenClaw,
+- [00:03] the open- source personal AI agent that
+- [00:06] has completely taken over the internet.
+- [00:08] The GitHub repo exploded to over 160,000
+- [00:12] stars practically overnight. [music] The
+- [00:14] community has built countless projects
+- [00:16] like Maltbook where bots talk among
+- [00:18] themselves. And now the bots are even
+- [00:21] renting humans to do tasks in the real
+- [00:23] world. In our conversation, we discuss
+- [00:25] his aha moment, his contrarian
+- [00:28] development philosophies, and what this
+- [00:30] means for builders in 2026. Let's dive
+- [00:33] in. [music]
+- [00:38] >> So, good to see you, man.
+- [00:39] >> Hey, what's up?
+- [00:40] >> Um, so you've made something people
+- [00:43] want,
+- [00:44] >> it seems. So,
+- [00:45] >> yeah. Uh, Open Claw, as it's called now,
+- [00:47] has absolutely
+- [00:48] >> name number five. Yeah. [laughter]
+- [00:50] >> Has been absolutely exploding the
+- [00:52] internet. Um, how have the past one or
+- [00:55] two weeks been for you, man?
+- [00:57] >> Oh my god. I need like I need a cave.
+- [01:00] [laughter]
+- [01:01] A week of solitude.
+- [01:03] >> You You came out of the cave and you
+- [01:04] want to go back to the cave like a like
+- [01:06] little lobster.
+- [01:07] >> It's been absolutely wild. I don't know
+- [01:08] how one human can absorb all of that. I
+- [01:11] probably need another week just to like
+- [01:13] respond to all my emails. Uh, I got some
+- [01:15] incredibly cool stuff. I got some
+- [01:17] incredibly
+- [01:19] bad stuff.
+- [01:20] >> [snorts]
+- [01:20] >> Um, but clearly I hit something that
+- [01:24] sprew up emotions and made people
+- [01:26] interested and inspired people and it's
+- [01:28] really cool.
+- [01:28] >> And a lot of people have been working
+- [01:30] on, you know, AI and even personal
+- [01:32] assistance. Like what what is it that
+- [01:34] made Open Claw take off?
+- [01:36] >> I think my big difference is that it
+- [01:38] actually runs on your computer. Like
+- [01:41] every everything I saw so far runs in
+- [01:42] the cloud. It's like it can do a few
+- [01:45] things if you run on your computer. It
+- [01:48] can do every effing thing, right? So
+- [01:52] that's way more powerful.
+- [01:53] >> Yeah. Machine can do anything that you
+- [01:55] can do with the machine.
+- [01:56] >> You can just connect to your oven or
+- [01:59] your Tesla or your lights, your Sonos.
+- [02:03] My bad. It can control the temperature
+- [02:04] of my bed. JPD can't do that.
+- [02:07] >> You gave it all the skills that you have
+- [02:09] yourself. A friend told me like he
+- [02:11] installed Open Claw and
+- [02:15] it and then it asked it like look
+- [02:17] through my computer and make a narrative
+- [02:19] over my last year and it made this
+- [02:22] incredibly good narrative and he was
+- [02:23] like how did you do that
+- [02:26] and then he the open cloth found audio
+- [02:29] files where like every Sunday he was
+- [02:31] recording stuff and openclaw found that
+- [02:35] but he didn't even remember about it
+- [02:36] because it was like more than a year ago
+- [02:38] right so So just by it being able to
+- [02:41] search a whole computer, it it can
+- [02:45] surprise you.
+- [02:46] >> It's also
+- [02:48] you also give it all the data, right? So
+- [02:49] it can surprise you in many ways.
+- [02:52] >> And so now you have, you know, we're
+- [02:54] even moving from human tobot. So like
+- [02:56] interactions and you've been talking
+- [02:58] about tobottobot
+- [03:00] interactions or even like bot to other
+- [03:03] humans where you know bots on behalf of
+- [03:05] you are then hiring other humans to
+- [03:07] accomplish tasks IRL like what's
+- [03:11] happening
+- [03:12] >> I think that's a natural next step like
+- [03:15] okay I want to book a restaurant my bot
+- [03:18] will reach out to the restaurant bot and
+- [03:21] do the negotiation
+- [03:23] like because it's more efficient Or or
+- [03:27] maybe it's like an old restaurant. So my
+- [03:28] bot needs to actually get some some
+- [03:30] human work done so that the human then
+- [03:32] calls the restaurant because they don't
+- [03:34] like bots
+- [03:35] >> or walks there to stand in line
+- [03:37] >> if he doesn't get a robot for
+- [03:38] >> or the owner of the bot. [laughter]
+- [03:41] >> And I imagine that like maybe if if I
+- [03:44] have even multiple bots like maybe I
+- [03:46] have like specialist one is like for my
+- [03:48] private life and one is for like my
+- [03:50] person my my work stuff. Maybe one is
+- [03:52] our relationship bot that gets like
+- [03:54] everything in between. Uh I don't know.
+- [03:57] We're so early. There's still so much so
+- [04:00] many things that we haven't really
+- [04:02] figured out if it actually works. Um but
+- [04:05] I feel we are we are on the timeline
+- [04:07] now.
+- [04:07] >> It seems like everyone was chasing sort
+- [04:09] of like the sort of like centralized god
+- [04:11] intelligence and what has sort of
+- [04:13] emerged over the past you know 10 days
+- [04:15] or so is sort of like the swarm
+- [04:17] intelligence um and and the community
+- [04:19] intelligence. I think that if you look
+- [04:21] at one human being,
+- [04:24] what can one human being actually
+- [04:26] achieve? Do you think one human being
+- [04:27] could make an iPhone or one human being
+- [04:29] could go to space?
+- [04:31] One human being would probably just like
+- [04:33] not even be able to like find food.
+- [04:36] Um, but as a group we specialize as a
+- [04:41] larger society we specialize even more.
+- [04:45] So, what can we learn from that that we
+- [04:48] can apply to AI? You know, we we already
+- [04:50] have like AI that specializes in certain
+- [04:53] things. Um, even though it's it's
+- [04:55] generalized intelligence, what if it
+- [04:57] actually is also specialized
+- [04:59] intelligence?
+- [05:01] So, I it's going to be very exciting,
+- [05:03] cool.
+- [05:03] >> Yeah. You kind of like opened a window
+- [05:05] into the future and now a ton of people
+- [05:07] are kind of like building building on it
+- [05:08] and have sort of like their aha moment.
+- [05:11] Um, can you walk me back to when you had
+- [05:13] your aha moment and can like re recount
+- [05:15] that very moment?
+- [05:16] >> I wanted something to like just type
+- [05:18] stuff so my computer would do stuff like
+- [05:21] very simple. And then I built I built a
+- [05:24] version of that in May, June that was
+- [05:27] cool but wasn't really it. Um,
+- [05:31] and then I built a whole bunch of other
+- [05:32] stuff and kind of like build up my army.
+- [05:37] And then in November,
+- [05:40] there was a day where I wanted this
+- [05:41] again. Like I I went to the kitchen and
+- [05:44] all I wanted was check up if my computer
+- [05:46] would still do stuff or being finished
+- [05:49] >> and doing stuff was was coding. You were
+- [05:51] coding stuff.
+- [05:52] >> Yeah, of course.
+- [05:52] >> Were you coding something else or were
+- [05:55] you coding the thing itself?
+- [05:57] >> No, no, that was just like the need was
+- [06:00] again there and I'm like,
+- [06:01] >> what were you coding at the time? What
+- [06:03] were you building? My god. You see my my
+- [06:05] GitHub is like it's like 40 projects. I
+- [06:07] don't even know. Um I think it was
+- [06:10] summarize.
+- [06:11] It's like a it's like a little CLI app
+- [06:14] where you can give it whatever like a
+- [06:16] podcast or um a hot seat thing like here
+- [06:19] and it would summarize it but it also
+- [06:21] show you the slides in the terminal cuz
+- [06:23] you can do that nowadays. Yeah. You can
+- [06:24] just do things.
+- [06:25] >> So for the love of the computer you kind
+- [06:27] of like started messing with stuff.
+- [06:29] >> Um you came out of retirement actually,
+- [06:31] right? um to sort like mess with AI and
+- [06:34] then increasingly you were so hooked
+- [06:36] that you wanted to just do it always
+- [06:37] also on the go with the phone.
+- [06:39] >> I mean the last project I I worked two
+- [06:42] months on Wipe Tunnel
+- [06:44] >> to the point where it got so good that I
+- [06:46] was catching myself always like coding
+- [06:49] next to my when I was at my friends and
+- [06:51] I like I need to stop this this is like
+- [06:52] too addictive. And then in November and
+- [06:55] like my need came back and I I started
+- [06:58] building cloudbot or now it's called
+- [07:00] open cloud and I think very very in the
+- [07:03] beginning I was like oh I rebuilt it
+- [07:05] again but this time I built it even
+- [07:07] better
+- [07:08] >> this time and you don't type into a
+- [07:09] terminal you just you talk to a friend
+- [07:12] you don't think about compaction new
+- [07:15] sessions which folder I'm in which model
+- [07:17] I'm in I mean you can you know just like
+- [07:20] I want to leave it open for power users
+- [07:23] but usually You just like you just talk
+- [07:24] to a friend and the friend is like this
+- [07:28] ghost or entity or whatever you want to
+- [07:30] call it that can control your mouse and
+- [07:32] your keyboard and can just do stuff.
+- [07:34] >> Yeah. And when did you have that aha
+- [07:35] moment when you were like wow this is
+- [07:37] doing way more things than I actually
+- [07:40] thought it could.
+- [07:41] >> Literally I it took me one hour for like
+- [07:44] the the very shitty initial prototype.
+- [07:47] It was just a little bit of glue between
+- [07:50] like a dependency that connects WhatsApp
+- [07:52] and cloud code and then I would like
+- [07:55] call color call out code and get like
+- [07:56] the string out of cloth code. It would
+- [07:58] be slow but it it worked. But I wanted
+- [08:01] images cuz you know you want pictures. I
+- [08:03] want I want I want the model to send
+- [08:05] some selfies or whatever and I want the
+- [08:07] model to create images and me back. So
+- [08:09] that took me another few hours and then
+- [08:11] I I went to Marrakesh
+- [08:14] for a birthday party and there was like
+- [08:17] the internet wasn't that good you know
+- [08:18] WhatsApp box works everywhere because I
+- [08:19] don't know it's just like text
+- [08:21] >> so I used it a lot restaurant what does
+- [08:23] this mean you make like a picture and
+- [08:25] like translate this for me and just it
+- [08:27] was just so useful and it was also
+- [08:29] really nice about it because it it it
+- [08:30] spoke my language you know it it was a
+- [08:33] little sassy it was like funny it was
+- [08:35] like really pleasant to use and then I
+- [08:38] was walking and just like sending it a
+- [08:39] voice message and I'm like, "Oh, wait.
+- [08:42] This can't work. I didn't build that."
+- [08:43] >> Right. Right.
+- [08:44] >> And you saw like the type indicator.
+- [08:47] It's like blinking, blinking, blinking.
+- [08:48] 10 seconds later, it just replied to me.
+- [08:50] I'm like, "How in the f did you do
+- [08:52] that?" And it replied, "Yeah, the med
+- [08:55] did the following. You sent me a text
+- [08:57] message." And there was no file ending.
+- [08:59] So I looked at the header. I found its
+- [09:00] us. So I used ffmpe to convert it to
+- [09:03] wave. And then I wanted to like
+- [09:04] transcribe it, but didn't have whisper
+- [09:06] installed. But then I looked around and
+- [09:08] I found this openi key and I just use
+- [09:09] curl to send it to openi [laughter]
+- [09:11] got the text back and here I am and that
+- [09:15] all in like what 9 seconds
+- [09:18] >> and you didn't build or anticipate like
+- [09:20] any of those specific things.
+- [09:21] >> No, it you know turns out um because
+- [09:25] coding models got so good. Coding is
+- [09:27] really like creative problem solving
+- [09:30] that maps very well back into the real
+- [09:32] world. I think I think there there's a
+- [09:33] there's a huge correlation.
+- [09:36] they need to be really good at creative
+- [09:38] problem solving and that's a skill
+- [09:40] that's an abstract skill you can apply
+- [09:42] to code but like to any real world task.
+- [09:44] So the the model had a oh surprise
+- [09:47] there's like a magical file. I don't
+- [09:48] know what it is. I need to solve this
+- [09:50] and it did its best and solved that. And
+- [09:52] it was even that clever that it it chose
+- [09:54] not to install the local whisper because
+- [09:57] it knows that that would require
+- [09:59] downloading a model which would take
+- [10:01] probably a few minutes and I'm like
+- [10:03] impatient, you know. So it it really
+- [10:06] took the most uh intelligent approach
+- [10:10] and that was kind of like the moment
+- [10:11] where I'm like, "Holy
+- [10:13] fuck." Yeah. Uh that was where I got
+- [10:17] hooked.
+- [10:18] >> YC's Next Batch is now taking
+- [10:20] applications. Got a startup in you?
+- [10:22] Apply at y combinator.com/apply.
+- [10:25] It's never too early and filling out the
+- [10:28] app will level up your idea. [music]
+- [10:30] Okay, back to the video. And so when
+- [10:32] computers can just do all these things
+- [10:34] that you didn't even anticipate. You
+- [10:35] didn't build an app to do that exact
+- [10:37] thing, are apps just going to go away.
+- [10:41] >> Uh I think 80% of them are going away.
+- [10:44] Why do I need My Fitness Pal? Like my
+- [10:47] agent already knows that I'm making bad
+- [10:49] decisions. I'm at I don't know uh
+- [10:52] Smashburg or something and it will
+- [10:56] already assume that I eat what I like to
+- [10:58] eat. If I don't make a comment, it will
+- [11:00] just like automatically track it or I
+- [11:02] make a picture and it will just store it
+- [11:03] somewhere. I don't even need to care.
+- [11:05] Right. And then my maybe it it improves
+- [11:08] my my gym schedule like adds a little
+- [11:11] bit more cardio in it. I don't need my
+- [11:12] my fitness app because it just it just
+- [11:14] does the fitness planning for me. Uh why
+- [11:17] do I need a to-do app? I just tell it,
+- [11:19] hey, remind me of this and this and then
+- [11:20] next day it will just remind me of this
+- [11:22] and this. Do I care where it's stored?
+- [11:23] No, it just does its thing. So there's a
+- [11:26] every app that basically just manages
+- [11:30] data could be managed in a better way in
+- [11:33] a in a more in a more natural way by
+- [11:35] agents.
+- [11:36] >> Yeah.
+- [11:36] >> Only the apps that actually have sensors
+- [11:38] maybe they survive
+- [11:40] >> and so if you know most apps are going
+- [11:42] to go away in that scenario um are the
+- [11:46] models the only remaining sort of apps.
+- [11:48] Not everything will go away,
+- [11:51] but yeah, I think [clears throat] that
+- [11:52] the the large model companies have some
+- [11:54] big mode [sighs]
+- [11:55] because they ultimately they give the
+- [11:58] token and turns out one of the
+- [12:01] complaints was that people use so much
+- [12:03] token. No, you just really love using
+- [12:06] it. That's why you you use this thing so
+- [12:08] much because that's why we burn the
+- [12:09] token.
+- [12:10] >> Yeah.
+- [12:10] >> Um it's like is it my fault that I make
+- [12:12] something that's so popular? And so you
+- [12:15] know like all the the models they're
+- [12:17] kind of like leaprogging each other
+- [12:18] constantly and
+- [12:20] >> and you know maybe they're also getting
+- [12:22] commoditized. So if apps are going to go
+- [12:24] away models are going to get
+- [12:25] commoditized or at least uh you know the
+- [12:27] lobster can like the brain is is is
+- [12:30] swappable out. What's the thing that
+- [12:32] remains? What's where's the value? Is it
+- [12:34] the store of memory? Is it um the
+- [12:38] hardness that's valuable? What is what
+- [12:40] remains? First of all, I don't think the
+- [12:44] the model companies always have a mode
+- [12:47] and because you see this already a new
+- [12:49] model comes out, people are like, "Oh my
+- [12:51] god, this is so good."
+- [12:52] >> And then like a month later, uh, it
+- [12:54] degraded. It's not good anymore. They
+- [12:56] like quanticized it. No, they didn't do
+- [12:58] anything. You just adapted to the new
+- [13:00] standard and now your expectations went
+- [13:02] up, but the model is still the average.
+- [13:05] So I think for quite a while,
+- [13:09] every time a new model releases, I hear
+- [13:10] the same. people love it and then it's
+- [13:13] the standard and then what's done there
+- [13:15] you don't even want to think about it
+- [13:16] anymore. So, so we have like open source
+- [13:19] stuff that's as good as the current
+- [13:20] models from a year ago. Everybody's
+- [13:22] hating it, complaining, oh this is not
+- [13:24] good, this is not funny yet this was
+- [13:26] what we had and like in a year we'll
+- [13:27] have this open source and then like
+- [13:29] we'll complain about this because we
+- [13:31] used to
+- [13:33] ah for the foreseeable future the big
+- [13:36] companies still have mode harness wise
+- [13:38] it's going to be interesting because
+- [13:41] every company kind of has their own
+- [13:44] their own silo right you you there's no
+- [13:46] way maybe there is for Europeans to
+- [13:49] actually get the memories out of
+- [13:50] >> chap
+- [13:51] I don't I'm not aware either. There's no
+- [13:54] there's definitely there's no way for a
+- [13:56] different company to get your memories
+- [13:58] out. So if if if I was like a company
+- [14:01] who like provides chat services,
+- [14:04] you could use me but then I couldn't
+- [14:06] access the memories. So like the
+- [14:07] companies try to like
+- [14:09] >> bound you to their data silo. And the
+- [14:11] beauty of open claw is it kind of claws
+- [14:14] into the datas because at the end user
+- [14:16] the end user needs access because it's
+- [14:18] in the end otherwise it wouldn't work
+- [14:19] right if the end user access I can
+- [14:22] access the data
+- [14:23] >> and you own the memories it's just a
+- [14:25] bunch of markdown files on on your
+- [14:26] machine
+- [14:27] >> I mean I don't own the memories other
+- [14:28] people yeah everyone owns their own
+- [14:31] memories as a bunch of markdown files on
+- [14:33] their own machines
+- [14:34] >> and to be honest those are probably
+- [14:36] super sensible because let's be honest
+- [14:40] Um, people use their agent not just for
+- [14:43] problem solving,
+- [14:44] >> but also for like personal problem
+- [14:46] solving
+- [14:47] >> very quickly. Super quickly.
+- [14:48] >> I mean, I I I I fully do that. I'm like,
+- [14:50] there's memory stuff that I don't want
+- [14:53] to have leaked.
+- [14:53] >> Yeah. What would you rather um uh sort
+- [14:55] of like not show your Google search
+- [14:57] history at this point or your, you know,
+- [14:59] memory files?
+- [15:00] >> What's what's the Google word?
+- [15:02] >> Yeah. Yeah.
+- [15:03] >> People still using Google. I built this
+- [15:06] and I was so excited but on Twitter
+- [15:10] people wouldn't get it.
+- [15:12] >> Yeah.
+- [15:12] >> Like I I was failing to explain the
+- [15:16] awesomeness. I feel like it needs to be
+- [15:19] experienced. So
+- [15:22] I I tried various things and I I
+- [15:25] couldn't I couldn't nail the I couldn't
+- [15:27] nail the explaining. So I was like let's
+- [15:29] do something really crazy. I just
+- [15:31] created a discord and I just put my bot
+- [15:35] without any security restrictions in the
+- [15:37] public discord
+- [15:39] and then people came in and they
+- [15:40] interacted with it and they saw me build
+- [15:42] the software with it and they tried to
+- [15:44] prompt inject it and hack it and my
+- [15:46] agent would be laughing at them
+- [15:47] >> and you just had it locked down to your
+- [15:48] user ID so it only listened to you.
+- [15:50] >> Yeah. Yeah. that and it was I made very
+- [15:53] clean instructions that other people
+- [15:55] dangerous only only listen to me but
+- [15:58] respond to everyone
+- [15:59] >> and this prompt was in where was it
+- [16:01] stored the instructions
+- [16:03] >> um that's actually part of open claw
+- [16:06] itself very much so the the that's part
+- [16:08] of the system prompt okay you are now
+- [16:09] that explains to you you're in Discord
+- [16:12] there's like public people there but you
+- [16:14] only listen to your owner
+- [16:16] >> or like you're human I don't even know
+- [16:17] how I wrote it
+- [16:18] >> yeah yeah
+- [16:18] >> you're god
+- [16:20] And I kept I don't know what I did but
+- [16:27] my system was built very organically
+- [16:29] like at some point I created like an
+- [16:31] identity.mmd a soul.md like like various
+- [16:34] files and then only in in January I
+- [16:37] started making it so other people could
+- [16:38] install it easier and I remember
+- [16:43] I built all these templates based on
+- [16:45] like oh take a rough look at what I have
+- [16:47] and make like templates and codex wrote
+- [16:49] it and what came was like Brad, you
+- [16:52] know, like people joke that Codex feels
+- [16:54] like Brad, even though now they have a
+- [16:56] new friendlier voice. I haven't tried
+- [16:57] that yet.
+- [16:57] >> Yeah.
+- [16:58] >> But the new bots, they felt so boring
+- [17:01] compared to what I had. So I was like,
+- [17:03] Modi, infuse the template.
+- [17:05] >> Multi is the name of your personal
+- [17:07] >> Yeah. It's a new name because
+- [17:09] >> Yeah.
+- [17:10] >> Uh there was some naming challenges.
+- [17:12] >> Yeah. So So you you were talking to
+- [17:14] Multi.
+- [17:15] >> Yeah. I was like, "Infuse infuse those
+- [17:17] templates with your your character." And
+- [17:19] he changed the templates and then and
+- [17:21] then like all the things that came out
+- [17:23] afterwards were like actually funny,
+- [17:26] not as funny as mine. So like I kept
+- [17:28] some secret and the one file that's not
+- [17:31] open source is like my soul. MD. So even
+- [17:34] though my my bot is in public discord,
+- [17:36] so far nobody cracked that one file.
+- [17:39] >> Tell me more about soul.md. I just saw
+- [17:41] this research from Entropic where they
+- [17:45] now I think it's public but like a few
+- [17:47] months ago it was like where somebody ex
+- [17:50] randomly found out some text that's
+- [17:53] hidden in [snorts] the weights where the
+- [17:54] model couldn't really remember that it
+- [17:56] learned it but it was like ingrained in
+- [17:58] the weights about the nicolity
+- [18:00] constitution and I found that incredibly
+- [18:03] fascinating and I I talked about it with
+- [18:05] my agent and then we created a soulm
+- [18:07] with like the core values like how do we
+- [18:10] around human AI interaction, what's
+- [18:13] important to me, what's important to the
+- [18:15] model. Like
+- [18:17] some parts is a little bit like mamo
+- [18:18] jumbo and some parts is like I think
+- [18:20] actually really valuable in terms of how
+- [18:23] the model reacts and responds to text
+- [18:26] and makes it feel very natural
+- [18:27] >> in terms of building open claw. Um
+- [18:30] you're also kind of taking a little bit
+- [18:31] of a contrarian view at sometimes like
+- [18:32] which model you like for coding, which
+- [18:34] one you like to run your bot on. Um and
+- [18:36] then also like how you actually like you
+- [18:38] know code. Um work trees get git work
+- [18:40] trees have kind of been a popular thing.
+- [18:42] There's more and more tools embracing
+- [18:44] them but you're just you're just like
+- [18:46] you know no work trees just multiple
+- [18:49] checkouts of the repo and like parallel
+- [18:51] you know terminal windows. Tell me more
+- [18:52] about how you you build.
+- [18:54] >> Yeah I feel like the whole world does
+- [18:55] cloud code and I don't think I could
+- [18:58] have built the thing with cloud code.
+- [19:00] Like I I love codex because it it looks
+- [19:04] through way more files be before it
+- [19:06] decides what to what to change. You
+- [19:08] don't need to do so much charade to get
+- [19:11] a good output. If you're skilled a
+- [19:13] skilled driver I sometimes even say uh
+- [19:16] you can get reasonably good output with
+- [19:17] any tool but codex is just is just
+- [19:22] really brilliant. It is incredibly slow.
+- [19:24] So sometimes I use like 10 at the same
+- [19:26] side at the same time uh like maybe six
+- [19:29] on that screen and to there and to there
+- [19:32] and I don't like this is already a lot
+- [19:34] of complexity in my head there's a lot
+- [19:36] of jumping so I try to minimize anything
+- [19:40] else that is complexity so in my head
+- [19:42] main is always shippable I just have
+- [19:45] multiple copies of the same repository
+- [19:48] that all are on main so I don't have to
+- [19:50] deal with how do I name that branch Um
+- [19:54] there could be like conflicts on naming.
+- [19:56] I cannot go back. It's there are certain
+- [19:58] restrictions when you use work trees
+- [20:00] that I don't need to care about if it's
+- [20:02] copies. I don't like to use a UI because
+- [20:07] that's again just added complexity.
+- [20:09] >> Yeah.
+- [20:09] >> Like they're simpler and less friction I
+- [20:12] have. All I care about is like syncing
+- [20:15] and text.
+- [20:16] >> Yeah.
+- [20:16] >> I don't necessarily need to see so much
+- [20:18] code. I I mostly see it like flying by.
+- [20:20] Sometimes there's like gnarly stuff that
+- [20:23] I want to like take a look. But in most
+- [20:25] cases, if you clearly understand the
+- [20:28] design and think it through and discuss
+- [20:30] it with your with your agent, it's fine.
+- [20:32] I'm also very happy that I didn't even
+- [20:35] build an MCP support. So, Open Claw is
+- [20:38] very successful and there's no MCP
+- [20:40] support in there. With a small asterisk,
+- [20:42] I built a skill that uses makeporter,
+- [20:45] which is one of my tools that converts
+- [20:47] MCPS into CLIs. And then you can just
+- [20:50] use any MCP as a CLI. Um, but I totally
+- [20:55] skip the whole classical MCP crap. So
+- [20:58] you because you don't then you can
+- [21:00] actually if you need to you can use MCPS
+- [21:03] on the fly. You don't have to restart
+- [21:05] unlike unlike Codex or cloud code where
+- [21:07] you actually have to restart the whole
+- [21:08] thing. I think it's way more egent and
+- [21:10] also scales way better. Now you see
+- [21:12] entropic they do they built like a tool
+- [21:16] called search feature like something
+- [21:18] super custom for MCPS that was like in
+- [21:21] beta because it's like so gnarly. No,
+- [21:25] just have CLI bot really is good at
+- [21:28] Unix. You can have as many as you want
+- [21:30] and it just works. So like I'm very
+- [21:32] happy that I got very little complaints
+- [21:35] about the MCP stuff. It's kind of back
+- [21:37] to you're just giving it the same tools
+- [21:41] that humans liked to use.
+- [21:43] >> Yeah. Yeah.
+- [21:44] >> And not invented stuff for for bots, per
+- [21:46] se.
+- [21:47] >> Yeah. Humans, no insane human tries to
+- [21:50] call an MCP manually.
+- [21:51] >> Yeah. You just want to use CLIs.
+- [21:53] >> Yeah.
+- [21:53] >> That's the future.
+- [21:54] >> I'm here for it. Thank you so much for
+- [21:56] making the time uh to sit down chatting.
+- [21:58] has been a huge inspiration, too. So,
+- [21:59] like when we were texting, you know,
+- [22:00] over the course of the past couple years
+- [22:02] and I saw you getting back into the game
+- [22:04] and I was like,
+- [22:05] >> Peter, like what you're telling me like
+- [22:08] chase that dragon [laughter] and you
+- [22:09] were doing like the weird like vibe
+- [22:10] tunnel thing, etc. Nobody was paying
+- [22:12] attention and so I'm just like beyond,
+- [22:14] you know, stoked to see, you know,
+- [22:16] what's happening and um and of course
+- [22:18] they had to be sort of like a loner from
+- [22:20] some like tiny country like far away
+- [22:22] from Silicon Valley. So, like, you know,
+- [22:23] bring all of this upon us. Um, so huge
+- [22:26] inspiration.
+- [22:26] >> I'm here for it. Thank you.
+- [22:28] >> Awesome. Thanks, Peter.
+- [22:31] [music]

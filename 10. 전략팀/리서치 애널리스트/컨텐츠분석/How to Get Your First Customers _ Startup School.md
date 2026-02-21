@@ -1,0 +1,689 @@
+## Key insight / summary
+
+- **"Do Things That Don't Scale" 철학**: 초기 스타트업은 자동화된 성장이 아닌 창립자가 직접 고객을 하나씩 확보해야 함 (Paul Graham의 핵심 에세이 기반)
+- **창립자가 직접 세일즈해야 하는 이유**: 고객을 깊이 이해하고, 제품 개발 방향을 파악하며, 회사 DNA에 세일즈가 내재화되도록 하기 위함
+- **스타트업 커브**: 론칭 → 절망의 골짜기 → 무능의 추락 → 거짓 희망의 흔들림 → 제품-시장 적합성 단계를 거치며, 각 단계에서 창립자의 의지가 성패를 결정
+- **가장 쉬운 고객부터 접근**: 초기에는 가장 전환 가능성이 높은 고객에게 집중하여 세일즈 프로세스를 단순화해야 함
+- **효과적인 세일즈 이메일 작성법**: 6-8문장 내 간결함, 명확한 언어, 고객 문제 직접 해결, 소셜 프루프 포함, 명확한 CTA 필요
+- **세일즈 퍼널의 체계화**: 리스트 작성 → 이메일 발송 → 미팅 스케줄링 → 가격 협의 → 클로징 → 온보딩까지 전 과정 관리
+- **제품 개선과 고객 확보의 선순환**: 고객과의 직접 소통을 통해 제품을 개선하고, 개선된 제품으로 더 많은 고객을 확보하는 구조
+
+## Key implications for Proby platform
+
+- **창립자 주도 초기 세일즈 전략**: McKinsey 전략문서에서 언급된 "유니콘 리서처" 타겟을 창립자가 직접 접촉해야 함. Proby 창립자들이 한국 주요 유니콘 기업의 리서처 50명 리스트를 만들고 개인적으로 컨택하여 파일럿 고객 10-15명 확보
+- **"Do Things That Don't Scale" 적용**: AI 자동화 플랫폼이지만 초기에는 창립자가 직접 온보딩, 결과 해석, 피드백 수집을 수행하여 제품 개선점 파악. 완전 자동화보다는 하이브리드 서비스로 시작
+- **가장 쉬운 세그먼트 우선 공략**: 전략문서의 3개 세그먼트(스타트업 PM, 유니콘 리서처, 엔터프라이즈) 중 "해외 리서치 니즈가 있는 유니콘 리서처"부터 시작 (높은 지불의향 + 명확한 페인포인트)
+- **세일즈 이메일 템플릿 개발**: "AI 모더레이션으로 기존 정성조사 대비 1/5 비용, 1/3 시간으로 글로벌 리서치 가능"이라는 명확한 가치 제안을 6-8문장으로 압축한 템플릿 제작
+- **온보딩 프로세스 필수화**: 전략문서에서 지적된 "AI 품질에 대한 신뢰 부족" 문제 해결을 위해 초기 고객에게는 창립자가 직접 온보딩하며 기존 휴먼 모더레이터와 블라인드 테스트 결과 공유
+- **리텐션 중심의 성장 전략**: 세일즈 퍼널의 마지막 단계인 온보딩과 리텐션에 특히 집중하여 고객이 Proby의 AI 모더레이션 품질을 체감할 수 있도록 지원
+- **반복 구매 유도 메커니즘**: 스타트업 커브의 "절망의 골짜기"를 넘기 위해 첫 프로젝트 성공 후 즉시 다음 리서치 니즈 발굴하고 패키지 제안하는 능동적 세일즈 프로세스 구축
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=hyYCn_kAngI
+
+- [00:01] foreign
+- [00:03] [Music]
+- [00:10] School my name is Gustav and I'm a group
+- [00:13] partner here at y combinator today I'm
+- [00:15] going to talk about how to go from
+- [00:16] talking to users
+- [00:18] getting your first customers here's what
+- [00:20] I plan to cover today one what does it
+- [00:22] mean to do things that don't scale and
+- [00:24] why is this mindset so so important at
+- [00:27] this stage of your company two how to do
+- [00:30] sales I'll make the argument the founder
+- [00:32] should be the ones doing sales in the
+- [00:34] beginning then we'll cover some sales
+- [00:35] funnel information and then why is it so
+- [00:37] important to charge for your product and
+- [00:39] finally we'll learn how you work your
+- [00:41] way backwards from your goals and why
+- [00:43] that's important I hope you've read this
+- [00:45] article or this essay the most important
+- [00:47] essay ever written about the very early
+- [00:49] stage of startups is do things that
+- [00:52] don't scale by Paul Graham Paul is the
+- [00:54] co-founder of Y commner he published
+- [00:56] this essay about the early days of
+- [00:58] Airbnb Airbnb is perhaps the best
+- [01:00] example of a successful YC company who
+- [01:03] got their feet off the ground this way
+- [01:05] many Founders who never worked for a
+- [01:07] startup or an early stage company
+- [01:09] incorrectly believe that all you need to
+- [01:12] succeed is a good product and growth
+- [01:14] will take care of itself this is not the
+- [01:16] case the truth is that good product is
+- [01:19] very rarely built in isolation but
+- [01:22] together with your customers and as a
+- [01:23] result it's not actually that good when
+- [01:26] you show it to your first customers set
+- [01:28] this another way
+- [01:29] startups don't take off by themselves
+- [01:31] startup takes off because Founders make
+- [01:33] them take off and you have to manually
+- [01:35] recruit your customers it's not enough
+- [01:37] to push a button on an advertising
+- [01:39] Network this is uncomfortable and
+- [01:41] Founders continuously find many ways to
+- [01:43] avoid doing this the most common way is
+- [01:46] believing that you can recruit people by
+- [01:48] just writing more code or doing more
+- [01:50] work on your machine or your robot or
+- [01:52] whatever you're building I know this
+- [01:54] from my experience of YC that this
+- [01:56] actually don't work so why am I talking
+- [01:58] about this right now learning the
+- [02:00] tactics of sales is just one side of
+- [02:03] this uh of of this learning the most
+- [02:06] important side is just really realizing
+- [02:09] that it comes down to you it's not just
+- [02:11] knowing exactly how to do sales in
+- [02:13] theory but actually doing it and
+- [02:15] actually wanting to succeed another
+- [02:17] great visualization is what's called a
+- [02:19] startup curve this was initially drawn
+- [02:21] by YC found program and then labeled by
+- [02:23] Trevor Blackwell and you've probably
+- [02:25] seen this curve before most companies go
+- [02:27] through something like this it's kind of
+- [02:30] like a timeline for startups here's how
+- [02:32] it goes first you launch these days most
+- [02:35] companies don't launch on TechCrunch but
+- [02:37] probably on product hunt or Hacker News
+- [02:39] or some other internet board the launch
+- [02:41] energy that you get from this launch
+- [02:42] eventually starts wearing off as early
+- [02:45] adopters are looking out for something
+- [02:46] new if you don't have instant High
+- [02:48] retention nobody does for what you are
+- [02:51] building then you'll enter the through
+- [02:53] of Sorrow this can take a long time and
+- [02:56] many companies die during this stage
+- [02:57] they just give up and don't move fast
+- [03:00] enough with testing new things some
+- [03:02] startups do move fast enough and release
+- [03:05] new improvements of their product
+- [03:06] they'll listen to users and they improve
+- [03:08] many still don't get anywhere further
+- [03:10] and becomes victims of the crash of
+- [03:12] ineptitude it's the founders to stay the
+- [03:14] course and don't give up that reaches
+- [03:17] the Wiggles of false hope and eventually
+- [03:18] the promised land of crack Market fit
+- [03:20] the learnings we draw from the start
+- [03:21] curve is that every moment in the early
+- [03:24] days of startups the founders are the
+- [03:26] ones that make the difference between
+- [03:28] success and failures if you are in the
+- [03:30] wrong Market
+- [03:31] it's the founders that switch to a new
+- [03:33] one and if you don't know how to do
+- [03:35] sales it's the founders who learn so you
+- [03:37] have to really want it otherwise this
+- [03:39] won't work all right let's talk about
+- [03:41] sales and how to do sales first Founders
+- [03:44] should learn how to do sales you should
+- [03:47] learn how to do sales because you'll
+- [03:49] need to learn to know your customer
+- [03:50] talking to customers and sales are
+- [03:52] effectively different sides of the same
+- [03:54] coin and the same reasons Founders can't
+- [03:56] understand what to build they don't
+- [03:58] understand what the problem is you don't
+- [03:59] know how to sell unless you know your
+- [04:02] customers two learning how to do sales
+- [04:04] actually gives you full control of your
+- [04:07] destiny as a startup just like you can't
+- [04:09] Outsource engineering sales has to be
+- [04:11] part of the DNA of the founders
+- [04:13] sometimes you just have to learn it as a
+- [04:15] result you should not hire a sales team
+- [04:17] until you know how to do sales yourself
+- [04:19] only then will you know what good looks
+- [04:22] like you also can't do sales if you
+- [04:24] practice bad and you won't know if the
+- [04:26] product is bad unless you've had some
+- [04:28] effort in trying to sell it first if you
+- [04:30] don't know how to sell don't worry you
+- [04:31] you can learn it's probably the easiest
+- [04:33] job to learn in startup if you know the
+- [04:35] problem you're solving if you know
+- [04:37] you're product intimately if you know
+- [04:40] the market you are an expert in the eyes
+- [04:42] of the customer they will want to hear
+- [04:45] what you have to say finally a love for
+- [04:47] solving customer problems is really
+- [04:49] infectious if you're really passionate
+- [04:52] about solving this problem they will be
+- [04:54] able to tell if you don't believe me
+- [04:55] here are some examples of Founders who
+- [04:57] took on the sales job and learned to get
+- [05:00] really good at it so Tony from doordash
+- [05:02] matild from front Tracy from plangrid
+- [05:05] and Steve Jobs let's get straight into
+- [05:07] an example so these are the brex
+- [05:09] founders Pedro and henrique when brex
+- [05:11] was in wycomner in Winter of 2017 they
+- [05:14] recruit the first 10 customers directly
+- [05:16] from the YC batch June YC you have the
+- [05:19] benefit of being around other startups
+- [05:21] I.E potential customers the brex
+- [05:22] founders asked themselves what would the
+- [05:24] minimum product look like that they can
+- [05:26] build to be useful to other startups and
+- [05:28] then they went with strain straight into
+- [05:30] signing up those customers the first
+- [05:32] version was very very simple customers
+- [05:34] just had a virtual credit card and
+- [05:36] Enrique from brex actively onboarded
+- [05:38] everyone of the customers himself of
+- [05:40] course they could have waited until they
+- [05:42] had a full-blown product a website a
+- [05:44] Mobile app all of those things but they
+- [05:46] decided to get going when they have
+- [05:48] something that was really useful this is
+- [05:50] how their first physical card looked
+- [05:51] like this before they had this card they
+- [05:53] just had a virtual card Rex reached out
+- [05:55] to the their YC batch and otherwise the
+- [05:58] companies and this is the email that
+- [05:59] they sent I'm just going to read a brief
+- [06:01] portion of it hey guys we're opening up
+- [06:03] our beta for winter 17 batch friends
+- [06:05] with the 10 spots for beta users 10 spot
+- [06:08] this sounds like there's a limited spot
+- [06:10] so I should take actions brex is a
+- [06:11] corporate credit card focused on
+- [06:13] technology companies that's me perfect
+- [06:15] you're actually writing the email
+- [06:17] directly towards your customers we don't
+- [06:19] require a personal guarantee it can
+- [06:21] underwrite startups who just got started
+- [06:23] this was the value prop most other
+- [06:25] alternatives to brex did not have
+- [06:27] something like this so how much does it
+- [06:29] cost it's free the merchants are paying
+- [06:31] us so there's zero Annual fees this
+- [06:33] seems like a no-brainer I would argue
+- [06:35] that this email is probably a little bit
+- [06:37] too long but it did work so let's talk
+- [06:39] about how to write a great sales email
+- [06:41] so first it should be short Max 6 to 8
+- [06:45] sentences the brexit sample on the
+- [06:47] previous slide is probably too long it
+- [06:48] still worked but probably too long
+- [06:50] people don't have time to read long
+- [06:52] emails if you're coming out of Academia
+- [06:55] your culture is going to be very
+- [06:56] different you write very long emails but
+- [06:58] in the world of sales you want to get to
+- [07:00] the point and be brief as much as you
+- [07:02] can two you want to make sure you have
+- [07:04] clear language no jargon no buzzwords
+- [07:07] just say exactly what you do and how it
+- [07:09] works and then three address the problem
+- [07:12] that the potential customer is having
+- [07:14] four do not use any HTML formatting
+- [07:16] write your email in plain text only like
+- [07:18] you would written it to a friend say you
+- [07:20] are the founder of the company who makes
+- [07:22] this product many people forget to do
+- [07:24] this describe why you and your team are
+- [07:27] impressive include social proof and
+- [07:29] remember to show not tell don't say
+- [07:31] you're an expert don't say how many
+- [07:33] years that you have been an expert if
+- [07:35] you're in the YC match if you worked at
+- [07:37] impressive companies in the past those
+- [07:38] are other piece of social proof that you
+- [07:40] can include you won't include a couple
+- [07:42] of these ones so that the reader knows
+- [07:45] the source and even if they don't know
+- [07:47] you gives assign you some authority six
+- [07:49] you want to include a link to your
+- [07:51] website the website needs to be simple
+- [07:53] you have to have information about the
+- [07:56] product the website should not have a
+- [07:58] lot of drawings or sort of like paid for
+- [08:01] graphics you should just have
+- [08:02] screenshots from your product and
+- [08:04] bullets about what your product does
+- [08:06] sometimes it works to send a short video
+- [08:08] a YouTube video that you can embed in
+- [08:10] the email that's very easy for the
+- [08:11] receiver to click on and View and I've
+- [08:14] even seen people using gifs now those
+- [08:16] videos and those gifs needs to get to
+- [08:18] the point right away because the the
+- [08:20] receiver is kind of intimately familiar
+- [08:22] with the problem but not really have
+- [08:23] time to watch two or three or four
+- [08:25] minutes of a potential solution and then
+- [08:27] finally you want to include and ask for
+- [08:29] a call or a meeting or a self-serve
+- [08:31] whether whatever is appropriate for your
+- [08:33] company but there needs to be a call to
+- [08:35] action in the email that you're sending
+- [08:37] all right let's talk about the sales
+- [08:38] funnel the concept of sales funnels is
+- [08:40] really quite easy I think people get
+- [08:42] confused by the language the sales
+- [08:44] people are using so I try to simplify it
+- [08:46] here on the left hand side I call it the
+- [08:48] founder speak on the right hand side I
+- [08:51] call it the sales speak these are not
+- [08:52] going to be perfectly mapping but you
+- [08:54] get the idea so first you want to make a
+- [08:57] list of customers you plan to reach out
+- [08:59] to in sales it's called prospecting or
+- [09:01] lead generation we'll just call it make
+- [09:03] it the list and you can use Google
+- [09:04] spreadsheets or something like that to
+- [09:06] make this list then we want to send them
+- [09:08] an email or a LinkedIn message or add
+- [09:10] them on LinkedIn or whatever is the
+- [09:12] appropriate way to contact these people
+- [09:13] after that you want to schedule and run
+- [09:15] a demo or a meeting from that response
+- [09:18] to the email and then you want to talk
+- [09:19] pricing and then finally close them as a
+- [09:21] customer the last thing which you should
+- [09:22] not forget is after you've closed them
+- [09:24] you still need to onboard them to make
+- [09:26] sure that they start using your product
+- [09:28] if this is successful and you have good
+- [09:30] retention that could lead to long-term
+- [09:31] Revenue if you forget the last step then
+- [09:34] you will have lots of churn because
+- [09:35] people don't actually know how to use
+- [09:36] your product and this is common with
+- [09:38] early products because they are not easy
+- [09:40] to onboard in the beginning this is not
+- [09:42] something you spend a lot of time
+- [09:43] optimizing so make sure that you do the
+- [09:45] onboarding as part of this process if
+- [09:47] you go back to the Google spreadsheets
+- [09:49] that I'm that I'm making that I'm
+- [09:51] putting in all the information you
+- [09:52] should start simple but you should have
+- [09:54] some Columns of things that you're
+- [09:56] tracking so industry uh the company the
+- [09:59] title the name the email maybe the
+- [10:01] LinkedIn this could be enough to start
+- [10:03] with a lot of CRM software comes with
+- [10:06] these categories so these columns it's
+- [10:09] pretty good idea to kind of use a simple
+- [10:10] CRM software
+- [10:12] um to kind of accomplish the same goal
+- [10:14] but the key thing here is doing this
+- [10:16] work up front and I've seen a lot of YC
+- [10:18] Founders that when they are getting to a
+- [10:20] thousand of these they're like oh this
+- [10:22] is a very simple task I can actually
+- [10:24] Outsource this and I think that can work
+- [10:26] if you know exactly what it is you're
+- [10:28] Outsourcing storing all this information
+- [10:30] is going to be helpful for you in the
+- [10:31] future now I made my list I understand
+- [10:34] this the sales funnel so who should I be
+- [10:37] going after and how should I be
+- [10:38] prioritizing as I'm doing the Outreach
+- [10:41] here's my most important advice when it
+- [10:42] comes to sales your first customers
+- [10:44] should be your easiest this is not the
+- [10:47] time to bite off the hardest one
+- [10:49] focus on the easiest ones what I mean by
+- [10:51] that is you should try to do sales
+- [10:53] make the sales processes easy for you as
+- [10:55] you possibly can startups don't really
+- [10:58] have time to chase every lead there's a
+- [11:00] lot of leads out there you you don't
+- [11:02] have to pick all of them you really
+- [11:03] don't you're so early you can pick only
+- [11:06] the ones that are the most likely to
+- [11:07] close the best way to do this I have a
+- [11:09] big pipeline where that means a lot of
+- [11:11] people that you're emailing are
+- [11:13] potential customers and then as you're
+- [11:15] getting responses and you're getting to
+- [11:16] meetings start prioritizing those who
+- [11:18] are the most likely to close you can
+- [11:21] probably tell from their answers to your
+- [11:23] qualifying questions during the sales
+- [11:24] call
+- [11:25] avoid those who are moving slow and
+- [11:28] don't be afraid of letting customers go
+- [11:31] don't be afraid of letting customers go
+- [11:32] what I mean by that is that if someone
+- [11:34] is dragging you along two or three calls
+- [11:36] you can always be like it's been great
+- [11:37] getting to know you
+- [11:39] um and I've learned a lot but
+- [11:41] um we should talk again in six months
+- [11:43] that's totally fine to say two
+- [11:45] selling to people you know is going to
+- [11:48] be easy to selling to strangers so you
+- [11:50] should take advantage of your network
+- [11:51] three selling to startups is the easiest
+- [11:55] category and I've I've learned this On
+- [11:57] and On Again with YC company
+- [11:59] specifically the ones that sell software
+- [12:01] it just turns out that bigger companies
+- [12:04] have more bureaucracy more processes
+- [12:07] they even have a specific Department
+- [12:09] that is in charge of negotiating with
+- [12:11] you and that takes a long time and
+- [12:13] startups don't have any of these things
+- [12:14] because they don't have time to create
+- [12:15] these things but it's not a priority for
+- [12:17] them
+- [12:18] so startups have short decision-making
+- [12:19] lines you can often find that the
+- [12:22] decision maker right away as you do in
+- [12:24] the Outreach and you don't have to go
+- [12:25] through a difficult process that's why
+- [12:28] startups are easier and that's why we
+- [12:30] recommend most companies to sell to
+- [12:32] startups at least leads me to the fourth
+- [12:34] Point most people are not early adopters
+- [12:39] and I keep saying this to the white
+- [12:40] companies I work with all the time the
+- [12:42] reason you have to sell send hundreds of
+- [12:44] emails is not that most of those people
+- [12:47] get really upset and be like I can't
+- [12:49] believe you emailed me like I really
+- [12:50] love this alternative product by hate
+- [12:52] your product that's not what's going on
+- [12:53] most people they email are just be like
+- [12:56] archive they just don't care they're not
+- [12:59] going to try a new product that comes in
+- [13:01] through your LinkedIn or your email and
+- [13:03] they might not be the people that try a
+- [13:04] new product at all in their career
+- [13:06] that's most people some other people I
+- [13:08] remember being one of those people when
+- [13:09] I worked at Airbnb I would love when
+- [13:11] founders emailed me with new new
+- [13:13] products and I would be the one signing
+- [13:15] up for them so
+- [13:17] when I worked Airbnb and you were a
+- [13:19] startup email me was great I am an early
+- [13:21] adopter I love trying new things I don't
+- [13:23] mind the risk of trying new things so
+- [13:26] for every outbound uh to an average
+- [13:28] company that you send you will mostly
+- [13:30] like most likely on the average outbound
+- [13:32] average email average LinkedIn reach
+- [13:35] someone who is not an early adopter to
+- [13:37] reach early adopters you just have to
+- [13:38] send more out by messages because then
+- [13:41] you don't have time to convince anybody
+- [13:43] to become an early adopter you have to
+- [13:45] find Aero adopters and just go for them
+- [13:47] early on don't worry about everybody
+- [13:49] else you just don't have time to
+- [13:50] convince them let's talk about charging
+- [13:51] it's attractive for you as a founder and
+- [13:54] for your company to offer your product
+- [13:56] for free offer free trials or unpaid
+- [13:59] pilots and these things come in many
+- [14:02] shapes and forms however if you don't
+- [14:05] charge your customers they are not a
+- [14:08] customer and you don't have a company
+- [14:10] customers paying you money is a great
+- [14:13] sign that you're providing them real
+- [14:15] value
+- [14:15] so you should resist the fear of getting
+- [14:18] a no because of price
+- [14:20] instead of figuring out what the price
+- [14:21] should be if they don't want to pay and
+- [14:24] you learn this during the qualification
+- [14:26] process in the first call or the first
+- [14:28] meeting
+- [14:29] if they don't want to pay that's a great
+- [14:31] sign that you should move on to the next
+- [14:34] customer
+- [14:35] again fire the ones who seem like
+- [14:37] they're not good fit move on to the next
+- [14:39] customers
+- [14:40] free trials are common for consumers but
+- [14:43] if you thought about it most consumer
+- [14:46] free trials ask for the credit card up
+- [14:48] front and then we forget and then we pay
+- [14:50] anyway
+- [14:51] that's because that actually works the
+- [14:53] best the bdb version of this
+- [14:55] is a better one than a free trial is a
+- [14:58] money back guarantee so we charge you if
+- [15:01] you're not happy you can get the money
+- [15:03] back in 30 days so 60 days
+- [15:05] um or even better you have the ability
+- [15:07] to opt out from the annual contract you
+- [15:09] just pay for one month instead of the
+- [15:10] annual fee but you should not offer free
+- [15:13] trials in B2B sales go for a money back
+- [15:15] guarantee and go for the ability to opt
+- [15:17] out instead increasing your price until
+- [15:20] your customers are complaining but still
+- [15:22] paying is the right way to go all right
+- [15:24] let's talk about the thing that most
+- [15:27] Founders get wrong I've seen as many
+- [15:28] times but there are a few things that
+- [15:29] most wanted to get wrong and this is one
+- [15:30] of them working backwards from your goal
+- [15:33] with your sales funnel in order to work
+- [15:35] your way backwards from a goal of say
+- [15:38] two signed customers you have to
+- [15:39] understand that each step in the sales
+- [15:42] funnel is going to have a drop-off when
+- [15:44] you haven't started sales yet you don't
+- [15:46] know what these draft off percentages
+- [15:49] are maybe you haven't done a lot of
+- [15:50] sales before you don't know what you're
+- [15:52] not good at maybe you're really good at
+- [15:54] sending emails but really bad at closing
+- [15:55] or vice versa you don't know that so as
+- [15:58] you're sending these outbound emails you
+- [16:01] need to take notes and start tracking
+- [16:03] all of these conversions in this example
+- [16:05] I'm sending 500 Outreach emails or
+- [16:08] LinkedIn messages I have a 50 open rate
+- [16:10] that means 250 people will open the
+- [16:13] email five percent will respond that's
+- [16:15] about 20 potential customers 50 of those
+- [16:18] will convert to demo from the response
+- [16:20] which means I'm doing 10 demos that's
+- [16:22] pretty good but I'm not that good at
+- [16:24] doing demos only two end up becoming
+- [16:26] customers from the demos that's 20 I bet
+- [16:29] you most of you don't even track this
+- [16:31] data but you should if you track this
+- [16:33] data you will have some idea of how long
+- [16:35] it will take to get to 10 paying
+- [16:37] customers if you don't track this it's
+- [16:39] very hard for someone to give you
+- [16:40] feedback of what's working and not
+- [16:41] working right it's just like when you're
+- [16:43] launching a new product you want to have
+- [16:45] some metrics and some user data to be
+- [16:47] able to tell if it's working when you're
+- [16:49] doing sales you want to have this data
+- [16:50] if you have this data people will be
+- [16:52] able to give you feedback on what what
+- [16:53] you're good at and what you need to get
+- [16:54] get better at my advice is to use a
+- [16:57] simple sales CRM software that tracks
+- [16:59] these conversion rates automatically
+- [17:00] let's look at the same second example
+- [17:02] this is how it looks like for most
+- [17:04] startups even the ones that I work with
+- [17:06] in the batch in the second example I'm
+- [17:07] sending 100 Outreach email it feels like
+- [17:09] a lot to me if I keep the conversion
+- [17:11] rates constant from the previous example
+- [17:13] I actually end up with zero customers
+- [17:15] and the conclusion the founders draw
+- [17:16] after this is that sales is not working
+- [17:19] for me and I should just do marketing or
+- [17:21] SEO or something else or referrals or
+- [17:23] something that sounds attractive this is
+- [17:24] simply wrong you don't have the data to
+- [17:26] make that call you did not do enough
+- [17:28] Outreach to actually get to correct
+- [17:30] conversion rate percentages in your
+- [17:32] sales funnel so the answer here is you
+- [17:34] sent a few minutes too few emails you
+- [17:36] don't have the data you can't draw the
+- [17:38] conclusion that sales is not working
+- [17:39] even though you have serial customers
+- [17:41] and this is the mistake that funders do
+- [17:43] on and on and on again so to summarize
+- [17:45] what I just went through here you don't
+- [17:47] know your sales conversion rate that's
+- [17:49] why you need a CRM to keep track of it
+- [17:51] two because you don't know who is an
+- [17:54] early adopter you have a lot of drop off
+- [17:55] in the outbound sales that makes up on
+- [17:58] sales ultimately a numbers game and
+- [18:00] successful startups we like this and
+- [18:01] internalize this three you cannot close
+- [18:03] five customers from 10 leads it's not
+- [18:05] possible you need a lot more app on than
+- [18:07] that a lot more and unfortunately most
+- [18:10] finders don't work their way backwards
+- [18:11] from this sales funnel and they don't do
+- [18:14] this exercise and the result they don't
+- [18:16] succeed as sales and they don't really
+- [18:18] know why so a friend of mine from Airbnb
+- [18:20] Atlanta rashitzki he writes an excellent
+- [18:22] blog and he wrote a great blog post
+- [18:24] about how YC and a bunch of non-yc B2B
+- [18:27] startups
+- [18:28] um got their sales go to market strategy
+- [18:31] going I recommend reading this and other
+- [18:32] posts uh newsletter it's it's one of the
+- [18:35] best ones I've come across it has a lot
+- [18:37] of real data that he collected from real
+- [18:39] companies uh many of them being YC
+- [18:41] companies so in this example here in the
+- [18:43] second column Lenny is describing the
+- [18:46] initial sales motion of some of these
+- [18:47] companies as you can see some of the
+- [18:49] early ones like amplitude stripe front
+- [18:52] they were doing app on sales emails just
+- [18:54] like the one we described to get started
+- [18:56] those Founders were doing those sales
+- [18:57] emails as they get started some of the
+- [18:59] other ones was called Product LED
+- [19:01] product LED could mean something else
+- [19:03] than just doing up on sales but it
+- [19:05] doesn't mean having a big sales team and
+- [19:07] it usually does not mean doing marketing
+- [19:09] or SEO or something else practically it
+- [19:12] means something that the product itself
+- [19:13] is is sort of like driving the growth as
+- [19:16] you're running the demo
+- [19:18] um your goal is to close your first
+- [19:19] customers
+- [19:20] you want to ask a lot of questions up
+- [19:22] front in the demos and there's the
+- [19:24] founders who should do the demos because
+- [19:25] you are the one knowing the product and
+- [19:28] you know the customer pain points here
+- [19:30] are three examples of YC emails that led
+- [19:33] to customers so I'll let you guys look
+- [19:35] at the details of these afterwards but
+- [19:37] this is an app on email that led to uh
+- [19:39] 72 000 a year contract this one LED is a
+- [19:42] very specific email that led to out
+- [19:44] Landing a goalie as a customer and this
+- [19:47] third example here is the one email the
+- [19:49] same email they got them 22 different
+- [19:50] customers all right I'm going to
+- [19:52] summarize this again the biggest
+- [19:54] mistakes that most finders do is they
+- [19:55] don't do enough Outreach because they
+- [19:57] don't work package from the goal
+- [19:59] believing that something else then sales
+- [20:00] is going to solve your sales problem
+- [20:02] Outsourcing sales is wrong you should do
+- [20:04] it yourself and you need to qualify your
+- [20:07] customers during your first call here
+- [20:08] are some of the tools I recommend so
+- [20:10] there are many many many tools this is
+- [20:12] perhaps one of the biggest categories of
+- [20:14] potential things you could use as you're
+- [20:16] doing sales but I recommend apollo.io
+- [20:18] close.com formerly called closed.io
+- [20:21] pipedrive or hunter.io these are great
+- [20:24] tools that you can use either as a
+- [20:26] simple sales CRM or Hunter you can use
+- [20:28] to get contacts or potential people to
+- [20:31] email from LinkedIn here are two
+- [20:33] additional resources if some people ask
+- [20:34] me for books usually there aren't good
+- [20:36] books but there is actually one that I
+- [20:37] come across I find really good it's
+- [20:38] called founding sales and then I also
+- [20:40] recommend lineage newsletter.com there
+- [20:43] are of course other ways that you can
+- [20:44] grow as a startup but the truth that
+- [20:47] I've learned is that even if you end up
+- [20:49] with say like Airbnb where the sources
+- [20:53] of growth is Word of Mouth Google search
+- [20:56] referrals Facebook advertising if those
+- [21:00] are the kind of end states of your
+- [21:02] growth strategy that's not how ambica
+- [21:05] started they didn't start by running
+- [21:06] Google sem or Google SEO
+- [21:08] the referral program did not bring in
+- [21:10] the first 2000 customers they did things
+- [21:13] that didn't scale and they looked
+- [21:15] different than the one they do at scale
+- [21:17] so a lot of companies are shorting
+- [21:19] straight into What's called the scalable
+- [21:21] growth channels the channels that
+- [21:22] they've heard work which is true at
+- [21:25] scale but that's not the same thing as
+- [21:27] when you're getting started so in this
+- [21:30] slide I'm outlining kind of like just a
+- [21:32] rough idea of like even if it turns out
+- [21:35] the Google sem and Google SEO is what's
+- [21:37] going to work at scale you need to find
+- [21:38] another place online where these people
+- [21:40] that you're going to reach through sem
+- [21:42] and SEO is identifying themselves online
+- [21:44] right and that might not be the same as
+- [21:46] Google if you're trying to go after sem
+- [21:49] which means search engine marketing it's
+- [21:51] going to be expensive probably because
+- [21:52] there's competition if you're going
+- [21:54] after SEO it's going to take a long time
+- [21:56] if your growth is say proc LED or
+- [21:59] virality referrals then personal
+- [22:02] networks selling through your personal
+- [22:03] Network to your co-workers is the way to
+- [22:06] get started of course if you're doing
+- [22:07] sales you should be doing sales it
+- [22:08] doesn't change very much like early
+- [22:10] stage sales to to large sales basically
+- [22:13] means all the things that I just
+- [22:14] described here
+- [22:15] done by 100 people in a sales team with
+- [22:17] more automation more tools more metrics
+- [22:19] but it's the same thing and if you
+- [22:21] practice setup to do online marketing
+- [22:23] it's not usually how most people start
+- [22:25] why because you can't really easily talk
+- [22:28] to people you can't learn from users if
+- [22:32] the first thousand or first-handed
+- [22:33] customers are brought in through Google
+- [22:34] and Facebook those people are not the
+- [22:36] kind of people that you can easily get
+- [22:38] on a 30 minute phone call with all right
+- [22:40] that's all I had today thank you
+- [22:42] everyone
+- [22:45] foreign
+- [22:47] [Music]

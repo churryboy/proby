@@ -1,0 +1,867 @@
+## Key insight / summary
+
+- **9개 주요 비즈니스 모델**이 거의 모든 10억 달러 기업을 만든다 (SaaS, 거래형, 마켓플레이스, 하드테크, 사용량 기반, 엔터프라이즈, 광고, 이커머스, 바이오)
+- **SaaS가 가장 안정적인 성공 모델**로 YC Top 100의 31%를 차지 (월/연 구독료로 예측 가능한 매출 창출)
+- **마켓플레이스는 승자독식 효과**가 강해 Top 100의 14%지만 전체 가치의 30%를 창출 (네트워크 효과로 시장 지배력 확보)
+- **거래형 비즈니스는 자금 흐름에 가장 가깝게** 위치해야 성공 (결제 처리, 법인카드 등 돈이 직접 흐르는 인프라)
+- **리커링 수익만이 지속 가능한 성장**을 만든다 (고객이 명시적으로 중단하기 전까지 계속 지불)
+- **광고 모델은 극소수만 성공**한다 (인터넷 Top 10 사이트가 되지 않으면 수익화 불가능)
+- **서비스/컨설팅/어필리에이트는 벤처 스케일이 불가능**하다 (낮은 마진, 사람 중심 확장, 거래로부터 멀리 떨어짐)
+- **플랫폼 종속 비즈니스는 위험**하다 (플랫폼이 성공하면 해당 기능을 직접 제공하려 함)
+- **95% 월 리텐션도 1년 후 46% 고객 이탈**을 의미한다 (강력한 고객 유지가 없으면 리커링 모델 실패)
+
+## Key implications for Proby platform
+
+- **Proby는 명확히 SaaS 모델로 포지셔닝해야** - 프로젝트당 과금이 아닌 월/연 구독 모델로 전환하여 예측 가능한 리커링 수익 확보 (현재 McKinsey 문서에서 가격 모델이 불분명한 상태를 해결)
+- **리서치 워크플로우의 '거래 지점'에 최대한 가깝게 위치** - 단순 AI 모더레이션이 아니라 연구 예산 집행, 참가자 모집비 결제, 리서치 결과 구매 의사결정 등 돈이 흐르는 지점에 Proby를 필수 인프라로 만들기
+- **인하우스 리서처들의 월간/연간 리서치 루틴에 필수가 되어야** - 일회성 프로젝트 도구가 아니라 "매월 정기 고객 인터뷰", "분기별 제품 피드백 수집" 등 반복되는 업무에 깊숙이 들어가서 95% 이상 리텐션 달성
+- **마켓플레이스 요소를 단계적으로 도입** - 초기에는 SaaS로 시작하되, 장기적으로 리서처(수요)와 참가자 패널(공급)을 연결하는 양면 마켓플레이스로 진화하여 네트워크 효과 구축
+- **광고 모델은 절대 고려하지 말아야** - McKinsey 문서의 수익화 전략에서 "무료 + 광고" 모델은 제외하고 순수하게 유료 SaaS 모델에만 집중
+- **유니콘 기업 리서처를 beachhead로 설정한 전략이 맞다** - 이들이 월간 구독료를 지불할 의향과 능력이 가장 높고, 리커링 사용 패턴을 만들기 용이함 (스타트업 PM은 일회성 사용 위험)
+- **Proby를 대체 불가능한 핵심 인프라로 만들어야** - Stripe처럼 "Proby를 제거하는 것을 상상할 수 없을 정도"로 고객의 리서치 워크플로우에 깊이 통합 (단순 도구가 아닌 필수 인프라)
+- **자체 플랫폼 구축에 집중하고 타사 플랫폼 의존도 최소화** - Zoom, Teams 등 기존 플랫폼 위에 구축하지 말고 자체 리서치 환경을 만들어 플랫폼 리스크 제거
+- **월 95% 이상 리텐션을 위한 제품 설계** - AI 모더레이션 품질뿐만 아니라 지속적인 가치 제공 (데이터 누적, 인사이트 패턴 분석, 팀 협업 기능 등)을 통해 이탈 방지에 집중
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=oWZbWzAyHAE
+
+- [00:01] foreign
+- [00:03] [Music]
+- [00:09] I'm Aaron Epstein I'm a group partner
+- [00:11] here at Y combinator and in this video
+- [00:14] we're going to be talking about business
+- [00:15] models and pricing there's three main
+- [00:17] things that we're going to cover in this
+- [00:19] video the first is the nine business
+- [00:21] models of nearly every billion dollar
+- [00:24] company it turns out there's just a
+- [00:26] handful of them that build the biggest
+- [00:27] winners next we're going to talk about
+- [00:29] business model lessons from the YC top
+- [00:31] 100 companies list and finally we're
+- [00:34] going to cover some startup pricing
+- [00:36] insights that we've taken from the
+- [00:39] thousands of companies that have gone
+- [00:41] through YC so first let's talk about
+- [00:44] business models that build winners if
+- [00:46] you're not familiar a business model is
+- [00:48] a fancy term for how you make money and
+- [00:51] it turns out the business models are
+- [00:52] important because we see Founders that
+- [00:54] often get frustrated when investors
+- [00:57] won't fund them and their business won't
+- [00:59] grow and oftentimes they're not sure why
+- [01:02] and usually this is because they're not
+- [01:04] using a proven business model and
+- [01:06] they're actually only a handful of
+- [01:08] business models that are responsible for
+- [01:10] nearly all billion dollar companies and
+- [01:13] rather than trying to reinvent the wheel
+- [01:14] you should actually just copy one of
+- [01:17] these and here they are nearly every
+- [01:20] billion dollar company is one of these
+- [01:22] Nine business models there's SAS
+- [01:24] business models which is software as a
+- [01:26] service which is cloud-based
+- [01:28] subscription software that customers pay
+- [01:30] either monthly or annually in order to
+- [01:33] access the software there's
+- [01:34] transactional business models that
+- [01:37] facilitate transactions and take a cut
+- [01:40] of those transactions these are often
+- [01:42] fintech companies and then there's
+- [01:44] marketplaces which facilitate
+- [01:46] transactions between buyers and sellers
+- [01:48] these are often referred to as two-sided
+- [01:51] marketplaces and there's also hard tech
+- [01:53] businesses there's usage-based business
+- [01:55] models there's Enterprise there's
+- [01:58] advertising there's e-commerce and
+- [02:01] there's bio and so in this video I'm
+- [02:04] actually not going to get too deep into
+- [02:06] the specifics of each of these business
+- [02:08] models instead we're going to have a
+- [02:10] business model guide that I've put
+- [02:12] together that's going to be linked in
+- [02:13] the description down below this guide is
+- [02:15] going to cover the metrics that matter
+- [02:17] most for each business model
+- [02:19] key takeaways for each of them and other
+- [02:23] similar companies that you can learn
+- [02:24] from depending on which business model
+- [02:26] you are using for your company in this
+- [02:29] video what I want to focus on is things
+- [02:31] that we can learn from the top 100 YC
+- [02:34] companies the top 100 YC companies is
+- [02:37] pulled from y combinator.com top
+- [02:40] companies which is a list of the most
+- [02:43] valuable companies that y combinator has
+- [02:45] ever funded and so for the purposes of
+- [02:48] this video I've gone through this list
+- [02:50] and I've matched each company up with
+- [02:53] their primary business model to try to
+- [02:56] see what interesting insights we can get
+- [02:58] from them now some later stage and
+- [03:01] larger companies actually have multiple
+- [03:03] business models however for your
+- [03:05] purposes as an early stage startup you
+- [03:08] should just have a single business model
+- [03:09] that you're focused on and so here they
+- [03:11] are these are the top 100 YC companies
+- [03:14] organized by business model and there's
+- [03:17] some interesting things that we see here
+- [03:18] first is that that SAS businesses
+- [03:21] actually make up 31 of the top 100 YC
+- [03:25] companies transactional businesses make
+- [03:27] up 22 percent of the top 100 YC
+- [03:30] companies and marketplaces actually make
+- [03:33] up 14 so just with these three business
+- [03:36] models SAS transactional and
+- [03:39] marketplaces it makes up 67 percent of
+- [03:43] the top 100 YC companies on the flip
+- [03:45] side with business models like
+- [03:47] advertising and e-commerce they barely
+- [03:50] register on the top 100 YC companies
+- [03:53] list if you're familiar with startup
+- [03:55] outcomes and Venture Capital returns you
+- [03:58] know that there's a power law effect
+- [03:59] which means that the biggest winners far
+- [04:03] far outperform all other businesses by
+- [04:06] orders of magnitude and this is true for
+- [04:09] the YC top 100 companies list as well
+- [04:11] turns out that 50 of the overall value
+- [04:14] of the top 100 YC companies actually
+- [04:17] comes from just the top ten and so it's
+- [04:20] interesting to look at what insights we
+- [04:22] can get from these 10 companies too and
+- [04:24] here they are these are the top 10 YC
+- [04:27] companies by value there's Airbnb
+- [04:30] there's stripe there's instacart there's
+- [04:33] coinbase there's doordash there's Reddit
+- [04:36] there's a number of companies here that
+- [04:39] you're probably very familiar with or
+- [04:40] use on a regular basis and what's
+- [04:43] especially interesting is that five of
+- [04:45] the YC top 10 are actually marketplaces
+- [04:48] there's Airbnb there's instacart there's
+- [04:52] doordash there's openc and there's Fair
+- [04:55] the interesting takeaway here is that
+- [04:57] marketplaces are most likely to build
+- [04:59] winner take all companies they tend to
+- [05:01] become so big and dominant in their
+- [05:04] industry that it doesn't leave much room
+- [05:07] or market share for other competitors
+- [05:09] once marketplaces actually get huge so
+- [05:12] marketplaces are 14 of the top 100
+- [05:14] companies but they actually create 30 of
+- [05:18] the overall value because so many are
+- [05:20] represented here in the top ten and
+- [05:22] while marketplaces are really tough to
+- [05:24] get off the ground they have a chicken
+- [05:25] and egg problem where you can't just
+- [05:28] build your product and then sell it to
+- [05:30] customers you actually need to solve for
+- [05:32] both sides of the marketplace the supply
+- [05:35] and the demand at the same time in order
+- [05:37] to get customers however once they hit
+- [05:40] the inflection point and they start to
+- [05:43] work they get massive Network effects
+- [05:45] where each new user of the platform
+- [05:48] increases the value for everybody else
+- [05:50] that's what makes them dominant winners
+- [05:52] so you can think of companies like
+- [05:54] Airbnb if you are looking to rent out a
+- [05:57] place short term to stay then chances
+- [06:00] are you would go to Airbnb because
+- [06:02] that's where all the inventory is
+- [06:03] similarly if you wanted to buy or sell
+- [06:06] nfts you would probably go to openc
+- [06:09] because that's where everyone is that's
+- [06:11] how these become the big Winners it also
+- [06:14] turns out that three of the YC top 10
+- [06:16] are transactional businesses too so
+- [06:19] these are companies like stripe coinbase
+- [06:21] and brex and the main takeaway here is
+- [06:24] that transactional business is far
+- [06:27] outperform because they're directly in
+- [06:29] the flow of funds this means that they
+- [06:31] are the platform that money flows
+- [06:34] through making it very easy for them to
+- [06:36] just take their cut and so transactional
+- [06:39] companies are 22 of the top 100 YC
+- [06:43] companies but they actually create 29 of
+- [06:46] the overall value and this is because
+- [06:48] there is close to the transaction as
+- [06:50] possible this was advice that I received
+- [06:53] during my YC batch back in 2010
+- [06:56] and that was to get as close to the
+- [06:58] transaction as possible if you're a
+- [07:01] company like stripe that literally
+- [07:03] processes money for companies or brex
+- [07:06] that is the corporate card that they use
+- [07:08] to spend money then you're directly in
+- [07:10] that flow of funds and so it's really
+- [07:13] easy to take your cut on the opposite
+- [07:16] extreme if you are an affiliate business
+- [07:18] multiple things have to happen before
+- [07:20] you ultimately get paid which means that
+- [07:23] you are very far from the transaction
+- [07:24] which makes those not as good of a
+- [07:26] business for transactional businesses
+- [07:29] because they're so close to the
+- [07:30] transaction they often become critical
+- [07:32] infrastructure for other companies that
+- [07:35] they build on top of and that usually
+- [07:37] means that they are solving a top three
+- [07:39] problem for them so you can imagine if
+- [07:42] you use stripe as your primary method to
+- [07:44] get paid from your customers the thought
+- [07:47] of ripping that out sounds terrible you
+- [07:50] would never want to do that and that's
+- [07:52] why these transactional businesses
+- [07:53] become so dominant we also see that SAS
+- [07:56] businesses are most likely to make the
+- [07:58] top 100 list and this is because they
+- [08:00] have consistent Revenue so 31 of the YC
+- [08:05] top 100 companies are actually SAS
+- [08:08] businesses that's nearly a third and
+- [08:10] this is because the recurring Revenue
+- [08:12] makes them great businesses this means
+- [08:15] that customers keep paying them every
+- [08:17] single month or every single year until
+- [08:20] the customer explicitly says to stop so
+- [08:23] this has lots of benefits including the
+- [08:25] predictable Revenue that they get which
+- [08:28] allows them to compound and grow their
+- [08:30] business we can also see that very few
+- [08:32] advertising businesses become big
+- [08:34] Winners and this may be surprising
+- [08:36] because we're so familiar with so many
+- [08:39] companies that have built their business
+- [08:41] off of an advertising business model
+- [08:43] there's Google there's Facebook there's
+- [08:46] Twitter just to name a few but really
+- [08:48] only three percent of the top 100 YC
+- [08:51] companies use an advertising business
+- [08:54] model as their primary way to make money
+- [08:55] and that's because advertising
+- [08:58] businesses need organic virality to win
+- [09:00] they need to catch lightning in a bottle
+- [09:02] and become the Hub where all users go to
+- [09:06] to hang out or to see live streams in
+- [09:09] the case of twitch but when that happens
+- [09:11] they get really strong Network effects
+- [09:13] just like marketplaces so people go to
+- [09:17] hangout on Reddit and form communities
+- [09:18] there because that's where everybody
+- [09:20] else is people go to Twitch to watch
+- [09:23] live streams because that's where all
+- [09:24] the streamers are and so it's really
+- [09:26] important to remember member that you
+- [09:29] should not use ads as your primary
+- [09:31] business model unless you expect to be a
+- [09:34] top 10 site on the internet otherwise
+- [09:36] it's too hard to monetize and build a
+- [09:40] huge scale to become a massive company
+- [09:41] so what are some overall lessons that we
+- [09:44] can take away from this list first it's
+- [09:46] interesting to look at what's not in the
+- [09:48] top 100 list there are no services or
+- [09:51] Consulting businesses there and so it
+- [09:53] can be a good idea to start doing
+- [09:56] services or Consulting for your
+- [09:58] customers primarily as a way to learn
+- [10:00] and make sure that you're building the
+- [10:01] right product for them but Consulting
+- [10:03] businesses suffer from having
+- [10:05] non-recurring Revenue
+- [10:06] scaling with people rather than software
+- [10:09] and having very low margins as a result
+- [10:12] so that's why these businesses are not
+- [10:15] Venture scale similarly affiliate
+- [10:17] businesses they tend to be too far away
+- [10:19] from the transaction that means that you
+- [10:22] have to acquire a customer so send them
+- [10:24] off to another product or service hope
+- [10:27] that they actually make a transaction on
+- [10:29] that other product or you will get some
+- [10:31] small commission from that 30 to 90 days
+- [10:34] later so it's too hard to make a lot of
+- [10:37] money at scale doing an affiliate
+- [10:39] business similarly Hardware businesses
+- [10:41] they require lots of capital to get off
+- [10:44] the ground to buy physical parts and
+- [10:46] they have low margins as a result so
+- [10:49] that makes it really difficult to start
+- [10:50] these businesses and also to scale them
+- [10:53] even if they're working just requires so
+- [10:55] much capital and then businesses that
+- [10:57] are built on other platforms you don't
+- [11:00] see in this list either that's because
+- [11:02] they tend to have a lot of platform risk
+- [11:04] if your business is built on top of
+- [11:07] another big successful platform and your
+- [11:10] business starts to work then it's
+- [11:11] actually in the interest of that
+- [11:13] platform to shut you down and capture
+- [11:16] all of that revenue for themselves so
+- [11:18] that's why even if these look like
+- [11:20] they're working in the early days they
+- [11:22] can be turned off at any moment we also
+- [11:24] see that recurring Revenue consistently
+- [11:26] creates winners and this is because it
+- [11:29] is highly predictable once a customer
+- [11:32] has committed to pay they're going to
+- [11:34] continue paying until they explicitly
+- [11:36] say that they want to stop paying they
+- [11:38] also have higher customer lifetime
+- [11:40] values versus one-off transactions and
+- [11:43] this results in lower customer
+- [11:45] acquisition costs so you don't have to
+- [11:47] keep reacquiring customers over and over
+- [11:49] if you have a one-off transactional
+- [11:52] business then you have to invest money
+- [11:54] in acquiring that customer the first
+- [11:56] time and then also keep putting more
+- [11:59] money into trying to get existing
+- [12:01] customers to spend more with you that's
+- [12:04] not the case with recurring Revenue
+- [12:06] businesses but recurring Revenue only
+- [12:09] works when you have strong retention
+- [12:11] it's not enough for your product to
+- [12:13] deliver value right up front and then
+- [12:16] never again you need to keep delivering
+- [12:18] value over and over again otherwise your
+- [12:21] customers will churn and stop paying and
+- [12:24] then you can't scale a leaky bucket if
+- [12:26] you have lots of churn and to give you
+- [12:27] an example of that if you had 95 monthly
+- [12:30] retention for your recurring Revenue
+- [12:32] product so that means that five percent
+- [12:35] of your customers will churn and stop
+- [12:38] paying you every single month and if you
+- [12:40] started with 100 customers at the
+- [12:42] beginning of the year then by the end of
+- [12:45] the year you would only have 54
+- [12:47] customers of your original 100. that
+- [12:50] means that you would lose 46 of your
+- [12:53] customers in just one year and you would
+- [12:55] need to get 46 new customers just to
+- [12:58] break even with where you started the
+- [13:00] year and let's say for example you had
+- [13:02] 90 monthly retention instead of 95 just
+- [13:06] a five percent difference there and that
+- [13:08] would actually lead to only 28 customers
+- [13:11] at the end of that first year that's a
+- [13:14] huge difference and a huge hill to climb
+- [13:17] so just that five percent difference in
+- [13:19] monthly retention can actually be the
+- [13:22] difference between life and death for a
+- [13:24] startup we can also see that some of the
+- [13:27] biggest winners are built with Moats
+- [13:30] there are network effects that many
+- [13:32] marketplaces have right where each new
+- [13:34] user increases the value and they become
+- [13:37] the dominant player in the market
+- [13:40] there's also lock-in and high switching
+- [13:42] costs we see this with transactional
+- [13:44] businesses like stripe if you're the
+- [13:46] primary way that people actually accept
+- [13:49] money and process payments then chances
+- [13:52] are they're not going to switch off of
+- [13:54] you in SAS businesses you get the
+- [13:56] recurring Revenue where customers keep
+- [13:58] paying over and over again until they
+- [14:00] say to stop
+- [14:01] you can also get lock in by having
+- [14:04] customer data on your platform that once
+- [14:06] they stop paying all that customer data
+- [14:08] goes away
+- [14:09] and then Enterprise businesses while
+- [14:11] they're often difficult and have long
+- [14:13] sales Cycles to be able to sell into
+- [14:15] large companies usually once you've sold
+- [14:18] into the company the churn is a lot
+- [14:20] lower technical Innovation is another
+- [14:23] way to build really strong modes and we
+- [14:26] see this often in hard tech and bio
+- [14:28] companies especially so you can think of
+- [14:30] companies like Cruise building
+- [14:32] self-driving cars and boom which is
+- [14:35] building supersonic Jets it takes a
+- [14:37] really long time to even get to a
+- [14:40] working product for these types of
+- [14:41] businesses and So for anybody to compete
+- [14:44] with them it takes years of difficult
+- [14:47] technical development just to catch up
+- [14:49] we also see that higher margins and
+- [14:51] better Union economics can build modes
+- [14:53] in the example of companies like
+- [14:55] doordash and instacart they've reached
+- [14:57] economies of scale where they're so
+- [15:00] large now that they've been able to
+- [15:02] drive their costs further down at this
+- [15:04] scale and improve their margins which
+- [15:07] new entrants are not going to be able to
+- [15:09] compete with and finally if you get
+- [15:11] organic distribution for your product
+- [15:13] through virality or Word of Mouth you
+- [15:16] can dominate your Market through that as
+- [15:18] well
+- [15:19] if you are able to get users for free
+- [15:22] because other users of your product tell
+- [15:25] new users to come join and you're
+- [15:27] competing with a company that has to pay
+- [15:29] to acquire their customers then you are
+- [15:32] going to grow much faster and capture
+- [15:34] way more of the market so to recap the
+- [15:37] best businesses generate recurring
+- [15:39] Revenue have high retention
+- [15:42] build defensible moats are as close to
+- [15:45] the transaction as possible they scale
+- [15:48] with software not people
+- [15:50] and they're proven and use business
+- [15:52] models that are familiar to customers
+- [15:55] and so it's important that you focus on
+- [15:57] innovating on your product that's what
+- [16:00] should be new and copying your business
+- [16:02] model from one of these proven winners
+- [16:06] all right now let's talk about pricing
+- [16:08] it's important to think of pricing as a
+- [16:10] tool to help you learn faster it can
+- [16:13] help teach you who wants your product
+- [16:15] how much they want it how much value
+- [16:18] your product provides to your users and
+- [16:21] which channels you can afford to use to
+- [16:24] acquire your customers so to help you
+- [16:26] get started
+- [16:27] I've compiled five pricing insights from
+- [16:31] the top YC companies the first is you
+- [16:34] should charge this is actually the most
+- [16:36] common mistake that we see Founders make
+- [16:38] often Founders are afraid to charge for
+- [16:42] a number of reasons they're often afraid
+- [16:44] that their customers are going to tell
+- [16:46] them no they're afraid that their
+- [16:48] customers are going to walk away and
+- [16:50] never come back and they're afraid that
+- [16:51] their customers are actually going to go
+- [16:53] and use their competitors product but it
+- [16:55] turns out that charging is actually one
+- [16:57] of the most effective ways to learn a
+- [16:59] lot of really important things about
+- [17:00] your business the first is are your
+- [17:03] users even willing to pay or not this is
+- [17:06] often binary where either they're
+- [17:08] willing to open their wallet or they
+- [17:10] don't even see enough value in your
+- [17:12] product to overcome that hurdle it can
+- [17:14] also teach you which users are most
+- [17:16] willing to pay if you're trying to
+- [17:18] decide whether you should go after
+- [17:20] customer segment a or customer segment B
+- [17:23] trying to charge and figuring out which
+- [17:25] one is most excited to pay can give you
+- [17:28] really good signal on Who wants your
+- [17:29] product more it can also teach you how
+- [17:32] much they're willing to pay by setting
+- [17:34] higher prices you can try to figure out
+- [17:36] how much value they see in your product
+- [17:38] even if everyone refuses to pay that's
+- [17:42] still valuable information for you to
+- [17:44] get because it teaches you that you
+- [17:45] haven't built enough value into your
+- [17:47] product yet or you're talking to the
+- [17:49] wrong customer segment stripe is a great
+- [17:51] example of this in the early days
+- [17:54] stripe wanted to test the amount of
+- [17:56] value that they were building in their
+- [17:58] product so while most of their
+- [18:00] competitors were actually charging
+- [18:01] around three percent per transaction
+- [18:04] stripe decided to set their price at
+- [18:07] five percent per transaction nearly
+- [18:09] double what their competitors were
+- [18:10] charging and the reason that they did
+- [18:12] this is because they wanted to test how
+- [18:14] much value their customers saw in things
+- [18:17] like one-click sign up and being able to
+- [18:20] get started quickly and really in-depth
+- [18:23] detailed developer API documentation
+- [18:25] that would help developers get started
+- [18:28] faster and so rather than trying to
+- [18:30] undercut the competition in order to win
+- [18:33] customers they did the exact opposite
+- [18:35] and set a really high bar for themselves
+- [18:38] to prove that they had built enough
+- [18:40] value into their product so where should
+- [18:43] you begin
+- [18:44] the first thing that I recommend is that
+- [18:46] you don't overthink it if you look
+- [18:48] online there are tons of charts and
+- [18:50] graphs and formulas and all these
+- [18:52] different complicated ways to maximize
+- [18:55] your pricing and figure out the right
+- [18:56] price to charge but really when you're
+- [18:58] just getting started the important thing
+- [19:00] is to just find the right order of
+- [19:02] magnitude for your pricing and what I
+- [19:04] mean by that is if you're charging ten
+- [19:07] dollars for your product and your
+- [19:08] customers are willing to pay a hundred
+- [19:10] you should probably change your price
+- [19:12] you're off by an order of magnitude
+- [19:13] however if you're charging ten dollars
+- [19:16] and your customers are willing to pay 15
+- [19:18] or 20 don't worry about it you're in the
+- [19:21] right ballpark which is the really
+- [19:23] important thing and pricing isn't
+- [19:26] permanent this is really important it
+- [19:28] often takes years to iterate and capture
+- [19:30] the full value of the product that
+- [19:32] you've built from your customers and so
+- [19:35] don't worry about capturing that full
+- [19:36] value early on you'll have plenty of
+- [19:39] time to maximize that the next Insight
+- [19:41] is that you should price on value not on
+- [19:44] cost
+- [19:45] and so there's three important
+- [19:46] components here the first is the cost
+- [19:49] this is what it costs you to be able to
+- [19:52] serve your customer the next variable is
+- [19:54] price this is what you're charging
+- [19:56] and then there's the perceived value
+- [19:58] that your customers see in your product
+- [20:01] and so Founders often start with
+- [20:04] something called Cost Plus pricing I
+- [20:06] would not recommend this what this
+- [20:08] usually looks like is looking at how
+- [20:10] much it costs you to serve a customer
+- [20:11] and then adding an amount on top of that
+- [20:14] say ten dollars and that's your price
+- [20:16] but this actually ignores the full value
+- [20:19] of what your customers see in your
+- [20:22] product so the difference between your
+- [20:25] cost to serve your customer and the
+- [20:27] price that you charge that's your margin
+- [20:29] that's how much you make on each
+- [20:31] transaction and the difference between
+- [20:33] the price
+- [20:35] and the value
+- [20:36] that your customers see in your product
+- [20:39] that's your opportunity to be able to
+- [20:42] raise your prices to be able to capture
+- [20:44] more of that perceived value and now if
+- [20:46] your cost is higher than your price
+- [20:49] well that means that you're going to
+- [20:51] have negative margins and you cannot
+- [20:53] scale a business with negative margins
+- [20:55] similarly if your price is higher than
+- [20:58] the value that your customers see in
+- [21:00] your product that means they're just not
+- [21:02] going to buy from you so how do you find
+- [21:04] your value well there's a couple
+- [21:06] interesting ways to be able to do this
+- [21:07] the first is talk to your users you can
+- [21:11] ask them about the problem that you
+- [21:13] solve and get them to articulate the
+- [21:15] value to you and so what this often
+- [21:18] looks like is if you reach out to a
+- [21:20] customer and you get them on a call and
+- [21:22] you can ask them what is the problem
+- [21:24] that you are hoping that our product
+- [21:27] could solve for you and they'll often
+- [21:29] tell you and similarly if you have a
+- [21:31] user that's signed up for your product
+- [21:33] but is not actually paying you you can
+- [21:35] reach out to them and talk to them and
+- [21:37] ask them the question
+- [21:39] what problem were you hoping that our
+- [21:41] product could solve for you and their
+- [21:43] response is usually going to be one of
+- [21:45] four interesting things
+- [21:47] the first is they're probably going to
+- [21:49] tell you that they were hoping you could
+- [21:51] help them make more money this is
+- [21:53] something every company wants
+- [21:55] or they might tell you that they were
+- [21:56] hoping that you could help reduce costs
+- [21:59] maybe your product saves them time or
+- [22:02] money they might also say that they were
+- [22:05] hoping that your product could help them
+- [22:06] move faster maybe they have something
+- [22:09] they were looking to launch in six
+- [22:10] months and with your product they can
+- [22:12] actually get it launched in a couple
+- [22:14] weeks that sounds really valuable or
+- [22:16] they might say that your product could
+- [22:18] help them avoid risk if you help with
+- [22:20] compliance or offloading something a
+- [22:22] headache that they don't want to deal
+- [22:23] with another way to find your value is
+- [22:26] to keep incrementally raising prices
+- [22:28] until you get pushback from users and
+- [22:31] when you keep incrementally raising your
+- [22:33] prices you will ultimately find the
+- [22:36] ideal price which is when customers
+- [22:38] complain but they still pay
+- [22:41] this is actually a good thing right it
+- [22:43] overcomes that fear of charging a high
+- [22:46] price and customers walking away because
+- [22:49] the ideal scenario is when you tell the
+- [22:52] customer a price they say they have to
+- [22:54] think about it they go back and then
+- [22:57] they come back to you a week later and
+- [22:58] they say all right that seems good
+- [23:00] you're the best solution we're willing
+- [23:02] to pay up on the other side if you were
+- [23:04] to actually charge a lower price and
+- [23:06] they say yeah that sounds great and
+- [23:07] accept immediately well that probably
+- [23:09] means that you're pricing too low and
+- [23:11] you're leaving a lot of money on the
+- [23:13] table which brings me to my third
+- [23:14] Insight which is that most startups are
+- [23:17] actually under charging you almost
+- [23:19] certainly are
+- [23:20] and lower prices are not a sustainable
+- [23:23] Advantage sometimes we talk to Founders
+- [23:25] and they say well our product is just
+- [23:28] like our large competitor except ours is
+- [23:30] cheaper and that actually does not sound
+- [23:32] like a good idea that's not a way to
+- [23:35] build a winner all that means is that
+- [23:37] your large competitor can underprice you
+- [23:40] even way lower than your cost because
+- [23:42] they have way more money and they're way
+- [23:44] larger than you until they put you out
+- [23:47] of business so I do not recommend having
+- [23:50] price as your only differentiator it
+- [23:52] also turns out that when you charge more
+- [23:54] you get higher margins and you're able
+- [23:57] to build a bigger moat this means if you
+- [23:59] have higher margins than your
+- [24:00] competitors you can pay more to acquire
+- [24:03] a customer which means you can acquire
+- [24:05] all of the customers before they do it's
+- [24:08] also important to remember that pricing
+- [24:09] implies value when customers are
+- [24:12] evaluating your product they typically
+- [24:14] don't have a lot of signals on how
+- [24:16] valuable your product is but the price
+- [24:18] that you're charging is actually one of
+- [24:20] the primary ones so if your price is
+- [24:22] lower than your competitors then your
+- [24:25] customers might assume that your product
+- [24:27] is less valuable than theirs similarly
+- [24:30] if you charge a higher price then your
+- [24:33] customers might assume that your product
+- [24:34] is even more valuable than your
+- [24:36] competitors so that can work really well
+- [24:38] and so it turns out that raising prices
+- [24:40] is actually the easiest way to grow
+- [24:42] Revenue if you have a thousand customers
+- [24:45] and you want to double your Revenue well
+- [24:48] it sounds pretty difficult to spend all
+- [24:50] the time energy and money to go get a
+- [24:52] thousand more customers however if
+- [24:55] you're able to just double your price
+- [24:57] just changing a number on the website or
+- [24:59] changing the price that you're quoting
+- [25:01] to customers in a sales call
+- [25:03] and your product supports that higher
+- [25:06] value well you've just doubled your
+- [25:08] Revenue with almost no work at all but
+- [25:11] what if users won't pay more this
+- [25:13] usually means one of two things it
+- [25:15] either means that you need to build more
+- [25:18] value into your product right maybe the
+- [25:20] price that you have raised it to is now
+- [25:23] higher than the value that your
+- [25:26] customers see or it could mean that you
+- [25:28] need to solve a bigger problem maybe the
+- [25:31] problem that you're solving for
+- [25:32] customers is just a nice to have that
+- [25:35] they would never be willing to spend a
+- [25:37] lot of money for so in this instance it
+- [25:39] usually means you want to move to a more
+- [25:42] important top three problem that they
+- [25:43] have there's a third option too which is
+- [25:46] you could give a lower price in exchange
+- [25:49] for one of four key things one you could
+- [25:51] give a lower price in exchange for your
+- [25:53] first user if you're just looking for
+- [25:55] initial feedback and getting somebody on
+- [25:57] the platform totally reasonable to give
+- [25:59] a lower price for that or if you're
+- [26:01] talking to a valuable customer that has
+- [26:04] a recognizable logo
+- [26:06] that can be another good scenario where
+- [26:08] you would give a lower price you can
+- [26:10] then use this logo that you get as
+- [26:13] social proof to get other customers onto
+- [26:15] your platform at your regular price also
+- [26:18] if your product builds lock-in Say by
+- [26:21] getting customer data on your platform
+- [26:23] that they would lose if they leave that
+- [26:25] can be another reason to offer a lower
+- [26:27] price and if you're able to renew after
+- [26:30] the first year and bump your customers
+- [26:33] up to that higher price that can be a
+- [26:35] good reason to get people in at the
+- [26:37] lower price because you know you can
+- [26:38] capture more value from them further
+- [26:40] down the road it's also really important
+- [26:42] to remember that pricing isn't permanent
+- [26:44] this is another common fear that we see
+- [26:47] from Founders where they're afraid that
+- [26:49] they have to nail their pricing the
+- [26:51] first time or they're going to lose
+- [26:53] their customer and never have a chance
+- [26:55] to get them again or sometimes Founders
+- [26:57] are afraid that the set of customers
+- [27:00] that they're talking to are the only
+- [27:02] ones they're ever going to get and so
+- [27:04] they have to close them all and if
+- [27:05] that's the case you should probably work
+- [27:07] on a different business but it acts is
+- [27:10] relatively painless to be able to
+- [27:13] increase prices on customers over time
+- [27:15] too and there's a couple different ways
+- [27:16] to do this you can exclude existing
+- [27:19] customers by letting them keep their
+- [27:21] current pricing and only raising prices
+- [27:24] for all new customers that's one way to
+- [27:26] do it or you could give advanced notice
+- [27:28] that you plan to raise prices and as
+- [27:31] long as you build in enough value into
+- [27:33] your product to cover that price
+- [27:35] increase you shouldn't see much churn
+- [27:37] most people will probably be willing to
+- [27:39] pay it if you have a sticky product
+- [27:41] Netflix is a great example of this this
+- [27:43] chart actually shows price increases
+- [27:46] that Netflix has made over the last
+- [27:48] seven or so years and it's really
+- [27:50] interesting to see that they are not shy
+- [27:51] about raising prices on their customers
+- [27:54] and now Netflix has 221 million paid
+- [27:57] subscribers and they've been able to
+- [27:59] figure out how to raise prices because
+- [28:01] that is the easiest way for them to grow
+- [28:03] Revenue rather than continuing to try to
+- [28:05] scale subscriber growth at the same rate
+- [28:08] so if Netflix is a able to find a way to
+- [28:11] increase their prices on 221 million
+- [28:14] customers you should be able to figure
+- [28:16] out how to do it on your handful of
+- [28:18] early customers as well and the fifth
+- [28:20] Insight is to keep it simple this is an
+- [28:22] example of a pricing page for Quicken
+- [28:25] and as you can see it's very complex
+- [28:27] there's five different buy buttons
+- [28:29] there's prices there's 349 399 599 899
+- [28:34] there's crossed out prices there's one
+- [28:37] dollar off with a symbol right next to
+- [28:39] it it's really complicated to figure out
+- [28:41] even if you want to be a Quicken
+- [28:43] customer which plan you should go with
+- [28:45] and so this likely results in decreased
+- [28:48] conversion rates so it's important to
+- [28:51] remember that when you're creating your
+- [28:52] pricing you don't want it to create
+- [28:54] friction that prevents customers from
+- [28:57] signing up and paying you on the flip
+- [28:59] side here's a great example from gitlab
+- [29:02] they have three very clear simple plans
+- [29:05] with clear pricing and so their pricing
+- [29:08] and their pricing page is not going to
+- [29:10] be the thing that adds more friction and
+- [29:13] prevents customers from signing up and
+- [29:15] paying them and so I'll leave you with
+- [29:16] this story of segment which helps
+- [29:19] companies capture and use their customer
+- [29:21] data when they started out they were a
+- [29:24] couple of Engineers that were not used
+- [29:26] to paying for products themselves and so
+- [29:28] they thought they had to give their
+- [29:30] product away for free in order to get
+- [29:32] anybody to use it and then they wanted
+- [29:33] to raise money from investors so they
+- [29:36] decided maybe we should actually charge
+- [29:38] our customers money so we can show
+- [29:40] Revenue growth so tail between their
+- [29:43] legs they reached out to all their free
+- [29:45] customers and sheepishly told them that
+- [29:48] they were actually going to start
+- [29:49] charging them ten dollars per month
+- [29:51] which was a hundred and twenty dollars
+- [29:53] per year and so they were really nervous
+- [29:55] about telling their customers this but
+- [29:57] surprisingly their customers started
+- [29:59] responding to them with messages like I
+- [30:02] hope you would charge me more than that
+- [30:03] otherwise I'm worried about keeping my
+- [30:05] customer data with you right the low
+- [30:08] price was signaling to their customers
+- [30:10] that maybe their product was invaluable
+- [30:12] or it couldn't be trusted in the long
+- [30:15] term and so in order to grow even more
+- [30:17] they hired a sales advisor and that
+- [30:21] sales advisor told them you should not
+- [30:23] be charging a hundred twenty dollars a
+- [30:25] year instead you should be charging a
+- [30:27] hundred twenty thousand dollars per year
+- [30:29] this is an Enterprise product and this
+- [30:33] scared them to hear this it was
+- [30:35] unfathomable to them that anybody would
+- [30:37] ever pay a hundred twenty thousand
+- [30:39] dollars a year for their product and so
+- [30:41] when they were going into of their first
+- [30:43] sales meeting with their sales advisor
+- [30:45] the advisor told them if you don't tell
+- [30:48] this customer that your price is a
+- [30:51] hundred twenty thousand dollars then I
+- [30:53] quit as your sales advisor so they went
+- [30:55] into the meeting and at the end when it
+- [30:58] came time to talk price and the customer
+- [31:00] said so how much is it the CEO got
+- [31:02] really red and he got nervous and he
+- [31:06] said a hundred twenty thousand dollars
+- [31:08] and the customer responded how about
+- [31:10] twelve thousand dollars and they
+- [31:12] ultimately ended up agreeing on eighteen
+- [31:14] thousand dollars as their price so while
+- [31:16] they didn't actually get the Thousand X
+- [31:19] price increase
+- [31:21] they were able to increase their price
+- [31:23] 150 times from 120 dollars a year all
+- [31:28] the way up to eighteen thousand dollars
+- [31:30] a year and it wouldn't have happened if
+- [31:32] they didn't ask for the higher price and
+- [31:34] so they used this philosophy to continue
+- [31:37] growing their deal sizes all the way up
+- [31:40] to six figures and Beyond and ultimately
+- [31:42] led to their acquisition by twilio for
+- [31:45] more than three billion dollars so the
+- [31:47] story of segment hopefully is
+- [31:49] instructive to you that they started out
+- [31:51] giving away their product for free
+- [31:53] ultimately ended up selling to huge
+- [31:56] Enterprises and building a business
+- [31:58] worth over three billion dollars so to
+- [32:01] wrap up the five key pricing insights
+- [32:03] the first is you should charge next is
+- [32:06] you should price on value not on cost
+- [32:09] the third is most startups are under
+- [32:11] charging and you probably are too the
+- [32:14] fourth is that pricing isn't permanent
+- [32:16] don't have fear that you need to get it
+- [32:18] right the first time you can change it
+- [32:20] over time as you learn more and build
+- [32:22] more value into your product and finally
+- [32:25] keep it simple don't add complexity
+- [32:28] which adds friction to customers giving
+- [32:31] you their money
+- [32:32] thank you
+- [32:35] [Music]

@@ -1,0 +1,2573 @@
+## Key insight / summary
+
+- **성장의 핵심은 사용자를 제품 가치에 연결하는 것**: 성장은 단순한 지표 해킹이 아니라 사용자가 제품의 진정한 가치를 경험하도록 하는 것 (메트릭스보다 가치 연결이 우선)
+- **구독형 제품에서 사용자 리텐션이 금맥**: 사용자를 유지하지 못하면 첫날 결제에만 의존해야 하는 상황이 됨 (장기적 성공의 필수 조건)
+- **무료 사용자에게 유료 기능 미리보기 제공**: Grammarly의 사례처럼 무료 사용자에게 유료 제안을 샘플링해서 보여주면 제품의 진정한 파워를 인식하게 됨
+- **Explore vs Exploit 프레임워크**: 탐색 모드(올바른 산 찾기)와 활용 모드(그 산을 효과적으로 오르기)의 균형이 중요 (너무 탐색만 하면 산만하고, 활용만 하면 정체됨)
+- **경험보다 높은 주도성과 실행 속도가 중요**: 특히 AI로 빠르게 변화하는 환경에서는 깊은 경험이 오히려 방해가 될 수 있음 (기존 습관을 의도적으로 버려야 함)
+- **연간 1,000개 실험 목표의 철학**: 지속적인 반복과 빠른 피드백 루프를 통한 학습 중심 접근법
+- **구조적 기반 위의 창의성**: 성장 모델, 메트릭스, 실험 등 체계적 기반 위에서 창의적 솔루션과 가설을 만들어내는 것
+
+## Key implications for Proby platform
+
+- **무료-유료 경계선을 전략적으로 설계해야 함**: Grammarly처럼 무료 사용자에게 AI 모더레이션의 고급 기능(심층 분석, 감정 인사이트 등)을 미리보기로 제공하여 AI의 진정한 파워를 체험하게 해야 함 → 기본 설문 기능은 무료로, AI 모더레이션의 강력한 인사이트는 유료로 차별화
+- **리텐션 지표를 핵심 성장 동력으로 설정**: 전략문서의 LTV:CAC 개선을 위해 사용자가 지속적으로 Proby를 사용하도록 하는 habit-forming 메커니즘 구축 → 정기적인 리서치 스케줄링, 인사이트 대시보드, 프로젝트 템플릿 등으로 재사용 촉진
+- **Explore-Exploit 균형으로 기능 개발 우선순위 결정**: 유니콘 기업 타겟팅(exploit)과 새로운 시장 세그먼트 탐색(explore)의 균형 → 현재 검증된 AI 모더레이션 기능을 깊게 파면서도 새로운 리서치 방법론(비디오 인터뷰, 포커스 그룹 등) 실험 병행
+- **빠른 실험 문화와 인프라 구축**: 연간 1,000개 실험 철학을 적용하여 A/B 테스트 시스템, 기능 플래그, 빠른 배포 파이프라인 구축 → 매주 새로운 기능이나 UX 개선사항 테스트 가능한 환경 조성
+- **경험 의존보다 데이터 기반 의사결정 체계**: 전통적인 리서치 관행에 얽매이지 않고 AI 시대에 맞는 새로운 UX/워크플로우 과감하게 실험 → 기존 리서처들의 피드백과 새로운 접근법 사이의 균형점 찾기
+- **사용자를 제품 핵심 가치에 연결하는 온보딩 설계**: 첫 사용자가 "설문조사 플랫폼"이 아닌 "AI가 제공하는 깊은 사용자 인사이트"를 경험하도록 → 온보딩에서 AI 모더레이션 결과물의 퀄리티를 즉시 체험할 수 있는 데모나 샘플 제공
+- **구조적 성장 모델 위의 창의적 실행**: 전략문서에 언급된 고객 획득 채널, 가격 모델 등 체계적 기반을 먼저 구축한 후 그 위에서 바이럴 요소, 커뮤니티, 브랜드 차별화 등 창의적 요소들을 실험
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=2BKmNmnEj9w
+
+- [00:00] growth as the job is to connect users to
+- [00:02] the value of your product. Growth
+- [00:04] sometimes gets this reputation that it's
+- [00:07] just pure metrics hacking. You've worked
+- [00:09] at three of the most successful consumer
+- [00:11] subscription products in the world. What
+- [00:12] do you think is the biggest missing
+- [00:14] piece that people don't get about
+- [00:15] building a successful consumer
+- [00:17] subscription product?
+- [00:18] >> User retention is gold for consumer
+- [00:20] subscription companies. If you don't
+- [00:22] retain your users, then a lot of the
+- [00:24] onus is on getting them to pay on day
+- [00:26] one. Gnome Leavinski, he said that I
+- [00:28] need to ask you about the biggest
+- [00:29] monetization win that you found at
+- [00:31] Grammarly. The lived product experience
+- [00:33] for most of the free users was that
+- [00:34] Grammarly was just a product to fix your
+- [00:37] spelling and grammar because those were
+- [00:38] the free suggestions. What if we
+- [00:40] actually sampled a number of different
+- [00:42] paid suggestions and interspersed them
+- [00:43] to free users across their writing? All
+- [00:46] of a sudden, people were seeing
+- [00:47] Grammarly as a much more powerful tool
+- [00:49] than they were before. What's the most
+- [00:50] counterintuitive lesson you've learned
+- [00:52] about building teams? I saw some of the
+- [00:54] highest performers just being people
+- [00:56] that had very high agency, had that
+- [00:58] clock speed, had that energy, but they
+- [01:00] didn't necessarily need to have deep
+- [01:02] experience on that matter. Sometimes
+- [01:03] experience could be a crutch, especially
+- [01:05] in this world where the grounds are
+- [01:06] shifting so fast with AI. A lot of your
+- [01:09] learned habits actually need to be
+- [01:10] intentionally discarded.
+- [01:13] Today, my guest is Albert Chen. Albert
+- [01:15] is known as one of the top consumer
+- [01:17] growth minds in the world. He led growth
+- [01:19] and monetization at three of the most
+- [01:21] successful and beloved consumer products
+- [01:23] in the world. Dualingo, Grammarly, and
+- [01:25] now chess.com. Earlier in his career at
+- [01:27] YouTube, he worked on streaming and
+- [01:29] gaming features used by over 20 million
+- [01:31] people. His unique approach to growth
+- [01:33] blends marketing, data, strategy, and
+- [01:36] product management. And in our
+- [01:37] conversation, we cover a lot of ground,
+- [01:39] including his explore and exploit
+- [01:41] framework to find growth opportunities,
+- [01:43] his biggest and most interesting growth
+- [01:45] wins at Dualingo Grammarly.com,
+- [01:47] how he uses AI to accelerate his growth
+- [01:50] work, what he's come to realize about
+- [01:51] the power of brand and community in your
+- [01:54] growth work, his top experimentation
+- [01:56] best practices, why his goal at every
+- [01:58] company is to run 1,000 experiments a
+- [02:00] year, and so much more. A huge thank you
+- [02:03] to Eric Alabest, Nom Leavinsky, and
+- [02:05] Jorge Mazal for suggesting topics for
+- [02:07] this conversation. If you enjoy this
+- [02:09] podcast, don't forget to subscribe and
+- [02:11] follow it in your favorite podcasting
+- [02:13] app or YouTube. It helps tremendously.
+- [02:15] Also, if you become an annual subscriber
+- [02:18] of my newsletter, you get 15 incredible
+- [02:21] products for free for an entire year,
+- [02:24] including Lovable, Replet, Bolt, Nadan,
+- [02:27] Linear, Superhum, Dcript, Whisper Flow,
+- [02:29] Gamma, Perplexity, Warp, Granola, Magic
+- [02:31] Patterns, Raycast, JPRD, and Mobin. Head
+- [02:33] on over to lennisnewsletter.com and
+- [02:35] click product pass. With that, I bring
+- [02:38] you Albert Chain. My podcast guests and
+- [02:40] I love talking about craft and taste and
+- [02:43] agency and product market fit. You know
+- [02:46] what we don't love talking about? Sock
+- [02:48] 2. That's where Vanta comes in. Vanta
+- [02:50] helps companies of all sizes get
+- [02:52] compliant fast and stay that way with
+- [02:54] industryleading AI automation and
+- [02:56] continuous monitoring. Whether you're a
+- [02:58] startup tackling your first SOCK 2 or
+- [03:00] ISO 2701 or an enterprise managing
+- [03:03] vendor risk, Vanta's trust management
+- [03:05] platform makes it quicker, easier, and
+- [03:07] more scalable. Vanta also helps you
+- [03:10] complete security questionnaires up to
+- [03:11] five times faster so that you can win
+- [03:13] bigger deals sooner. The result,
+- [03:16] according to a recent IDC study, Vanta
+- [03:18] customers slashed over $500,000
+- [03:21] a year and are three times more
+- [03:23] productive. Establishing trust isn't
+- [03:26] optional. Vanta makes it automatic. Get
+- [03:29] $1,000 off at vanta.com/lenny.
+- [03:33] This episode is brought to you by Jira
+- [03:35] Product Discovery. The hardest part of
+- [03:37] building products isn't actually
+- [03:39] building products. It's everything else.
+- [03:41] It's proving that the work matters,
+- [03:43] managing stakeholders, trying to plan
+- [03:45] ahead. Most teams spend more time
+- [03:47] reacting than learning, chasing updates,
+- [03:49] justifying road maps, and constantly
+- [03:51] unblocking work to keep things moving.
+- [03:53] Jira product discovery puts you back in
+- [03:55] control. With Jira product discovery,
+- [03:58] you can capture insights and prioritize
+- [04:00] high impact ideas. It's flexible, so it
+- [04:02] adapts to the way your team works and
+- [04:04] helps you build a road map that drives
+- [04:06] alignment, not questions. And because
+- [04:08] it's built on Jira, you can track ideas
+- [04:10] from strategy to delivery, all in one
+- [04:13] place. Less chasing, more time to think,
+- [04:15] learn, and build the right thing. Get
+- [04:17] Jira product discovery for free at
+- [04:20] atlassian.com/lenny.
+- [04:22] That's atlassian.com/lenny.
+- [04:28] Albert, thank you so much for being here
+- [04:30] and welcome to the podcast.
+- [04:33] >> Thanks for having me, Lenny. Excited to
+- [04:34] be here.
+- [04:35] >> I'm even more excited to have you here.
+- [04:37] So, as I do for every podcast
+- [04:39] conversation, I reached out to a bunch
+- [04:41] of people that you've worked with that
+- [04:42] know you well to find out what to ask
+- [04:44] you about and what topics to spend time
+- [04:46] on. Uh Jorge Mazal, who uh is famous in
+- [04:50] my world for writing what was for the
+- [04:52] longest time the most popular newsletter
+- [04:54] post on my newsletter. It's actually
+- [04:57] people have usurped it now, but it was
+- [04:59] like stuck there for a long time. So
+- [05:01] here here's what he wrote. It is a
+- [05:03] mystery to me how Albert is able to do
+- [05:06] what he does. I am actually eager to
+- [05:08] listen to this episode and learn from
+- [05:10] him.
+- [05:10] >> That is super nice. Thank you, Jorge.
+- [05:12] I've learned so much from him. I'm the
+- [05:14] type of weird person that likes to wake
+- [05:15] up before their kids and like pull up a
+- [05:17] bunch of browser tabs and look at
+- [05:19] experiments. So it was perfect that
+- [05:21] Jorge brought me into the growth world
+- [05:23] at Dualingo. learned a ton of uh best
+- [05:25] practices and he's just a great guy.
+- [05:26] Thanks, Oy.
+- [05:27] >> We're already getting into these
+- [05:28] tactics. I love it. Uh let me just give
+- [05:31] a little framing on what I want to do
+- [05:32] with this conversation. What I want to
+- [05:34] try to do is to help people learn tools
+- [05:38] and mental models for finding growth
+- [05:40] opportunities for their own products and
+- [05:42] essentially learn the growth mentality
+- [05:44] that you bring into the companies and
+- [05:46] products that you work on. What I want
+- [05:48] to start with is to give us a little
+- [05:50] insight into how you became what you
+- [05:53] became. There's an interesting pattern I
+- [05:55] found across a bunch of recent guests,
+- [05:58] which is many people were very good at
+- [06:00] piano when they were younger and were
+- [06:02] very serious piano players. For example,
+- [06:04] head of ChachiPT, Nick Turley was like
+- [06:06] almost going to become professional jazz
+- [06:08] pianist. You were very serious in as a
+- [06:11] piano player earlier in career. How did
+- [06:14] you go from pist to one of the top
+- [06:16] growth minds in the world? briefly.
+- [06:18] >> Well, that's very flattering. Um, but I
+- [06:20] appreciate it. Yeah, I I grew up playing
+- [06:22] a lot of piano. Um, my parents were were
+- [06:25] immigrants from Taiwan and I was the
+- [06:27] oldest kid that they had. And so I
+- [06:29] definitely felt that strong uh
+- [06:32] encouragement, if you will, to learn a
+- [06:35] bunch of things, take them seriously,
+- [06:36] study hard, and so I did, right? And
+- [06:39] like my parents, even though they
+- [06:41] weren't musically proficient, they had a
+- [06:43] like deep love for classical music. So,
+- [06:45] I was the stereotypical like baby that
+- [06:47] would listen to Mozart, I guess, when I
+- [06:49] was sleeping type of thing. And I still
+- [06:51] vividly remember like we had this
+- [06:53] upright Yamaha piano and at the very top
+- [06:56] of the piano we had this countdown clock
+- [06:57] from 90 minutes literally every single
+- [07:00] day of my childhood. Um, just practice
+- [07:02] really really consistently. At first,
+- [07:04] like I really was irritated by that
+- [07:07] thing, but as I grew older, I started to
+- [07:09] appreciate like music quite a bit more.
+- [07:11] But anyway, like I think what really
+- [07:13] accelerated my my interest and abilities
+- [07:16] in uh piano was like I I feel like I hit
+- [07:19] the lottery. I had perfect pitch and so
+- [07:21] I was able to, you know, quickly
+- [07:24] understand whether I was like playing
+- [07:26] the right stuff or the wrong stuff and
+- [07:27] just pick up music pretty pretty
+- [07:28] rapidly.
+- [07:29] >> What does perfect pitch even mean? That
+- [07:31] does that mean you know which note is
+- [07:33] playing? Okay.
+- [07:34] >> Exactly.
+- [07:34] >> Wow. So I can listen to a song and then
+- [07:36] like just a very very clear
+- [07:39] understanding of which note I'm supposed
+- [07:40] to start with and if I'm playing
+- [07:41] something wrong. So it's it's it's very
+- [07:43] helpful. It's unfair. Definitely.
+- [07:45] >> So anyway, yeah, I got I quite got quite
+- [07:47] good like as a teenager in high school
+- [07:49] and even considered like studying at a
+- [07:51] music conservatory.
+- [07:53] >> My intrinsic motivation for music wasn't
+- [07:55] necessarily as strong at that point and
+- [07:58] so I decided to go to engineering school
+- [08:00] uh instead, but that would have been an
+- [08:02] incredibly different career. And to your
+- [08:04] original point around the relationship
+- [08:07] between like music and growth, I didn't
+- [08:10] really reflect on this until recently. I
+- [08:12] have a four-year-old and I'm like
+- [08:14] starting to teach him how to bang on the
+- [08:15] keys a little bit. But a couple things
+- [08:17] stand out. I mean, one is that I think
+- [08:21] music and growth, they both rely on this
+- [08:23] just consistent repetition. Like you're
+- [08:26] constantly making mistakes. You have
+- [08:28] this super tight feedback loop. You have
+- [08:29] to get really resilient to just making
+- [08:31] mistakes all the time. and you know that
+- [08:33] the way of learning is through those
+- [08:35] mistakes, right? So that's kind of a
+- [08:37] thing that I learned very early. And the
+- [08:39] second thing that uh occurred to me is
+- [08:41] that they both have this like structural
+- [08:44] underpinning to them. With growth, you
+- [08:46] have a growth model. You have metrics,
+- [08:48] you have experiments, you have channels,
+- [08:49] things like that. But you also need on a
+- [08:51] day-to-day basis to have creativity. You
+- [08:53] got to come up with like interesting
+- [08:54] solutions and hypotheses to test. And
+- [08:56] the same is true on the music side,
+- [08:58] right? of music theory of scales and
+- [09:00] stuff, but to create beautiful music,
+- [09:02] you need that passion, that emotion,
+- [09:04] that flow. Um, so I think that's the
+- [09:07] beautiful combination between the two.
+- [09:09] Fun fact, my wife bought me piano/s
+- [09:13] singing lessons for Father's Day
+- [09:14] recently, and I've gotten really into
+- [09:16] this stuff. So, I'm learning how to play
+- [09:18] very basic piano now, and and learning
+- [09:20] to uh identify notes and hit notes with
+- [09:24] my voice.
+- [09:24] >> Nice. What a weird.
+- [09:25] >> Could be your next act. This could be I
+- [09:27] could go the reverse. I could become a
+- [09:29] professional piano player. Oh man. No.
+- [09:31] It's so fun. So hard though. I'm just
+- [09:33] like my fingers are like how do you how
+- [09:34] do you do four freaking keys at once?
+- [09:36] Yeah. Just like what is going on here?
+- [09:37] Okay. So let's get let's get into the
+- [09:39] meat of it. I want to talk about growth.
+- [09:42] There's a very specific framework that
+- [09:44] as we were chatting that I think would
+- [09:46] be really helpful for people to hear and
+- [09:48] learn from you. You called it explore
+- [09:49] and exploit. I think there's a different
+- [09:51] bunch of different ways to think about
+- [09:52] this. Talk about this framework and how
+- [09:54] that informs the way you think about
+- [09:55] growth. Yeah, I initially came up or
+- [09:58] heard with heard about explore and
+- [10:00] exploit through uh my engineering
+- [10:02] partner at Grammarly Nurmal and I think
+- [10:05] he actually had taken some Reforge
+- [10:06] classes. So maybe the original inventor
+- [10:08] of it might be Brian Balffor who I know
+- [10:10] has been on your pod. Um but anyway,
+- [10:12] it's a great concept. The gist of it is
+- [10:14] that when you're in exploratory mode,
+- [10:16] think of it as like finding the right
+- [10:18] mountain to climb. And then when you're
+- [10:20] in exploitation mode, it's like focusing
+- [10:22] your resources on climbing that mountain
+- [10:24] effectively.
+- [10:26] And certain companies, I think the the
+- [10:28] warning is to basically spend too much
+- [10:31] of your time on one end of the spectrum,
+- [10:32] right? If you do too much exploration,
+- [10:35] you can have your team feel a little bit
+- [10:37] too scattershot, just trying a 100
+- [10:39] different random ideas. What's the
+- [10:41] through line? What's the strategy? How
+- [10:42] do you pattern match, you know,
+- [10:43] successes across them? And if you do too
+- [10:46] much in exploitation, which is often the
+- [10:48] MMO of growth teams, it can lead to this
+- [10:50] like saturation and stagnation where
+- [10:53] you're just locally maximizing a thing.
+- [10:55] And even though this principle of
+- [10:57] explore and exploit like it's typically
+- [11:00] thought of as a as a macro thing, I like
+- [11:02] to work with my teams more on the the
+- [11:04] micro on the insight level. So I'll give
+- [11:06] you a concrete example. So I work at
+- [11:07] chess.com and um one of our priorities
+- [11:11] is to encourage chess players to improve
+- [11:14] to learn and improve. So one of the PMs
+- [11:16] that we have Dylan he works on all the
+- [11:19] learning features. The most used
+- [11:21] learning feature in our product is
+- [11:23] called game review. So you play a game
+- [11:24] of chess after the game's over. We have
+- [11:26] this virtual coach that teaches you
+- [11:28] about your worst moves, best moves, etc.
+- [11:30] And his job is to like improve user
+- [11:32] engagement and retention. And so he's in
+- [11:35] this exploratory phase trying to figure
+- [11:36] out like how do I drive more of that
+- [11:38] type of activity. And what he observes
+- [11:41] is that 80% of people that review their
+- [11:43] games actually do so after a win. And
+- [11:46] that's really counterintuitive to when
+- [11:48] we initially built the feature. We
+- [11:50] thought that people would want to use it
+- [11:52] after losses or to see their mistakes
+- [11:54] such they could like work on their
+- [11:55] mistakes. That turned out not to be the
+- [11:57] truth when it came to the human
+- [11:59] psychology and the actual data of it of
+- [12:01] it. And so we made some changes in the
+- [12:03] product experience. When you lose a game
+- [12:05] now as opposed to surfacing your
+- [12:07] blunders and your like horrible stuff
+- [12:09] that you did, we flip it on its head.
+- [12:11] And so we show you your brilliant moves,
+- [12:13] your best moves. And we have coach say
+- [12:15] something encouraging. You know, losing
+- [12:16] just part of learning like keep it up,
+- [12:18] that type of thing. That change alone
+- [12:21] was pretty dramatic for us. It grew game
+- [12:23] reviews by 25%, subscriptions by 20%,
+- [12:27] user retention by a lot as well. Um, so
+- [12:30] that was fantastic. But the point is
+- [12:32] that it doesn't just stop there, right?
+- [12:33] You have to take that insight, share it
+- [12:36] broadly across the company, right? Now
+- [12:39] adjacent product managers like the PM
+- [12:41] working on puzzles can now think about,
+- [12:44] okay, how do I audit these cold patterns
+- [12:45] in my product and think about making
+- [12:47] them more positive? Right? I can change
+- [12:48] the success rating. I could tweak some
+- [12:50] copy, change the color of some buttons.
+- [12:52] And so you now can take this like
+- [12:55] experiment win and expand it out 10x
+- [12:58] across your organization. And that's the
+- [13:00] kind of exploitation phase of it. So
+- [13:02] when done right, right, you can
+- [13:04] oscillate between the two until you
+- [13:05] saturate out of exploitation mode. And
+- [13:07] then you encourage the teams to to
+- [13:09] brainstorm and get more creative again.
+- [13:11] Amazing. Okay. So there's a lot here to
+- [13:12] follow up on. One is is the core piece
+- [13:15] of advice. When you find something that
+- [13:17] works really well, find ways to build on
+- [13:21] that learning. One is here's an insight
+- [13:23] it can apply to other parts of the
+- [13:25] product. Hey teams here's something we
+- [13:26] learned unexpected maybe this can help
+- [13:28] you also just keep find more like run
+- [13:31] more experiments in the same zone I
+- [13:33] imagine as a part of that.
+- [13:34] >> Yeah exactly right I mean in my
+- [13:36] experience the typical win rate and I
+- [13:39] hate to use that term for experiments is
+- [13:41] is often something like 30 to 50%. Like
+- [13:44] usually you're not actually get like
+- [13:46] you're trying a bunch of things a lot of
+- [13:47] hypotheses turn out not to be true. you
+- [13:49] know, consumer products are very
+- [13:50] unpredictable like that. But when you do
+- [13:52] find a thing that breaks through the
+- [13:54] noise, and it could actually be a hugely
+- [13:55] losing experiment, too. Those are also
+- [13:57] super valuable, right? surfacing those
+- [14:00] across the company like the original PM
+- [14:04] running that experiment doesn't
+- [14:05] necessarily need to be the person that
+- [14:07] figures out what you should do for all
+- [14:09] the other parts of your product
+- [14:10] experience but the onus is on them to
+- [14:13] clearly articulate what their hypothesis
+- [14:15] is what they found such that then as
+- [14:17] like a growth leader I can encourage
+- [14:19] people to kind of swarm around that and
+- [14:21] try a bunch of different ideas such that
+- [14:23] the success rate is up and the impact is
+- [14:25] up so it's just kind of oscillating back
+- [14:26] and forth between the two that is the
+- [14:29] magic bullet.
+- [14:30] >> I think another takeaway here slash
+- [14:32] something that I think about when I hear
+- [14:34] what you're saying is there's often a
+- [14:36] lot more wins in an area than people
+- [14:39] expect that you can continue to find
+- [14:41] wins and growth in something for a long
+- [14:45] time.
+- [14:46] >> Exactly right. Yes. Um, at the end of
+- [14:49] the day, like users,
+- [14:51] I think within a company sometimes you
+- [14:53] can have this siloed approach where you
+- [14:55] break apart the product experience in,
+- [14:57] you know, 50 different ways and
+- [14:59] distribute them across different teams
+- [15:00] and you assume that users interact with
+- [15:03] each of the different features with a
+- [15:04] different mentality, but often times
+- [15:06] that's actually not necessarily the
+- [15:08] case. And so sometimes you can surface
+- [15:09] an insight that's more, you know, human
+- [15:11] psychology based that can resonate
+- [15:13] across the entire product experience.
+- [15:15] And so I think when you can find that um
+- [15:18] you can double down.
+- [15:19] >> People hearing this might feel like okay
+- [15:22] yes uh find big wins and then find more.
+- [15:26] Is there something you find that helps
+- [15:29] you figure out when to explore versus
+- [15:32] when to exploit when you've exploited
+- [15:34] too far just like any heristics or I
+- [15:36] don't know ways of helping people guide
+- [15:38] them along this process of exploring and
+- [15:40] exploiting. One one thing that I I try
+- [15:42] to focus on at a company of our scale of
+- [15:44] like a chess.com, right? We're running
+- [15:46] roughly 250 experiments a year. So,
+- [15:49] we're not like the highest in the
+- [15:51] industry, but we run a we run a decent
+- [15:53] volume, right? And so, when that
+- [15:54] happens, I invest in these like
+- [15:56] experiment explorer tools. And we could
+- [15:58] talk about AI as well as another way to
+- [16:00] kind of uncover and pick out these
+- [16:01] nuggets of wisdom. But basically, these
+- [16:03] explorer tools can allow me to look
+- [16:05] across the spectrum of experiments that
+- [16:07] are going on, try to figure out if there
+- [16:09] are patterns between the the hypotheses
+- [16:11] and the learnings that are happening.
+- [16:13] And if I'm starting to see like more and
+- [16:15] more experiments that are not
+- [16:17] statistically significant, that may be a
+- [16:19] signal to me to say, okay, we might have
+- [16:22] kind of tried to exploit a little bit
+- [16:24] too far. Like there might not be as much
+- [16:26] juice to squeeze. Hey guys, let's like,
+- [16:28] you know, get back to the table and
+- [16:30] brainstorm and be a little bit more
+- [16:32] divergent with our thinking.
+- [16:34] >> Well, let me follow this thread on AI
+- [16:35] and how you you're using AI to help you
+- [16:38] figure this out. That is very cool. Talk
+- [16:39] about that.
+- [16:40] >> I think one of the the latest things
+- [16:42] that we've been tinkering around with is
+- [16:44] this text to uh SQL capability. It's
+- [16:47] actually pretty powerful. Um, we have
+- [16:49] this data request Slack channel where
+- [16:52] for the longest time, and this is still
+- [16:54] true today, like people will toss in all
+- [16:56] sorts of just one-off questions, you
+- [16:59] know, how many subscribers do we have in
+- [17:01] South Africa or like, you know, how long
+- [17:03] did somebody play puzzles like last last
+- [17:06] month or something? And these ad hoc
+- [17:08] questions, they often take a lot of like
+- [17:09] human time to just go in and, you know,
+- [17:11] a data analyst needs to prioritize it
+- [17:13] and find time to go run the query. And
+- [17:15] yes, you can invest in self-s served
+- [17:17] tooling to improve at this, but also I
+- [17:19] found that AI is quite good at doing
+- [17:21] that first pass answer as well. Um, and
+- [17:25] so we're working on like kind of
+- [17:27] training some of these Slack bots to
+- [17:29] essentially be the the first party uh
+- [17:32] provider of a lot of these answers which
+- [17:33] makes the company as a whole a lot more
+- [17:36] data informed, I guess. And I think
+- [17:39] what's also kind of interesting is that
+- [17:41] just human nature is that if you have a
+- [17:43] question that you feel like, you know,
+- [17:44] you might be a bit embarrassed to ask or
+- [17:46] you don't want to bother someone, you
+- [17:47] just don't ask the question, right? And
+- [17:49] so by the nature of having these tools,
+- [17:51] you get actually a pretty large
+- [17:52] explosion of questions being asked. And
+- [17:55] I think you see this in chat GBT too,
+- [17:56] right? It's like just having a thing,
+- [17:58] right, that you can converse with that
+- [18:00] you feel uh comfortable in makes a huge
+- [18:02] difference.
+- [18:03] >> Okay, this is extremely cool. So is this
+- [18:05] something you build? Basically, it's a
+- [18:07] Slack bot that gives you the SQL query
+- [18:10] or does it actually do the analysis?
+- [18:12] >> No, it does analysis. Yeah.
+- [18:13] >> Whoa. So cool. Okay. Is this something
+- [18:16] you guys are going to release or is this
+- [18:17] just like somebody you guys should just
+- [18:18] build this at every company?
+- [18:20] >> We should. It's a good idea.
+- [18:21] >> Okay. Okay. Well, there's an episode
+- [18:23] where everyone in the comments is like
+- [18:25] open source this. So, we'll see if that
+- [18:26] happens again. Uh, that is very cool.
+- [18:28] Are there other examples of that kind of
+- [18:30] stuff that you've done or seen? I mean
+- [18:32] an adjacent example is a lot of the
+- [18:34] product managers like we're are
+- [18:35] tinkering around with all sorts of
+- [18:36] different prototyping tools right now
+- [18:38] right it's just like go from an idea to
+- [18:40] a representative solution today right
+- [18:42] there's a lot of humans involved in
+- [18:44] taking an idea writing up a spec doing a
+- [18:46] review doing design etc u I'm sure
+- [18:48] you've interviewed plenty of people that
+- [18:50] have talked about this specific problem
+- [18:51] right and so for us like we've invested
+- [18:55] a bit in at least carving out the main
+- [18:58] screens of our product experience things
+- [18:59] like our onboarding flow our home
+- [19:01] screen, our chessboard as an example,
+- [19:04] and building like essentially AI
+- [19:07] prototypes of those using tools like a
+- [19:09] vzero or like a lovable, right? And when
+- [19:11] you have those foundational pieces, you
+- [19:14] can then share them with the rest of the
+- [19:16] company and they can use that as a
+- [19:17] starting point and then they can try to,
+- [19:19] you know, put their ideas on top of that
+- [19:21] and then they become a lot more
+- [19:22] discussable and hopefully testable
+- [19:24] relatively soon.
+- [19:25] >> What's in your AI stack along those
+- [19:27] lines?
+- [19:27] >> The PMs are mostly using Vzero. The
+- [19:29] designers love Figma, so they're using
+- [19:31] Figma make. Uh the engineers are using a
+- [19:33] a combination of tools right now. Um so
+- [19:36] cursor, cloud code, GitHub, copilot.
+- [19:39] >> Marketing teams use all sorts of tools
+- [19:40] for translation, subtitles, you know,
+- [19:42] content adaptations, etc. Customer
+- [19:45] support uses intercom fin. So there's
+- [19:47] quite a lot of tools that are kind of
+- [19:48] used across the company. I would say
+- [19:51] though that something that is kind of
+- [19:53] annoying to me is that we haven't yet
+- [19:55] figured out the bridging from the
+- [19:57] tinkering to the workflow quite as
+- [19:59] seamlessly as I would like. Right? And
+- [20:01] so each subfunction even though the
+- [20:03] common I guess wisdom now is that AI is
+- [20:06] going to strip away this these like
+- [20:08] functional titles. It is kind of true
+- [20:11] that based on your experience like you
+- [20:14] may gravitate to using a type of tool
+- [20:16] more and if that tool isn't as
+- [20:18] interoperable with some of the other
+- [20:19] tools that you need to pass down the
+- [20:20] chain to actually ship it into
+- [20:22] production at least at our scale right I
+- [20:24] think for smaller startups sure PM
+- [20:26] should just go ship it but for us like
+- [20:28] we are still doing some handoffs between
+- [20:30] functions I expect that to change over
+- [20:31] time and we are investing in some of
+- [20:33] like you know design system components
+- [20:35] and MCPS and stuff to make it a little
+- [20:37] bit easier but yeah it's a it's It's an
+- [20:40] investment and it takes time to to
+- [20:41] smooth things out.
+- [20:42] >> I want to come back to this topic of how
+- [20:44] things have changed and how you work as
+- [20:47] a product person, as a growth person
+- [20:48] across the companies you've been at. But
+- [20:50] first of all, I want to I want to talk
+- [20:52] about another example of finding growth
+- [20:54] wins and monetization wins. Uh Nome
+- [20:58] Leavinski who is chief product officer
+- [21:00] at Grammarly, you worked with him for a
+- [21:01] while while you were at Grammarly. He
+- [21:03] said that I need to ask you about the
+- [21:04] biggest monetization win that you found
+- [21:06] at Grammarly and how you discovered the
+- [21:09] opportunity.
+- [21:10] >> I had the pleasure of working with Gnome
+- [21:11] and his product team at at Grammarly.
+- [21:13] Um, some context first for those that
+- [21:16] don't use Grammarly. So, Grammarly is an
+- [21:18] AI powered writing assistant. And so,
+- [21:20] typically people will use it as a Chrome
+- [21:22] extension or a downloadable desktop
+- [21:24] client. And basically what it does is it
+- [21:26] overlays your writing with a bunch of
+- [21:28] different
+- [21:28] >> I use it. I'm a big fan. So, you're a
+- [21:30] big fan and it saves my life. Fantastic.
+- [21:33] Glad to hear that the Grammarly is a
+- [21:35] premium business model which means that
+- [21:37] over 90% of our users are on the free
+- [21:40] service and the rest of it pay for
+- [21:42] subscriptions essentially, right? And so
+- [21:44] one of the teams they work on subscriber
+- [21:46] conversion PM there is Kyla. Um that
+- [21:48] team's great and their job is to figure
+- [21:50] out the free to paid uh subscription
+- [21:53] path, right? And so one of the
+- [21:55] realizations one is that we weren't
+- [21:58] actually tracking um the events that
+- [22:03] well for the types of essentially
+- [22:05] suggestions that people were getting and
+- [22:06] how often were users seeing pay walls
+- [22:08] and stuff like that. That's kind of step
+- [22:09] number one. We had to put that
+- [22:10] instrumentation in. Step number two is
+- [22:13] that hey we noticed actually um first
+- [22:16] let me explain some of the logic. So, as
+- [22:18] a free user, you basically get these
+- [22:20] underlines across your writing. And if
+- [22:22] you accept all of them, um, then you see
+- [22:24] the pay wall and that encourages you to
+- [22:26] like subscribe for more nuanced
+- [22:27] features. As a free user, the main
+- [22:30] things you get are spelling, grammar,
+- [22:32] they're basically correctness things.
+- [22:33] And as a paid user, you get the like how
+- [22:35] do you improve your tone to be more
+- [22:37] empathetic? How do you improve your
+- [22:38] writing to be more clear? How can you
+- [22:40] rewrite entire sentences? That type of
+- [22:42] thing. And so the observed behavior from
+- [22:45] all that tracking and and data was that
+- [22:47] actually a very small percentage of our
+- [22:48] free users was deciding to accept all of
+- [22:53] their suggestions. They were more kind
+- [22:54] of picking and choosing as they go. And
+- [22:56] I wonder if your um experience is kind
+- [22:58] of similar too.
+- [22:59] >> Definitely because yeah I'm always like
+- [23:01] wait stop rewriting everything just like
+- [23:04] this part is wrong. I will fix. Yeah I'm
+- [23:05] very much a pick and choose direction
+- [23:08] person. And then the second thing which
+- [23:09] is I think equally if not more
+- [23:11] interesting is that you know I was at
+- [23:14] this company during this generative AI
+- [23:17] transformation which is obviously still
+- [23:18] going on right and quite frankly both
+- [23:21] the company brand as well as the like
+- [23:24] lived product experience for most of the
+- [23:25] free users was that Grammarly was just a
+- [23:28] product to fix your spelling and grammar
+- [23:30] because those were the free suggestions
+- [23:32] we were showing people right and so we
+- [23:34] decided to flip that on its head
+- [23:35] entirely and we said okay what if we
+- [23:38] actually sampled a number of different
+- [23:40] paid suggestions and interspersed them
+- [23:42] to free users right across their writing
+- [23:45] such that they were intermingled and we
+- [23:46] would provide a limited taste of what
+- [23:48] the paid offering had to provide. And on
+- [23:52] the surface like even though it's
+- [23:53] rational the the the concern is that if
+- [23:55] we give too much of this away then will
+- [23:57] people want to subscribe and we found
+- [23:59] completely like that was not the case
+- [24:01] right all of a sudden people were seeing
+- [24:04] Gramly as a much more powerful tool than
+- [24:06] they were before and our upgrade rates
+- [24:08] like nearly doubled just through this
+- [24:10] change and so I think this is
+- [24:12] interesting just modernization learning
+- [24:13] that especially if you work on a premium
+- [24:16] product try to have your free product be
+- [24:19] a reflection of like everything that
+- [24:22] your product can offer you. Obviously,
+- [24:24] to an extent, there's some costs
+- [24:26] involved with some of the paid features
+- [24:27] and things like that, but it generally
+- [24:29] will pay it for itself if you're able to
+- [24:31] put your best foot forward um and go do
+- [24:34] that. So, that really worked well for us
+- [24:36] there.
+- [24:36] >> I think this is what converted me to
+- [24:38] being a paid Grammarly subscriber. Wow,
+- [24:41] what a what a a genius move. So
+- [24:43] essentially it's here's uh here's a
+- [24:45] bunch of improvements but you you get
+- [24:47] like three I think max and then it's
+- [24:49] like okay now you get to upgrade.
+- [24:51] >> It's basically like a reverse free trial
+- [24:53] but in real time like while you're
+- [24:55] writing as opposed to a time based one.
+- [24:57] So we kind of adopted some you know
+- [24:59] patterns that are in the industry but
+- [25:01] molded it to Gramly's specific use case.
+- [25:04] >> Right. I was going to ask so it's not
+- [25:05] like a full trial. like a capped trial
+- [25:08] where you get a certain number of things
+- [25:11] and then you run out and then you they
+- [25:13] get refreshed I think once a day or
+- [25:14] something like that is what I found.
+- [25:16] >> Yeah, you got it.
+- [25:16] >> Yeah, Grammarly is uh the best slashmost
+- [25:20] devious at their upsells. I was I'm
+- [25:22] always just like god damn it. You're
+- [25:24] about you I'm so close to seeing an
+- [25:26] improvement. I just could I just have to
+- [25:28] upgrade and just like right there. It's
+- [25:30] right there where my mouse is.
+- [25:31] >> Yeah. Yeah. Well, I'm not proud of being
+- [25:33] devious, but
+- [25:34] >> devious in uh really getting me to buy
+- [25:37] the thing.
+- [25:38] >> Good job. What was it, Kyla? Okay, nice
+- [25:40] job, Kyla. It's It's very effective. I
+- [25:43] love that. And so, okay. So, in terms of
+- [25:45] the free trial, I don't know. Is there
+- [25:47] anything there of just there's always
+- [25:49] this question of premium, give things
+- [25:51] away, and then there's pro account. You
+- [25:53] get it. There's like trial versus time.
+- [25:56] Some features are limit. I don't know.
+- [25:57] Do you have like a for consumer
+- [25:58] subscription products like here's the
+- [26:00] way to go? Yeah, I think first of all,
+- [26:02] why do premium subscription in the first
+- [26:04] place is a common question that you know
+- [26:06] like I've joined all these companies
+- [26:07] that are premium subscription like what
+- [26:09] do I like about it? I guess um well one
+- [26:12] I think it ties really nicely to like
+- [26:14] mission orientation of a lot of these
+- [26:16] companies. It's often like you want to
+- [26:18] spread the product as wide as possible
+- [26:20] because that's why the founders built
+- [26:21] the thing, right? You're you're trying
+- [26:22] to like improve education with like
+- [26:24] Dualingo or you know Grammarly or
+- [26:27] chess.com. These are meant to be
+- [26:28] widespread products with a really wide
+- [26:30] value proposition that fits globally,
+- [26:32] right? And so obviously the lowest
+- [26:35] friction to that is going to be a free
+- [26:37] product. So that alone is part of it.
+- [26:39] Another part of it is that a lot of
+- [26:40] these products primarily grow through
+- [26:42] word of mouth and especially if you can
+- [26:44] build you know network effects in the
+- [26:46] product like Dualingo has a bunch of
+- [26:47] social features or with Grammarly like
+- [26:50] they have a bit of a B to C to B play as
+- [26:53] well. So you see Grammly being used by
+- [26:55] teams and by companies and whatnot,
+- [26:57] right? And even if users are on the free
+- [26:59] plan, they still provide quite a lot of
+- [27:01] value in making sure that Gramly can be
+- [27:05] purchased by a co-orker or by a team
+- [27:07] member or whatever, right? So, I think
+- [27:10] these things are are usually why I lean
+- [27:12] toward make sure that the core value
+- [27:14] proposition that you're providing users
+- [27:16] is free and is sort of permanently free
+- [27:19] and then you layer on kind of a sampling
+- [27:21] or a taste of some of the premium
+- [27:23] features that are on top of it. That's
+- [27:24] usually the sweet spot that I've seen.
+- [27:26] As to the trials, reverse trials type of
+- [27:30] thing, I think it largely depends. I
+- [27:32] think if you have especially a B2B
+- [27:34] feature where you may have some lock in
+- [27:36] reverse trials can be super powerful.
+- [27:38] You just want to get people in there.
+- [27:40] You don't need to ask for their credit
+- [27:41] card because they're using your CRM or
+- [27:43] they're investing quite a lot of time in
+- [27:45] like building out, you know, material
+- [27:47] and content. And so by the time that
+- [27:49] window drops, you actually like feel, oh
+- [27:51] man, I probably should keep this and and
+- [27:53] start paying. I think for a lot of
+- [27:55] consumer products, it's a little bit
+- [27:57] harder for that to work. And so I've
+- [27:59] typically seen more just normal free
+- [28:01] trials be be the norm.
+- [28:03] >> Let me follow this thread of just
+- [28:04] consumer subscription products. I feel
+- [28:07] like this is the category that every
+- [28:09] indie developer dreams of building a
+- [28:12] product in because it's easy to build.
+- [28:15] Cool. I'll build an app. I'll add a payw
+- [28:16] wall. And then they realize this is a
+- [28:19] lot harder than I thought from a
+- [28:20] perspective of distribution and cs and
+- [28:23] growth like that. Like is that the
+- [28:25] biggest missing piece that people don't
+- [28:27] get about building a successful consumer
+- [28:30] subscription product? Yeah, I mean user
+- [28:32] retention is gold for consumer
+- [28:35] subscription companies. If you don't
+- [28:37] retain your users, then a lot of the
+- [28:39] onus is on getting them to pay on like
+- [28:41] day one. That's super hard, right? Then
+- [28:42] you're dealing with totally different
+- [28:44] business models where you're paying for
+- [28:45] users. You're trying to like
+- [28:46] aggressively upsell them before they,
+- [28:49] you know, hit any sort of habitual usage
+- [28:51] patterns with your product. A lot of
+- [28:53] apps naturally do that because that's
+- [28:54] how they break the mold and get their
+- [28:56] first, you know, users to to do it. But
+- [28:59] I don't know, I've been fortunate to
+- [29:00] join companies sort of after that
+- [29:02] initial phase. But especially like take
+- [29:04] dualingo and chess.com these are organic
+- [29:07] word of mouth kind of driven businesses
+- [29:09] and in in kind of both ways like they
+- [29:11] grew the market right from a much
+- [29:13] smaller market and as opposed to it
+- [29:17] being a a very competitive space where
+- [29:19] you're kind of competing and taking
+- [29:20] market share from others and bidding for
+- [29:22] higher terms and stuff like that. So I
+- [29:24] don't know that there's something to
+- [29:25] that. So what I'm hearing here is you
+- [29:28] need to find a way to grow through word
+- [29:30] of mouth for this to have any chance of
+- [29:32] success and also retention needs to be
+- [29:35] very high. Do you have a heristic of
+- [29:37] what retention needs to be for you to
+- [29:39] have a chance building a successful
+- [29:40] consumer subscription business?
+- [29:42] >> I think consumer companies tend to track
+- [29:44] like essentially two main types of like
+- [29:46] user retention. There's more of like the
+- [29:48] new user one kind of D1, D7, etc. Um, I
+- [29:51] think when you have your D1 retention
+- [29:54] somewhere around like the 30 or 40%
+- [29:56] mark, like that's quite solid, I think,
+- [29:58] for for a consumer app. If it's much
+- [30:01] lower than that, then sometimes I might
+- [30:04] question like the intent of the user or
+- [30:05] this the ability for that uh you to I
+- [30:08] guess acquire just mathematically
+- [30:10] acquire enough users such that you can
+- [30:12] grow a a big enough daily active user
+- [30:14] base.
+- [30:14] >> That's surprisingly low.
+- [30:16] >> Yeah.
+- [30:17] >> So, it feels achievable.
+- [30:18] >> It's achievable. It's achievable in
+- [30:20] theory, but there are so many options
+- [30:21] out there in the market and people are
+- [30:23] feeling a lot of like app and product
+- [30:25] bloat.
+- [30:25] >> And so just to be clear, you're saying
+- [30:27] 20 to 30% of people come back the next
+- [30:29] day. You're
+- [30:30] >> 30 to 40 30 to 40 to 40% I think you're
+- [30:33] in an okay place.
+- [30:35] >> I think even more importantly, and you
+- [30:37] know, you mentioned Jorge to kick this
+- [30:38] off, but like
+- [30:40] >> you know, he wrote that very very
+- [30:41] popular article uh about the growth
+- [30:44] model, right? And how like current user
+- [30:46] retention rate was the biggest thing for
+- [30:47] them. I think especially if you have a
+- [30:49] product that has daily frequency like
+- [30:52] that's actually the retention that
+- [30:53] matters the most is that like of your
+- [30:56] existing user base that has developed a
+- [30:57] habitual pattern how sticky is your
+- [31:00] product and it's that retention rate
+- [31:01] that really compounds and build that
+- [31:03] builds that daily habit. So over time
+- [31:07] especially when companies mature a
+- [31:08] little bit you actually focus most of
+- [31:10] your energy on the existing user
+- [31:11] retention mechanics um you find that
+- [31:13] that's a much much bigger lever. One
+- [31:16] exception is that Grammarly was a
+- [31:18] different type of product in that you
+- [31:20] install it and you don't proactively
+- [31:22] open it every day. So that was kind of
+- [31:25] interesting to me because I assume that
+- [31:26] you should always just focus on existing
+- [31:27] user retention. But for a product like
+- [31:29] Grammarly, it's actually the activation,
+- [31:31] installation, aha moment that's really
+- [31:33] really critical and will carry the user
+- [31:35] for a very very long time.
+- [31:36] >> That makes sense. Like yeah, the stats
+- [31:38] would show someone's a daily active user
+- [31:40] because they're typing things and that's
+- [31:41] not an accurate stat for Grammarly. The
+- [31:44] other interesting trend I've noticed
+- [31:46] across successful consumer subscription
+- [31:48] products is they always start very
+- [31:49] scrappy and very costefficient and spend
+- [31:53] efficient because I think it's because
+- [31:56] it takes them a long time to find
+- [31:57] something that's working and they're
+- [32:00] surviving on that margin of retention to
+- [32:02] growth cost essentially.
+- [32:04] >> Yeah, that's right.
+- [32:06] >> Yeah, the and the retention piece that's
+- [32:08] such a good point. It's like my
+- [32:09] newsletter is very much along these
+- [32:10] lines. It's just like how many people
+- [32:12] are joining every day, how many people
+- [32:13] are leaving and it's it's a difficult
+- [32:16] treadmill to be on because people, you
+- [32:18] know, they want to save money, they want
+- [32:19] to spend on Netflix and things like
+- [32:20] that. So, as amazing as you are, people
+- [32:23] are always going to leave. So, the trick
+- [32:24] is how do you find more people coming
+- [32:25] than going? Yeah. And I think um just to
+- [32:28] take chess.com an example, like I think
+- [32:30] probably 80ish% of our daily or weekly
+- [32:34] active users, I mean, I'll check the
+- [32:35] numbers, but something like that would
+- [32:36] be like a current a current user or an
+- [32:39] existing user. and then a new and a like
+- [32:42] reactivated or resurrected user. Those
+- [32:44] are actually about similar size for a
+- [32:46] company of our our scale. So even though
+- [32:48] there's a lot of attention on that new
+- [32:49] user experience, it's actually like
+- [32:51] pretty interesting that the components
+- [32:53] of your active user base are actually
+- [32:55] not heavily weighed in the new user set
+- [32:58] after you mature to a certain degree.
+- [33:00] >> Can you explain that a little bit more?
+- [33:02] >> Yes. So after some period of time, you
+- [33:04] kind of stack up a lot of inactive users
+- [33:06] in your product, right? And you also
+- [33:09] stack up sporadic users, right? People
+- [33:11] that may not have a daily habit, but
+- [33:12] they will use it, you know, once or
+- [33:14] twice a week or once or twice a month
+- [33:16] type of thing. And so eventually that
+- [33:20] math sort of adds up where you have,
+- [33:22] let's say, hundreds of millions of kind
+- [33:24] of dormant users that are coming back.
+- [33:27] And it's actually worth spending some
+- [33:28] time making sure that that kind of
+- [33:31] resurrected, for lack of a better word,
+- [33:32] experience inside the product is really
+- [33:34] excellent and that you find novel ways
+- [33:37] to try to bring them back. Dualingo as
+- [33:39] an example, they did a good job of using
+- [33:40] social notifications. And so if people
+- [33:43] would use like contact sync or
+- [33:44] something, you might get a push
+- [33:46] notification that one of your like best
+- [33:47] friends just started using Dualingo. And
+- [33:49] that might encourage you to come back
+- [33:51] and resurrect into the product. And when
+- [33:53] you resurrected in the product, it might
+- [33:55] be the case that your proficiency of the
+- [33:57] language you were learning, like you
+- [33:59] were learning French three years ago,
+- [34:01] but now you like forgot most of it,
+- [34:02] right? And so when you open the app
+- [34:05] again, it encourages you to essentially
+- [34:07] replace yourself, like do another
+- [34:09] placement test and put you in the right
+- [34:10] spot. And so some of these types of
+- [34:12] mechanics for a more more mature company
+- [34:16] can uh lead to pretty good ROI, I guess,
+- [34:19] is what I'm trying to say.
+- [34:19] >> Got it. Like essentially so many of your
+- [34:22] so many people have already tried in the
+- [34:24] past that to grow you need to resurrect
+- [34:28] people that have been there and so
+- [34:30] thinking through it's almost like a user
+- [34:32] experience for resurrected users.
+- [34:34] >> Exactly.
+- [34:35] >> Okay. Let's zoom out a little bit.
+- [34:38] You've worked at three of the most
+- [34:40] successful consumer subscription
+- [34:41] products in the world. What is what is
+- [34:44] the difference between how these three
+- [34:45] operate? I think there's many ways to be
+- [34:47] successful. It feels like these
+- [34:48] companies are very different. What's
+- [34:50] kind of the gist of what each of these
+- [34:52] how they operate?
+- [34:53] >> Well, first of all, like there's
+- [34:55] obviously a lot of similarities, but
+- [34:56] I'll just focus my answer on the the
+- [34:58] differences. So, I think Dualingo, what
+- [35:00] struck me most working there is they're
+- [35:02] very particular. They have a pro an
+- [35:04] approach of product development that is
+- [35:06] infused across like everyone in the
+- [35:08] company. And they tend to they actually
+- [35:10] wrote a playbook about this. It's called
+- [35:11] the green machine. You look it up. That
+- [35:13] was one of my most successful tweets
+- [35:15] ever. I just tweeted something about
+- [35:17] Dualingo just released their playbook
+- [35:19] and I screenshotted like the the owl's
+- [35:21] butt and screen like page and it was
+- [35:24] like 5,000 likes.
+- [35:26] >> That's hilarious.
+- [35:26] >> Yeah. So yeah, keep going.
+- [35:28] >> But yeah, I mean the ethos of the
+- [35:29] company I mean they they hire a lot of
+- [35:32] intelligent, energetic people out of
+- [35:34] college basically and they give them a
+- [35:37] lot of amazing experimentation tooling
+- [35:40] and they care a lot about like the clock
+- [35:41] speed of the company, right? So it's a
+- [35:44] lot of creativity, a lot of ideiation.
+- [35:46] The product experience of Dualingo
+- [35:48] actually like changes multiple times per
+- [35:50] day for each user which is pretty
+- [35:52] shocking. And so I had never worked in a
+- [35:54] place like that before. Um but it's
+- [35:57] really struck me about how consistently
+- [35:59] the company operated and they had specs
+- [36:02] and processes for doing like each of
+- [36:04] those steps in their product development
+- [36:06] cycle and they were really really tight
+- [36:07] about it.
+- [36:08] >> Okay. So that's Dualingo.
+- [36:09] >> Yeah, that's Duolingo. Grammarly, you
+- [36:11] know, this is an interesting company
+- [36:13] because they started as a paid product
+- [36:16] oriented at students. Then they expanded
+- [36:18] into more of a premium model tailored to
+- [36:20] everyone gradually focusing more on the
+- [36:23] professional base. And then as they
+- [36:27] accumulate a lot more professionals,
+- [36:28] they realize, hey, there's patterns,
+- [36:29] right? We're seeing that a bunch of
+- [36:32] marketing teams or a bunch of sales
+- [36:33] teams or a bunch of customer support
+- [36:34] teams or whatever, right? particular
+- [36:36] functions within particular companies
+- [36:38] were really adopting Grammarly at scale
+- [36:41] and so they were able to then layer on
+- [36:44] much more of a managed kind of
+- [36:46] enterprisey motion and while I was there
+- [36:49] I was focused on the consumer self-s
+- [36:50] served motion but they weren't siloed
+- [36:53] right they were they were intermixed
+- [36:55] with each other and so a big part of my
+- [36:57] job was not just to grow like the self-s
+- [37:00] served revenue and self-s serve active
+- [37:02] users but it was also how do you uncover
+- [37:04] kind of the right
+- [37:06] uh teams, the right functions, the right
+- [37:08] companies for like demand genen and
+- [37:10] sales to go reach out to. Um so that was
+- [37:13] a very interesting it's kind of
+- [37:14] productled sales work, right? And it's
+- [37:15] really fascinating thing for me to
+- [37:18] learn. And then on top of that with all
+- [37:20] the transformation going on with
+- [37:21] generative AI and even recently with
+- [37:24] them acquiring uh KOD and superhuman and
+- [37:27] becoming more of a productivity suite
+- [37:29] like the company is just evolving pretty
+- [37:30] rapidly. It's a really exciting uh thing
+- [37:32] for me to be a part of and to see from
+- [37:34] the sidelines, but that just made it at
+- [37:36] its core kind of a different growth job
+- [37:38] than um than Dualingo for sure.
+- [37:40] >> Essentially a B2B business versus a very
+- [37:42] consumer business.
+- [37:43] >> Yeah. And a lot more meaningful
+- [37:45] strategic decisions as well.
+- [37:47] >> And then the core product team also, you
+- [37:50] know, I'm used to in growth like laying
+- [37:52] out the entire user journey that a user
+- [37:55] go through, you know, acquisition,
+- [37:56] activation, engagement, so on and so
+- [37:57] forth, right? And typically
+- [38:00] growth teams, if they're well resourced,
+- [38:03] they can do enough to move each one of
+- [38:04] these various levers, right? And it's
+- [38:06] just a matter of like the sequencing of
+- [38:08] them and what you want to prioritize
+- [38:09] first. But Grammarly was kind of unique
+- [38:11] in that the core product experience
+- [38:14] itself was what drove repeated activity,
+- [38:17] right? It's that I I previously
+- [38:20] mentioned that current user retention
+- [38:21] thing. What most drives that is the
+- [38:23] frequency and the quality of the
+- [38:24] suggestions that you get every day,
+- [38:26] right? And so it was an interesting
+- [38:27] learning in that I staffed up a growth
+- [38:29] team, tried to work on this metric, and
+- [38:30] then I realized actually like I'm kind
+- [38:32] of just getting in the way. Like this is
+- [38:34] really a thing that the core product
+- [38:35] team um most influences. Let me have a
+- [38:39] conversation with the core product
+- [38:40] leader and then shift that over to them.
+- [38:42] Um so yeah, just a super interesting
+- [38:44] experience.
+- [38:45] >> And then chess.com,
+- [38:47] >> the thing that's most unique about
+- [38:48] chess.com is that they are super
+- [38:50] fanatical like about chess. Uh
+- [38:54] >> makes sense.
+- [38:55] >> Crazy. I mean, you shouldn't be
+- [38:57] surprised. Obviously, the name of the
+- [38:58] company is like this. Um, but they've
+- [39:00] always hired people from around the
+- [39:02] world. The company's always been
+- [39:03] globally remote. They just hire people
+- [39:05] that love chess. They play all day. They
+- [39:08] watch the streams. Our Slack is always
+- [39:10] blowing up of people's chess moves and
+- [39:12] games and whatnot. You know, I think I
+- [39:15] want to say this a little bit
+- [39:16] delicately, but like Dual Lingo, even
+- [39:20] though the product they're providing is
+- [39:21] around language learning, I think the
+- [39:24] original ethos of how to start the
+- [39:26] company was really around motivation,
+- [39:29] right? The hardest thing to it's habits,
+- [39:31] right? It's how do you build that daily
+- [39:33] habit? And I actually in many ways see
+- [39:35] language learning as like their first
+- [39:36] vehicle. And what they have a superpower
+- [39:39] in is that again, the motivation, the
+- [39:42] habits, etc. So that's kind of Dualingo
+- [39:45] and Grammarly actually kind of
+- [39:46] similarly, right? Like people know them
+- [39:48] for the spelling and grammar
+- [39:49] corrections, but what's really unique
+- [39:50] about them is they they're integrated
+- [39:52] across tons and tons and tons of
+- [39:55] applications. There's not many many
+- [39:56] products that work like that. That's
+- [39:58] really unique. And so now if you hear
+- [40:00] like Shashir, their new CEO talk about
+- [40:02] like the AI superighway and all that
+- [40:04] type of stuff, right? They can now use
+- [40:06] that technology to provide a lot more
+- [40:08] than just grammar writing. And so my
+- [40:10] point is just that like chess is about
+- [40:13] chess 100%. It's in the ethos. People
+- [40:15] are crazy passionate. That just means
+- [40:17] we're always dog fooding the product.
+- [40:19] There's an just an amazing energy in the
+- [40:22] company to just use the product all the
+- [40:24] time, come up with ideas, and I love
+- [40:26] that environment. I think that's fun for
+- [40:27] me.
+- [40:28] >> That is so cool. And what I love about
+- [40:30] what you're saying is there's no right
+- [40:31] or wrong answer. All of these companies
+- [40:34] are killing it. I think Dualingo is
+- [40:36] worth like 10 billion dollars, something
+- [40:38] like that, and keeps growing. like I'll
+- [40:39] look it up in a second. Uh, and
+- [40:42] Grammarly is worth a ton and then
+- [40:44] chess.com is doing super well. So, I
+- [40:46] think that's a really interesting
+- [40:47] takeaway here is is you can succeed in a
+- [40:49] lot of different ways.
+- [40:51] >> Yeah. What's really cool about Duelinga,
+- [40:53] I was just thinking as you were talking
+- [40:54] is yeah, it's just interesting that this
+- [40:57] very structured, methodical way of
+- [40:59] building is working so well because you
+- [41:01] could listen to that and be like, that's
+- [41:03] I don't want to work like this rigid
+- [41:04] way. But the fact that it is killing it
+- [41:06] tells us this actually works really
+- [41:08] well. If you find something that works,
+- [41:10] lead into it.
+- [41:11] >> That's right. Yeah. The structure is
+- [41:14] rigid, but the ideas are the farthest
+- [41:16] away from rigid as possible, right? Like
+- [41:19] you have seen their I don't know, Super
+- [41:21] Bowl commercials, their memes, their
+- [41:23] gamification tactics. Like it's a super
+- [41:25] fun creative environment. So like Rigid
+- [41:27] is the farthest possible word to use.
+- [41:30] But what I just mean is they're they're
+- [41:31] consistent. They have templates for
+- [41:33] everything and like their product
+- [41:34] reviews are like 10 or 15 minutes. It's
+- [41:36] just people go in and out. So, it's just
+- [41:38] it's kind of a surreal environment about
+- [41:39] how rapidly and consistently they work.
+- [41:42] >> Awesome. They're worth 12 billion and
+- [41:44] they were much higher actually not too
+- [41:46] long ago. They're coming down a little
+- [41:47] bit. Uh so, speaking of Dolingo, when
+- [41:50] people think Dolingo, they think of the
+- [41:52] brand and the owl and the success they
+- [41:54] had on TikTok and things like that. I'm
+- [41:56] curious to get your take on as a very
+- [41:58] growthoriented person watching that work
+- [42:02] and your take on growth experimentation
+- [42:04] data versus marketing viral Tik Tok
+- [42:07] videos, mascots, things like that.
+- [42:09] >> Yeah, I mean I used to think it was
+- [42:10] versus, but now I realize that they
+- [42:12] combine really well. It could be rocket
+- [42:14] fuel for for your growth. Yeah, being a
+- [42:16] product person, you know, I joined a lot
+- [42:18] of these companies because they're
+- [42:19] literally on the home screen on my phone
+- [42:20] and I like I like using them and I
+- [42:22] consider myself someone that's not
+- [42:24] easily swayed by, you know, ads or TV
+- [42:26] commercials telling me what to buy. So,
+- [42:28] I always like had an element of
+- [42:31] skepticism on the marketing side for
+- [42:33] much of my career. But then yeah, you
+- [42:35] you join a place like like Dolingo and
+- [42:38] you see how do Duo the Owl has developed
+- [42:41] a personality through the push
+- [42:42] notifications and the product experience
+- [42:44] and then seeing the marketing team
+- [42:46] leverage that personality in their Tik
+- [42:48] Tok and in their YouTube and all
+- [42:50] throughout social media and just feed
+- [42:52] into those like memes and then we would
+- [42:55] track back in the product experience
+- [42:57] like how did you hear about us and put
+- [42:58] all those channels in there and some
+- [43:00] days it would be like holy like
+- [43:02] it's bringing in 20 30% % of like our
+- [43:04] new users in any given day. Um, so those
+- [43:07] two things really go hand in hand. And
+- [43:09] that feeling has only been reinforced by
+- [43:12] chess.com. You know, over the last 5
+- [43:14] years, like the first 15-ish years of
+- [43:16] this company was really under the radar.
+- [43:20] Like 800 million people play chess
+- [43:22] around the world, but most of that is
+- [43:24] over the board. Until recently, there
+- [43:26] wasn't actually that much online. But
+- [43:29] five years ago, everything changed. You
+- [43:31] had the pandemic, you had Queen's
+- [43:32] Gambit, you had a lot of like YouTube
+- [43:35] and Twitch streamers, you had a bunch of
+- [43:38] kids playing it in school, etc. And so
+- [43:41] it's really the combination of those two
+- [43:42] things that that make it take off. And
+- [43:44] it's like the growth experimentation is
+- [43:46] more the the the slow and steady or fast
+- [43:48] and steady, I should say, uh approach
+- [43:51] where you're just continually iterating.
+- [43:52] You're making the product experience
+- [43:53] better, but then every so often, right,
+- [43:55] there's a big wave that comes in. you
+- [43:57] can quadruple your, you know,
+- [43:59] registrations overnights and yeah, you'd
+- [44:01] be a fool not to take advantage of that.
+- [44:03] >> I was actually speaking at chess.com and
+- [44:05] playing chess. I was at a coffee shop
+- [44:06] this weekend. There's a like a family, a
+- [44:08] dad and mom and a daughter ordering and
+- [44:10] the dad's sitting at the table and he's
+- [44:12] just like on his phone just like opened
+- [44:13] up chess.com secretly and just playing
+- [44:16] while he's waiting. Oh man.
+- [44:18] >> Uh I will not uh admit or deny that I've
+- [44:20] done that before. But it's, you know,
+- [44:23] it's like that is if I could think of
+- [44:25] anything uh more wholesome, I I can't
+- [44:28] like that's an amazing thing to be doing
+- [44:30] while you're just,
+- [44:31] >> you know, my four-year-old can actually
+- [44:32] set up the pieces, which is pretty
+- [44:34] great. So, he he enjoys the game quite a
+- [44:36] bit.
+- [44:36] >> Oh, man. This four-year-old already a
+- [44:38] pianist playing chess.
+- [44:39] >> That's right.
+- [44:40] >> What a stud.
+- [44:42] >> This episode is brought to you by Miro.
+- [44:44] Every day, new headlines are scaring us
+- [44:46] about all the ways that AI is coming for
+- [44:48] our jobs, creating a lot of anxiety and
+- [44:50] fear. But a recent survey for Miro tells
+- [44:52] a different story. 76% of people believe
+- [44:55] that AI can benefit their role, but over
+- [44:57] 50% of people struggle to know when to
+- [45:00] use it. Enter Miro's innovation
+- [45:02] workspace, an intelligent platform that
+- [45:04] brings people and AI together in a
+- [45:06] shared space to get great work done.
+- [45:08] Miro has been empowering teams to
+- [45:10] transform bold ideas into the next big
+- [45:12] thing for over a decade. Today, they're
+- [45:14] at the forefront of bringing products to
+- [45:16] market even faster by unleashing the
+- [45:18] combined power of AI and human
+- [45:20] potential. Guests of this podcast often
+- [45:22] share Miro templates. I use it all the
+- [45:24] time to brainstorm ideas with my team.
+- [45:27] Teams especially can work with Miro AI
+- [45:29] to turn unstructured data like sticky
+- [45:31] notes or screenshots into usable
+- [45:33] diagrams, product briefs, data tables,
+- [45:35] and prototypes in minutes. You don't
+- [45:37] have to be an AI master or to toggle yet
+- [45:39] another tool. The work you're already
+- [45:41] doing in Miro's Canvas is the prompt.
+- [45:44] Help your teams get great work done with
+- [45:46] Miro. Check it out at miro.com/lenny.
+- [45:49] That's mirro.com/lenny.
+- [45:53] Okay. You talked about AI a little bit
+- [45:55] here and there. I want to follow that
+- [45:56] thread. As a growth person, I imagine AI
+- [45:59] informs chess.com in a lot of ways. So,
+- [46:01] there's kind of like two buckets here.
+- [46:02] >> How is AI changing the product, say
+- [46:05] chess and other places you worked? And
+- [46:07] then how's AI impacting your work as a
+- [46:09] growth person? So pick one or both
+- [46:12] buckets. And
+- [46:13] >> yeah, I'll tackle them in sequence. I'll
+- [46:15] start with the the chess one. Um just
+- [46:17] because I have maybe a slightly unique
+- [46:19] take on that one. So chess and AI,
+- [46:21] they've been intertwined for almost a
+- [46:23] century. Like some of the early
+- [46:24] computing pioneers, like they just
+- [46:26] figured, yeah, chess is an interesting
+- [46:27] game. We can test machine intelligence
+- [46:29] and write some algorithms. We're not.
+- [46:31] And then fast forward to like 1997
+- [46:34] and you had IBM, they had their deep
+- [46:36] blue application who actually um beat
+- [46:40] the the world champion back then which
+- [46:42] was Gary Kasparov. That was like a huge
+- [46:44] moment of like of shock and reckoning of
+- [46:48] like, oh man, is AI going to take over
+- [46:51] humans? Are we going to have jobs and
+- [46:52] like all this stuff? And this is, you
+- [46:54] know, 30 years ago. And thankfully,
+- [46:56] we're all still here and more people are
+- [46:58] playing chess than ever, right? And so
+- [47:00] the game of chess and chess.com
+- [47:02] specifically have learned how to augment
+- [47:06] I guess the human playing experience
+- [47:08] with the power of chess engines which
+- [47:10] you know are definitely a powerful form
+- [47:12] of AI. It's not LMS to be clear but
+- [47:15] there's engines like Stockfish these
+- [47:17] days that are just dramatically better
+- [47:19] than the top grand masters in the world.
+- [47:21] Like um
+- [47:22] >> is that where we're at? Is just like I
+- [47:23] remember when it beat humans and now
+- [47:25] it's just dramatically better.
+- [47:26] >> It's dramatically better. Wow. Yeah. I
+- [47:28] think there's a rating system that
+- [47:30] compares like relative skill level and
+- [47:32] an average chess player somewhere like
+- [47:34] a,000 maybe a 1500 on the high end. A
+- [47:38] top grandmaster like Magnus Carlson is
+- [47:39] like a 2,800 and then Stockfish and
+- [47:42] similar engines are like 3600.
+- [47:45] >> Wow.
+- [47:45] >> And so to put that in comparison Yeah.
+- [47:47] >> like at least it's not 10,000 or
+- [47:49] million. I don't even know if that's
+- [47:50] possible.
+- [47:50] >> No, it's it's not 10,000 but it's
+- [47:52] similar to like if the chess engine was
+- [47:54] playing without a major piece like a
+- [47:56] rook or something. they would still be
+- [47:57] competitive against the best players.
+- [47:58] So,
+- [47:58] >> and this is the ELO score.
+- [48:00] >> Yeah, the ELO score. Elo rating.
+- [48:01] >> Magnus is is what you said about 2,800.
+- [48:04] >> Yeah.
+- [48:04] >> And then the stockfish is would you say
+- [48:07] 3600 38?
+- [48:08] >> Yeah. And and really it's like it's
+- [48:09] because computing power is so amazing
+- [48:11] and there's so many techniques for how
+- [48:13] to do like deep evaluation on specific
+- [48:16] chess lines. They can calculate tens of
+- [48:18] millions per second. So, it's not
+- [48:20] realistic for for a human to compete
+- [48:22] against that. But yet like watching some
+- [48:25] of these chess engines played has opened
+- [48:26] up a lot of creativity, new strategies,
+- [48:28] new lines, new appreciation for the
+- [48:30] game. And our chess.com approach is that
+- [48:33] we can bring this technology for every
+- [48:36] user, even people that have never moved
+- [48:37] a piece before. I talked earlier about
+- [48:40] that game review product. That's exactly
+- [48:41] what this does. So behind the scenes,
+- [48:43] we're running chess engines to to
+- [48:46] basically spit out evaluations for every
+- [48:48] move that you make. And then we
+- [48:50] translate that and make that
+- [48:52] approachable to the user using you know
+- [48:54] their native language in plain
+- [48:56] approachable uh style right and even
+- [48:59] with audio and things like that as well
+- [49:01] and that part of it like the personality
+- [49:04] the speech back to the user that part is
+- [49:06] LLM and so I guess my point is that
+- [49:09] again chess and AI have been intertwined
+- [49:11] forever but for us what's most important
+- [49:13] is that we keep the customer at the
+- [49:15] north star of it. We're not just
+- [49:16] applying LLMs just because it's the new
+- [49:18] hot thing. You've got to apply the right
+- [49:20] technology for the right, you know,
+- [49:22] feature to provide value to the user.
+- [49:25] And so we never we try not to ever lose
+- [49:26] sight of that and get let let hype get
+- [49:29] us too carried away.
+- [49:31] >> It's just really surprising. I think
+- [49:34] people would not have expected. AI can
+- [49:36] outbeat every human alive ever. And we
+- [49:39] and chess is at an all-time high. People
+- [49:41] want to keep playing and are playing
+- [49:43] more and more than ever played.
+- [49:44] >> Yeah.
+- [49:44] >> Not unexpected. You know, interestingly,
+- [49:46] LM themselves are quite bad at playing
+- [49:49] chess. Like, they hallucinate moves.
+- [49:51] They look at patterns, right? They're
+- [49:53] they're very good at pattern
+- [49:54] recognition, but not so good at going
+- [49:56] super super super deep on a specific
+- [49:58] chess thing. And if you've even tried to
+- [50:00] like create or look at chessboard images
+- [50:03] on chatbt, a lot of them have the wrong
+- [50:06] number of squares. They're not set up
+- [50:07] properly. And so, you know, I don't want
+- [50:09] to be too dismissive. I'm sure it's
+- [50:10] going to get much stronger at at
+- [50:11] reasoning. And actually Google recently
+- [50:13] sponsored a tournament where all the top
+- [50:15] LLMs played a tournament against each
+- [50:17] other. Um so that was pretty fun to
+- [50:19] watch. They're improving but you know
+- [50:21] this chess is specifically a game that
+- [50:24] having a a trained you know deep deep
+- [50:26] computing engine is just going to be
+- [50:28] much much much more powerful than LLMs.
+- [50:30] >> And not to go down this track too far
+- [50:32] but uh Alpha Zero famous for beating the
+- [50:35] top Go player. I imagine that all is
+- [50:37] that was that trained specifically for
+- [50:39] Go? Obviously not an MLM, but that was a
+- [50:41] Go specific model.
+- [50:42] >> Yeah. My understanding is that the one
+- [50:45] that the documentary is incredible. By
+- [50:46] the way, I don't know if you've watched
+- [50:47] Alpha Go. It's it's it's uh it's amazing
+- [50:50] how they took something so technically
+- [50:51] deep and made it like,
+- [50:53] >> you know, so so emotional and human. But
+- [50:55] I think that's the that's the crux of
+- [50:56] how we feel, I guess, about about AIS
+- [50:59] and the products that we build actually.
+- [51:00] Um but to your point, I my understanding
+- [51:02] is that the way Alpha Zero is primarily
+- [51:05] trained is that it just plays a bunch of
+- [51:07] games against itself,
+- [51:08] >> right? And so through the neural
+- [51:09] network, it just gets smarter every
+- [51:11] time. And because it can, you know, have
+- [51:13] that repetition times, you know, a
+- [51:15] billion or a trillion, I don't know
+- [51:16] exactly what number, but it's going to
+- [51:18] get pretty damn good.
+- [51:19] >> Okay, let's go back back on track to
+- [51:21] where we were going. So this was how AI
+- [51:24] is impacting chess.com. How is AI
+- [51:27] changing the just the work of a growth
+- [51:29] person?
+- [51:30] >> I like to describe growth as the the job
+- [51:33] is to connect users to the value of your
+- [51:36] product. And in order to do that, um,
+- [51:39] what I like to do is think about that
+- [51:41] user journey again and essentially staff
+- [51:44] teams that are oriented around each
+- [51:46] element of that user journey. And those
+- [51:48] teams have specific metric goals, they
+- [51:50] have road maps, etc., and then they go
+- [51:52] run against them. So that's like how
+- [51:53] it's structured. Um, AI, I think, can be
+- [51:56] applied to speed up some elements of
+- [51:58] that essentially experiment cycle that
+- [52:01] you get through. So one example is in
+- [52:03] product discovery as opposed to core
+- [52:07] product which tends to have longer time
+- [52:09] frames and you might do like you know
+- [52:11] thorough user research or market
+- [52:12] research you know it's more it's more
+- [52:14] foundational more for first principles
+- [52:16] etc. growth is a little bit less like
+- [52:18] that. It's like you're running a lot of
+- [52:19] experiments and you're the output of any
+- [52:22] given experiment is the input like to
+- [52:24] your next idea, right?
+- [52:26] >> And so historically, I don't even I
+- [52:30] don't mean historically, but just a few
+- [52:31] months ago, right? Like we were
+- [52:32] operating in a it's got kind of history
+- [52:35] I I suppose.
+- [52:36] >> Yeah.
+- [52:37] >> Um but you know, there would be a lot of
+- [52:40] manual writing of these like analyses
+- [52:42] docs. You'd have to read them. you'd
+- [52:43] have to understand what insight you want
+- [52:45] to kind of grab from them and then write
+- [52:46] another spec to to translate that idea.
+- [52:49] That's still happening to some degree.
+- [52:51] But I think that's a spot where even
+- [52:54] tools like chatbt are super helpful,
+- [52:56] right? You can just plug in like a an
+- [52:58] analysis that another person wrote and
+- [52:59] just have it summarized for you and give
+- [53:01] you advice on, you know, ideas to go
+- [53:03] try. And so that ideation, that research
+- [53:06] cycle was much much faster. I talked a
+- [53:09] little bit about prototyping also just
+- [53:10] becoming much much faster than before.
+- [53:13] We have not yet gotten to the point
+- [53:14] where like product managers themselves
+- [53:17] are actually shipping the code into
+- [53:19] production, but it's dramatically
+- [53:21] shortened the amount of time it takes to
+- [53:24] conceive of especially like a bolder
+- [53:26] idea that you might have. And so when I
+- [53:29] talked earlier about explore and
+- [53:30] exploit, right, a lot of the explore was
+- [53:33] harder to do, but now it's a little bit
+- [53:34] easier to do. you can take a a broader
+- [53:37] concept and visualize it. And when you
+- [53:39] can visualize it, center it around the
+- [53:41] team, get people to click around it,
+- [53:42] that makes a world of difference. Um, so
+- [53:45] those are just a couple examples that
+- [53:47] come to mind.
+- [53:47] >> Awesome. I want to go back to this
+- [53:49] phrase right at the beginning of this
+- [53:50] answer that you shared that I think is
+- [53:51] really helpful that you see growth as
+- [53:54] simply your job is to connect users to
+- [53:56] the value of your product.
+- [53:58] >> Yeah. Can you speak more to that because
+- [54:00] I think that's such a nice way of
+- [54:02] clarifying what is growth's role. Yeah,
+- [54:04] I it's resonates deeply with me because
+- [54:08] I I feel like growth sometimes gets this
+- [54:12] um reputation I guess that it's just
+- [54:15] pure like metrics hacking like we're
+- [54:18] cold cold people that just are trying to
+- [54:20] move a particular metric up and we're
+- [54:21] going to do whatever it can to like you
+- [54:23] know throw walls and pay walls and add
+- [54:25] friction in all all these spots. Um, and
+- [54:29] even though that could theoretically
+- [54:30] work in at like a micro level on a
+- [54:32] specific feature or a specific metric, I
+- [54:35] think what's most healthy for a company
+- [54:37] and you know I want to work at durable
+- [54:38] companies, right? Is to think about the
+- [54:40] user holistically, right? And when you
+- [54:44] take that framing of connecting um users
+- [54:47] to the value of your product, that value
+- [54:51] can change for a user over time. And
+- [54:53] that also lines up really nicely to the
+- [54:55] journey, right? like what a uh someone
+- [54:57] that's not even a user yet needs to
+- [54:58] understand about the value proposition
+- [55:00] is super different than what a habitual
+- [55:02] user of three plus years uh might need,
+- [55:05] right? And so the teams working on them
+- [55:07] should think from that perspective and
+- [55:10] then from there right they ladder into
+- [55:13] like specific problems to solve
+- [55:14] hypotheses etc. Following the thread a
+- [55:16] little bit more people listening to this
+- [55:19] are imagining how do I get better at
+- [55:22] experimentation? How do I run more
+- [55:23] experiments? How do we do this better?
+- [55:25] What are two or three tips and best
+- [55:28] practices that you think people need to
+- [55:30] hear or maybe are not totally aware of
+- [55:32] when they think about getting better at
+- [55:34] experimentation on their teams? I think
+- [55:36] the first thing is just start somewhere.
+- [55:39] You know, I I just read this Alassian uh
+- [55:42] state of product report and it was like
+- [55:44] 40% of product teams like basically
+- [55:47] don't run experimentation at all. And
+- [55:49] there may be some good reasons for it. I
+- [55:51] mean it could be philosophical or maybe
+- [55:53] you're more you know B2B oriented or
+- [55:54] whatever. So I I get it but I think for
+- [55:57] a lot of especially if you work on a
+- [55:59] consumer product that has some degree of
+- [56:00] scale some degree of frequency with your
+- [56:03] product you can collect enough data and
+- [56:05] also I have found you know I can pattern
+- [56:07] match all day long. I've worked a lot of
+- [56:09] companies right but I'm wrong all the
+- [56:10] time and I think consumer behavior can
+- [56:12] be very fickle and especially when you
+- [56:15] work at a company you become a power
+- [56:17] user naturally. So sometimes you you may
+- [56:20] forget like what the actual user
+- [56:21] experience is for a brand new user. And
+- [56:23] so you leave a lot of opportunities on
+- [56:25] the table if you don't even try to
+- [56:26] experiment. So I just encourage taking
+- [56:28] that first step. Just run an AB test,
+- [56:31] find a third party tool or something
+- [56:32] that you can integrate quickly and or or
+- [56:34] even just work with your engineers to
+- [56:35] spin something up. Just get in the
+- [56:37] practice of, you know, crawled and
+- [56:39] walked and run type of thing.
+- [56:40] >> Do you have a favorite tool by the way
+- [56:42] just to throw out? Is there like a go-to
+- [56:44] tool for you? We used uh Stat Sig at
+- [56:46] Grammarly and I saw that they recently
+- [56:48] got acquired. So that was exciting news.
+- [56:50] Dualingo and chess.com both have an
+- [56:52] in-house experimentation approach.
+- [56:54] >> Um pros and cons to either obviously
+- [56:57] Dualingo is an experimentation machine
+- [56:59] and so it's been uh a huge accelerant to
+- [57:02] have our own thing specifically tailored
+- [57:05] to uh to be excellent at that. But uh no
+- [57:08] I I typically don't encourage companies
+- [57:11] to build experimentation in-house from
+- [57:14] day one. You know at a certain scale it
+- [57:16] can make sense and some of these
+- [57:18] companies right they were started 15
+- [57:19] years ago when these tools weren't out.
+- [57:21] So it was just something they had to do.
+- [57:22] >> Something that you mentioned to me uh at
+- [57:25] chess.com your goal is to run a thousand
+- [57:27] experiments a year. You said you were at
+- [57:28] 250. Talk about just that as a as a
+- [57:31] north star.
+- [57:32] >> Yeah. So part of having team members
+- [57:34] that are fanatical about chess is that
+- [57:36] the company can get pretty damn far just
+- [57:38] like building for themselves, building
+- [57:40] for the community and not actually being
+- [57:41] very experimentation and data oriented.
+- [57:44] The problem with that is that you can
+- [57:45] have relatively lumpy growth, right? And
+- [57:48] so part of the the kind of excitement of
+- [57:51] me joining the company was to help
+- [57:53] smooth that out and bring in that
+- [57:54] experimentation mindset. So prior to
+- [57:56] 2023, the company practically didn't
+- [57:59] experiment at all. Last year they did
+- [58:01] about 50. This year they're on pace for
+- [58:03] about 250. And then next year we have
+- [58:06] that ambitious target of a thousand. Did
+- [58:08] I make it up? Yes, absolutely. I made it
+- [58:10] up. But but it's still a target and uh a
+- [58:14] thing for the teams to to think about.
+- [58:16] And a thousand experiments by itself,
+- [58:20] like if you just did that, but you
+- [58:22] didn't learn, you didn't make an impact,
+- [58:23] and that's kind of a waste of time,
+- [58:25] right? The whole point of setting a goal
+- [58:26] is that you can have conversations about
+- [58:28] what would need to be true to actually
+- [58:31] hit that goal. And so that leads to um
+- [58:34] insights like actually we need not just
+- [58:38] product management or or engineering to
+- [58:40] be running these experiments. Um we can
+- [58:43] experiment with life cycle marketing
+- [58:45] changing copy of push notifications and
+- [58:46] emails. We can experiment with app store
+- [58:48] screenshots and you know keywords and
+- [58:50] stuff like that. There we have all sorts
+- [58:52] of content marketing teams etc. Right?
+- [58:54] We could have engineering enable no code
+- [58:57] for specific screens. Think about our
+- [58:58] home screen or our pricing screen where
+- [59:00] we might want to do a lot of just tests
+- [59:01] that are configurable without
+- [59:02] engineering support. Um we might want to
+- [59:05] just like track our progress and and
+- [59:08] look at it from time to time and make
+- [59:09] sure that we have the right, you know,
+- [59:10] observability around this. So anyway,
+- [59:13] that's the stuff that really matters as
+- [59:14] opposed to the, you know, hitting that
+- [59:16] goal um itself. So don't tell the team,
+- [59:18] but I don't actually care that much if
+- [59:20] we actually hit a thousand. But uh I
+- [59:23] think if we get pretty close and we
+- [59:24] accomplish some of these things, we'll
+- [59:25] be in really good shape.
+- [59:26] >> Okay, we'll make sure none of them watch
+- [59:28] this. Um I think chess.com is in this
+- [59:32] this is just a such a cool example of a
+- [59:33] culture shifting dramatically from zero
+- [59:36] experiments to sounds like two years
+- [59:38] later a thousand which is like three a
+- [59:42] day like you know that's you know it's
+- [59:43] there's many teams running experiments
+- [59:45] in parallel but that's a lot. What has
+- [59:47] helped you most shift that culture? Is
+- [59:50] it just the CEO being like, "This is the
+- [59:51] way we're going to go." What What have
+- [59:53] you learned about helping shift a
+- [59:55] culture from no, we're not doing
+- [59:56] experiments to a thousand experiments a
+- [59:58] year?
+- [59:58] >> Yeah, I mean, definitely a lot of credit
+- [59:59] to the the CEO and co-founders like Eric
+- [01:00:02] and Danny. They're amazing. It's not
+- [01:00:03] their intuitive way of thinking about
+- [01:00:05] growing companies, but their mental
+- [01:00:08] flexibility and encouragement, right, to
+- [01:00:10] to evolve and add this as a as a tool
+- [01:00:13] for the company has been awesome. and
+- [01:00:15] they've been on the front lines
+- [01:00:16] preaching productled growth and
+- [01:00:17] experimentation just as much as I have.
+- [01:00:19] So, I'm glad that you brought that up
+- [01:00:21] because I think that is critically
+- [01:00:22] important for me joining a company to
+- [01:00:24] not be at odds with, you know, the the
+- [01:00:26] co-founders and the existing approach of
+- [01:00:28] the company. I think that's absolutely
+- [01:00:30] absolutely critical. I think the,
+- [01:00:33] you know, I started this podcast with
+- [01:00:35] the example of the game review and the
+- [01:00:37] positivity and how that was shared. I
+- [01:00:39] mean, I think those types of things are
+- [01:00:41] really what motivate people, right? They
+- [01:00:44] need to see this working in practice.
+- [01:00:45] >> Wins
+- [01:00:46] >> you can. Yeah, you need wins. You got to
+- [01:00:48] celebrate them. People feel good about
+- [01:00:49] the learning. It's applied across the
+- [01:00:51] board. Like
+- [01:00:52] >> who's not going to be energized by that,
+- [01:00:54] I think. Right. So, um, you can't just
+- [01:00:56] set goals in a vacuum and, you know,
+- [01:00:58] create it from from top, right? People
+- [01:00:59] have to see it working and and when it
+- [01:01:01] works, like the metrics move and you
+- [01:01:03] learn faster and you ship faster and
+- [01:01:05] that that's a that's a great environment
+- [01:01:06] to be part of.
+- [01:01:07] >> What was the first experiment you guys
+- [01:01:09] ran? Do you remember?
+- [01:01:10] >> I don't know. Before my time, actually.
+- [01:01:13] Okay. Okay. Got it. So they already
+- [01:01:14] going down this track before they
+- [01:01:16] brought you in.
+- [01:01:16] >> They had run they had run it they had
+- [01:01:18] run some.
+- [01:01:19] >> Okay. Sweet. Are there any other key
+- [01:01:23] lessons that you think people need to
+- [01:01:25] know to be successful running
+- [01:01:28] experiments at scale?
+- [01:01:30] >> The system matters just as much as any
+- [01:01:32] given experiment. Probably even more.
+- [01:01:34] Right. I think starting with a growth
+- [01:01:38] model so you have an understanding of
+- [01:01:40] how your company grows in the first
+- [01:01:42] place and which channels you're going to
+- [01:01:43] leverage is critical. You need to make
+- [01:01:46] sure that you are instrumenting your
+- [01:01:47] product in and out otherwise you're
+- [01:01:50] going to run experiments and have wonky
+- [01:01:52] results. Um I won't name which company
+- [01:01:54] but I I was I was part of a company that
+- [01:01:56] had an in-house experimentation tool.
+- [01:01:58] About three months into the company,
+- [01:01:59] we're running like some experiments and
+- [01:02:02] we realized that user retention was
+- [01:02:04] actually configured backwards.
+- [01:02:06] So all positive results were negative
+- [01:02:08] results.
+- [01:02:09] >> Oh jeez.
+- [01:02:10] >> So that was kind of embarrassing
+- [01:02:12] >> and uh that will never happen again.
+- [01:02:14] >> Undo all those experiments and just
+- [01:02:16] >> drive up retention.
+- [01:02:17] >> It's kind of weird like we're seeing
+- [01:02:18] people use the the features a lot more.
+- [01:02:20] Why is user retention going
+- [01:02:21] >> going going negative? Um so I have
+- [01:02:23] plenty of horror stories around that
+- [01:02:24] type of stuff but
+- [01:02:25] >> Oh my god. On the flip side of horror
+- [01:02:27] stories, you've shared a bunch of cool
+- [01:02:28] examples of experiment wins. Is there
+- [01:02:31] another that comes to mind? If one
+- [01:02:32] you're really proud of or that was
+- [01:02:34] really trajectory changing either at
+- [01:02:36] Duolingo or Grammarly or or chess
+- [01:02:38] >> the So I already shared one of chess.com
+- [01:02:41] and one of Grammarly. I mean I could
+- [01:02:42] talk a bit about about Dualingo as well.
+- [01:02:45] >> Yeah.
+- [01:02:45] >> Um
+- [01:02:47] >> Dualingo uh and you had Jackson on the
+- [01:02:49] podcast, right? Who you talking about
+- [01:02:51] this streak?
+- [01:02:51] >> Yes. I also don't want to steal his
+- [01:02:53] thunder because I was going to think
+- [01:02:54] about that. But the amount of learning
+- [01:02:56] through um commitment and putting
+- [01:02:59] streaks on a calendar and just getting
+- [01:03:01] people started right as opposed to
+- [01:03:03] achieving some large milestone. Um that
+- [01:03:06] was huge. I I think we we did something
+- [01:03:09] interesting. We spun up a verality team
+- [01:03:12] and verality is this like really
+- [01:03:15] amorphous thing to me. I think it's
+- [01:03:16] really hard to generate verality in your
+- [01:03:18] product. But Dualingo is a product that
+- [01:03:21] is shared quite a bit. And so we
+- [01:03:23] invested actually in some time to um
+- [01:03:26] essentially add screenshot tracking for
+- [01:03:28] like a brief period of time in the app
+- [01:03:30] just so we could find out the hot spots
+- [01:03:32] of where users were doing screenshots.
+- [01:03:34] And you see this in other apps too. It's
+- [01:03:35] not necessarily like you know some some
+- [01:03:37] horrible thing. But we we did this for
+- [01:03:39] some period of time and we're able to
+- [01:03:41] basically articulate and say okay um you
+- [01:03:43] know streak milestones was an obvious
+- [01:03:45] one. Really funny challenges that you
+- [01:03:48] get in the Dualingo experience is also
+- [01:03:50] super highly shared. um advancing in the
+- [01:03:52] top three of a leaderboard is not a
+- [01:03:54] thing. Anyway, so you can find these
+- [01:03:56] different moments where that's the case
+- [01:03:57] and then we staffed those moments with
+- [01:03:59] illustrators and animators and created
+- [01:04:01] these really delightful experiences
+- [01:04:03] around them. And I that worked amazingly
+- [01:04:06] well. So as opposed to going against I
+- [01:04:09] guess human intuition and trying to get
+- [01:04:11] them to share stuff that they otherwise
+- [01:04:13] wouldn't on the margins want to share
+- [01:04:15] like lean into it more actually like
+- [01:04:17] grab the moments where users are already
+- [01:04:19] organically screenshotting and make
+- [01:04:21] those much much much better and you can
+- [01:04:24] kind of 5x or 10x and and drive a lot of
+- [01:04:26] growth that way too. So that's not so
+- [01:04:28] much an experiment that's more a core
+- [01:04:29] product thing but you know it just
+- [01:04:31] resonated with me that that was
+- [01:04:32] interesting. Well, it connects to your
+- [01:04:34] explore and exploit methodology. Just
+- [01:04:36] find where explore where things are
+- [01:04:38] happening and then try to exploit in a
+- [01:04:40] nice positive way.
+- [01:04:41] >> You got it.
+- [01:04:42] >> Speaking of that, you mentioned this
+- [01:04:43] with Duolingo is just very good at habit
+- [01:04:45] formation and motivation behavior. Feels
+- [01:04:49] like chess is good at this too.
+- [01:04:51] >> You've worked at both these companies.
+- [01:04:53] What have you learned about how to
+- [01:04:55] motivate people, how to create habits?
+- [01:04:57] again like Dualingo would not have
+- [01:04:59] started without this uh insight from day
+- [01:05:02] one, right? They they aim to to focus on
+- [01:05:04] motivation and build a lot of these like
+- [01:05:06] tactics. Um Jorge actually had this
+- [01:05:09] model of like gamification uh patterns
+- [01:05:12] having essentially three pillars to it.
+- [01:05:14] You have the core loop, you have the uh
+- [01:05:17] metagame, and then you have the profile.
+- [01:05:19] And so we actually thought about it that
+- [01:05:20] way too where you know your core loop is
+- [01:05:22] is your lesson that you go through. You
+- [01:05:24] do a lesson, you get some rewards, you
+- [01:05:26] extend your streak, and then the next
+- [01:05:27] day you get a push notification. It's
+- [01:05:29] kind of the core loop of the product.
+- [01:05:30] And making that really tight is is super
+- [01:05:32] important because people need a habit to
+- [01:05:34] stick to. Then you need a metag game,
+- [01:05:36] which for Duolingo is kind of like the
+- [01:05:38] path, but it's also the leaderboard,
+- [01:05:40] achievements, kind of long-term things
+- [01:05:41] that you're going to strive to such that
+- [01:05:43] you have like long-term, I guess,
+- [01:05:45] motivation uh to continue doing the
+- [01:05:47] thing. And then the profile is also
+- [01:05:49] critical because you build up a profile
+- [01:05:51] over time. It's a reflection of your
+- [01:05:53] investment inside the product
+- [01:05:54] experience. And so when you nail those
+- [01:05:56] three things, you can end up with a
+- [01:05:59] long-term learning journey that can be
+- [01:06:01] quite successful. And then to flip over
+- [01:06:03] to the chess.com side, like what we see
+- [01:06:05] is that over 75% of our new users, they
+- [01:06:09] classify themselves as like, I'm
+- [01:06:10] completely new to chess or I'm a
+- [01:06:12] beginner. And unfortunately, if you're
+- [01:06:14] new to chess and you're a beginner,
+- [01:06:16] you're not going to have that fun of a
+- [01:06:17] time playing live games. We see this in
+- [01:06:19] the data. It's like less than a third of
+- [01:06:21] those users actually win their first
+- [01:06:23] game. And when you lose a game, user
+- [01:06:25] retention is 10% worse than when you win
+- [01:06:28] a game.
+- [01:06:29] >> That's not so bad. But at scale, that's
+- [01:06:31] bad.
+- [01:06:31] >> Yeah. And and it could be worse. That's
+- [01:06:33] true. But and so typically what like a
+- [01:06:35] lot of mobile games will do is they'll
+- [01:06:37] just create like a super simplified
+- [01:06:38] version of the game. It's harder for us
+- [01:06:40] to do at chess. And so without changing
+- [01:06:43] the rules of that, right, I think that
+- [01:06:45] that uh I don't know, it's just very eye
+- [01:06:48] opening to me that when you're trying to
+- [01:06:52] learn something, whether that be
+- [01:06:53] language learning or or chess or
+- [01:06:54] whatever, um usually those first steps
+- [01:06:57] are fraught with, you know, a lot of
+- [01:07:00] self-doubt and reinforcement that you're
+- [01:07:02] not good at the thing. And so it's it
+- [01:07:04] pays to be very intentional to craft
+- [01:07:06] experiences that, you know, guide the
+- [01:07:08] user around that. Well, I can't help but
+- [01:07:10] ask, is there anything that helped that
+- [01:07:12] along?
+- [01:07:12] >> Yeah. So, like something we're
+- [01:07:13] experimenting right now is just like
+- [01:07:15] purely if you say that you're new to
+- [01:07:16] chess, we're going to craft a more
+- [01:07:18] delightful learn how to play experience
+- [01:07:20] as opposed to dropping into a live game.
+- [01:07:21] That's an example. Another is like
+- [01:07:23] hiding your ratings for the first five
+- [01:07:24] times such that you're not seeing your
+- [01:07:25] rating kind of plummet. Um, there's a
+- [01:07:28] lot of tips and tricks you can do.
+- [01:07:29] >> I'm just imagining a little guide that's
+- [01:07:31] like here's how you winch.
+- [01:07:32] >> Yeah. Or play play against a coach, play
+- [01:07:34] against a friend, play against a bot.
+- [01:07:36] There's there's a bunch of different
+- [01:07:37] avenues you can take. Yeah. What I'd
+- [01:07:38] love is play against someone real and
+- [01:07:39] then here's like tr here's where you
+- [01:07:41] should move. Just like here here's we're
+- [01:07:44] going to help you win
+- [01:07:45] >> like a hint in real time.
+- [01:07:46] >> Yeah. Yeah. Yeah.
+- [01:07:47] >> Well, I don't I don't want to be playing
+- [01:07:48] you then.
+- [01:07:50] >> Okay. Let me ask you a couple more
+- [01:07:51] questions. One is just zooming out a
+- [01:07:54] little bit. What's what's the most
+- [01:07:56] counterintuitive lesson you've learned
+- [01:07:58] about building products or building
+- [01:08:00] teams across the many companies you've
+- [01:08:02] worked at?
+- [01:08:03] >> Yeah, I've talked a lot about products,
+- [01:08:04] so maybe I'll flip to the team side for
+- [01:08:06] a bit. Um, I think the standard way to
+- [01:08:09] hire and build a team is, you know, you
+- [01:08:12] fill out a JD, it's got a whole bunch of
+- [01:08:14] different characteristics that you're
+- [01:08:16] looking for. You typically will find,
+- [01:08:19] you know, a short list of companies that
+- [01:08:21] are kind of similar to yours and then
+- [01:08:22] you try to hire for that, right? I think
+- [01:08:23] that's kind of the the typical default
+- [01:08:25] path that that a lot of companies take.
+- [01:08:27] And I was really struck by, you know, my
+- [01:08:29] experience working at, you know, some
+- [01:08:31] smaller startups or, you know, take
+- [01:08:32] Duelingo as an example where um over and
+- [01:08:35] over and over like I saw some of the
+- [01:08:37] highest performers just being people
+- [01:08:39] that had very high agency, had that
+- [01:08:41] clock speed, had that energy. Um, yes,
+- [01:08:44] they they cared about the mission, but
+- [01:08:46] they didn't necessarily need to have
+- [01:08:47] deep experience on that matter. And in
+- [01:08:50] fact, sometimes that experience could be
+- [01:08:51] a crutch in certain ways. Especially in
+- [01:08:54] this world where the grounds are
+- [01:08:55] shifting so fast with AI, a lot of your
+- [01:08:58] like learn habits actually need to be
+- [01:09:00] intentionally discarded. You know, you
+- [01:09:01] need to have a beginner's mind on this
+- [01:09:02] type of stuff. So, I think this is more
+- [01:09:04] true than ever. Um like looking for
+- [01:09:07] people that respond and move quickly and
+- [01:09:09] and think um
+- [01:09:12] you know just just faster and move
+- [01:09:14] faster, right? I think speed the fastest
+- [01:09:17] speed of learning uh those types of
+- [01:09:19] companies are the ones that I want to
+- [01:09:21] bet on because I think those those will
+- [01:09:23] end up uh surviving and thriving.
+- [01:09:25] >> So just to double click on this this
+- [01:09:27] idea of high agency is very uh trending
+- [01:09:30] these days of just like hire high agency
+- [01:09:32] people to unpack that a little bit you
+- [01:09:34] mentioned a few of these traits. So
+- [01:09:37] let's just help people see what you see.
+- [01:09:39] So, one is clock speed. Just they think
+- [01:09:41] fast, they move fast, uh they learn
+- [01:09:45] fast. What else what else do you look
+- [01:09:47] for that helps you see that they're high
+- [01:09:48] agency people?
+- [01:09:49] >> Yeah, I mean a lot of it actually
+- [01:09:50] happens outside of the interview
+- [01:09:52] process, interestingly. So, a lot of it
+- [01:09:54] is uh you know, the types of questions
+- [01:09:56] they asked. Have they actually tried
+- [01:09:58] your product and gone deep into it? A
+- [01:09:59] lot of it is the, you know, it's the
+- [01:10:02] references. It's the like communication
+- [01:10:04] that they have to even set up your
+- [01:10:05] interview. like it's the energy they
+- [01:10:07] bring into the conversation. You can
+- [01:10:09] actually pick up a lot of soft signals
+- [01:10:12] on some of these traits. Um yeah, over
+- [01:10:15] time you kind of pick up on some of
+- [01:10:16] these patterns. I don't know that I'm
+- [01:10:18] perfect at it, but I've I've learned to
+- [01:10:20] balance those things quite a bit more
+- [01:10:22] than I did in the past when I would just
+- [01:10:24] purely read from my questions in my
+- [01:10:25] rubric and not care about anything else.
+- [01:10:27] >> Yeah, there's like a vibes component to
+- [01:10:29] it. This is also kind of support for the
+- [01:10:31] work trial way of interviewing versus
+- [01:10:33] just a talk interview where you have
+- [01:10:34] them actually work with you for a week
+- [01:10:36] or whatever.
+- [01:10:36] >> It's a great point.
+- [01:10:38] >> Okay. Uh, one other question I wanted to
+- [01:10:40] ask you. You've worked at a bunch of
+- [01:10:41] different sizes of companies from
+- [01:10:43] startup to Grammarly. I don't know if
+- [01:10:45] it's you call it a big company, bigger
+- [01:10:47] company. Duolingo. Dualingo. I don't
+- [01:10:49] know. How big is Duelingo? Like
+- [01:10:51] >> they're about a thousand people. Okay,
+- [01:10:52] cool.
+- [01:10:52] >> Yeah. But I I worked at Google too to
+- [01:10:54] start my career. So
+- [01:10:55] >> Oh, right. Okay. What have you learned
+- [01:10:57] about just the size of company that
+- [01:10:59] makes you happy? What have you learned
+- [01:11:01] about just helping other people that you
+- [01:11:03] talk to decide what size of company is
+- [01:11:04] good for them?
+- [01:11:05] >> I I definitely believe that everyone has
+- [01:11:08] a company stage that they shine best at.
+- [01:11:10] I've personally gone through this
+- [01:11:12] journey of big tech to like tiny tiny
+- [01:11:15] tiny startup then landed in the middle
+- [01:11:17] which I consider like my own gold lock
+- [01:11:19] zone. I talked earlier about like what
+- [01:11:21] actually gives me personally a lot of
+- [01:11:23] energy is seeing across a company's
+- [01:11:27] efforts but also the company being small
+- [01:11:30] enough that I can get into the details I
+- [01:11:32] can work with the specific teams I can
+- [01:11:34] read experiment you know results I can
+- [01:11:36] look at the pixels and so I find that
+- [01:11:39] the balance of those two things tends to
+- [01:11:40] fit best with medium-sized companies but
+- [01:11:42] that's me right I think at big companies
+- [01:11:45] uh like a Google you're dealing with
+- [01:11:47] immense scale which which is interesting
+- [01:11:50] by itself. You learn a lot of best
+- [01:11:52] practices from your peers. They have all
+- [01:11:54] the kind of tools and functions that you
+- [01:11:56] would possibly want to go learn from,
+- [01:11:58] but they can tend to move slower and
+- [01:12:01] it's harder to kind of ship things and
+- [01:12:03] get them out the door, which you know
+- [01:12:04] eventually drove me nuts a little bit.
+- [01:12:06] On the flip end of the spectrum, these
+- [01:12:08] tiny startups, they move incredibly
+- [01:12:10] fast, but I grew like all my gray hair
+- [01:12:12] from those tiny startups because no one
+- [01:12:14] knows about your company. And so you're
+- [01:12:16] recruiting people one by one. you're,
+- [01:12:18] you know, trying to get users one by
+- [01:12:20] one. So, yeah, you can you can learn
+- [01:12:21] fast and ship a lot of things, but if
+- [01:12:23] you're trying to make a big impact on
+- [01:12:24] the world, it can be be actually pretty
+- [01:12:26] grueling to do so at at really really
+- [01:12:28] really small startups. Now, some of them
+- [01:12:30] do hypers scale and make it out. And um
+- [01:12:33] obviously I I'm not one to to trash that
+- [01:12:36] cuz that's the path that I tried for for
+- [01:12:38] quite a while. But for me like I really
+- [01:12:40] like the zone where I can contribute at
+- [01:12:43] scale but also execute at a pace that's
+- [01:12:46] more on like the daily and weekly scale,
+- [01:12:48] right? As opposed to monthly and
+- [01:12:49] quarterly.
+- [01:12:50] >> And when you say medium, what size of
+- [01:12:52] company is that roughly?
+- [01:12:53] >> Yeah. So um these companies that we've
+- [01:12:55] talked about in the podcast are about
+- [01:12:56] 500 to a,000 people. Typically these
+- [01:12:58] companies will have been around let's
+- [01:13:00] say 10 to 20 years. like they're
+- [01:13:01] durable, ideally profitable. Um they
+- [01:13:04] have a good leadership team, but there's
+- [01:13:06] still a lot of dimensions to go figure
+- [01:13:07] out. A lot of them are in in key
+- [01:13:10] inflection points. Um so they're
+- [01:13:13] certainly not stagnant, right? You need
+- [01:13:15] to find a place that's dynamic, too.
+- [01:13:17] >> Interesting. 10 to 20 years old. I don't
+- [01:13:20] know. That's a that's a
+- [01:13:21] >> not many people would feel like that's
+- [01:13:23] where I want to be.
+- [01:13:24] >> Uh I love that you found a number of
+- [01:13:26] companies like that that you enjoyed
+- [01:13:27] working at. Last question, and this is
+- [01:13:30] going to be taking us to a recurring
+- [01:13:32] segment on the podcast that I call
+- [01:13:34] failed corner. People hear all these
+- [01:13:36] stories of all these experiments on all
+- [01:13:37] these companies you worked at. They're
+- [01:13:38] all killing it up and to the right. Uh
+- [01:13:40] in reality, you've touched on this, a
+- [01:13:42] lot of things don't work out great. So,
+- [01:13:44] can you share a story when something
+- [01:13:47] went wrong when you failed and what that
+- [01:13:50] taught you?
+- [01:13:50] >> First of all, in the growth world,
+- [01:13:52] you're failing all the time. So, I'm not
+- [01:13:54] going to pick a specific growth story
+- [01:13:55] because those don't actually eat at my
+- [01:13:56] ego too much. But earlier in my career,
+- [01:13:59] I did a lot of core product work. Um, I
+- [01:14:01] worked for this startup called Chariot.
+- [01:14:03] I don't know if you ever lived in San
+- [01:14:04] Francisco, but
+- [01:14:05] >> yes, it was like the bus superh
+- [01:14:07] commuter shuttles, like 15 person
+- [01:14:09] shuttles. Uh, they would essentially
+- [01:14:11] drive from various neighborhoods into
+- [01:14:13] downtown San Francisco. It's kind of a
+- [01:14:15] commuting use case, a cross between
+- [01:14:17] >> like the the public bus system and and
+- [01:14:20] an Uber andyft. Um so I was there for
+- [01:14:22] some time. I led product there and you
+- [01:14:25] know the the core service was was really
+- [01:14:27] loved by its users like it was you know
+- [01:14:29] reliable and fast and you know
+- [01:14:31] affordable enough. But we got pretty
+- [01:14:35] interested in this idea that you know
+- [01:14:37] maybe we can improve utilization. Uh
+- [01:14:40] maybe we can make the service a little
+- [01:14:42] bit more innovative if we offer dynamic
+- [01:14:43] routes more similar to Uber andyft. like
+- [01:14:46] how could we like the drivers are
+- [01:14:48] driving these fixed routes but you know
+- [01:14:50] if they have spare time they can go out
+- [01:14:51] of their way go pick up somebody like at
+- [01:14:53] their house or something and like keep
+- [01:14:54] going. Um so we tried this we called the
+- [01:14:57] chariot directly interesting attempt but
+- [01:15:00] I learned a lot of lessons there because
+- [01:15:03] ultimately it didn't work out. One
+- [01:15:05] lesson is like this was kind of a
+- [01:15:06] solution searching for a problem. Like
+- [01:15:08] you never just purely want to chase a
+- [01:15:10] like, you know, wouldn't it be nice if
+- [01:15:12] we did this as opposed to you know this
+- [01:15:14] is our our user and this is the problem
+- [01:15:16] that we're solving. This is why it's
+- [01:15:17] going to delight them etc. That's kind
+- [01:15:19] of one. Second is um you got to consider
+- [01:15:24] especially in these more like
+- [01:15:25] marketplace type businesses there's more
+- [01:15:27] than just one end user and we focus so
+- [01:15:31] much of our attention on the writer app
+- [01:15:32] without realizing oh yeah the drivers
+- [01:15:35] are carrying a lot of the brunt of this
+- [01:15:37] experience and our operations team is as
+- [01:15:40] well right and so when the d the drivers
+- [01:15:42] are confused or disgruntled that can
+- [01:15:44] lead to a a challenging uh overall
+- [01:15:47] experience for for the product right so
+- [01:15:49] that's definitely another And the third
+- [01:15:50] one is like we did a lot of actually PR
+- [01:15:53] uh prior to the service going out just
+- [01:15:55] to get the word out. Um and you know PR
+- [01:15:59] has has its time and place. Uh but I
+- [01:16:01] think doing it before you have
+- [01:16:03] validation that customers definitely
+- [01:16:06] want the thing is quite risky. It can
+- [01:16:09] lead to a lot of sunk cost uh once you
+- [01:16:11] get it out because you're you're just
+- [01:16:13] you know you need to see it through. You
+- [01:16:14] want to see it succeed. So yeah this is
+- [01:16:16] a decade ago. Honestly, I had a great
+- [01:16:18] time at that company, but I still
+- [01:16:19] remember that vividly because it
+- [01:16:21] contained, you know, three or more kind
+- [01:16:24] of key lessons that carried forward as I
+- [01:16:26] have built many products since then.
+- [01:16:28] >> Yeah. Feels like you went to the
+- [01:16:29] complete other end. Run experiments of
+- [01:16:31] everything before you tell anyone about
+- [01:16:33] it.
+- [01:16:33] >> That's right.
+- [01:16:34] >> Yeah. I remember the chariot bus showing
+- [01:16:35] up at the Airbnb office and people
+- [01:16:37] getting I'm like, "What the hell is what
+- [01:16:38] the hell is this?"
+- [01:16:39] >> That's right.
+- [01:16:40] >> Very cool. I didn't know you worked
+- [01:16:41] there. Uh Albert, we've covered so much
+- [01:16:44] ground. Everything I was hoping we'd
+- [01:16:46] cover. Is there anything else that you
+- [01:16:48] wanted to cover? Anything else you want
+- [01:16:52] to leave listeners with before we get to
+- [01:16:53] your very exciting lightning round?
+- [01:16:55] >> Um, no. This is great. Like, hope it was
+- [01:16:57] useful for your listeners. I will say
+- [01:16:59] like over the last few days as I was
+- [01:17:01] prepping for this, like I I was honestly
+- [01:17:04] a little bit anxious about like, you
+- [01:17:05] know, do I have enough deep, you know,
+- [01:17:08] independent frameworks that I need to
+- [01:17:09] come up with? But just being authentic
+- [01:17:11] to my actual experience at these
+- [01:17:13] companies, you know, a lot of my lessons
+- [01:17:15] learned have been off of the backs of
+- [01:17:17] other people that have tried, you know,
+- [01:17:19] similar things and have succeeded or
+- [01:17:21] failed. And I think what's important is
+- [01:17:22] that you you have that like your mental
+- [01:17:25] sponge, right? You can try a bunch of
+- [01:17:26] different things. You can absorb them
+- [01:17:27] and then put them in practice right
+- [01:17:29] away. Discard the things that don't
+- [01:17:30] work, right? And evolve them for
+- [01:17:32] yourself and for the company's needs.
+- [01:17:35] Um, and so I I don't know. I think that
+- [01:17:37] was just a realization that I had as I
+- [01:17:39] was was thinking through this podcast.
+- [01:17:41] And I think that's partly why I haven't
+- [01:17:43] done too much public speaking.
+- [01:17:45] >> I know exactly what you mean. When I
+- [01:17:47] left Airbnb, I was just like and and
+- [01:17:49] that was the first time I ever took a
+- [01:17:51] break in my career of like like 30 years
+- [01:17:53] of just working straight in school. I
+- [01:17:55] was just like, what have I actually
+- [01:17:56] learned? I've never just sat down and
+- [01:17:59] thought about here's a thing I've
+- [01:18:00] learned. And that led me to writing this
+- [01:18:03] Medium post that did really well what I
+- [01:18:05] learned at Airbnb. And then that
+- [01:18:07] basically led to what I do now. So
+- [01:18:09] there's a lot of power and like I love
+- [01:18:10] that this is the excuse to make you
+- [01:18:13] think through what have I learned
+- [01:18:15] concretely that I can share.
+- [01:18:17] >> That's right. Thank you for that.
+- [01:18:18] >> Yeah. Yeah. And I actually so at the
+- [01:18:20] beginning of this podcast before start
+- [01:18:21] recording I always like to ask guests
+- [01:18:23] what is your goal? What do you want to
+- [01:18:25] get out of this conversation? And you
+- [01:18:27] know usually it's like we're hiring. We
+- [01:18:28] want to make sure people know about our
+- [01:18:29] company or we want to get the users. Uh,
+- [01:18:32] and your answer was just I just want to
+- [01:18:34] give back things I've learned, which I
+- [01:18:36] love.
+- [01:18:36] >> That's it.
+- [01:18:37] >> And you've done that. With that, we
+- [01:18:40] reached our very exciting lightning
+- [01:18:42] round. I've got five questions for you.
+- [01:18:43] Are you ready?
+- [01:18:44] >> I'm ready.
+- [01:18:45] >> What are two or three books that you've
+- [01:18:48] I yourself recommending most to other
+- [01:18:50] people?
+- [01:18:50] >> Yeah. The truth of it is like I have a
+- [01:18:52] not just the four-year-old, but I also
+- [01:18:54] have a one-year-old. So, most of the
+- [01:18:55] books that I'm reading these days are
+- [01:18:57] are kids books. Um, trying to make them
+- [01:18:59] laugh and all that.
+- [01:19:00] >> Wait, any favorite kids books? cuz I
+- [01:19:02] three or two year olds. Sorry.
+- [01:19:03] >> Well, you said that you started singing.
+- [01:19:05] There's a book called Snuggle Puppy
+- [01:19:07] >> that that has a song in it that just
+- [01:19:09] makes my daughter crack up. So,
+- [01:19:11] >> that is heartwarming for me. But um no,
+- [01:19:14] like a book that I recommended recently
+- [01:19:16] at work is uh Oulvie on advertising. Do
+- [01:19:19] you know this book?
+- [01:19:21] >> I don't know the book. I've seen like
+- [01:19:22] tenants of marketing.
+- [01:19:23] >> Yeah, it's interesting. So, it's 40
+- [01:19:24] years old, but it's just packed with a
+- [01:19:26] bunch of different practical examples
+- [01:19:27] about copy and creative that that work
+- [01:19:30] in, you know, these are old school ads,
+- [01:19:32] right? But, you know, he took a very
+- [01:19:35] experimentationoriented approach to just
+- [01:19:37] try a lot of things. I think in the
+- [01:19:39] book, it makes a good reminder that what
+- [01:19:42] ultimately matters is to compel your
+- [01:19:44] users to some action. You know, for him
+- [01:19:46] is like buying a product, right? It's
+- [01:19:48] not about just creating clever ads or
+- [01:19:50] sexy, you know, creatives. It's to do
+- [01:19:52] things that, you know, compel that
+- [01:19:54] action. And I think that's very true for
+- [01:19:57] many of our product and, you know, life
+- [01:19:59] cycle teams. And so I shared that around
+- [01:20:00] as a as an interesting recommendation.
+- [01:20:02] >> Is there a movie or TV show? Sorry, were
+- [01:20:05] you going to share another book?
+- [01:20:07] >> Uh, yeah, actually. So,
+- [01:20:09] >> oh, yes, please.
+- [01:20:11] >> My our co-founder at chess.com, uh, his
+- [01:20:13] name is Danny Wrench, and he is quite
+- [01:20:16] well known in the the chess circles. um
+- [01:20:18] he's releasing a memoir called Dark
+- [01:20:20] Squares and it is super fascinating. Um
+- [01:20:23] he grew up in an abusive cult and was a
+- [01:20:26] chess prodigy and so it is just this
+- [01:20:29] like
+- [01:20:31] uh unbelievable story and I'm about
+- [01:20:33] halfway through it. It's a reminder that
+- [01:20:36] sometimes the people that you work with
+- [01:20:37] you don't realize like how deep their
+- [01:20:39] pasts go. Um but this is something else
+- [01:20:41] and uh I think it should be out by the
+- [01:20:43] time this this podcast uh releases
+- [01:20:45] >> and it's called Dark Squares. Dark
+- [01:20:46] Squares,
+- [01:20:47] >> which is a reference to The Chessboard
+- [01:20:49] and also Imagine the Difficult Past.
+- [01:20:52] >> Exactly.
+- [01:20:53] >> Wow. How cool. Okay. Is there uh are
+- [01:20:57] there movie or TV shows you really
+- [01:20:58] enjoyed that you uh you've recently
+- [01:21:00] watched?
+- [01:21:00] >> I mean, these days it's football season,
+- [01:21:02] so I'm consumed by all the hot takes of
+- [01:21:05] my favorite teams that I love and the
+- [01:21:07] teams I love to hate as well. So, u
+- [01:21:10] >> Who's your Who's your team?
+- [01:21:12] >> Uh the 49ers. I have season tickets and
+- [01:21:15] uh I go all the time. We had a rough
+- [01:21:17] season last year so hope hoping to turn
+- [01:21:19] around.
+- [01:21:19] >> Okay, very cool. Okay. Uh Zerf product
+- [01:21:22] you've recently discovered that you
+- [01:21:23] really love.
+- [01:21:25] >> Yeah, so last 20 years of my life
+- [01:21:27] roughly. Uh I've moved around a lot, but
+- [01:21:29] I've always been within walking distance
+- [01:21:31] of a coffee shop. It's just like a
+- [01:21:33] ritual that I go and get coffee and it
+- [01:21:35] starts my day right. Two years ago, I
+- [01:21:38] bought a house and for the first time
+- [01:21:40] ever in my life, I'm like not by a
+- [01:21:42] coffee shop and I was so depressed about
+- [01:21:44] this for a little while. So, my favorite
+- [01:21:46] product is uh is the Breville Bowl uh
+- [01:21:48] barista and it just starts my day off
+- [01:21:51] right. Um I like making horrible latte
+- [01:21:53] art with it. And uh I think it's just a
+- [01:21:55] reminder. I don't know like the products
+- [01:21:58] that most
+- [01:22:00] um impact me I guess are the ones that
+- [01:22:02] uh I use all the time and it's a daily
+- [01:22:05] habit like my and the most caffeine. You
+- [01:22:07] got it.
+- [01:22:08] >> Amazing. Do you have a favorite life
+- [01:22:11] motto that you find yourself using uh in
+- [01:22:13] work or in life?
+- [01:22:14] >> As I was thinking about my piano
+- [01:22:16] stories, I also remember that my mom uh
+- [01:22:18] used to have a quote that's just she
+- [01:22:21] just said like nothing is more important
+- [01:22:22] than your reputation. And she used to
+- [01:22:25] say this and I think the charitable
+- [01:22:27] understanding of this is that a lot of
+- [01:22:29] the small decisions that you make each
+- [01:22:32] day, how do you treat people, how do you
+- [01:22:34] show up, what's your character, etc.,
+- [01:22:36] they can compound and they open doors
+- [01:22:38] for you in many surprising and amazing
+- [01:22:41] ways, right? Like a lot of these
+- [01:22:42] companies that have actually joined have
+- [01:22:44] come through relatively light
+- [01:22:46] connections and even just being on this
+- [01:22:48] podcast, right? I think I've I've seen a
+- [01:22:51] number of folks that I've worked with
+- [01:22:52] before uh be on this show and um so I
+- [01:22:55] think you know doing the right thing
+- [01:22:58] building a good reputation they can
+- [01:23:00] carry you a long way and the flip side
+- [01:23:01] of that is you know reputations are
+- [01:23:03] fragile too right so if you do the wrong
+- [01:23:05] thing take a long time to repair that um
+- [01:23:08] so I don't know it just stuck with me my
+- [01:23:10] entire life I thought that was a
+- [01:23:12] >> interesting life motto
+- [01:23:13] >> last question you work at chess.com
+- [01:23:15] how's your chess
+- [01:23:16] >> terrible compared to serious serious
+- [01:23:18] players pairs, but but quite good
+- [01:23:20] compared to the the casual ones. Yeah.
+- [01:23:22] My my hero rating is about 1,800
+- [01:23:25] >> for rapid games and about 1500 for
+- [01:23:27] blitz. Yeah. But I play many times every
+- [01:23:30] day.
+- [01:23:30] >> Blitz is like fast chess.
+- [01:23:32] >> Blitz is like faster chess kind of three
+- [01:23:34] minute games. Rapid is more like a
+- [01:23:36] 10-minute game, which is still pretty
+- [01:23:37] fast, but
+- [01:23:38] >> And you say you play multiple times a
+- [01:23:39] day. Is this Do they make time? Is this
+- [01:23:41] like uh like I know
+- [01:23:43] >> Okay. Like at Patagonia, uh there's a
+- [01:23:45] famous book the founder wrote called Let
+- [01:23:47] My People Go Surfing. And yeah, the rule
+- [01:23:49] at Patagonia is you can go surfing if
+- [01:23:50] the waves are great. Is that how it
+- [01:23:51] works at chess.com?
+- [01:23:53] >> Absolutely.
+- [01:23:54] >> Okay.
+- [01:23:55] >> This is always fun. So, we play all the
+- [01:23:56] time. And they even have chess coaches
+- [01:23:57] like on staff. So,
+- [01:23:59] >> staff just like you can book, say,
+- [01:24:01] >> you can book. So, I get bi-weekly
+- [01:24:02] lessons and it's helping me improve.
+- [01:24:04] >> Wow. Okay. This is going to drive a lot
+- [01:24:07] of hiring for you guys. Uh saved it for
+- [01:24:09] the end. Albert, this was awesome. Thank
+- [01:24:11] you so much for doing this. Thanks so
+- [01:24:12] much for giving back and sharing all
+- [01:24:13] these stories. Two final questions.
+- [01:24:16] Where can folks find you if they want to
+- [01:24:18] follow up on some of this stuff? And how
+- [01:24:20] can listeners be useful to you?
+- [01:24:22] >> Yeah, thanks for having me. This was
+- [01:24:23] great. Um, you can find me on LinkedIn
+- [01:24:25] or Twitter. Not a super active poster,
+- [01:24:28] but I read it all the time. Uh, if
+- [01:24:30] there's something that I said today that
+- [01:24:31] resonates with you and, you know, you
+- [01:24:33] just want to get in touch, trade notes,
+- [01:24:34] feel free to reach out.
+- [01:24:36] >> And can they play with you on like can
+- [01:24:37] they find you on chess.com to play?
+- [01:24:39] >> They can.
+- [01:24:40] >> Okay. Uh, do you want to share your
+- [01:24:42] username or you don't want that?
+- [01:24:43] >> Uh, I'm happy to. I just mentioned that
+- [01:24:46] I'm a 49ers fan, so my username is go
+- [01:24:48] niners. Uh, so wow.
+- [01:24:50] >> I'm sure I'll get a lot of game
+- [01:24:51] requests.
+- [01:24:51] >> Here we go. Here I go. 1,800. Okay,
+- [01:24:54] Albert, thank you so much for for being
+- [01:24:56] here.
+- [01:24:56] >> Yeah. Thank you so much.
+- [01:24:58] >> Bye, everyone.
+- [01:25:00] >> Thank you so much for listening. If you
+- [01:25:02] found this valuable, you can subscribe
+- [01:25:03] to the show on Apple Podcasts, Spotify,
+- [01:25:06] or your favorite podcast app. Also,
+- [01:25:08] please consider giving us a rating or
+- [01:25:10] leaving a review as that really helps
+- [01:25:12] other listeners find the podcast. You
+- [01:25:14] can find all past episodes or learn more
+- [01:25:17] about the show at lennispodcast.com.
+- [01:25:20] See you in the next episode.

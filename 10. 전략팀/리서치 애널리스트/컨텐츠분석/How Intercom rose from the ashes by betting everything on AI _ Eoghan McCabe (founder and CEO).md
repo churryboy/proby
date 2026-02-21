@@ -1,0 +1,866 @@
+## Key insight / summary
+
+- **AI 전환은 선택이 아닌 생존 문제**: Eoghan은 "AI에 올인하지 않으면 모든 것에서 쫓겨날 것"이라며 AI 전환을 생존의 문제로 규정 (ChatGPT 출시 6주 만에 Fin 프로토타입 완성)
+- **절망적 상황이 오히려 변화의 동력**: Intercom은 성장률 저하로 거의 마이너스 성장에 직면한 상황에서 "잃을 게 없는" 절박함으로 과감한 피벗을 감행
+- **Wartime Company 마인드셋**: CEO는 "전시 경영 체제"를 선언하며 기존 문화와 가치를 완전히 재정립, 효과적이지 않은 조직 부분들을 과감히 제거
+- **극단적 실행력과 리더십**: 40%의 직원 이직과 내부 반발(soft coup)에도 불구하고 CEO가 강력한 의지로 AI 전환을 밀어붙임
+- **기존 자산의 전략적 활용**: 3만 고객, 수백만 사용자, 수십억 데이터 포인트라는 기존 자산을 AI 모델 학습에 활용하여 경쟁 우위 확보
+- **Agent 기반 비즈니스로의 완전한 전환**: 단순히 AI 기능 추가가 아닌, Fin이라는 AI 에이전트를 중심으로 한 완전한 비즈니스 모델 재편 (300% 성장, 100M ARR 달성 예정)
+- **속도가 생존을 결정**: 시장에서 가장 빠르게 움직이는 기업들만이 AI 시대에서 살아남을 수 있다는 관점
+
+## Key implications for Proby platform
+
+- **AI-first 포지셔닝 강화 필요**: McKinsey 전략 문서에서 "AI avatar moderator" 컨셉이 취소선 처리된 것을 재검토해야 함. Intercom처럼 AI 에이전트를 전면에 내세운 브랜딩과 포지셔닝으로 전환하여 "Proby = AI 리서치 에이전트"라는 명확한 인식 구축
+- **절박한 고객 세그먼트 우선 타겟팅**: "잃을 게 없는" 상황의 고객들(예: 리서치 예산 부족으로 고민하는 유니콘 기업, 글로벌 진출 압박을 받는 스타트업)을 우선 타겟으로 설정하여 빠른 도입 동력 확보
+- **기존 데이터 자산을 AI 경쟁력으로 전환**: 현재 보유한 리서치 데이터, 사용자 인터랙션 패턴 등을 적극적으로 AI 모델 학습에 활용하여 품질 차별화 및 방어막 구축 (McKinsey 문서의 "data advantages" 모트 실현)
+- **Wartime GTM 전략 수립**: 기존의 점진적 확장 대신 "6주 만에 프로토타입" 수준의 극단적 속도로 핵심 고객들에게 베타/파일럿 제공하고 빠른 피드백 루프 구축
+- **완전한 Self-serve 플랫폼으로 진화**: 단순한 "모더레이티드 서베이 플랫폼"을 넘어 "AI가 처음부터 끝까지 리서치를 대행하는 에이전트 플랫폼"으로 제품 비전 확장 (리크루팅→진행→분석→리포트 전 과정 자동화)
+- **경쟁사 대비 10배 빠른 실행 속도**: McKinsey 문서의 90일 검증 계획을 30일로 단축하고, 기존 경쟁사들이 AI 기능 추가하는 동안 완전한 AI-native 플랫폼으로 시장 선점
+- **과감한 가격 파괴 전략**: 기존 리서치 대비 5-10배 비용 절감이라는 현재 가치 제안을 더욱 극단화하여 기존 시장의 판을 완전히 뒤엎는 파괴적 가격 정책 도입
+- **글로벌 확장을 핵심 차별화 요소로**: McKinsey 문서에서 언급된 "글로벌 리서치 역량"을 단순 부가 기능이 아닌 핵심 경쟁력으로 육성하여 다국적 기업들의 필수 도구로 포지셔닝
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=0_opWSfmN8M
+
+- [00:00] You don't have a choice. AI is going to  disrupt in the most aggressive violent
+- [00:04] ways. If you're not in it, you're  about to get kicked out of all of it.
+- [00:08] You have very successfully shifted late stage  SaaS business to an AI-first agent-based business.
+- [00:15] Fin is our AI agent who will pass 100 million  ARR with Fin in less than three quarters.
+- [00:20] Let's talk about how you  made this actually happen.
+- [00:22] We were about to hit $0 net new ARR, which means  we would've been in negative growth territory.
+- [00:28] So, ChatGPT launches. Was it just like this  is it, we got to go all in on this thing?
+- [00:32] I said, we need to become a wartime company. If  we don't fight for this, we are dead. I jumped
+- [00:39] hard on AI, but I also restarted the culture.  I rewrote the values designed to be a sharp
+- [00:44] knife to cut out the parts of the company  that I just knew wouldn't be effective.
+- [00:48] If you're trying to make the  shift and it's just not moving,
+- [00:50] you may need to go hardcore founder mode.
+- [00:52] The way that greatness is created is that you find
+- [00:54] a CEO who's willing to make brave  hard decisions and own the results.
+- [00:59] What percentage of the employees kind  of turned over during this period?
+- [01:02] Ultimately like 40%.
+- [01:04] You said there was a soft coup. Is  there more you could share about that?
+- [01:09] Today my guest is Eoghan McCabe. This is the first  in a series of conversations that I'm having with
+- [01:13] founders who have successfully transformed their  established SaaS or marketplace businesses into an
+- [01:19] AI first company that is growing like crazy and  overtaking their decade plus old business. So,
+- [01:24] many companies and product teams and founders  are trying to navigate this very tricky time
+- [01:29] where every industry is being disrupted by AI,  and my goal here is to help you essentially
+- [01:33] disrupt yourself before somebody else does. The  story of Intercom's transformation into Fin is
+- [01:38] incredible. Their traditional business was valued  at billions of dollars, was making hundreds of
+- [01:43] millions of dollars in ARR, but growth started  to plateau and was even about to go negative.
+- [01:48] Six weeks after GPT-3.5 Came out, they had a  working prototype of what is now Fin and Eoghan
+- [01:54] and the team decided to go all in on AI. Today Fin is growing like crazy already
+- [01:59] at eight digits in ARR and Intercom is on track  to be growing faster than every public software
+- [02:04] company by next year. In our conversation,  Eoghan gets very real and honest about what
+- [02:09] it takes to win right now. What do you have to do  to turn the ship around at Intercom in spite of a
+- [02:14] lot of pushback and even a soft coup attempt,  what he believes people still don't understand
+- [02:19] about what is happening in software and AI  and so much more. If you enjoy this podcast,
+- [02:24] don't forget to subscribe and follow it in your  favorite podcasting app or YouTube. Also, if you
+- [02:28] become an annual subscriber of my newsletter,  you get a year free of a bunch of incredible
+- [02:33] products including Lovable, Replit, Bolt n8n,  Linear, Superhuman Descript, Whisper Flow,
+- [02:38] Gamma Perplexity, Warp, Granola, Magic Patterns,  Raycast, [inaudible 00:02:42] and Mobbin. Check
+- [02:42] it out at lennysnewsletter.com and click  bundle. With that, I bring you Eoghan McCabe.
+- [02:48] This episode is brought to you by Great Question  the all-in-one UX research platform. Loved by
+- [02:53] teams at Brex, Canva, Intuit and more. One of the  most common things I hear from PMs and founders
+- [02:58] that I talked to is I know I should be speaking to  customers more, but I just don't have the time or
+- [03:03] the tools. That's exactly the gap Great Question  fills. Great Question makes it easy for anyone
+- [03:08] on your team, not just researchers, to recruit  participants, run interviews, send surveys, test
+- [03:13] prototypes, and then share it all with powerful  video clips. It's everything you need to put your
+- [03:18] customers at the center of your product decisions.  With a prompt as simple as why did users choose us
+- [03:23] over competitors, Great question not only reveals  what your customers have already shared, but it
+- [03:28] also makes it incredibly easy to ask them in the  moment for fresh insights from the right segment.
+- [03:32] Picture this, your roadmap's clear, your team's  aligned, you're shipping with confidence and
+- [03:37] you're building exactly what your customers need.  Head to greatquestion.com/lenny to get started.
+- [03:44] This episode is brought to you by WorkOS. If  you're building a SaaS app, at some point your
+- [03:49] customers will start asking for enterprise  features like SAML authentication and SCIM
+- [03:55] provisioning. That's where WorkOS comes in, making  it fast and painless to add enterprise features
+- [04:00] to your app. Their APIs are easy to understand so  that you can ship quickly and get back to building
+- [04:05] other features. Today, hundreds of companies  are already powered by WorkOS, including ones
+- [04:11] you probably know like Vercel, Webflow and Loom.  WorkOS also recently acquired Warrant, the fine
+- [04:19] grain authorization service. Warrant's product  is based on a groundbreaking authorization system
+- [04:24] called Zanzibar, which was originally designed  for Google to power Google Docs and YouTube.
+- [04:30] This enables fast authorization checks at enormous  scale while maintaining a flexible model that can
+- [04:35] be adapted to even the most complex use cases.  If you're currently looking to build role-based
+- [04:41] access control or other enterprise features  like single sign-on, SCIM or user management,
+- [04:47] you should consider WorkOS. It's a drop-in  replacement for Auth0 and supports up to 1 million
+- [04:53] monthly active users for free. Check it out at  workos.com to learn more. That's workos.com.
+- [05:02] Eoghan, thank you so much for being  here and welcome to the podcast.
+- [05:09] Thank you. Great to be here.
+- [05:10] You have done something quite extraordinary  with Intercom, something that a lot of founders
+- [05:15] and product teams are trying to do, which  is to navigate this very scary disruption
+- [05:20] that's happening as a result of AI to most  businesses. You have very successfully shifted,
+- [05:27] as you described, a late-stage SaaS business to  an AI-first agent-based very successful business.
+- [05:35] I want to use the time to extract as much  as I can out of your journey so that people
+- [05:39] that are trying to navigate this and having a  hard time can have less pain, less suffering
+- [05:44] and will hopefully get to something that works.  To give people a sense of just how well things
+- [05:48] have gone. Can you share some stats about the  current state of the business, how it's going?
+- [05:53] Currently across the business we benchmark  ourselves against all public software companies.
+- [05:58] There's like 120 something B2B software companies.  We're like in the 15th percentile for ARR growth,
+- [06:03] so we're up there. Fin, which is our AI  agent, which is the future of the business,
+- [06:09] the thing that will disrupt the old  business. It's growing north of 300%.
+- [06:15] It took off really fast like all these other  AI companies you hear of the first year,
+- [06:19] it grew from one to 12 million ARR. We're now  in solid mid eight digit ARR growth there,
+- [06:26] we'll pass 100 million ARR with Fin in  less than three quarters. And yeah, Fin,
+- [06:33] we're in the customer experience category with  Fin, so it's one of these agents that helps do
+- [06:37] all your customer work and they all started  with service and in that category we are the
+- [06:43] biggest by customer count, biggest by revenue,  best by performance benchmarks. We win all our
+- [06:49] head-to-heads and our direct competitor  bake-offs. We're rated number one on G2,
+- [06:55] so I think we're doing pretty well. We're doing  far better than we imagined at this point.
+- [07:00] Okay. This sounds like the dream for a lot  of founders, especially ones that are stuck
+- [07:05] with their existing business that isn't going  very far. So, let's get to that. Let's talk
+- [07:08] about the beginning of this journey. You had  a business that was working, people used it,
+- [07:12] loved it, over 100 million ARR I believe.  Talk about just the state of the business at
+- [07:18] the point roughly when you decided I really  need to make a big change and go AI first.
+- [07:23] It was already in the hundreds of millions,  Intercom is 14 years and change now. Part of
+- [07:30] the story is that in 2020 I had been sick for a  couple years. The background is I had mold toxins
+- [07:36] and later I found out that I got a tick bite and  that messed me up. And so I left the CEO role in
+- [07:42] 2020 and a lot of the mistakes I had been making  when I was sick got worse. We became what a lot
+- [07:54] of late stage software companies are today,  which is a bit bloated. We lost some energy.
+- [08:01] Our strategy was diluted and unfocused. We're  trying to do all the things for all the people.
+- [08:06] We didn't know what problems we  were already solving and for who,
+- [08:09] and the result was very slow revenue  growth in the low single digit percent
+- [08:17] and I was away for two years unsatisfied where the  business was going. We had this post COVID sugar
+- [08:26] rush, which a lot of big companies at that stage  did in 2021. Everyone's valuation and revenue was
+- [08:34] through the roof and that hit a lot of problems in  a lot of these companies and we had five quarters
+- [08:43] of success of sequential decline in our net new  ARR and we were about to hit $0 net new ARR which
+- [08:54] means we would've in negative growth territory.  We never got there. I managed to stop it before
+- [08:58] we got there, but we were falling each quarter  and I found that I, despite my wishes to go and
+- [09:08] have new adventures, still had a lot of pride  for this damn thing and didn't want to see it.
+- [09:15] And in a way that was so different from the way it  started, it started with so much hope and optimism
+- [09:22] like so many companies do, and it was about to  fade away. So, that was when I felt like I need
+- [09:26] to go back and I need to make a change. I went  back and one month later ChatGPT was announced,
+- [09:33] so it would be really neat and tidy to be able  to say that the AI transformation came, I knew
+- [09:41] I couldn't be on the sidelines, I had to save  this thing from the coming disruption. Actually,
+- [09:47] I got whacked across the head by this AI  thing, but it also ended up being a gift.
+- [09:54] So, ChatGPT launches, was it just like this is it,
+- [09:58] we got to go all in on this thing? Was  it like, hmm, let's watch this thing?
+- [10:02] How quickly was it clear that this is the  future, this isn't working what we're doing?
+- [10:06] We and I were very lucky and that we had an  AI group already. We were in the customer
+- [10:13] communication business, chiefly doing customer  service. We were building bots, but they were
+- [10:18] rudimentary AI. We had a bunch of our own machine  learning that did Q&A for customer service, but it
+- [10:25] required a phenomenal amount of setup and was kind  of crappy. But we had a number of AI engineers in
+- [10:31] the company already, and so when GPT 3.5 came out,  they said, this is different and it didn't take
+- [10:38] long for people to start to imagine that this  is going to be pretty disruptive to service.
+- [10:43] And it started where we imagined that this was  going to just wreck everyone selling seats,
+- [10:50] everyone in the conventional SaaS game. And we believed that was quite possible for
+- [10:55] some couple years after that moment. But we were  only six weeks into the launch of GPT 3.5 when we
+- [11:05] actually had a beta version of Fin. I got a text  from Des, my co-founder, a week or so after the
+- [11:13] launch of GPT 3.5 and he said, "The AI team have  something interesting and they actually think we
+- [11:20] could make a product out of this." And this was  long before there's now no doubt 100 service
+- [11:26] agents. We had something very early working and  part of what we had to our advantage also was that
+- [11:31] we had this giant base 300, sorry, 30,000 paying  customers, hundreds of thousands of active users,
+- [11:40] millions of their users, billions of data points. So, we had a lot to play with and so we jumped on
+- [11:46] it. Now obviously it's fun to tell that once  again to the idea of this brave Maverick move,
+- [11:56] and I won't discount the fact that we were brave,  but we were coming from a point of having nothing
+- [12:01] to lose. So, we certainly are unique. I don't  know a single company of our size and age that has
+- [12:10] pivoted this hard to AI and being as successful  as we have been, but we also previously were
+- [12:17] screwed. We were in a really tough spot, so had  no choice. So, I'll take the kudos and credit,
+- [12:21] but also have a lot of empathy for companies that  weren't as in as much trouble as we were, and
+- [12:27] so try to thread the needle and sustain the old  business while adding to it with the new AI stuff.
+- [12:34] Something I heard from someone that worked at  Intercom, correct me if this is not correct,
+- [12:38] you've always been very anti-bot in the  customer support business because you
+- [12:44] didn't like how impersonal it was. It just didn't  feel like the way you wanted to build a business,
+- [12:47] and then now that's what you do.  Talk about just that transition.
+- [12:50] Yeah, I know it's a fun and ironic twist. Our  mission from the early days was make internet
+- [12:58] business personal. And when I came back and we  started to lean into AI, I started to wonder,
+- [13:03] does that mission make any sense anymore?  Now, part of our lean into AI is that we had
+- [13:08] no choice not only for the business, we needed  something new, but also we saw that this is the
+- [13:13] future and you can't fight the future. You must  be part of it. And so okay, fuck, we're going
+- [13:17] to be part of it. And ultimately, and it's very  easy to tell yourself these little stories. So,
+- [13:26] I'm open to anyone telling me this is bullshit,  but when I interrogate myself, my soul and my
+- [13:34] mind, I don't think it is, when I interrogate  my heart and my mind, I don't think it is.
+- [13:43] But I'm now of the belief that providing a  customer with a highly engaged, instantly
+- [13:54] available expert, consistent, fast, charismatic,  funny, friendly, personal agent available for
+- [14:04] literally every single customer every minute of  the day around the clock is so much more personal
+- [14:11] than making them wait 2, 3, 4 days for a crappy  canned response. And so that's the irony and
+- [14:23] the magic and the wonder of AI, even if it does  make us ask some hard questions of ourselves and
+- [14:32] think carefully about its impact on humanity, it  actually is superior at the things we describe as
+- [14:44] personal and human, relative to humans themselves.  And so that's where I'm at today. Yeah, maybe
+- [14:51] it's a bunch of fancy post rationalization,  but honestly that's really where I stand.
+- [14:59] I think data has shown people often  prefer not to talk to humans just to
+- [15:03] solve problems that can just be solved.  It's a lot of stress to try to figure
+- [15:07] out how to talk to some support agent that  doesn't know anything about what's going on.
+- [15:11] Yes, and the AI is just better. Look at  Waymo. So, Waymo doesn't crash. It has 3.5
+- [15:20] times less crashes than humans. It doesn't bother  you or bug you. I like to chat with an Uber driver
+- [15:28] as much as the next guy, but not always. It  doesn't have hygiene problems. It doesn't
+- [15:33] take wrong turns. I mean it just doesn't  do all these things that really bug people.
+- [15:39] And it's really interesting to see Uber now offer  women the option to call only female drivers,
+- [15:50] and I guarantee the reason they're doing that is  because women love Waymo because they feel safer.
+- [15:57] AI is so often superior and humans are going to  be far better at other things. I'm pro-human,
+- [16:04] I love humans. I really want humans  in the mix for all things in the rest
+- [16:10] of my life, but when it comes to practical,  productive, efficient, and effective value,
+- [16:16] the glue in between the human parts of our  lives, I actually want AI and robotics.
+- [16:21] Before we start talking about how you actually  made this transformation a success, one other
+- [16:25] piece of history is just your pricing strategy  historically has been not liked by people.
+- [16:31] For example, I once had a Twitter poll  or a survey on my newsletter just like
+- [16:35] what products do you pay the most for of all  your SaaS products? And Intercom's by far the
+- [16:39] most. I know people constantly complain about  just how unclear it was and how high it was,
+- [16:43] and now you guys are at the forefront of how to  price AI products. So, we're going to get to that,
+- [16:48] but just talk about the lessons and what  happened there with pricing back in the day.
+- [16:53] Yeah, so I want to just validate your survey  data. Yes, people abhorred our pricing.
+- [17:00] It was a meme. There were actual funny popular  viral memes on Twitter that were making fun of
+- [17:08] our pricing. Part of the problem, if not all of  the problem, well, there's two problems. One was
+- [17:16] our strategy, super unfocused. As you said, we're  trying to do all the things for all the people,
+- [17:21] and when you're trying to do all  the things for all the people,
+- [17:25] your efforts to capture all that different types  of value are going to necessitate pretty complex
+- [17:34] pricing. If you're like customer service  and you're selling seats and you're doing
+- [17:39] outbound messaging and you need to charge for  messages and you're doing like SD or Messenger
+- [17:43] on a website and you need to charge for leads,  already that's just metrics in every direction.
+- [17:49] And then if you're trying to sell to many  different sizes of customers, you need tiers
+- [17:54] and gates and it just became a behemoth. So,  part of the problem was the unfocused strategy,
+- [18:01] and then the other part of the problem was an  unwillingness to frankly make bold decisions,
+- [18:08] say no, pick a lane and actually take pain  in the short term for the long term. We
+- [18:14] rolled out this new pricing, and this is even  before the Fin pricing you're talking about.
+- [18:18] When I came back and I said, "Yes, we're going to  lose a lot of revenue here." I can't remember how
+- [18:24] much we wrote down, but we actually have already  given away something like $50 million in ARR.
+- [18:32] We've reduced the prices for a lot of customers  just to give them way simpler pricing because
+- [18:38] surprise, surprise, when people feel like  they have far simpler, more predictable,
+- [18:43] fairer pricing, they'll stick around longer and  it creates so much more ease in the company and
+- [18:52] promotes a healthier relationship with the  customer too. When our people saw that we
+- [18:57] were screwing customers effectively in every  direction, it starts to erode the idea that
+- [19:04] we care about our customers and then they  make other customer-unfriendly decisions.
+- [19:08] And so one of the values I promoted when I came  back was that we would be customer-obsessed,
+- [19:11] and so we had to kill our old pricing  and give away a lot of revenue. So,
+- [19:16] that was the spirit behind the changes. But we can  talk about the Fin pricing if you want to also.
+- [19:22] Let's save that because that's a really  important topic that I think people need
+- [19:26] to hear. Let's talk about the shift and how you  made this actually happen. You make it sound like,
+- [19:32] oh, not fully, but it's oh, we have to  do, it wasn't working anyway. There's
+- [19:37] no risk to go all in on this AI thing.  You're making $150 million a year ARR,
+- [19:41] you're worth at least a billion dollars  at that point as a business. Yeah.
+- [19:45] I mean multiple billions.
+- [19:46] Multiple billions.
+- [19:46] We were making more money than that, so we  were like multiple hundreds of millions.
+- [19:50] Yeah, okay. Very difficult to actually  do even if things don't feel like they're
+- [19:55] growing anymore. So, first of all, just  what was the moment, if there was one,
+- [19:58] of just like, okay, the six-week experiment  of someone building a Fin internally,
+- [20:03] was that being like, this is it, or was there  another moment of like, let's go all in on this?
+- [20:07] It was the combination of the company being older,  us all, me and the founders being impatient like,
+- [20:16] are we going to make something out of  this? We went through a time when the
+- [20:20] company was worth a lot. We're private  so we don't have a daily mark to market,
+- [20:25] but all the other public software companies  dropped 80%, 85, 90%. We saw our revenue growth
+- [20:33] crater. We were used to nice double digits. We  were in low single digits. And so part of it was,
+- [20:42] let's do something here. Another part of it was my  own anger and dissatisfaction with how the company
+- [20:50] was being run and the mistakes that I made myself.  I made a lot of compromises as a lot of founders
+- [20:56] and founding CEOs do to placate employees or do  it out fear to bring investors along, following
+- [21:09] advice in the industry and best practices. You betray your intuition in little bits and
+- [21:17] pieces over the years when the bright spark  of your original idea turns into this big,
+- [21:24] unstoppable, scary corporate beast and a little  bit of you dies every single time you go and
+- [21:31] betray yourself in that way. If you could pick  in your mind three or four tech darlings from 10
+- [21:40] years ago when you meet the CEO and talk to them  privately, very few of them feel outstanding about
+- [21:47] the state of their culture and the decisions that  they make and the way in which they have to work.
+- [21:52] All of them have betrayed themselves in little  ways, and I had left the business, I was super
+- [21:59] sick, I was burned out frankly from the revenue  even having started to slow down before I left.
+- [22:05] I had been attacked unfairly in the press, just  all of me was just fed up and I decided to take
+- [22:13] a very authoritarian, top-down, aggressive  founder-first approach to all the things,
+- [22:21] and I found that deeply cathartic and that was  the thing that led to me in part. The other was
+- [22:31] just good old-fashioned logic and the other was  desperation saying, we're doing the AI thing,
+- [22:37] the AI thing, exciting and sexy. We need some  new energy thing here. The new AI thing makes
+- [22:44] sense. And also just my intuition says, go  for it. And so when people tell these stories,
+- [22:52] they rewrite history in their minds for  the stories to be elegant and also so
+- [22:59] that they support their own self-aggrandized  narratives about their brilliance. Actually,
+- [23:04] it's a big messy cocktail of things. And anyway,  that's my attempt at explaining the cocktail.
+- [23:10] I saw a stat that when you first launched,  when you first had this kind of prototype,
+- [23:15] you were losing money on every transaction  that you're charging like a dollar,
+- [23:19] it cost you $120, something like that.
+- [23:23] That's right. 120 cents. Yeah, yeah.
+- [23:24] 120 cents. Okay. So, there's  a lot of vision here if this
+- [23:29] is going to get to a place where this  actually will be great and affordable.
+- [23:33] It's really funny. We charge 99 cents to resolve  tickets, customer problems, and we have a higher
+- [23:42] resolution rate than anyone else, and we are proud  of that and we obsess over that. It is the metric
+- [23:48] by which these agents are assessed, and we wanted  our revenue to be 100% aligned with the value that
+- [23:58] they attained because we had all this scar tissue  from pricing prior that felt unfair to customers.
+- [24:04] So, we said, what's the most fair that we can  possibly find? Now, when we did all our research,
+- [24:09] we found that many SaaS businesses were spending  between 20 and $30 per ticket resolved. We
+- [24:16] were spending 22. Now, consumer businesses,  maybe they go down to $5. We were thinking,
+- [24:26] can we charge $10? That seems fair. It's half  price. Can we charge $5? Can we even charge
+- [24:32] two and a half dollars? But early on we started to  sense that people just wouldn't value the digital
+- [24:40] work as much as the human work, even though  the digital work is better, more consistent,
+- [24:46] always available, makes the customer far happier. And so we actually started to lean into a price
+- [24:52] that we thought would be was the nexus between us  earning the most and it being the most palatable.
+- [25:00] We basically said that if someone is not prepared  to pay 99 cent for us to rapidly and elegantly
+- [25:09] perfectly and excellently solve their customer's  problem, we need to wrap this up. We don't have a
+- [25:15] business here. So, that was where the 99 cent came  from. I always believe that that pricing should
+- [25:23] come from value and not from costs. The cost is  our problem. We just had this sense and intuition
+- [25:28] early on that this thing will get cheaper and it  got a lot cheaper. The margin moves around, but we
+- [25:36] make a margin that makes this more than worth our  while, and we know our customers get an excellent
+- [25:43] deal and are able to deliver to their customers  a level of service that they never could before.
+- [25:50] It's a very clear pitch. We just had  Madhavan the podcast and the pricing expert,
+- [25:56] and he has this phrase, beautifully simple  pricing is where you want to get to. Also,
+- [26:00] he's a huge fan of outcome-based pricing,  which is what you're describing here,
+- [26:03] where you pay for an outcome. So, you guys are  in the magic quadrant of his pricing advice.
+- [26:07] Yes, thank God our pricing wars are over.
+- [26:10] Finally.
+- [26:11] Yeah.
+- [26:12] Okay, so going back to how you  actually did this thing. So,
+- [26:15] basically you described what many people think of  now as founder mode, just top down, as you said,
+- [26:21] the third area, and just here's what we're  doing. We're not going to sit around waiting
+- [26:24] for you to give me ideas. What did you  do? What did that look like internally?
+- [26:31] There was a couple of things. One was we  were burning a lot of money, so I cut a
+- [26:36] lot of costs aggressively. Canned a bunch of  different projects. We had this big glorious
+- [26:41] office we were about to fit out and I'm like,  we're about to hit negative growth territory,
+- [26:47] stop it. And a lot of companies were really  stuck in the prior world where they just
+- [26:53] were used to being super successful, rich and  wealthy and spent like drunken sailors. So,
+- [26:57] I stopped all of that, got really frugal in  ways I never thought I would. I still haven't
+- [27:03] touched the interior design of this office. I'm  in here, even though I call it the hotel Marriott,
+- [27:07] I'm sick of it. Anyway, that was one. Another  was picked a lane. Strategically we were all
+- [27:15] over the place and I said, "We're doing service."  Zendesk had been acquired a couple years prior.
+- [27:20] They were strategically, energetically, culturally  dead. They were upsetting customers in the
+- [27:25] market. There's an opportunity there. We're  doing service, forget all the other stuff,
+- [27:28] even though there was a lot of people in the  company saying, well, shit, we still have $80
+- [27:34] million of ARR that we're getting from the other  thing and we're really good at that, and there's
+- [27:40] a big opportunity. There's other companies in this  space worth billions. It was the type of decision
+- [27:45] that where I had to practice the professional  CEO approach, which is, "Hey folks, what do you
+- [27:52] all think? Let's take everyone's input. Let's  put it all down on a spreadsheet." Everyone
+- [27:56] had color beside all of the different options that  we may take. Let's make a group decision. I said,
+- [28:03] "Sorry, this is what we're doing." So,  I was very dictatorial in that respect.
+- [28:07] We had no one making decisions, so somebody  needed to, even if I had some qualms about
+- [28:12] the decisions myself, I couldn't predict  the future, but someone had to make a call.
+- [28:16] Obviously as soon as AI came around, I jumped  hard on AI and announced that we were going to
+- [28:21] spend nearly $100 million of our own cash  on that. We allocated a lot of capital,
+- [28:25] but I also restarted the culture. We had just a  very comfortable culture as a lot of companies
+- [28:29] did. There was a lot of focus on social issues  and a lot of complaining and dissatisfaction,
+- [28:35] and I rewrote the values designed to be a sharp  knife to cut out the parts of the company that
+- [28:41] I just knew wouldn't be effective. So,  I said that people must be resilient,
+- [28:46] that we had very high standards, that we'd work  incredibly hard, that shareholder value was the
+- [28:52] most important thing that we'd optimize for. A  lot of things that were controversial for this
+- [28:56] prior crowd. And then I designed these quarterly  performance processes where not only would you get
+- [29:02] a mark or a grade for your performance against  your goals that quarter, but you'd also get a
+- [29:08] score for your behavior against the values. And I hard coded a formula myself, and so I
+- [29:14] took it out of the manager's hands to say, if  people got below a certain mark, respectfully
+- [29:19] and lovingly, we would say, thank you for your  service. We're going to go forward without you.
+- [29:23] And so you do that just a small number of quarters  and you can start to shape an organization that's
+- [29:29] design and the image of the values you want to  create. And obviously there was a lot of pain,
+- [29:33] a lot of satisfaction. There was attempts at  soft coup, there was letters sent to the board,
+- [29:38] people really unhappy, but on the other side  of it, the people left were the most incredible
+- [29:51] entrepreneurial, brave, inspiring, happy  individuals you could possibly imagine. And
+- [29:57] then you hire in their image. We ran an anonymous  employee survey, I think 15 or 16 months after I
+- [30:07] started aggressively working through the org and  rebuilding the org and rebuilding the culture,
+- [30:11] and we had a 98 to 99% approval of  management, leadership and new strategy.
+- [30:19] And this is coming from me having the lowest  Glassdoor rating for a CEO I had ever seen when
+- [30:26] I came back. So, I just want to explain that being  that deliberate about your culture and upsetting a
+- [30:35] lot of people is the path through which you can  create a culture where people are super happy,
+- [30:41] super engaged, super aligned, and now we have  just this highly performant organization. Yes,
+- [30:48] we're messy in many ways. So, that was a big  part of it too. So, it was kind of strategically
+- [30:53] picking a lane. Remaking how we go to market,  the pricing was a really, really big piece that
+- [30:59] had a big effect. Betting on AI and then culture.  And I kind of buried the AI thing because frankly
+- [31:08] none of this would matter if we didn't bet on AI.  So, the story could all be summed up by saying,
+- [31:14] when you ask what did I do, it was that  we built Fin and that changed everything.
+- [31:19] You said that this was very unpopular. I imagine
+- [31:21] many people were not happy with all  the change and how top-down this was,
+- [31:25] you said there was a soft coup. Is there more you  could share about that? I never heard that story.
+- [31:29] When you make that degree of change and you  tell people that they're in control like we
+- [31:37] did in the previous generation of late-stage  businesses, there's going to be some friction
+- [31:42] when you change the rules. And it's my strong  belief that great employees and great companies
+- [31:49] want and are constructed out of a very clear and  strong hierarchy where it is the responsibility
+- [31:57] of the CEO to make brave and hard decisions  unilaterally, yes, using their experts as inputs
+- [32:05] and be responsible for the outcome. If I make  decisions that propel the company in the way that
+- [32:12] thankfully my decisions have, I get rewards and  kudos and I get to go back to the board and say,
+- [32:18] I want a bigger grant. If I don't, I get  fired and I should get fired. If my big,
+- [32:24] brave, unilateral decisions put us in the toilet,  then I have to take responsibility for that also.
+- [32:30] So, that's how in my humble opinion, it should  work. And I, for one, don't know of a great
+- [32:36] company that doesn't work that way. You'll see  from time to time, I did this a couple of years
+- [32:41] ago, people will construct these indexes of the  performance of companies that are founder led,
+- [32:46] and of course this is a self-serving statement,  but it's also true. And surprise, surprise,
+- [32:52] the founder led companies perform substantially  better because they have the moral authority and
+- [32:58] the willingness to take the risks that the  professional CEOs don't have the remit for.
+- [33:03] The professional CEOs are typically told, don't  mess things up, and the founders are bored if
+- [33:08] they're not taking the risk of messing things up  from time to time. And so that's in my opinion,
+- [33:14] what creates greatness and great innovation.  But like I said, there will be friction
+- [33:19] changing a company that's configured for  democracy and committee decisions and soft
+- [33:26] and gentle interactions and communication  to be properly founder led and top down.
+- [33:32] So, a big lesson here is if you're trying  to make the shift and it's just not moving,
+- [33:36] there's a lot of resistance. You may need to go  hardcore founder mode and make some significant
+- [33:41] change. What percentage of the employees  kind of turned over during this period?
+- [33:46] Could be something ultimately like 40%. So,  it was a big, big turnover over some couple
+- [33:53] number of years. Often the culture is set by a  very small number of people, so it only took a
+- [33:59] quarter to really start to change the tenor of  the conversations that were happening, but to
+- [34:08] bring in the people that were that new level of  ambition and wanted to work as hard as the rest
+- [34:14] of us and work in a mature and engaged in excited  way, that took a little longer time. There's such
+- [34:24] a thing as product market fit. There's a thing as  founder market fit, there's a thing as founder,
+- [34:31] product market fit. That's how you're doing it  right, but there's also such a thing as employee,
+- [34:36] founder, product market fit. You have to have the  right employees for the type of business you're
+- [34:40] creating, and there are companies that want  the need to be more stable and they're going
+- [34:46] to want the need to hire more stable individuals. There's going to be companies that want to do the
+- [34:50] highly collaborative, more democratic thing. I  wouldn't invest in them, but there's companies
+- [34:56] that want to do it. If you're an employee that  enjoys that, there are a lot of positions out
+- [35:00] there. There are big companies like Google that  do that. There are startups that hire the crazy,
+- [35:08] young, wild, messy, early startup people, and  that's great for them and the company too. So,
+- [35:15] it's really all about having the right individuals  and when you create that, not only do you create
+- [35:21] great success, but you just create a lot more  happiness and balance and harmony. Ultimately,
+- [35:26] the employees who wanted a more gentle democratic  environment, they're not going to be happy in a
+- [35:31] company like Intercom or Coinbase or any of  these strong organizations. They'll be more
+- [35:37] happy somewhere else. So, even if it requires  a little bit of a loving push out the door,
+- [35:44] I know that you're actually doing them  a favor in the medium to long run.
+- [35:48] I was going to say that a lot of these people  will be happier working in a different company.
+- [35:52] Absolutely. Who wants to go to war every  day with your organization and in Slack?
+- [35:58] That's just not fun. That's not good  for the nervous system or the soul.
+- [36:02] Yeah, so this whole period sounds very  stressful for you. Did you ever regret
+- [36:07] coming back and just like, what the hell did  I get myself into? What am I doing to myself?
+- [36:12] I never regretted coming back, but I have  many moments where I don't enjoy the job. I
+- [36:22] didn't regret coming back because it was deeply  cathartic for me. When a founder runs away from
+- [36:28] their business, it is the ultimate betrayal of  their heart and the dream that they have. Now,
+- [36:37] it's okay to wrap things up and quit, but when you  kind of run away, like I kind of had to because I
+- [36:43] was sick and burned out and kind of disenchanted,  I don't know, it didn't feel good. So, especially
+- [36:50] when I had done that, having betrayed in a  million or a thousand small ways, my intuition,
+- [36:56] there was something I needed to exercise. So, it  has been deeply meaningful in that respect. And
+- [37:02] then of course, I'm fortunate that it worked out.  I get to be on the second most popular podcast in
+- [37:07] tech. I get to pat myself on the back in front  of all these people. Who wouldn't want that?
+- [37:13] That said, the reality is that for particularly  people like me who like the adventure and the
+- [37:25] high agency being unilateral, day-to-day  movement where you're trying to make big,
+- [37:34] wild, bold decisions, the reality is that if  you're successful, most of your days will not
+- [37:42] be that. It'll be reviewing the bonus policy for  next year and reviewing the comp proposal for your
+- [37:53] execs for the next year. It will be showing up  for accountability meetings and stepping through
+- [38:01] the status of different work streams. It'll  be rushing from meeting to meeting, having 8,
+- [38:06] 9, 10 meetings a day. I don't happen to believe  that that's a great way to live your life. It'll
+- [38:12] be trying to get to all the emails you need  to get to such that all those people aren't
+- [38:16] offended and hurt and trying to communicate in  the ways with your staff and your team that is
+- [38:25] empathetic and thoughtful and keeps in mind that  they may be having as shit a day as you are.
+- [38:33] You're giving me an opportunity to paint  story of this maverick led adventure that
+- [38:40] you might imagine in a comic. I'm for some reason  picturing TinTin sail the seas, this swashbuckling
+- [38:50] adventure. It's not. It's corporate life kind  of sucks particularly for people like me. So,
+- [38:56] I have many of those days, and so the only reason  I'm still around is that I have a broader mission
+- [39:02] that makes it worthwhile for now, but that's why  you see so many of our best founders get to a
+- [39:09] point where they're like, okay, I've had enough  corporate fun. So, that's the most authentic
+- [39:15] answer I could give you. No regrets coming  back, but plenty of pain on a day-to-day basis.
+- [39:22] Today's episode is brought to you by DX, the  developer intelligence platform designed by
+- [39:27] leading researchers. To thrive in the AI  era organizations need to adapt quickly,
+- [39:32] but many organization leaders struggle to answer  pressing questions like which tools are working,
+- [39:37] how are they being used, what's actually driving  value? DX provides the data and insights that
+- [39:43] leaders need to navigate this shift. With  DX, companies like Dropbox, Booking.com,
+- [39:48] Adyen and Intercom get a deep understanding of  how AI is providing value to their developers
+- [39:53] and what impact AI is having on engineering  productivity. To learn more, visit DX's website
+- [39:59] at getdx.com/lenny, that's getdx.com/lenny. One of the interesting things about this
+- [40:08] space of agents, there's all this talk,  agents are taking over. It's the future
+- [40:10] of software. SaaS is going to be replaced with  agents. CX is a classic. It just feels like,
+- [40:16] I imagine looking forward, it was not obvious.  Now looking back, it's like obviously this is an
+- [40:21] amazing place for agents to take over work,  but there's always this talk of agents will
+- [40:25] do everything and all the SaaS software is going  to be replaced by agents. Do you have a sense of
+- [40:29] just how far this disruption will go outside of CX  because it's already happening in your businesses?
+- [40:35] The first thing I'll say is that CX is deceptively  large given it's hidden behind just two words,
+- [40:46] two letters. Customer experience really  is service success, sales and marketing,
+- [40:51] in my opinion. It's all engagement with all  customers. It's the biggest part by headcount
+- [41:00] of any business. Any consumer business and any  B2B business the biggest organizations are sales,
+- [41:12] service, success. So, I'll talk about things other  than CX in a moment, but I want to emphasize that
+- [41:19] CX is the majority of business operations.  Of course, it'll go beyond CX. Any function
+- [41:31] that requires a lot repetitive operational  mechanical work will be automated, whether
+- [41:37] it's chasing or collecting or issuing invoices,  it could be onboarding or offboarding employees.
+- [41:47] There are so many repetitive jobs in an  organization that it'll start to replace.
+- [41:53] One of the interesting questions is how much  will be generic operations bots, how much will
+- [42:01] be expert agents? There are expert agents for  law and contract review. There will probably
+- [42:09] be expert agents for accounting, but you'll need  the glue in between all of these agents too. But
+- [42:17] future organizations will be agents everywhere.  I've spent quite a bit of time thinking about
+- [42:24] what does it all look like in the future, and  I imagine it as a medley of humans and agents,
+- [42:33] and I don't think it's obviously going to be  humans on the top and the agents all in the IC
+- [42:42] roles. I think that'll be more of a complex mix  where you're going to have people that are like
+- [42:51] managers and leaders, but they'll be in IC roles,  working with agents to configure them for success
+- [43:00] and monitor and manage their progress, kind of add  that oversight and cover for edge cases. And so I
+- [43:10] think we're going to be surprised in which the way  that these organizations go, they'll definitely
+- [43:14] be smaller, they'll be flatter because of that. I won't be surprised if there are agents at the
+- [43:20] highest level too. I mean, I've been thinking  about how, and we do have a great human chief
+- [43:24] of staff here, but imagine a future human chief  of staff that understands your priorities and
+- [43:31] actually talks to you and does a check in each  day and reaches out to different people and ask
+- [43:36] for updates and helps organize your priorities  and helps you remember who you need to keep
+- [43:42] accountable. Clearly there's an opportunity for  that. And so you can imagine agents in specific
+- [43:48] roles like customer service in operational roles  being glue and in being kind of like co-pilot or
+- [43:57] assistant roles like that, which I mentioned.  But what I think that all brings is just epic
+- [44:04] levels of efficiency. It's going to be super  deflationary. There'll be a lot more competition.
+- [44:13] AI itself is insanely competitive right now. It's so intense in a way that was never before
+- [44:21] that's going to come to all industries when so  much of their inner workings becomes automated.
+- [44:28] And ultimately I think it's going to be great  for the consumer. They'll have more options,
+- [44:32] cheaper options, and I can't but  see that be great for the economy,
+- [44:37] a lot of economic lubricant as it were, and a lot  of new movement and activity. And if we were to
+- [44:44] really go off the reservation, but I'll stop  here, that means that we need more humans too.
+- [44:49] We need population growth to show up for this  big growth economically. And yeah, I just see
+- [44:57] the future as just a beautiful collaboration  between humans and agents in every direction.
+- [45:02] I love the optimism. Someone described  this once as a society ... What is it?
+- [45:07] Agentic society where it's us  and agents living together.
+- [45:11] Right.
+- [45:12] This begs the question around just jobs. We had  Marc Benioff on the podcast. He's all agent force,
+- [45:18] agent force, agent force, and asked him just  like, what jobs do you think are going away?
+- [45:22] He's just like, "CX, going away, gone. Sales not  going away. We need sales people." Just what's
+- [45:28] your sense? I know it's like touchy subject.  No one ever wants to say jobs are going away,
+- [45:31] but just what's your sense of where  jobs might be disappearing more, most?
+- [45:34] Yeah. Well, I don't find it to be particularly  touchy because jobs have always gone away
+- [45:39] and technology has done a really good job at  stealing jobs that we're repetitive, demeaning,
+- [45:47] dangerous. We have less people losing limbs and  dangerous factories or dying and suffocating down
+- [45:53] mines because of the technology that we now have  available to us. People breaking their backs on
+- [45:59] farms or just doing things that's highly demeaning  to the great, beautiful creative potential of each
+- [46:08] human individual life. So, I won't apologize for  competing with or competing for shit work because
+- [46:18] all the while technology has done that in the  past, population has increased. GDP has increased,
+- [46:25] longevity, crime rates have diminished in the  western world, the world that has enjoyed the
+- [46:31] most technology. So, we have no good reason to not  believe that that won't continue. Even while there
+- [46:38] is difficulty and there has been in the past,  no doubt, people who were gainfully employed
+- [46:44] in dangerous work in mines had to find new work. And so I don't take that for granted, but I think
+- [46:52] that this is part of the long arc of humanity  flourishing and getting healthier and happier.
+- [47:00] What are the types of work that will go away? It's  all the demeaning, crappy stuff, and that exists
+- [47:05] in digital businesses. You ask a human to sit at  a keyboard answering the same question day in,
+- [47:18] day out, and you get to a point where you don't  even ask them to answer the question manually. You
+- [47:26] ask them to click the button that brings up the  macro. Like what a horrible use of a human life.
+- [47:34] I've met thousands of people that have worked at  Intercom, a broad range of talents. People who
+- [47:39] they might not describe themselves as particularly  high IQ. Maybe they were suited at that point in
+- [47:45] their life for this highly repetitive work. You  talk to them for two or three minutes, you'll see
+- [47:50] the bright spark of a beautiful human that if they  got to do the right thing, they would light up and
+- [47:57] bring so much happiness and joy to the world. And so that's the mission we're all on. I'm not
+- [48:03] pollyannaish here, like I said, and I'm  suggesting that there won't be friction,
+- [48:08] but for the most part, we're doing good. And  to get specific, they will be CX roles and
+- [48:15] a lot of basic repetitive roles. There  is a lot of repetitive stuff in sales,
+- [48:19] and so you'll do more sales with less people.  There are SD or roles qualifying basic questions.
+- [48:26] You're not going to need as many people in sales  organizations. So, I'm a little misaligned with
+- [48:30] Marc in that respect. But what he's getting at  is that what sales people bring to the table is
+- [48:38] human connection and trust, and that is not about  to go away anytime soon. And thank God for that.
+- [48:46] I had Ben Mann, the co-founder of Anthropic on  the podcast recently, and he said that he's like,
+- [48:52] "Even my job is probably going to go at some  point." He was like, "Lenny, your job is going
+- [48:56] to be replaced by AI at some point." That was  pretty compelling. Did not expect him to say that.
+- [49:03] Yeah, I don't know. It will in many ways.  We're going to have agents in AI to aggregate
+- [49:10] content and create content, but humans,  as much as when it comes to productivity,
+- [49:18] value, efficiency, efficiency is not  the number one thing that we value.
+- [49:26] If efficiency was the number one thing we value,  I'd always buy the cheapest clothes, furniture,
+- [49:33] computers, even paper for my printer. But I think  humans value things like beauty and human stories
+- [49:43] and human heart and connection. And not only  will they still want those and they'll still
+- [49:51] want a Lenny that has his own story and his own  take and opinions and is a little imperfect,
+- [50:00] but they'll pay more for it. The abundance  of AI is going to make automated things worth
+- [50:10] zero. Just like the value of cheap content  on YouTube. Why do people subscribe to some
+- [50:20] channels and pay more? Why do people pay to rent  movies? Because some things have more quality,
+- [50:27] more beauty, more craft, more art, more humanity.  So, I think there'll always be a place for that.
+- [50:33] Phew. All right. I've got a  couple more years at least.
+- [50:36] Yeah.
+- [50:37] Before I move on to a different topic. Just  kind of reflecting back on this shift to Fin
+- [50:43] and the success that you've had, are there any  other just lessons that we haven't touched on
+- [50:48] that you think might be helpful for folks  that are trying to go through this journey?
+- [50:52] I think it's ultimately that you don't have  a choice. My co-founder Des is writing a
+- [50:58] book at the moment, and that's core to  the idea here. You don't have a choice.
+- [51:07] The story of the technology industry or digital  technology is really short and it's punctuated
+- [51:13] by a small number of things, microprocessors,  personal computers, the internet, maybe mobile.
+- [51:20] Now there's AI. I think AI is bigger than all  these things. And all of these things disrupted
+- [51:27] essentially all categories. So, not only is  this likely to disrupt all the categories,
+- [51:32] it's going to disrupt it in the most aggressive  violent ways. And if you're not in it,
+- [51:39] you're about to get kicked out of all of it. And  so my strongest advice is roll your sleeves up,
+- [51:46] figure out what's going to disrupt you, have  fun with it. You need to bring in actual talent.
+- [51:54] We and I will be nothing if we didn't  have actual AI scientists and leaders.
+- [51:59] It's the only way we can be successful here.  We have an incredible person who by the time
+- [52:06] this is out will have received a promotion to  chief AI officer. I keep announcing all these
+- [52:11] things and that's great confidence to you.  Fergal Reid, and he's just one of the very
+- [52:17] best in AI applications, and we happened  to be working with him for many years.
+- [52:22] So, part of it is finding the talent and part of  it is bringing in the young talent too. AI is kind
+- [52:28] of a young man's game, and I'm young, but I'm not  as young as a lot of the kids building AI. And so
+- [52:35] learning to empower and enable them and learn from  them too is a really big deal. And unfortunately,
+- [52:42] part of what you learn from them is the only way  you're going to win right now is if you work your
+- [52:47] ass off, because all these little AI companies  run by kids in their twenties are literally
+- [52:54] working 12 hours a day, literally 365 days a year. No joke, all of them. And that's not a fun idea
+- [53:05] for many of us, especially those who've grown  up. Some people in our generation have kids or
+- [53:11] a lot of them do. There's comfort and stability  in your life. You don't want to work like that,
+- [53:16] but if you want in, that's part of the price  and that's how so many of these young new AI
+- [53:25] are going to win because very few of the previous  generation companies are willing to make all of
+- [53:30] those changes and go all the way in. And so my  actual advice, which is not that helpful, is that
+- [53:38] if founders of previous generation companies are  themselves not willing to roll up their sleeves
+- [53:44] and get into it and work as hard as the kids,  hire a kid. You can be a chairperson like I was,
+- [53:52] have a lot of fun. You can mentor the kid, hire  a kid because you're in the wrong job, buddy.
+- [53:58] I love how pragmatic this advice is and what's  interesting as you talk about 12 hours a day
+- [54:02] every day, it's like we're trying to  get close to what agents are doing,
+- [54:06] which is half, that's basically 50% of agents.
+- [54:08] But that's not just a poetic cute thing to  say, that comes from something very real,
+- [54:17] which is these younger companies know how  to use AI in ways that the older companies
+- [54:23] don't. The younger companies are vibe coding  and using AI for their creative work and for
+- [54:30] their job descriptions. I guarantee you go to  companies of our generation and even we have
+- [54:36] had to push people, you go to companies of our  generation, most people in most organizations,
+- [54:42] particularly non-technical organizations, they're  not using any AI. Maybe they're starting to use
+- [54:48] ChatGPT to write a job description, but  they're not doing it by default. And so
+- [54:55] that's more than a joke. You're competing  with young companies that are in part AI.
+- [55:02] This reminds me, I did an interview with the  Perplexity founders. It was, I just checked,
+- [55:07] April 2024, so just over a year ago. And they  were saying that the way they operated, and this
+- [55:12] sounded it's so crazy at the time, is anytime they  had a question for anyone else on the team, they
+- [55:17] first asked ChatGPT about it, and then they go ask  the person as like, that is insane. And now this
+- [55:23] is just obvious. That's what we all do now.  Just like, hey, I'm just going to talk voice.
+- [55:28] It's a prime example. They're doing many  such things. When I say 365 days a year,
+- [55:35] they're the company I think of because they're  doing exactly that. All these young companies are
+- [55:40] doing wild, weird and ridiculous things that  people you are in my age kind of chuckle at,
+- [55:47] but it's business as usual for them. So,  there's just a big mind shift, cultural shift,
+- [55:53] and there's a culture clash of the previous  generation versus the new generation. And the
+- [56:00] sooner you kind of wrap your head around that, the  sooner you can start to unstake yourself, I think.
+- [56:04] And just to build on that, the sounds crazy  to work this hard, it sounds very stressful,
+- [56:11] not fun. Why would I do this? This sucks.  But at the same time, this is, as you said,
+- [56:15] such an unusual rare opportunity.  There's so much opportunity. There's
+- [56:20] so much wealth being created. There's so many  businesses being created. This is the time,
+- [56:23] if you were to ever work really  hard, this is a good time to do it.
+- [56:26] I think so. I don't actually generally promote  working that hard. I try to not fetishize it.
+- [56:35] I actually think a life well-lived includes  taking slow walks in nature where you're not
+- [56:42] thinking about ARR growth or hiring your chief  revenue officer, not going to eight meetings a
+- [56:49] day. Maybe you should go to no meetings a  day, certainly not working 12 hours a day.
+- [56:54] I don't actually promote that in general  as a thing one should do with their life.
+- [57:02] I'm simply saying that if you want to compete  and enjoy success in this age, which means
+- [57:12] you need to be doing AI, that is the price. So, you either decide to pay the price or get out.
+- [57:21] Don't half-ass it. You see all these companies  saying, we do AI and they've just sprinkle a
+- [57:26] little bit of crappy AI and they've got the same  cultures. It won't work. The one thing I will say,
+- [57:33] the one little asterisk to my first point is  that all great people and great things have
+- [57:39] been achieved through hard work. And so I'm  speaking out of both sides of my mouth here,
+- [57:47] to younger people to let them know that every way  of living is valid, but people who have achieved
+- [57:54] things have always worked hard and they find a way  to enjoy it too. And particularly in 2025 in AI.
+- [58:01] I want to follow this thread. I was going  to ask you this earlier, but I didn't,
+- [58:03] and I want to see if this takes us somewhere  interesting, just watching you speak and talk.
+- [58:08] You're very self-reflective, very centered.  You have these really good breaths you take
+- [58:15] when you think about something. I met you a  long time ago, randomly at a party when you
+- [58:19] were just starting Intercom. I don't think you  were like that. During this kind of two-year
+- [58:24] period was there kind a transformation that  you went through to kind of become this?
+- [58:28] Absolutely. Yeah. There's a couple things.  First, I mean, there's three things that
+- [58:31] come to mind. Working in a startup for 14  years has a certain way of kicking you in
+- [58:40] the head many times a day that either kills you  or makes you far stronger. So, that's one piece.
+- [58:49] There's no elegance to that point, but I think  we can all intuit that that level of experience
+- [58:55] teaches you something, you grow up very fast.  Point two is I did a lot of therapy. I found
+- [59:04] this amazing guy 12 years ago. He started a  couple of his own tech companies and talked
+- [59:09] in public. He only coached and was a therapist  to CEOs. He's now kind of in a later stage of
+- [59:15] his career. But this amazing guy, his name is  Yosi Amram, amazing guy. I just landed on my
+- [59:22] feet. I just didn't know who I was dealing with. But one of the greatest minds and teachers of the
+- [59:33] last, I don't know, many decades, people don't  even know him, but he's taught and worked with
+- [59:38] many CEOs and he just helped me get to know me and  take time for myself. And people like to hate on
+- [59:48] therapy right now. I think a lot of therapy sucks  and a lot of therapists are not good. And they
+- [59:55] fear that actually therapy will lobotomize them  and turn them into thumb sucking, navel-gazing,
+- [01:00:06] soft, irrelevant losers that won't have that  edge anymore. And the interesting thing about
+- [01:00:15] 12 years of weekly therapy and spiritual work  is that it takes your edges off, but they're
+- [01:00:24] all edges that are super counterproductive.  All the edges that made you an asshole,
+- [01:00:28] got you triggered, miscommunicated or fought  back when you were insecure, they take all
+- [01:00:36] the edges away then help you see yourself and  love yourself so much more for who you are.
+- [01:00:42] Be completely unafraid to acknowledge the  things you're not good at, but own the things
+- [01:00:46] you are. And in understanding yourself, you  understand others better and can communicate
+- [01:00:52] in a substantially more connected and authentic  way. Great, great therapy and it has to be great,
+- [01:01:00] is a recipe for brilliant leadership in my  opinion. And then the third part is two years
+- [01:01:10] away where I ran away, where I was sick, revenue  growth wasn't doing so hot. I unsuccessfully tried
+- [01:01:17] to defend myself from a bunch of fake bullshit  in the newspapers. I mean I was beat up. And
+- [01:01:24] in a moment like that, your ego, any sense  you have of your greatness is eviscerated.
+- [01:01:33] And that's painful. It can be so painful that many  people don't come back from it, and I credit the
+- [01:01:41] 10 years at that point, or nine years of therapy  I did at that point, plus the support of this
+- [01:01:45] therapist, the coach that I had, to surviving it. But if you can survive it, what you end up with
+- [01:01:51] on the other side is all of those insecure, a lot  of the insecurities and all that ego bullshit that
+- [01:01:58] made you super ineffective, jealous, or triggered  for all sorts of different reasons, it's gone. And
+- [01:02:06] your image that you are this perfect, brilliant  leader that all successful founders form when they
+- [01:02:12] are successful had to die. And the reason that's  so good is that that's so limiting. When you have
+- [01:02:19] this ego identity of yourself about how fucking  amazing you are, then any moment that challenges
+- [01:02:28] that is super scary. Anyone who questions it is  offensive. And so I credit wherever I am today and
+- [01:02:36] I have decades of learning still to go to those  three components. And I feel super fortunate to
+- [01:02:43] have had all of them, even though the last one  sucked, I can finally say, wow, it really helped.
+- [01:02:51] Thank you for sharing all that. I'm glad I  went there. I want to show you something that
+- [01:02:56] I randomly have in my office, my wife  just got me that I think you're going
+- [01:02:59] to love. It's a piece of art that I think  will resonate with [inaudible 01:03:02].
+- [01:03:02] Yeah. What am I looking at here? So, it's a hand?
+- [01:03:04] It's a hand with a snap and then let  me see if you can see what it says.
+- [01:03:08] I can't see what it says.
+- [01:03:10] It says ego death now.
+- [01:03:12] Right. Look at this. Good. Exactly.
+- [01:03:15] There it is.
+- [01:03:16] May all our egos peacefully become smaller  and leave this mortal coil. The reality is
+- [01:03:23] none of our egos ever die. And even great ...  Ram Dass is this great spiritual teacher who
+- [01:03:31] died a few years ago and someone asked him  on his deathbed something like, "How did
+- [01:03:38] you get over your bullshit or your ego?" And he  said, "I never did. Just the edges got smoothed
+- [01:03:45] away." And this is a guy who had 70 years of the  deepest, wildest spiritual work, he acknowledged,
+- [01:03:54] no, still my same self. So, the ego is still  there and we actually need to acknowledge
+- [01:03:59] it and love it. And when you acknowledge  it, then it's not a surprise when you're
+- [01:04:04] like a little jealous and you're like, huh, I'm  jealous. That's funny. Okay. And it's all good.
+- [01:04:09] Reminds me Daniel Kahneman who wrote all these  books about biases that we have and here's all
+- [01:04:13] the ways we're flawed. If people ask him, "Have  you learned to live more rationally?" He's like,
+- [01:04:18] "Not at all." Knowing all these things  about how we're flawed in the way we
+- [01:04:21] think all these biases doesn't  actually, I can't use it in life.
+- [01:04:24] We're human. We should let ourselves be human.  I think it's beautiful. We're logic systems,
+- [01:04:30] but we're also heart systems and body systems  and soul systems. So, all of it is good.
+- [01:04:35] Okay, I want to go in a completely different  direction. The last thing I want to talk about,
+- [01:04:38] I needed to mention this. I don't know if you've  seen this, but I've been doing research on which
+- [01:04:43] companies produce the best product leaders. And  I've been doing this by looking at which alumni
+- [01:04:48] of companies go on to become CPOs at the highest  rate, get promoted the most at their next job,
+- [01:04:54] become the first product manager at a future  startup, start their own companies. Intercom
+- [01:05:00] is coming number one across this research  next to Palantir and Stripe, Revolut.
+- [01:05:06] So, the question this begs is, what are you  guys doing that produces such great product
+- [01:05:10] leaders? There's the hiring piece and then  there's what they do at Intercom piece. So,
+- [01:05:15] what do you think is creating these sort of  really big successes from your alumni group?
+- [01:05:20] Yeah, I don't have a really succinct answer  unfortunately. I can say in the abstract,
+- [01:05:26] our culture is a very producty culture. So,  myself and Des, there was four founders and
+- [01:05:34] me and Des Traynor drove a lot, like all the  strategy. We're product guys. I was a software
+- [01:05:42] designer. I studied computer science, so I'm  technical, but never did it professionally. So,
+- [01:05:48] the first part is that just product innovation,  design just was just core to our culture and
+- [01:05:54] people always picked up on that. So, I think good  people wanted to work here and we were good at
+- [01:06:00] finding good people. The other part was  that because we had this sprawling strategy,
+- [01:06:07] we had all these products that we needed a complex  structure for it and that included lots of PMs and
+- [01:06:16] PM groups that we gave a lot of autonomy to. And  so the product of our big messy strategy was that
+- [01:06:24] we had PMs that got to act like mini CEOs. And so I think that they got to learn the
+- [01:06:31] broader skill sets beyond designing wireframes  and interviewing some customers. They really own
+- [01:06:36] it like a mini CEO to some degree. I think there's  one other thing which is part to our approach was
+- [01:06:44] this deeply first principles thinking methodology  almost to a fault, although I don't think it's a
+- [01:06:53] fault. I and we would create frameworks for  everything. It's like, okay, we want to do
+- [01:07:00] these events. Who are the events for? What is the  ultimate goal of the event? What's the mechanism
+- [01:07:07] by which events work? What are other mechanisms  that can achieve that same goal? How do we define
+- [01:07:14] success for an event like that? How does the user  or the attendee define value? What other things
+- [01:07:22] do those people find valuable? We create these  complex systems to try and approach everything,
+- [01:07:30] but the net effect was we'd have really joined  up considered strategy and it's everywhere.
+- [01:07:36] Like Paul Adams, our chief product officer,  I didn't even plan to show this. He made this
+- [01:07:41] book recently, The AI Age and the Transformation  of Customer Service and it's a bunch of frameworks
+- [01:07:47] for how to think about AI, et cetera. So, it's  part of what we do. And so we would hire people
+- [01:07:54] who are good at that, but we teach that. That's  teachable and not everyone does that. And so the
+- [01:07:59] conversations that Des and I would have, we still  love being on whiteboards. Our very first office,
+- [01:08:04] our own office in Dublin, it was a tiny office.  One wall was four, five computers, the other wall
+- [01:08:16] was just all whiteboards. We loved that we had a  whiteboard wall. In our next office we had a room,
+- [01:08:21] square room and all walls were whiteboards. So, we just love to draw diagrams so you can teach
+- [01:08:27] all that stuff. So, yeah, it's just all that good  energy product, product energy, first principles,
+- [01:08:33] the people we chose. And on the founders  side, I was talking to Des about this morning,
+- [01:08:39] why have so many Intercom people gone on to be  founders? I think it's because we hired founder
+- [01:08:46] types and my pitch to people was always come  to Intercom, figure out how great companies are
+- [01:08:51] built and build it with us and then go on to  start your own. I would say that often at all
+- [01:08:56] hands. But the irony is that the people we hired  back then, the founder types were probably not
+- [01:09:03] great employees. They were better founders. I'm  not a good employee. And so it'll be interesting
+- [01:09:09] to see if this current cohort, we'll get  many founders out of this current cohort,
+- [01:09:14] but will they convert as well as they did before? Because we're now hiring people who want to be
+- [01:09:19] part of something bigger. They're more mature and  grown up, more stable and consistent. They're part
+- [01:09:25] of, they have a certain expertise and a certain  lane they want to work in. And maybe they're not
+- [01:09:30] the crazy types that went on to start companies,  but it's wild. I did see some of that research
+- [01:09:35] by you, particularly the one where you show the  companies ranked by the number of founders that
+- [01:09:41] they have. And I'm like, what is happening?  I was as surprised that we were that high
+- [01:09:47] as you were because there are many other great  companies on that list. So, surprised and proud.
+- [01:09:53] I love when people say, I don't really  have a clear answer. And then you have
+- [01:09:57] exactly a clear answer and it resonates a lot  with other companies on this list that I've
+- [01:10:05] had on of what the themes are, and I'll just  reflect back a few of them. One is complexity.
+- [01:10:10] That comes up a lot. And interestingly,  most of the other companies in the list,
+- [01:10:13] I'll read them real quick. Intercom,  Palantir, Revolut, N26, Dropbox, Chime,
+- [01:10:17] Stripe, and then Coinbase and Notion is down  there. So many are FinTech. Almost all are
+- [01:10:22] FinTech. And the complexity there is really  high. So, there's a really interesting trend
+- [01:10:28] there. Just complexity. Ownership is another one  that comes up a lot. Many CEOs, GMs kind of roles,
+- [01:10:34] first principles thinking and just going to the  bare metal comes up a lot in these conversations.
+- [01:10:38] Yes.
+- [01:10:39] And then hiring senior  people, hiring founder types.
+- [01:10:42] Yes. Like Stripe did a lot  of that. I think Stripe did
+- [01:10:44] a lot of first principle stuff and founder types.
+- [01:10:48] The other thing, we didn't even talk about this,  but you guys invented RICE. You guys popularize
+- [01:10:53] jobs to be done. Like speaking of frameworks, you  guys are a wealth of frameworks that we all use.
+- [01:10:58] Drowning and frameworks, yeah.
+- [01:11:00] Drowning slash changing the way everyone  builds product in a really positive way. Okay,
+- [01:11:06] is there anything else that you wanted to touch on
+- [01:11:08] or leave listeners with before we get  to a very exciting lightning round?
+- [01:11:13] When someone like me comes on a podcast like this,  they always have an ulterior motive and that's
+- [01:11:20] healthy and good. It's part of the transaction.  Some of it is to enjoy feeling like an expert.
+- [01:11:28] But my ulterior motive today is to make sure that  people understand that Intercom is a fundamentally
+- [01:11:36] different type of late stage company. We are a  large old startup. Every single way in which we
+- [01:11:43] work is as a startup and are competing with and  crushing the actual startup competition in our
+- [01:11:53] agent categories. And the reason that that's  important for people to know is just like I
+- [01:11:57] said earlier, that the handicap that good but late  stage companies have is that their late stage and
+- [01:12:05] people don't mentally put them in the same box. They just don't imagine these older companies.
+- [01:12:13] If I told you that IBM had made the  most wildly innovative coding assistant,
+- [01:12:23] you'd find it hard to believe, most people  would. It's maybe so interesting such that it
+- [01:12:28] would stick in your mind, you need to go look at  it. But by default people aren't going to look at
+- [01:12:32] IBM. And so I want people to take a new look  at Intercom because it's a brand new company
+- [01:12:38] and our mission is to help every single type  of business deliver impeccable, incredible,
+- [01:12:48] beautiful personal service to every  single one of their users and people,
+- [01:12:53] many thousands of people are using Fin for that  today. So, go check out Fin please, fin.ai.
+- [01:12:59] And I don't know if you mentioned this  at the beginning, but let's mention that
+- [01:13:03] you predict that you'll be the fastest  growing company across if you were to
+- [01:13:08] look at all public software companies next year.
+- [01:13:10] So, two years ago we were in the low single  digits growth rate. We doubled our growth
+- [01:13:17] rate and last year we were in the low double  digits. This year we're in the 15th percentile
+- [01:13:23] of all public software companies. So, you take  the 120 something public software companies,
+- [01:13:28] we're in the 15th percentile. So, we're getting  up there fast and if we sustain this trajectory,
+- [01:13:34] and it's obviously dangerous to put  these types of things out publicly,
+- [01:13:38] but I'll tell you, I look at the charts  and it's hard not to imagine where this
+- [01:13:42] goes. I think we're going to find ourselves  being the fastest growing out of all,
+- [01:13:47] relative to all public software companies.  So, let's see. But that's the level of shock,
+- [01:13:52] surprise and transformation that has actually  happened here all because of Fin. So, check in
+- [01:13:58] with me in a year and maybe I'll be embarrassed  or maybe I'll be feeling like a genius.
+- [01:14:03] Or underselling it. This just  reflects back on exactly how I
+- [01:14:06] started our conversation. You've  done something extraordinary at
+- [01:14:08] Intercom. I'm really happy that we're  here and we're sharing this story.
+- [01:14:11] Thank you.
+- [01:14:12] With that, we've reached our  very exciting lightning round.
+- [01:14:15] I've got five questions for you. Are you ready?
+- [01:14:16] Please. Ready.
+- [01:14:17] What are two or three books that you find  yourself recommending most to other people?
+- [01:14:21] So, I found I lost the habit of reading  as I started to get more and more stressed
+- [01:14:27] with my startup. And so I would listen to  audiobooks here and there, but the most recent
+- [01:14:31] book I read is a book called Nuclear War: A  Scenario, and it's a very much a nonfiction
+- [01:14:41] and scared the shit out of me. So, if you like  nightmares, it'll be beautiful bedtime reading.
+- [01:14:46] Excellent.
+- [01:14:47] Yeah.
+- [01:14:48] What's a recent movie or TV  show you've really enjoyed?
+- [01:14:50] I love movies. I want TV to be better, but I very  rarely find TV to be great. The first and last TV
+- [01:14:59] show I loved was True Detective one that was just  incredible. But the last movie I watched was 28
+- [01:15:08] Years Later, and that's by Danny Boyle. I was born  in the eighties, grew up as a kid in the nineties,
+- [01:15:15] and so grew up with Trainspotting. It was 28 Days  Later. Then he made a movie called Sunshine. So,
+- [01:15:25] 28 Years Later is a type of movie that's just  not made anymore. It's the most nineties movie
+- [01:15:31] made since the nineties. It's like very  rock and roll and also deeply touching. So,
+- [01:15:39] I was really surprised by that. I bet I would  love to know that younger generations that are
+- [01:15:44] watching this, what they may think, they  may hate it, but I love 28 Years Later.
+- [01:15:49] So, this is the same person that made 28 Days  Later, then 29 years later [inaudible 01:15:51].
+- [01:15:53] Yeah, Danny Boyle.
+- [01:15:53] Wow. Okay. Very cool. I didn't know about  that. Do you have a favorite product you've
+- [01:15:57] recently discovered that you really love? Could  be a gadget, could be an app, could be clothes.
+- [01:16:02] I very rarely like products, I'm such a  perfectionist that it has to be really simple
+- [01:16:10] with very little moving parts, like a bowl, to  actually be like, good. I've started to get more
+- [01:16:19] into coffee. I've been buying products by Fellow.  They're remarkably good for consumer products,
+- [01:16:25] different, it's on a different level. So,  there's some sort of level of taste and craft
+- [01:16:31] happening there that I don't see in basically  any other consumer hardware type products. And
+- [01:16:36] of all things, I'd bought a Porsche 911 recently  and that is a beautiful product. The interiors
+- [01:16:44] are exquisite and there's still a bunch of shit  that is going to annoy you. And so it's far from
+- [01:16:50] perfect. So, yeah, perfectionism is sometimes  a gift if you're in the business of creating
+- [01:16:58] products, but also quite the curse. You're  never happy, including with the Porsche 911.
+- [01:17:02] I think that's the third time someone  recommended a car. Someone recommended,
+- [01:17:05] I think Boz at Facebook recommended a fancy  Mercedes, and then someone once suggested a
+- [01:17:10] Rivian, so now we got Porsche on the list. I  always thought maybe one day I'll give someone
+- [01:17:14] all the prizes, all the products people have  ever mentioned in this. And those are getting,
+- [01:17:19] Porsche might be a little high. Okay, two  more questions. Do you have a favorite life
+- [01:17:23] motto that you find yourself repeating, coming  back to in work or life sharing with friends?
+- [01:17:30] It's trite. It's not sophisticated and  it's more of a concept than a phrase,
+- [01:17:35] but it's something around the idea that life is  short. I'm just so aware that time ticks by and
+- [01:17:42] we all live on autopilot. So much of what we  do is inspired by either our insecurities or
+- [01:17:50] things that other people we look up to or  envy do. Very rarely making contact with
+- [01:17:56] what we really want and following our hearts  and our heads. And we just kind of get stuck
+- [01:18:04] in these lanes and just live out our days. And  certainly when you get 41 now, you get to 41
+- [01:18:12] and thankfully still very young, anyone in their  forties, congrats, should feel good about that.
+- [01:18:18] But I know if you're in your twenties or thirties,  40 feels old. But when you're in your forties,
+- [01:18:25] my experience is that the weeks and the  months and then the years go by. It's not
+- [01:18:30] a big deal. I'm back at Intercom two and  a half years now to any of these kids in
+- [01:18:35] AI in their twenties. If they don't get  something done or achieved by next month,
+- [01:18:41] they'll be so disappointed themselves  and so impatient. And in some ways,
+- [01:18:46] at least when it comes to productivity, they're  better at getting more out of the time. But I'm
+- [01:18:51] now trying to get more life out of the time  too. So, just, if there is a motto, it's like
+- [01:18:58] life is short or memento mori, we're all on the  way out. So, make the use of what you've got.
+- [01:19:05] Fun fact, I built an app once called Savorable  that helped you savor the moment, it was called
+- [01:19:10] Savorable and it sent you a text every few hours,  I don't know, maybe once a day with a little
+- [01:19:16] reminder of way to savor the moment. And one of  the texts was just like, remember, you will die.
+- [01:19:21] Yeah. And the problem is that even that  idea, we forget it instantly. And if you
+- [01:19:30] start getting text every day, you'll  ignore the text. Try to fault. We just
+- [01:19:35] don't want to acknowledge that reality on  a day-to-day basis. Maybe that's important.
+- [01:19:39] Yeah, maybe for the best.
+- [01:19:40] Yeah.
+- [01:19:42] Okay, Final question. Speaking of apps, I was  doing research on you in preparation for this
+- [01:19:46] and I didn't realize you built Quitter  back in the day. I love Quitter. I found
+- [01:19:51] it so fun. It basically told you anytime  someone unfollowed you on Twitter. So,
+- [01:19:56] the question just what happened to that app?
+- [01:19:58] I think we eventually sold it for 14K.
+- [01:20:03] Wow, that's cool.
+- [01:20:06] On one of these, I think there's a website called  Flipper where you could sell websites. It really
+- [01:20:10] blew up. It was like a little experiment, kind of  a social experiment. It was the first time that I
+- [01:20:18] had this feeling that there's no reason someone  wouldn't want to use this. Obviously people
+- [01:20:27] are going to want to use this. And it was really  instructive for me because it taught me that that
+- [01:20:32] feeling is possible. You meet so many founders,  young founders particularly, and they don't have
+- [01:20:38] a sense within themselves about the value of the  stuff they're building. Will this be good? Let's
+- [01:20:43] get customer feedback. And it is possible  to build things that you deeply know makes
+- [01:20:48] sense. And that's why my formula for building  things was to always build things for myself.
+- [01:20:54] And that was what Quitter was like. Followers  go up, followers go down. At that point in time,
+- [01:20:58] people had 100 followers or 200 followers, and  you'd want to know who's not my friend anymore.
+- [01:21:04] Oh man, I love that that was your  bar that led you to the success
+- [01:21:09] later if it's as good as Quitter  in terms of product market fit.
+- [01:21:12] I mean, it had the best fit ever. About everyone  on Twitter tried to sign up for it and it broke.
+- [01:21:21] Well, I loved it. Eoghan, thank you  so much for doing this. I love just
+- [01:21:25] how real and open you are about everything  and just how much insight you have to share.
+- [01:21:30] I also just love the vibe. I feel like I  just am more centered just watching you-
+- [01:21:34] Oh, thank you.
+- [01:21:34] ... speak. Two Final questions.  Where can folks check out Fin,
+- [01:21:38] follow you if they want to follow up on anything?  And then how can listeners be useful to you?
+- [01:21:42] Check out Fin, fin.ai. If they want to follow me.  I'm E-O-G-H-A-N on Twitter, so it's Irish spelling
+- [01:21:52] of Owen. But if they want to be helpful to me, I'd  love them to try Fin. I'd love them to have their
+- [01:22:00] friends that run any kind of customer operations,  try it too. This AI thing is noisy. There's so
+- [01:22:08] much hype, but it's also really real. And the  weird thing about Fin, even relative to the coding
+- [01:22:16] apps, the coding apps are blowing up, and yet  there's a lot of people experimenting and kicking
+- [01:22:21] tires. You can't kick tires with Fin. We only  deliver value when you expose it to your customers
+- [01:22:28] and it closes tickets and makes them happy. And so  AI is really, really happening. And so if you know
+- [01:22:34] anyone out there that has customers, they should  be using Fin. It's the smartest, cheapest, easiest
+- [01:22:41] way to dramatically enhance their business. So,  if they do that, they'll be helping me sincerely.
+- [01:22:46] I'm sold. Eoghan, thank  you so much for being here.
+- [01:22:50] Thank you, sir. Pretty fun.
+- [01:22:51] This was amazing.
+- [01:22:52] Yeah, thank you.
+- [01:22:53] Bye everyone. Thank you so much for listening. If  you found this valuable, you can subscribe to the
+- [01:22:58] show on Apple Podcasts, Spotify, or your favorite  podcast app. Also, please consider giving us a
+- [01:23:04] rating or leaving a review as that really helps  other listeners find the podcast. You can find
+- [01:23:10] all past episodes or learn more about the show at  lennyspodcast.com. See you in the next episode.

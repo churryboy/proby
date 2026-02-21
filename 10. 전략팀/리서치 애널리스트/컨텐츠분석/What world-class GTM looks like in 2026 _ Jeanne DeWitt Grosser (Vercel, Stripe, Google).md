@@ -1,0 +1,2314 @@
+## Key insight / summary
+
+- **AI 시대의 GTM 차별화 중요성 급상승**: AI로 인해 10개 플레이어가 동일한 시장 기회를 추구하게 되면서, 제품을 시장에 출시하고 경쟁사와 차별화하는 능력이 이전보다 전략적으로 훨씬 중요해짐
+
+- **고객 구매 동기의 현실**: 80%의 고객은 업사이드 증대가 아닌 고통 회피나 리스크 감소를 위해 구매함 (특히 기업 고객은 다음 분기 매출 목표 미달 리스크를 피하려 함)
+
+- **GTM을 제품처럼 설계하라**: 고객이 제품에 대해 느끼는 감정과 판매 경험 자체가 점점 더 구매 결정을 좌우하게 됨. 제품 차별화가 미미할 때 고객 구매 여정이 핵심 차별화 요소가 됨
+
+- **컨설팅형 GTM의 부상**: 소비 기반 비즈니스 모델과 AI로 인해 GTM 조직이 거래형에서 관계형/컨설팅형으로 전환. 고객이 변화 필요성은 알지만 구체적 방향을 모르는 상황에서 "가능성의 예술"과 모범 사례를 제시하는 역할 중요
+
+- **GTM 엔지니어의 등장**: 지난 18-24개월간 부상한 새로운 역할로, 기술적 역량을 GTM에 적용해 더 나은 도구/데이터 활용과 AI 기반 워크플로우 재설계를 담당. 개인화된 고객 경험을 규모화 가능
+
+- **세일즈가 세일즈처럼 느껴지지 않게**: 성공적인 GTM의 핵심은 엔지니어가 10분 동안 세일즈 담당자를 제품 매니저로 착각할 정도로 기술적이고 제품 중심적인 대화를 만드는 것
+
+- **GTM 기능의 통합 필요성**: 마케팅, 세일즈, 고객 성공, 지원, 파트너십 등이 각각 다른 전략을 추구하는 벤다이어그램 문제 해결을 위해 전체 고객 생애주기를 통합적으로 관리해야 함
+
+## Key implications for Proby platform
+
+- **컨설팅형 접근 강화 필요**: Proby는 단순히 AI 조사 도구를 제공하는 것이 아니라, 고객이 "어떤 리서치를 어떻게 해야 할지 모르는" 상황에서 베스트 프랙티스와 컨설팅을 제공하는 포지셔닝으로 발전해야 함. 특히 전략 문서의 유니콘/엔터프라이즈 세그먼트에서는 "리서치 컨설턴트 + AI 도구" 번들 형태로 접근
+
+- **리스크 회피 메시징으로 전환**: "AI로 더 나은 인사이트 발견"보다는 "잘못된 의사결정으로 인한 제품 실패 리스크 감소", "기존 리서치 방법론의 품질/속도 한계로 인한 기회 손실 방지" 관점으로 메시징 재구성 필요
+
+- **GTM 엔지니어 채용 전략**: Proby 내부에 GTM 엔지니어 역할을 신설하여 AI 기반 개인화된 고객 경험을 규모화하고, 고객별 맞춤형 리서치 솔루션을 자동 생성하는 워크플로우 구축. 특히 전략 문서에서 언급된 "국제 리서치 역량" 차별화를 위한 기술적 기반 마련
+
+- **판매 경험 자체를 제품화**: Proby의 세일즈 프로세스를 리서치 전문가가 제품 컨설턴트처럼 느끼도록 설계. 데모 대신 실제 고객 데이터로 미니 리서치 프로젝트 실행해서 가치 입증하는 "컨설팅형 세일즈" 모델 도입
+
+- **필드 엔지니어링 기능 구축**: 전략 문서의 유니콘/엔터프라이즈 타겟을 위해 고객 환경에 직접 들어가서 리서치 워크플로우를 함께 설계하고 AI 도구 도입을 지원하는 "리서치 플랫폼 아키텍트" 역할 신설
+
+- **통합 GTM 라이프사이클 설계**: 마케팅(인지) → 세일즈(도입) → 고객성공(확산) → 지원(유지)의 각 단계별로 일관된 "AI 리서치 전문가" 포지셔닝 유지하되, 각 단계에서 다른 가치 제안 (비용 절감 → 품질 향상 → 속도 증대 → 규모 확장) 순차적 전달
+
+- **기술-영업 하이브리드 인재 확보**: 전략 문서의 "스타트업 PM/PD" 세그먼트를 공략하기 위해 제품 관리 경험이 있으면서 리서치 전문성을 갖춘 세일즈 인력 채용. 고객과 동일한 언어로 소통하며 기술적 신뢰도 확보
+
+- **AI 품질 검증을 GTM 자산으로 활용**: 전략 문서에서 지적된 "AI 조사 품질이 인간 모더레이터와 동등한가" 가정 검증을 마케팅 자산으로 전환. 전문 리서처들과의 블라인드 테스트 결과를 케이스 스터디로 활용하여 신뢰도 구축
+
+## Transcript
+- **URL**: https://www.youtube.com/watch?v=RmnWHz8HD74
+
+- [00:00] I've been getting so many asks for go to
+- [00:02] market help.
+- [00:03] >> With AI, it's just intensified because
+- [00:05] [music]
+- [00:05] you have 10 players pursuing the same
+- [00:08] market opportunity and so your ability
+- [00:10] to actually bring the product to market
+- [00:12] to differentiate yourself from the
+- [00:14] competition has become more
+- [00:16] strategically important than it was
+- [00:17] previously.
+- [00:18] >> I had Jenna Ael on the podcast recently.
+- [00:20] One of her tips is you don't want to be
+- [00:22] focusing on here's the pain and problem
+- [00:23] we're solving and instead focus on
+- [00:25] here's how you will be better than your
+- [00:26] competitors. 80% of customers buy to
+- [00:30] avoid pain or reduce risk [music] as
+- [00:33] opposed to increase upside, which is a
+- [00:35] good thing for startup founders to
+- [00:36] understand. We all love to talk about
+- [00:38] the art of the possible, everything
+- [00:40] we're going to enable in the future, but
+- [00:42] that's often really a sale that's going
+- [00:45] to resonate with another founder.
+- [00:46] Everybody else, particularly
+- [00:47] enterprises, you're avoiding the risk of
+- [00:50] not making your revenue target next
+- [00:52] quarter.
+- [00:52] >> I've heard a lot about how you think
+- [00:54] about go to market as a product. We buy
+- [00:56] a lot of things because of how we feel
+- [00:58] about them. The experience that you have
+- [00:59] of being [music] sold to will
+- [01:01] increasingly actually differentiate a
+- [01:03] company and [music] drive buying
+- [01:06] decisions if products are only different
+- [01:08] at the merger. [music] And so then you
+- [01:10] really want to create a customer buying
+- [01:13] journey that feels like very unique
+- [01:16] experiences. [music]
+- [01:17] >> Something I've heard from so many people
+- [01:18] you've worked with is that your
+- [01:19] superpower is building a sales or that
+- [01:21] doesn't feel like a sales or to
+- [01:22] engineers. The litmus test I have always
+- [01:24] given my sales team is if you are an
+- [01:27] account executive in my org and I put
+- [01:29] you in front [music] of 10 engineers at
+- [01:32] our company, it should take them 10
+- [01:34] minutes to figure out you aren't a
+- [01:35] product manager.
+- [01:38] Today my guest is Gan Grosser. Gan was
+- [01:40] chief product officer at Stripe where
+- [01:42] she built their very early sales team
+- [01:44] from the ground up. She's currently COO
+- [01:47] at Versell where she oversees marketing,
+- [01:49] sales, customer success, revenue ops,
+- [01:51] and field engineering. Gene has built
+- [01:54] world-class go to market teams at
+- [01:55] multiple unicorns and has advised dozens
+- [01:58] of companies on doing the same. In our
+- [02:00] conversation, we go deep on what a
+- [02:01] world-class go to market team looks
+- [02:03] like, including what the heck is go to
+- [02:06] market, the rise of the goto market
+- [02:08] engineer and how this role is already
+- [02:10] enabling her team to operate 10 [music]
+- [02:11] times faster, a bunch of very specific
+- [02:14] tactics to level up your go to market
+- [02:15] skills, [music] a primer on
+- [02:17] segmentation, how to think about your
+- [02:19] goto market process like a product, her
+- [02:21] favorite go to market tools, her hot
+- [02:23] takes on PLG and sales comp and sales
+- [02:26] hiring, [music]
+- [02:27] and so much more. If you are looking to
+- [02:29] get smart on the latest and greatest in
+- [02:31] go to market thinking, this episode is
+- [02:33] for you. A huge thank you to Claire
+- [02:35] Hughes Johnson, Kate Jensen, and James
+- [02:38] Deiet for suggesting topics for this
+- [02:39] conversation and Kelly Schaefer for the
+- [02:41] connection. If you enjoy this podcast,
+- [02:43] don't forget to subscribe and follow it
+- [02:44] in your favorite podcasting app or
+- [02:46] YouTube. It helps tremendously. And if
+- [02:48] you become an annual subscriber of my
+- [02:50] newsletter, you get an entire year free
+- [02:54] of a ton of incredible products
+- [02:56] including Devon, Lovable, Repid, Bolt,
+- [02:59] NAD, Linear, Superhum, Dcript, Whisper
+- [03:01] Flow, Gamma, Perplexity, Warp, Granola,
+- [03:02] Magic Patterns, Raycast, Shapeyard D,
+- [03:04] Mob, and Hand, Stripe Atlas. Head on
+- [03:06] over to lennisnewsletter.com and click
+- [03:07] product pass. With that, I bring you
+- [03:10] Jean Grosser after a short word from our
+- [03:12] sponsors. This episode is brought to you
+- [03:15] by Data Dog, now home to EPO, the
+- [03:17] leading experimentation and feature
+- [03:19] flagging platform. Product managers at
+- [03:21] the world's best companies use Data Dog,
+- [03:23] the same platform their engineers rely
+- [03:25] on every day to connect product insights
+- [03:28] to product issues like bugs, UX
+- [03:30] friction, and business impact. It starts
+- [03:33] with product analytics, where PMs can
+- [03:35] watch replays, review funnels, dive into
+- [03:37] retention, and explore their growth
+- [03:39] metrics. Where other tools stop, Data
+- [03:41] Dog goes even further. It helps you
+- [03:43] actually diagnose the impact of funnel
+- [03:45] drop offs and bugs and UX [music]
+- [03:47] friction. Once you know where to focus,
+- [03:49] experiments prove what works. I saw this
+- [03:52] firsthand when I was at Airbnb, where
+- [03:54] our experimentation platform was
+- [03:55] critical for analyzing what worked and
+- [03:57] where things went wrong. And the same
+- [03:58] team that built experimentation at
+- [04:00] Airbnb built EPO. Beta do then lets you
+- [04:03] go beyond the numbers with session
+- [04:05] replay. Watch exactly how users interact
+- [04:08] with heat maps and scroll maps to truly
+- [04:10] understand their behavior. And all of
+- [04:12] this is powered by feature [music] flags
+- [04:14] that are tied to real time data so that
+- [04:16] you can roll out safely, target
+- [04:18] precisely, and learn continuously. Data
+- [04:21] Dog is more than engineering metrics.
+- [04:23] It's where great product teams learn
+- [04:25] faster, fix smarter, and ship with
+- [04:27] confidence. Request a demo at data
+- [04:30] hq.com/lenny.
+- [04:32] That's data dogq.com/lenny.
+- [04:35] This episode is brought to you by
+- [04:37] Lovable. Not only are they the fastest
+- [04:39] growing company in history, I use it
+- [04:42] regularly and I could not recommend it
+- [04:44] more highly. If you've ever had an idea
+- [04:46] for an app, but didn't know where to
+- [04:47] start, Lovable is for you. Lovable lets
+- [04:50] you build working apps and websites by
+- [04:52] simply chatting with AI. Then you can
+- [04:54] customize it, add automations, and
+- [04:56] deploy it to a live domain. It's perfect
+- [04:58] for marketers spinning up tools, product
+- [05:00] managers prototyping new ideas, and
+- [05:02] founders launching their next business.
+- [05:04] Unlike no code tools, Lovable isn't
+- [05:07] about static pages. It builds full apps
+- [05:09] with real functionality, and it's fast.
+- [05:12] What used to take weeks, months, or
+- [05:14] years, you can now do over a weekend.
+- [05:16] So, if you've been sitting on an idea,
+- [05:18] now is the time to bring it to life. Get
+- [05:20] started for free at lovable.dev.
+- [05:23] That's lovable.dev.
+- [05:29] >> Jean, thank you so much for being here
+- [05:31] and welcome to the podcast.
+- [05:32] >> Thanks for having me, Lenny. What I want
+- [05:34] to get out of this conversation by the
+- [05:36] end of this to basically have this
+- [05:38] conversation be the thing that we send
+- [05:39] people when they're like I want to get
+- [05:40] better at go to market. I'm trying to
+- [05:42] figure out what to do in market. We send
+- [05:43] them this versus having to hire someone
+- [05:45] for a lot of money and and usually they
+- [05:47] can't find amazing people because
+- [05:48] they're all snatched up.
+- [05:50] >> Yeah.
+- [05:50] >> So let me start with just the basics.
+- [05:52] When people hear the term go to market,
+- [05:55] what does that mean? What does that
+- [05:56] encompass?
+- [05:57] >> I think there are two answers to this.
+- [05:59] Often what people think of is sort of
+- [06:01] the t tip of the spear of what drives
+- [06:03] revenue, which is marketing and sales.
+- [06:06] For me, I think of it as any function
+- [06:10] that is going to touch a customer or
+- [06:12] make a dollar. Um, and actually my
+- [06:14] remmit at Verscell is that. So that
+- [06:17] includes marketing, sales, uh, all of
+- [06:20] your technical sales roles like sales
+- [06:23] engineers or, uh, post sales platform
+- [06:25] architects is what we call them at
+- [06:27] Verscell. It's customer success, it's
+- [06:29] support, it's partnerships. And the
+- [06:32] reason I say that is uh my experience
+- [06:34] throughout my career has been that those
+- [06:37] functions often have this vend diagram
+- [06:40] strategy where marketing is pursuing one
+- [06:43] thing. It overlaps with what sales is
+- [06:45] pursuing but not perfectly, which also
+- [06:47] overlaps with what support is pursuing
+- [06:49] but not perfectly. Examples of this
+- [06:51] would be slightly different uh uh
+- [06:54] slightly differing segmentation
+- [06:56] frameworks etc. And so one of the things
+- [06:58] I think you're going to want to see more
+- [07:01] in this particular moment is that that
+- [07:03] become a really integrated life cycle in
+- [07:06] particular because I think we're going
+- [07:07] to see a lot of the functions of go to
+- [07:10] market get redefined. So we've gone
+- [07:12] through a period of like hyper
+- [07:14] specialization in go to market. Uh you
+- [07:17] know depending on how you count them
+- [07:18] there are you know I think somebody
+- [07:20] quoted like 17 different uh roles within
+- [07:23] go to market these days. And I
+- [07:25] hypothesize that a lot of those are
+- [07:27] going to start to collapse. And so if
+- [07:29] you think of go to market more
+- [07:31] holistically, I think you can kind of go
+- [07:34] back to what are the jobs to be done
+- [07:36] from making a customer prospect aware of
+- [07:40] of your product all the way through to
+- [07:43] you know high LTV five years on the
+- [07:46] platform fully wallto-wall and you're
+- [07:48] going to want to map that out and
+- [07:50] orchestrate it the way you would think
+- [07:52] about that within your own product.
+- [07:54] >> Awesome. We're going to go through that
+- [07:55] whole cycle of go to market, but so is
+- [07:58] it safe to say just for most companies
+- [08:00] that may that are especially starting
+- [08:01] out when they say go to market that
+- [08:03] mostly is sales and then there's
+- [08:05] marketing as a maybe a smaller fraction
+- [08:07] of that and then as you become more
+- [08:09] advanced and grow customer success plays
+- [08:11] into a tech sales things like that.
+- [08:12] Yeah, that's probably where most start
+- [08:14] um you know is getting sales or frankly
+- [08:16] just because a lot of companies also
+- [08:17] start PLG you might actually start with
+- [08:20] marketing and then you're layering in
+- [08:21] sales when it's time to do the sales
+- [08:23] assisted and ultimately salesled
+- [08:25] portions. So I think it can depending on
+- [08:28] your product and your initial target
+- [08:29] market it can either mean marketing or
+- [08:31] sales or a combination of those two.
+- [08:33] >> Awesome. So essentially it's like how
+- [08:34] the term go to market tells you what
+- [08:36] we're talking about. It's how do you
+- [08:37] take your product to market, get people
+- [08:39] aware of it, using it, sticking with it?
+- [08:42] >> Yep, absolutely.
+- [08:44] >> What is most changed in the world of go
+- [08:46] to market over the last few years?
+- [08:48] You've done this for a long time at
+- [08:49] Google at Stripe. You built the first
+- [08:50] sales team. Now you're doing that over
+- [08:51] cell. What's changed most in the skill
+- [08:53] and art of go to market?
+- [08:55] >> There are a number of things. So when
+- [08:57] consumption-based business models
+- [08:59] started, I think you saw go to market
+- [09:03] shift into being meaningfully more
+- [09:04] consultative because often that first
+- [09:07] land was the very beginning of the
+- [09:09] journey and represented a very small
+- [09:11] percent of what you were ultimately
+- [09:13] going to do with that customer. And so
+- [09:15] you had to go from being transactional
+- [09:17] to a lot more relationship based. You
+- [09:18] had to more deeply understand what that
+- [09:21] customer was trying to do so you could
+- [09:23] align that ultimately to your product. I
+- [09:25] think that has uh played out that much
+- [09:28] more with an AI because right now
+- [09:30] everyone knows they need to change but
+- [09:32] they don't necessarily know exactly what
+- [09:34] they need to change to whether that's
+- [09:36] their customerfacing product or their
+- [09:39] internal productivity and workflows. And
+- [09:41] so I think you're seeing a lot more of
+- [09:44] go to market orgs leaning into the art
+- [09:46] of the possible best practices helping
+- [09:49] you actually think things through as if
+- [09:51] they were a consultant. And so one of
+- [09:53] the things you see uh you know more of
+- [09:56] right now is for deployed engineering
+- [09:58] which on some level is kind of a rebrand
+- [10:00] of professional services
+- [10:03] um but kind of not and a big part of
+- [10:05] that is hey how do I actually get into
+- [10:08] your environment ride alongside you
+- [10:10] better understand what you're trying to
+- [10:12] do and then help you actually bring the
+- [10:14] technology to life and and learn a lot
+- [10:17] along the way. Um, often you're not only
+- [10:20] making that customer successful, but
+- [10:21] you're then taking all of that back to
+- [10:23] your product and engineering uh,
+- [10:24] organization to figure out, okay, what
+- [10:26] was generalizable that we ought to build
+- [10:27] into our offering versus what is
+- [10:29] something that ultimately is going to be
+- [10:31] more of a a professional service in the
+- [10:33] fullness of time. So, I think that has
+- [10:35] been a a a biggie is is actually just
+- [10:37] like really getting embedded with your
+- [10:39] customer. And then unsurprisingly, um, I
+- [10:43] think bringing AI to bear on the sales
+- [10:46] process is another big one. And so
+- [10:48] you've seen the rise in probably the
+- [10:50] last like 18 to 24 months um of the go
+- [10:53] to market engineer
+- [10:55] um which uh you know different different
+- [10:58] folks define slightly differently but it
+- [11:00] it's kind of bringing one technical
+- [11:02] prowess to bear on go to market in
+- [11:05] general so you can have a lot better
+- [11:07] tooling data use etc and then two
+- [11:10] increasingly bringing AI um to bear as
+- [11:13] well to rearchitect um your workflows um
+- [11:16] and also So uh make it so it's easier to
+- [11:19] have a personalized experience with
+- [11:22] customers but do so at scale.
+- [11:23] >> Amazing. Okay, let's follow the thread
+- [11:25] on this uh go to market engineer.
+- [11:27] >> Yeah.
+- [11:28] >> So what was it like before and what are
+- [11:30] what are these engineers doing at
+- [11:32] companies?
+- [11:33] >> So I think uh maybe like an interesting
+- [11:37] story to tell. Uh when I when I was at
+- [11:40] Stripe
+- [11:41] uh we went to launch an outbound um SDR
+- [11:45] function. uh so outbound prospecting and
+- [11:48] Stripe always ran lean. Uh the company
+- [11:51] at that time had an operating principle
+- [11:52] which was efficiency is leverage and so
+- [11:55] if you looked at the sales organization
+- [11:56] I was running most companies out there
+- [11:59] probably would have had 30 SDRs and I
+- [12:01] was going to get four.
+- [12:03] So you know there's no way I was going
+- [12:05] to do the typical SDR um you know
+- [12:08] approach and be successful. And so we
+- [12:10] thought to ourselves okay what can we
+- [12:12] do? We'll be super data driven. And so
+- [12:14] we went and we started building project
+- [12:17] Rosland. Rosland is the scientist who
+- [12:20] originally mapped uh DNA. And what this
+- [12:23] was was effectively a company universe.
+- [12:25] So you can think of this as like a
+- [12:27] massive database. Every row uh was a
+- [12:30] different company on the planet. And
+- [12:32] every column was an attribute about that
+- [12:34] company that would help you sell to them
+- [12:37] uh in a more targeted fashion. So at
+- [12:40] Stripe, an example would be like knowing
+- [12:41] that their um their business model was a
+- [12:44] marketplace was super helpful because
+- [12:45] that would mean you wanted to sell
+- [12:47] Stripe Connect versus Vanilla Payments.
+- [12:49] And so the goal was basically, hey, can
+- [12:52] we create a Mad Libs, you know, where I
+- [12:54] will come up with uh sort of a a
+- [12:57] predefined email template, but 80% of it
+- [13:01] will be fill-in- thelank based on the
+- [13:04] different attributes um of that that
+- [13:06] customer, right? So if they're this
+- [13:08] industry or this business model, then
+- [13:10] pull this customer reference, this value
+- [13:12] prop, you know, send it to this um uh
+- [13:15] persona, not that. And we were trying to
+- [13:17] do this in 2017. And uh it was very hard
+- [13:21] and didn't actually totally work.
+- [13:23] [laughter]
+- [13:24] Um our ability to like the false
+- [13:26] positive rate when and we worked deeply
+- [13:28] with data science like just it just
+- [13:30] never really got there. And now that
+- [13:33] we're literally redoing here at Verscell
+- [13:35] as we speak and it actually works. Um,
+- [13:38] and that's because you can bring AI to
+- [13:40] bear on it. Um, and so what's different
+- [13:43] is we now I have a data scientist just
+- [13:46] like I did back in 2017, but I have a go
+- [13:49] to market engineer. Um, whereas before I
+- [13:51] just had someone in systems that was
+- [13:53] helping me configure Outreach or
+- [13:55] Salesoft and my go to market engineer is
+- [13:57] helping me build an agent. um where
+- [14:00] we're coming up with okay well what's
+- [14:02] the human workflow that you would have
+- [14:03] done and then how do you encode that um
+- [14:06] using burcell workflows as an example
+- [14:09] you know in actual code that's both
+- [14:11] deterministic and and less so um where
+- [14:14] an agent's going out and and trying to
+- [14:16] replicate what a human might have done
+- [14:18] um to produce that fill-in- thelank mad
+- [14:21] lips
+- [14:21] >> I love the ambition of that project what
+- [14:23] is this like eight years ago
+- [14:25] >> yes it's such a I love the big thinking
+- [14:27] there we're going to map the entire
+- [14:29] universe of companies and then here's
+- [14:30] how we sell to them and then just I'm
+- [14:32] trying to picture doing that without AI.
+- [14:34] It's like crazy to imagine trying that
+- [14:35] without AI and now it's like so much
+- [14:37] simpler.
+- [14:38] >> Well, the thing that's amazing about
+- [14:40] that just to geek out on it a second. So
+- [14:42] um I I was working on that with a bunch
+- [14:45] of folks at Stripe um on my team
+- [14:47] obviously and a gentleman named Ben
+- [14:48] Salman um who went on to go to Zoom Info
+- [14:51] and then actually recently just founded
+- [14:53] a goto market startup that is basically
+- [14:56] sort of productizing that concept of a
+- [14:58] company universe and then layering AI on
+- [15:01] it on top of it and ultimately his view
+- [15:04] is actually you'll AI will get to the
+- [15:06] point that you won't have to do outbound
+- [15:07] prospecting because it will just sort of
+- [15:10] company and product match
+- [15:12] Um, so it's it's fun to sort of see back
+- [15:15] in 2017 some of the folks doing that now
+- [15:17] work at OpenAI, they work at Anthropic,
+- [15:19] they also are doing GTM. You've got him
+- [15:22] starting, you know, a totally AI native
+- [15:24] GTM um company. And then, you know, here
+- [15:26] I am at Rousell trying to do the same.
+- [15:29] >> Okay. So, what's cool is this is an
+- [15:30] emerging role and emerging skill that I
+- [15:33] don't think a lot of people have
+- [15:34] recognized as something that is
+- [15:36] happening.
+- [15:37] >> Yep. So, one example I'm hearing of what
+- [15:39] this role does is they automate outbound
+- [15:42] emails essentially and outbound
+- [15:43] outreach. They figure out they write
+- [15:45] workflows and agents that figure out
+- [15:46] here's the company to go after. Here's
+- [15:48] how we message them. Does that end up
+- [15:50] being kind of like an email that's
+- [15:51] customdesigned and written for this
+- [15:53] prospect?
+- [15:54] >> That's one version. So, so it's it's
+- [15:57] broader than that really. Um, basically
+- [16:00] the the full remit of GTMEN will be to
+- [16:04] go through each of the different
+- [16:05] functions within go to market and break
+- [16:09] down all the different workflows that
+- [16:11] they do and then turn those into agents
+- [16:14] um where you know AI is better placed
+- [16:17] than the human um to do that task. So
+- [16:21] right now we started with uh actually
+- [16:24] inbound and are now moving to outbound
+- [16:26] because um that workflow is most legible
+- [16:31] and by legible I mean you can basically
+- [16:34] write it down. It's relatively
+- [16:35] replicable, mostly deterministic, so
+- [16:38] it's more likely that AI will do it
+- [16:41] well. And we actually built the agent
+- [16:43] and then we keep a human in the loop.
+- [16:45] But from there, we're starting to look
+- [16:46] at outbound. And with an outbound, we're
+- [16:48] starting more at the lower end of the
+- [16:49] market where you tend to, you know, have
+- [16:52] slightly less customization because
+- [16:53] there's a single decision maker at the
+- [16:55] company. But I think it will take a
+- [16:56] while before we're able to really do
+- [16:58] that in a very large enterprise there.
+- [17:01] or we might use an agent for research
+- [17:03] but maybe not all the way to actually
+- [17:05] send a message and that's just within
+- [17:07] the prospecting function. So other
+- [17:09] places that we're looking at this would
+- [17:11] be um for install based sales. So again
+- [17:14] there it's a little bit more
+- [17:15] deterministic because you've got awesome
+- [17:17] internal data on what a customer is and
+- [17:19] isn't using. What's the next best
+- [17:21] action? What's the thing they should get
+- [17:23] most value from? So that's where we're
+- [17:25] starting to map, hey, what does that
+- [17:27] ideal workflow look like? But basically,
+- [17:30] you want to get to a state where as long
+- [17:32] as I've been in sales, they, you know,
+- [17:34] release these annual reports that help
+- [17:35] us all benchmark ourselves relative to
+- [17:37] one another. And one of the stats is
+- [17:39] what percent of time do your sellers
+- [17:41] actually spend in front of customers?
+- [17:44] And you know, for the 20 years I've been
+- [17:46] in sales, it's always been somewhere
+- [17:47] around 30 to 40%. So the minority of
+- [17:50] time is actually talking to other
+- [17:52] humans. And I think we're getting to a
+- [17:55] point where with layering in agents,
+- [17:58] ideally we finally get salespeople to a
+- [18:00] point where they're actually spending
+- [18:01] 70% of their time interacting with
+- [18:03] humans and we can get the research, the
+- [18:06] followup, the things that are a little
+- [18:07] bit more, you know, wrote and don't use
+- [18:10] the entirety of your human capacity uh
+- [18:13] done by an agent and then sort of
+- [18:14] unleash you to uh go deeper with your
+- [18:17] customers. I love that this is such a
+- [18:19] great example of where AI is
+- [18:21] contributing in a very meaningful high
+- [18:23] ROI way taking on all this work that
+- [18:26] people that you had to hire say 50 SDRs
+- [18:28] as you described to do and now you could
+- [18:30] do with a lot more. So it's a really
+- [18:31] cool example of leverage that AI uh
+- [18:34] gives you. One thing that I know a lot
+- [18:37] of people think about when they hear
+- [18:39] this is okay I'm going to get more of
+- [18:40] these really bad emails trying to pitch
+- [18:42] me on stuff and just like this isn't
+- [18:44] going to work. I can tell this is AI.
+- [18:46] What have you learned about how to do
+- [18:48] this where people actually receive
+- [18:49] emails that actually convert and do
+- [18:51] well?
+- [18:51] >> Our processes all always have human in
+- [18:55] the loop and uh so basically where we'll
+- [18:59] start is we take a go to market engineer
+- [19:02] and we have them shadow the highest
+- [19:05] performing individual in that function.
+- [19:08] And so you can go and you shadow an SDR
+- [19:10] and you can see oh wow they've got seven
+- [19:12] tabs open. they're looking up the you
+- [19:15] know person on LinkedIn they're reading
+- [19:16] about the company they're doing chatbt
+- [19:19] on this they're you know looking in this
+- [19:21] database to get these sets of attributes
+- [19:23] um and so that's how you sort of inform
+- [19:25] the initial work uh workflow and then
+- [19:28] what we do is we let the agent make a
+- [19:30] call so and the specific example with um
+- [19:33] with inbound right you have to determine
+- [19:35] whether or not you think the lead is
+- [19:37] likely to be qualified and then you have
+- [19:39] to determine what to say to it and so
+- [19:41] we'll let the agent make those two calls
+- [19:44] It ultimately then does some deep
+- [19:46] research, pulls in a bunch of
+- [19:47] information from our databases and
+- [19:49] crafts a response. But we have a human
+- [19:52] review all of those and actually hit
+- [19:54] send. Now for us, we had 10 SDRs doing
+- [19:58] this inbound workflow and now we just
+- [20:00] have one that is effectively QAing the
+- [20:03] agent. The other nine we deployed on
+- [20:05] outbound. So we got to move them up the
+- [20:07] value chain. At some point I think we'll
+- [20:09] get to a place where we feel like hey
+- [20:12] you know the the human reviewer is um
+- [20:15] saying yes enough of the time that we
+- [20:17] feel confident that these will be
+- [20:19] onbrand targeted etc. But right now uh
+- [20:23] we're still trying to train um the agent
+- [20:26] and it you know it incorporates feedback
+- [20:28] on what we choose to reject edit etc.
+- [20:31] >> And you shared that it's already having
+- [20:32] a lot of impact like you said you had
+- [20:34] you said 10 SDRs and now one can do the
+- [20:36] job of 10. Yes.
+- [20:37] >> Wow.
+- [20:38] >> Um, yeah. And we, so before we did that
+- [20:40] move, I mean, the other thing that's
+- [20:42] just incredible about this is the person
+- [20:43] who built the lead agent was a single
+- [20:46] GTM engineer. He spent maybe 25 30% on
+- [20:50] his time of his time on this. Uh, it was
+- [20:53] 6 weeks before we felt confident going
+- [20:56] from 10 to one. So, it wasn't like this
+- [20:58] was a multi-quarter process. It actually
+- [21:00] moved super quickly. Um, so, uh, and
+- [21:04] then again now we just sort of keep that
+- [21:06] agent manager sort of working with the
+- [21:09] agent to get it to a point where we say,
+- [21:11] "Hey, we're ready to roll." Um, and
+- [21:12] actually throughout the process, we also
+- [21:14] tracked all of the KPIs that you
+- [21:17] typically would hold an SDR accountable
+- [21:19] to. So, we were looking at our lead to
+- [21:22] opportunity conversion rate. We're
+- [21:23] looking at the number of touches it
+- [21:25] takes, the time to convert. Uh, and
+- [21:28] basically what we were able to do is
+- [21:30] hold that lead to opportunity conversion
+- [21:31] rate flat. Um, so the agent is as good
+- [21:34] as our humans were, but it's actually
+- [21:37] condensed the number of touches it takes
+- [21:39] to convert because it's so much quicker
+- [21:42] at responding relative to leads
+- [21:44] inevitably sitting in the queue or
+- [21:46] coming in at night time and no one, you
+- [21:47] know, can get to it. That that type of
+- [21:49] deal. Um, so, uh, that's sort of, you
+- [21:52] know, when we knew it was, uh, ready to
+- [21:54] pull nine people off and shift them into
+- [21:56] outbound. That's incredible. Okay,
+- [21:57] that's interesting. So, you shifted them
+- [21:58] to outbound. What I love about this is
+- [22:00] this SDR that is now doing this is, as
+- [22:02] you said, doing the things they enjoy
+- [22:04] more. They're talking to customers more.
+- [22:06] They're not doing all this kind of top
+- [22:07] offunnel row work.
+- [22:09] >> Yeah.
+- [22:09] >> I don't want to get into whole like jobs
+- [22:11] AI discussion, but uh there's always
+- [22:13] been this talk about AI SDRs basically
+- [22:16] replacing SDRs. It feels like that's one
+- [22:18] thing where everyone's like this is 100%
+- [22:19] going to be AI in the future. Uh what
+- [22:21] I'm hearing here is it gives one a steer
+- [22:23] a lot more leverage and obviously you
+- [22:25] still need people running the show. T
+- [22:27] thoughts there just like do you think AI
+- [22:28] will replace all this at some point and
+- [22:29] then I don't know you don't need
+- [22:31] salespeople.
+- [22:32] >> I think on prospecting it can replace a
+- [22:37] fair amount because the average SDR
+- [22:41] wasn't doing overly sophisticated
+- [22:43] research in the first place. Um, so
+- [22:47] where I I think the last part to go as I
+- [22:50] mentioned will be in deep enterprise
+- [22:53] prospecting where you know you can be at
+- [22:55] multiple layers in an org chart. You've
+- [22:57] got to pick between business lines. You
+- [22:58] got to triangulate those. Um, but uh I I
+- [23:02] do think for the things that are more
+- [23:04] repetitive that often don't take that
+- [23:07] much time to learn and get ramped AI
+- [23:10] will be good at that. And in my view, no
+- [23:14] one like graduated from college and was
+- [23:17] like, "Yes, I just went to college for
+- [23:19] four years to become an SDR." It was
+- [23:22] more, okay, that's where you are forced
+- [23:24] to start. But I think the average STR
+- [23:28] could have gone straight into outbound
+- [23:30] or straight into an SMB closing role.
+- [23:33] Uh, and so basically what we're just
+- [23:35] doing is shifting folks into something
+- [23:38] that uses more of their full capacity
+- [23:41] right out of the gates rather than sort
+- [23:43] of the uh, you know, the the forcing
+- [23:46] function of working your way up the
+- [23:47] totem pole.
+- [23:48] >> Awesome. Since a lot of people listening
+- [23:50] to this aren't sales people, don't have
+- [23:51] a lot of background in sales, we've used
+- [23:53] this term SDR. There's also the term AE.
+- [23:56] Can you just help people understand what
+- [23:57] is an SDR? What do they do? What's an
+- [23:59] AE? And then what's kind of the role
+- [24:00] above?
+- [24:01] >> Sure. So SDR is typically in charge of
+- [24:05] generating pipeline. So they're meant to
+- [24:08] talk to prospective customers and uh get
+- [24:12] them to a point where it is worth
+- [24:16] investing time to run them through a
+- [24:18] sales process. So you t typically have
+- [24:21] two types of an STR. You have an inbound
+- [24:23] one. So, this is where people come to
+- [24:24] your website, they fill out contact
+- [24:26] sales, they'll be the first call uh to
+- [24:29] make sure that it's actually worth a
+- [24:30] more expensive account executive to go
+- [24:32] and run a sales process. Or you then
+- [24:35] have outbound. So, this is where when
+- [24:37] you want to grow faster than your
+- [24:39] inbound demand, they will go out and at
+- [24:42] this point you probably have a point of
+- [24:43] view on where you think you have product
+- [24:46] market fit. And so they will target that
+- [24:49] part of the market and try to drum up
+- [24:50] interest from folks who weren't
+- [24:52] otherwise raising their hand saying,
+- [24:53] "I'd like to talk to you." So that's
+- [24:55] sales development, basically pipeline
+- [24:57] generation. Account executives are
+- [25:00] closers. So it's their job to take
+- [25:02] somebody from, okay, hey, I'm interested
+- [25:04] in learning about your solution. I have
+- [25:05] a legitimate problem. I potentially
+- [25:07] could make a decision to I now believe
+- [25:10] that your product is the best in the
+- [25:12] market and for me and I'm willing to pay
+- [25:15] for it. And then account executives
+- [25:17] depending on uh the segments that your
+- [25:21] company sells into, eg small business,
+- [25:23] mid-market, enterprise, etc. They may
+- [25:26] work their way up the food chain from
+- [25:28] selling to a smaller company like an SMB
+- [25:31] or a startup. Those tend to be a little
+- [25:33] bit more of a transactional sale. You
+- [25:36] often have a single decision maker to
+- [25:38] then going into a mid-market or
+- [25:40] commercial role where now maybe you have
+- [25:42] an economic buyer like somebody in
+- [25:44] finance and a technical buyer like
+- [25:47] somebody in engineering to getting into
+- [25:49] enterprise where you know you now have
+- [25:51] procurement and you have committees and
+- [25:54] 10 people have to weigh in and um you
+- [25:56] know you've got to help them figure out
+- [25:58] how to derisk the fact that they're
+- [25:59] probably migrating from something. So
+- [26:01] much more complicated um coordination
+- [26:04] effort to sell. That was extremely
+- [26:06] helpful. So, SDR pipeline generation AE
+- [26:09] closer. Such a simple way of thinking
+- [26:11] about it. Okay, this is great. Uh, going
+- [26:14] back to the GDM engineer, a few
+- [26:15] questions for people that may want to
+- [26:17] try this at their company. What scale do
+- [26:19] you think it makes sense to start hiring
+- [26:21] for this role, having someone automate
+- [26:24] the go to market process?
+- [26:25] >> What's interesting about this is it will
+- [26:27] force companies to be more rigorous
+- [26:30] about their sales process early. So
+- [26:33] often startups when they go from founder
+- [26:36] sales to say I'm going to have my first
+- [26:39] salesperson whether that's an actual you
+- [26:41] know account executive who has prior
+- [26:43] sales experience or your general athlete
+- [26:45] wicked smart who's going to go figure it
+- [26:47] out you know often founders will just
+- [26:51] say okay sales is showing up and talking
+- [26:54] to people isn't you know isn't that what
+- [26:55] I just did for the last couple years but
+- [26:58] actually sales is is more than that it's
+- [27:00] a skill just like writing code as a
+- [27:03] skill or building a financial model as a
+- [27:05] skill. It's about discovery. So asking
+- [27:08] all the right questions that help you uh
+- [27:10] identify challenges and pain,
+- [27:12] willingness to pay, um you know, etc. Uh
+- [27:16] and then going through a process to
+- [27:18] handle those objections and showcase,
+- [27:20] you know, where you add enough value
+- [27:21] such that somebody ultimately wants to
+- [27:23] hand over some money. So often, you
+- [27:26] know, startups will get particularly
+- [27:28] ones with strong product market fit to
+- [27:30] pretty significant scale without really
+- [27:32] having a replicable process. And you
+- [27:35] can't really apply go to market
+- [27:36] engineering unless you actually have a
+- [27:38] point of view on what best practice
+- [27:40] should look like. And so I think
+- [27:43] basically this is going to force folks
+- [27:45] to have more of a playbook out of the
+- [27:47] gates. What's working? What's not? Can I
+- [27:49] document it? Do I have content for the
+- [27:52] different parts of the sales process?
+- [27:54] And then you know once you do that which
+- [27:56] you know maybe 10 people is a good size
+- [27:58] and scale for that ostensibly you know a
+- [28:01] GTM engineer can come in and turn that
+- [28:03] into an agent. You could also argue that
+- [28:06] if you know you're a founder who wants
+- [28:08] to bring in a general athlete profile
+- [28:11] and that person is technically minded
+- [28:14] that you could have a hybrid AE GTM
+- [28:17] engineer who figures out what their best
+- [28:19] practice is and then tries to turn that
+- [28:21] into an agent. you know, that's riding
+- [28:23] alongside them and making them more
+- [28:25] effective as well. So um you know I I
+- [28:29] don't know that I have a point of view
+- [28:30] yet on what's the optimal size and scale
+- [28:33] but I forever have given founders the
+- [28:35] advice that uh it's you often want to
+- [28:39] bring in revenue operations which is
+- [28:41] basically the analytical arm of sales
+- [28:44] earlier than you think because having
+- [28:46] data having process is actually what
+- [28:49] gives you insights as a founder into
+- [28:51] what is and isn't working and so I would
+- [28:54] argue just like it's a good idea to have
+- [28:55] that sooner later. Increasingly, it'll
+- [28:57] probably be a good idea to have GTM
+- [29:00] engine and be looking to bring agents to
+- [29:02] bear on your process uh at the outset.
+- [29:05] >> While we're on this topic, just a quick
+- [29:06] tangent. The advice for hiring your
+- [29:08] first salesperson that I usually hear is
+- [29:09] wait until you're around a million in
+- [29:11] ARR when you have a repeatable process
+- [29:13] you can teach someone. Anything there?
+- [29:16] Is that does that seem right? What would
+- [29:17] you what would you recommend?
+- [29:18] >> Yeah, I think that seems about right. Um
+- [29:20] I do think uh as a founder you want to
+- [29:23] stay deeply connected to customers and
+- [29:25] get it to a scale and get it to a point
+- [29:28] where you know you use the word there's
+- [29:30] some repeatability there. I think that's
+- [29:32] one of the things that not all founders
+- [29:34] get right is founders are incredible
+- [29:36] salespeople right they convinced a VC
+- [29:39] angel investors to fork over a bunch of
+- [29:41] money so clearly they're going to
+- [29:43] inspire people to buy. But if you're
+- [29:45] getting to a million in ARR and the set
+- [29:47] of customers you have look nothing like
+- [29:49] one another you still have very much
+- [29:52] like an evangelist sale very much
+- [29:54] founder sale versus if you can say hey I
+- [29:57] now have an ICP here or ideal customer
+- [30:00] profile eg something you can write down
+- [30:03] you know we are good uh our product fits
+- [30:06] with uh startups with less than 100
+- [30:08] employees who are typically building SAS
+- [30:11] applications right something like that
+- [30:14] um then they're probably ready to hand
+- [30:16] over the reigns. Uh and then what
+- [30:19] founders have to remember is to actually
+- [30:20] hand over the reigns. So, you know, you
+- [30:22] got to enable the person who comes in
+- [30:25] what is it that you know you're doing
+- [30:26] effectively? What's your content? What
+- [30:28] are the discovery questions you're
+- [30:30] asking? How are you handling objections?
+- [30:32] Um so you can transition that knowledge,
+- [30:35] but also don't hand them over entirely,
+- [30:37] right? You want to stay connected to the
+- [30:39] customer because you still have a fair
+- [30:41] amount of R&D to do to figure out where
+- [30:44] are you, you know, where is the product
+- [30:46] next going to resonate, where are you
+- [30:48] getting, you know, stock as you scale,
+- [30:50] etc.
+- [30:51] >> To close the loop on the go to market
+- [30:52] engineer, what's the profile of the
+- [30:54] ideal go to market engineer, maybe your
+- [30:56] first
+- [30:57] >> what we have found works really well is
+- [31:00] somebody who uh does have go to market
+- [31:03] experience. So at Verscell, our first
+- [31:06] three go to market engineers were
+- [31:08] actually sales engineers. So Verscell
+- [31:11] hires very technical uh sales engineers.
+- [31:14] All of them were front-end developers
+- [31:16] before they decided they wanted to get
+- [31:17] into sales. And so we just said, "Hey,
+- [31:20] three of you, congrats. You're now
+- [31:22] founding members of our GTME team." Uh
+- [31:25] and the thing that works well there is
+- [31:27] uh you know, you do understand aspects
+- [31:30] of uh what is good GTM? uh what does a
+- [31:33] process look like? It's been really
+- [31:35] interesting actually. Um so the
+- [31:38] gentleman who runs GTM for me um we were
+- [31:41] going through you know this this lead
+- [31:43] agent and QAing it uh and you know so
+- [31:47] I'm going and I'm looking at some of the
+- [31:49] responses that we've ultimately uh had
+- [31:52] had the lead agent send and realized oh
+- [31:56] I wouldn't have sent that. Um, and
+- [31:58] that's because I have 20 years of sales
+- [32:00] experience and we model the lead agent
+- [32:02] off, you know, our best person, but our
+- [32:05] best person who has two years of sales
+- [32:07] experience. So, it actually is important
+- [32:09] to understand the art and the science of
+- [32:12] sales and how you bring best practice to
+- [32:14] bear. So, either you've done it and so
+- [32:17] you know some best practice or you're
+- [32:19] going to geek out on sales, read a bunch
+- [32:21] of books, learn a thing or two, um, you
+- [32:24] know, and and try to incorporate some of
+- [32:25] those into into your agent development.
+- [32:28] >> That is really interesting. So, come
+- [32:30] from the sales side, not from the
+- [32:31] engineering side. And I imagine this is
+- [32:33] such a cool opportunity for sales people
+- [32:35] to do something completely different and
+- [32:36] move closer to engineering.
+- [32:38] >> Yeah, I I mean, we're having a lot of
+- [32:40] fun with it at uh at Rurell in
+- [32:42] particular. We basically get to be
+- [32:44] customer zero. So everything that we're
+- [32:47] building with agents, we're building on
+- [32:49] Versell's AI cloud. So you know these
+- [32:51] agents are now have multiple steps that
+- [32:54] they go through. So we're using
+- [32:55] Verscell's uh workflow SDK and um
+- [33:00] workflow offering. We um you know use
+- [33:02] the AI gateway to call the different
+- [33:04] models that we use to do deep research
+- [33:07] um or uh other enrichment that we do.
+- [33:10] Uh, so for us it's it's great because we
+- [33:13] basically sort of bang on everything the
+- [33:15] engineering team is is building and get
+- [33:18] to go be a discerning customer before we
+- [33:20] actually get it out the door to real
+- [33:22] customers.
+- [33:22] >> What a fun time to be alive. I could
+- [33:25] tell the the fun that you guys are
+- [33:27] having just the way you describe it.
+- [33:29] Stripe handles the massive scale and
+- [33:31] complexity of many of the world's
+- [33:33] fastest growing enterprises including
+- [33:35] 78% of the Forbes AI50 and more than
+- [33:38] half of the Fortune 100. Enterprises
+- [33:40] like Atlassian, Figma, and Urban
+- [33:42] Outfitters use Stripe to create fully
+- [33:44] branded and customized checkout pages
+- [33:46] with access to more than 125 global
+- [33:49] payment methods. There's a reason I've
+- [33:51] had more leaders from Stripe on this
+- [33:53] podcast than any other company. They
+- [33:55] know how to build great products that
+- [33:57] scale and that people love. And Stripe
+- [34:00] is a lot more than payments. They've
+- [34:02] also got a category leading billing
+- [34:04] solution and a highly optimized checkout
+- [34:06] experience built specifically to
+- [34:08] increase your checkout conversion. Join
+- [34:10] the ranks of industry leaders like
+- [34:12] Salesforce, OpenAI, and Pepsi that are
+- [34:15] using Stripe to grow faster and to grow
+- [34:17] the world's GDP. Learn how Stripe can
+- [34:20] help your business grow at stripe.com.
+- [34:24] zooming out a little bit in terms of you
+- [34:25] mentioned tools, some tools that you
+- [34:27] use. I'm curious just what are kind of
+- [34:28] the state-of-the-art tools within the
+- [34:30] goto market stack that you love that
+- [34:32] you'd recommend?
+- [34:33] >> Well, so I'm going to have an
+- [34:34] interesting answer to this. Um, uh, so
+- [34:37] I'll give you one, and it's not
+- [34:38] state-of-the-art per se, although that I
+- [34:40] don't don't mean that, uh,
+- [34:42] disparagingly. It's just that it's been
+- [34:44] around for for a while now, and and a
+- [34:46] lot of folks use it. But I think Gong
+- [34:49] has gotten just meaningfully more
+- [34:51] interesting in the last year. Um, and
+- [34:54] then second half my question I will get
+- [34:56] into. I think the calculus on build
+- [34:59] verse buy is changing. So all right,
+- [35:02] Gong. Uh, Gong is incredible because you
+- [35:05] can run agents against it now. Um, so we
+- [35:10] take all of our gong transcripts and we
+- [35:13] dump them um into an agent called the
+- [35:16] dealbot. And that dealbot then can do a
+- [35:20] bunch of things. So the first thing we
+- [35:23] had it do was uh lost a lost opportunity
+- [35:27] review. So we had just finished Q2. we
+- [35:31] had, you know, a list of our top losses
+- [35:33] for the quarter sorted by deal size and
+- [35:36] we ran it against that and uh it was
+- [35:38] incredibly interesting. So the biggest
+- [35:40] loss that quarter uh according to the
+- [35:42] account executive was lost on price. And
+- [35:45] when you ran the agent over every Slack
+- [35:49] interaction, every email, every gong
+- [35:51] call, it said actually you lost because
+- [35:55] you never really got in touch with
+- [35:57] economic buyer. And when you talked to
+- [36:00] somebody about ROI and total cost of
+- [36:02] ownership, it was clear from their
+- [36:05] reaction that they didn't really buy
+- [36:07] your math. And so really the reason we
+- [36:10] lost was an inability to demonstrate
+- [36:12] value. Um which you know upon reflection
+- [36:16] I've got work to do to build out how we
+- [36:18] quantify the value of versell uh which
+- [36:21] actually is very easily quantifiable.
+- [36:23] It's one of the things I love about
+- [36:24] selling this product but we got to
+- [36:25] codify that for the go to market team.
+- [36:28] Um, so that was incredibly interesting
+- [36:30] and now we run it against all of our
+- [36:32] lost opportunities and actually do a
+- [36:34] much better job of categorizing why it
+- [36:37] was we really really lost and then
+- [36:39] either feeding that back into the
+- [36:40] engineering team or back into marketing
+- [36:44] sales leadership on hey where are we
+- [36:46] falling short in the sales process and
+- [36:48] so that was awesome but then we're like
+- [36:51] well it's not very fun to lose so why
+- [36:54] don't we pull that forward and so we
+- [36:56] went from lost bot to dealbot And now
+- [36:58] the dealbot is running in real time and
+- [37:01] we basically feed insights into Slack.
+- [37:05] Versel is incredibly heavy users of
+- [37:07] Slack. So we have a channel for every
+- [37:10] single customer either opportunity or
+- [37:13] existing one. And so now we're feeding
+- [37:16] insights into that Slack channel which
+- [37:19] is you know hey you're this far into the
+- [37:22] sales process and you haven't talked to
+- [37:23] an economic buyer. You should think
+- [37:25] about that. or hey, you just got off
+- [37:27] that call with an economic buyer. It
+- [37:28] didn't sound like it went that that that
+- [37:30] well. You know, here are some things to
+- [37:32] consider and how you might follow up.
+- [37:34] And uh last thing before I pause, the
+- [37:36] other thing that's really interesting
+- [37:37] and how we're we're using this too is,
+- [37:40] you know, we are in this moment, right?
+- [37:42] We're like I I have never seen an
+- [37:44] iteration velocity like exists now in my
+- [37:48] career. My 20 plus year career has all
+- [37:51] been in tech. Um, and so for go to
+- [37:54] market teams, that's really hard. If you
+- [37:55] are launching something every other day,
+- [37:58] the ability to be enabled on that is
+- [38:00] actually quite challenging. And so this
+- [38:04] uh bot agent um is now also letting us
+- [38:08] where we're starting to go with it is
+- [38:10] we'll release something. We'll do our
+- [38:12] best to enable the team. Then we'll go
+- [38:15] run the agent across uh calls,
+- [38:17] interactions, and we'll diagnose where
+- [38:20] we did a bad job of objection handling
+- [38:24] where we're getting stuck. And then at
+- [38:26] the end of the week, we can have a
+- [38:27] huddle and say, "Okay, what are all the
+- [38:30] places that our agent would suggest we
+- [38:32] aren't selling effectively?" And then
+- [38:35] almost like an engineering team, we'll
+- [38:36] now run sprints, which is like those are
+- [38:38] just bugs. They're bugs in your go to
+- [38:40] market process, so you should not have
+- [38:41] them. And you know, by the next week,
+- [38:44] we're going to add content to our
+- [38:46] objection handling to guide. We're going
+- [38:47] to add content to a discovery guide.
+- [38:49] We're going to figure out something we
+- [38:50] need to change about our demo. So on and
+- [38:52] so forth. So that's early. That's a
+- [38:53] little bit of a preview. Um but but
+- [38:55] that's where we're talking about taking
+- [38:57] things right now within our our go to
+- [38:59] market org.
+- [39:00] >> Jean, you're blowing my mind in so many
+- [39:02] ways. This just sounds so fun and just
+- [39:05] like you guys are going to win is what
+- [39:07] I'm feeling when I hear all this. Uh
+- [39:09] incredible. What I love about this is
+- [39:12] this AI tool, this agent you built sees
+- [39:14] things that humans were not seeing. The
+- [39:16] fact that you were surprised of just
+- [39:18] like this is a completely different
+- [39:19] conclusion is such a big deal. This is
+- [39:21] the whole promise of the eye. is going
+- [39:23] to do things we aren't even thinking
+- [39:24] about or capable of. It is I we had a
+- [39:27] really interesting one of the things
+- [39:28] we're doing um aber so you know we have
+- [39:31] an AI cloud so people use that to put AI
+- [39:34] native features into their customerf
+- [39:35] facing applications but they're also
+- [39:37] using it to build internal applications
+- [39:39] to improve productivity or outcomes and
+- [39:42] we are talking to a very large airline
+- [39:47] and that airline uh obviously gets tons
+- [39:50] and tons of support queries so uh of
+- [39:52] course they would want to go apply AI I
+- [39:55] to hey how can we have AI answer these
+- [39:58] so that our cost to support goes down
+- [40:00] sort of the obvious thing but the more
+- [40:02] interesting conversation was actually um
+- [40:05] with uh one of the sea level executives
+- [40:07] who said we also actually transcribe
+- [40:10] every single one of those support calls
+- [40:12] and so what I really want to know is why
+- [40:14] are they calling and how do I make it so
+- [40:17] that fewer people call the next week.
+- [40:19] Um, and so again, this is now with AI,
+- [40:22] you can rapidly go through all of that
+- [40:25] content and actually be able to much
+- [40:27] more quickly than having a human, you
+- [40:29] know, in your CRM sort of pick some
+- [40:31] status, why it was that folks were
+- [40:34] calling the airline this week and and
+- [40:36] what if anything you can do to make it
+- [40:38] less the case next week.
+- [40:39] >> I imagine many people hearing this are
+- [40:41] like, I need one of these deal bots and
+- [40:42] los bots. Uh, these are all internal
+- [40:44] products that you all built.
+- [40:46] >> Yes. Is there anything that you've
+- [40:48] learned about making them this good? Any
+- [40:50] tips you can share? Here's how to make a
+- [40:52] really good bot for sales.
+- [40:54] >> Yes. Um, so actually that's the second
+- [40:57] half of my answer that I forgot to uh
+- [40:59] forgot. That's perfect.
+- [41:00] >> Which is sort of like build versus buy
+- [41:02] calculus.
+- [41:03] >> Um, so I think one of our learnings is
+- [41:06] that it's not that hard to build these
+- [41:08] agents and they aren't that expensive
+- [41:11] either. So, you know, I mentioned with
+- [41:13] the lead agent, um that was a six- week
+- [41:16] process with one human, a third of his
+- [41:18] time. Uh that dealbot, the Lostbot
+- [41:21] version was like two days. Um like
+- [41:23] basically we rifted on it. He had it 40
+- [41:25] hours later. Um you know, now we're
+- [41:27] continuing to refine it for for the
+- [41:29] other things I mentioned. Um and and
+- [41:32] what's also interesting about them is
+- [41:34] they uh it's you know for better for
+- [41:37] worse for Brcell but that uh that lead
+- [41:40] agent which runs full stack on Verscell
+- [41:42] will cost us about $1,000 to run for the
+- [41:46] entire year. So if you remember I told
+- [41:50] you we had 10 people in the SDR
+- [41:52] function. So I'm I'm paying well over a
+- [41:54] million dollars for that from a salary
+- [41:56] perspective. I got that down to one and
+- [41:59] then behind that I have a lead agent
+- [42:01] that costs a thousand bucks. Um so
+- [42:04] that's like a you know 90 plus%
+- [42:07] reduction in total cost there. Um so and
+- [42:11] you know there are a lot there's lots of
+- [42:13] software for for agents on on um out
+- [42:16] there right now. And I think one of the
+- [42:17] things we're learning is because this
+- [42:20] whole space is so nent, often your own
+- [42:24] esoteric context, you know, your
+- [42:26] content, your workflow is really key to
+- [42:29] unlocking the power of the agent. And so
+- [42:32] I think there's real value in
+- [42:34] experimenting with your own internal
+- [42:36] agent development. We may ultimately end
+- [42:39] up on, you know, better integrated agent
+- [42:42] platforms in the fullness of time. Um,
+- [42:44] or we may find that the CIO increasingly
+- [42:47] goes from a procurer of software to a
+- [42:50] builder of software and you'll have an
+- [42:52] AI AI internal platform with a thousand
+- [42:55] agents running across your org. I'm not
+- [42:57] really sure yet. Um, but I certainly
+- [43:00] think um there's value in trying it
+- [43:02] yourself because you may find that it's
+- [43:04] meaningfully easier than you think. Um,
+- [43:08] and you get returns pretty quickly. So
+- [43:10] what I'm hearing here is that you're
+- [43:12] finding that there are not tools out
+- [43:13] there to plug and play. The alpha is
+- [43:16] essentially in building your own stuff.
+- [43:18] >> I think that's partially true. And I
+- [43:20] think because you also have all these
+- [43:22] tools proliferating right now, you get
+- [43:25] into the perennial problem where you
+- [43:27] wind up with 20 of them uh to do you
+- [43:31] know the 20 jobs to be done basically
+- [43:34] rather than an integrated platform
+- [43:36] that's doing all of them. Uh I'm hearing
+- [43:38] this a lot actually when I'm talking to
+- [43:40] customers right now where their biggest
+- [43:44] issue
+- [43:46] uh in deploying AI is actually just
+- [43:48] getting through procurement and it's
+- [43:50] sort of because everyone's got an AI
+- [43:52] mandate. You kind of have a blank check.
+- [43:54] Uh I recently heard the term of instead
+- [43:56] of ARR it's ERR which is experimental
+- [43:59] run rate revenue which is to say you
+- [44:02] know everyone's out there sort of hey
+- [44:04] we're going to give this thing a go for
+- [44:05] a year and then TBD on whether or not
+- [44:07] you know we keep it but you know
+- [44:09] basically you're having to procure 20
+- [44:11] different things because most things are
+- [44:13] getting off the ground and so you know
+- [44:14] they're solving something relatively
+- [44:16] narrow and that'll change in the
+- [44:17] fullness of time but I do think there's
+- [44:20] an opportunity to figure out hey where
+- [44:22] do I likely have a more specific
+- [44:24] workflow, you know, internally. For
+- [44:26] that, it might be will worth worth
+- [44:28] building your own agent and then maybe
+- [44:30] for the things that are a little bit
+- [44:32] more generalizable, you go get something
+- [44:34] off the shelf.
+- [44:34] >> Are there any platforms or tools you
+- [44:36] want to shout out that allow you to
+- [44:38] build these agents so quickly? I know
+- [44:39] they sit on Versel. So, shout out
+- [44:41] Versel, but just uh anything that you
+- [44:43] point people to to like are these SDR
+- [44:45] these GTM engineers, they're former
+- [44:47] salespeople. Are they learning to code?
+- [44:49] Are they bip coding these agents? How
+- [44:51] does that
+- [44:51] >> uh well the so our sales engineers all
+- [44:54] have uh CS degrees so they they were
+- [44:56] engineers um uh in a sales capacity so
+- [44:59] they're writing code and actually these
+- [45:01] agents they're building directly on
+- [45:03] Verscell um so you get the AI gateway
+- [45:06] that lets you you know call different
+- [45:08] models um you have a sandbox if you're
+- [45:11] running untrusted code you've got uh
+- [45:13] workflows that let you build the process
+- [45:16] you've got fluid compute which lets you
+- [45:18] um really efficiently use compute when
+- [45:20] you need it. Um so so we're just sort of
+- [45:24] building it from the ground up um here
+- [45:26] because again it's not that hard. Now
+- [45:28] you do need to write code for that. Um
+- [45:31] certainly there are a lot of vibe coding
+- [45:33] tools out there that also give you more
+- [45:37] um kind of workflow will build builders
+- [45:39] that are somewhere between fully
+- [45:41] wizzywig um almost like drag and drop um
+- [45:44] and a little bit more more code forward.
+- [45:47] Um, so you've got a bunch uh out there
+- [45:49] along those lines. But, uh, you know, I
+- [45:52] I do think we've sort of found like one
+- [45:54] of one of the reasons actually the GTME
+- [45:56] team at Verscell can build these agents
+- [45:58] so easily is because the Verscell
+- [46:01] platform is making it that easy to use
+- [46:04] our, you know, framework defined
+- [46:05] infrastructure and get that agent onto
+- [46:08] into production very rapidly.
+- [46:11] >> What a neat unfair advantage you all
+- [46:12] have to do this.
+- [46:13] >> Yes, it is. It is fun to like I mean I I
+- [46:16] do think this company is better than any
+- [46:17] I've seen at eating its own dog food. Um
+- [46:20] and just everyone is constantly we say
+- [46:23] Verscell builds Verscell with Verscell.
+- [46:25] So you're just always looking for ways
+- [46:27] to hey how can we use our product to go
+- [46:30] do what we need to do and as a result
+- [46:32] either understand then what a customer
+- [46:34] would want or what's missing from our
+- [46:36] product that we could go make better.
+- [46:37] Along these lines, something that's
+- [46:39] already come across a lot in the way
+- [46:40] that you describe this stuff is I've
+- [46:42] heard a lot about how you think about go
+- [46:43] to market as a product. A lot of people
+- [46:46] listening to this, as I've said, are
+- [46:47] product builders. So, I think this is a
+- [46:48] really uh nice way of thinking about go
+- [46:50] to market. Uh I'm guessing you've
+- [46:52] already talked about elements of this,
+- [46:53] but just what's a way to think about go
+- [46:55] to market as a product?
+- [46:56] >> Yeah, I've always um so I had this
+- [46:59] realization um probably a little over a
+- [47:01] decade ago in my career. Um, so my first
+- [47:04] job out of college was working on Gmail
+- [47:07] in 2004. So Gmail launched on April 1st.
+- [47:11] I joined on June 1st. And, uh, as I'm
+- [47:15] sure you'll remember as well, Gmail was
+- [47:16] this incredible innovation, uh, you
+- [47:18] know, massive JavaScript application
+- [47:20] that didn't really exist at the time.
+- [47:22] And it had this gig of storage. It was a
+- [47:24] full year before Yahoo Mail caught up
+- [47:28] and even longer before Hotmail and
+- [47:30] others did. Right? So that that was the
+- [47:31] level of like technical differentiation
+- [47:34] between you know Gmail and the next
+- [47:36] best. And a decade later I you know you
+- [47:40] had cloud uh computing enabling folks to
+- [47:43] do stuff that you never would have been
+- [47:44] able to do previously. And so I kind of
+- [47:47] felt like huh like software is starting
+- [47:50] to commoditize a little bit. Um and so
+- [47:53] uh you know when when that happens when
+- [47:55] technical differentiation kind of
+- [47:57] narrows what are other things that will
+- [47:59] differentiate you? Um and you know sort
+- [48:02] of thinking outside of tech like we buy
+- [48:04] a lot of things because of how we feel
+- [48:06] about them. Um and so I started to
+- [48:09] develop this thesis that um actually the
+- [48:12] experience that you have of being sold
+- [48:14] to will increasingly actually uh
+- [48:17] differentiate a company and uh drive
+- [48:20] buying decisions if uh products are are
+- [48:24] only different at the margin. Uh and so
+- [48:28] if if you believe that then you really
+- [48:30] want to create a customer buying journey
+- [48:33] that feels like very unique experiences.
+- [48:37] And so we did a lot of this at Stripe
+- [48:39] and now we're looking to replicate this
+- [48:41] here. But an example of one of the
+- [48:43] things I think we did really nicely at
+- [48:44] Stripe was, you know, a lot of companies
+- [48:47] sales sort of the first call after
+- [48:50] you're qualified, you know, we've
+- [48:51] decided you're wortha engaging in sales
+- [48:53] process is discovery, which is basically
+- [48:56] let me ask you a lot of questions to try
+- [48:58] to under uncover pain, figure out where
+- [49:01] buying power lies, etc. And so that is
+- [49:04] kind of boring sometimes for a customer.
+- [49:06] You're basically being quizzed um often
+- [49:08] on the phone. Uh and so what we started
+- [49:11] to do at Stripe was that first session
+- [49:14] was a whiteboarding session and we would
+- [49:17] actually get together and have you, you
+- [49:20] know, draw your architecture um for
+- [49:23] payments um and all the other things
+- [49:25] that were under the hood to enable you
+- [49:27] to take money and drive customer
+- [49:29] outcomes. And through that we would
+- [49:31] learn a ton about, you know, what was in
+- [49:34] your stack, what we were going to have
+- [49:36] to compete with, displace where value
+- [49:37] lied. But the customer also learned a
+- [49:41] lot themselves because in many cases
+- [49:42] they'd never drawn their architecture
+- [49:44] diagram. And so they left that meeting
+- [49:45] with an asset and a sense of like wow
+- [49:48] this is a really collaborative person
+- [49:50] who's like deeply interested and helping
+- [49:52] me like you know develop a mental model
+- [49:54] for how to think about this um you know
+- [49:56] and then we had other things that we we
+- [49:58] would do. Um so uh that's sort of how I
+- [50:02] think about building go to market like a
+- [50:04] product is basically you need to go
+- [50:07] through from the first time you become
+- [50:10] aware that the company exists to again
+- [50:12] that sort of five-year heavily retained
+- [50:14] wall-to-all customer a set of
+- [50:16] experiences and those experiences can
+- [50:18] feel transactional flat boring or they
+- [50:22] can feel very human personalized and
+- [50:25] unique. Um, and so, you know, we try to
+- [50:28] go map those out and figure out how do
+- [50:30] you, you know, bring the product to
+- [50:32] bear, make it really human. Um, and and
+- [50:34] hopefully that, uh, creates a customer
+- [50:36] for life in the end.
+- [50:37] >> I love that whiteboarding example. Are
+- [50:39] there any other examples of what you've
+- [50:41] done to make it actually work really
+- [50:42] well in this way?
+- [50:43] >> Yeah. Another principle, we really
+- [50:45] developed this um at Stripe 2 and I
+- [50:48] brought it to to Verscell was just the
+- [50:50] idea of adding value at any touch point
+- [50:55] regardless of whether or not that
+- [50:56] customer bought because even if
+- [50:59] customers don't buy, you often find that
+- [51:02] if you miss them on that buying cycle,
+- [51:04] three or four years later when they're
+- [51:06] in another buying cycle, they do come
+- [51:08] back. you know, I was at Stripe for nine
+- [51:10] years and so I saw the number of
+- [51:12] customers that we lost and then half a
+- [51:14] decade later here they are and they
+- [51:15] bought. So, um uh that that was sort of
+- [51:19] another one. So, you know, examples of
+- [51:21] this that we're doing at Verscell is um
+- [51:24] we uh you can there's great data on the
+- [51:27] internet um that helps people understand
+- [51:30] the performance of their website and how
+- [51:33] fast uh your website is um actually
+- [51:36] impacts SEO and SEO impacts AEO and
+- [51:41] everybody's thinking about AEO right
+- [51:42] now. Um, and so, you know, one of the
+- [51:45] things we try to do when we reach out is
+- [51:47] actually give folks insight immediately
+- [51:49] into how they're performing on an
+- [51:51] absolute basis, how they're performing
+- [51:53] relative to peers. So, ideally, you
+- [51:56] know, that piqus your interest and you
+- [51:58] want to learn more from us. Um, but even
+- [52:00] if it doesn't, you still have insights
+- [52:02] that you may or may not have been aware
+- [52:03] of um that maybe make you contemplate
+- [52:05] whether or not you've got the optimal
+- [52:07] setup.
+- [52:07] >> Awesome. So what I'm hearing here is uh
+- [52:10] when you say think of it like a product,
+- [52:11] it's basically a product person thinks
+- [52:13] about the experience of their product at
+- [52:15] every step of the journey. Here's the
+- [52:16] flow. Step 1 2 3 4 5. How do we make
+- [52:19] every step awesome? Keep them going
+- [52:21] along that journey. And so what you
+- [52:22] think about is just from the prospect's
+- [52:25] perspective, how do we make every step
+- [52:26] of that journey awesome? Continue them
+- [52:29] down that journey.
+- [52:30] >> Yeah. Yeah. How do you make it be an
+- [52:32] experience rather than a transaction
+- [52:34] >> versus just like feel like sales coming
+- [52:36] at you trying to sell you stuff? Yeah.
+- [52:38] >> Okay. Uh staying along this track of
+- [52:40] being staying tactical, uh I want to go
+- [52:43] even further there. So what are just
+- [52:45] some go to market tactics that you find
+- [52:48] really effective these days for people
+- [52:50] trying to just to be more successful in
+- [52:53] getting people to pay attention to their
+- [52:54] stuff to buy their stuff? Uh I mean one
+- [52:57] I would sort of say uh dubtales with
+- [53:00] where I just ended but is what are the
+- [53:02] unique insights that you can bring to
+- [53:04] bear um about your product or you know
+- [53:08] how that that customer may be in a
+- [53:12] suboptimal state. So I do think
+- [53:14] investing in in data to tease that out
+- [53:18] is is one thing. I think the other thing
+- [53:21] this is is straightforward but often um
+- [53:24] not done enough is like a lot of good
+- [53:26] companies invest in docs um you know
+- [53:29] good thing to do and but they they stop
+- [53:32] there and particularly if you're selling
+- [53:35] into a slightly larger company doing
+- [53:38] things like um you know AWS calls it
+- [53:41] well architected guides um or blueprints
+- [53:45] uh a lot of customers particularly
+- [53:47] larger ones really want to know the best
+- [53:50] practice for how exactly to implement
+- [53:53] your product in with their particular
+- [53:55] setup. Uh, a great example of this, um,
+- [53:58] this is from Stripe was, you know,
+- [54:01] Stripe was excellent at marketplaces.
+- [54:03] Most, you know, Lyft, Instacart, Door
+- [54:05] Dash, they were all on Stripe. Um, and
+- [54:07] so Stripe definitely knew the best way
+- [54:09] to set up payments for a marketplace.
+- [54:11] Because we'd seen them all. And so when
+- [54:14] you then would go and sell a marketplace
+- [54:15] and, you know, say, "Oh yeah, we've got
+- [54:17] docs. Go check them out." They didn't
+- [54:19] like that, right? Because they're like,
+- [54:21] "Hey, every marketplace runs on Stripe.
+- [54:22] I don't want to look at generic docs. I
+- [54:24] want you to tell me what's the best way
+- [54:26] to set up payments for a marketplace.
+- [54:28] Um, and so I think that's another key
+- [54:30] thing to be doing. Um, particularly as
+- [54:32] you move past that sort of solo
+- [54:34] developer, startup founder as
+- [54:36] potentially a target uh, audience. Um,
+- [54:39] and then I don't know this is a tactic
+- [54:41] per se. Um, but I do think just a good
+- [54:45] reminder for founders in particular who
+- [54:49] um are still in that maybe founder-ledd
+- [54:52] sales moment is just the value of really
+- [54:54] good discovery. Uh I often find founders
+- [54:58] are so in you know so excited about uh
+- [55:01] talking about their product or you know
+- [55:03] you ask one question and now they've got
+- [55:06] a hook of like I can fix that for you.
+- [55:08] But, uh, excellent salespeople
+- [55:11] typically, uh, will talk well under half
+- [55:15] the time in, uh, a conversation because
+- [55:18] they're out asking questions, probing,
+- [55:21] often helping a customer, uh, arrive at
+- [55:24] conclusions on their own. And so,
+- [55:26] learning how to, you know, do five W's,
+- [55:30] go deep, rather than immediately going
+- [55:32] into problemsolving mode. You know, if
+- [55:34] they ask a question, you respond. often
+- [55:36] if they ask a question, you should ask a
+- [55:38] question about the question and then
+- [55:39] respond, right? So learning to be great
+- [55:41] at that I I think differentiates people.
+- [55:43] >> So the last tip I think there something
+- [55:45] a lot of I bet everyone could learn is
+- [55:46] just listen more and talk less.
+- [55:48] >> Yeah.
+- [55:49] >> On that first piece of advice, this kind
+- [55:51] of sharing unique insights and how
+- [55:52] you're suboptimal. Is there an example
+- [55:54] you could share of how you did that?
+- [55:57] Maybe a story of just how you convince
+- [55:59] someone you're selling striper versus
+- [56:00] sell care. Something you you're missing.
+- [56:02] Here's how this could help you become
+- [56:03] much better. So with versell the um sort
+- [56:07] of is giving an example but I'll make it
+- [56:09] more specific. So um you know the
+- [56:12] performance point you can go and look at
+- [56:14] core web vitals um and so we can
+- [56:17] actually see the different things um
+- [56:19] within their site that are fast uh or
+- [56:23] you know load correctly etc. So at that
+- [56:27] we then so anyone can go look that up
+- [56:30] but what we can do is actually then help
+- [56:32] with benchmarking relative to peers. Um
+- [56:35] so that's been um a big one that we've
+- [56:37] gone out and done. The other one that
+- [56:40] we've spent some good time on is just
+- [56:42] around helping customers understand
+- [56:46] uh MCP servers and when it would make
+- [56:48] sense to use one. Um, so I think you
+- [56:52] know those are all the rage but often
+- [56:54] people don't know how to contemplate
+- [56:55] them within their own product. So that
+- [56:58] was uh another one that that we've gone
+- [57:00] pretty deep on and then related to the
+- [57:02] first one is um AEO answer engine
+- [57:04] optimization uh is actually you know
+- [57:07] somewhat tangential to Versell right so
+- [57:09] we drive performance performance drives
+- [57:11] SEO SEO is an input into AEO uh but we
+- [57:15] have spent a ton of time um sharing
+- [57:18] insights on AEO because we ourselves
+- [57:20] focus deeply on it and think we
+- [57:22] understand it better than many and so
+- [57:25] again as part of just building a trusted
+- [57:26] relationship ship. You know, folks may
+- [57:29] go from those AMAs or that content um
+- [57:32] into okay, great. You learn, you taught
+- [57:35] me a lot and therefore I want Versel to
+- [57:37] help me with performance. Um but in many
+- [57:40] cases, they actually now are just like
+- [57:41] this is a company that seems insightful.
+- [57:43] It seems like one I can learn from and
+- [57:44] now I'm going to pay a little bit more
+- [57:46] attention to them and over the fullness
+- [57:48] of time maybe, you know, they see
+- [57:50] something that triggers them to decide
+- [57:51] now's the time I want to go investigate
+- [57:53] that aspect of Versell.
+- [57:55] >> Awesome. So, what I'm hearing here in
+- [57:56] many ways, and this resonates, I had
+- [57:58] Jenna Ael on the podcast recently, and
+- [58:00] it was all about sales skills and how to
+- [58:02] sell. Nice.
+- [58:02] >> And one of her tips is you don't want to
+- [58:05] be focusing on here's the pain and
+- [58:07] problem we're solving. And instead,
+- [58:08] focus on here's how you will be better
+- [58:10] than your competitors. Here's a big gap
+- [58:12] and alpha that you can achieve if you
+- [58:15] use say Versel. So, here's like you
+- [58:17] you're missing out on speed and you're
+- [58:19] going to get screwed in AO and all these
+- [58:21] things. here's like how you can
+- [58:22] architect your entire payments art
+- [58:24] system to be top tier. Does that
+- [58:26] resonate?
+- [58:27] >> Yeah, it uh there's I I was told this
+- [58:30] stat. It's round numbers so I can't
+- [58:33] imagine it's entirely accurate but um
+- [58:36] you know basically that um customers 80%
+- [58:40] of customers buy to avoid pain or reduce
+- [58:44] risk as opposed to the other one out of
+- [58:47] five to increase upside which is a good
+- [58:51] thing again for startup founders to
+- [58:52] understand. So you know we all love to
+- [58:55] talk about the art of the possible you
+- [58:57] know uh everything we're going to enable
+- [58:59] in the future. It's very exciting.
+- [59:01] Everyone's visionaries, right? But, um,
+- [59:04] that's often really a sale that's going
+- [59:06] to resonate with another founder. Um,
+- [59:09] and for everybody else, uh, you know, it
+- [59:12] particularly enterprises, you're
+- [59:14] avoiding the risk of not making your
+- [59:17] revenue target next quarter, uh, the
+- [59:20] risk of having comp, you know, being
+- [59:23] outdone by the competition, the risk of
+- [59:26] having brand damage, etc. And so it's
+- [59:29] really hard actually for uh many
+- [59:32] startups to make that pivot because it
+- [59:34] it feels off-brand. But it does actually
+- [59:37] drive more buying behavior is setting up
+- [59:41] a little bit of that concern that either
+- [59:44] I might not be well positioned or again
+- [59:47] through good question asking I know
+- [59:48] exactly where I'm not well positioned
+- [59:50] and you can help me derisk that.
+- [59:53] >> That is such an important stat you
+- [59:55] shared. This has come up actually before
+- [59:56] in this podcast that buying people are
+- [59:59] buying in large part to reduce risk to
+- [01:00:03] basically not hurt themselves in their
+- [01:00:05] career not hurt the company like that's
+- [01:00:07] a bigger factor in the buying decision
+- [01:00:08] then I have this problem I need to solve
+- [01:00:10] and okay thank you this solving and the
+- [01:00:12] way April Dunford came on the podcast
+- [01:00:14] and talked about this of just like like
+- [01:00:15] it's such a massive career bet we are
+- [01:00:18] going to bring in product X and it's
+- [01:00:20] going to become like Stripe let's say
+- [01:00:21] let's not talk about her cell but let's
+- [01:00:23] say Stripe we're going to adopt Stripe
+- [01:00:25] Right. That's like a huge decision. If
+- [01:00:27] it doesn't go well, your career is hurt.
+- [01:00:29] Your manager is going to be mad at you.
+- [01:00:30] It's going to set your company back.
+- [01:00:32] Yeah.
+- [01:00:32] >> So, a lot of the buying decision, as
+- [01:00:34] you've said, is I just don't want to
+- [01:00:35] screw this up.
+- [01:00:36] >> Right. Absolutely.
+- [01:00:38] >> Okay. Along the line of tactics,
+- [01:00:40] something that I know you're a big fan
+- [01:00:41] of and uh help people think about is
+- [01:00:44] segmentation.
+- [01:00:45] >> Yes.
+- [01:00:45] >> This is something a lot of founders
+- [01:00:47] struggle with. They know, okay, I need
+- [01:00:48] to figure out my segmentation strategy
+- [01:00:50] and here we're going after. Can you just
+- [01:00:52] kind of give us a primer on
+- [01:00:53] segmentation? what people should know
+- [01:00:54] about why this is important and how they
+- [01:00:57] might approach this.
+- [01:00:58] >> Yeah. So, segmentation is basically how
+- [01:01:01] do you carve up the world of companies
+- [01:01:03] that exist on the planet uh to reason
+- [01:01:08] about them where they buy differently.
+- [01:01:11] So, I'll give um I'll give examples from
+- [01:01:14] from Stripe and Burcell to bring this
+- [01:01:15] home. So, a very very typical company
+- [01:01:19] segmentation is small, medium, large.
+- [01:01:22] That's a rational way to do things. Uh
+- [01:01:24] small, you often have a single decision
+- [01:01:26] maker. Medium, you know, a small team
+- [01:01:29] and large, it's complex, it's a
+- [01:01:31] committee, etc. Um so the buying process
+- [01:01:35] does change across SMB, mid-market,
+- [01:01:37] enterprise. Um but if you stop there, uh
+- [01:01:41] you are likely missing. Okay. But what
+- [01:01:44] are the things within your offering that
+- [01:01:46] also change the way something gets sold?
+- [01:01:49] So at Stripe um there there were two
+- [01:01:54] ways we further cut the business. Way
+- [01:01:56] one was so think of segmentation as as a
+- [01:01:59] graph. So x-axis was size um so small,
+- [01:02:03] medium, large. Yaxis was growth
+- [01:02:06] potential and that was important for
+- [01:02:08] Stripe because it was a consumptionbased
+- [01:02:10] business. So if you were going to grow
+- [01:02:11] at 200% yearon-year, you were more
+- [01:02:14] valuable to Stripe than if you were
+- [01:02:15] going to grow at 8% year-on-year. And so
+- [01:02:17] we wanted to spend more time, spend more
+- [01:02:19] money um going after the 200% growers
+- [01:02:22] than the 8%. So that was one that
+- [01:02:25] informed your strategy on who you
+- [01:02:26] targeted. And then for Stripe, the other
+- [01:02:28] thing that we cut it was business model.
+- [01:02:31] So are you a B2B? Are you B to C? Are
+- [01:02:35] you B2B T2B? Eg a platform or B2B TOC eg
+- [01:02:40] marketplace. And why is that relevant?
+- [01:02:42] Well, if you're B2B, you are going to
+- [01:02:44] need business payments, right? credit
+- [01:02:46] card was useful for a PLG function, uh,
+- [01:02:49] PLG sale, but you were going to need a
+- [01:02:52] wires, etc. And you probably had a
+- [01:02:54] recurring business, so you were going to
+- [01:02:56] want Stripe billing. You know, if you
+- [01:02:58] were B toC, that's consumer, so you're
+- [01:03:00] going to want consumer payments. Apple
+- [01:03:01] Pay is super important. If you were in
+- [01:03:04] the like the platform or the
+- [01:03:05] marketplace, you were going to buy our
+- [01:03:07] connect product. Um, so it helped us
+- [01:03:09] basically then craft uh a more targeted
+- [01:03:12] and replicable sales or sell sort of
+- [01:03:15] similar deal. So small, medium, large
+- [01:03:17] buying uh complexity. We also do the
+- [01:03:20] same thing on growth potential because
+- [01:03:22] we are similarly a consumption based
+- [01:03:23] business. But for us um a couple other
+- [01:03:27] things on uh the x-axis we layer in uh
+- [01:03:31] promote which is uh one of the things
+- [01:03:34] that is observable is um traffic site
+- [01:03:38] traffic on the internet. So Google
+- [01:03:40] publishes a crux score which is
+- [01:03:42] basically they have a bunch of data in
+- [01:03:44] Chrome and so they know that Lenny's
+- [01:03:46] site gets you know a millionx the amount
+- [01:03:48] volume that Jean's site does.
+- [01:03:51] >> Um and so um basically if you're a small
+- [01:03:55] company but you have super high traffic
+- [01:03:58] that's going to be more complex is going
+- [01:04:00] to make more money and so we want to
+- [01:04:01] promote you. So great example of this uh
+- [01:04:04] would be OpenAI. Open AI I forget these
+- [01:04:07] days how many uh employees it has. Let's
+- [01:04:09] say it's 3,000. It's probably more than
+- [01:04:11] that at this point, but so that's going
+- [01:04:12] to put it in uh the mid-market at most
+- [01:04:15] companies, but they're a top 25 traffic
+- [01:04:18] site on the internet. So for us, that's
+- [01:04:21] going to push them in our enterprise
+- [01:04:23] because we need to go uh you know lean
+- [01:04:25] in with a much uh you know a more
+- [01:04:28] in-depth sales process. And then the
+- [01:04:31] other thing we layer on is uh workload
+- [01:04:34] type. So, if you are an e-commerce
+- [01:04:37] company, that's going to be a very
+- [01:04:38] different sale. We're going to have to
+- [01:04:40] you actually use different language. You
+- [01:04:42] talk about product uh listing pages and
+- [01:04:45] product description pages and you've got
+- [01:04:47] an order management system as the back
+- [01:04:49] end. Super different from a crypto
+- [01:04:51] company where, you know, you might be
+- [01:04:53] running soup to nuts uh on AWS. And so,
+- [01:04:56] again, that helps us start to then have
+- [01:04:58] a really different uh buying content for
+- [01:05:03] you. Okay, this is awesome. So,
+- [01:05:05] essentially what you do is you break up
+- [01:05:07] this universe going back to your
+- [01:05:09] original story at Stripe into uh help
+- [01:05:12] you sort essentially which companies are
+- [01:05:14] most likely to buy your product and what
+- [01:05:15] you're coming up with is these
+- [01:05:16] attributes that are
+- [01:05:17] >> y
+- [01:05:18] >> uh correlated with they are likely to be
+- [01:05:20] great potential customers.
+- [01:05:22] >> Y
+- [01:05:22] >> do you recommend using this uh xyaxis as
+- [01:05:26] the approach versus something else like
+- [01:05:28] a spreadsheet with like five columns
+- [01:05:29] like I don't know how do you start?
+- [01:05:31] there's probably something to be said
+- [01:05:32] for X and Y like I do think size is
+- [01:05:34] going to play into most buying decisions
+- [01:05:37] and then these days there is a fair
+- [01:05:39] amount of you know consumption um
+- [01:05:42] happening so there'll be aspects of this
+- [01:05:43] that I think are somewhat universal but
+- [01:05:46] I think uh basically like when I came to
+- [01:05:49] Burcell new product market product
+- [01:05:51] offering for me it's a new market I had
+- [01:05:53] a lot to learn but this is one of the
+- [01:05:54] first things I did in the first 30 days
+- [01:05:57] um and so basically I sat down uh with
+- [01:06:00] the gentleman man Obby who leads data
+- [01:06:02] science here and uh you know said okay
+- [01:06:06] what what drives revenue so what are
+- [01:06:09] what are the things that you can look at
+- [01:06:11] xanty about a customer to know this
+- [01:06:14] person's likely to pay us $100,000
+- [01:06:16] versus a million those that's probably
+- [01:06:18] going to be part of a segmentation
+- [01:06:20] framework and then similarly okay uh
+- [01:06:23] where can we how how what attributes
+- [01:06:26] would we look for to cluster where we
+- [01:06:28] seem to be winning repeatedly
+- [01:06:31] And that was how we ultimately got at
+- [01:06:33] okay crux rank is going to be super
+- [01:06:35] important. Um because what you pay for
+- [01:06:37] cell is correlated with your traffic.
+- [01:06:40] And then workload type was super
+- [01:06:42] important as well. Um so uh you know and
+- [01:06:46] for for Brazelle when we did that it was
+- [01:06:47] really interesting um because you know
+- [01:06:50] we saw wow like we have a lot of
+- [01:06:54] penetration and ecom not not that
+- [01:06:56] surprising actually uh given that we you
+- [01:07:00] know drive highly performant sites and
+- [01:07:02] ecom having a super fast performance
+- [01:07:04] site really matters um but you know at
+- [01:07:07] the time if you looked at as an example
+- [01:07:10] in enterprise SAS companies uh we didn't
+- [01:07:13] have a lot penetration. Um, even though
+- [01:07:15] you would have thought, okay, front-end
+- [01:07:17] cloud, very developer oriented, of
+- [01:07:18] course, software companies would be on
+- [01:07:20] us. Um, but in enterprise, most of those
+- [01:07:22] companies built that SAS offering before
+- [01:07:24] Verscell existed. And so, you know,
+- [01:07:27] migrating 200 or two million lines of
+- [01:07:29] code, you know, to Verscell, that that's
+- [01:07:31] a big lift, right? Um so it helped us
+- [01:07:33] really understand where are we winning
+- [01:07:35] where are we not you know and now uh as
+- [01:07:38] an example like uh in within SAS
+- [01:07:41] companies and enterprise we're actually
+- [01:07:42] seeing a lot of interest in the AI cloud
+- [01:07:44] because those are some of the earlier
+- [01:07:46] adopters of hey let's add AI native
+- [01:07:49] functionality to our existing SAS app.
+- [01:07:51] Um and so again it helps us figure out
+- [01:07:53] what to target where.
+- [01:07:55] >> Okay so essentially you're doing kind of
+- [01:07:56] this regression analysis on what's
+- [01:07:58] working and then here's the attributes
+- [01:07:59] that are most correlated with
+- [01:08:01] >> success. Uh something I always recommend
+- [01:08:03] when founders ask me for how do I figure
+- [01:08:05] out my CP? How do I figure out where to
+- [01:08:07] focus? I my heristic is just think of
+- [01:08:09] three attributes that narrow them down.
+- [01:08:11] So it's like series A company with
+- [01:08:13] that's angelled that's a marketplace
+- [01:08:15] something like that. I feel like a good
+- [01:08:16] like just rule of thumb just to start.
+- [01:08:18] >> I think like beyond three I like you
+- [01:08:21] know that's getting pretty detailed and
+- [01:08:23] reasonably speaking you're not going to
+- [01:08:24] cut like you have five sellers so you're
+- [01:08:28] going to put one seller in five
+- [01:08:29] different segments. So I I do think
+- [01:08:31] three is something you can reason about.
+- [01:08:33] The other thing I'll say on this topic
+- [01:08:35] that I think is really important is a
+- [01:08:37] lot of times folks think segmentation is
+- [01:08:38] a go to market thing. I really think
+- [01:08:40] it's a company thing. So when you join
+- [01:08:43] Verscell um I actually deliver and every
+- [01:08:46] new hire's first week one of our company
+- [01:08:49] values is KYC know your customer. Um and
+- [01:08:51] I deliver the KYC SE section. um and uh
+- [01:08:56] you know talk through our segmentation
+- [01:08:58] framework how our customer base maps
+- [01:09:00] into those segments because it's really
+- [01:09:02] important as you know those new product
+- [01:09:05] managers leave the room that when
+- [01:09:06] they're building something they think to
+- [01:09:08] themselves okay I'm building a new
+- [01:09:10] back-end product who is this targeted at
+- [01:09:12] is it targeted at an enterprise or um or
+- [01:09:15] a startup um you know basically do I
+- [01:09:17] have a point of view on where I'm trying
+- [01:09:18] to win and why um and if you're doing
+- [01:09:21] that out of the gates then it's much
+- [01:09:23] much easier to then speak the same
+- [01:09:25] language with the go to market org and
+- [01:09:26] figure out okay how are we going to take
+- [01:09:28] that to market in line with the other
+- [01:09:29] motions that we we have in play.
+- [01:09:31] >> Okay, this is a great segue to uh
+- [01:09:33] there's a couple other things I want to
+- [01:09:34] talk about. One is something I've heard
+- [01:09:36] from so many people you've worked with
+- [01:09:38] is that you are amazing at building a go
+- [01:09:40] to market org that works really well
+- [01:09:42] with product and engineering. So I'll
+- [01:09:44] read this quote from your former
+- [01:09:46] colleague Kate Jensen. She said that
+- [01:09:48] your superpower is building a sales or
+- [01:09:49] that doesn't feel like a sales or to
+- [01:09:51] engineers. So the question she suggested
+- [01:09:53] asked just like what does it take to do
+- [01:09:55] that? What are the ingredients to
+- [01:09:56] building a sales or that engineers and
+- [01:09:57] product teams really like working with?
+- [01:09:59] >> The litmus test I have always given my
+- [01:10:01] sales team is if you are an account
+- [01:10:05] executive in my org and I put you in
+- [01:10:08] front of 10 engineers at our company. It
+- [01:10:12] should take them 10 minutes to figure
+- [01:10:13] out you aren't a product manager. And
+- [01:10:16] what I'm trying to get across is you
+- [01:10:18] need to have incredible product depth.
+- [01:10:21] And uh the reason for that is twofold.
+- [01:10:24] One, it gives you credibility with the
+- [01:10:26] product and engineering org. And two, I
+- [01:10:29] also believe that the best go to market
+- [01:10:32] orgs on the planet are equal parts
+- [01:10:35] revenue driving and R&D.
+- [01:10:38] And the reason I emphasize the latter is
+- [01:10:40] if you think about a product management
+- [01:10:42] organization, you know, you may have a
+- [01:10:45] UXR team, you know, out doing research.
+- [01:10:47] Product managers certainly should be out
+- [01:10:48] talking to customers. Well, if I have a
+- [01:10:52] 20 person sales team, think of the
+- [01:10:55] number of customers that we talk to in a
+- [01:10:56] week. And so, if we can do an excellent
+- [01:10:59] job of translating all of that, uh,
+- [01:11:02] feedback into signal and then feeding
+- [01:11:05] that into the road map, um, you know, we
+- [01:11:09] can be actually an extension of the
+- [01:11:11] product management org. Um, but that
+- [01:11:14] takes being really good at discerning
+- [01:11:16] signal from noise, understanding when
+- [01:11:18] something is an objection that should be
+- [01:11:19] overcome versus a, you know, a a market
+- [01:11:22] an opportunity in the market. So, uh, I
+- [01:11:25] think I think those things have helped.
+- [01:11:27] >> I just love this as a product manager,
+- [01:11:30] maybe former product manager. I don't
+- [01:11:31] know what the hell I am these days. Uh,
+- [01:11:33] I just love the idea of the salesperson
+- [01:11:35] like you not knowing the difference
+- [01:11:36] between a product manager and a
+- [01:11:38] salesperson. The most classic challenge
+- [01:11:40] is sales orgs ask for all these
+- [01:11:42] features. Yes. NPMs are constantly
+- [01:11:44] having to push back and think about does
+- [01:11:46] this fit into everything. So it feels
+- [01:11:48] like that's a big part of this is to
+- [01:11:49] understand that deeply.
+- [01:11:51] >> Yeah. You want a sales uh you want a
+- [01:11:54] sales org that can think like a general
+- [01:11:56] manager. So you know that's not just
+- [01:11:59] trying to get deals done but is trying
+- [01:12:02] to help build a business. And so again,
+- [01:12:04] knows when to say no, knows when to
+- [01:12:06] objection handle versus knows, hey, I've
+- [01:12:09] actually heard this on the last three
+- [01:12:11] calls. And I I do think this would be a
+- [01:12:13] really big unlock that would make us
+- [01:12:15] more competitive, you know, would be
+- [01:12:17] something that new that nobody's doing.
+- [01:12:19] So, um, you know, I think that takes
+- [01:12:22] looking for a profile that both has
+- [01:12:24] sales skills, but also is going to think
+- [01:12:27] with, you know, that product mindset.
+- [01:12:29] >> I love that. Okay, so another quote uh
+- [01:12:32] from Claire Hughes Johnson, former
+- [01:12:34] podcast guest, amazing sales leader. I
+- [01:12:37] worked with you at Stripe. She said
+- [01:12:39] something along these lines, but a
+- [01:12:40] little different. That Gina is probably
+- [01:12:41] the best go to market person at
+- [01:12:43] connecting with product and engineering,
+- [01:12:44] deeply understanding the product and
+- [01:12:46] providing the most valuable input to her
+- [01:12:48] counterparts of any I've ever seen.
+- [01:12:51] [snorts] It sounds like just another
+- [01:12:52] ingredient here is just sales feeling
+- [01:12:54] like a real partner to product
+- [01:12:56] engineering. actually not just being
+- [01:12:57] like, "Hey, do these things for me," but
+- [01:12:59] actually feeling like a partner.
+- [01:13:00] >> You know, ultimately
+- [01:13:04] company strategy is is basically product
+- [01:13:07] strategy meets go to market strategy,
+- [01:13:09] right? Um, and so I spend, I guess, as a
+- [01:13:13] goto market leader, I'm constantly
+- [01:13:15] trying to figure out, you know, how do I
+- [01:13:18] make more money more efficiently? And
+- [01:13:21] you typically do that by having a
+- [01:13:23] winning product in the market that is
+- [01:13:25] well commercialized. And so that means
+- [01:13:27] that I I really lean into thinking about
+- [01:13:30] product strategy and thinking about
+- [01:13:32] pricing strategy. Um because if those
+- [01:13:34] two things are optimal, you're you know,
+- [01:13:36] you're going to win more often and
+- [01:13:38] there'll be less friction um in it. Um,
+- [01:13:40] and so that's sort of where you got to
+- [01:13:43] put as a revenue leader like a GM hat
+- [01:13:46] on. Um, and not just think how do I
+- [01:13:49] sell, but actually how do I how do I
+- [01:13:52] enable the the insights I'm getting from
+- [01:13:55] talking to customers constantly to have
+- [01:13:57] the company strategy be more effective.
+- [01:14:00] Speaking of product, going in a slightly
+- [01:14:02] different direction. PLG productle
+- [01:14:05] growth was it felt like it was very hot
+- [01:14:07] for a while where everyone's like you
+- [01:14:09] got to go PLG. That's the only way to
+- [01:14:10] win now. It's impossible to do sales.
+- [01:14:12] There's no uh the future is PLG. It
+- [01:14:15] feels like that's gone away in in large
+- [01:14:16] part. Obviously still companies grow
+- [01:14:18] through PLG and work through PLG. What's
+- [01:14:20] just kind of your thoughts on PLG and
+- [01:14:22] when does it make sense for a company
+- [01:14:24] these days to actually think this is how
+- [01:14:26] they will grow for a while? I I think a
+- [01:14:28] lot PLG is makes sense for a lot of
+- [01:14:30] companies at the outset unless you are
+- [01:14:33] very explicitly building a product for
+- [01:14:37] enterprise. Um so Sierra as an example,
+- [01:14:40] right? Like they are very clearly going
+- [01:14:42] after global 2000 or you know some
+- [01:14:45] something close to that. So PLG is not
+- [01:14:47] going to be overly useful to them
+- [01:14:49] because they are trying to win eight
+- [01:14:50] figure deals from day one. But for a lot
+- [01:14:53] of products um folks are targeting a
+- [01:14:55] startup audience at the outset and then
+- [01:14:57] they're adding more functionality so
+- [01:14:59] that they can ultimately continue to
+- [01:15:01] scale up market. So I think PLG is still
+- [01:15:04] super relevant. It's a it's a major
+- [01:15:05] driver of Versell's growth. It was a big
+- [01:15:07] driver of of Stripe's growth. The thing
+- [01:15:10] that folks get wrong is um it does
+- [01:15:13] typically have a ceiling. So people are
+- [01:15:17] generally not going to, you know, go
+- [01:15:21] give a give you a million dollars via
+- [01:15:23] self-s served flow. So at some point,
+- [01:15:27] um, if you want to sustain growth rates,
+- [01:15:30] you're going to have to have your deal
+- [01:15:31] sizes get bigger and bigger. And where I
+- [01:15:35] I think folks get stuck is uh waiting
+- [01:15:37] too long on PLG because it does take a
+- [01:15:40] while to build a replicable sales
+- [01:15:42] process and a sales process which often
+- [01:15:46] you're getting fed by inbound at the
+- [01:15:47] beginning and then you got to add
+- [01:15:48] outbound. It takes a while actually to
+- [01:15:51] turn outbound into a predictable engine.
+- [01:15:54] So I think where you see companies hit
+- [01:15:55] walls is just when they don't add the
+- [01:15:58] sales portion of it soon enough. So
+- [01:16:00] essentially every company ends up having
+- [01:16:02] to build a sales org. Some start
+- [01:16:05] productled and then at sales. Some just
+- [01:16:06] start sales and and and have it from the
+- [01:16:08] beginning.
+- [01:16:09] >> Yeah, I would I would agree. There are
+- [01:16:11] um you know there are probably some good
+- [01:16:14] examples of like large vertical SAS
+- [01:16:17] platforms that are are SMB but even they
+- [01:16:19] wind up with like a you know velocity
+- [01:16:21] sales team. So um yeah I don't I don't
+- [01:16:24] know that I can think of like a hundred
+- [01:16:27] billion dollar company that's PLG only.
+- [01:16:30] Yeah, like it just feels like a big like
+- [01:16:31] you're losing you're leaving money on
+- [01:16:33] the table even if you are growing really
+- [01:16:34] fast. I know Lastian was a long time PLG
+- [01:16:37] company but uh but eventually uh to calm
+- [01:16:40] down I don't know if that's the right
+- [01:16:41] way to put it. Okay. Um you mentioned
+- [01:16:43] pricing. I know you have strong opinions
+- [01:16:46] on pricing and pricing strategy. What's
+- [01:16:48] just like a couple tips you might share
+- [01:16:49] with someone thinking about how to price
+- [01:16:51] their product?
+- [01:16:52] >> Uh yeah. So I uh this kind of the theme
+- [01:16:56] but uh I think the first thing is like
+- [01:16:59] you got to think about pricing like a
+- [01:17:00] product. Um so it's another one where um
+- [01:17:04] it it actually really matters how you
+- [01:17:07] choose to price a product. Um do you
+- [01:17:11] really understand where customers are
+- [01:17:14] going to drive value? Do you really
+- [01:17:16] understand where you incur costs? and
+- [01:17:19] are you doing a smart job of aligning
+- [01:17:21] those things? You know, you've got lots
+- [01:17:24] of examples of companies grossly
+- [01:17:26] underpricing um because you're sort of
+- [01:17:28] afraid to charge for the value that you
+- [01:17:31] actually provide. I think there are a
+- [01:17:33] lot of examples where people default to
+- [01:17:35] including a premium strategy without
+- [01:17:38] that actually being a strategy. Uh like
+- [01:17:41] a good example at Stripe, we launched
+- [01:17:43] Stripe billing years ago. um it had a
+- [01:17:45] premium strategy because that's what you
+- [01:17:47] do and then we sort of looked at it and
+- [01:17:50] we're like you know actually integrating
+- [01:17:52] straight building takes a little bit of
+- [01:17:53] work. So if you do that you're probably
+- [01:17:55] going to stay and so we killed that
+- [01:17:58] killed that uh killed the free trial to
+- [01:18:01] zero downside. Uh so you know that's
+- [01:18:04] that's another one. Um, at Verscell,
+- [01:18:07] we've been going through that transition
+- [01:18:08] where, you know, we're a
+- [01:18:10] consumption-based uh business model
+- [01:18:12] ultimately, but for at the outset, we
+- [01:18:15] basically kind of bundled that into what
+- [01:18:18] looked like a SAS-like price. And, you
+- [01:18:21] know, as we've added a lot more
+- [01:18:22] functionality, that that wasn't working
+- [01:18:24] anymore. Um, and so we did an
+- [01:18:26] unbundling. Um, and right now actually
+- [01:18:29] we we did a pretty substantial pricing
+- [01:18:31] change in in August where we have an
+- [01:18:33] enterprise at a pro skew. And if you
+- [01:18:37] looked at the enterprise skew, it's
+- [01:18:39] called enterprise for a reason.
+- [01:18:40] Enterprise
+- [01:18:43] and actually um about half of the folks
+- [01:18:47] on the enterprise skew were startups,
+- [01:18:49] which suggests that there's stuff in the
+- [01:18:51] enterprise skew that a startup really
+- [01:18:53] wants. So we kicked a lot of that stuff
+- [01:18:56] out of the enterprise skew and made it
+- [01:18:57] so you could buy it self-s serve online
+- [01:18:59] and what do you know people are so you
+- [01:19:02] know so now that's like really driven a
+- [01:19:05] lot of growth in our PLG funnel which is
+- [01:19:07] awesome for startups because it let it's
+- [01:19:09] super efficient they they can just buy
+- [01:19:10] things they want that it's awesome for
+- [01:19:12] us because you don't have to have a
+- [01:19:14] human intermediate that so you know
+- [01:19:16] getting all of these knobs really tuned
+- [01:19:19] uh is a a key to both a great customer
+- [01:19:21] experience and optimal revenue outcomes.
+- [01:19:24] S maybe just one more question before we
+- [01:19:26] get to our very exciting lightning
+- [01:19:27] round. It's going to be a combo
+- [01:19:28] question. Uh I hear you have a hot take
+- [01:19:31] on kind of sales comp, how to comp sales
+- [01:19:34] people that's different from other
+- [01:19:35] people and also who to hire when you're
+- [01:19:37] hiring folks in sales. Can you just talk
+- [01:19:40] about your takes there?
+- [01:19:41] >> I struggle with sales comp because um uh
+- [01:19:45] you know it's all about pay for
+- [01:19:47] performance which I'm obviously uh a fan
+- [01:19:49] of. Um but it is um it makes your
+- [01:19:56] organization less flexible because you
+- [01:19:58] basically have to decide 12 months in
+- [01:20:00] advance these are things I value. Um and
+- [01:20:04] particularly in this moment that could
+- [01:20:07] be different. Um as a great example of
+- [01:20:09] this uh when you know we wrote the sales
+- [01:20:13] plans for this year at Verscell the AI
+- [01:20:16] cloud did not exist. we were selling our
+- [01:20:19] front-end cloud and we were selling
+- [01:20:20] vzero and you know introduce the AI
+- [01:20:22] cloud halfway through the year. Now we
+- [01:20:24] had all sorts of good ways to still
+- [01:20:26] incentivize that. Um but um you know I I
+- [01:20:30] think um you want to be able to be
+- [01:20:32] innovative and pivot and um you know
+- [01:20:36] when you have a well-designed sales plan
+- [01:20:39] um uh or you know a very structured
+- [01:20:41] sales plan that that can be challenging.
+- [01:20:44] So that's that's a little bit of of my
+- [01:20:47] hot take is just I'm trying to figure
+- [01:20:50] out how do you have the upside of sales
+- [01:20:53] of you know motivates people. It's a
+- [01:20:55] quantitative function which is great but
+- [01:20:58] also the flexibility to change your mind
+- [01:21:01] because I think a lot of companies right
+- [01:21:03] now are having a hard time doing annual
+- [01:21:05] planning. So so that's one. Um on
+- [01:21:07] profiles I have always valued what just
+- [01:21:11] sort of a diversified portfolio. Um, so
+- [01:21:14] I I strongly believe that sales is a
+- [01:21:17] skill and so you want sales people with
+- [01:21:20] actual sales experience in your
+- [01:21:22] organization, but I think there's value
+- [01:21:25] in pairing them with um more
+- [01:21:28] non-traditional backgrounds, in
+- [01:21:30] particular a consulting or a banking um,
+- [01:21:34] you know, background. Those folks are
+- [01:21:36] really good at uh, you know, more
+- [01:21:39] quantitative and analytical aspects of
+- [01:21:41] sales. So getting into that
+- [01:21:42] consultative, you know, part which I
+- [01:21:44] think we talked about at the at the
+- [01:21:46] outset. Um, and so I find that when you
+- [01:21:49] mix these together, uh, the sort of, you
+- [01:21:52] know, consultant banker profile
+- [01:21:54] realizes, oh, wait a minute, sales is a
+- [01:21:57] skill and I didn't really have it. Um,
+- [01:21:59] and so they go learn from, you know,
+- [01:22:01] your, uh, your account executives with
+- [01:22:04] that background. And then your AES learn
+- [01:22:07] more about, okay, how do I think about a
+- [01:22:09] P&L? how can I talk to a CFO? You know,
+- [01:22:12] how do I present a TCO analysis more
+- [01:22:16] effectively? Um, and so just creates a
+- [01:22:18] much richer learning environment where
+- [01:22:20] people are bouncing ideas off each
+- [01:22:22] other.
+- [01:22:22] >> That is awesome. I love that strategy.
+- [01:22:25] Okay, final question. Just is there
+- [01:22:26] anything else you wanted to share?
+- [01:22:27] Anything else you want to leave
+- [01:22:28] listeners with before we get to our very
+- [01:22:30] exciting lightning round?
+- [01:22:31] >> Oh man. Um, I feel like we've been very
+- [01:22:33] thorough.
+- [01:22:34] >> I think so, too.
+- [01:22:35] >> Yeah, I'm going to You stumped me on
+- [01:22:37] that one.
+- [01:22:37] >> Okay, that's the goal. With that, Gan,
+- [01:22:40] we reached our very exciting lightning
+- [01:22:41] round. I'm going to make it very quick
+- [01:22:42] because I know you got to run. Uh, I'm
+- [01:22:44] gonna ask you just two questions.
+- [01:22:46] >> Okay.
+- [01:22:46] >> One is uh I'm gonna skip to your life
+- [01:22:49] motto. Do you have a favorite life motto
+- [01:22:51] that you often come back to find useful
+- [01:22:53] in work or in life?
+- [01:22:54] >> I do. Um I I actually have found that
+- [01:22:57] I'm known for saying a handful of things
+- [01:22:59] um that I didn't necessarily realize it,
+- [01:23:01] but when you leave an organization,
+- [01:23:03] people tend to, you know, tell you what
+- [01:23:04] stuck with them. But there is one that I
+- [01:23:07] think I'm I'm known for saying growing
+- [01:23:10] up. My mom always said to me, when the
+- [01:23:12] going gets tough, the tough get going.
+- [01:23:15] And um I, you know, in sales, you're
+- [01:23:18] always going to have a quarter when
+- [01:23:20] you're not on pace. And so that's one
+- [01:23:23] that I feel like I pull on um not
+- [01:23:27] infrequently because uh you know there's
+- [01:23:30] in my view there's another another
+- [01:23:33] version of this my mom also would always
+- [01:23:34] says was where there's a will there's a
+- [01:23:36] way. So you know I think you can always
+- [01:23:39] choose to find a path forward even when
+- [01:23:42] that's not uh super clear.
+- [01:23:45] >> I love these. Okay last question. Uh, I
+- [01:23:47] read that you were a very competitive
+- [01:23:49] diver in college early on. Uh, I'm just
+- [01:23:53] curious if there's something you learned
+- [01:23:54] from that experience that you brought
+- [01:23:55] with you that helps you be as successful
+- [01:23:57] as you've become.
+- [01:23:58] >> Um, well, I mean, first of all, I should
+- [01:24:00] say I was I was uh generally coming in
+- [01:24:02] like third place out of three on my
+- [01:24:04] team. So, um, you know, I I managed
+- [01:24:07] managed to to do it in college, but uh,
+- [01:24:09] that that was the extent of that career.
+- [01:24:11] Um so I do think so diving is a
+- [01:24:14] precision sport and it is a repetitive
+- [01:24:16] sport and it is also a sport where uh
+- [01:24:19] when you land flat on your back and
+- [01:24:22] literally as you are swimming to the
+- [01:24:24] side of the pool like welts are forbing
+- [01:24:26] on it you uh always 100% of the time
+- [01:24:31] will be forced to immediately get back
+- [01:24:33] on the diving board and do that exact
+- [01:24:35] same dive again. And so I think that has
+- [01:24:38] a lot of stuff that's transferable. um
+- [01:24:41] to to work and to sales. So, you know,
+- [01:24:44] for me, I I just have an obsession with
+- [01:24:48] excellence and within sales, sales is
+- [01:24:51] about replicability. How do you drive
+- [01:24:53] predictable outcomes? Um you know, how
+- [01:24:55] excellent are you at your ability to
+- [01:24:58] forecast? Um and so I think I bring that
+- [01:25:01] to bear within sales a lot. Um and then
+- [01:25:04] similarly, like you get a lot of nos in
+- [01:25:06] sales. Um, and so, you know, I another
+- [01:25:09] phrase that a sales guru said to me once
+- [01:25:13] uh or in a training was yeses are great,
+- [01:25:16] nos are great, may will kill you. And
+- [01:25:18] so, how do you get really comfortable
+- [01:25:20] that no is a great thing? And that just
+- [01:25:22] gave you data and now you can go do
+- [01:25:24] something with it.
+- [01:25:25] >> This is a really uh inspiring and uh
+- [01:25:28] empowering way to end the conversation.
+- [01:25:31] Jean, thank you so much for being here.
+- [01:25:33] >> Thanks so much for having me, Lenny. It
+- [01:25:34] was a lot of fun.
+- [01:25:35] >> Bye, everyone.
+- [01:25:37] Thank you so much for listening. If you
+- [01:25:39] found this valuable, you can subscribe
+- [01:25:40] to the show on Apple Podcasts, Spotify,
+- [01:25:43] or your favorite podcast app. Also,
+- [01:25:45] please consider giving us a rating or
+- [01:25:47] leaving a review as that really helps
+- [01:25:49] other listeners find the podcast. You
+- [01:25:51] can find all past episodes or learn more
+- [01:25:53] about the show at lennispodcast.com.
+- [01:25:56] See you in the next episode.
